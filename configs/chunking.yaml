@@ -1,0 +1,30 @@
+# 청킹(청크 분할) 설정
+# 참고: Obsidian Hub.md §용어 정의, 03_실험 설계.md §파이프라인 구조 요약,
+#       논문/ReadAgent (Gist Memory).md §Table 8 (QuALITY: max/min = 600/280)
+#
+# mode:
+#   fixed — LLM 호출 없이 규칙 기반 문단 경계 유지 (파일럿/오프라인 테스트,
+#           A3 ablation의 "필터/페이지네이션 유무" 비교 baseline)
+#   llm   — ReadAgent식 에피소드 페이지네이션 (문단 사이 번호 태그 삽입 →
+#           LLM이 가장 자연스러운 멈춤 지점 선택)
+
+mode: fixed
+
+# 단어(어절) 수 기준 임계값. ReadAgent QuALITY 기본값(280/600)에서 시작.
+# TODO: 한국어는 영어 대비 단어(어절)-토큰 비율이 달라 파일럿 결과 보고 재튜닝.
+min_words: 280
+max_words: 600
+
+# LLM 페이지네이션 모드에서만 사용 — NIM 챗 모델 호출 래퍼를 여기에 연결
+llm:
+  provider: nim
+  model: meta/llama-3.1-8b-instruct  # 최종 QA와 동일 모델로 시작, 스왑 가능
+  temperature: 0.0
+
+# 니들(synthetic needle) 삽입은 하지 않기로 결정 (2026-07-16) — 정보 위치를
+# 사전에 통제하지 않는다. chunking.chunk_containing_position()은 평가 퀴즈
+# 정답 근거가 실제로 어느 청크에 있었는지 "사후에" 찾을 때만 사용.
+
+# 문단 무결성 원칙: 문단 하나가 max_words를 넘더라도 문단 내부를 쪼개지 않음
+# (되뇌기 모델 학습 라벨의 문단/문서 단위와 어긋나는 것을 방지)
+preserve_paragraph_integrity: true
