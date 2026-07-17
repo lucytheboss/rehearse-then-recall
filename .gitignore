@@ -25,3 +25,6 @@ data/processed/*
 .DS_Store
 .vscode/
 .idea/
+
+# eval_text
+data/eval_text/*
