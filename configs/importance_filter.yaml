@@ -1,0 +1,26 @@
+# 임베딩/점수 전처리 설정
+# gisting/되뇌기는 질문(query)을 모르는 상태(query-agnostic)에서
+# 수행되어야 함 — 질문은 최종 QA 단계에서만 등장.
+#
+# nvidia/llama-nemotron-embed-1b-v2 (기존 사용 예정 모델이 단종됨)
+# 26개 언어/한국어 포함, 최대 32,768토큰, input_type/truncate 파라미터는 이전 모델과 동일,
+# dimensions 파라미터는 이 모델 스펙에 없음(현재 null로 미사용 중이라 문제 없음).
+model: nvidia/llama-nemotron-embed-1b-v2
+
+truncate: NONE   # NONE/START/END — 입력이 512토큰을 넘을 때 서버 측 처리 방식
+batch_size: 16   # 한 번의 embeddings 호출에 담을 청크(passage) 수
+timeout: 30.0    # 초
+max_retries: 2   # 실패 시 즉시 재시도 횟수 (지수 백오프 없음)
+
+# Matryoshka 임베딩 차원 축소 옵션 (모델이 지원하는 경우). null이면 요청에
+# 포함하지 않고 모델 기본 차원 그대로 사용.
+# TODO: 속도/정확도 트레이드오프 보고 실제 값 결정 (Hub.md §5 TODO)
+dimensions: null
+
+# TODO: 추후 lookuo 구현 시 lookup_window_size를 1~3 정도로 조정해 성능 비교 후 결정.
+api_key_env: NVIDIA_NIM_API_KEY
+
+# API 실패 시 폴백 전략
+#   pass_through — 전체 청크를 점수 없이 통과 (파이프라인이 죽지 않음, 기본값)
+#   raise        — 예외를 그대로 전파 (실패를 명시적으로 드러내고 싶을 때)
+on_error: pass_through
