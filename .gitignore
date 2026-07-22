@@ -26,5 +26,8 @@ data/processed/*
 .vscode/
 .idea/
 
+# Secrets
+.env
+
 # eval_text
 data/eval_text/*
