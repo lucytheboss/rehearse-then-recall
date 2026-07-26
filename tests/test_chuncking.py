@@ -13,6 +13,7 @@ from src.pipeline.chuncking import (
     _dialogue_groups,
     _paginate_by_word_count_only,
     chunk_containing_position,
+    html_to_paragraphs,
     paginate_semantic,
     plain_text_to_paragraphs,
 )
@@ -43,6 +44,50 @@ def test_plain_text_to_paragraphs_scene_break_and_quote_flags():
     paragraphs = plain_text_to_paragraphs(text)
     assert [p.is_scene_break for p in paragraphs] == [False, True, False]
     assert all(p.is_quote is False for p in paragraphs)
+
+
+def test_html_to_paragraphs_extracts_p_tags_in_document_order():
+    html = "<html><body><p>첫 문단.</p><div>무시될 div</div><p>둘째 문단.</p></body></html>"
+    paragraphs = html_to_paragraphs(html)
+    assert [p.text for p in paragraphs] == ["첫 문단.", "둘째 문단."]
+
+
+def test_html_to_paragraphs_ignores_table_content():
+    """표는 이미 <p>로 변환된 상태라고 가정 — 남아있는 <table>은 무시한다
+    (convert_korquad_tables.py가 표를 <p>로 치환하지 않고 남겨뒀다면 이 함수가
+    표 데이터를 문단으로 잘못 흡수하지 않는지 확인)."""
+    html = "<body><p>본문 문장.</p><table><tr><td>표 데이터</td></tr></table></body>"
+    paragraphs = html_to_paragraphs(html)
+    assert [p.text for p in paragraphs] == ["본문 문장."]
+
+
+def test_html_to_paragraphs_normalizes_whitespace():
+    html = "<p>  여러   공백과\n줄바꿈이   있는 문단  </p>"
+    paragraphs = html_to_paragraphs(html)
+    assert paragraphs[0].text == "여러 공백과 줄바꿈이 있는 문단"
+
+
+def test_html_to_paragraphs_skips_empty_p_tags():
+    html = "<p>내용 있음.</p><p>   </p><p>다음 내용.</p>"
+    paragraphs = html_to_paragraphs(html)
+    assert [p.text for p in paragraphs] == ["내용 있음.", "다음 내용."]
+    assert [p.index for p in paragraphs] == [0, 1]  # 빈 문단 스킵해도 index는 연속
+
+
+def test_html_to_paragraphs_char_offset_matches_joined_text():
+    """char_offset은 원본 HTML이 아니라 '\\n\\n'로 이어붙인 결과 기준
+    (plain_text_to_paragraphs와 같은 좌표계)."""
+    html = "<p>첫 문단.</p><p>둘째 문단.</p>"
+    paragraphs = html_to_paragraphs(html)
+    joined = "\n\n".join(p.text for p in paragraphs)
+    for p in paragraphs:
+        assert joined[p.char_offset : p.char_offset + len(p.text)] == p.text
+
+
+def test_html_to_paragraphs_scene_break_flag():
+    html = "<p>서술 문단.</p><p>* * *</p><p>다음 문단.</p>"
+    paragraphs = html_to_paragraphs(html)
+    assert [p.is_scene_break for p in paragraphs] == [False, True, False]
 
 
 def test_dialogue_groups_merges_quote_spanning_multiple_sentences():

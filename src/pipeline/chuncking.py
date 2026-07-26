@@ -20,6 +20,7 @@ from dataclasses import dataclass
 from typing import Literal, cast
 
 import kss
+from bs4 import BeautifulSoup
 
 from src.pipeline.embeddings import (
     EmbeddingAPIError,
@@ -69,6 +70,41 @@ def plain_text_to_paragraphs(text: str) -> list[Paragraph]:
             )
             index += 1
         pos = sep_end
+
+    return paragraphs
+
+
+def html_to_paragraphs(html: str) -> list[Paragraph]:
+    """HTML 소스 어댑터 — plain_text_to_paragraphs와 나란히 쓰는 두 번째
+    소스 어댑터다. `<table>`은 이미 자연어 문장으로 변환되어 `<p>`로 치환된
+    상태라고 가정한다(예: `data/scripts/convert_korquad_tables.py` 결과물) —
+    이 함수 자체는 표를 해석하지 않는다.
+
+    `<p>` 태그를 문서 순서대로 순회해 Paragraph로 변환한다. char_offset은
+    원본 HTML 문자열 위치가 아니라, 문단들을 "\\n\\n"로 이어붙였을 때의
+    누적 위치다 — plain_text_to_paragraphs의 char_offset과 같은 좌표계라
+    이후 단계(paginate_semantic, chunk_containing_position)가 어댑터 종류를
+    몰라도 동일하게 동작한다. paginate_semantic 이후 로직은 전혀 건드리지 않는다.
+    """
+    soup = BeautifulSoup(html, "lxml")
+    paragraphs: list[Paragraph] = []
+    index = 0
+    pos = 0
+    for p_tag in soup.find_all("p"):
+        text = re.sub(r"\s+", " ", p_tag.get_text(separator=" ", strip=True)).strip()
+        if not text:
+            continue
+        paragraphs.append(
+            Paragraph(
+                text=text,
+                index=index,
+                char_offset=pos,
+                is_scene_break=_is_scene_break_text(text),
+                is_quote=False,
+            )
+        )
+        index += 1
+        pos += len(text) + 2  # "\n\n" 구분자 기준 누적 오프셋
 
     return paragraphs
 
