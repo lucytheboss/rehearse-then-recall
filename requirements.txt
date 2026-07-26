@@ -6,3 +6,14 @@ kss
 python-dotenv
 ipykernel
 nbconvert
+pandas
+matplotlib
+datasets
+transformers==4.46.3  # 5.x는 paust/pko-t5 계열 Unigram 토크나이저 로드 시 TypeError 발생(실측 확인) — 4.46.3에 고정
+torch
+sentencepiece
+accelerate
+evaluate
+rouge_score
+beautifulsoup4
+lxml
