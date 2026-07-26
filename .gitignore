@@ -10,6 +10,7 @@ venv/
 *.ckpt
 *.pt
 *.bin
+*.safetensors
 checkpoints/
 wandb/
 experiments/logs/*
