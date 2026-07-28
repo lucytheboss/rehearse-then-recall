@@ -1,361 +1,997 @@
-﻿문항번호,조건,정답,정답여부,유형,근거_최소어절,모델예측,API호출수,소요시간,프롬프트토큰,완성토큰,총토큰
-1,closed_book,3,False,단일 장면 사실 확인형,20,2.0,1.0,0.5,155.0,5.0,160.0
-2,closed_book,4,False,부정형 사실 확인형,28,3.0,1.0,0.5,156.0,7.0,163.0
-3,closed_book,2,True,단일 장면 사실 확인형,101,2.0,1.0,0.4,162.0,3.0,165.0
-4,closed_book,3,False,단일 장면 사실 확인형,146,1.0,1.0,0.5,158.0,5.0,163.0
-5,closed_book,1,False,단일 장면 사실 확인형,167,3.0,1.0,0.5,158.0,5.0,163.0
-6,closed_book,2,False,단일 장면 사실 확인형,177,1.0,1.0,0.4,170.0,2.0,172.0
-7,closed_book,3,False,단일 장면 사실 확인형,227,2.0,1.0,0.4,158.0,5.0,163.0
-8,closed_book,1,False,단일 장면 사실 확인형,365,3.0,1.0,0.5,175.0,12.0,187.0
-9,closed_book,1,True,단일 장면 사실 확인형,376,1.0,1.0,0.2,180.0,2.0,182.0
-10,closed_book,2,False,단일 장면 사실 확인형,457,1.0,1.0,0.2,175.0,3.0,178.0
-11,closed_book,2,True,단일 장면 사실 확인형,465,2.0,1.0,0.3,168.0,3.0,171.0
-12,closed_book,2,True,단일 장면 사실 확인형,473,2.0,1.0,0.2,175.0,2.0,177.0
-13,closed_book,2,True,단일 장면 사실 확인형,518,2.0,1.0,0.3,196.0,3.0,199.0
-14,closed_book,2,True,단일 장면 사실 확인형,536,2.0,1.0,0.4,183.0,16.0,199.0
-15,closed_book,1,False,단일 장면 사실 확인형,665,2.0,1.0,0.2,161.0,2.0,163.0
-16,closed_book,1,False,단일 장면 사실 확인형,757,3.0,1.0,0.4,167.0,7.0,174.0
-17,closed_book,2,True,단일 장면 사실 확인형,949,2.0,1.0,0.4,168.0,12.0,180.0
-18,closed_book,1,False,단일 장면 사실 확인형,975,3.0,1.0,0.4,179.0,10.0,189.0
-19,closed_book,2,True,단일 장면 사실 확인형,969,2.0,1.0,0.3,153.0,3.0,156.0
-20,closed_book,2,False,단일 장면 사실 확인형,1023,3.0,1.0,0.4,188.0,10.0,198.0
-21,closed_book,2,False,단일 장면 사실 확인형,1244,3.0,1.0,0.3,195.0,3.0,198.0
-22,closed_book,2,True,단일 장면 사실 확인형,1397,2.0,1.0,0.3,175.0,3.0,178.0
-23,closed_book,3,False,단일 장면 사실 확인형,1481,4.0,1.0,0.3,162.0,2.0,164.0
-24,closed_book,2,True,단일 장면 사실 확인형,1555,2.0,1.0,0.3,191.0,3.0,194.0
-25,closed_book,2,True,단일 장면 사실 확인형,1873,2.0,1.0,0.4,163.0,3.0,166.0
-26,closed_book,1,False,단일 장면 사실 확인형,2014,3.0,1.0,0.3,177.0,2.0,179.0
-27,closed_book,2,True,단일 장면 사실 확인형,2045,2.0,1.0,0.4,176.0,17.0,193.0
-28,closed_book,2,True,단일 장면 사실 확인형,2087,2.0,1.0,0.3,174.0,2.0,176.0
-29,closed_book,2,True,단일 장면 사실 확인형,2165,2.0,1.0,0.5,162.0,8.0,170.0
-30,closed_book,1,False,단일 장면 사실 확인형,2194,4.0,1.0,59.4,172.0,2.0,174.0
-31,closed_book,1,True,단일 장면 사실 확인형,2240,1.0,1.0,58.7,196.0,20.0,216.0
-32,closed_book,3,False,단일 장면 사실 확인형,2507,1.0,1.0,59.5,162.0,8.0,170.0
-33,closed_book,1,False,단일 장면 사실 확인형,2726,2.0,1.0,59.1,173.0,2.0,175.0
-34,closed_book,2,False,단일 장면 사실 확인형,1591,4.0,1.0,59.2,174.0,8.0,182.0
-35,closed_book,1,True,단일 장면 사실 확인형,1694,1.0,1.0,59.2,173.0,15.0,188.0
-36,closed_book,1,True,단일 장면 사실 확인형,1750,1.0,1.0,59.2,178.0,16.0,194.0
-37,closed_book,2,True,단일 장면 사실 확인형,1824,2.0,1.0,59.2,157.0,3.0,160.0
-38,closed_book,1,False,단일 장면 사실 확인형,3483,3.0,1.0,0.5,216.0,3.0,219.0
-39,closed_book,2,False,단일 장면 사실 확인형,3382,1.0,1.0,0.8,177.0,13.0,190.0
-40,closed_book,2,True,단일 장면 사실 확인형,3401,2.0,1.0,0.3,159.0,2.0,161.0
-41,closed_book,1,False,단일 장면 사실 확인형,3418,3.0,1.0,0.7,195.0,2.0,197.0
-42,closed_book,3,False,단일 장면 사실 확인형,3438,2.0,1.0,0.7,166.0,2.0,168.0
-43,closed_book,3,False,단일 장면 사실 확인형,3501,4.0,1.0,0.6,150.0,7.0,157.0
-44,closed_book,2,True,단일 장면 사실 확인형,3527,2.0,1.0,0.6,177.0,2.0,179.0
-45,closed_book,2,True,단일 장면 사실 확인형,3556,2.0,1.0,0.6,165.0,2.0,167.0
-46,closed_book,3,False,단일 장면 사실 확인형,3578,2.0,1.0,0.6,173.0,3.0,176.0
-47,closed_book,1,True,단일 장면 사실 확인형,3609,1.0,1.0,0.4,179.0,2.0,181.0
-48,closed_book,1,True,단일 장면 사실 확인형,3723,1.0,1.0,0.3,176.0,3.0,179.0
-49,closed_book,1,True,단일 장면 사실 확인형,3745,1.0,1.0,0.3,163.0,9.0,172.0
-50,closed_book,1,True,단일 장면 사실 확인형,3813,1.0,1.0,0.5,196.0,27.0,223.0
-51,closed_book,1,False,단일 장면 사실 확인형,3916,2.0,1.0,0.3,190.0,2.0,192.0
-52,closed_book,1,True,단일 장면 사실 확인형,3565,1.0,1.0,0.3,169.0,2.0,171.0
-53,closed_book,3,False,단일 장면 사실 확인형,4042,2.0,1.0,0.5,155.0,3.0,158.0
-54,closed_book,1,False,단일 장면 사실 확인형,4048,2.0,1.0,0.4,156.0,6.0,162.0
-55,closed_book,1,False,단일 장면 사실 확인형,4056,4.0,1.0,0.4,168.0,2.0,170.0
-56,closed_book,1,False,단일 장면 사실 확인형,4113,3.0,1.0,0.5,170.0,10.0,180.0
-57,closed_book,1,False,단일 장면 사실 확인형,4118,2.0,1.0,0.3,158.0,7.0,165.0
-58,closed_book,2,True,단일 장면 사실 확인형,4299,2.0,1.0,0.3,147.0,2.0,149.0
-59,closed_book,3,False,단일 장면 사실 확인형,4314,4.0,1.0,0.4,165.0,8.0,173.0
-60,closed_book,2,True,단일 장면 사실 확인형,4389,2.0,1.0,58.7,166.0,10.0,176.0
-61,closed_book,2,False,단일 장면 사실 확인형,4410,3.0,1.0,58.7,176.0,10.0,186.0
-62,closed_book,3,False,단일 장면 사실 확인형,4498,2.0,1.0,58.6,161.0,7.0,168.0
-63,closed_book,3,False,단일 장면 사실 확인형,4503,2.0,1.0,58.6,176.0,2.0,178.0
-64,closed_book,1,True,단일 장면 사실 확인형,4514,1.0,1.0,58.5,164.0,2.0,166.0
-65,closed_book,1,False,단일 장면 사실 확인형,4597,3.0,1.0,58.0,180.0,3.0,183.0
-66,closed_book,3,False,단일 장면 사실 확인형,4661,2.0,1.0,58.4,164.0,2.0,166.0
-67,closed_book,2,True,단일 장면 사실 확인형,4740,2.0,1.0,58.4,156.0,3.0,159.0
-68,closed_book,2,True,단일 장면 사실 확인형,4784,2.0,1.0,0.6,179.0,14.0,193.0
-69,closed_book,2,True,단일 장면 사실 확인형,4927,2.0,1.0,0.8,160.0,7.0,167.0
-70,closed_book,2,False,단일 장면 사실 확인형,4991,1.0,1.0,0.5,157.0,8.0,165.0
-71,closed_book,2,True,단일 장면 사실 확인형,4995,2.0,1.0,0.8,159.0,3.0,162.0
-72,closed_book,2,False,단일 장면 사실 확인형,5058,1.0,1.0,0.5,151.0,2.0,153.0
-73,closed_book,2,True,단일 장면 사실 확인형,5176,2.0,1.0,0.7,158.0,17.0,175.0
-74,closed_book,2,False,단일 장면 사실 확인형,5314,3.0,1.0,0.5,172.0,9.0,181.0
-75,closed_book,2,False,단일 장면 사실 확인형,5357,1.0,1.0,0.7,144.0,3.0,147.0
-76,closed_book,3,False,단일 장면 사실 확인형,5439,2.0,1.0,0.7,146.0,2.0,148.0
-77,closed_book,3,True,단일 장면 사실 확인형,5460,3.0,1.0,0.3,149.0,4.0,153.0
-78,closed_book,2,True,단일 장면 사실 확인형,5710,2.0,1.0,0.7,165.0,3.0,168.0
-79,closed_book,4,True,부정형 사실 확인형,5786,4.0,1.0,0.7,184.0,9.0,193.0
-80,closed_book,1,True,단일 장면 사실 확인형,5904,1.0,1.0,0.6,172.0,2.0,174.0
-81,closed_book,2,True,단일 장면 사실 확인형,5944,2.0,1.0,0.6,166.0,2.0,168.0
-82,closed_book,2,True,단일 장면 사실 확인형,6008,2.0,1.0,0.4,179.0,2.0,181.0
-83,closed_book,2,True,단일 장면 사실 확인형,6063,2.0,1.0,0.5,178.0,21.0,199.0
-84,closed_book,2,True,단일 장면 사실 확인형,6466,2.0,1.0,0.4,173.0,3.0,176.0
-85,closed_book,1,False,단일 장면 사실 확인형,6508,2.0,1.0,0.3,164.0,2.0,166.0
-86,closed_book,1,False,단일 장면 사실 확인형,6515,3.0,1.0,0.4,180.0,11.0,191.0
-87,closed_book,1,False,단일 장면 사실 확인형,6350,3.0,1.0,0.4,164.0,8.0,172.0
-88,closed_book,2,True,단일 장면 사실 확인형,6375,2.0,1.0,0.4,160.0,2.0,162.0
-89,closed_book,2,True,단일 장면 사실 확인형,6644,2.0,1.0,0.4,155.0,3.0,158.0
-90,closed_book,1,False,단일 장면 사실 확인형,6745,2.0,1.0,58.9,164.0,10.0,174.0
-91,closed_book,2,False,단일 장면 사실 확인형,6812,1.0,1.0,58.9,150.0,8.0,158.0
-92,closed_book,2,True,단일 장면 사실 확인형,6911,2.0,1.0,58.9,167.0,2.0,169.0
-93,closed_book,3,False,단일 장면 사실 확인형,6917,2.0,1.0,58.8,155.0,2.0,157.0
-94,closed_book,3,False,단일 장면 사실 확인형,7009,2.0,1.0,58.5,166.0,3.0,169.0
-95,closed_book,3,False,단일 장면 사실 확인형,7024,2.0,1.0,58.6,164.0,6.0,170.0
-96,closed_book,2,False,단일 장면 사실 확인형,7104,1.0,1.0,58.5,175.0,3.0,178.0
-97,closed_book,2,False,단일 장면 사실 확인형,7144,1.0,1.0,57.8,177.0,2.0,179.0
-98,closed_book,2,False,단일 장면 사실 확인형,7192,1.0,1.0,0.5,154.0,8.0,162.0
-99,closed_book,2,True,단일 장면 사실 확인형,7209,2.0,1.0,0.7,164.0,2.0,166.0
-100,closed_book,2,True,단일 장면 사실 확인형,7344,2.0,1.0,0.5,164.0,10.0,174.0
-101,closed_book,3,False,단일 장면 사실 확인형,7472,2.0,1.0,0.5,157.0,3.0,160.0
-102,closed_book,3,False,단일 장면 사실 확인형,7483,2.0,1.0,0.4,155.0,3.0,158.0
-103,closed_book,1,True,단일 장면 사실 확인형,7960,1.0,1.0,0.5,174.0,3.0,177.0
-104,closed_book,1,True,단일 장면 사실 확인형,7851,1.0,1.0,0.5,184.0,2.0,186.0
-105,closed_book,2,False,단일 장면 사실 확인형,7970,3.0,1.0,0.5,159.0,3.0,162.0
-106,closed_book,2,False,단일 장면 사실 확인형,8096,1.0,1.0,0.5,173.0,2.0,175.0
-107,closed_book,2,True,단일 장면 사실 확인형,8223,2.0,1.0,0.3,156.0,7.0,163.0
-108,closed_book,2,True,단일 장면 사실 확인형,8267,2.0,1.0,0.7,179.0,3.0,182.0
-109,closed_book,2,True,단일 장면 사실 확인형,8335,2.0,1.0,0.6,156.0,10.0,166.0
-110,closed_book,2,True,단일 장면 사실 확인형,7506,2.0,1.0,0.5,178.0,2.0,180.0
-111,closed_book,2,True,단일 장면 사실 확인형,5956,2.0,1.0,0.5,164.0,10.0,174.0
-112,closed_book,2,False,단일 장면 사실 확인형,4767,1.0,1.0,0.5,154.0,5.0,159.0
-113,closed_book,2,False,단일 장면 사실 확인형,4921,3.0,1.0,0.5,156.0,5.0,161.0
-114,closed_book,2,False,단일 장면 사실 확인형,6855,4.0,1.0,0.7,175.0,13.0,188.0
-115,closed_book,2,True,단일 장면 사실 확인형,6897,2.0,1.0,0.3,162.0,2.0,164.0
-116,closed_book,2,True,단일 장면 사실 확인형,7636,2.0,1.0,0.5,151.0,6.0,157.0
-117,closed_book,2,True,단일 장면 사실 확인형,6385,2.0,1.0,0.4,179.0,2.0,181.0
-118,closed_book,2,True,단일 장면 사실 확인형,5608,2.0,1.0,58.4,175.0,3.0,178.0
-119,closed_book,2,False,단일 장면 사실 확인형,6274,3.0,1.0,0.6,182.0,12.0,194.0
-120,closed_book,1,False,단일 장면 사실 확인형,6980,4.0,1.0,0.4,177.0,2.0,179.0
-1,full_context,3,True,단일 장면 사실 확인형,20,3.0,1.0,1.4,22106.0,5.0,22111.0
-2,full_context,4,False,부정형 사실 확인형,28,2.0,1.0,1.5,22107.0,2.0,22109.0
-3,full_context,2,True,단일 장면 사실 확인형,101,2.0,1.0,1.3,22113.0,11.0,22124.0
-4,full_context,3,True,단일 장면 사실 확인형,146,3.0,1.0,1.3,22109.0,5.0,22114.0
-5,full_context,1,True,단일 장면 사실 확인형,167,1.0,1.0,1.3,22109.0,7.0,22116.0
-6,full_context,2,True,단일 장면 사실 확인형,177,2.0,1.0,1.5,22121.0,13.0,22134.0
-7,full_context,3,True,단일 장면 사실 확인형,227,3.0,1.0,1.5,22109.0,5.0,22114.0
-8,full_context,1,True,단일 장면 사실 확인형,365,1.0,1.0,1.4,22126.0,3.0,22129.0
-9,full_context,1,True,단일 장면 사실 확인형,376,1.0,1.0,0.6,22131.0,15.0,22146.0
-10,full_context,2,True,단일 장면 사실 확인형,457,2.0,1.0,0.6,22126.0,11.0,22137.0
-11,full_context,2,True,단일 장면 사실 확인형,465,2.0,1.0,0.6,22119.0,9.0,22128.0
-12,full_context,2,True,단일 장면 사실 확인형,473,2.0,1.0,0.7,22126.0,13.0,22139.0
-13,full_context,2,True,단일 장면 사실 확인형,518,2.0,1.0,0.6,22147.0,2.0,22149.0
-14,full_context,2,True,단일 장면 사실 확인형,536,2.0,1.0,0.6,22134.0,16.0,22150.0
-15,full_context,1,True,단일 장면 사실 확인형,665,1.0,1.0,0.5,22112.0,7.0,22119.0
-16,full_context,1,True,단일 장면 사실 확인형,757,1.0,1.0,0.5,22118.0,10.0,22128.0
-17,full_context,2,True,단일 장면 사실 확인형,949,2.0,1.0,0.5,22119.0,12.0,22131.0
-18,full_context,1,True,단일 장면 사실 확인형,975,1.0,1.0,0.5,22130.0,16.0,22146.0
-19,full_context,2,True,단일 장면 사실 확인형,969,2.0,1.0,0.5,22104.0,3.0,22107.0
-20,full_context,2,True,단일 장면 사실 확인형,1023,2.0,1.0,0.5,22139.0,3.0,22142.0
-21,full_context,2,True,단일 장면 사실 확인형,1244,2.0,1.0,0.4,22146.0,2.0,22148.0
-22,full_context,2,True,단일 장면 사실 확인형,1397,2.0,1.0,0.6,22126.0,3.0,22129.0
-23,full_context,3,True,단일 장면 사실 확인형,1481,3.0,1.0,0.5,22113.0,3.0,22116.0
-24,full_context,2,True,단일 장면 사실 확인형,1555,2.0,1.0,0.5,22142.0,2.0,22144.0
-25,full_context,2,True,단일 장면 사실 확인형,1873,2.0,1.0,0.6,22114.0,8.0,22122.0
-26,full_context,1,True,단일 장면 사실 확인형,2014,1.0,1.0,0.6,22128.0,13.0,22141.0
-27,full_context,2,True,단일 장면 사실 확인형,2045,2.0,1.0,0.6,22127.0,17.0,22144.0
-28,full_context,2,True,단일 장면 사실 확인형,2087,2.0,1.0,0.5,22125.0,16.0,22141.0
-29,full_context,2,True,단일 장면 사실 확인형,2165,2.0,1.0,0.5,22113.0,8.0,22121.0
-30,full_context,1,True,단일 장면 사실 확인형,2194,1.0,1.0,58.2,22123.0,15.0,22138.0
-31,full_context,1,True,단일 장면 사실 확인형,2240,1.0,1.0,58.0,22147.0,3.0,22150.0
-32,full_context,3,False,단일 장면 사실 확인형,2507,2.0,1.0,58.1,22113.0,6.0,22119.0
-33,full_context,1,True,단일 장면 사실 확인형,2726,1.0,1.0,57.9,22124.0,3.0,22127.0
-34,full_context,2,True,단일 장면 사실 확인형,1591,2.0,1.0,57.4,22125.0,17.0,22142.0
-35,full_context,1,True,단일 장면 사실 확인형,1694,1.0,1.0,57.9,22124.0,15.0,22139.0
-36,full_context,1,True,단일 장면 사실 확인형,1750,1.0,1.0,57.9,22129.0,16.0,22145.0
-37,full_context,2,True,단일 장면 사실 확인형,1824,2.0,1.0,57.8,22108.0,3.0,22111.0
-38,full_context,1,True,단일 장면 사실 확인형,3483,1.0,1.0,0.5,22167.0,3.0,22170.0
-39,full_context,2,True,단일 장면 사실 확인형,3382,2.0,1.0,1.5,22128.0,11.0,22139.0
-40,full_context,2,True,단일 장면 사실 확인형,3401,2.0,1.0,1.6,22110.0,2.0,22112.0
-41,full_context,1,True,단일 장면 사실 확인형,3418,1.0,1.0,1.6,22146.0,3.0,22149.0
-42,full_context,3,True,단일 장면 사실 확인형,3438,3.0,1.0,1.3,22117.0,7.0,22124.0
-43,full_context,3,True,단일 장면 사실 확인형,3501,3.0,1.0,1.2,22101.0,5.0,22106.0
-44,full_context,2,True,단일 장면 사실 확인형,3527,2.0,1.0,0.9,22128.0,3.0,22131.0
-45,full_context,2,True,단일 장면 사실 확인형,3556,2.0,1.0,1.0,22116.0,3.0,22119.0
-46,full_context,3,True,단일 장면 사실 확인형,3578,3.0,1.0,1.1,22124.0,13.0,22137.0
-47,full_context,1,True,단일 장면 사실 확인형,3609,1.0,1.0,0.8,22130.0,2.0,22132.0
-48,full_context,1,True,단일 장면 사실 확인형,3723,1.0,1.0,0.8,22127.0,13.0,22140.0
-49,full_context,1,False,단일 장면 사실 확인형,3745,2.0,1.0,0.7,22114.0,8.0,22122.0
-50,full_context,1,True,단일 장면 사실 확인형,3813,1.0,1.0,0.7,22147.0,3.0,22150.0
-51,full_context,1,True,단일 장면 사실 확인형,3916,1.0,1.0,0.6,22141.0,3.0,22144.0
-52,full_context,1,True,단일 장면 사실 확인형,3565,1.0,1.0,0.5,22120.0,2.0,22122.0
-53,full_context,3,True,단일 장면 사실 확인형,4042,3.0,1.0,0.5,22106.0,6.0,22112.0
-54,full_context,1,False,단일 장면 사실 확인형,4048,3.0,1.0,0.5,22107.0,6.0,22113.0
-55,full_context,1,True,단일 장면 사실 확인형,4056,1.0,1.0,0.5,22119.0,2.0,22121.0
-56,full_context,1,True,단일 장면 사실 확인형,4113,1.0,1.0,0.5,22121.0,3.0,22124.0
-57,full_context,1,True,단일 장면 사실 확인형,4118,1.0,1.0,0.5,22109.0,8.0,22117.0
-58,full_context,2,True,단일 장면 사실 확인형,4299,2.0,1.0,0.5,22098.0,3.0,22101.0
-59,full_context,3,True,단일 장면 사실 확인형,4314,3.0,1.0,0.8,22116.0,10.0,22126.0
-60,full_context,2,True,단일 장면 사실 확인형,4389,2.0,1.0,58.2,22117.0,10.0,22127.0
-61,full_context,2,True,단일 장면 사실 확인형,4410,2.0,1.0,58.6,22127.0,13.0,22140.0
-62,full_context,3,False,단일 장면 사실 확인형,4498,2.0,1.0,181.6,22112.0,2.0,22114.0
-63,full_context,3,False,단일 장면 사실 확인형,4503,2.0,1.0,58.4,22127.0,11.0,22138.0
-64,full_context,1,True,단일 장면 사실 확인형,4514,1.0,1.0,58.2,22115.0,2.0,22117.0
-65,full_context,1,True,단일 장면 사실 확인형,4597,1.0,1.0,58.4,22131.0,2.0,22133.0
-66,full_context,3,True,단일 장면 사실 확인형,4661,3.0,1.0,181.2,22115.0,2.0,22117.0
-67,full_context,2,True,단일 장면 사실 확인형,4740,2.0,1.0,57.9,22107.0,6.0,22113.0
-68,full_context,2,True,단일 장면 사실 확인형,4784,2.0,1.0,0.5,22130.0,3.0,22133.0
-69,full_context,2,True,단일 장면 사실 확인형,4927,2.0,1.0,1.5,22111.0,7.0,22118.0
-70,full_context,2,True,단일 장면 사실 확인형,4991,2.0,1.0,0.5,22108.0,7.0,22115.0
-71,full_context,2,True,단일 장면 사실 확인형,4995,2.0,1.0,1.4,22110.0,3.0,22113.0
-72,full_context,2,True,단일 장면 사실 확인형,5058,2.0,1.0,1.4,22102.0,5.0,22107.0
-73,full_context,2,True,단일 장면 사실 확인형,5176,2.0,1.0,1.3,22109.0,17.0,22126.0
-74,full_context,2,False,단일 장면 사실 확인형,5314,3.0,1.0,2.0,22123.0,9.0,22132.0
-75,full_context,2,True,단일 장면 사실 확인형,5357,2.0,1.0,1.7,22095.0,6.0,22101.0
-76,full_context,3,True,단일 장면 사실 확인형,5439,3.0,1.0,1.4,22097.0,5.0,22102.0
-77,full_context,3,True,단일 장면 사실 확인형,5460,3.0,1.0,1.5,22100.0,4.0,22104.0
-78,full_context,2,True,단일 장면 사실 확인형,5710,2.0,1.0,1.4,22116.0,3.0,22119.0
-79,full_context,4,False,부정형 사실 확인형,5786,2.0,1.0,1.4,22135.0,2.0,22137.0
-80,full_context,1,True,단일 장면 사실 확인형,5904,1.0,1.0,1.0,22123.0,2.0,22125.0
-81,full_context,2,True,단일 장면 사실 확인형,5944,2.0,1.0,1.2,22117.0,14.0,22131.0
-82,full_context,2,True,단일 장면 사실 확인형,6008,2.0,1.0,0.5,22130.0,3.0,22133.0
-83,full_context,2,True,단일 장면 사실 확인형,6063,2.0,1.0,0.6,22129.0,3.0,22132.0
-84,full_context,2,True,단일 장면 사실 확인형,6466,2.0,1.0,0.5,22124.0,3.0,22127.0
-85,full_context,1,True,단일 장면 사실 확인형,6508,1.0,1.0,0.5,22115.0,3.0,22118.0
-86,full_context,1,True,단일 장면 사실 확인형,6515,1.0,1.0,0.5,22131.0,3.0,22134.0
-87,full_context,1,True,단일 장면 사실 확인형,6350,1.0,1.0,0.5,22115.0,14.0,22129.0
-88,full_context,2,True,단일 장면 사실 확인형,6375,2.0,1.0,0.5,22111.0,2.0,22113.0
-89,full_context,2,True,단일 장면 사실 확인형,6644,2.0,1.0,0.5,22106.0,3.0,22109.0
-90,full_context,1,False,단일 장면 사실 확인형,6745,2.0,1.0,55.7,22115.0,10.0,22125.0
-91,full_context,2,False,단일 장면 사실 확인형,6812,1.0,1.0,56.2,22101.0,2.0,22103.0
-92,full_context,2,False,단일 장면 사실 확인형,6911,,,,,,
-93,full_context,3,True,단일 장면 사실 확인형,6917,3.0,1.0,55.9,22106.0,6.0,22112.0
-94,full_context,3,True,단일 장면 사실 확인형,7009,3.0,1.0,55.9,22117.0,8.0,22125.0
-95,full_context,3,True,단일 장면 사실 확인형,7024,3.0,1.0,55.8,22115.0,7.0,22122.0
-96,full_context,2,False,단일 장면 사실 확인형,7104,,,,,,
-97,full_context,2,True,단일 장면 사실 확인형,7144,2.0,1.0,0.6,22128.0,12.0,22140.0
-98,full_context,2,True,단일 장면 사실 확인형,7192,2.0,1.0,0.6,22105.0,8.0,22113.0
-99,full_context,2,True,단일 장면 사실 확인형,7209,2.0,1.0,0.8,22115.0,11.0,22126.0
-100,full_context,2,True,단일 장면 사실 확인형,7344,2.0,1.0,0.7,22115.0,10.0,22125.0
-101,full_context,3,True,단일 장면 사실 확인형,7472,3.0,1.0,0.7,22108.0,2.0,22110.0
-102,full_context,3,True,단일 장면 사실 확인형,7483,3.0,1.0,0.5,22106.0,4.0,22110.0
-103,full_context,1,True,단일 장면 사실 확인형,7960,1.0,1.0,0.5,22125.0,3.0,22128.0
-104,full_context,1,True,단일 장면 사실 확인형,7851,1.0,1.0,0.4,22135.0,2.0,22137.0
-105,full_context,2,True,단일 장면 사실 확인형,7970,2.0,1.0,0.4,22110.0,3.0,22113.0
-106,full_context,2,True,단일 장면 사실 확인형,8096,2.0,1.0,1.3,22124.0,3.0,22127.0
-107,full_context,2,True,단일 장면 사실 확인형,8223,2.0,1.0,128.0,22107.0,2.0,22109.0
-108,full_context,2,True,단일 장면 사실 확인형,8267,2.0,1.0,1.4,22130.0,12.0,22142.0
-109,full_context,2,True,단일 장면 사실 확인형,8335,2.0,1.0,1.1,22107.0,10.0,22117.0
-110,full_context,2,True,단일 장면 사실 확인형,7506,2.0,1.0,0.5,22129.0,3.0,22132.0
-111,full_context,2,True,단일 장면 사실 확인형,5956,2.0,1.0,0.6,22115.0,2.0,22117.0
-112,full_context,2,True,단일 장면 사실 확인형,4767,2.0,1.0,2.2,22105.0,3.0,22108.0
-113,full_context,2,True,단일 장면 사실 확인형,4921,2.0,1.0,1.8,22107.0,5.0,22112.0
-114,full_context,2,True,단일 장면 사실 확인형,6855,2.0,1.0,1.6,22126.0,10.0,22136.0
-115,full_context,2,True,단일 장면 사실 확인형,6897,2.0,1.0,0.7,22113.0,3.0,22116.0
-116,full_context,2,True,단일 장면 사실 확인형,7636,2.0,1.0,0.7,22102.0,6.0,22108.0
-117,full_context,2,False,단일 장면 사실 확인형,6385,,,,,,
-118,full_context,2,True,단일 장면 사실 확인형,5608,2.0,1.0,0.5,22126.0,3.0,22129.0
-119,full_context,2,False,단일 장면 사실 확인형,6274,,,,,,
-120,full_context,1,True,단일 장면 사실 확인형,6980,1.0,1.0,53.2,22128.0,2.0,22130.0
-1,chunked_sequential,3,False,단일 장면 사실 확인형,20,1.0,1.0,35.1,763.0,2.0,765.0
-2,chunked_sequential,4,False,부정형 사실 확인형,28,1.0,3.0,215.0,4349.0,8.0,4357.0
-3,chunked_sequential,2,True,단일 장면 사실 확인형,101,2.0,1.0,34.2,770.0,2.0,772.0
-4,chunked_sequential,3,True,단일 장면 사실 확인형,146,3.0,1.0,34.2,766.0,2.0,768.0
-5,chunked_sequential,1,True,단일 장면 사실 확인형,167,1.0,1.0,34.2,766.0,2.0,768.0
-6,chunked_sequential,2,True,단일 장면 사실 확인형,177,2.0,2.0,94.3,2216.0,5.0,2221.0
-7,chunked_sequential,3,True,단일 장면 사실 확인형,227,3.0,2.0,37.9,2192.0,5.0,2197.0
-8,chunked_sequential,1,True,단일 장면 사실 확인형,365,1.0,2.0,37.0,2226.0,5.0,2231.0
-9,chunked_sequential,1,True,단일 장면 사실 확인형,376,1.0,2.0,1.0,2236.0,5.0,2241.0
-10,chunked_sequential,2,False,단일 장면 사실 확인형,457,1.0,3.0,61.2,4406.0,8.0,4414.0
-11,chunked_sequential,2,True,단일 장면 사실 확인형,465,2.0,3.0,63.6,4385.0,8.0,4393.0
-12,chunked_sequential,2,False,단일 장면 사실 확인형,473,3.0,1.0,2.1,783.0,2.0,785.0
-13,chunked_sequential,2,True,단일 장면 사실 확인형,518,2.0,3.0,239.3,4469.0,8.0,4477.0
-14,chunked_sequential,2,False,단일 장면 사실 확인형,536,1.0,1.0,57.6,791.0,2.0,793.0
-15,chunked_sequential,1,True,단일 장면 사실 확인형,665,1.0,3.0,177.1,4364.0,8.0,4372.0
-16,chunked_sequential,1,True,단일 장면 사실 확인형,757,1.0,4.0,179.5,7090.0,11.0,7101.0
-17,chunked_sequential,2,True,단일 장면 사실 확인형,949,2.0,1.0,120.1,776.0,2.0,778.0
-18,chunked_sequential,1,True,단일 장면 사실 확인형,975,1.0,1.0,0.3,787.0,2.0,789.0
-19,chunked_sequential,2,False,단일 장면 사실 확인형,969,1.0,3.0,120.6,4340.0,8.0,4348.0
-20,chunked_sequential,2,False,단일 장면 사실 확인형,1023,1.0,3.0,59.7,4445.0,8.0,4453.0
-21,chunked_sequential,2,False,단일 장면 사실 확인형,1244,3.0,2.0,59.8,2266.0,5.0,2271.0
-22,chunked_sequential,2,True,단일 장면 사실 확인형,1397,2.0,1.0,0.3,783.0,2.0,785.0
-23,chunked_sequential,3,False,단일 장면 사실 확인형,1481,1.0,4.0,122.5,7070.0,11.0,7081.0
-24,chunked_sequential,2,False,단일 장면 사실 확인형,1555,1.0,3.0,237.2,4454.0,8.0,4462.0
-25,chunked_sequential,2,True,단일 장면 사실 확인형,1873,2.0,4.0,63.0,7074.0,11.0,7085.0
-26,chunked_sequential,1,False,단일 장면 사실 확인형,2014,3.0,1.0,0.6,785.0,2.0,787.0
-27,chunked_sequential,2,False,단일 장면 사실 확인형,2045,1.0,1.0,0.3,784.0,2.0,786.0
-28,chunked_sequential,2,True,단일 장면 사실 확인형,2087,2.0,4.0,120.1,7118.0,11.0,7129.0
-29,chunked_sequential,2,False,단일 장면 사실 확인형,2165,3.0,3.0,119.4,4367.0,8.0,4375.0
-30,chunked_sequential,1,False,단일 장면 사실 확인형,2194,3.0,3.0,119.3,4397.0,8.0,4405.0
-31,chunked_sequential,1,True,단일 장면 사실 확인형,2240,1.0,1.0,58.0,804.0,2.0,806.0
-32,chunked_sequential,3,False,단일 장면 사실 확인형,2507,1.0,3.0,59.8,4367.0,8.0,4375.0
-33,chunked_sequential,1,True,단일 장면 사실 확인형,2726,1.0,3.0,122.0,4400.0,8.0,4408.0
-34,chunked_sequential,2,False,단일 장면 사실 확인형,1591,1.0,3.0,120.2,4403.0,8.0,4411.0
-35,chunked_sequential,1,True,단일 장면 사실 확인형,1694,1.0,3.0,60.1,4400.0,8.0,4408.0
-36,chunked_sequential,1,True,단일 장면 사실 확인형,1750,1.0,3.0,63.5,4415.0,8.0,4423.0
-37,chunked_sequential,2,False,단일 장면 사실 확인형,1824,1.0,4.0,122.7,7050.0,11.0,7061.0
-38,chunked_sequential,1,False,단일 장면 사실 확인형,3483,3.0,4.0,63.3,7286.0,11.0,7297.0
-39,chunked_sequential,2,False,단일 장면 사실 확인형,3382,1.0,3.0,180.3,4412.0,8.0,4420.0
-40,chunked_sequential,2,False,단일 장면 사실 확인형,3401,1.0,4.0,357.1,7058.0,11.0,7069.0
-41,chunked_sequential,1,False,단일 장면 사실 확인형,3418,3.0,4.0,123.5,7202.0,11.0,7213.0
-42,chunked_sequential,3,False,단일 장면 사실 확인형,3438,1.0,4.0,117.7,7086.0,11.0,7097.0
-43,chunked_sequential,3,True,단일 장면 사실 확인형,3501,3.0,4.0,58.1,7022.0,11.0,7033.0
-44,chunked_sequential,2,False,단일 장면 사실 확인형,3527,1.0,3.0,59.8,4412.0,8.0,4420.0
-45,chunked_sequential,2,False,단일 장면 사실 확인형,3556,1.0,1.0,56.5,773.0,2.0,775.0
-46,chunked_sequential,3,False,단일 장면 사실 확인형,3578,1.0,4.0,60.9,7114.0,11.0,7125.0
-47,chunked_sequential,1,True,단일 장면 사실 확인형,3609,1.0,1.0,59.2,787.0,2.0,789.0
-48,chunked_sequential,1,True,단일 장면 사실 확인형,3723,1.0,4.0,121.0,7126.0,11.0,7137.0
-49,chunked_sequential,1,False,단일 장면 사실 확인형,3745,3.0,4.0,118.2,7074.0,11.0,7085.0
-50,chunked_sequential,1,True,단일 장면 사실 확인형,3813,1.0,3.0,120.8,4469.0,8.0,4477.0
-51,chunked_sequential,1,True,단일 장면 사실 확인형,3916,1.0,4.0,122.6,7182.0,11.0,7193.0
-52,chunked_sequential,1,True,단일 장면 사실 확인형,3565,1.0,1.0,61.9,777.0,2.0,779.0
-53,chunked_sequential,3,True,단일 장면 사실 확인형,4042,3.0,2.0,59.7,2186.0,5.0,2191.0
-54,chunked_sequential,1,False,단일 장면 사실 확인형,4048,3.0,2.0,56.9,2188.0,5.0,2193.0
-55,chunked_sequential,1,False,단일 장면 사실 확인형,4056,2.0,4.0,60.3,7094.0,11.0,7105.0
-56,chunked_sequential,1,False,단일 장면 사실 확인형,4113,3.0,3.0,60.6,4391.0,8.0,4399.0
-57,chunked_sequential,1,False,단일 장면 사실 확인형,4118,3.0,4.0,119.6,7054.0,11.0,7065.0
-58,chunked_sequential,2,False,단일 장면 사실 확인형,4299,1.0,4.0,177.5,7010.0,11.0,7021.0
-59,chunked_sequential,3,True,단일 장면 사실 확인형,4314,3.0,4.0,179.6,7082.0,11.0,7093.0
-60,chunked_sequential,2,False,단일 장면 사실 확인형,4389,1.0,4.0,180.5,7086.0,11.0,7097.0
-61,chunked_sequential,2,False,단일 장면 사실 확인형,4410,3.0,1.0,2.0,784.0,2.0,786.0
-62,chunked_sequential,3,False,단일 장면 사실 확인형,4498,2.0,4.0,180.1,7066.0,11.0,7077.0
-63,chunked_sequential,3,False,단일 장면 사실 확인형,4503,1.0,4.0,238.3,7126.0,11.0,7137.0
-64,chunked_sequential,1,False,단일 장면 사실 확인형,4514,3.0,2.0,0.6,2204.0,5.0,2209.0
-65,chunked_sequential,1,True,단일 장면 사실 확인형,4597,1.0,3.0,59.6,4421.0,8.0,4429.0
-66,chunked_sequential,3,True,단일 장면 사실 확인형,4661,3.0,3.0,60.2,4373.0,8.0,4381.0
-67,chunked_sequential,2,False,단일 장면 사실 확인형,4740,1.0,4.0,122.9,7046.0,11.0,7057.0
-68,chunked_sequential,2,False,단일 장면 사실 확인형,4784,4.0,4.0,178.0,7138.0,11.0,7149.0
-69,chunked_sequential,2,False,단일 장면 사실 확인형,4927,1.0,3.0,61.1,4361.0,8.0,4369.0
-70,chunked_sequential,2,False,단일 장면 사실 확인형,4991,3.0,2.0,60.5,2190.0,5.0,2195.0
-71,chunked_sequential,2,False,단일 장면 사실 확인형,4995,1.0,4.0,177.2,7058.0,11.0,7069.0
-72,chunked_sequential,2,False,단일 장면 사실 확인형,5058,1.0,3.0,62.1,4334.0,8.0,4342.0
-73,chunked_sequential,2,True,단일 장면 사실 확인형,5176,2.0,4.0,62.3,7054.0,11.0,7065.0
-74,chunked_sequential,2,False,단일 장면 사실 확인형,5314,3.0,1.0,59.9,780.0,2.0,782.0
-75,chunked_sequential,2,True,단일 장면 사실 확인형,5357,2.0,4.0,62.2,6998.0,11.0,7009.0
-76,chunked_sequential,3,False,단일 장면 사실 확인형,5439,1.0,3.0,116.8,4319.0,8.0,4327.0
-77,chunked_sequential,3,False,단일 장면 사실 확인형,5460,1.0,3.0,59.9,4328.0,8.0,4336.0
-78,chunked_sequential,2,False,단일 장면 사실 확인형,5710,1.0,3.0,2.7,4376.0,8.0,4384.0
-79,chunked_sequential,4,False,부정형 사실 확인형,5786,1.0,2.0,59.8,2244.0,5.0,2249.0
-80,chunked_sequential,1,True,단일 장면 사실 확인형,5904,1.0,3.0,59.9,4397.0,8.0,4405.0
-81,chunked_sequential,2,True,단일 장면 사실 확인형,5944,2.0,4.0,60.7,7086.0,11.0,7097.0
-82,chunked_sequential,2,False,단일 장면 사실 확인형,6008,3.0,4.0,118.1,7138.0,11.0,7149.0
-83,chunked_sequential,2,False,단일 장면 사실 확인형,6063,1.0,3.0,57.9,4415.0,8.0,4423.0
-84,chunked_sequential,2,True,단일 장면 사실 확인형,6466,2.0,4.0,60.1,7114.0,11.0,7125.0
-85,chunked_sequential,1,False,단일 장면 사실 확인형,6508,2.0,4.0,60.3,7078.0,11.0,7089.0
-86,chunked_sequential,1,True,단일 장면 사실 확인형,6515,1.0,3.0,59.5,4421.0,8.0,4429.0
-87,chunked_sequential,1,True,단일 장면 사실 확인형,6350,1.0,4.0,62.1,7078.0,11.0,7089.0
-88,chunked_sequential,2,True,단일 장면 사실 확인형,6375,2.0,4.0,59.8,7062.0,11.0,7073.0
-89,chunked_sequential,2,False,단일 장면 사실 확인형,6644,1.0,4.0,58.4,7042.0,11.0,7053.0
-90,chunked_sequential,1,False,단일 장면 사실 확인형,6745,3.0,4.0,116.4,7078.0,11.0,7089.0
-91,chunked_sequential,2,False,단일 장면 사실 확인형,6812,1.0,3.0,2.8,4331.0,8.0,4339.0
-92,chunked_sequential,2,False,단일 장면 사실 확인형,6911,1.0,4.0,60.2,7090.0,11.0,7101.0
-93,chunked_sequential,3,True,단일 장면 사실 확인형,6917,3.0,4.0,60.1,7042.0,11.0,7053.0
-94,chunked_sequential,3,False,단일 장면 사실 확인형,7009,1.0,4.0,62.4,7086.0,11.0,7097.0
-95,chunked_sequential,3,False,단일 장면 사실 확인형,7024,1.0,4.0,60.2,7078.0,11.0,7089.0
-96,chunked_sequential,2,False,단일 장면 사실 확인형,7104,1.0,4.0,61.9,7122.0,11.0,7133.0
-97,chunked_sequential,2,False,단일 장면 사실 확인형,7144,1.0,4.0,60.4,7130.0,11.0,7141.0
-98,chunked_sequential,2,False,단일 장면 사실 확인형,7192,1.0,4.0,58.3,7038.0,11.0,7049.0
-99,chunked_sequential,2,False,단일 장면 사실 확인형,7209,1.0,3.0,59.9,4373.0,8.0,4381.0
-100,chunked_sequential,2,False,단일 장면 사실 확인형,7344,1.0,4.0,59.9,7078.0,11.0,7089.0
-101,chunked_sequential,3,False,단일 장면 사실 확인형,7472,1.0,3.0,60.3,4352.0,8.0,4360.0
-102,chunked_sequential,3,False,단일 장면 사실 확인형,7483,1.0,3.0,2.3,4346.0,8.0,4354.0
-103,chunked_sequential,1,True,단일 장면 사실 확인형,7960,1.0,4.0,59.3,7118.0,11.0,7129.0
-104,chunked_sequential,1,True,단일 장면 사실 확인형,7851,1.0,4.0,59.8,7158.0,11.0,7169.0
-105,chunked_sequential,2,True,단일 장면 사실 확인형,7970,2.0,4.0,117.7,7058.0,11.0,7069.0
-106,chunked_sequential,2,False,단일 장면 사실 확인형,8096,1.0,4.0,59.8,7114.0,11.0,7125.0
-107,chunked_sequential,2,False,단일 장면 사실 확인형,8223,1.0,4.0,116.9,7046.0,11.0,7057.0
-108,chunked_sequential,2,False,단일 장면 사실 확인형,8267,1.0,3.0,3.1,4418.0,8.0,4426.0
-109,chunked_sequential,2,False,단일 장면 사실 확인형,8335,1.0,4.0,60.2,7046.0,11.0,7057.0
-110,chunked_sequential,2,False,단일 장면 사실 확인형,7506,3.0,4.0,60.7,7134.0,11.0,7145.0
-111,chunked_sequential,2,True,단일 장면 사실 확인형,5956,2.0,4.0,60.6,7078.0,11.0,7089.0
-112,chunked_sequential,2,False,단일 장면 사실 확인형,4767,3.0,4.0,58.5,7038.0,11.0,7049.0
-113,chunked_sequential,2,False,단일 장면 사실 확인형,4921,1.0,4.0,60.1,7046.0,11.0,7057.0
-114,chunked_sequential,2,False,단일 장면 사실 확인형,6855,3.0,4.0,116.9,7122.0,11.0,7133.0
-115,chunked_sequential,2,False,단일 장면 사실 확인형,6897,4.0,4.0,3.0,7070.0,11.0,7081.0
-116,chunked_sequential,2,True,단일 장면 사실 확인형,7636,2.0,4.0,59.6,7026.0,11.0,7037.0
-117,chunked_sequential,2,False,단일 장면 사실 확인형,6385,4.0,4.0,60.1,7138.0,11.0,7149.0
-118,chunked_sequential,2,True,단일 장면 사실 확인형,5608,2.0,4.0,59.3,7122.0,11.0,7133.0
-119,chunked_sequential,2,False,단일 장면 사실 확인형,6274,3.0,3.0,59.2,4427.0,8.0,4435.0
-120,chunked_sequential,1,True,단일 장면 사실 확인형,6980,1.0,1.0,1.6,785.0,2.0,787.0
+genre,question_id,condition,correct,prediction,api_calls,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,6,closed_book,True,Portuguese.,1,0.2,104,5,109
+wiki,1,closed_book,True,1898.,1,0.2,105,4,109
+wiki,8,closed_book,False,Hans.,1,0.2,100,4,104
+wiki,5,closed_book,True,France.,1,0.3,103,3,106
+wiki,3,closed_book,True,1624.,1,0.3,99,4,103
+wiki,4,closed_book,False,Last ice age.,1,0.3,117,5,122
+wiki,2,closed_book,False,8.4 million.,1,0.3,106,6,112
+wiki,7,closed_book,True,The Dutch East India Company.,1,0.3,99,7,106
+wiki,9,closed_book,True,1625.,1,0.2,102,4,106
+wiki,10,closed_book,True,Peter Stuyvesant.,1,0.2,102,7,109
+wiki,11,closed_book,False,New Amsterdam.,1,0.2,104,4,108
+wiki,13,closed_book,True,1735.,1,0.2,102,4,106
+wiki,14,closed_book,True,August 1776.,1,0.2,105,6,111
+wiki,15,closed_book,False,Bangladesh Liberation War.,1,0.2,102,6,108
+wiki,16,closed_book,True,Philadelphia.,1,0.2,107,3,110
+wiki,12,closed_book,False,"None, England never gained New York in exchange for Run.",1,0.3,109,13,122
+wiki,17,closed_book,True,1827.,1,0.3,104,4,108
+wiki,18,closed_book,True,1825.,1,0.3,103,4,107
+wiki,19,closed_book,False,About 30%.,1,0.3,109,5,114
+wiki,20,closed_book,False,1624.,1,0.2,104,4,108
+wiki,22,closed_book,True,Megacity.,1,0.2,108,4,112
+wiki,23,closed_book,True,Abstract Expressionism.,1,0.2,108,5,113
+wiki,21,closed_book,True,146.,1,0.2,105,3,108
+wiki,24,closed_book,True,American Airlines Flight 11.,1,0.2,118,7,125
+wiki,26,closed_book,True,Donald Trump.,1,0.2,104,4,108
+wiki,30,closed_book,False,1652.,1,0.2,112,4,116
+wiki,27,closed_book,False,"Manhattan, Staten, and Long.",1,0.2,105,9,114
+wiki,28,closed_book,False,Hudson River.,1,0.2,103,5,108
+wiki,25,closed_book,True,American Airlines Flight 11 and United Airlines Flight 175.,1,0.3,105,13,118
+wiki,29,closed_book,False,About 22% or 14.5 square miles.,1,0.3,101,13,114
+wiki,38,closed_book,False,"1,200 acres.",1,59.2,103,6,109
+wiki,31,closed_book,False,Over 300.,1,59.5,107,5,112
+wiki,37,closed_book,True,Minneapolis.,1,59.3,114,4,118
+wiki,32,closed_book,True,Eagles.,1,59.5,103,5,108
+wiki,34,closed_book,False,Temperate.,1,59.4,109,4,113
+wiki,33,closed_book,False,Cisterns.,1,59.4,112,6,118
+wiki,36,closed_book,False,around 46 inches.,1,59.4,104,6,110
+wiki,35,closed_book,False,"July 10, 1936.",1,59.4,104,9,113
+wiki,41,closed_book,False,78th Training Division.,1,0.2,100,6,106
+wiki,40,closed_book,False,"3,325 hectares.",1,0.2,102,6,108
+wiki,43,closed_book,False,Asian.,1,0.2,103,3,106
+wiki,44,closed_book,True,Over 12 million.,1,0.2,108,6,114
+wiki,39,closed_book,False,Tomb of Grant.,1,0.3,105,6,111
+wiki,45,closed_book,False,"Over 100,000.",1,0.2,107,7,114
+wiki,42,closed_book,True,About 40%.,1,0.3,110,5,115
+wiki,46,closed_book,False,"Approximately 220,000.",1,0.2,103,8,111
+wiki,47,closed_book,False,Jamaica.,1,0.2,107,5,112
+wiki,48,closed_book,False,Approximately 1 in 5.,1,0.2,103,9,112
+wiki,49,closed_book,True,Judaism.,1,0.2,103,5,108
+wiki,52,closed_book,False,"250,000.",1,0.3,101,5,106
+wiki,53,closed_book,False,Bagels.,1,0.2,103,4,107
+wiki,50,closed_book,False,"$1,144.",1,0.3,108,6,114
+wiki,54,closed_book,False,$39 billion.,1,0.2,109,5,114
+wiki,56,closed_book,True,Roosevelt Island.,1,0.2,100,6,106
+wiki,57,closed_book,False,66.6 million.,1,0.2,108,6,114
+wiki,51,closed_book,False,"$1,400.",1,0.4,110,6,116
+wiki,55,closed_book,True,Over 500 million square feet.,1,0.4,106,8,114
+wiki,58,closed_book,True,"""I Love New York""",1,0.3,101,6,107
+wiki,60,closed_book,True,Anbang Insurance Group.,1,0.3,107,6,113
+wiki,59,closed_book,False,The Great Lawn.,1,0.3,103,5,108
+wiki,63,closed_book,False,C-SPAN.,1,59.3,107,5,112
+wiki,65,closed_book,False,About 250.,1,59.2,101,5,106
+wiki,68,closed_book,False,Andrés Manuel López Obrador.,1,59.1,99,9,108
+wiki,64,closed_book,True,WNYC.,1,59.3,105,5,110
+wiki,66,closed_book,False,Library of Congress.,1,59.1,102,5,107
+wiki,62,closed_book,False,"The New York Times, The Wall Street Journal.",1,59.4,102,11,113
+wiki,61,closed_book,False,"Over 70,000.",1,59.5,103,7,110
+wiki,67,closed_book,False,1.1 million.,1,59.2,102,6,108
+wiki,72,closed_book,False,Subway.,1,0.2,105,4,109
+wiki,74,closed_book,False,Action painting.,1,0.2,102,4,106
+wiki,70,closed_book,False,55%,1,0.3,112,3,115
+wiki,69,closed_book,False,"around 55,000.",1,0.3,101,7,108
+wiki,71,closed_book,False,New York City Fire Department.,1,0.3,104,7,111
+wiki,73,closed_book,False,1230 Joralemon St.,1,0.3,108,9,117
+wiki,75,closed_book,False,Over 500.,1,0.3,105,5,110
+wiki,76,closed_book,False,12.5 million.,1,0.3,109,6,115
+wiki,81,closed_book,False,US Open.,1,0.2,105,4,109
+wiki,79,closed_book,True,Hockey.,1,0.2,101,4,105
+wiki,77,closed_book,False,None.,1,0.3,106,3,109
+wiki,80,closed_book,False,NCAA Men's Final Four,1,0.3,108,7,115
+wiki,82,closed_book,False,Shanghai Metro.,1,0.3,103,5,108
+wiki,84,closed_book,False,"Over 200,000.",1,0.3,104,7,111
+wiki,78,closed_book,True,MetLife Stadium.,1,0.5,108,5,113
+wiki,85,closed_book,False,116 million.,1,0.2,109,4,113
+wiki,86,closed_book,False,George Washington Bridge.,1,0.2,104,5,109
+wiki,88,closed_book,False,Over 1 million.,1,0.2,102,6,108
+wiki,87,closed_book,False,Lincoln Tunnel.,1,0.3,107,5,112
+wiki,89,closed_book,False,Adirondacks.,1,0.2,105,6,111
+wiki,90,closed_book,False,5.,1,0.3,102,3,105
+wiki,83,closed_book,False,About 55%.,1,0.5,111,5,116
+wiki,97,closed_book,False,Entertainment.,1,59.0,99,4,103
+wiki,92,closed_book,False,Over 1 million.,1,59.3,103,6,109
+wiki,96,closed_book,False,JFK.,1,59.1,102,4,106
+wiki,95,closed_book,True,New York City FC.,1,59.2,103,6,109
+wiki,91,closed_book,False,About 3.1 million.,1,59.3,107,8,115
+wiki,94,closed_book,True,Fifth Avenue.,1,59.2,103,5,108
+wiki,98,closed_book,False,Nassau County.,1,59.2,102,6,108
+wiki,93,closed_book,False,Museum of Modern Art Library.,1,59.4,116,8,124
+wiki,99,closed_book,False,Massachusetts v. EPA.,1,0.3,107,7,114
+wiki,100,closed_book,False,Eastern District of New York.,1,0.3,103,7,110
+wiki,1,full_context,True,1898.,1,0.8,19561,4,19565
+wiki,5,full_context,True,France.,1,0.8,19559,3,19562
+wiki,3,full_context,True,1624,1,0.8,19555,3,19558
+wiki,2,full_context,True,"8,491,079",1,0.8,19562,6,19568
+wiki,7,full_context,True,The Dutch East India Company.,1,0.8,19555,7,19562
+wiki,6,full_context,True,Portuguese.,1,0.8,19560,5,19565
+wiki,4,full_context,False,Wisconsinan glaciation.,1,0.8,19573,7,19580
+wiki,8,full_context,True,Jan Rodrigues.,1,0.9,19556,5,19561
+wiki,11,full_context,True,New Orange,1,0.4,19560,3,19563
+wiki,9,full_context,True,1625,1,0.4,19558,3,19561
+wiki,10,full_context,True,Peter Stuyvesant.,1,0.4,19558,7,19565
+wiki,13,full_context,True,1735,1,0.4,19558,3,19561
+wiki,14,full_context,True,August 1776.,1,0.4,19561,6,19567
+wiki,15,full_context,True,The Great Fire of New York.,1,0.4,19558,8,19566
+wiki,12,full_context,True,The Second Anglo-Dutch War.,1,0.4,19565,8,19573
+wiki,16,full_context,True,Philadelphia.,1,0.3,19563,3,19566
+wiki,19,full_context,True,25%,1,0.3,19565,3,19568
+wiki,20,full_context,True,1898.,1,0.3,19560,4,19564
+wiki,17,full_context,True,1827,1,0.3,19560,3,19563
+wiki,18,full_context,True,1825,1,0.4,19559,3,19562
+wiki,21,full_context,True,146,1,58.5,19561,2,19563
+wiki,26,full_context,True,Donald Trump.,1,58.3,19560,4,19564
+wiki,24,full_context,True,American Airlines Flight 11.,1,58.5,19574,7,19581
+wiki,22,full_context,True,Megacity.,1,58.6,19564,4,19568
+wiki,28,full_context,True,The Harlem River.,1,58.2,19559,5,19564
+wiki,27,full_context,True,"Long Island, Manhattan, and Staten Island.",1,58.3,19561,10,19571
+wiki,23,full_context,True,Abstract expressionism.,1,58.6,19564,5,19569
+wiki,25,full_context,True,American Airlines Flight 11.,1,58.3,19561,7,19568
+wiki,29,full_context,True,164.1,1,0.3,19557,4,19561
+wiki,30,full_context,True,1656,1,0.3,19568,3,19571
+wiki,36,full_context,True,49.9 inches,1,0.5,19560,5,19565
+wiki,34,full_context,True,humid continental,1,0.5,19565,4,19569
+wiki,33,full_context,False,Water towers.,1,0.6,19568,4,19572
+wiki,37,full_context,True,Minneapolis.,1,0.4,19570,4,19574
+wiki,38,full_context,False,"26,000",1,0.4,19559,4,19563
+wiki,35,full_context,True,"July 9, 1936.",1,0.6,19560,9,19569
+wiki,31,full_context,True,550,1,0.9,19563,2,19565
+wiki,32,full_context,True,Eagles.,1,0.9,19559,5,19564
+wiki,39,full_context,True,Grant's Tomb.,1,0.8,19561,5,19566
+wiki,42,full_context,True,40%,1,0.7,19566,3,19569
+wiki,40,full_context,True,"1,093",1,0.7,19558,4,19562
+wiki,41,full_context,True,1179th Transportation Brigade.,1,0.9,19556,7,19563
+wiki,43,full_context,False,Bangladeshi.,1,0.8,19559,6,19565
+wiki,45,full_context,True,"74,000.",1,0.6,19563,5,19568
+wiki,44,full_context,True,12 million,1,0.9,19564,3,19567
+wiki,46,full_context,True,"65,000.",1,0.7,19559,5,19564
+wiki,48,full_context,True,"568,903",1,0.4,19559,4,19563
+wiki,47,full_context,False,Jamaica,1,0.5,19563,4,19567
+wiki,49,full_context,True,Judaism.,1,0.5,19559,5,19564
+wiki,50,full_context,True,"$2,749.",1,0.4,19564,6,19570
+wiki,52,full_context,True,"180,000.",1,58.5,19557,5,19562
+wiki,57,full_context,True,56.4 million.,1,58.2,19564,6,19570
+wiki,56,full_context,True,Roosevelt Island.,1,58.3,19556,6,19562
+wiki,58,full_context,False,I ❤ NY,1,58.2,19557,4,19561
+wiki,54,full_context,True,$40 billion,1,58.5,19565,4,19569
+wiki,55,full_context,True,500 million square feet.,1,58.3,19562,6,19568
+wiki,53,full_context,True,Chocolate.,1,58.7,19559,3,19562
+wiki,51,full_context,False,"$17,104",1,58.7,19566,5,19571
+wiki,60,full_context,True,Anbang Insurance Group.,1,0.4,19563,6,19569
+wiki,59,full_context,True,Central Park SummerStage,1,0.4,19559,5,19564
+wiki,61,full_context,True,"25,000",1,0.4,19559,4,19563
+wiki,64,full_context,True,WNYC.,1,0.4,19561,5,19566
+wiki,63,full_context,True,Manhattan Neighborhood Network.,1,0.5,19563,6,19569
+wiki,62,full_context,True,The Wall Street Journal and The New York Times.,1,0.5,19558,11,19569
+wiki,65,full_context,True,Nine.,1,0.4,19557,3,19560
+wiki,66,full_context,False,New York Public Library.,1,0.5,19558,6,19564
+wiki,67,full_context,True,1.4 million.,1,0.4,19558,6,19564
+wiki,68,full_context,False,Ramanathan Raju,1,0.4,19555,6,19561
+wiki,69,full_context,True,"35,000.",1,0.8,19557,5,19562
+wiki,70,full_context,True,95.9%,1,0.8,19568,5,19573
+wiki,76,full_context,False,12.21 million.,1,0.6,19565,6,19571
+wiki,73,full_context,True,11 Metrotech Center.,1,0.9,19564,7,19571
+wiki,71,full_context,False,Tokyo Fire Department.,1,1.0,19560,6,19566
+wiki,75,full_context,True,"Over 2,000.",1,0.8,19561,7,19568
+wiki,72,full_context,False,Subway system.,1,1.1,19561,5,19566
+wiki,74,full_context,True,The New York School.,1,1.1,19558,6,19564
+wiki,78,full_context,True,MetLife Stadium,1,0.5,19564,4,19568
+wiki,80,full_context,True,National Invitation Tournament,1,0.4,19564,4,19568
+wiki,79,full_context,True,Hockey.,1,0.5,19557,4,19561
+wiki,77,full_context,False,"MetLife Stadium, Yankee Stadium, Madison Square Garden, Citi Field.",1,0.6,19562,16,19578
+wiki,87,full_context,True,The Lincoln Tunnel.,1,58.1,19563,5,19568
+wiki,83,full_context,True,54.6%,1,58.4,19567,5,19572
+wiki,85,full_context,True,109 million.,1,58.3,19565,4,19569
+wiki,82,full_context,False,New York City Subway.,1,58.6,19559,6,19565
+wiki,86,full_context,False,Brooklyn Bridge,1,58.3,19560,4,19564
+wiki,88,full_context,True,"Over 200,000.",1,58.2,19558,7,19565
+wiki,81,full_context,False,US Open,1,58.7,19561,3,19564
+wiki,84,full_context,True,"7,000",1,58.5,19560,4,19564
+wiki,90,full_context,True,51,1,0.3,19558,2,19560
+wiki,89,full_context,True,Catskill Mountains,1,0.5,19561,5,19566
+wiki,96,full_context,False,JFK,1,0.3,19558,3,19561
+wiki,92,full_context,True,"225,000 admissions.",1,0.4,19559,6,19565
+wiki,93,full_context,False,National Library of Australia.,1,0.4,19572,6,19578
+wiki,91,full_context,True,67%,1,0.4,19563,3,19566
+wiki,97,full_context,False,Theater.,1,0.3,19555,4,19559
+wiki,95,full_context,True,New York City FC,1,0.4,19559,5,19564
+wiki,94,full_context,True,Fifth Avenue.,1,0.5,19559,5,19564
+wiki,98,full_context,True,The west end.,1,0.3,19558,5,19563
+wiki,99,full_context,True,Massachusetts v. Environmental Protection Agency,1,0.8,19563,8,19571
+wiki,100,full_context,False,Eastern District of New York.,1,0.8,19559,7,19566
+wiki,1,chunked_sequential,True,1898,1,0.2,589,3,592
+wiki,2,chunked_sequential,True,"8,491,079",1,0.3,590,6,596
+wiki,3,chunked_sequential,True,1624,3,58.7,2936,9,2945
+wiki,5,chunked_sequential,True,France,3,58.9,2948,8,2956
+wiki,4,chunked_sequential,False,Wisconsinan glaciation,3,58.9,2990,12,3002
+wiki,8,chunked_sequential,False,Juan Rodriguez.,4,60.0,4597,13,4610
+wiki,9,chunked_sequential,False,1624,4,60.0,4605,12,4617
+wiki,6,chunked_sequential,True,Portuguese,4,60.3,4613,13,4626
+wiki,7,chunked_sequential,True,Dutch East India Company.,4,60.3,4593,16,4609
+wiki,12,chunked_sequential,False,Run.,4,59.6,4633,12,4645
+wiki,10,chunked_sequential,True,Peter Stuyvesant.,4,118.4,4605,16,4621
+wiki,13,chunked_sequential,False,1524,4,59.8,4605,12,4617
+wiki,11,chunked_sequential,False,New Amsterdam,4,60.6,4613,12,4625
+wiki,14,chunked_sequential,False,1524,4,60.2,4617,12,4629
+wiki,16,chunked_sequential,True,Philadelphia.,4,60.0,4625,12,4637
+wiki,20,chunked_sequential,False,1624,4,1.8,4613,12,4625
+wiki,19,chunked_sequential,False,1860,4,1.9,4633,12,4645
+wiki,18,chunked_sequential,False,1624,4,3.1,4609,12,4621
+wiki,17,chunked_sequential,False,1524,4,118.2,4613,12,4625
+wiki,15,chunked_sequential,False,British occupation.,4,118.4,4605,13,4618
+wiki,21,chunked_sequential,False,150,4,60.9,4617,11,4628
+wiki,25,chunked_sequential,True,American Airlines Flight 11.,4,59.7,4617,16,4633
+wiki,24,chunked_sequential,True,American Airlines Flight 11,4,59.8,4669,15,4684
+wiki,26,chunked_sequential,True,Donald Trump,4,59.0,4613,12,4625
+wiki,28,chunked_sequential,False,Hudson River,4,60.0,4609,13,4622
+wiki,27,chunked_sequential,False,"Long Island, Staten Island",4,60.1,4617,15,4632
+wiki,22,chunked_sequential,True,Megacity,4,118.5,4629,12,4641
+wiki,23,chunked_sequential,True,Abstract Expressionism,4,118.7,4629,13,4642
+wiki,30,chunked_sequential,False,1624,4,59.1,4645,12,4657
+wiki,29,chunked_sequential,False,305,4,59.2,4601,11,4612
+wiki,32,chunked_sequential,False,Art Deco lion.,4,60.1,4609,15,4624
+wiki,35,chunked_sequential,False,1524,4,1.9,4613,12,4625
+wiki,36,chunked_sequential,False,56 million,4,59.6,4613,12,4625
+wiki,31,chunked_sequential,False,None,4,118.3,4625,11,4636
+wiki,38,chunked_sequential,False,"Gateway Nation Recreation contains 34,000 acres of land.",4,59.7,4609,22,4631
+wiki,33,chunked_sequential,False,Sewers.,4,60.6,4645,14,4659
+wiki,37,chunked_sequential,True,Minneapolis.,4,60.1,4653,13,4666
+wiki,34,chunked_sequential,False,,4,61.7,4633,12,4645
+wiki,41,chunked_sequential,False,82nd Airborne Division,4,60.1,4597,15,4612
+wiki,39,chunked_sequential,True,General Grant National Memorial is also called Grant's Tomb.,4,118.2,4617,21,4638
+wiki,43,chunked_sequential,False,Hispanic,4,59.9,4609,12,4621
+wiki,40,chunked_sequential,False,"Pelham Bay Park is 2,764 hectares.",4,118.4,4605,21,4626
+wiki,44,chunked_sequential,True,12 million,4,59.9,4629,12,4641
+wiki,42,chunked_sequential,False,20.1,4,60.6,4637,13,4650
+wiki,45,chunked_sequential,False,56 million,4,59.9,4625,12,4637
+wiki,46,chunked_sequential,False,Greek heritage is not mentioned in the provided text.,4,59.6,4609,20,4629
+wiki,53,chunked_sequential,False,Bagels.,4,59.2,4609,13,4622
+wiki,52,chunked_sequential,False,"8,491,079",4,59.7,4601,15,4616
+wiki,48,chunked_sequential,False,No information about the number of people identifying as gay or bisexual in NYC.,4,60.6,4609,25,4634
+wiki,49,chunked_sequential,True,Judaism,4,60.4,4609,13,4622
+wiki,51,chunked_sequential,False,"660 Madison Avenue was sold in June 2007 for $2.88 billion, or $1,795 per square foot.",4,60.5,4637,36,4673
+wiki,47,chunked_sequential,False,Jamaica,4,61.0,4625,13,4638
+wiki,50,chunked_sequential,False,$1.39 trillion,4,61.1,4629,15,4644
+wiki,54,chunked_sequential,False,$1.55 trillion,4,60.2,4633,15,4648
+wiki,56,chunked_sequential,False,Manhattan,4,59.6,4597,12,4609
+wiki,55,chunked_sequential,False,No answer found.,4,60.2,4621,14,4635
+wiki,57,chunked_sequential,False,56 million,2,59.4,1645,6,1651
+wiki,60,chunked_sequential,False,Anbang Group,4,59.4,4625,13,4638
+wiki,58,chunked_sequential,False,New York State song is not mentioned in the text.,4,60.0,4601,21,4622
+wiki,61,chunked_sequential,False,"8,491,079",4,60.2,4609,15,4624
+wiki,62,chunked_sequential,False,The New York Post and The New York Daily News.,4,60.2,4605,21,4626
+wiki,59,chunked_sequential,False,Central Park,4,60.8,4609,12,4621
+wiki,64,chunked_sequential,True,WNYC,4,1.9,4617,13,4630
+wiki,65,chunked_sequential,False,Specialized high schools in NYC: 24,4,59.9,4601,19,4620
+wiki,66,chunked_sequential,False,New York Public Library,4,60.0,4605,14,4619
+wiki,63,chunked_sequential,False,Public-access TV channel,4,60.6,4625,14,4639
+wiki,67,chunked_sequential,False,HHC is not mentioned in the text.,4,60.1,4605,19,4624
+wiki,68,chunked_sequential,False,Henry Hudson.,4,60.3,4593,13,4606
+wiki,69,chunked_sequential,False,"8,491,079",4,60.4,4601,15,4616
+wiki,71,chunked_sequential,False,London Fire Brigade.,4,118.0,4613,14,4627
+wiki,70,chunked_sequential,False,,4,118.3,4645,12,4657
+wiki,72,chunked_sequential,False,New York City Subway.,4,60.1,4617,15,4632
+wiki,74,chunked_sequential,False,Abstract expressionism,4,59.7,4605,13,4618
+wiki,73,chunked_sequential,False,,4,60.2,4629,46,4675
+wiki,75,chunked_sequential,False,Over 120,4,60.1,4617,13,4630
+wiki,76,chunked_sequential,False,56 million,4,59.7,4633,12,4645
+wiki,77,chunked_sequential,False,None,4,60.0,4621,11,4632
+wiki,80,chunked_sequential,False,NCAA Tournament,4,60.0,4629,13,4642
+wiki,81,chunked_sequential,False,US Open,4,60.0,4617,12,4629
+wiki,78,chunked_sequential,True,MetLife Stadium,4,60.5,4629,13,4642
+wiki,84,chunked_sequential,False,800,4,59.1,4613,11,4624
+wiki,82,chunked_sequential,False,New York City Subway.,4,60.4,4609,15,4624
+wiki,83,chunked_sequential,False,"2005 data is not available in the given text, but it does mention 2013 and 2014 data.",4,60.7,4641,34,4675
+wiki,79,chunked_sequential,True,Hockey,4,61.8,4601,12,4613
+wiki,87,chunked_sequential,False,Holland Tunnel,4,59.8,4625,13,4638
+wiki,85,chunked_sequential,False,56 million,4,118.1,4633,12,4645
+wiki,92,chunked_sequential,False,"HHC institutions annually: 150,000",4,58.6,4609,19,4628
+wiki,89,chunked_sequential,True,The Catskill Mountains.,4,60.3,4617,15,4632
+wiki,86,chunked_sequential,False,George Washington Bridge,4,60.8,4613,13,4626
+wiki,88,chunked_sequential,False,"8,491,079",4,60.6,4605,15,4620
+wiki,93,chunked_sequential,False,Bibliotheca Philosophica Hermetica,4,1.6,4661,19,4680
+wiki,90,chunked_sequential,False,5,4,61.1,4605,11,4616
+wiki,95,chunked_sequential,False,Red Bulls,4,59.7,4609,12,4621
+wiki,91,chunked_sequential,False,2008,4,118.8,4625,12,4637
+wiki,94,chunked_sequential,True,Fifth Avenue,4,60.6,4609,13,4622
+wiki,98,chunked_sequential,False,Long Island.,4,59.5,4605,13,4618
+wiki,97,chunked_sequential,False,Entertainment.,4,59.9,4593,13,4606
+wiki,96,chunked_sequential,False,JFK,4,60.0,4605,12,4617
+wiki,99,chunked_sequential,False,Massachusetts v. EPA,4,59.3,4625,15,4640
+wiki,100,chunked_sequential,False,Eastern District of New York.,4,59.2,4609,16,4625
+news,2,closed_book,False,"60,000.",1,0.2,100,5,105
+news,1,closed_book,False,Several others.,1,0.2,99,4,103
+news,3,closed_book,False,Borneo.,1,0.2,100,5,105
+news,4,closed_book,False,Sergeant Andrew Jones.,1,0.3,102,7,109
+news,5,closed_book,False,US-led invasion.,1,0.4,105,5,110
+news,7,closed_book,False,Rescue teams.,1,0.4,105,5,110
+news,6,closed_book,False,John F. Kennedy Jr.,1,0.4,105,7,112
+news,8,closed_book,False,Yes.,1,0.5,100,3,103
+news,9,closed_book,False,Balloon flight duration.,1,0.3,103,6,109
+news,12,closed_book,False,7th,1,0.5,98,3,101
+news,11,closed_book,False,Ballon d'Or,1,0.5,98,6,104
+news,18,closed_book,False,Real Madrid.,1,57.8,98,4,102
+news,13,closed_book,False,Manslaughter.,1,58.1,101,5,106
+news,19,closed_book,False,Previous.,1,57.9,97,3,100
+news,17,closed_book,False,Manchester United.,1,58.2,98,4,102
+news,20,closed_book,False,UEFA Cup.,1,0.3,106,5,111
+news,22,closed_book,False,"Over 60,000.",1,0.2,105,7,112
+news,15,closed_book,False,Murder charges.,1,58.4,100,5,105
+news,10,closed_book,False,AC Milan.,1,58.7,100,4,104
+news,16,closed_book,False,No information provided.,1,58.5,97,5,102
+news,23,closed_book,False,2025.,1,0.3,115,4,119
+news,14,closed_book,False,Misdemeanor.,1,58.7,100,6,106
+news,26,closed_book,False,Not specified.,1,0.4,97,4,101
+news,24,closed_book,False,Uber.,1,0.5,100,3,103
+news,25,closed_book,False,The authorities.,1,0.5,98,4,102
+news,31,closed_book,False,Golf course.,1,0.2,100,5,105
+news,30,closed_book,False,Beach.,1,0.4,98,4,102
+news,21,closed_book,False,Birmingham.,1,1.0,109,4,113
+news,33,closed_book,False,Yes.,1,0.3,96,3,99
+news,29,closed_book,False,Unknown.,1,0.9,97,3,100
+news,32,closed_book,False,Police officer.,1,1.0,104,4,108
+news,27,closed_book,False,Enforce gun laws.,1,1.3,99,6,105
+news,37,closed_book,False,John Bradley.,1,0.6,107,4,111
+news,36,closed_book,False,Provide services.,1,0.7,98,4,102
+news,38,closed_book,False,The Medal of Honor.,1,0.4,99,6,105
+news,28,closed_book,False,58,1,1.4,103,2,105
+news,34,closed_book,False,Pablo Escobar.,1,1.0,99,6,105
+news,35,closed_book,False,Provident fund for doctors.,1,1.0,100,7,107
+news,43,closed_book,False,Jesse Owens.,1,0.2,97,5,102
+news,42,closed_book,False,University of Texas.,1,0.5,99,5,104
+news,41,closed_book,False,Jacinda Ardern.,1,0.5,96,6,102
+news,45,closed_book,False,New York.,1,58.1,98,4,102
+news,49,closed_book,False,Panic.,1,57.8,100,4,104
+news,44,closed_book,False,Murder.,1,58.2,100,4,104
+news,48,closed_book,False,It failed.,1,58.0,98,4,102
+news,47,closed_book,False,World War I and World War II.,1,58.2,97,9,106
+news,40,closed_book,False,South Africa.,1,58.6,100,4,104
+news,39,closed_book,False,James Anderson.,1,58.6,101,4,105
+news,50,closed_book,False,Yes.,1,0.4,97,3,100
+news,46,closed_book,False,Boeing 737 Max.,1,58.5,101,7,108
+news,51,closed_book,False,I couldn't find any information on Tomas Medina Caracas.,1,0.6,99,13,112
+news,53,closed_book,False,No information provided.,1,0.4,97,5,102
+news,55,closed_book,False,A gun.,1,0.4,98,4,102
+news,59,closed_book,False,Droupadi Murmu.,1,0.2,99,7,106
+news,57,closed_book,False,Painting.,1,0.4,101,4,105
+news,60,closed_book,False,Sharad.,1,0.3,100,4,104
+news,56,closed_book,False,Gary Webb.,1,0.8,107,4,111
+news,58,closed_book,False,Cell phone records.,1,0.6,99,5,104
+news,52,closed_book,False,Pablo Escobar.,1,1.0,98,6,104
+news,62,closed_book,False,Watergate.,1,0.6,97,4,101
+news,63,closed_book,False,Bikini Bottom,1,0.9,108,5,113
+news,54,closed_book,False,A roadside.,1,1.5,98,4,102
+news,61,closed_book,False,17,1,1.1,104,2,106
+news,67,closed_book,False,Murder.,1,0.7,102,4,106
+news,64,closed_book,False,Dwayne Johnson.,1,0.9,103,5,108
+news,65,closed_book,False,Rarely.,1,0.8,99,4,103
+news,66,closed_book,False,Thule Air Base.,1,0.8,100,6,106
+news,72,closed_book,False,Tobacco tax.,1,0.2,104,6,110
+news,69,closed_book,False,2000.,1,0.4,102,4,106
+news,71,closed_book,False,Biden administration.,1,0.5,101,5,106
+news,70,closed_book,False,Donald Rumsfeld.,1,0.5,104,6,110
+news,74,closed_book,False,Social programs.,1,58.1,98,4,102
+news,73,closed_book,False,Carbon tax.,1,58.2,102,4,106
+news,76,closed_book,False,Murder.,1,58.1,102,4,106
+news,80,closed_book,False,20 years.,1,0.2,105,4,109
+news,82,closed_book,False,Consequences.,1,0.2,97,4,101
+news,75,closed_book,False,Ferrari.,1,58.5,99,5,104
+news,83,closed_book,False,Scotland.,1,0.2,96,3,99
+news,81,closed_book,False,I don't have enough information.,1,0.4,97,8,105
+news,84,closed_book,False,We have no information.,1,0.2,98,6,104
+news,68,closed_book,False,Nithari serial killings.,1,59.2,105,7,112
+news,85,closed_book,False,Bangkok.,1,0.2,103,4,107
+news,88,closed_book,False,The Cleaning Lady.,1,0.2,104,5,109
+news,78,closed_book,False,Obtaining cocaine.,1,58.6,99,6,105
+news,89,closed_book,False,The street.,1,0.2,98,4,102
+news,90,closed_book,False,LeBron James,1,0.3,102,4,106
+news,86,closed_book,False,40+,1,0.6,105,3,108
+news,91,closed_book,False,I don't have that information.,1,0.4,102,8,110
+news,87,closed_book,False,Angelo Pizzo,1,0.7,102,5,107
+news,95,closed_book,False,NTSB.,1,0.3,98,5,103
+news,94,closed_book,False,Governments.,1,0.7,98,4,102
+news,92,closed_book,False,The Chicago Cubs.,1,0.9,100,5,105
+news,77,closed_book,False,It was stolen.,1,59.6,99,5,104
+news,79,closed_book,False,I was framed.,1,59.5,102,5,107
+news,93,closed_book,False,Whistler.,1,1.0,103,5,108
+news,97,closed_book,False,Back pain.,1,0.8,97,4,101
+news,100,closed_book,False,Bombs.,1,0.3,100,4,104
+news,96,closed_book,False,The runway.,1,0.9,98,4,102
+news,99,closed_book,False,Haiti.,1,0.4,99,5,104
+news,98,closed_book,False,Bosnia.,1,0.8,97,5,102
+news,1,full_context,False,"Taliban militants, civilians, and a Japanese balloonist.",1,0.8,16119,14,16133
+news,4,full_context,True,Taliban militants.,1,58.1,16122,6,16128
+news,5,full_context,False,Crossfire.,1,58.2,16125,4,16129
+news,7,full_context,False,US Coast Guard planes and ships.,1,58.3,16125,8,16133
+news,2,full_context,True,Four,1,58.3,16120,2,16122
+news,8,full_context,False,Yes.,1,58.3,16120,3,16123
+news,9,full_context,False,50 hours and 38 minutes.,1,57.6,16123,8,16131
+news,3,full_context,True,Tarin Kowt in Uruzgan province.,1,58.3,16120,12,16132
+news,6,full_context,False,Michio Kanda.,1,58.4,16125,6,16131
+news,11,full_context,False,Ballon d'Or.,1,0.3,16118,7,16125
+news,12,full_context,True,Third,1,0.3,16118,2,16120
+news,13,full_context,False,Second degree aggravated battery.,1,0.3,16121,6,16127
+news,10,full_context,False,AC Milan.,1,0.8,16120,4,16124
+news,14,full_context,True,Second degree aggravated battery.,1,0.5,16120,6,16126
+news,16,full_context,False,September.,1,0.6,16117,3,16120
+news,15,full_context,True,Second-degree attempted murder and conspiracy.,1,0.7,16120,8,16128
+news,20,full_context,False,Champions League.,1,0.5,16126,5,16131
+news,18,full_context,True,Werder Bremen.,1,0.7,16118,6,16124
+news,19,full_context,False,50 hours and 38 minutes.,1,0.7,16117,8,16125
+news,17,full_context,False,Werder Bremen,1,1.0,16118,5,16123
+news,25,full_context,True,Federal prosecutors.,1,0.4,16118,4,16122
+news,22,full_context,False,"40,000.",1,0.8,16125,5,16130
+news,21,full_context,True,New Delhi.,1,0.8,16129,4,16133
+news,26,full_context,False,Blackwater employees.,1,0.6,16117,5,16122
+news,28,full_context,True,56,1,0.5,16123,2,16125
+news,29,full_context,False,26,1,0.4,16117,2,16119
+news,23,full_context,False,"October 3, 2010.",1,1.1,16135,9,16144
+news,31,full_context,False,Rugby broadcasting.,1,0.4,16120,6,16126
+news,27,full_context,True,Conduct a thorough investigation.,1,1.0,16119,7,16126
+news,30,full_context,True,Mallorca.,1,1.0,16118,5,16123
+news,24,full_context,False,Blackwater,1,1.6,16120,3,16123
+news,33,full_context,False,No.,1,57.9,16116,3,16119
+news,39,full_context,False,Dale Steyn.,1,57.3,16121,6,16127
+news,36,full_context,False,Provide medical care.,1,57.9,16118,5,16123
+news,37,full_context,False,Michael Strank.,1,57.8,16127,5,16132
+news,32,full_context,False,CNN,1,58.4,16124,2,16126
+news,35,full_context,True,To preserve freedom of choice in healthcare.,1,58.2,16120,9,16129
+news,34,full_context,False,Two airmen.,1,58.4,16119,6,16125
+news,43,full_context,True,Taylor Bradford,1,0.3,16117,3,16120
+news,38,full_context,True,U.S. citizenship papers.,1,57.8,16119,7,16126
+news,42,full_context,True,University of Memphis.,1,0.6,16119,5,16124
+news,41,full_context,False,John Key,1,0.8,16116,3,16119
+news,40,full_context,True,Proteas.,1,0.9,16120,5,16125
+news,47,full_context,False,"Iraq, Afghanistan",1,0.4,16117,4,16121
+news,44,full_context,False,Capital murder.,1,0.7,16120,4,16124
+news,49,full_context,False,Pure terror.,1,0.3,16120,4,16124
+news,45,full_context,True,Missouri.,1,0.7,16118,4,16122
+news,50,full_context,False,No.,1,0.3,16117,3,16120
+news,51,full_context,True,Colombian military.,1,0.3,16119,6,16125
+news,46,full_context,False,F-15E.,1,0.9,16121,6,16127
+news,53,full_context,True,November 2002,1,0.8,16117,5,16122
+news,52,full_context,True,Tomas Medina Caracas.,1,0.8,16118,7,16125
+news,48,full_context,False,It fell off.,1,1.2,16118,5,16123
+news,57,full_context,False,Drinking and starting a fire.,1,0.6,16121,8,16129
+news,55,full_context,False,"A grenade, a pistol, ammunition, and a rifle.",1,0.8,16118,13,16131
+news,54,full_context,True,Two blocks from the Capitol building.,1,1.0,16118,8,16126
+news,58,full_context,False,Receipts and surveillance camera footage.,1,0.7,16119,8,16127
+news,59,full_context,True,Pratibha Patil.,1,0.5,16119,8,16127
+news,60,full_context,True,Pratibha,1,0.6,16120,5,16125
+news,56,full_context,True,Eme Zuru Ayortor.,1,1.2,16127,9,16136
+news,64,full_context,True,"SpongeBob, Lassie, and Archie.",1,0.6,16123,12,16135
+news,68,full_context,False,Serial killings.,1,57.7,16125,4,16129
+news,63,full_context,True,Universal Studios.,1,58.1,16128,4,16132
+news,67,full_context,False,Rape and murder of a 14-year-old.,1,57.8,16122,12,16134
+news,65,full_context,True,His wedding day.,1,58.2,16119,5,16124
+news,62,full_context,False,Indian president's past.,1,58.6,16117,6,16123
+news,66,full_context,False,Guam.,1,58.1,16120,4,16124
+news,72,full_context,False,10% and 20%.,1,0.4,16124,7,16131
+news,73,full_context,False,Sin tax.,1,0.4,16122,4,16126
+news,70,full_context,True,Navy officials.,1,0.7,16124,5,16129
+news,75,full_context,True,Lauren Burk's,1,0.3,16119,5,16124
+news,61,full_context,True,72,1,59.1,16124,2,16126
+news,71,full_context,False,Hugo Chavez,1,0.8,16121,4,16125
+news,69,full_context,True,Sunday.,1,58.4,16122,3,16125
+news,74,full_context,False,Increasing taxes on luxury items.,1,0.6,16118,7,16125
+news,77,full_context,False,It was set on fire.,1,0.4,16119,7,16126
+news,78,full_context,True,Falsely imprisoning a male escort.,1,0.5,16119,10,16129
+news,76,full_context,True,Capital murder.,1,0.6,16122,4,16126
+news,80,full_context,True,Five to nine years.,1,0.5,16125,6,16131
+news,79,full_context,False,He handcuffed Carlsen to investigate alleged computer tampering.,1,0.8,16122,13,16135
+news,81,full_context,False,March.,1,0.9,16117,3,16120
+news,82,full_context,False,Life in prison.,1,0.8,16117,5,16122
+news,84,full_context,False,They were shocked.,1,0.7,16118,5,16123
+news,85,full_context,True,"Luanda, Angola.",1,0.6,16123,6,16129
+news,86,full_context,True,43,1,0.7,16125,2,16127
+news,88,full_context,True,The Manzanis.,1,0.5,16124,6,16130
+news,83,full_context,False,Hudson River.,1,1.1,16116,5,16121
+news,89,full_context,False,North College Street.,1,0.4,16118,5,16123
+news,90,full_context,True,Lionel Messi.,1,0.5,16122,6,16128
+news,87,full_context,True,Kirstie Alley.,1,1.0,16122,6,16128
+news,94,full_context,True,The Taliban.,1,0.4,16118,4,16122
+news,96,full_context,True,Philadelphia.,1,57.8,16118,3,16121
+news,98,full_context,False,"Afghanistan, Iraq, Colombia, Pakistan, and others.",1,57.7,16117,14,16131
+news,99,full_context,True,"Haymarket, central London.",1,57.7,16119,7,16126
+news,97,full_context,False,English classes for auto-rickshaw drivers.,1,58.0,16117,10,16127
+news,93,full_context,False,Swat Valley.,1,58.4,16123,5,16128
+news,91,full_context,False,"Barcelona 3, Atletico Madrid 0.",1,58.6,16122,13,16135
+news,100,full_context,False,Suicide bombers.,1,0.5,16120,5,16125
+news,92,full_context,True,Sevilla.,1,58.8,16120,4,16124
+news,95,full_context,True,National Transportation Safety Board.,1,58.6,16118,6,16124
+news,4,chunked_sequential,False,Taliban,1,0.2,485,4,489
+news,2,chunked_sequential,True,Four,1,0.2,483,2,485
+news,1,chunked_sequential,False,Civilians.,1,0.2,482,5,487
+news,5,chunked_sequential,False,Taliban,1,0.3,488,4,492
+news,3,chunked_sequential,False,Tarin Kowt.,1,0.3,483,7,490
+news,7,chunked_sequential,False,Australian soldiers.,1,0.3,488,4,492
+news,9,chunked_sequential,False,50 hours 38 minutes,2,0.7,1304,9,1313
+news,6,chunked_sequential,False,Michio Kanda,2,1.2,1308,8,1316
+news,10,chunked_sequential,False,AC Milan,3,1.1,2447,9,2456
+news,8,chunked_sequential,False,Yes.,4,59.5,4032,12,4044
+news,14,chunked_sequential,True,Second degree aggravated battery.,4,59.9,4032,15,4047
+news,11,chunked_sequential,False,Ballon d'Or,3,60.1,2441,12,2453
+news,13,chunked_sequential,False,Second-degree aggravated battery.,4,60.2,4036,15,4051
+news,19,chunked_sequential,False,Heavy fighting.,1,0.3,480,4,484
+news,21,chunked_sequential,False,Sydney,1,0.5,492,3,495
+news,16,chunked_sequential,False,2006,4,60.0,4020,12,4032
+news,12,chunked_sequential,False,Lionel Messi,4,61.3,4024,14,4038
+news,25,chunked_sequential,False,NATO,1,57.6,481,3,484
+news,15,chunked_sequential,False,Second-degree aggravated battery.,4,118.4,4032,15,4047
+news,17,chunked_sequential,False,Kaka,4,118.0,4024,12,4036
+news,18,chunked_sequential,False,AC Milan,4,60.0,4024,12,4036
+news,29,chunked_sequential,False,26,1,0.7,480,2,482
+news,30,chunked_sequential,False,Afghanistan,1,0.3,481,4,485
+news,23,chunked_sequential,False,2006,4,60.0,4092,12,4104
+news,22,chunked_sequential,False,None.,4,60.4,4052,12,4064
+news,20,chunked_sequential,False,Ballon d'Or,4,60.7,4056,15,4071
+news,33,chunked_sequential,False,Yes,1,0.2,479,2,481
+news,26,chunked_sequential,False,Bryant Purvis.,4,2.2,4020,16,4036
+news,28,chunked_sequential,False,25,4,2.2,4044,11,4055
+news,27,chunked_sequential,False,The ATF is not mentioned in the text.,4,60.0,4028,19,4047
+news,34,chunked_sequential,False,Private Luke Worsley.,1,58.2,482,7,489
+news,38,chunked_sequential,False,Medal of Honor,1,0.4,482,5,487
+news,36,chunked_sequential,False,Bomb making facility,1,59.0,481,4,485
+news,24,chunked_sequential,False,Kaka,4,119.3,4032,12,4044
+news,35,chunked_sequential,False,BUPA was not mentioned in this text.,4,60.0,4032,20,4052
+news,37,chunked_sequential,False,Bryant Purvis.,4,59.7,4060,16,4076
+news,43,chunked_sequential,False,Luke Worsley,1,0.2,480,5,485
+news,31,chunked_sequential,False,Bryant Purvis,4,61.2,4032,15,4047
+news,45,chunked_sequential,False,Tarin Kowt,1,57.8,481,6,487
+news,39,chunked_sequential,False,Bryant Purvis,4,59.9,4036,15,4051
+news,32,chunked_sequential,False,Bryant Purvis,4,118.4,4048,15,4063
+news,41,chunked_sequential,False,Bryant Purvis,4,59.2,4016,15,4031
+news,47,chunked_sequential,False,Afghanistan war,1,0.4,480,5,485
+news,40,chunked_sequential,False,Dale Steyn is not mentioned in this text.,4,60.0,4032,21,4053
+news,48,chunked_sequential,False,The engine was not mentioned.,1,0.6,481,7,488
+news,44,chunked_sequential,False,Murder.,1,59.0,483,4,487
+news,51,chunked_sequential,False,Taliban,1,0.8,482,4,486
+news,50,chunked_sequential,False,Yes,1,0.8,480,2,482
+news,54,chunked_sequential,False,Tarin Kowt,1,0.6,481,6,487
+news,55,chunked_sequential,False,A bomb making facility,1,0.7,481,5,486
+news,58,chunked_sequential,False,Heavy fighting.,1,0.2,482,4,486
+news,42,chunked_sequential,False,Taylor Bradford attended no university in this text.,4,118.8,4028,19,4047
+news,52,chunked_sequential,False,Bryant Purvis,4,59.8,4024,15,4039
+news,49,chunked_sequential,False,Charges were reduced.,4,60.3,4032,15,4047
+news,56,chunked_sequential,False,Bryant Purvis,4,59.6,4060,15,4075
+news,46,chunked_sequential,False,The aircraft is not mentioned.,4,118.3,4036,16,4052
+news,62,chunked_sequential,False,Taliban scandal,1,0.6,480,5,485
+news,53,chunked_sequential,False,2007,4,60.5,4020,12,4032
+news,57,chunked_sequential,False,The men were clearing a Taliban bomb making facility.,4,60.2,4036,20,4056
+news,60,chunked_sequential,False,Bryant,4,2.0,4032,13,4045
+news,64,chunked_sequential,False,Youssif met Kaka.,4,1.5,4044,17,4061
+news,61,chunked_sequential,False,25,4,2.3,4048,11,4059
+news,63,chunked_sequential,False,"Jena, Louisiana.",4,59.3,4064,15,4079
+news,66,chunked_sequential,False,Tarin Kowt,1,59.2,483,6,489
+news,65,chunked_sequential,False,When was dad also this happy?  Not mentioned.,4,59.5,4028,21,4049
+news,70,chunked_sequential,False,Gen. Carlos Branco,1,58.6,487,6,493
+news,67,chunked_sequential,False,Moninder Singh Pandher is not mentioned in this text.,4,59.7,4040,22,4062
+news,59,chunked_sequential,False,Bryant Purvis.,4,120.0,4028,16,4044
+news,74,chunked_sequential,False,Chavez is not mentioned.,4,59.0,4024,16,4040
+news,69,chunked_sequential,False,Amy Winehouse.,4,117.7,4040,14,4054
+news,71,chunked_sequential,False,Bryant Purvis,4,60.3,4036,15,4051
+news,68,chunked_sequential,False,Moninder Singh Pandher,4,118.3,4052,15,4067
+news,75,chunked_sequential,False,Bryant Purvis',4,59.1,4028,16,4044
+news,80,chunked_sequential,False,18 months.,4,1.3,4052,13,4065
+news,73,chunked_sequential,False,Aggravated battery tax,4,61.3,4040,15,4055
+news,72,chunked_sequential,False,5%,4,61.6,4048,12,4060
+news,83,chunked_sequential,False,Tarin Kowt,1,0.3,479,6,485
+news,76,chunked_sequential,False,"Courtney Larrell Lockhart is not mentioned in this text, but Courtney Lockhart is not mentioned either. However, Courtney Larrell Lockhart is mentioned in another chunk of text that I don't have access to.",4,60.6,4040,54,4094
+news,77,chunked_sequential,False,Burk's car is not mentioned.,4,60.5,4028,18,4046
+news,79,chunked_sequential,False,Boy George.,4,60.2,4040,13,4053
+news,81,chunked_sequential,False,Wednesday,4,60.1,4020,11,4031
+news,84,chunked_sequential,False,Heavy fighting,1,58.9,481,3,484
+news,89,chunked_sequential,False,Tarin Kowt,1,0.3,481,6,487
+news,78,chunked_sequential,False,Boy George.,4,61.1,4028,13,4041
+news,85,chunked_sequential,False,"Jena, Louisiana.",4,59.0,4044,15,4059
+news,82,chunked_sequential,False,Casualties.,1,59.5,480,5,485
+news,92,chunked_sequential,False,Australian troops,1,0.3,483,3,486
+news,93,chunked_sequential,False,Afghanistan,1,0.3,486,4,490
+news,94,chunked_sequential,False,Taliban,1,0.3,481,4,485
+news,95,chunked_sequential,False,NATO,1,0.8,481,3,484
+news,96,chunked_sequential,False,Tarin Kowt,1,1.0,481,6,487
+news,98,chunked_sequential,False,Afghanistan,1,57.8,480,4,484
+news,86,chunked_sequential,False,NATO,4,117.4,4052,12,4064
+news,88,chunked_sequential,False,Alley.,4,59.6,4048,13,4061
+news,91,chunked_sequential,False,Kaka.,4,59.3,4040,13,4053
+news,87,chunked_sequential,False,Bryant Purvis.,4,60.1,4040,16,4056
+news,97,chunked_sequential,False,Casualties of war.,1,59.3,480,7,487
+news,90,chunked_sequential,False,Bryant Purvis,4,60.3,4040,15,4055
+news,99,chunked_sequential,False,Uruzgan province,4,59.2,4028,14,4042
+news,100,chunked_sequential,False,A bomb.,4,1.7,4032,13,4045
+statute,2,closed_book,False,Copyright.,1,0.2,104,3,107
+statute,3,closed_book,False,Fair use.,1,0.2,105,4,109
+statute,6,closed_book,False,Moral rights.,1,0.2,118,5,123
+statute,5,closed_book,False,Mechanical and performance rights.,1,0.3,107,7,114
+statute,1,closed_book,False,"A building, structure, or design.",1,0.3,98,9,107
+statute,4,closed_book,False,"Reproduction, distribution, and display.",1,0.3,105,9,114
+statute,8,closed_book,False,Five years.,1,0.4,118,4,122
+statute,9,closed_book,False,Certain noncommercial uses.,1,0.2,117,6,123
+statute,7,closed_book,False,Lack of widespread adoption.,1,0.5,108,7,115
+statute,11,closed_book,False,Reasonable measures.,1,0.3,113,5,118
+statute,10,closed_book,False,Fair use.,1,0.3,114,4,118
+statute,2,full_context,False,Section 103.,1,0.9,18546,5,18551
+statute,1,full_context,False,The design of a building.,1,0.9,18540,7,18547
+statute,6,full_context,True,The life of the author.,1,57.9,18560,7,18567
+statute,5,full_context,True,To perform the copyrighted work publicly by means of a digital audio transmission.,1,58.4,18549,15,18564
+statute,7,full_context,True,The machine or device necessary to render perceptible a work stored in that format is no longer manufactured or is no longer reasonably available in the commercial marketplace.,1,58.4,18550,31,18581
+statute,9,full_context,False,Computer programs embodied in a machine or product.,1,57.6,18559,10,18569
+statute,11,full_context,False,Reasonably prevent retention and unauthorized further dissemination.,1,0.8,18555,10,18565
+statute,4,full_context,False,"To reproduce, distribute, display, and perform the work.",1,58.8,18547,13,18560
+statute,10,full_context,True,In a classroom or similar place devoted to instruction.,1,58.0,18556,11,18567
+statute,8,full_context,False,The date of publication in the Federal Register of the notice of intent filed with the Copyright Office or the date of receipt of actual notice served under section 104A(d)(2)(B).,1,59.0,18560,39,18599
+statute,3,full_context,True,Protection for a work employing preexisting material in which copyright subsists does not extend to any part of the work in which such material has been used unlawfully.,1,59.0,18547,33,18580
+statute,2,chunked_sequential,False,Copyright.,1,0.2,193,3,196
+statute,3,chunked_sequential,False,Ideas,3,1.2,9852,9,9861
+statute,5,chunked_sequential,False,"The rights of the copyright owner in the case of sound recordings include the exclusive rights to reproduce, distribute, and display the sound recording, as well as to create derivative works and to perform the sound recording publicly.",4,59.2,15087,52,15139
+statute,1,chunked_sequential,True,An architectural work is the design of a building as embodied in any tangible medium of expression.,4,59.3,15051,28,15079
+statute,4,chunked_sequential,False,"The exclusive rights of the copyright owner under this title include reproduction, preparation of derivative works, distribution, public performance, and public display.",4,59.3,15079,37,15116
+statute,8,chunked_sequential,False,3 years,4,59.5,15131,12,15143
+statute,6,chunked_sequential,False,Copyright protection.,4,60.3,15131,13,15144
+statute,9,chunked_sequential,False,"Ideas, procedures, processes, systems, methods of operation, concepts, principles, or discoveries.",4,60.2,15127,30,15157
+statute,7,chunked_sequential,False,A format is considered obsolete under subsection (c) if it is no longer commercially available.,4,60.5,15091,28,15119
+statute,10,chunked_sequential,False,Performance or display of a work by instructors or pupils in a nonprofit educational institution is not infringement.,4,60.0,15115,29,15144
+statute,11,chunked_sequential,False,Technological measures must be implemented by the copyright owner.,4,2.2,15111,21,15132
+novel,4,closed_book,False,Dead.,1,0.2,109,3,112
+novel,5,closed_book,False,The forest.,1,0.3,106,4,110
+novel,9,closed_book,False,Soldiers.,1,0.3,97,4,101
+novel,1,closed_book,False,Founding Singapore.,1,0.3,99,5,104
+novel,0,closed_book,False,Pet theft.,1,0.3,105,4,109
+novel,7,closed_book,False,The Savoy.,1,0.3,101,5,106
+novel,2,closed_book,False,The Great Muffin Heist.,1,0.3,103,9,112
+novel,6,closed_book,False,Ebenezer Scrooge.,1,0.3,98,8,106
+novel,14,closed_book,False,Romeo.,1,0.2,99,5,104
+novel,11,closed_book,False,Bobby.,1,0.3,102,4,106
+novel,13,closed_book,False,Sergeant York.,1,0.3,100,6,106
+novel,15,closed_book,False,Three.,1,57.0,100,3,103
+novel,21,closed_book,False,Fyodor Karamazov.,1,56.9,107,9,116
+novel,16,closed_book,False,Jim.,1,57.1,102,3,105
+novel,23,closed_book,False,Ebenezer Scrooge.,1,57.0,102,8,110
+novel,26,closed_book,False,Sherlock Holmes,1,57.0,108,4,112
+novel,19,closed_book,False,Detectives.,1,57.4,102,4,106
+novel,29,closed_book,False,Andy Dufresne.,1,0.6,99,7,106
+novel,25,closed_book,False,Achilles.,1,57.5,99,5,104
+novel,28,closed_book,True,Burglary.,1,1.5,107,6,113
+novel,22,closed_book,False,"Edgar Allan Poe's character, Roderick Usher.",1,181.2,103,14,117
+novel,1,full_context,False,Burgling.,1,5.1,86027,5,86032
+novel,9,full_context,True,Raffles.,1,5.1,86025,4,86029
+novel,4,full_context,True,Drowned.,1,5.1,86037,4,86041
+novel,7,full_context,False,Holland Walk.,1,5.1,86029,5,86034
+novel,5,full_context,False,The Albany.,1,5.1,86034,4,86038
+novel,2,full_context,False,The Emperor's pearl.,1,5.1,86031,6,86037
+novel,0,full_context,True,Burglary.,1,5.1,86033,6,86039
+novel,6,full_context,False,Lord Lochmaben.,1,5.1,86026,6,86032
+novel,11,full_context,False,A street sloucher.,1,0.6,86030,6,86036
+novel,14,full_context,False,Harry,1,0.7,86027,2,86029
+novel,21,full_context,True,Raffles,1,0.8,86035,3,86038
+novel,22,full_context,False,Colonel Crutchley.,1,0.9,86031,7,86038
+novel,19,full_context,False,Professional cracksmen.,1,1.0,86030,6,86036
+novel,23,full_context,False,Colonel Crutchley.,1,0.6,86030,7,86037
+novel,15,full_context,False,7,1,1.1,86028,2,86030
+novel,16,full_context,False,Raffles.,1,1.2,86030,4,86034
+novel,25,full_context,True,Raffles.,1,0.5,86027,4,86031
+novel,26,full_context,False,Harry.,1,0.5,86036,3,86039
+novel,28,full_context,False,Breaking into the house of Lord Lochmaben.,1,0.6,86035,11,86046
+novel,29,full_context,True,Bunny.,1,0.7,86027,4,86031
+novel,13,full_context,False,Harry,1,4.0,86028,2,86030
+novel,6,chunked_sequential,False,Raffles,1,0.2,447,3,450
+novel,1,chunked_sequential,False,A thief.,1,0.2,448,4,452
+novel,2,chunked_sequential,False,Raffles' advice,3,56.3,2591,11,2602
+novel,4,chunked_sequential,False,dead,4,56.4,4346,11,4357
+novel,11,chunked_sequential,False,Bunny,3,56.7,2588,9,2597
+novel,5,chunked_sequential,False,A rich invalid.,4,59.8,4334,14,4348
+novel,7,chunked_sequential,False,The Albany.,4,60.3,4314,13,4327
+novel,13,chunked_sequential,False,Raffles.,4,60.0,4310,13,4323
+novel,0,chunked_sequential,True,Burglary.,4,60.3,4330,15,4345
+novel,14,chunked_sequential,False,Phillipi,4,54.9,4306,12,4318
+novel,19,chunked_sequential,False,Thief,3,56.5,2588,9,2597
+novel,15,chunked_sequential,True,Two,4,60.0,4310,11,4321
+novel,9,chunked_sequential,True,Raffles' friend dies in battle.,4,116.4,4298,18,4316
+novel,22,chunked_sequential,False,Raffles.,4,56.7,4322,13,4335
+novel,23,chunked_sequential,True,Raffles' invalid friend is a rich man named Hector Carruthers.,4,57.1,4318,25,4343
+novel,16,chunked_sequential,False,Raffles' nephew.,4,62.9,4318,15,4333
+novel,28,chunked_sequential,False,Baccarat.,3,4.1,2603,11,2614
+novel,25,chunked_sequential,True,Raffles.,4,60.0,4306,13,4319
+novel,21,chunked_sequential,False,Bunny.,4,111.0,4338,13,4351
+novel,29,chunked_sequential,False,Raffles.,4,55.0,4306,13,4319
+novel,26,chunked_sequential,True,Bunny.,4,55.1,4342,13,4355
+caselaw,2,closed_book,False,4,1,0.2,213,2,215
+caselaw,1,closed_book,False,5,1,0.2,267,2,269
+caselaw,6,closed_book,False,3,1,4.7,231,2,233
+caselaw,9,closed_book,True,5,1,4.6,246,2,248
+caselaw,4,closed_book,True,1,1,4.8,228,2,230
+caselaw,3,closed_book,True,5,1,4.8,191,2,193
+caselaw,7,closed_book,False,4,1,4.8,205,2,207
+caselaw,10,closed_book,True,3,1,4.6,233,2,235
+caselaw,8,closed_book,True,4,1,4.9,205,2,207
+caselaw,5,closed_book,False,5,1,4.9,355,2,357
+caselaw,12,closed_book,False,4,1,0.5,311,2,313
+caselaw,11,closed_book,False,1,1,0.8,237,2,239
+caselaw,16,closed_book,False,5,1,0.7,219,2,221
+caselaw,17,closed_book,False,4,1,0.8,293,2,295
+caselaw,13,closed_book,False,5,1,1.1,272,2,274
+caselaw,15,closed_book,False,5,1,3.5,178,2,180
+caselaw,22,closed_book,True,5,1,3.1,309,2,311
+caselaw,21,closed_book,False,5),1,3.2,205,3,208
+caselaw,24,closed_book,False,5,1,0.4,286,2,288
+caselaw,19,closed_book,True,3,1,3.5,242,2,244
+caselaw,23,closed_book,False,2,1,3.0,310,2,312
+caselaw,18,closed_book,False,3,1,4.1,259,2,261
+caselaw,29,closed_book,False,4,1,0.2,295,2,297
+caselaw,30,closed_book,False,2),1,50.0,196,3,199
+caselaw,26,closed_book,False,5,1,50.9,290,2,292
+caselaw,25,closed_book,False,3,1,50.9,189,2,191
+caselaw,31,closed_book,False,2,1,50.6,250,2,252
+caselaw,27,closed_book,True,2,1,50.9,223,2,225
+caselaw,14,closed_book,True,2,1,55.1,280,2,282
+caselaw,33,closed_book,True,5),1,0.3,240,3,243
+caselaw,28,closed_book,False,3,1,51.4,220,2,222
+caselaw,20,closed_book,True,5,1,54.7,264,2,266
+caselaw,36,closed_book,False,5,1,5.1,466,2,468
+caselaw,34,closed_book,False,2,1,5.2,278,2,280
+caselaw,37,closed_book,True,5,1,4.9,204,2,206
+caselaw,38,closed_book,False,3,1,4.9,220,2,222
+caselaw,39,closed_book,False,2,1,4.7,207,2,209
+caselaw,35,closed_book,True,2,1,5.2,306,2,308
+caselaw,40,closed_book,False,2,1,4.7,269,2,271
+caselaw,32,closed_book,False,5,1,5.9,231,2,233
+caselaw,43,closed_book,False,5,1,0.4,262,2,264
+caselaw,46,closed_book,False,2),1,0.6,215,3,218
+caselaw,45,closed_book,False,2),1,0.8,248,3,251
+caselaw,47,closed_book,False,4,1,0.9,239,2,241
+caselaw,41,closed_book,False,3,1,1.1,211,2,213
+caselaw,52,closed_book,False,2),1,2.6,198,3,201
+caselaw,53,closed_book,True,3,1,3.0,228,2,230
+caselaw,54,closed_book,False,2),1,0.5,224,3,227
+caselaw,48,closed_book,True,5,1,3.9,219,2,221
+caselaw,51,closed_book,True,5,1,3.1,230,2,232
+caselaw,44,closed_book,False,5,1,4.0,201,2,203
+caselaw,49,closed_book,False,3,1,3.7,234,2,236
+caselaw,59,closed_book,False,1,1,0.2,312,2,314
+caselaw,57,closed_book,True,2,1,50.2,281,2,283
+caselaw,55,closed_book,True,2,1,50.9,300,2,302
+caselaw,61,closed_book,False,3,1,50.5,193,2,195
+caselaw,62,closed_book,False,3,1,0.6,211,2,213
+caselaw,56,closed_book,True,2,1,50.9,247,2,249
+caselaw,60,closed_book,True,4,1,50.9,219,2,221
+caselaw,63,closed_book,False,4,1,0.3,280,2,282
+caselaw,58,closed_book,False,4,1,51.4,275,2,277
+caselaw,50,closed_book,False,4,1,54.7,313,2,315
+caselaw,69,closed_book,False,2,1,4.7,192,2,194
+caselaw,70,closed_book,False,2,1,4.7,228,2,230
+caselaw,65,closed_book,False,1,1,5.2,252,2,254
+caselaw,66,closed_book,False,2,1,5.3,242,2,244
+caselaw,67,closed_book,False,4,1,5.1,218,2,220
+caselaw,64,closed_book,False,2,1,5.4,328,2,330
+caselaw,42,closed_book,False,5,1,60.2,258,2,260
+caselaw,68,closed_book,True,2,1,5.1,301,2,303
+caselaw,71,closed_book,False,2,1,0.4,254,2,256
+caselaw,72,closed_book,False,2,1,0.7,338,2,340
+caselaw,76,closed_book,False,4,1,0.6,210,2,212
+caselaw,73,closed_book,False,3,1,0.8,213,2,215
+caselaw,78,closed_book,False,5,1,0.8,226,2,228
+caselaw,82,closed_book,True,4,1,2.6,229,2,231
+caselaw,80,closed_book,False,1,1,3.2,301,2,303
+caselaw,75,closed_book,True,2,1,3.8,210,2,212
+caselaw,84,closed_book,False,1,1,0.5,215,2,217
+caselaw,74,closed_book,True,5,1,3.9,291,2,293
+caselaw,77,closed_book,False,2,1,4.0,227,2,229
+caselaw,88,closed_book,False,1,1,0.2,238,2,240
+caselaw,85,closed_book,True,2,1,0.3,226,2,228
+caselaw,83,closed_book,False,3,1,53.2,188,2,190
+caselaw,92,closed_book,False,4,1,0.6,224,2,226
+caselaw,79,closed_book,False,5,1,54.4,275,2,277
+caselaw,86,closed_book,False,2,1,50.9,220,2,222
+caselaw,90,closed_book,False,3,1,50.6,265,2,267
+caselaw,89,closed_book,False,3,1,50.9,217,2,219
+caselaw,93,closed_book,False,5,1,0.3,276,2,278
+caselaw,94,closed_book,False,1,1,0.5,249,2,251
+caselaw,98,closed_book,False,2,1,0.2,221,2,223
+caselaw,87,closed_book,False,3,1,55.9,239,2,241
+caselaw,91,closed_book,True,2,1,55.7,241,2,243
+caselaw,97,closed_book,False,5,1,4.9,222,2,224
+caselaw,99,closed_book,False,4,1,4.6,260,2,262
+caselaw,96,closed_book,False,5,1,5.2,237,2,239
+caselaw,81,closed_book,False,2,1,59.2,272,2,274
+caselaw,100,closed_book,True,4,1,4.7,234,2,236
+caselaw,95,closed_book,False,4,1,5.2,231,2,233
+caselaw,7,full_context,False,3,1,1.1,21967,2,21969
+caselaw,2,full_context,False,4,1,1.2,21975,2,21977
+caselaw,8,full_context,False,2,1,1.2,21967,2,21969
+caselaw,5,full_context,False,5,1,1.5,22117,2,22119
+caselaw,1,full_context,False,2,1,1.6,22029,2,22031
+caselaw,3,full_context,True,5,1,3.5,21953,2,21955
+caselaw,14,full_context,True,2,1,0.5,22042,2,22044
+caselaw,13,full_context,True,2,1,2.4,22034,2,22036
+caselaw,10,full_context,True,3,1,2.9,21995,2,21997
+caselaw,11,full_context,False,3,1,2.9,21999,2,22001
+caselaw,4,full_context,False,4,1,4.2,21990,2,21992
+caselaw,15,full_context,False,5,1,0.3,21940,2,21942
+caselaw,6,full_context,False,3),1,4.3,21993,3,21996
+caselaw,21,full_context,False,5,1,50.0,21967,2,21969
+caselaw,22,full_context,False,2,1,0.6,22071,2,22073
+caselaw,16,full_context,False,5,1,50.9,21981,2,21983
+caselaw,18,full_context,False,2,1,50.8,22021,2,22023
+caselaw,17,full_context,False,4,1,50.8,22055,2,22057
+caselaw,24,full_context,False,5,1,0.3,22048,2,22050
+caselaw,12,full_context,False,4,1,53.9,22073,2,22075
+caselaw,9,full_context,True,5,1,54.4,22008,2,22010
+caselaw,20,full_context,True,5,1,51.5,22026,2,22028
+caselaw,19,full_context,False,5,1,55.8,22004,2,22006
+caselaw,30,full_context,True,5,1,4.3,21958,2,21960
+caselaw,25,full_context,False,3,1,5.2,21951,2,21953
+caselaw,28,full_context,False,5,1,4.8,21982,2,21984
+caselaw,26,full_context,False,5,1,5.3,22052,2,22054
+caselaw,29,full_context,False,4,1,4.7,22057,2,22059
+caselaw,27,full_context,True,2),1,5.0,21985,3,21988
+caselaw,23,full_context,False,2,1,5.3,22072,2,22074
+caselaw,32,full_context,False,5,1,0.5,21993,2,21995
+caselaw,35,full_context,True,2,1,0.5,22068,2,22070
+caselaw,37,full_context,False,1,1,0.6,21966,2,21968
+caselaw,38,full_context,False,3,1,0.8,21982,2,21984
+caselaw,33,full_context,False,4,1,0.9,22002,2,22004
+caselaw,41,full_context,False,3,1,2.7,21973,2,21975
+caselaw,36,full_context,False,5,1,3.8,22228,2,22230
+caselaw,34,full_context,False,2,1,3.8,22040,2,22042
+caselaw,44,full_context,False,5,1,0.7,21963,2,21965
+caselaw,31,full_context,True,5,1,4.2,22012,2,22014
+caselaw,42,full_context,False,5,1,3.3,22020,2,22022
+caselaw,46,full_context,False,2,1,0.3,21977,2,21979
+caselaw,45,full_context,False,2,1,0.3,22010,2,22012
+caselaw,39,full_context,False,2,1,53.8,21969,2,21971
+caselaw,50,full_context,False,2,1,50.6,22075,2,22077
+caselaw,51,full_context,True,5,1,50.6,21992,2,21994
+caselaw,40,full_context,False,2,1,54.2,22031,2,22033
+caselaw,49,full_context,True,5,1,50.7,21996,2,21998
+caselaw,43,full_context,True,4,1,54.1,22024,2,22026
+caselaw,52,full_context,False,2,1,0.8,21960,2,21962
+caselaw,53,full_context,False,2,1,0.5,21990,2,21992
+caselaw,48,full_context,False,3,1,51.4,21981,2,21983
+caselaw,59,full_context,False,5,1,4.5,22074,2,22076
+caselaw,55,full_context,True,2,1,5.2,22062,2,22064
+caselaw,47,full_context,True,3,1,56.0,22001,2,22003
+caselaw,56,full_context,True,2,1,5.3,22009,2,22011
+caselaw,60,full_context,True,4,1,4.6,21981,2,21983
+caselaw,58,full_context,False,4,1,5.0,22037,2,22039
+caselaw,54,full_context,True,4,1,5.4,21986,2,21988
+caselaw,57,full_context,True,2,1,5.1,22043,2,22045
+caselaw,61,full_context,False,3,1,0.5,21955,2,21957
+caselaw,65,full_context,False,4,1,0.9,22014,2,22016
+caselaw,69,full_context,False,2,1,0.6,21954,2,21956
+caselaw,63,full_context,True,2),1,1.1,22042,3,22045
+caselaw,64,full_context,True,4,1,1.1,22090,2,22092
+caselaw,72,full_context,False,2,1,2.3,22100,2,22102
+caselaw,73,full_context,False,3,1,2.7,21975,2,21977
+caselaw,71,full_context,False,4,1,2.9,22016,2,22018
+caselaw,74,full_context,True,5,1,0.6,22053,2,22055
+caselaw,66,full_context,False,2,1,3.9,22004,2,22006
+caselaw,70,full_context,False,2),1,3.2,21990,3,21993
+caselaw,68,full_context,True,2,1,4.1,22063,2,22065
+caselaw,76,full_context,False,4,1,0.3,21972,2,21974
+caselaw,81,full_context,False,3,1,50.2,22034,2,22036
+caselaw,67,full_context,True,5,1,54.6,21980,2,21982
+caselaw,77,full_context,False,3,1,50.8,21989,2,21991
+caselaw,78,full_context,True,4,1,50.8,21988,2,21990
+caselaw,79,full_context,True,3,1,50.7,22037,2,22039
+caselaw,62,full_context,False,5,1,55.0,21973,2,21975
+caselaw,75,full_context,True,2),1,51.3,21972,3,21975
+caselaw,84,full_context,False,5,1,0.5,21977,2,21979
+caselaw,83,full_context,True,2,1,1.5,21950,2,21952
+caselaw,80,full_context,False,3,1,55.6,22063,2,22065
+caselaw,86,full_context,True,5,1,5.2,21982,2,21984
+caselaw,87,full_context,False,3,1,5.0,22001,2,22003
+caselaw,85,full_context,True,2,1,5.2,21988,2,21990
+caselaw,90,full_context,False,3),1,3.7,22027,3,22030
+caselaw,88,full_context,False,1,1,4.8,22000,2,22002
+caselaw,89,full_context,True,4,1,4.7,21979,2,21981
+caselaw,82,full_context,True,4,1,5.7,21991,2,21993
+caselaw,92,full_context,True,2,1,0.4,21986,2,21988
+caselaw,93,full_context,False,5,1,0.6,22038,2,22040
+caselaw,95,full_context,False,4,1,0.7,21993,2,21995
+caselaw,99,full_context,False,4,1,0.4,22022,2,22024
+caselaw,98,full_context,True,3,1,0.8,21983,2,21985
+caselaw,94,full_context,True,2,1,3.4,22011,2,22013
+caselaw,100,full_context,True,4,1,3.3,21996,2,21998
+caselaw,91,full_context,True,2,1,4.2,22003,2,22005
+caselaw,96,full_context,False,5,1,4.1,21999,2,22001
+caselaw,97,full_context,False,4,1,4.1,21984,2,21986
+caselaw,1,chunked_sequential,True,1,1,0.2,569,2,571
+caselaw,5,chunked_sequential,False,3,4,55.7,4187,11,4198
+caselaw,3,chunked_sequential,True,5,3,55.7,2229,8,2237
+caselaw,7,chunked_sequential,False,4,4,59.7,3587,11,3598
+caselaw,8,chunked_sequential,False,5,4,59.8,3587,11,3598
+caselaw,9,chunked_sequential,True,5,4,109.9,3751,11,3762
+caselaw,4,chunked_sequential,False,3,4,110.5,3679,11,3690
+caselaw,11,chunked_sequential,True,5,4,54.8,3715,11,3726
+caselaw,15,chunked_sequential,True,1,1,0.5,480,2,482
+caselaw,6,chunked_sequential,False,3,4,111.1,3691,11,3702
+caselaw,2,chunked_sequential,False,4,4,115.7,3619,11,3630
+caselaw,10,chunked_sequential,False,5,4,61.0,3699,11,3710
+caselaw,12,chunked_sequential,False,4,4,57.0,4011,11,4022
+caselaw,14,chunked_sequential,True,2,4,9.7,3887,11,3898
+caselaw,13,chunked_sequential,False,5,4,60.5,3855,11,3866
+caselaw,16,chunked_sequential,False,5,4,60.0,3643,11,3654
+caselaw,17,chunked_sequential,False,4,4,60.0,3939,11,3950
+caselaw,21,chunked_sequential,False,3,4,59.0,3587,11,3598
+caselaw,20,chunked_sequential,True,5,4,59.1,3823,11,3834
+caselaw,19,chunked_sequential,True,3,4,60.8,3735,11,3746
+caselaw,23,chunked_sequential,False,2,4,59.9,4007,11,4018
+caselaw,18,chunked_sequential,False,3,4,69.3,3803,11,3814
+caselaw,22,chunked_sequential,True,5,4,111.0,4003,11,4014
+caselaw,24,chunked_sequential,False,3,4,60.5,3911,11,3922
+caselaw,25,chunked_sequential,False,3,4,64.6,3523,11,3534
+caselaw,27,chunked_sequential,True,2,4,60.0,3659,11,3670
+caselaw,26,chunked_sequential,False,5,4,60.1,3927,11,3938
+caselaw,30,chunked_sequential,False,2,4,58.9,3551,11,3562
+caselaw,28,chunked_sequential,False,2,4,63.2,3647,11,3658
+caselaw,37,chunked_sequential,True,5,1,0.5,506,2,508
+caselaw,32,chunked_sequential,False,3,4,59.0,3691,11,3702
+caselaw,29,chunked_sequential,True,5,4,110.9,3947,11,3958
+caselaw,35,chunked_sequential,False,5,4,59.8,3991,11,4002
+caselaw,31,chunked_sequential,False,2,4,64.9,3767,11,3778
+caselaw,36,chunked_sequential,False,5,4,56.5,4631,11,4642
+caselaw,33,chunked_sequential,False,2,4,61.0,3727,11,3738
+caselaw,38,chunked_sequential,False,3,4,59.6,3647,11,3658
+caselaw,40,chunked_sequential,True,3,4,8.8,3843,11,3854
+caselaw,44,chunked_sequential,False,5,4,53.9,3571,11,3582
+caselaw,34,chunked_sequential,True,3,4,115.3,3879,11,3890
+caselaw,39,chunked_sequential,False,2,4,65.6,3595,11,3606
+caselaw,41,chunked_sequential,False,3,4,60.1,3611,11,3622
+caselaw,43,chunked_sequential,False,5,4,60.1,3815,11,3826
+caselaw,48,chunked_sequential,False,3,4,8.6,3643,11,3654
+caselaw,46,chunked_sequential,False,2,4,60.3,3627,11,3638
+caselaw,45,chunked_sequential,False,3,4,110.8,3759,11,3770
+caselaw,53,chunked_sequential,False,5,1,50.4,530,2,532
+caselaw,42,chunked_sequential,False,5,4,115.1,3799,11,3810
+caselaw,51,chunked_sequential,True,5,4,55.2,3687,11,3698
+caselaw,47,chunked_sequential,False,5,4,65.1,3723,11,3734
+caselaw,50,chunked_sequential,False,5,4,60.9,4019,11,4030
+caselaw,52,chunked_sequential,False,5,4,60.2,3559,11,3570
+caselaw,56,chunked_sequential,True,2,4,9.1,3755,11,3766
+caselaw,57,chunked_sequential,False,4,4,59.6,3891,11,3902
+caselaw,54,chunked_sequential,False,2,4,60.5,3663,11,3674
+caselaw,60,chunked_sequential,False,2,4,57.0,3643,11,3654
+caselaw,58,chunked_sequential,False,4,4,61.2,3867,11,3878
+caselaw,49,chunked_sequential,True,5,4,121.3,3703,11,3714
+caselaw,59,chunked_sequential,False,5,4,60.3,4015,11,4026
+caselaw,55,chunked_sequential,True,2,4,69.3,3967,11,3978
+caselaw,61,chunked_sequential,False,3,4,110.7,3539,11,3550
+caselaw,63,chunked_sequential,True,2,4,59.5,3887,11,3898
+caselaw,65,chunked_sequential,True,5,4,58.8,3775,11,3786
+caselaw,62,chunked_sequential,False,5,4,65.0,3611,11,3622
+caselaw,64,chunked_sequential,False,3,4,58.9,4079,11,4090
+caselaw,67,chunked_sequential,False,3,4,59.3,3639,11,3650
+caselaw,66,chunked_sequential,False,5,4,60.3,3735,11,3746
+caselaw,68,chunked_sequential,True,2,4,60.0,3971,11,3982
+caselaw,73,chunked_sequential,False,3,4,55.0,3619,11,3630
+caselaw,69,chunked_sequential,False,3,4,60.3,3535,11,3546
+caselaw,74,chunked_sequential,True,5,4,59.6,3931,11,3942
+caselaw,70,chunked_sequential,False,2,4,65.2,3679,11,3690
+caselaw,72,chunked_sequential,False,2,4,61.3,4119,11,4130
+caselaw,75,chunked_sequential,True,2,4,60.0,3607,11,3618
+caselaw,76,chunked_sequential,False,4,4,57.4,3607,11,3618
+caselaw,71,chunked_sequential,False,2,4,63.9,3783,11,3794
+caselaw,78,chunked_sequential,False,5,4,59.7,3671,11,3682
+caselaw,77,chunked_sequential,True,5,4,59.9,3675,11,3686
+caselaw,82,chunked_sequential,True,4,4,58.5,3683,11,3694
+caselaw,79,chunked_sequential,False,2,4,60.0,3867,11,3878
+caselaw,81,chunked_sequential,False,3,4,60.1,3855,11,3866
+caselaw,80,chunked_sequential,False,1,4,63.4,3971,11,3982
+caselaw,83,chunked_sequential,False,3,4,62.4,3519,11,3530
+caselaw,84,chunked_sequential,False,3,4,110.9,3627,11,3638
+caselaw,86,chunked_sequential,False,3,4,60.2,3647,11,3658
+caselaw,88,chunked_sequential,True,2,4,55.3,3719,11,3730
+caselaw,90,chunked_sequential,False,3,4,56.5,3827,11,3838
+caselaw,85,chunked_sequential,False,3,4,65.3,3671,11,3682
+caselaw,87,chunked_sequential,False,3,4,61.5,3723,11,3734
+caselaw,94,chunked_sequential,True,2,4,8.1,3763,11,3774
+caselaw,91,chunked_sequential,True,2,4,60.2,3731,11,3742
+caselaw,95,chunked_sequential,False,5,4,4.7,3691,11,3702
+caselaw,89,chunked_sequential,False,3,4,112.9,3635,11,3646
+caselaw,93,chunked_sequential,False,3,4,59.9,3871,11,3882
+caselaw,97,chunked_sequential,False,5,4,58.5,3655,11,3666
+caselaw,96,chunked_sequential,False,5,4,60.2,3715,11,3726
+caselaw,92,chunked_sequential,False,4,4,66.7,3663,11,3674
+caselaw,99,chunked_sequential,False,2,4,57.5,3807,11,3818
+caselaw,98,chunked_sequential,False,2,4,60.0,3651,11,3662
+caselaw,100,chunked_sequential,True,4,4,59.3,3703,11,3714
