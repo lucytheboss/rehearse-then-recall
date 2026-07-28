@@ -1,4 +1,4 @@
-"""gisting(청크 요약 재료) 단위 테스트 — 전부 mock embed_fn으로 동작, API 키/네트워크 불필요."""
+"""Unit tests for gisting (chunk-summary material) — all run against a mock embed_fn, no API key/network required."""
 
 import os
 
@@ -19,35 +19,44 @@ def config():
 @pytest.fixture
 def chunks():
     return [
-        Chunk(text="고양이가 창밖을 바라본다.", index=0),
-        Chunk(text="고양이가 창밖을 바라본다. 주가 지수가 급락했다. 고양이는 낮잠을 잔다. 부동산 시장이 얼어붙었다.", index=1),
-        Chunk(text="고양이는 낮잠을 잔다.", index=2),
+        Chunk(text="The cat looks out the window.", index=0),
+        Chunk(
+            text="The cat looks out the window. The stock index plunged. The cat takes a nap. "
+            "The real estate market froze.",
+            index=1,
+        ),
+        Chunk(text="The cat takes a nap.", index=2),
     ]
 
 
 def _fake_embed_by_keyword(texts, input_type, model, truncate, api_key, timeout=30.0, dimensions=None):
-    """'고양이' 포함 여부로 벡터를 갈라 유사도 차이를 만드는 가짜 임베딩."""
-    return [[1.0 if "고양이" in t else 0.0, 1.0 if "고양이" not in t else 0.0, 0.1] for t in texts]
+    """A fake embedding that splits vectors by whether the text contains "cat", to produce a similarity difference."""
+    return [[1.0 if "cat" in t else 0.0, 1.0 if "cat" not in t else 0.0, 0.1] for t in texts]
 
 
 def test_score_chunk_sentences_returns_one_score_per_sentence(chunks, config):
-    chunk = chunks[1]  # 4문장
-    chunk_embedding = [1.0, 0.0, 0.1]  # "고양이" 쪽 벡터로 가정
+    chunk = chunks[1]  # 4 sentences
+    chunk_embedding = [1.0, 0.0, 0.1]  # assume the "cat" vector
     scored = score_chunk_sentences(chunk, chunk_embedding, config=config, embed_fn=_fake_embed_by_keyword)
 
     assert scored is not None
     assert len(scored) == 4
     sentences_only = [s for s, _ in scored]
-    assert sentences_only == ["고양이가 창밖을 바라본다.", "주가 지수가 급락했다.", "고양이는 낮잠을 잔다.", "부동산 시장이 얼어붙었다."]
+    assert sentences_only == [
+        "The cat looks out the window.",
+        "The stock index plunged.",
+        "The cat takes a nap.",
+        "The real estate market froze.",
+    ]
 
 
 def test_score_chunk_sentences_higher_score_for_topically_aligned_sentences(chunks, config):
     chunk = chunks[1]
-    chunk_embedding = [1.0, 0.0, 0.1]  # "고양이" 쪽 벡터
+    chunk_embedding = [1.0, 0.0, 0.1]  # the "cat" vector
     scored = score_chunk_sentences(chunk, chunk_embedding, config=config, embed_fn=_fake_embed_by_keyword)
     scores_by_sentence = dict(scored)
 
-    assert scores_by_sentence["고양이가 창밖을 바라본다."] > scores_by_sentence["주가 지수가 급락했다."]
+    assert scores_by_sentence["The cat looks out the window."] > scores_by_sentence["The stock index plunged."]
 
 
 def test_score_chunk_sentences_returns_none_on_api_failure(chunks, config):

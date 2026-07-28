@@ -1,7 +1,8 @@
-"""chuncking 단위 테스트 — kss 외 외부 API 호출 없이 동작.
+"""Unit tests for chuncking — runs with no external API calls other than nltk.
 
-paginate_semantic 관련 테스트는 embed_fn을 mock으로 주입해 실제 NIM API
-호출 없이 동작한다(임베딩/재시도 설정은 configs/importance_filter.yaml 그대로 사용).
+The paginate_semantic-related tests inject a mock embed_fn, so they run
+without any real NIM API calls (the embedding/retry settings still come
+from configs/importance_filter.yaml as-is).
 """
 
 import os
@@ -21,63 +22,64 @@ from src.pipeline.embeddings import EmbeddingAPIError, load_config
 
 
 def test_plain_text_to_paragraphs_splits_on_blank_lines():
-    text = "첫 문단.\n\n둘째 문단."
+    text = "First paragraph.\n\nSecond paragraph."
     paragraphs = plain_text_to_paragraphs(text)
-    assert [p.text for p in paragraphs] == ["첫 문단.", "둘째 문단."]
+    assert [p.text for p in paragraphs] == ["First paragraph.", "Second paragraph."]
 
 
 def test_plain_text_to_paragraphs_char_offset_matches_original():
-    text = "첫 문단.\n\n둘째 문단."
+    text = "First paragraph.\n\nSecond paragraph."
     paragraphs = plain_text_to_paragraphs(text)
     for p in paragraphs:
         assert text[p.char_offset : p.char_offset + len(p.text)] == p.text
 
 
 def test_plain_text_to_paragraphs_normalizes_internal_newline_to_space():
-    text = "한 줄.\n다음 줄로 이어짐."
+    text = "One line.\nContinues to the next line."
     paragraphs = plain_text_to_paragraphs(text)
-    assert paragraphs[0].text == "한 줄. 다음 줄로 이어짐."
+    assert paragraphs[0].text == "One line. Continues to the next line."
 
 
 def test_plain_text_to_paragraphs_scene_break_and_quote_flags():
-    text = "서술 문단.\n\n* * *\n\n다음 문단."
+    text = "Narrative paragraph.\n\n* * *\n\nNext paragraph."
     paragraphs = plain_text_to_paragraphs(text)
     assert [p.is_scene_break for p in paragraphs] == [False, True, False]
     assert all(p.is_quote is False for p in paragraphs)
 
 
 def test_html_to_paragraphs_extracts_p_tags_in_document_order():
-    html = "<html><body><p>첫 문단.</p><div>무시될 div</div><p>둘째 문단.</p></body></html>"
+    html = "<html><body><p>First paragraph.</p><div>ignored div</div><p>Second paragraph.</p></body></html>"
     paragraphs = html_to_paragraphs(html)
-    assert [p.text for p in paragraphs] == ["첫 문단.", "둘째 문단."]
+    assert [p.text for p in paragraphs] == ["First paragraph.", "Second paragraph."]
 
 
 def test_html_to_paragraphs_ignores_table_content():
-    """표는 이미 <p>로 변환된 상태라고 가정 — 남아있는 <table>은 무시한다
-    (convert_korquad_tables.py가 표를 <p>로 치환하지 않고 남겨뒀다면 이 함수가
-    표 데이터를 문단으로 잘못 흡수하지 않는지 확인)."""
-    html = "<body><p>본문 문장.</p><table><tr><td>표 데이터</td></tr></table></body>"
+    """Assumes tables have already been converted to <p> tags — any leftover
+    <table> is ignored (checks that this function doesn't wrongly absorb
+    table data as a paragraph if convert_korquad_tables.py left it as-is
+    instead of replacing it with <p>)."""
+    html = "<body><p>Body sentence.</p><table><tr><td>table data</td></tr></table></body>"
     paragraphs = html_to_paragraphs(html)
-    assert [p.text for p in paragraphs] == ["본문 문장."]
+    assert [p.text for p in paragraphs] == ["Body sentence."]
 
 
 def test_html_to_paragraphs_normalizes_whitespace():
-    html = "<p>  여러   공백과\n줄바꿈이   있는 문단  </p>"
+    html = "<p>  multiple   spaces and\nline breaks   in this paragraph  </p>"
     paragraphs = html_to_paragraphs(html)
-    assert paragraphs[0].text == "여러 공백과 줄바꿈이 있는 문단"
+    assert paragraphs[0].text == "multiple spaces and line breaks in this paragraph"
 
 
 def test_html_to_paragraphs_skips_empty_p_tags():
-    html = "<p>내용 있음.</p><p>   </p><p>다음 내용.</p>"
+    html = "<p>Has content.</p><p>   </p><p>Next content.</p>"
     paragraphs = html_to_paragraphs(html)
-    assert [p.text for p in paragraphs] == ["내용 있음.", "다음 내용."]
-    assert [p.index for p in paragraphs] == [0, 1]  # 빈 문단 스킵해도 index는 연속
+    assert [p.text for p in paragraphs] == ["Has content.", "Next content."]
+    assert [p.index for p in paragraphs] == [0, 1]  # index stays contiguous even though the empty paragraph is skipped
 
 
 def test_html_to_paragraphs_char_offset_matches_joined_text():
-    """char_offset은 원본 HTML이 아니라 '\\n\\n'로 이어붙인 결과 기준
-    (plain_text_to_paragraphs와 같은 좌표계)."""
-    html = "<p>첫 문단.</p><p>둘째 문단.</p>"
+    """char_offset is based on the paragraphs joined with '\\n\\n', not the
+    original HTML (the same coordinate system as plain_text_to_paragraphs)."""
+    html = "<p>First paragraph.</p><p>Second paragraph.</p>"
     paragraphs = html_to_paragraphs(html)
     joined = "\n\n".join(p.text for p in paragraphs)
     for p in paragraphs:
@@ -85,110 +87,112 @@ def test_html_to_paragraphs_char_offset_matches_joined_text():
 
 
 def test_html_to_paragraphs_scene_break_flag():
-    html = "<p>서술 문단.</p><p>* * *</p><p>다음 문단.</p>"
+    html = "<p>Narrative paragraph.</p><p>* * *</p><p>Next paragraph.</p>"
     paragraphs = html_to_paragraphs(html)
     assert [p.is_scene_break for p in paragraphs] == [False, True, False]
 
 
 def test_dialogue_groups_merges_quote_spanning_multiple_sentences():
-    """대사가 kss 문장 조각 여러 개에 걸쳐 있으면 하나의 묶음으로 합쳐진다."""
-    sentences = ["배경 설명 문장.", "“첫 대사 부분.", "두번째 대사 부분?”", "이어지는 서술."]
+    """A line of dialogue split across multiple sentence fragments by nltk
+    should be merged back into a single group."""
+    sentences = ["Background sentence.", "“First line of dialogue.", "Second line of dialogue?”", "Continuing narration."]
     groups = _dialogue_groups(sentences, max_words=100)
     assert groups == [
-        ["배경 설명 문장."],
-        ["“첫 대사 부분.", "두번째 대사 부분?”"],
-        ["이어지는 서술."],
+        ["Background sentence."],
+        ["“First line of dialogue.", "Second line of dialogue?”"],
+        ["Continuing narration."],
     ]
 
 
 def test_dialogue_groups_falls_back_to_sentences_when_group_exceeds_max_words():
-    """대사 묶음의 단어 수가 max_words를 넘으면 문장 단위로 되돌려 청크 상한을 지킨다."""
-    long_dialogue = ["“" + ("가나다 " * 30).strip() + ".", ("라마바 " * 30).strip() + ".”"]
+    """If a dialogue group's word count exceeds max_words, fall back to
+    sentence-level splitting to respect the chunk cap."""
+    long_dialogue = ["“" + ("word " * 30).strip() + ".", ("other " * 30).strip() + ".”"]
     groups = _dialogue_groups(long_dialogue, max_words=50)
     assert groups == [[long_dialogue[0]], [long_dialogue[1]]]
 
 
 def test_dialogue_groups_ignores_english_apostrophe():
-    """'I’m'처럼 알파벳 뒤에 오는 ’는 인용부호가 아니라 아포스트로피로 취급한다."""
-    groups = _dialogue_groups(["I’m fine.", "다음 문장."], max_words=100)
-    assert groups == [["I’m fine."], ["다음 문장."]]
+    """A ’ following a letter, as in 'I’m', is treated as an apostrophe, not a quote mark."""
+    groups = _dialogue_groups(["I’m fine.", "Next sentence."], max_words=100)
+    assert groups == [["I’m fine."], ["Next sentence."]]
 
 
 def test_dialogue_groups_self_closed_quote_stays_single_sentence():
-    groups = _dialogue_groups(["“한 문장 안에서 열리고 닫히는 대사.”", "다음 문장."], max_words=100)
-    assert groups == [["“한 문장 안에서 열리고 닫히는 대사.”"], ["다음 문장."]]
+    groups = _dialogue_groups(["“A line of dialogue opened and closed within one sentence.”", "Next sentence."], max_words=100)
+    assert groups == [["“A line of dialogue opened and closed within one sentence.”"], ["Next sentence."]]
 
 
 def test_dialogue_groups_merges_straight_single_quote_thought_spanning_sentences():
-    """한국어 생각 표현이 곧은 작은따옴표('...')로 여러 문장에 걸쳐 있어도 병합된다."""
-    sentences = ["그는 생각했다.", "'저 사람은 누구지.", "왜 여기 있는 걸까.'", "다시 걸음을 옮겼다."]
+    """A thought expressed with straight single quotes ('...') spanning multiple sentences should still merge."""
+    sentences = ["He thought.", "'Who is that person.", "Why is he here.'", "He walked on again."]
     groups = _dialogue_groups(sentences, max_words=100)
     assert groups == [
-        ["그는 생각했다."],
-        ["'저 사람은 누구지.", "왜 여기 있는 걸까.'"],
-        ["다시 걸음을 옮겼다."],
+        ["He thought."],
+        ["'Who is that person.", "Why is he here.'"],
+        ["He walked on again."],
     ]
 
 
 def test_dialogue_groups_ignores_english_straight_apostrophe():
-    """'don't', 'it's'처럼 알파벳 뒤에 오는 곧은 작은따옴표(')도 인용부호로 오인하지 않는다."""
-    groups = _dialogue_groups(["I don't know.", "It's fine.", "다음 문장."], max_words=100)
-    assert groups == [["I don't know."], ["It's fine."], ["다음 문장."]]
+    """A straight apostrophe (') following a letter, as in 'don't'/'it's', is not mistaken for a quote mark either."""
+    groups = _dialogue_groups(["I don't know.", "It's fine.", "Next sentence."], max_words=100)
+    assert groups == [["I don't know."], ["It's fine."], ["Next sentence."]]
 
 
 def _paragraph(text: str, index: int, char_offset: int, is_scene_break: bool = False) -> Paragraph:
     return Paragraph(text=text, index=index, char_offset=char_offset, is_scene_break=is_scene_break)
 
 
-# --- _paginate_by_word_count_only (paginate_semantic의 API 실패 시 내부 fallback) ---
+# --- _paginate_by_word_count_only (internal fallback for when paginate_semantic's API call fails) ---
 
 
 def test_paginate_by_word_count_only_never_splits_a_sentence():
-    """kss가 반환한 문장 하나하나가 정확히 한 청크의 char 범위 안에 온전히 들어 있다."""
-    text = " ".join(f"이것은 문장 번호 {i}입니다." for i in range(1, 41))
+    """Every sentence returned by nltk falls entirely within exactly one chunk's char range."""
+    text = " ".join(f"This is sentence number {i}." for i in range(1, 41))
     paragraphs = plain_text_to_paragraphs(text)
     chunks = _paginate_by_word_count_only(paragraphs, min_words=10, max_words=30)
 
     search_pos = 0
     for i in range(1, 41):
-        sentence = f"이것은 문장 번호 {i}입니다."
+        sentence = f"This is sentence number {i}."
         offset = text.find(sentence, search_pos)
         search_pos = offset + len(sentence)
         containing = [c for c in chunks if c.char_start <= offset < c.char_end]
-        assert len(containing) == 1, f"문장이 정확히 하나의 청크 범위에 있어야 함: {sentence!r}"
+        assert len(containing) == 1, f"sentence must fall within exactly one chunk's range: {sentence!r}"
         end_offset = offset + len(sentence)
-        assert containing[0].char_end >= end_offset, f"문장이 청크 경계에서 잘림: {sentence!r}"
+        assert containing[0].char_end >= end_offset, f"sentence was cut at a chunk boundary: {sentence!r}"
 
 
 def test_paginate_by_word_count_only_does_not_split_dialogue_across_chunks():
-    """대사가 min/max words 경계에 걸려도 대사 전체가 한 청크 안에 남는다."""
-    filler_a = ("가나다 " * 60).strip() + "."
-    dialogue = "“여기 방이 두 칸. 저쪽엔 다른 애가 써. 학생은 뭐 공부해?”"
-    filler_b = ("라마바 " * 60).strip() + "."
-    text = f"{filler_a}\n\n{dialogue} 집주인이 물었다.\n\n{filler_b}"
+    """Even if a dialogue line straddles the min/max words boundary, it stays whole within one chunk."""
+    filler_a = ("word " * 60).strip() + "."
+    dialogue = "“There are two rooms here. That one is used by someone else. What do you study?”"
+    filler_b = ("other " * 60).strip() + "."
+    text = f"{filler_a}\n\n{dialogue} The landlord asked.\n\n{filler_b}"
 
     paragraphs = plain_text_to_paragraphs(text)
     chunks = _paginate_by_word_count_only(paragraphs, min_words=10, max_words=70)
 
     for c in chunks:
-        assert c.text.count("“") == c.text.count("”")  # 대사가 청크 하나 안에서 완결됨
+        assert c.text.count("“") == c.text.count("”")  # dialogue stays complete within a single chunk
 
 
 def test_paginate_by_word_count_only_respects_min_max_words():
-    text = "가나다 " * 400
+    text = "word " * 400
     paragraphs = plain_text_to_paragraphs(text)
     chunks = _paginate_by_word_count_only(paragraphs, min_words=100, max_words=200)
-    for c in chunks[:-1]:  # 마지막 청크는 나머지 분량이라 min 미만일 수 있음
+    for c in chunks[:-1]:  # the last chunk may be under min since it's just the remainder
         assert 100 <= len(c.text.split()) <= 200
 
 
 def test_paginate_by_word_count_only_scene_break_is_hard_boundary():
-    text = "첫 문단.\n\n***\n\n둘째 문단."
+    text = "First paragraph.\n\n***\n\nSecond paragraph."
     paragraphs = plain_text_to_paragraphs(text)
     chunks = _paginate_by_word_count_only(paragraphs, min_words=1, max_words=1000)
     assert len(chunks) == 2
     assert "***" in chunks[0].text
-    assert chunks[1].text == "둘째 문단."
+    assert chunks[1].text == "Second paragraph."
 
 
 # --- chunk_containing_position ---
@@ -202,20 +206,20 @@ def _cc_config():
 
 
 def test_chunk_containing_position_finds_matching_chunk(_cc_config):
-    text = "첫 문단 내용.\n\n둘째 문단 내용."
+    text = "First paragraph content.\n\nSecond paragraph content."
     paragraphs = plain_text_to_paragraphs(text)
     chunks = paginate_semantic(
         paragraphs, min_words=1, max_words=5, granularity="paragraph", config=_cc_config, embed_fn=_fake_embed_generic
     )
-    pos = text.find("둘째")
+    pos = text.find("Second")
     hit = chunk_containing_position(chunks, pos)
     assert hit is not None
-    assert "둘째" in hit.text
+    assert "Second" in hit.text
 
 
 def test_chunk_containing_position_out_of_range_returns_none(_cc_config):
     chunks = paginate_semantic(
-        plain_text_to_paragraphs("문단."),
+        plain_text_to_paragraphs("Paragraph."),
         min_words=1,
         max_words=5,
         granularity="paragraph",
@@ -236,13 +240,14 @@ def semantic_config():
 
 
 def _fake_embed_generic(texts, input_type, model, truncate, api_key, timeout=30.0, dimensions=None):
-    """의미 없이 텍스트마다 조금씩 다른 벡터만 반환 — 구조 제약 테스트용(유사도 값 자체는 안 씀)."""
+    """Returns a slightly different vector per text with no real meaning — for structural-constraint tests
+    only (the similarity values themselves aren't used)."""
     return [[len(t) % 7, hash(t) % 11, 1.0] for t in texts]
 
 
 def test_paginate_semantic_never_splits_a_sentence(semantic_config):
-    """kss가 반환한 문장 하나하나가 정확히 한 청크의 char 범위 안에 온전히 들어 있다."""
-    text = " ".join(f"이것은 문장 번호 {i}입니다." for i in range(1, 41))
+    """Every sentence returned by nltk falls entirely within exactly one chunk's char range."""
+    text = " ".join(f"This is sentence number {i}." for i in range(1, 41))
     paragraphs = plain_text_to_paragraphs(text)
     chunks = paginate_semantic(
         paragraphs, min_words=10, max_words=30, granularity="paragraph", config=semantic_config, embed_fn=_fake_embed_generic
@@ -250,21 +255,21 @@ def test_paginate_semantic_never_splits_a_sentence(semantic_config):
 
     search_pos = 0
     for i in range(1, 41):
-        sentence = f"이것은 문장 번호 {i}입니다."
+        sentence = f"This is sentence number {i}."
         offset = text.find(sentence, search_pos)
         search_pos = offset + len(sentence)
         containing = [c for c in chunks if c.char_start <= offset < c.char_end]
-        assert len(containing) == 1, f"문장이 정확히 하나의 청크 범위에 있어야 함: {sentence!r}"
+        assert len(containing) == 1, f"sentence must fall within exactly one chunk's range: {sentence!r}"
         end_offset = offset + len(sentence)
-        assert containing[0].char_end >= end_offset, f"문장이 청크 경계에서 잘림: {sentence!r}"
+        assert containing[0].char_end >= end_offset, f"sentence was cut at a chunk boundary: {sentence!r}"
 
 
 def test_paginate_semantic_does_not_split_dialogue_across_chunks(semantic_config):
-    """대사가 min/max words 경계에 걸려도 대사 전체가 한 청크 안에 남는다."""
-    filler_a = ("가나다 " * 60).strip() + "."
-    dialogue = "“여기 방이 두 칸. 저쪽엔 다른 애가 써. 학생은 뭐 공부해?”"
-    filler_b = ("라마바 " * 60).strip() + "."
-    text = f"{filler_a}\n\n{dialogue} 집주인이 물었다.\n\n{filler_b}"
+    """Even if a dialogue line straddles the min/max words boundary, it stays whole within one chunk."""
+    filler_a = ("word " * 60).strip() + "."
+    dialogue = "“There are two rooms here. That one is used by someone else. What do you study?”"
+    filler_b = ("other " * 60).strip() + "."
+    text = f"{filler_a}\n\n{dialogue} The landlord asked.\n\n{filler_b}"
 
     paragraphs = plain_text_to_paragraphs(text)
     chunks = paginate_semantic(
@@ -272,39 +277,40 @@ def test_paginate_semantic_does_not_split_dialogue_across_chunks(semantic_config
     )
 
     for c in chunks:
-        assert c.text.count("“") == c.text.count("”")  # 대사가 청크 하나 안에서 완결됨
+        assert c.text.count("“") == c.text.count("”")  # dialogue stays complete within a single chunk
 
 
 def test_paginate_semantic_respects_min_max_words(semantic_config):
-    text = "가나다 " * 400
+    text = "word " * 400
     paragraphs = plain_text_to_paragraphs(text)
     chunks = paginate_semantic(
         paragraphs, min_words=100, max_words=200, granularity="paragraph", config=semantic_config, embed_fn=_fake_embed_generic
     )
-    for c in chunks[:-1]:  # 마지막 청크는 나머지 분량이라 min 미만일 수 있음
+    for c in chunks[:-1]:  # the last chunk may be under min since it's just the remainder
         assert 100 <= len(c.text.split()) <= 200
 
 
 def test_paginate_semantic_scene_break_is_hard_boundary(semantic_config):
-    text = "첫 문단.\n\n***\n\n둘째 문단."
+    text = "First paragraph.\n\n***\n\nSecond paragraph."
     paragraphs = plain_text_to_paragraphs(text)
     chunks = paginate_semantic(
         paragraphs, min_words=1, max_words=1000, granularity="paragraph", config=semantic_config, embed_fn=_fake_embed_generic
     )
     assert len(chunks) == 2
     assert "***" in chunks[0].text
-    assert chunks[1].text == "둘째 문단."
+    assert chunks[1].text == "Second paragraph."
 
 
 def _numbered_paragraph_text(i: int) -> str:
-    return f"이것은 문단 {i}입니다."
+    return f"Paragraph number {i}."
 
 
 def test_paginate_semantic_cuts_at_lowest_similarity_seam(semantic_config):
-    """토픽이 바뀌는 지점(유사도가 가장 낮은 이음매)에서 실제로 끊기는지 확인.
+    """Verifies the cut actually happens at the topic-shift point (the lowest-similarity seam).
 
-    문단 0~2는 "topic A", 3~5는 "topic B"인 가짜 임베딩을 줘서, 유사도가
-    가장 낮은 이음매(문단 2와 3 사이)가 정확히 청크 경계가 되는지 검증한다.
+    Gives a fake embedding where paragraphs 0-2 are "topic A" and 3-5 are
+    "topic B", and checks that the lowest-similarity seam (between
+    paragraphs 2 and 3) becomes exactly the chunk boundary.
     """
     topic_a_texts = {_numbered_paragraph_text(i) for i in range(3)}
 
@@ -314,7 +320,7 @@ def test_paginate_semantic_cuts_at_lowest_similarity_seam(semantic_config):
     text = "\n\n".join(_numbered_paragraph_text(i) for i in range(6))
     paragraphs = plain_text_to_paragraphs(text)
 
-    # 문단 하나당 3단어(이것은/문단/N입니다.) — min_words=6(문단 2개), max_words=12(문단 4개)
+    # each paragraph is 3 words (Paragraph/number/N.) — min_words=6 (2 paragraphs), max_words=12 (4 paragraphs)
     chunks = paginate_semantic(
         paragraphs, min_words=6, max_words=12, granularity="paragraph", config=semantic_config, embed_fn=fake_embed_by_topic
     )
@@ -323,7 +329,7 @@ def test_paginate_semantic_cuts_at_lowest_similarity_seam(semantic_config):
 
 
 def test_paginate_semantic_cuts_at_lowest_similarity_seam_sentence_granularity(semantic_config):
-    """granularity="sentence"에서도 토픽 경계에서 끊기는지 확인 — 문장 임베딩 기반."""
+    """Verifies the topic-boundary cut also happens with granularity="sentence" — based on sentence embeddings."""
     topic_a_texts = {_numbered_paragraph_text(i) for i in range(3)}
 
     def fake_embed_by_topic(texts, input_type, model, truncate, api_key, timeout=30.0, dimensions=None):
@@ -340,12 +346,12 @@ def test_paginate_semantic_cuts_at_lowest_similarity_seam_sentence_granularity(s
 
 
 def test_paginate_semantic_falls_back_to_word_count_only_on_api_failure(semantic_config):
-    """embed_fn이 계속 실패하면 on_error=pass_through일 때 _paginate_by_word_count_only와 동일하게 동작한다."""
+    """If embed_fn keeps failing, behaves identically to _paginate_by_word_count_only when on_error=pass_through."""
 
     def always_fails(*args, **kwargs):
         raise EmbeddingAPIError("simulated failure")
 
-    text = " ".join(f"이것은 문장 번호 {i}입니다." for i in range(1, 20))
+    text = " ".join(f"This is sentence number {i}." for i in range(1, 20))
     paragraphs = plain_text_to_paragraphs(text)
 
     semantic_config["max_retries"] = 0
@@ -362,7 +368,7 @@ def test_paginate_semantic_raises_on_api_failure_when_configured(semantic_config
     def always_fails(*args, **kwargs):
         raise EmbeddingAPIError("simulated failure")
 
-    text = " ".join(f"이것은 문장 번호 {i}입니다." for i in range(1, 20))
+    text = " ".join(f"This is sentence number {i}." for i in range(1, 20))
     paragraphs = plain_text_to_paragraphs(text)
 
     semantic_config["max_retries"] = 0
@@ -375,12 +381,12 @@ def test_paginate_semantic_raises_on_api_failure_when_configured(semantic_config
 
 
 def test_paginate_semantic_raise_includes_underlying_failure_reason(semantic_config):
-    """on_error=raise일 때 발생하는 예외 메시지에 실제 실패 원인(원본 예외 메시지)이 포함돼야 한다."""
+    """When on_error=raise, the raised exception's message must include the real underlying cause (the original exception message)."""
 
     def always_fails(*args, **kwargs):
         raise EmbeddingAPIError("simulated failure detail xyz")
 
-    text = " ".join(f"이것은 문장 번호 {i}입니다." for i in range(1, 20))
+    text = " ".join(f"This is sentence number {i}." for i in range(1, 20))
     paragraphs = plain_text_to_paragraphs(text)
 
     semantic_config["max_retries"] = 0
@@ -397,7 +403,7 @@ def test_paginate_semantic_empty_paragraphs_returns_empty_list(semantic_config):
 
 
 def test_paginate_semantic_invalid_granularity_raises(semantic_config):
-    paragraphs = plain_text_to_paragraphs("문단.")
+    paragraphs = plain_text_to_paragraphs("Paragraph.")
     with pytest.raises(ValueError):
         paginate_semantic(
             paragraphs, min_words=1, max_words=10, granularity="invalid", config=semantic_config, embed_fn=_fake_embed_generic

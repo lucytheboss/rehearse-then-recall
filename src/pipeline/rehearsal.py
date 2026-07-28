@@ -1,16 +1,22 @@
-"""유지형 되뇌기(A) — 청크 내부 salience 압축.
+"""Maintenance rehearsal (A) — intra-chunk salience compression.
 
-`11_되뇌기 구현 가이드.md` §3 구현. 각 Chunk를 독립적으로(청크 간 맥락 없이,
-롤링 없음 — 이게 정교화 되뇌기 B와의 핵심 차이) seq2seq 모델에 넣어 압축본을
-생성한 뒤, 생성된 문장이 원문에 실제로 존재하는지 검증하고(verbatim), 없으면
-원문 내 코사인 유사도가 가장 높은 실제 문장으로 스냅(snap)한다 — 아키텍처를
-바꾸지 않고 디코딩 후처리만으로 verbatim을 강제하는 장치(가이드 §3.2).
+Implements `11_되뇌기 구현 가이드.md` §3 (Obsidian). Each Chunk is fed
+independently (no cross-chunk context, no rolling state — this is the key
+difference from elaborative rehearsal B) into a seq2seq model to produce a
+compressed version, then each generated sentence is checked against the
+source for verbatim presence; if it isn't found, it's snapped to the
+source sentence with the highest cosine similarity — enforcing verbatim
+output purely via decoding-time post-processing, without changing the
+architecture (guide §3.2).
 
-하드 제약(가이드 §2, A/B 공통):
-- query-agnostic — 이 모듈의 어떤 함수도 question/query류 인자를 받지 않는다.
-- 청크 위치 메타데이터(index/paragraph_indices/char_start/char_end) 보존 —
-  text만 압축본으로 교체, original_text에 압축 전 원문 저장.
-- 텍스트 레벨 개입 — 모델 내부 hidden state가 아니라 순수 텍스트 in/out.
+Hard constraints (guide §2, shared by A/B):
+- query-agnostic — no function in this module takes a question/query-like
+  argument.
+- Preserves chunk position metadata (index/paragraph_indices/char_start/
+  char_end) — only `text` is replaced with the compressed version;
+  `original_text` stores the pre-compression source.
+- Text-level intervention — plain text in/out, not the model's internal
+  hidden states.
 """
 
 from __future__ import annotations
@@ -30,12 +36,14 @@ def _snap_to_verbatim(
     embed_cfg: dict,
     embed_fn=embed_texts,
 ) -> list[str]:
-    """생성된 각 문장이 source_sentences(원문 문장)에 정확히 존재하면 그대로,
-    없으면 코사인 유사도가 가장 높은 원문 문장으로 교체한다.
+    """Keeps each generated sentence as-is if it exists verbatim in
+    source_sentences; otherwise replaces it with the source sentence with the
+    highest cosine similarity.
 
-    임베딩 API가 재시도 후에도 실패하면(embed_with_retry가 None 반환) verbatim
-    보장은 포기하고 생성 문장을 그대로 반환한다 — 파이프라인이 죽지는 않는다
-    (paginate_semantic의 on_error="pass_through"와 같은 철학).
+    If the embedding API still fails after retries (embed_with_retry returns
+    None), gives up on the verbatim guarantee and returns the generated
+    sentences unchanged — the pipeline doesn't die (same philosophy as
+    paginate_semantic's on_error="pass_through").
     """
     if not generated_sentences or not source_sentences:
         return generated_sentences
@@ -68,19 +76,24 @@ def rehearse_maintenance(
     tokenizer,
     embed_cfg: dict,
     embed_fn=embed_texts,
-    max_input_length: int = 1300,
+    max_input_length: int = 512,
     max_new_tokens: int = 400,
 ) -> list[Chunk]:
-    """각 Chunk를 독립적으로(청크 간 맥락 없이) 처리해 압축본으로 교체한다.
+    """Processes each Chunk independently (no cross-chunk context) and replaces
+    it with a compressed version.
 
-    반환 Chunk: text=verbatim 강제 후처리 적용 완료된 압축본, original_text=압축
-    전 원문, index/paragraph_indices/char_start/char_end는 입력과 동일하게
-    유지된다. question 등 질문 관련 인자를 받지 않는다(query-agnostic).
+    Returned Chunks: text=the compressed version with verbatim post-processing
+    already applied, original_text=the pre-compression source;
+    index/paragraph_indices/char_start/char_end stay identical to the input.
+    Takes no question-related argument (query-agnostic).
 
-    max_input_length는 pko-t5 공식 학습 설정(input_ids max_length=1300)을
-    기본값으로 쓴다 — 09_청킹 구현 가이드 §5에서 추정치였던 어절→토큰 환산
-    비율을 실측한 결과 어절당 약 2.79토큰으로(추정치 1.5~2보다 높음),
-    max_words=350 청크가 실제로 약 975토큰을 쓰는 걸 확인했다.
+    max_input_length=512 is a common convention for t5-base-family
+    summarization fine-tuning (the old pko-t5 backbone's 1300 was tuned to
+    that model's own training setup and doesn't carry over). Re-measure
+    against `configs/chunking.yaml`'s max_words and the actual English
+    tokenizer ratio and adjust as needed — English generally runs fewer
+    tokens per word than Korean (roughly 1.2-1.5 tokens/word with
+    SentencePiece), so there's room to raise the chunk max_words a bit.
     """
     model.eval()
     device = next(model.parameters()).device
@@ -109,12 +122,14 @@ def rehearse_maintenance(
 
 
 def novel_ngram_ratio(generated_text: str, source_text: str, n: int = 3) -> float:
-    """생성 텍스트의 n-gram 중 원문에 없는("novel") 비율 — 가이드 §6 조작 점검.
+    """Fraction of the generated text's n-grams that are "novel" (not present
+    in the source) — the manipulation check from guide §6.
 
-    A(유지형)는 이 값이 0에 가까워야 정상(거의 원문 그대로 뽑아 붙인 것이므로).
-    0보다 유의미하게 크면 verbatim 후처리(_snap_to_verbatim)가 실제로는
-    새로운 표현을 걸러내지 못하고 있다는 신호. 어절(공백 분리) 단위 n-gram을
-    쓴다 — 형태소 분석기를 새로 끌어오지 않고 간단하게 유지.
+    For A (maintenance), this should be close to 0 — the output should be
+    almost entirely lifted verbatim from the source. A value meaningfully
+    above 0 signals that verbatim post-processing (_snap_to_verbatim) isn't
+    actually filtering out new phrasing. Uses word-level (whitespace-split)
+    n-grams — kept simple rather than pulling in a morphological analyzer.
     """
     gen_words = generated_text.split()
     src_words = source_text.split()

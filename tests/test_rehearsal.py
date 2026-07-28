@@ -1,5 +1,5 @@
-"""rehearsal(유지형 되뇌기 A) 단위 테스트 — 전부 fake model/tokenizer/embed_fn으로
-동작, 실제 모델 다운로드·API 키·네트워크 불필요.
+"""Unit tests for rehearsal (maintenance rehearsal A) — all run against a fake
+model/tokenizer/embed_fn, no real model download, API key, or network required.
 """
 
 import inspect
@@ -22,9 +22,9 @@ def config():
 
 
 class _EchoTokenizer:
-    """chunk.text 전체를 정수 ID 하나로 등록/조회하는 가짜 토크나이저 — 실제
-    서브워드 분할 없이 rehearse_maintenance의 토큰화->생성->디코드 제어 흐름만
-    검증한다.
+    """A fake tokenizer that registers/looks up chunk.text as a single integer
+    ID — with no real subword splitting, this only verifies
+    rehearse_maintenance's tokenize->generate->decode control flow.
     """
 
     def __init__(self):
@@ -46,9 +46,9 @@ class _EchoTokenizer:
 
 
 class _EchoModel:
-    """입력 토큰을 그대로 돌려주는 가짜 모델 — decode(generate(encode(t))) == t가
-    성립하게 만들어, "생성문이 원문과 완전히 같을 때" 경로(verbatim 스냅이
-    필요 없는 경우)를 검증한다.
+    """A fake model that returns the input tokens unchanged — makes
+    decode(generate(encode(t))) == t hold, so it verifies the "generated text
+    is identical to the source" path (where verbatim snapping isn't needed).
     """
 
     def __init__(self):
@@ -65,13 +65,13 @@ class _EchoModel:
 
 
 def _poison_embed_fn(texts, input_type, model, truncate, api_key, timeout=30.0, dimensions=None):
-    raise AssertionError("embed_fn이 호출되면 안 되는 상황에서 호출됨")
+    raise AssertionError("embed_fn was called in a situation where it must not be called")
 
 
 @pytest.fixture
 def sample_chunk():
     return Chunk(
-        text="고양이가 창밖을 바라본다. 주가 지수가 급락했다.",
+        text="The cat looks out the window. The stock index plunged.",
         index=2,
         paragraph_indices=[5, 6],
         char_start=100,
@@ -80,14 +80,14 @@ def sample_chunk():
 
 
 def test_rehearse_maintenance_is_query_agnostic():
-    """가이드 §2 하드 제약: question/query류 파라미터가 있으면 안 됨."""
+    """Guide §2 hard constraint: must not have a question/query-like parameter."""
     params = set(inspect.signature(rehearse_maintenance).parameters)
     forbidden = {p for p in params if "question" in p.lower() or "query" in p.lower()}
-    assert not forbidden, f"query-agnostic 위반 — 금지된 파라미터 발견: {forbidden}"
+    assert not forbidden, f"query-agnostic violation — found forbidden parameter(s): {forbidden}"
 
 
 def test_rehearse_maintenance_preserves_position_metadata(sample_chunk, config):
-    # echo 모델이라 생성문 == 원문 -> 모든 문장이 이미 verbatim이라 embed_fn은 호출되면 안 됨
+    # Echo model means generated == source -> every sentence is already verbatim, so embed_fn must not be called
     result = rehearse_maintenance(
         [sample_chunk],
         model=_EchoModel(),
@@ -117,8 +117,8 @@ def test_rehearse_maintenance_sets_original_text_to_pre_compression_text(sample_
 
 def test_rehearse_maintenance_handles_multiple_chunks_independently(config):
     chunks = [
-        Chunk(text="첫 번째 청크 문장입니다.", index=0),
-        Chunk(text="두 번째 청크 문장입니다.", index=1),
+        Chunk(text="This is the first chunk's sentence.", index=0),
+        Chunk(text="This is the second chunk's sentence.", index=1),
     ]
     result = rehearse_maintenance(
         chunks, model=_EchoModel(), tokenizer=_EchoTokenizer(), embed_cfg=config, embed_fn=_poison_embed_fn
@@ -135,24 +135,24 @@ def _fake_embed_fixed_vectors(vectors_by_text: dict):
 
 
 def test_snap_to_verbatim_keeps_exact_matches_without_calling_embed_fn():
-    generated = ["고양이가 창밖을 바라본다.", "주가 지수가 급락했다."]
-    source = ["고양이가 창밖을 바라본다.", "주가 지수가 급락했다.", "부동산 시장이 얼어붙었다."]
+    generated = ["The cat looks out the window.", "The stock index plunged."]
+    source = ["The cat looks out the window.", "The stock index plunged.", "The real estate market froze."]
 
     result = _snap_to_verbatim(generated, source, embed_cfg={}, embed_fn=_poison_embed_fn)
     assert result == generated
 
 
 def test_snap_to_verbatim_replaces_non_matching_sentence_with_closest_by_cosine(config):
-    generated = ["고양이가 밖을 응시한다."]  # 원문에 없는 표현(패러프레이즈)
-    source = ["고양이가 창밖을 바라본다.", "부동산 시장이 얼어붙었다."]
+    generated = ["The cat stares outside."]  # a paraphrase not present in the source
+    source = ["The cat looks out the window.", "The real estate market froze."]
 
     vectors = {
-        "고양이가 밖을 응시한다.": [1.0, 0.0],
-        "고양이가 창밖을 바라본다.": [0.9, 0.1],  # 코사인 유사도 더 높음
-        "부동산 시장이 얼어붙었다.": [0.0, 1.0],
+        "The cat stares outside.": [1.0, 0.0],
+        "The cat looks out the window.": [0.9, 0.1],  # higher cosine similarity
+        "The real estate market froze.": [0.0, 1.0],
     }
     result = _snap_to_verbatim(generated, source, embed_cfg=config, embed_fn=_fake_embed_fixed_vectors(vectors))
-    assert result == ["고양이가 창밖을 바라본다."]
+    assert result == ["The cat looks out the window."]
 
 
 def test_snap_to_verbatim_falls_back_to_generated_on_embedding_failure(config):
@@ -161,25 +161,25 @@ def test_snap_to_verbatim_falls_back_to_generated_on_embedding_failure(config):
 
     config = dict(config)
     config["max_retries"] = 0
-    generated = ["원문에 없는 새 표현."]
-    source = ["원문 문장 하나."]
+    generated = ["A new phrase not in the source."]
+    source = ["One source sentence."]
 
     result = _snap_to_verbatim(generated, source, embed_cfg=config, embed_fn=always_fails)
-    assert result == generated  # 죽지 않고 생성문 그대로 반환
+    assert result == generated  # doesn't die, returns the generated text unchanged
 
 
 def test_novel_ngram_ratio_is_zero_for_pure_verbatim_text():
-    source = "고양이가 창밖을 바라본다 주가 지수가 급락했다 고양이는 낮잠을 잔다"
-    generated = "고양이가 창밖을 바라본다"
+    source = "the cat looks out the window the market fell hard today"
+    generated = "the cat looks"
     assert novel_ngram_ratio(generated, source, n=3) == 0.0
 
 
 def test_novel_ngram_ratio_is_positive_for_novel_text():
-    source = "고양이가 창밖을 바라본다 주가 지수가 급락했다"
-    generated = "완전히 다른 단어들로 구성된 새로운 문장 생성"
+    source = "the cat looks out the window the market fell today"
+    generated = "completely different words forming a brand new sentence"
     assert novel_ngram_ratio(generated, source, n=3) == 1.0
 
 
 def test_novel_ngram_ratio_short_generation_returns_zero():
-    # n-gram을 만들기엔 너무 짧은 생성문 -> 0 (예외 대신 안전한 기본값)
-    assert novel_ngram_ratio("한 단어", "아무 원문", n=3) == 0.0
+    # too short a generation to form an n-gram -> 0 (a safe default instead of an exception)
+    assert novel_ngram_ratio("one word", "some source text", n=3) == 0.0

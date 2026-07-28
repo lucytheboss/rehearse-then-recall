@@ -1,26 +1,36 @@
-"""청킹(chunking) — plain text를 Paragraph로 분할 후 Chunk로 페이지네이션.
+"""Chunking — splits plain text into Paragraphs, then paginates into Chunks.
 
-소스 어댑터(plain_text_to_paragraphs)와 페이지네이션 로직을 분리한다.
-페이지네이션 공개 함수는 paginate_semantic 하나뿐 — 이웃 문단/문장 간
-임베딩 코사인 유사도가 가장 낮은 지점(TextTiling, Hearst 1997 계열)에서
-끊는다. 임베딩 API 실패 시에만 내부 fallback(_paginate_by_word_count_only)을 쓴다.
+Separates the source adapter (plain_text_to_paragraphs) from the pagination
+logic. There's exactly one public pagination function, paginate_semantic —
+it cuts at the point where embedding cosine similarity between neighboring
+paragraphs/sentences is lowest (TextTiling, Hearst 1997 family). The
+internal fallback (_paginate_by_word_count_only) is only used when the
+embedding API fails.
 
-청크 경계 우선순위:
-1. 문장(kss) 내부는 절대 자르지 않는다.
-2. 인용부호가 안 닫힌 대화 묶음은 하나로 취급해 중간에 경계를 넣지 않는다.
-3. 단, 묶음이 max_words를 넘으면(대화가 너무 길면) 문장 단위로 풀어 경계를 허용한다.
-4. 문단 경계는 하드 경계가 아닌 후보 지점 — 후보 중 유사도가 가장 낮은 곳에서 끊는다.
-5. scene_break 문단만 예외적으로 하드 경계.
+Chunk-boundary priority:
+1. Never cut inside a sentence (nltk).
+2. Treat a dialogue group with unclosed quotation marks as one unit — never
+   place a boundary in the middle of it.
+3. Unless the group exceeds max_words (dialogue too long), in which case
+   fall back to sentence-level splitting.
+4. Paragraph boundaries are candidate points, not hard boundaries — cut at
+   whichever candidate has the lowest similarity.
+5. Only a structurally-marked paragraph is a hard boundary, exceptionally —
+   not just novel-style scene-break markers ("***" etc.), but as genres
+   diversified to wiki/news/legal-statute/case-law, markdown headings,
+   section numbers (Section 1, §101, (a), roman numerals), and short
+   all-caps headings ("FACTS", "OPINION") are now recognized the same way
+   as hard boundaries (`_is_structural_break_text`).
 """
 
 from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from typing import Literal, cast
+from typing import Literal
 
-import kss
 from bs4 import BeautifulSoup
+from nltk.tokenize import sent_tokenize
 
 from src.pipeline.embeddings import (
     EmbeddingAPIError,
@@ -31,25 +41,58 @@ from src.pipeline.embeddings import (
 )
 from src.pipeline.types import Chunk, Paragraph
 
-# 장면 구분용 구분 기호들.
+# Scene-break marker characters (narrative-style genres).
 _SCENE_BREAK_CHARS = set("*※•○●◇◆-·~ \t\n\r")
 
+# Structural-heading patterns for non-narrative genres (wiki/news/legal
+# statute/case-law) — a separate path from the novel scene-break markers
+# above. Recognizes markdown headings, section numbers, and roman-numeral
+# headings.
+_HEADING_PATTERN = re.compile(
+    r"^(#{1,6}\s|(section|article|chapter)\s+\d|§\s*\d|[ivxlcdm]{1,6}\.\s|\d+(\.\d+)*\.?\s|\([a-z0-9]{1,4}\)\s)",
+    re.IGNORECASE,
+)
+_MAX_HEADING_WORDS = 12  # longer than this is treated as a body paragraph, not a heading
 
-def _is_scene_break_text(text: str) -> bool:
-    """텍스트가 전부 장면 구분 기호로만 이루어졌는지 판정."""
+
+def _looks_like_heading(text: str) -> bool:
+    """True for a markdown heading / section number / roman-numeral heading,
+    or a short all-caps heading. Heading-length is capped at
+    _MAX_HEADING_WORDS to distinguish this from an ordinary paragraph that
+    just happens to start with a capital letter."""
+    if len(text.split()) > _MAX_HEADING_WORDS:
+        return False
+    if _HEADING_PATTERN.match(text):
+        return True
+    letters = [ch for ch in text if ch.isalpha()]
+    return bool(letters) and all(ch.isupper() for ch in letters)
+
+
+def _is_structural_break_text(text: str) -> bool:
+    """True if the whole paragraph is scene-break markers or looks like a
+    structural heading — both cases are always treated as a hard boundary,
+    regardless of similarity scoring."""
     stripped = text.strip()
-    return bool(stripped) and all(ch in _SCENE_BREAK_CHARS for ch in stripped)
+    if not stripped:
+        return False
+    if all(ch in _SCENE_BREAK_CHARS for ch in stripped):
+        return True
+    return _looks_like_heading(stripped)
 
 
 def plain_text_to_paragraphs(text: str) -> list[Paragraph]:
-    """plain text 소스 어댑터: 빈 줄 기준 문단 분할 → 정규화된 Paragraph 리스트.
+    """Plain text source adapter: splits into paragraphs on blank lines ->
+    normalized Paragraph list.
 
-    빈 줄(공백만 있는 줄 포함, 정규식 \\n\\s*\\n+)로 구분된 블록 하나가 문단
-    하나다 — 블록 내부의 단일 개행은 문단 경계가 아니라 줄바꿈이므로 공백
-    1개로 정규화한다. char_offset은 문단 시작의 원문 내 실제 위치를
-    가리킨다 (개행→공백 정규화는 1:1 치환이라 문단 내부 위치도 원문과 거의
-    어긋나지 않음). is_quote는 항상 False — plain text에는 이탤릭 같은
-    서식 정보가 없어 인용구 여부를 구조적으로 판별할 수 없다.
+    One block separated by a blank line (including a line with only
+    whitespace, regex \\n\\s*\\n+) is one paragraph — a single newline inside
+    a block is a line wrap, not a paragraph boundary, so it's normalized to
+    a single space. char_offset points to the paragraph's actual start
+    position in the source text (the newline->space normalization is a 1:1
+    substitution, so positions inside the paragraph barely drift from the
+    source either). is_quote is always False — plain text has no formatting
+    info like italics, so there's no structural way to tell whether
+    something is a quotation.
     """
     paragraphs: list[Paragraph] = []
     index = 0
@@ -64,7 +107,7 @@ def plain_text_to_paragraphs(text: str) -> list[Paragraph]:
                     text=normalized,
                     index=index,
                     char_offset=pos + (len(block) - len(block.lstrip())),
-                    is_scene_break=_is_scene_break_text(normalized),
+                    is_scene_break=_is_structural_break_text(normalized),
                     is_quote=False,
                 )
             )
@@ -75,16 +118,20 @@ def plain_text_to_paragraphs(text: str) -> list[Paragraph]:
 
 
 def html_to_paragraphs(html: str) -> list[Paragraph]:
-    """HTML 소스 어댑터 — plain_text_to_paragraphs와 나란히 쓰는 두 번째
-    소스 어댑터다. `<table>`은 이미 자연어 문장으로 변환되어 `<p>`로 치환된
-    상태라고 가정한다(예: `data/scripts/convert_korquad_tables.py` 결과물) —
-    이 함수 자체는 표를 해석하지 않는다.
+    """HTML source adapter — the second source adapter, used alongside
+    plain_text_to_paragraphs. Assumes any `<table>` has already been
+    converted to natural-language sentences and replaced with `<p>` tags
+    (e.g. the output of `data/scripts/convert_korquad_tables.py`) — this
+    function itself doesn't interpret tables.
 
-    `<p>` 태그를 문서 순서대로 순회해 Paragraph로 변환한다. char_offset은
-    원본 HTML 문자열 위치가 아니라, 문단들을 "\\n\\n"로 이어붙였을 때의
-    누적 위치다 — plain_text_to_paragraphs의 char_offset과 같은 좌표계라
-    이후 단계(paginate_semantic, chunk_containing_position)가 어댑터 종류를
-    몰라도 동일하게 동작한다. paginate_semantic 이후 로직은 전혀 건드리지 않는다.
+    Walks `<p>` tags in document order and converts them to Paragraphs.
+    char_offset is not a position in the original HTML string — it's the
+    cumulative position as if the paragraphs were joined with "\\n\\n". This
+    uses the same coordinate system as plain_text_to_paragraphs's
+    char_offset, so downstream steps (paginate_semantic,
+    chunk_containing_position) behave identically regardless of which
+    adapter produced the paragraphs. Nothing downstream of paginate_semantic
+    is touched at all.
     """
     soup = BeautifulSoup(html, "lxml")
     paragraphs: list[Paragraph] = []
@@ -99,49 +146,41 @@ def html_to_paragraphs(html: str) -> list[Paragraph]:
                 text=text,
                 index=index,
                 char_offset=pos,
-                is_scene_break=_is_scene_break_text(text),
+                is_scene_break=_is_structural_break_text(text),
                 is_quote=False,
             )
         )
         index += 1
-        pos += len(text) + 2  # "\n\n" 구분자 기준 누적 오프셋
+        pos += len(text) + 2  # cumulative offset assuming a "\n\n" separator
 
     return paragraphs
 
 
 def _paragraph_sentences(paragraph: Paragraph) -> list[str]:
-    """문단을 문장 단위로 세분화. scene_break 문단은 그대로 둔다.
-
-    backend="fast" 고정: "auto"(형태소 분석)는 긴 문단에서 문장 내부 띄어쓰기를
-    깨뜨리는 버그가 있다(예: "더 싸게" → "더싸 게"). "fast"는 구두점 기준으로만
-    분리해 이 문제가 없다.
-    """
+    """Splits a paragraph into sentences. A scene_break paragraph is left as-is."""
     if paragraph.is_scene_break:
         return [paragraph.text]
-    sentences = kss.split_sentences(paragraph.text, backend="fast")
-    if sentences and isinstance(sentences[0], list):
-        return [sentence for sentence_group in sentences for sentence in sentence_group]
-    if sentences:
-        return cast(list[str], sentences)
-    return [paragraph.text]
+    sentences = sent_tokenize(paragraph.text)
+    return sentences if sentences else [paragraph.text]
 
 
-# 굽은따옴표(여닫는 기호가 다름): 왼쪽 +1, 오른쪽 -1로 깊이 추적(중첩 인용 대비)
+# Curly quotes (open/close differ): track depth, +1 for open / -1 for close (handles nesting)
 _CURLY_QUOTE_DEPTH = {"‘": 1, "“": 1, "’": -1, "”": -1}
-# 곧은따옴표(여닫는 기호가 같음): 등장할 때마다 열림/닫힘 토글
+# Straight quotes (open/close are the same character): toggle open/closed on each occurrence
 _STRAIGHT_QUOTE_TOGGLE_CHARS = ('"', "'")
-# 아포스트로피로 오인되기 쉬운 문자 — _is_apostrophe로 걸러낸다
+# Characters easily mistaken for apostrophes — filtered out by _is_apostrophe
 _APOSTROPHE_LIKE_CHARS = ("’", "'")
 
 
 def _is_apostrophe(text: str, idx: int) -> bool:
-    """영어 축약형(`I'm`, `don't`)의 아포스트로피는 인용부호가 아님."""
+    """An apostrophe in an English contraction (`I'm`, `don't`) is not a quote mark."""
     return idx > 0 and text[idx - 1].isascii() and text[idx - 1].isalnum()
 
 
 def _dialogue_groups(sentences: list[str], max_words: int) -> list[list[str]]:
-    """문장들을 인용부호가 닫히지 않은 구간끼리 하나의 묶음으로 합친다.
-    묶음이 max_words를 넘으면(대화가 너무 길면) 문장 단위로 되돌린다.
+    """Merges sentences into groups wherever quotation marks stay unclosed
+    across sentence boundaries. If a group exceeds max_words (dialogue too
+    long), falls back to sentence-level splitting.
     """
     groups: list[list[str]] = []
     buffer: list[str] = []
@@ -160,13 +199,13 @@ def _dialogue_groups(sentences: list[str], max_words: int) -> list[list[str]]:
         if curly_depth == 0 and not any(straight_open.values()):
             groups.append(buffer)
             buffer = []
-    if buffer:  # 인용부호가 안 닫힌 채로 끝난 경우
+    if buffer:  # ended with an unclosed quote
         groups.append(buffer)
 
     exploded: list[list[str]] = []
     for group in groups:
         if len(group) > 1 and sum(len(s.split()) for s in group) > max_words:
-            exploded.extend([s] for s in group)  # 문장 단위로 되돌림
+            exploded.extend([s] for s in group)  # fall back to sentence-level
         else:
             exploded.append(group)
     return exploded
@@ -177,9 +216,9 @@ def _paginate_by_word_count_only(
     min_words: int,
     max_words: int,
 ) -> list[Chunk]:
-    """문장 단위로 누적해 min/max words 안에서 청크로 묶는다.
-    paginate_semantic이 임베딩 API 실패 시(on_error="pass_through")에만
-    쓰는 내부 fallback.
+    """Accumulates sentence-by-sentence and groups into chunks within
+    min/max words. The internal fallback paginate_semantic uses only when
+    the embedding API fails (on_error="pass_through").
     """
     chunks: list[Chunk] = []
     current: list[tuple[str, int, int]] = []  # (sentence, paragraph_index, char_offset)
@@ -228,21 +267,22 @@ def _paginate_by_word_count_only(
 
 @dataclass
 class _SemanticUnit:
-    """paginate_semantic의 최소 취급 단위 — 문장 하나 또는 대사 묶음 하나.
-    이 단위 내부로는 청크 경계가 지나가지 않는다 — 이음매는 항상 서로
-    다른 유닛 사이에서만 정의된다.
+    """The smallest unit paginate_semantic works with — one sentence or one
+    dialogue group. A chunk boundary never passes through the interior of a
+    unit — a seam is always defined only between two different units.
     """
 
-    items: list[tuple[str, int, int]]  # (문장, 문단 index, char offset)
+    items: list[tuple[str, int, int]]  # (sentence, paragraph index, char offset)
     word_count: int
     is_scene_break: bool
-    paragraph_index: int  # granularity="paragraph"일 때 임베딩 조회용
-    sentence_start: int  # granularity="sentence"일 때 첫 문장의 전역 인덱스
-    sentence_end: int  # 마지막 문장의 전역 인덱스 (포함)
+    paragraph_index: int  # for embedding lookup when granularity="paragraph"
+    sentence_start: int  # global index of the first sentence, when granularity="sentence"
+    sentence_end: int  # global index of the last sentence (inclusive)
 
 
 def _build_semantic_units(paragraphs: list[Paragraph], max_words: int) -> tuple[list[_SemanticUnit], list[str]]:
-    """문단들을 순회해 _SemanticUnit 리스트(+ 전역 문장 리스트)로 펼친다."""
+    """Walks the paragraphs and flattens them into a _SemanticUnit list (+ a
+    global sentence list)."""
     units: list[_SemanticUnit] = []
     flat_sentences: list[str] = []
     for p in paragraphs:
@@ -271,7 +311,7 @@ def _build_semantic_units(paragraphs: list[Paragraph], max_words: int) -> tuple[
 
 
 def _batched_embed_texts(texts: list[str], config: dict, embed_fn) -> list[list[float]] | None:
-    """텍스트 리스트를 batch_size 단위로 잘라 배치 임베딩한다."""
+    """Splits a text list into batch_size-sized chunks and embeds them in batches."""
     embeddings: list[list[float]] = []
     batch_size = config["batch_size"]
     for start in range(0, len(texts), batch_size):
@@ -290,7 +330,7 @@ def _embed_semantic_units(
     config: dict,
     embed_fn,
 ) -> tuple[Literal["paragraph", "sentence"], dict[int, list[float]] | list[list[float]]] | None:
-    """granularity에 따라 문단 단위 또는 문장 단위로 배치 임베딩한다."""
+    """Batch-embeds at either paragraph or sentence granularity."""
     if granularity == "paragraph":
         embeddings = _batched_embed_texts([p.text for p in paragraphs], config, embed_fn)
         if embeddings is None:
@@ -301,17 +341,20 @@ def _embed_semantic_units(
         if embeddings is None:
             return None
         return "sentence", embeddings
-    raise ValueError(f'granularity는 "paragraph" 또는 "sentence"여야 함: {granularity!r}')
+    raise ValueError(f'granularity must be "paragraph" or "sentence": {granularity!r}')
 
 
 def _compute_seam_scores(
     units: list[_SemanticUnit],
     embeddings: tuple[Literal["paragraph", "sentence"], dict[int, list[float]] | list[list[float]]],
 ) -> list[float]:
-    """인접한 두 _SemanticUnit 사이의 코사인 유사도(이음매 점수) 리스트.
+    """List of cosine similarity (seam score) between each pair of adjacent
+    _SemanticUnits.
 
-    길이는 len(units) - 1, 낮을수록 좋은 청크 경계 후보. granularity="paragraph"면
-    문단 임베딩끼리, "sentence"면 앞 유닛의 마지막 문장과 뒤 유닛의 첫 문장을 비교한다.
+    Length is len(units) - 1; lower is a better chunk-boundary candidate.
+    With granularity="paragraph", compares paragraph embeddings directly;
+    with "sentence", compares the last sentence of the earlier unit against
+    the first sentence of the later one.
     """
     kind, data = embeddings
     scores: list[float] = []
@@ -345,14 +388,17 @@ def paginate_semantic(
     config: dict,
     embed_fn=embed_texts,
 ) -> list[Chunk]:
-    """이웃 단위 간 임베딩 유사도가 가장 낮아지는 지점에서 끊는다.
+    """Cuts at the point where embedding similarity between neighboring units
+    is lowest.
 
-    TextTiling(Hearst, 1997) 계열의 임베딩 버전 — min_words~max_words 구간 안의
-    이음매 후보 중 유사도가 가장 낮은 지점을 청크 경계로 고른다. scene_break
-    문단은 유사도와 무관하게 항상 하드 경계.
+    An embedding-based variant of TextTiling (Hearst, 1997) — among seam
+    candidates within the min_words~max_words window, picks the one with the
+    lowest similarity as the chunk boundary. A scene_break paragraph is
+    always a hard boundary regardless of similarity.
 
-    embed_fn 실패 시 config["on_error"]에 따라 raise하거나
-    _paginate_by_word_count_only로 대체한다(기본값).
+    On embed_fn failure, either raises or falls back to
+    _paginate_by_word_count_only depending on config["on_error"] (the
+    default).
     """
     if not paragraphs:
         return []
@@ -365,9 +411,9 @@ def paginate_semantic(
     if embeddings is None:
         if config.get("on_error", "pass_through") == "raise":
             reason = last_embedding_error()
-            detail = f" 원인: {type(reason).__name__}: {reason}" if reason else ""
+            detail = f" Cause: {type(reason).__name__}: {reason}" if reason else ""
             raise EmbeddingAPIError(
-                f"임베딩 API 호출이 재시도 후에도 실패해 의미 기반 페이지네이션을 진행할 수 없습니다.{detail}"
+                f"The embedding API call still failed after retries — cannot proceed with semantic pagination.{detail}"
             )
         return _paginate_by_word_count_only(paragraphs, min_words, max_words)
 
@@ -395,7 +441,7 @@ def paginate_semantic(
         if scene_break_end is not None:
             cut_at = scene_break_end
         elif end == n - 1:
-            cut_at = end  # 마지막 청크는 남은 유닛 전부 포함
+            cut_at = end  # the last chunk absorbs all remaining units
         else:
             candidates = [k for k in range(i, end + 1) if prefix[k + 1] - prefix[i] >= min_words]
             cut_at = min(candidates, key=lambda k: seam_scores[k]) if candidates else end
@@ -407,8 +453,7 @@ def paginate_semantic(
 
 
 def chunk_containing_position(chunks: list[Chunk], char_position: int) -> Chunk | None:
-    """원문 char offset이 주어졌을 때, 그 위치를 포함하는 청크를 반환한다.
-    """
+    """Given a source char offset, returns the chunk that contains that position."""
     for chunk in chunks:
         if chunk.char_start <= char_position < chunk.char_end:
             return chunk

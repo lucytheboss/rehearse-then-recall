@@ -2,14 +2,14 @@ pyyaml
 requests
 numpy
 pytest
-kss
+nltk
 python-dotenv
 ipykernel
 nbconvert
 pandas
 matplotlib
 datasets
-transformers==4.46.3  # 5.x는 paust/pko-t5 계열 Unigram 토크나이저 로드 시 TypeError 발생(실측 확인) — 4.46.3에 고정
+transformers==4.46.3  # 5.x raises a TypeError loading the paust/pko-t5-family Unigram tokenizer (confirmed empirically) — pinned to 4.46.3
 torch
 sentencepiece
 accelerate

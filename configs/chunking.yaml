@@ -1,41 +1,51 @@
-# 청킹(청크 분할) 설정
-# min/max는 나누는 청크의 하한, 상한을 결정함
-# 의미적으로 동떨어지는 지점이 청킹의 기준점이 됨
+# Chunking configuration
+# min/max determine the lower/upper bound of a chunk's size
+# Semantically-distant points become the chunking cutoffs
 
-# 단어(어절) 수 기준 임계값.
+# Threshold in words (whitespace-delimited tokens).
 #
-# 2026-07-16 재계산 (pko-t5 컨텍스트 길이 기준): paust/pko-t5 공식 저장소
-# (github.com/paust-team/pko-t5) 기준 KLUE 평가 학습 시 input_ids max_length
-# =1300 토큰 사용, 이 길이가 train 98.4%/dev 100% 컨텍스트를 커버한다고 명시.
-# 되뇌기 모델 입력은 "이전 핵심 문장(누적) + 새 청크"라 청크 하나가 1300토큰을
-# 전부 쓰면 안 되고, 이전 맥락에도 여유를 남겨야 함 → 청크 자체는 예산의
-# 절반 조금 넘게(~700토큰) 배정.
+# Recalculated 2026-07-16 (based on pko-t5 context length): per the official
+# paust/pko-t5 repo (github.com/paust-team/pko-t5), KLUE evaluation training
+# used input_ids max_length=1300 tokens, stated to cover 98.4% of train /
+# 100% of dev context at that length. The rehearsal model's input is
+# "previous key sentences (accumulated) + new chunk", so a single chunk
+# should not consume the full 1300 tokens — some budget must be left for
+# prior context — so the chunk itself gets a bit over half the budget
+# (~700 tokens).
 #
-# ⚠️ 단어→토큰 환산 비율은 추정치: 이 샌드박스에서 HuggingFace 모델
-# 다운로드가 네트워크 정책상 막혀 있어 pko-t5 토크나이저로 직접 측정하지
-# 못함. BBPE 특성상 한국어는 어절당 1.5~2토큰 정도로 보고 역산(700 ÷ 1.5~2
-# ≈ 350~470단어) → 보수적으로 max_words=350 채택. 아래 스니펫으로 실제
-# 토크나이저 돌려서 재검증 필요 (인터넷 되는 환경, 예: Colab):
+# NOTE: the word->token conversion ratio here is an estimate — this sandbox
+# has HuggingFace model downloads blocked by network policy, so it wasn't
+# possible to measure directly with the pko-t5 tokenizer. Given BBPE
+# characteristics, Korean runs roughly 1.5-2 tokens per word, so working
+# backward (700 / 1.5-2 ~= 350-470 words) gives max_words=350 as a
+# conservative choice. Re-verify with the snippet below on a
+# network-enabled environment (e.g. Colab):
 #
 #   from transformers import T5TokenizerFast
 #   tok = T5TokenizerFast.from_pretrained("paust/pko-t5-base")
-#   text = "실제 청크 샘플 텍스트..."
-#   print(len(tok(text).input_ids) / len(text.split()))  # 토큰/단어 비율
+#   text = "actual chunk sample text..."
+#   print(len(tok(text).input_ids) / len(text.split()))  # token/word ratio
 #
-# 이 비율로 위 700토큰 예산을 다시 단어 수로 환산해 min/max_words 재조정할 것.
+# Use this ratio to reconvert the 700-token budget above into a word count
+# and re-tune min/max_words.
 min_words: 150
 max_words: 350
 
-# 문단이 아닌 문장을 기본 단위로 청킹. 문단 경계는 후보 지점으로만 활용.
-# 문단의 글자 수가 크기에 호출 횟수 제한이 걸릴 수 있기 때문
+# Chunks at the sentence level (not paragraph) by default. Paragraph
+# boundaries are used only as candidate points. Since a paragraph can run
+# long enough in characters to hit API call-size limits.
 preserve_paragraph_integrity: false
 
-# 자르는 기준(paginate_semantic docstring참고, 우선순위 순)
-#   1. 문장(kss) 내부는 절대 안 자름 — 가장 작은 단위, 항상 유지되는 하드 바닥선.
-#   2. 인용부호가 안 닫힌 채 이어지는 대사(문장 여러 개에 걸쳐 있어도)는
-#      한 묶음으로 취급 — 청크 경계가 대사 중간에 들어가지 않게 함.
-#   3. 위 2번 묶음이 max_words를 넘으면(대화가 너무 길 때) 문장 단위로
-#      되돌려 청크 크기 상한을 우선시함 — 이때도 1번은 항상 유지.
-#   4. <p> 경계는 후보 지점, scene_break 문단만 하드 경계(위 설명 참고).
-#   5. min_words~max_words 구간 안의 이음매(문단/대사 묶음 경계) 후보 중
-#      임베딩 코사인 유사도가 가장 낮은 지점을 청크 경계로 선택.
+# Cut criteria (see paginate_semantic's docstring; in priority order)
+#   1. Never cut inside a sentence (nltk) — the smallest unit, an always-preserved hard floor.
+#   2. A line of dialogue with an unclosed quote mark (even spanning
+#      multiple sentences) is treated as one group — a chunk boundary never
+#      falls in the middle of it.
+#   3. If a group from #2 exceeds max_words (dialogue too long), fall back
+#      to sentence-level splitting to prioritize the chunk size cap — #1
+#      still always holds even then.
+#   4. <p> boundaries are candidate points; only a scene_break paragraph is
+#      a hard boundary (see explanation above).
+#   5. Among candidate seams (paragraph/dialogue-group boundaries) within
+#      the min_words~max_words window, pick the one with the lowest
+#      embedding cosine similarity as the chunk boundary.
