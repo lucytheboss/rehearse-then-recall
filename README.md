@@ -1,13 +1,13 @@
 # rehearse-then-recall
 
-## 프로젝트 개요
+## Project overview
 
 
-## 논문 / 발표 링크
-- 논문: TBD
-- 발표 자료: TBD
+## Paper / presentation links
+- Paper: TBD
+- Slides: TBD
 
-## 구조
+## Structure
 
 ```
 rehearse-then-recall/
@@ -16,29 +16,29 @@ rehearse-then-recall/
 ├── .gitignore
 ├── pyproject.toml / requirements.txt
 │
-├── configs/                       # 실험별 하이퍼파라미터 (YAML)
-│   └── chunking.yaml              # 청킹 min/max words, 니들 폐기 이후 위치 사후 산출 설정
+├── configs/                       # per-experiment hyperparameters (YAML)
+│   └── chunking.yaml              # chunking min/max words, needle-drop post-hoc position config
 │
 ├── data/
-│   ├── raw/                       # 원본 데이터 (gitignore 대상)
-│   ├── processed/                 # 전처리된 학습용 데이터
-│   ├── eval_texts/                # 평가용 텍스트 (주간 문학동네 단편 등)
-│   └── scripts/                   # 데이터 전처리 스크립트
+│   ├── raw/                       # raw data (gitignored)
+│   ├── processed/                 # preprocessed training data
+│   ├── eval_texts/                # evaluation texts
+│   └── scripts/                   # data preprocessing scripts
 │
 ├── src/
-│   ├── models/                    # 유지형/정교화 되뇌기, QG 모델 정의
-│   ├── pipeline/                  # 청킹, 중요도 필터, 파이프라인 오케스트레이션
-│   ├── train/                     # 모델별 학습 스크립트
-│   └── eval/                      # 평가 메트릭 (EM/F1 등)
+│   ├── models/                    # maintenance/elaborative rehearsal, QG model definitions
+│   ├── pipeline/                  # chunking, importance filter, pipeline orchestration
+│   ├── train/                     # per-model training scripts
+│   └── eval/                      # evaluation metrics (EM/F1 etc.)
 │
 ├── experiments/
-│   ├── ablation_extraction/       # 추출 단계 유무 ablation 결과
+│   ├── ablation_extraction/       # ablation results with/without the extraction stage
 │   └── logs/
 │
-├── notebooks/                     # Colab 학습/실험용 노트북
+├── notebooks/                     # Colab training/experiment notebooks
 │
 └── docs/
-    └── paper/                     # 발표/논문용 자료
+    └── paper/                     # materials for the paper/presentation
 ```
 
-> `.gitkeep`이 들어있는 폴더는 아직 실제 파일이 없는 자리(구조만 확보). 채워지는 대로 이 트리도 갱신 필요.
+> Folders containing only a `.gitkeep` don't have real files yet (structure reserved in advance). Update this tree as they get filled in.
