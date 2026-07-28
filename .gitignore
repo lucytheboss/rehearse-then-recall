@@ -32,3 +32,6 @@ data/processed/*
 
 # eval_text
 data/eval_text/*
+
+# Training artifacts (regenerable base-t5 configs/tokenizer; weights already ignored above)
+experiments/*_small/

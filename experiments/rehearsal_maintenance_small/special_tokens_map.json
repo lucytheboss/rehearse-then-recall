@@ -116,7 +116,7 @@
     "single_word": false
   },
   "unk_token": {
-    "content": "<pad>",
+    "content": "<unk>",
     "lstrip": false,
     "normalized": false,
     "rstrip": false,
