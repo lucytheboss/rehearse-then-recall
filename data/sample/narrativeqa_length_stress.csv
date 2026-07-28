@@ -1,0 +1,22 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type,answerable_v1000,answerable_v2000,answerable_v3000,answerable_v6000,answerable_v10000
+0,What kind of crime do Raffle and Bunnys commit?,Burglary,186004,34765,narrativeqa_extractive_subset,False,False,False,False,False
+1,What was Raffles famous for?,cricket,6770,1270,narrativeqa_extractive_subset,False,True,True,True,True
+2,What does Raffles say he was asked about for?,cricket,6770,1270,narrativeqa_extractive_subset,False,True,True,True,True
+4,Raffles jumps overboard on the ocean voyage heist. He is presumed what?,drowned,337721,63080,narrativeqa_extractive_subset,False,False,False,False,False
+5,Where was Bunny before being summoned to the house of a rich invalid?,prison,39010,7405,narrativeqa_extractive_subset,False,False,False,False,True
+6,Who is the rich invalid?,Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
+7,Where was Bunny when he summoned Raffles?,England,11514,2170,narrativeqa_extractive_subset,False,False,True,True,True
+9,Who dies in battle?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
+11,Who summoned Bunny after he was released from prison?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
+13,Which character is wounded in the war?,Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
+14,Which character dies in the war?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
+15,How many phases do these stories have?,Two,304500,56774,narrativeqa_extractive_subset,False,False,False,False,False
+16,Which character is presumed drowned in the first story?,Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
+19,What is the profession of the two main characters?,Thieves,252567,47221,narrativeqa_extractive_subset,False,False,False,False,False
+21,Which character dives overboard while on an ocean voyage and is presumed dead?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
+22,Who is summoned to the house of a rich invalid?,Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
+23,Who does the rich invalid turn out to be?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
+25,Which main character dies in battle?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
+26,"Which character is wounded, but does not die, in the Boen War?",Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
+28,What crime do Bunny and Raffles commit at the beginning of the story?,Burglary ,186004,34765,narrativeqa_extractive_subset,False,False,False,False,False
+29,Which character serves a prison sentence?,Bunny?,36077,6854,narrativeqa_extractive_subset,False,False,False,False,True

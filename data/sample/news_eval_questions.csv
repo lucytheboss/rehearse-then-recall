@@ -1,0 +1,101 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,Who else was killed or injured?,"One Australian soldier, three civilians and Taliban militants were",10,3,newsqa_extractive
+2,what is the number of Australian troops killed,Four,206,29,newsqa_extractive
+3,Where was the Australian commando shot?,"Tarin Kowt in Uruzgan province,",301,44,newsqa_extractive
+4,Who killed an Australian commando in Southern Afghanistan?,Taliban militants,339,50,newsqa_extractive
+5,which is the cause of the murder of command by the Taliban?,"small arms fire,""",874,135,newsqa_extractive
+6,Who is missing on a flight from Japan to the U.S.?,Japanese balloonist Michio Kanda,1751,276,newsqa_extractive
+7,Who is searcing the area around his last known position?,two Coast Guard C130 Hercules planes,2117,338,newsqa_extractive
+8,Are U.S. Coast Guards searching?,"searches continued Friday and are ongoing,",2257,359,newsqa_extractive
+9,What  was Michio Kando's world record?,"balloon flight, with a time of 50 hours and 38 minutes,",2578,413,newsqa_extractive
+10,What team does Kaka play for?,AC Milan's,2880,465,newsqa_extractive
+11,What award did Kaka win,"European player of the year,",2932,473,newsqa_extractive
+12,What position did Messi finish in,third.,3395,538,newsqa_extractive
+13,what was the reduction of charges against Bryant?,reduced to second degree aggravated battery,4358,710,newsqa_extractive
+14,What have the charges been reduced to?,second degree aggravated battery,4369,712,newsqa_extractive
+15,What chargaes had Purvis faced?,"second-degree attempted murder and conspiracy,",4556,739,newsqa_extractive
+16,When was the protest?,in September,5048,824,newsqa_extractive
+17,who payed a club record,"Carlos Alberto,",6196,1008,newsqa_extractive
+18,What club bought Carlos Alberto?,Werder Bremen,6319,1027,newsqa_extractive
+19,What was record before?,7.8 million euros,6359,1035,newsqa_extractive
+20,what di he win while playing for oporto in 2004?,Portuguese title as well as the Champions League.,6834,1117,newsqa_extractive
+21,"In what city will the Commonwealth Games be expected to host 100,000 tourists?",New Delhi,8053,1320,newsqa_extractive
+22,How many rickshaws ply the roads of Indian capital?,"More than 40,000",8210,1344,newsqa_extractive
+23,"On what date will more than 40,000 auto-rickshaws ply the roads of the Indian capital?",October 3-14 in 2010.,8489,1382,newsqa_extractive
+24,Which company is in spotlight over killing?,Blackwater USA,9547,1547,newsqa_extractive
+25,Who is investigating the claims?,Federal prosecutors,9847,1593,newsqa_extractive
+26,who were the employees?,of Blackwater,9912,1600,newsqa_extractive
+27,whats the atf gonna do?,"conduct a thorough investigation.""",10598,1707,newsqa_extractive
+28,What age was Ray Gravell at his death?,"56,",11757,1886,newsqa_extractive
+29,What was his age?,"56,",11757,1886,newsqa_extractive
+30,Where was he in holiday?,Mallorca,11973,1925,newsqa_extractive
+31,what did he work at after retiring?,president of Llanelli RFC,12508,2021,newsqa_extractive
+32,Who reports that there was a 3-vehicle crash?,Arkansas police,13488,2199,newsqa_extractive
+33,Was anyone injured?,Forty people,13633,2222,newsqa_extractive
+34,Who was killed in the crash?,Danny Okurily,13940,2271,newsqa_extractive
+35,What was BUPA founded for?,to preserve freedom of choice in health care.,14989,2443,newsqa_extractive
+36,what do their facilities do?,offer specialist care to residents,15722,2566,newsqa_extractive
+37,Who was among the six who raised the flag in Iwo Jima?,"Sgt. Michael Strank,",16598,2705,newsqa_extractive
+38,What did Strank not receive?,citizenship papers.,16860,2746,newsqa_extractive
+39,who takes career best 5-34?,South African fast bowler Dale Steyn,17723,2881,newsqa_extractive
+40,What team is Dale Steyn on?,Proteas,17798,2895,newsqa_extractive
+41,who lead New Zealand,Stephen Fleming,18449,3007,newsqa_extractive
+42,Which university did Taylor Bradford attend?,of Memphis,19981,3277,newsqa_extractive
+43,What athlete was shot?,"Taylor Bradford,",20098,3294,newsqa_extractive
+44,What are the charges against the killer?,murder in perpetration of attempted aggravated robbery.,20551,3363,newsqa_extractive
+45,Where did crash take place?,Missouri,22247,3645,newsqa_extractive
+46,Which aircraft will undergo a one-time inspection?,All U.S. Air Force 224 E-model,22438,3675,newsqa_extractive
+47,What wars are supported?,in Iraq and Afghanistan.,23485,3849,newsqa_extractive
+48,What happened to the engine?,fell from a wing,24550,4032,newsqa_extractive
+49,What was the response of the passengers?,"""Everyone started panicking.""",24719,4061,newsqa_extractive
+50,Were there any injuries?,No one was injured.,25053,4115,newsqa_extractive
+51,Who killed Tomas Medina Caracas?,Colombian military,26931,4439,newsqa_extractive
+52,Who helped manage cocaine network?,"Tomas Medina Caracas,",27050,4456,newsqa_extractive
+53,When was he indicted?,November 2002,27823,4575,newsqa_extractive
+54,Where was the suspect stopped?,two blocks from the Capitol building.,29058,4776,newsqa_extractive
+55,What did the suspect have?,"grenade, a pistol, ammunition, loaded magazines",29421,4830,newsqa_extractive
+56,What politician tried to smuggle almost five pounds of cocaine in his stomach ?,"Eme Zuru Ayortor,",30546,5015,newsqa_extractive
+57,What were the men doing in the cave?,drinking in a popular party spot in a,32031,5246,newsqa_extractive
+58,What helped investigators find the men?,used receipts and surveillance camera footage from a nearby store to hunt down the,32361,5305,newsqa_extractive
+59,Whom did India elect president?,"Pratibha Patil,",33419,5477,newsqa_extractive
+60,What is Patil's first name?,Pratibha,33419,5477,newsqa_extractive
+61,What age was Patil at the time of the election?,"72,",33435,5479,newsqa_extractive
+62,what was the scandal?,loans meant for poor women were instead given to her brother,35574,5823,newsqa_extractive
+63,"Where did Youssif meet spongebob,Lassie and an orangutan.",Studios,36713,6006,newsqa_extractive
+64,who did youssif also meet in universal studios?,"SpongeBob, Lassie",37869,6206,newsqa_extractive
+65,When was dad also this happy?,"wedding day,",39005,6406,newsqa_extractive
+66,Where did the B-52 crash?,off the island of Guam,40352,6646,newsqa_extractive
+67,What was Moninder Singh Pandher acquitted for?,the killing of a teen,41839,6901,newsqa_extractive
+68,The court aquitted Moninder Singh Pandher of what crime?,rape and murder,42334,6988,newsqa_extractive
+69,When was Winehouse hospitalized due to medication reaction?,"Sunday,",43267,7141,newsqa_extractive
+70,Who said there are no immediate plans to ground the planes?,Navy officials,45295,7486,newsqa_extractive
+71,Who plans to increase taxes on luxury goods?,President Hugo Chavez,45868,7581,newsqa_extractive
+72,what is the percent of price increase for alcohol and cigarettes?,now 10,46213,7637,newsqa_extractive
+73,what kind of a tax is being put in place,alcohol and cigarettes,46481,7681,newsqa_extractive
+74,What are Chavez other plans?,"to increase taxes on luxury items such as Hummers,",48398,7993,newsqa_extractive
+75,Who's car was found later?,"Lauren Burk,",49091,8107,newsqa_extractive
+76,What is Courtney Larrell Lockhart charged with?,capital murder,49252,8131,newsqa_extractive
+77,What happened to Burk's car?,on fire in a campus parking lot.,49830,8227,newsqa_extractive
+78,What was Boy George convicted of?,falsely imprisoning a,51874,8565,newsqa_extractive
+79,What was Boy George's side of the story?,he investigated alleged tampering with his computer.,52393,8658,newsqa_extractive
+80,How many years in prison are the 5 men sentenced to?,five to nine,53429,8827,newsqa_extractive
+81,When was he charged?,"1990,",54852,9048,newsqa_extractive
+82,What could he face?,possible life in prison,55412,9140,newsqa_extractive
+83,where did helicopter collide,"over the Hudson River,",55993,9236,newsqa_extractive
+84,What did the police say?,they've never seen or heard of this kind of bird fighting before.,57937,9538,newsqa_extractive
+85,Where will Secretary of State Hillary Clinton visit on Sunday?,"Luanda, Angola,",58700,9664,newsqa_extractive
+86,How many countries are serving under the NATO-led ISAF contingent?,43,60415,9941,newsqa_extractive
+87,Who is the star of The Manzanis?,Kirstie Alley,61424,10095,newsqa_extractive
+88,Alley will also star in the upcoming ABC pilot called what?,"""The Manzanis.""",62492,10275,newsqa_extractive
+89,Where was the man shot?,"Vancouver International Airport,",62877,10346,newsqa_extractive
+90,Who scored for the sixth game in a row?,Lionel Messi,64184,10560,newsqa_extractive
+91,What was the score in the Barca game?,3-0,64283,10576,newsqa_extractive
+92,Who is in crisis after four losses?,"Sevilla,",66300,10917,newsqa_extractive
+93,What is a popular destination for tourists and skiers?,Swat Valley region,67350,11093,newsqa_extractive
+94,who are imposing strict law?,The Taliban,67742,11161,newsqa_extractive
+95,Who is investigating the flight?,National Transportation Safety Board,69026,11373,newsqa_extractive
+96,Where did the plane land?,Philadelphia,69528,11451,newsqa_extractive
+97,what will this help with,fight against terrorists,70514,11619,newsqa_extractive
+98,Where was the violence?,"Haymarket,",71834,11815,newsqa_extractive
+99,Where were the abandoned cars found?,"Haymarket, central London.",72004,11844,newsqa_extractive
+100,"What exploded on London bus, trains?",Four suicide bombers detonate themselves aboard three underground,72585,11943,newsqa_extractive

@@ -1,0 +1,101 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,In what year were the five boroughs combined into one city?,1898,1011,173,squad_extractive
+2,What is the population of New York City as of 2014?,"8,491,079",1060,180,squad_extractive
+3,When was New York City established?,1624,1901,320,squad_extractive
+4,"During what period was the area around New York City located at the edge of an ice sheet 1,000 feet deep?",the Wisconsinan glaciation,3964,653,squad_extractive
+5,What nation did Giovanni da Verrazzano serve?,France,4905,813,squad_extractive
+6,What was the nationality of Estêvão Gomes?,Portuguese,5017,830,squad_extractive
+7,Who was Henry Hudson working for?,Dutch East India Company,5759,955,squad_extractive
+8,What did the Dutch call Juan Rodriguez?,Jan Rodrigues,6518,1083,squad_extractive
+9,In what year did construction begin on Fort Amsterdam?,1625,7088,1173,squad_extractive
+10,What person gave up New Amsterdam to the English?,Peter Stuyvesant,7601,1257,squad_extractive
+11,What did Colve call New York after he captured it?,New Orange,7955,1314,squad_extractive
+12,"After which war did England gain New York in exchange for Run, an Indonesian island?",Second Anglo-Dutch War,8188,1355,squad_extractive
+13,In what year was John Peter Zenger tried?,1735,9332,1547,squad_extractive
+14,In what month and year was the Battle of Long Island fought?,August 1776,9781,1624,squad_extractive
+15,What notable catastrophe took place under the British occupation?,Great Fire of New York,10754,1779,squad_extractive
+16,What was the second largest city in the United States in 1790?,Philadelphia,11513,1908,squad_extractive
+17,In what year did the state of New York eliminate slavery?,1827,12140,2002,squad_extractive
+18,The Erie Canal was finished being built in what year?,1825,12694,2088,squad_extractive
+19,"In 1860, what percentage of the city population was composed of German immigrants?",25%,13723,2243,squad_extractive
+20,In what year was the modern City of New York founded?,1898,15324,2508,squad_extractive
+21,How many people died in the Triangle Shirtwaist Factory fire?,146,16008,2623,squad_extractive
+22,What is the term for a city with a population of over 10 million?,megacity,16852,2754,squad_extractive
+23,What artistic movement caused New York to overtake Paris as the global art center?,abstract expressionism,17462,2851,squad_extractive
+24,"What was the name of the aircraft that crashed into the World Trade Center's North Tower on September 11, 2001?",American Airlines Flight 11,18982,3095,squad_extractive
+25,What was the plane named that crashed into the World Trade Center?,American Airlines Flight 11,18982,3095,squad_extractive
+26,What public figure defended New York in January 2016?,Donald Trump,20344,3313,squad_extractive
+27,The three islands that make up New York city are named what?,"Long Island, Manhattan, and Staten Island.",21116,3441,squad_extractive
+28,Which river seperates The Bronx from Manhatten?,The Harlem River,21481,3503,squad_extractive
+29,How many square miles are water in NYC?,164.1,22142,3607,squad_extractive
+30,In what year did construction on the oldest part of Pieter Claesen Wyckoff House begin?,1656,22692,3707,squad_extractive
+31,How many buildings located in NYC are at least 330 feet in height?,550,23068,3770,squad_extractive
+32,Which animal decorates the corners of the Chrysler Building?,eagles,23748,3877,squad_extractive
+33,To prevent high water pressures at lower elevations what were built on many of the city's buildings?,wooden roof-mounted water towers,25070,4088,squad_extractive
+34,The suburbs of the city lie between the humid subtropical and what other climate zone?,humid continental,26546,4322,squad_extractive
+35,On what date did New York record its highest temperature ever?,"July 9, 1936",28089,4585,squad_extractive
+36,How many inches of precipitation does NYC get in a year?,49.9,28122,4591,squad_extractive
+37,The 2013 ParkScore rating for NYC made NYC second in best park system to what other US city?,Minneapolis,29455,4816,squad_extractive
+38,How many acres of land does Gateway Nation Recreation contain?,"over 26,000",29779,4867,squad_extractive
+39,"The landmark, General Grant National Memorial, is also called what?",Grant's Tomb,30808,5030,squad_extractive
+40,How large is Pelham Bay Park in hectares?,"1,093",31728,5179,squad_extractive
+41,What brigade is headquartered at Fort Hamilton?,1179th Transportation Brigade,32203,5258,squad_extractive
+42,About what percentage is New York City's population of the New York metropolitan area's population?,40%,33032,5388,squad_extractive
+43,What ethnicity is growing the quickest in New York City?,Asians,33969,5533,squad_extractive
+44,How many immigrants arrived at Ellis Island from 1892 to 1924?,12 million,34363,5596,squad_extractive
+45,About how many immigrants from Bangladesh lived in the city in 2013?,"74,000",35153,5718,squad_extractive
+46,How many New York City residents are of Greek heritage?,"65,000",37495,6077,squad_extractive
+47,What nation provided the most legal immigrants to New York City in the Caribbean?,the Dominican Republic,40220,6481,squad_extractive
+48,How many people identify as gay or bisexual in NYC?,"568,903",40664,6550,squad_extractive
+49,The second most prominent religion in New York is what?,Judaism,41010,6604,squad_extractive
+50,The average weekly earnings for a worker in NYC was what in 2014?,"2,749",41782,6728,squad_extractive
+51,What was the price per square meter of 660 Madison Avenue in June 2007?,"$15,887",44205,7128,squad_extractive
+52,NYC's fashion industry employs how many people?,"180,000",44757,7215,squad_extractive
+53,What type of food is NYC's leading food export?,Chocolate,45153,7269,squad_extractive
+54,"In 2012, how many investment banking fees were paid out to Wall Street?",$40 billion,46569,7487,squad_extractive
+55,How much office space did Manhatten possess in 2015?,500 million square feet,47623,7650,squad_extractive
+56,On what island is Cornell Tech located?,Roosevelt Island,49606,7941,squad_extractive
+57,What is the record number of tourists that have visited New York in a year?,56.4 million,50711,8106,squad_extractive
+58,What is the state song of New York?,I Love New York,50839,8127,squad_extractive
+59,Where in Central Park are performances offered at no cost?,Summerstage,51971,8310,squad_extractive
+60,Who bought the Waldorf Astoria hotel in NYC in 2014?,Anbang Insurance Group,52521,8400,squad_extractive
+61,How many people work in the New York publishing industry?,"25,000",54531,8712,squad_extractive
+62,Which two national newspapers are located in New York?,The Wall Street Journal and The New York Times,54631,8729,squad_extractive
+63,What is the name of the first public-access TV channel in the country?,Manhattan Neighborhood Network,55956,8942,squad_extractive
+64,The largest public radio station by listeners is what in New York?,WNYC,56147,8968,squad_extractive
+65,How many highschools are specialized in NYC?,nine,56555,9035,squad_extractive
+66,What is the largest library in the United States?,The New York Public Library,58152,9278,squad_extractive
+67,How many patients are served annually by HHC?,1.4 million,58731,9368,squad_extractive
+68,Who is the HHC president?,"Ramanathan Raju, MD",59681,9524,squad_extractive
+69,About how many police work for the NYPD?,"35,000",59907,9563,squad_extractive
+70,"In the first half of 2010, what percentage of shooting victims were African-American or Hispanic?",95.9%,60856,9730,squad_extractive
+71,What is the second largest fire department force in the world?,The New York City Fire Department,61526,9848,squad_extractive
+72,New York is home to what largest transportation system in the world?,subway systems,62460,9996,squad_extractive
+73,What is the street address of the Bureau of Fire Communications alarm office in Brooklyn?,11 Metrotech Center,62821,10053,squad_extractive
+74,By what other name is abstract expressionism known?,the New York School,63590,10171,squad_extractive
+75,About how many cultural and artistic organizations are in New York City?,"2,000",64214,10280,squad_extractive
+76,"In 2012-3, what number of people saw a show on Broadway?",11.57 million,65548,10489,squad_extractive
+77,Which four of the world's most expensive stadiums are located in NYC?,"MetLife Stadium, the new Yankee Stadium, Madison Square Garden, and Citi Field",67088,10723,squad_extractive
+78,The New York Giants and the New York Jets place at which stadium in NYC?,MetLife Stadium,68935,11046,squad_extractive
+79,What sport do the New York Rangers play?,Hockey,69114,11076,squad_extractive
+80,What is the name of the collegiate basketball championship that takes place in New York?,National Invitation Tournament,69470,11129,squad_extractive
+81,What tennis Grand Slam event is held at the National Tennis Center?,United States Open Tennis Championships,69762,11185,squad_extractive
+82,Which subway system is considered the largest in the world?,New York City Subway system,71063,11405,squad_extractive
+83,"In 2005, what percentage of New York residents used mass transit to get to work?",54.6%,71782,11523,squad_extractive
+84,How many buses visit the Port Authority Bus Terminal each day?,"7,000",72640,11673,squad_extractive
+85,"How many travelers visited JFK, LaGuardia and Newark Liberty in 2012?",109 million,73016,11730,squad_extractive
+86,The bridge made with steel-wire is which in NYC?,The Brooklyn Bridge,74215,11915,squad_extractive
+87,"Which tunnel do 120,000 vehicles travel through a day in NYC?",The Lincoln Tunnel,74728,11997,squad_extractive
+88,How many daily bicycle riders are there in NYC?,"200,000",75712,12156,squad_extractive
+89,From what mountain range does New York's drinking water come from?,Catskill Mountains,76498,12287,squad_extractive
+90,How many councilors sit on the City Council?,51,77368,12428,squad_extractive
+91,"In November 2008, how many New Yorkers were registered as Democrats?",67%,77850,12504,squad_extractive
+92,How many people are admitted to HHC institutions annually?,"225,000",79098,12693,squad_extractive
+93,"In what library can the book New York, culture capital of the world, 1940–1965 be found?",the National Library of Australia,80625,12934,squad_extractive
+94,What New York thoroughfare is Museum Mile located on?,Fifth Avenue,81522,13082,squad_extractive
+95,What Major League Soccer franchise is based in New York?,New York City FC,84200,13536,squad_extractive
+96,The AirTrain has a station at what airport?,JFK International Airport,85512,13763,squad_extractive
+97,What industry is Broadway associated with?,the theater,87421,14052,squad_extractive
+98,Queens is located on what part of Long Island?,the west end,88208,14174,squad_extractive
+99,What legal case sought to compel the Environmental Protection Agency to regular greenhouse gases?,Massachusetts v. Environmental Protection Agency,89151,14328,squad_extractive
+100,What federal district court has its main courthouse in Brooklyn?,the Eastern District of New York,91513,14694,squad_extractive
