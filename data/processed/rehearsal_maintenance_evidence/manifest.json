@@ -1,0 +1,19 @@
+{
+  "source": "data/processed/{news,wiki}_train \u2014 disjoint from the eval corpora",
+  "label": "sentence contains the evidence position of a real question",
+  "genres": [
+    "news",
+    "wiki"
+  ],
+  "excluded": {
+    "caselaw": "5-option MC; the answer is not present in the text"
+  },
+  "chunking": "fixed 200-word windows (not paginate_semantic)",
+  "wiki_keep_fraction": 0.2381640625,
+  "split": "corpus-level",
+  "counts": {
+    "train": 7198,
+    "val": 1543,
+    "test": 1531
+  }
+}

@@ -1,0 +1,1547 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,source_title,type
+1,What is a building called that is used for making beer?,a brewery,102,20,Beer,squad_extractive
+2,What is company that makes beer typically known as? ,a brewing company,243,49,Beer,squad_extractive
+3,What is beer classified as when it is made for non-commerical consumption? ,homebrewing,336,64,Beer,squad_extractive
+4,In what year was home brewing first allowed in the UK?,1963,647,112,Beer,squad_extractive
+5,"In breweries, what do you call a small vat that is filled with hops?",a hopback,871,151,Beer,squad_extractive
+6,How long does the fermentation process take in brewing beer? ,a week to months,1137,199,Beer,squad_extractive
+7,What is the main source of starch and most beer?,barley malt,1425,245,Beer,squad_extractive
+8,At what point does barley have it's hull broken up into pieces?,After malting,1549,266,Beer,squad_extractive
+9,When is sweet wort separated during the brewing process?,during lautering,1721,296,Beer,squad_extractive
+10,What is a brewery called that makes a small amount of beer?,microbrewery,2093,353,Beer,squad_extractive
+11,"In general, how much beer can a microbrewery make and still be classified as a microbrewery?","around 15,000 barrels",2301,388,Beer,squad_extractive
+12,What would you call a microbrewery that also has a restaurant or a pub?,brewpub,2408,405,Beer,squad_extractive
+13,What city is home to the oldest known brewery in the world that is still active?,Freising,2926,493,Beer,squad_extractive
+14,What year was The Benedictine Weihenstephan Brewery first licensed as a brewery?,1040,2938,495,Beer,squad_extractive
+15,Why would more fermentable sugars be added to be beer during the brewing process?,to increase alcohol content,3335,560,Beer,squad_extractive
+16,At what concentration can yeast no longer survive in alcohol?,above 12%,3663,610,Beer,squad_extractive
+17,What could decrease alcohol content during the brewing process?,Low temperatures,3684,614,Beer,squad_extractive
+18,What would you call a beer that has not been filtered or pasteurized?,Cask-conditioned ales,3821,632,Beer,squad_extractive
+19,What would you call a frame that holds the cask of beer horizontally when it arrives at the pub?,stillage,4047,670,Beer,squad_extractive
+20,What temperature are cask ales stored at before being tapped?,52–55 °F,4195,695,Beer,squad_extractive
+21,How long does it take for sediment to settle and clear after a cask ale has been tapped?,from several hours to several days,4643,779,Beer,squad_extractive
+22,What tool is used to pull beer from a cask to serve?,a hand pump,4765,802,Beer,squad_extractive
+23,What type of alcohol is found in beer?,ethyl alcohol,4848,815,Beer,squad_extractive
+24,What type of alcohol is found in wine and distilled spirits?,ethyl alcohol,4848,815,Beer,squad_extractive
+25,How is alcohol measured in the human body?,blood alcohol concentration,5435,908,Beer,squad_extractive
+26,What is it called when someone dies from inhaling vomit?,pulmonary aspiration,6057,997,Beer,squad_extractive
+27,What could be caused by a 0.80% Blood alcohol content in a human?,fatal alcohol poisoning,6268,1020,Beer,squad_extractive
+28,What types of containers is beer generally sold in?,bottles and cans,6493,1054,Beer,squad_extractive
+29,"In addition to bottles and cans, How is beer often sold in bars?",draught,6539,1063,Beer,squad_extractive
+30,"In general, what is usually the alcohol content in most beer?",around 4% to 6%,6794,1100,Beer,squad_extractive
+31,What festivals are a social tradition in many beer drinking countries?,"beer festivals,",7043,1143,Beer,squad_extractive
+32,What is a pub game that is popular in many beer drinking nations?,bar billiards,7151,1162,Beer,squad_extractive
+33,"What type of water is good for making stout beer, like Guinness?",hard water,7412,1202,Beer,squad_extractive
+34,What type of water is best for making pale lager?,soft water,7497,1216,Beer,squad_extractive
+35,What type of beer benefits most from water that contains gypsum?,pale ale,7647,1239,Beer,squad_extractive
+36,What is the process called when gypsum is added to water?,Burtonisation,7756,1262,Beer,squad_extractive
+37,In what year did William IV adopt a purity law pertaining to beer?,1516,7775,1264,Beer,squad_extractive
+38,Who was the Duke of Bavaria in 1516?,William IV,7781,1265,Beer,squad_extractive
+39,What was the title of William IV in 1516?,Duke of Bavaria,7793,1267,Beer,squad_extractive
+40,"What was the name of the purity law that regulated beer in 1516, and is still in use today?",Reinheitsgebot,7822,1272,Beer,squad_extractive
+41,"Aside from water and hops, what is the only other ingredient allowed in beer?",barley-malt,8004,1300,Beer,squad_extractive
+42,How is the bitterness in most beers generally measured?,the International Bitterness Units scale,8738,1412,Beer,squad_extractive
+43,What do you call the length of time that foam is on top of beer because of carbonation?,head retention,8975,1448,Beer,squad_extractive
+44,What is the first step of brewing when malted barley is mixed with hot water?,mashing,9228,1492,Beer,squad_extractive
+45,How is hot water referred to by brewers?,liquor,9259,1497,Beer,squad_extractive
+46,How long does the mashing step in the brewing process last?,1 to 2 hours,9388,1519,Beer,squad_extractive
+47,What is it called when used grain is separated in the brewing process?,wort separation,9795,1591,Beer,squad_extractive
+48,What vegetable is sometimes used as a grain source for beer in Brazil?,potato,10539,1713,Beer,squad_extractive
+49,What is a popular grain source for brewing beer in Mexico?,agave,10561,1717,Beer,squad_extractive
+50,"In a recipe, what would you call the list of each source of starch in beer?",the grain bill,10665,1735,Beer,squad_extractive
+51,In what year were hops first known to be used in beer?,822 AD,10747,1751,Beer,squad_extractive
+52,What name was Adalhard the Elder also known as in 822 AD?,Adalard of Corbie,10818,1764,Beer,squad_extractive
+53,In which century were hops first widely cultivated for making beer?,the thirteenth century,10922,1782,Beer,squad_extractive
+54,In which century did hops become the most popular flavoring for beer?,the sixteenth century,10987,1791,Beer,squad_extractive
+55,What would you call a mixture of ingredients used for brewing before the 16th century?,gruit,11275,1835,Beer,squad_extractive
+56,What do you call a dark beer that is brewed with roasted malts or barley?,Stout and porter,11491,1870,Beer,squad_extractive
+57,What type of yeast is used to make stout and porter beers?,slow fermenting yeast,11591,1887,Beer,squad_extractive
+58,In what year was the name Porter first used for a dark beer?,1721,11737,1911,Beer,squad_extractive
+59,In what year was the name stout first used to describe a dark beer?,1677,11922,1946,Beer,squad_extractive
+60,What percentage of beer was sold in cans in Sweden in 2001?,63.9%,12128,1978,Beer,squad_extractive
+61,What company first created the full aperture can for beer?,Crown Holdings,12250,2002,Beer,squad_extractive
+62,What is it called when light damages beer that is not in a can?,"""skunked"" beer",12482,2042,Beer,squad_extractive
+63,How much alcohol is in Schorschbock 57?,"57,5%",12942,2115,Beer,squad_extractive
+64,How much alcohol was in The End of History beer?,55%,12990,2125,Beer,squad_extractive
+65,What company made The End of History beer in 2010?,BrewDog,13015,2130,Beer,squad_extractive
+66,How much alcohol was contained in the beer Sink The Bismarck?,41%,13091,2143,Beer,squad_extractive
+67,"What is a strong ale called when it is frozen partially, and then the ice is removed again and again?",fractional freezing,13217,2166,Beer,squad_extractive
+68,What are the recommendations for pouring bottle conditioned beers?,slowly,13974,2294,Beer,squad_extractive
+69,What type of bottle conditioned beer is customarily poured with the yeast in it?,wheat beers,14122,2319,Beer,squad_extractive
+70,What kind of containers are used for bottle conditioned beers?,Glass bottles,14363,2358,Beer,squad_extractive
+71,"In addition to a lack of muscle tone, what is believed to be the main cause of the beer belly?",overeating,14446,2371,Beer,squad_extractive
+72,What condition was attributed to binge drinking in a 2004 study?,beer belly,14611,2401,Beer,squad_extractive
+73,What is believed to be the glycemic index in beer?,110,14836,2436,Beer,squad_extractive
+74,What is the glycemic index in maltose?,110,14836,2436,Beer,squad_extractive
+75,What type of starch is used to make the beer Oshikundu?,sorghum or millet,15189,2492,Beer,squad_extractive
+76,In what country is the beer Oshikundu produced?,Namibia,15229,2499,Beer,squad_extractive
+77,In what country is the beer Tella produced? ,Ethiopia,15250,2503,Beer,squad_extractive
+78,What is the name of the millet based porridge like beer made in Kyrgystan?,Bozo,15363,2522,Beer,squad_extractive
+79,What is a beer-like beverage in China that is made with rice?,Choujiu,15544,2549,Beer,squad_extractive
+80,When does evidence show the earliest known barley beer was produced?,circa 3500–3100 BC,15664,2565,Beer,squad_extractive
+81,What ingredient is used for amylotytic fermentation in sake?,mould,16423,2701,Beer,squad_extractive
+82,How long is sweet wort boiled for after sparging?,about one hour,16736,2749,Beer,squad_extractive
+83,What does boiling sweet wort destroy?,enzymes,16956,2786,Beer,squad_extractive
+84,What is generally used as starch in most beer?,malted grain,17432,2872,Beer,squad_extractive
+85,How does grain become malted?,by soaking it in water,17462,2877,Beer,squad_extractive
+86,What happens to grain when it is soaked in water?,germination,17507,2886,Beer,squad_extractive
+87,What kind of container is partially germinated grain dried in?,a kiln,17570,2895,Beer,squad_extractive
+88,How many liters of beer are bought and sold every year?,More than 133 billion,18002,2958,Beer,squad_extractive
+89,How much revenue did beer bring in in 2006?,$294.5 billion,18105,2974,Beer,squad_extractive
+90,What was the largest brewing company in the world in 2015?,AB InBev,18915,3097,Beer,squad_extractive
+91,What does abv stand for?,alcohol by volume,19036,3116,Beer,squad_extractive
+92,What percentage of alcohol by volume does beer achieve when it is re-pitched with champagne yeast?,around 20%,19120,3131,Beer,squad_extractive
+93,What process can cause beer to have a 55% abv?,freeze-distilling,19190,3144,Beer,squad_extractive
+94,What type of low alcohol beer is sometimes served in school?,table beer,19510,3200,Beer,squad_extractive
+95,What is the term used for the study of beer?,zythology,19848,3254,Beer,squad_extractive
+96,What is a popular drinking game where beer is often considered?,beer pong,20004,3278,Beer,squad_extractive
+97,What is a professional called at a restaurant who advises customers about beer and food pairs?,beer sommelier,20076,3291,Beer,squad_extractive
+98,What prayer did people use in Mesopotamia to remember a beer recipe?,The Hymn to Ninkasi,20987,3430,Beer,squad_extractive
+99,Who was believed to have added hops to beer in 1067?,Abbess Hildegard,21712,3558,Beer,squad_extractive
+100,Where did Abbess Hildegard live?,Bingen,21732,3561,Beer,squad_extractive
+101,What is the origin of the word ale?,Old English ealu,21765,3567,Beer,squad_extractive
+102,What is the origin of the word beer?,Old English bēor,21999,3598,Beer,squad_extractive
+103,What word means to drink in Latin?,bibere,22235,3629,Beer,squad_extractive
+104,"What 12th century poet once wrote ""Ale it is called among men, but among the gods, beer.""?",Alvíssmál,22366,3651,Beer,squad_extractive
+105,What was the strongest beer in 1994 according to the Guinness Book of World Records?,Vetter 33,22518,3678,Beer,squad_extractive
+106,How much alcohol is contained in the beer Vetter 33?,10.5%,22531,3681,Beer,squad_extractive
+107,What do brewing companies sometimes use to give more alcohol content to their beer?,champagne yeasts,22854,3737,Beer,squad_extractive
+108,What brewing company produced the beer Millennium?,Samuel Adams,22919,3747,Beer,squad_extractive
+109,What beer is better for the environment than bottled beer?,Draught beer's,23277,3806,Beer,squad_extractive
+110,How many pounds of CO2 emissions are attributed to just one sixpack of microbrew?,6.6,23582,3854,Beer,squad_extractive
+111,How much habitat is damaged from just one sixpack of microbrew?,2.5 square meters,23687,3871,Beer,squad_extractive
+112,"What type of container can be used to transport draft beer, and is better for the environment that a bottle?",a refillable jug,23887,3903,Beer,squad_extractive
+113,What technology support the drinking of chilled beer?,artificial refrigeration,24146,3943,Beer,squad_extractive
+114,In what decade did drinking chilled pale lager become popular?,the 1870s,24178,3947,Beer,squad_extractive
+115,At what cool temperature is a beers flavor reduced?,below 15.5 °C,24307,3967,Beer,squad_extractive
+116,When is a beer at its most flavorful?,unchilled,24429,3988,Beer,squad_extractive
+117,What country is the organisation Cask Marque located?,UK,24532,4003,Beer,squad_extractive
+118,What disease can be caused by heavy alcohol consumption?,alcoholic liver disease,25055,4089,Beer,squad_extractive
+119,How many deaths are believed to have been caused by alcohol?,3.3 million,25091,4095,Beer,squad_extractive
+120,How many years are removed from an alcoholic's life expectancy?,around ten,25221,4117,Beer,squad_extractive
+121,What hormone can be triggered by the flavor of beer alone in males?,dopamine,25447,4154,Beer,squad_extractive
+122,"Which old english word does the word ""green"" originate from?",grene,26119,4262,Green,squad_extractive
+123,From which Middle English and Anglo-Saxon word is green derived?,grene,26119,4262,Green,squad_extractive
+124,Which season is green most commonly associated with?,springtime,26280,4293,Green,squad_extractive
+125,Which chemical in plants is the largest contributor to the color green?,chlorophyll,26364,4307,Green,squad_extractive
+126,"What, in nature, is most likely to make things green?",chlorophyll,26364,4307,Green,squad_extractive
+127,For what do some animals use the color green?,camouflage,26560,4336,Green,squad_extractive
+128,What an is an example of a green mineral?,emerald,26623,4345,Green,squad_extractive
+129,What chemical causes emeralds to be green?,chromium,26662,4352,Green,squad_extractive
+130,What is green a symbol of in China?,fertility and happiness,27038,4412,Green,squad_extractive
+131,What does the Mona Lisa wearing green symbolize?,she is not from a noble family,27310,4458,Green,squad_extractive
+132,What does the color green represent in the flags of Islamic countries?,lush vegetation of Paradise,27758,4541,Green,squad_extractive
+133,Why is green the color of the environmental movement?,its association with nature,27901,4567,Green,squad_extractive
+134,"Germanic, Romance, Slavic, and Greek all has old terms for ""green"" which are derived from words for what?","fresh, sprouting vegetation",28389,4637,Green,squad_extractive
+135,"How were the terms for ""green"" derived in the Germanic, Romance, Slavic, and Greek languages?",independently,28492,4650,Green,squad_extractive
+136,"Which language has a word for ""green"" that is comparable to a Mongolian word for ""meadow""?",Turkic,28703,4681,Green,squad_extractive
+137,What are the colors of traffic lights in Japan?,the same colors that other countries have,29558,4819,Green,squad_extractive
+138,What is the Vietnamese word for both blue and green?,xanh,29942,4886,Green,squad_extractive
+139,In what range does the color green fall in modern European languages?,520–570 nm,30134,4918,Green,squad_extractive
+140,"What is the origin of the word ""orange""?",the name of a fruit,30923,5043,Green,squad_extractive
+141,"In which language does the word for ""green"" also mean ""rank"" and ""smelly""?",Thai,30955,5050,Green,squad_extractive
+142,In which color system is green created by combining yellow and blue?,subtractive,31075,5068,Green,squad_extractive
+143,In which color model is green one of the additive primary colors?,RGB,31219,5093,Green,squad_extractive
+144,What is the complement of green on the HSV color wheel?,magenta,31500,5143,Green,squad_extractive
+145,What type of color devices are computer displays and televisions?,additive,31724,5182,Green,squad_extractive
+146,At what wavelength is green on computer displays?,~550 nm,31893,5205,Green,squad_extractive
+147,What is produced on a computer display when light from the green primary is mixed with some light from the blue primary?,A unique green,32060,5233,Green,squad_extractive
+148,What is the wavelength of inexpensive green lasers?,532 nm,32392,5290,Green,squad_extractive
+149,What type of technology is used in the most common green lasers?,diode pumped solid state,32607,5326,Green,squad_extractive
+150,What is the range of green wavelengths available when using DPSS technology?,501 nm to 543 nm,33261,5427,Green,squad_extractive
+151,What is the main chemical that causes emeralds to be green?,chromium,34123,5559,Green,squad_extractive
+152,What is the source of amazonite's color?,small quantities of lead and water in the feldspar,34491,5618,Green,squad_extractive
+153,What is the source of the green color in malachite pigments?,Copper,34543,5627,Green,squad_extractive
+154,"What is made by placing a plate of blade of copper, brass, or bronze into vat of fermenting wine for several weeks, then scraping off and drying the green powder?",Verdigris,34655,5644,Green,squad_extractive
+155,Who described the process of making verdigris in ancient times?,Pliny,34954,5697,Green,squad_extractive
+156,In what city did the Romans use verdigris in murals?,Pompeii,35004,5708,Green,squad_extractive
+157,Which famous artist warned other artists not to use verdigris?,Leonardo da Vinci,35330,5766,Green,squad_extractive
+158,What is the most common green chemical found in nature?,Chlorophyll,36077,5897,Green,squad_extractive
+159,"What is a commonly used food coloring in the United Kingdom that is banned in Australia, Japan, Norway, and the United States?",Quinoline Yellow,36232,5922,Green,squad_extractive
+160,"Which green food coloring is known to cause hyperactivity, asthma, urticaria, and insomnia?",Green S (E142),36371,5945,Green,squad_extractive
+161,How do fireworks create green sparks?,barium salts,36531,5970,Green,squad_extractive
+162,Which copper salt can produce green glames?,cupric chloride,36689,5994,Green,squad_extractive
+163,What is the ratio of boron to potassium nitrate in green pyrotechnic flares?,75:25,36813,6014,Green,squad_extractive
+164,Why are many plants green?,chlorophyll,37099,6061,Green,squad_extractive
+165,What does chlorophyll do with long (red) and short (blue) wavelengths of light?,absorbs,37161,6068,Green,squad_extractive
+166,Where did chlorophyll first arise?,organisms living in oceans,37438,6113,Green,squad_extractive
+167,How do animals typically use the color green?,camouflage,37851,6175,Green,squad_extractive
+168,"Why do most fish, reptiles, amphibians, and birds appear green?",reflection of blue light coming through an over-layer of yellow pigment,38094,6209,Green,squad_extractive
+169,What is a chemical that can cause green hue in birds?,Turacoverdin,38349,6248,Green,squad_extractive
+170,What is the green pigment in bile called?,biliverdin,38883,6330,Green,squad_extractive
+171,What is a protein that carries copper ions in chelation?,ceruloplasmin,38926,6337,Green,squad_extractive
+172,What is the appearance of green in th eyes attributed to?,an optical illusion,39067,6362,Green,squad_extractive
+173,Where are green eyes most common?,Northern and Central Europe,39349,6410,Green,squad_extractive
+174,How did Egyptians dye fabrics yellow?,saffron,40282,6572,Green,squad_extractive
+175,What is the ancient Egyptian hieroglyph for green?,a growing papyrus sprout,40460,6601,Green,squad_extractive
+176,Who was the ruler of the underworld in ancient Egypt?,Osiris,40608,6623,Green,squad_extractive
+177,Why was green facial makeup worn by ancient Egyptians?,to protect them from evil,40862,6666,Green,squad_extractive
+178,Which ancient greek philosopher describe pale green as cloron and leek green as prasinon?,Democritus,41277,6737,Green,squad_extractive
+179,Which ancient greek philosopher considered green to be located midway between black and white?,Aristotle,41372,6751,Green,squad_extractive
+180,What pigment was made by soaking copper plates in fermenting wine?,verdigris,41963,6845,Green,squad_extractive
+181,Why were vegetal green dyes less than ideal?,they rapidly faded or changed color,42539,6944,Green,squad_extractive
+182,When was a good green vegetal dye finally produced?,16th century,42588,6953,Green,squad_extractive
+183,What was known as yellow-weed?,reseda luteola,42695,6973,Green,squad_extractive
+184,When was green associated with the romantic movement in literature and art?,18th and 19th century,42746,6981,Green,squad_extractive
+185,Who was a French philospher that celebrated the virtues of nature?,Jean-Jacques Rousseau,42863,6999,Green,squad_extractive
+186,Which German poet and philospher declared green to be the most restful color?,Goethe,42951,7011,Green,squad_extractive
+187,When did the systematic study of color theory begin?,late nineteenth century,43247,7055,Green,squad_extractive
+188,What type of colors are red and green?,complementary,43356,7072,Green,squad_extractive
+189,Who painted The Night Cafe?,Vincent van Gogh,43517,7099,Green,squad_extractive
+190,When was the first traffic light erected?,1868,44152,7210,Green,squad_extractive
+191,Where were the first modern electric traffic lights erected in 1912?,"Salt Lake City, Utah",44342,7243,Green,squad_extractive
+192,"Besides its association with danger, why was red chosen for traffic lights?",high visibility,44402,7254,Green,squad_extractive
+193,Why were popular paints and pigments in the nineteenth century highly toxic?,copper or arsenic,45138,7369,Green,squad_extractive
+194,What was absinthe known as?,the green fairy,45206,7380,Green,squad_extractive
+195,Which country had a flag in 1977 that was only green?,Libya,45436,7421,Green,squad_extractive
+196,What does the green in Jamaica's flag represent?,country's lush vegetation,45673,7462,Green,squad_extractive
+197,What does the green cedar of Lebanon tree represent on the Flag of Lebanon?,steadiness and tolerance,45869,7497,Green,squad_extractive
+198,Why was green chosen for a number of new European political parties in the 1980s?,environmentalism,46008,7520,Green,squad_extractive
+199,What is the largest green party in Europe?,Alliance '90/The Greens,46133,7539,Green,squad_extractive
+200,What is green the color of in the Eastern Catholic Church?,Pentecost,46664,7626,Green,squad_extractive
+201,What was worshipped for their ability to maintain their color through the winter season?,evergreens,46771,7643,Green,squad_extractive
+202,What did Romans use as decorations for their winter solstice celebration called Saturnalia?,green holly and evergreen,46878,7659,Green,squad_extractive
+203,What does green represent in Ireland and Scotland?,Catholics,47094,7689,Green,squad_extractive
+204,What is nonverbal communication?,conveying meaning in the form of non-word messages,47256,7713,Communication,squad_extractive
+205,What is one example of nonverbal communication?,body language,47409,7731,Communication,squad_extractive
+206,What is an example of a voluntary intent of a message related to nonverbal communication?,shaking a hand,47599,7758,Communication,squad_extractive
+207,What is an example of an involuntary intent of a message related to nonverbal communication?,sweating,47658,7769,Communication,squad_extractive
+208,What percentage of human communication occurs through nonverbal facial expressions?,55%,47846,7797,Communication,squad_extractive
+209,Why do fungi communicate?,to coordinate and organize their growth and development,48211,7848,Communication,squad_extractive
+210,How do fungi communicate with insects?,through biochemicals of biotic origin,48526,7895,Communication,squad_extractive
+211,What enables an organism to differentiate between self and other?,interpretation processes,49166,7986,Communication,squad_extractive
+212,"What is an example of ""noise"" that is filtered out through the interpretation processes?",similar molecules without biotic content,49369,8015,Communication,squad_extractive
+213,What is one dimension that communication is typically described along?,channel (through which medium),49593,8049,Communication,squad_extractive
+214,Who said that we should examine the impact a message has on the recipient of the message?,Wilbur Schram,49692,8064,Communication,squad_extractive
+215,What acts are included in communication between parties?,"confer knowledge and experiences, give advice and commands, and ask questions",49895,8096,Communication,squad_extractive
+216,The forms of the acts included in communication depends on what?,abilities of the group communicating,50078,8126,Communication,squad_extractive
+217,What is one target of communication?,another person or being,50235,8149,Communication,squad_extractive
+218,What is human communication defined as?,a system of symbols,50571,8199,Communication,squad_extractive
+219,When does language learning primarily occur most intensively?,during human childhood,50801,8233,Communication,squad_extractive
+220,What do human languages use to communicate with others?,patterns of sound or gesture for symbols,50870,8244,Communication,squad_extractive
+221,What is an example of a language that is not restricted to properties of human language?,programming languages,51138,8284,Communication,squad_extractive
+222,What is some factors in family communication that could affect communication between family members?,"family rules, family roles or family dialectics",51376,8316,Communication,squad_extractive
+223,What are some time periods that family communication study looks at?,"marriage, parenthood or divorce",51660,8356,Communication,squad_extractive
+224,What does trusted communication in a family lead to?,a well constructed family,51837,8383,Communication,squad_extractive
+225,How is animal communication defined?,any behavior of one animal that affects the current or future behavior of another animal,51988,8406,Communication,squad_extractive
+226,What is the study of animal communication called?,zoo semiotics,52120,8427,Communication,squad_extractive
+227,What is the study of human communication called?,anthroposemiotics,52156,8431,Communication,squad_extractive
+228,What are some fields of knowledge concerning the animal world that have been revolutionizes in the 21st century?,"animal emotions, animal culture and learning",52566,8495,Communication,squad_extractive
+229,What field of communication has been investigated more thoroughly?,vibrational communication,52783,8528,Communication,squad_extractive
+230,Who introduced the first major model for communication in 1949?,Claude Shannon and Warren Weaver,52869,8539,Communication,squad_extractive
+231,What did the first model for communication consist of?,"sender, channel, and receiver",53081,8571,Communication,squad_extractive
+232,What was the sender in the initial model?,the part of a telephone a person spoke into,53127,8578,Communication,squad_extractive
+233,What was the channel in the initial model?,the telephone itself,53188,8590,Communication,squad_extractive
+234,What was the receiver in the initial model?,the part of the phone where one could hear the other person,53231,8597,Communication,squad_extractive
+235,A simple model is also referred to as what?,transmission model,53488,8641,Communication,squad_extractive
+236,What kind of message is sent in a simple model?,a message in natural language,53571,8652,Communication,squad_extractive
+237,How is information sent through a simple model?,from an emisor/ sender/ encoder,53644,8665,Communication,squad_extractive
+238,What are the strengths of the simple model?,"simplicity, generality, and quantifiability",53861,8697,Communication,squad_extractive
+239,How are the sender and receiver connected in a slightly more complex form of communication model?,reciprocally,54062,8727,Communication,squad_extractive
+240,What is the model of communication in which the sender and receiver are connected reciprocally called?,constitutive model or constructionist view,54134,8737,Communication,squad_extractive
+241,What is communication viewed as?,a conduit,54317,8764,Communication,squad_extractive
+242,What is something that may alter the intended meaning of a message?,different regional traditions,54620,8809,Communication,squad_extractive
+243,What is something that may cause the reception and decoding of the content of a message to be faulty?,communication noise,54750,8829,Communication,squad_extractive
+244,What is a form of communication observed within plants?,between plant cells,55432,8934,Communication,squad_extractive
+245,"How are the plant roots able to communicate with rhizome bacteria, fungi, and insects within the soil?","the decentralized ""nervous system"" of plants",55778,8984,Communication,squad_extractive
+246,What is the meaning of the word neuron in Greek?,vegetable fiber,55879,9001,Communication,squad_extractive
+247,How do plants communicate to warn nearby plants of danger?,via volatiles,56028,9020,Communication,squad_extractive
+248,What describes communication as creative and dynamic rather than discrete?,Theories of coregulation,56375,9068,Communication,squad_extractive
+249,Who theorized that the types of media people use to communicate will offer different possibilities for the shape of society?,Harold Innis,56540,9090,Communication,squad_extractive
+250,What did Harold Innis call papyrus?,Space Binding,56941,9158,Communication,squad_extractive
+251,What did Space Binding make possible for the ancient Egyptian civilizations?,"transmission of written orders across space, empires",56978,9163,Communication,squad_extractive
+252,What kind of companies may engage in only a few types of communications?,Companies with limited resources,57359,9218,Communication,squad_extractive
+253,Why do communications professionals typically specialize in only one or two areas of communication?,it is difficult to develop such a broad range of skills,57527,9244,Communication,squad_extractive
+254,Good people skills is a qualification that is important to what profession?,communications,57764,9284,Communication,squad_extractive
+255,What is one of the most important qualifications for a communications professional to have?,excellent writing ability,57809,9289,Communication,squad_extractive
+256,What other groups during this period for form minorities?,Poles and Lithuanians,58308,9360,East_Prussia,squad_extractive
+257,Around when did the Old Prussian language become extinct?,17th or early 18th century,58653,9420,East_Prussia,squad_extractive
+258,Why were the prince electors able to proclaim themselves King of Prussia?,Because the duchy was outside of the core Holy Roman Empire,58682,9425,East_Prussia,squad_extractive
+259,In what year were the prince electors elect them selves as King?,1701,58840,9450,East_Prussia,squad_extractive
+260,What year did the Kingdom of Prussia become the leading state of the German Empire?,1871,59319,9530,East_Prussia,squad_extractive
+261,What well known treaty would eventually would grant West Prussia to Poland?,Versailles,59348,9535,East_Prussia,squad_extractive
+262,Which two areas were slowly Germanized during the 13th century?,Old-Prussian (north) and Polish (south) toponyms,60520,9721,East_Prussia,squad_extractive
+263,What did the knights of expansionist polices eventually lead to?,several wars,60791,9757,East_Prussia,squad_extractive
+264,What year was the Second Treaty of Thorn enacted?,1466,61042,9795,East_Prussia,squad_extractive
+265,Who converted to Lutheranism and secularized the Prussian branch of the Teutonic Order?,Albert of Brandenburg-Ansbach,61510,9871,East_Prussia,squad_extractive
+266,In what year did The Teutonic Order lose Eastern Prussia?,1525,61626,9887,East_Prussia,squad_extractive
+267,What did Albert establish himself as?,first duke of the Duchy of Prussia,61666,9893,East_Prussia,squad_extractive
+268,In what year did Maximilian III die?,1618,62206,9979,East_Prussia,squad_extractive
+269,What happened as a result of Maximilian's death?,Albert's line died out,62234,9983,East_Prussia,squad_extractive
+270,Who elected there self as King of Prussia in 1701?,Frederick III,63068,10114,East_Prussia,squad_extractive
+271,What did the former Duchy of Prussia become known as?,"Altpreußen (""Old Prussia"")",63417,10169,East_Prussia,squad_extractive
+272,What wiped out one third of East Prussia's population during the early 1700's?,the plague and famine,63551,10187,East_Prussia,squad_extractive
+273,What was lost in Prussia's history during the Plague?,speakers of Old Prussian,63606,10196,East_Prussia,squad_extractive
+274,What military overran much of East Prussia?,Russian troops,64036,10259,East_Prussia,squad_extractive
+275,In what year was Royal Prussia annexed?,1772,64088,10268,East_Prussia,squad_extractive
+276,In what year was the territory of Warmia incorporated? ,31 January 1773,64575,10338,East_Prussia,squad_extractive
+277,What was ratified in 1773 in Prussia?,The Polish Partition Sejm,64795,10372,East_Prussia,squad_extractive
+278,What defeat led to Prussia having to swear its allegiance to Napoleon?,Battle of Jena-Auerstedt,64998,10405,East_Prussia,squad_extractive
+279,What year did Napoleon end of the War of the Fourth Coalition?,1807,65357,10465,East_Prussia,squad_extractive
+280,Who instigated the Prussian reforms?,Heinrich Friedrich Karl vom und zum Stein and Karl August von Hardenberg,65984,10569,East_Prussia,squad_extractive
+281,What was included in the reform?,emancipation of the serfs and Jews,66195,10599,East_Prussia,squad_extractive
+282,In what year was East and West Prussia first united?,1824,66569,10656,East_Prussia,squad_extractive
+283,When did East and West Prussia split again?,1878,66734,10686,East_Prussia,squad_extractive
+284,Was the population of the Prussian province in 1900?,"1,996,626 people",66784,10695,East_Prussia,squad_extractive
+285,Which religious group made up the majority of the population in Prussia?,Protestants,66839,10703,East_Prussia,squad_extractive
+286,Due to Germanization which three groups saw a decrease in Prussia?,"Masurians, Kursenieki and Prussian Lithuanians",67009,10728,East_Prussia,squad_extractive
+287,Which country invaded east Prussia in World War I?,Russian Empire,67739,10842,East_Prussia,squad_extractive
+288,Why did the Russian army face such little resistance when moving through Prussia?,German Army had been directed towards the Western Front,67855,10860,East_Prussia,squad_extractive
+289,In what year did the battle of Tannenberg take place?,1914,68056,10893,East_Prussia,squad_extractive
+290,In what year did Germany become a republic?,1918,68308,10934,East_Prussia,squad_extractive
+291,What was implemented that separated East Prussia from Germany?,Treaty of Versailles,68639,10986,East_Prussia,squad_extractive
+292,What was implemented to provide transport to East Prussia?,The Seedienst Ostpreußen,69051,11048,East_Prussia,squad_extractive
+293,Who was the leader of the East Prussian Nazi Party?,Erich Koch,69154,11062,East_Prussia,squad_extractive
+294,What large plans did Koch have?,mass-scale industrialization of the largely agricultural province,69429,11107,East_Prussia,squad_extractive
+295,What even occurred during the summer of 1932 in Konigsberg?,attack on the headquarters of the Social Democrats,69695,11148,East_Prussia,squad_extractive
+296,Who was killed in the attack of the Social Democrats?,Gustav Sauf,69808,11163,East_Prussia,squad_extractive
+297,How were East Prussians able to pay for land improvements and road construction?,publicly funded emergency relief programs,70145,11212,East_Prussia,squad_extractive
+298,What was the name of the initiative to help with the new projects in East Prussia?,Erich Koch Plan,70271,11227,East_Prussia,squad_extractive
+299,What did Koch report to Hitler in 1933?,that unemployment had been banished entirely,70398,11247,East_Prussia,squad_extractive
+300,Around how many places were renamed when the Nazis entered Prussia?,"1,500",71163,11361,East_Prussia,squad_extractive
+301,What would happen if some didn't comply with the Nazi's with their demands?,sent to concentration camps,71384,11399,East_Prussia,squad_extractive
+302,How many people lived in Easy Prussia in 1939?,2.49 million,71495,11417,East_Prussia,squad_extractive
+303,"Of the population in East Prussia, what percentage of those were German?",85%,71521,11420,East_Prussia,squad_extractive
+304,How many East Prussian Jews were around in 1939?,"3,000",72014,11493,East_Prussia,squad_extractive
+305,What happened to those Jews who remained?,deported and killed in the Holocaust.,72088,11507,East_Prussia,squad_extractive
+306,What other parts of East Prussia were transferred after the annexation of Zichenau?,Suwałki to Regierungsbezirk Gumbinnen and Soldau to Regierungsbezirk Allenstein,72276,11536,East_Prussia,squad_extractive
+307,Despite all the propaganda that ws presented to the East Prussians what did German populations want within the country?,reunification with Germany,72476,11561,East_Prussia,squad_extractive
+308,What two countries were East Prussia partitioned into after World Was II?,Poland and the Soviet Union,72735,11600,East_Prussia,squad_extractive
+309,What happened to most of the German population during the war in what is current day Kaliningrad?,evacuated during the war,73133,11658,East_Prussia,squad_extractive
+310,How many Germans were living in East Prussia in 1945?,"800,000",73422,11708,East_Prussia,squad_extractive
+311,Around how many camps were set up by the Germans during the way?,45 camps,73694,11750,East_Prussia,squad_extractive
+312,How many forced labourers were in the largest camp?,"48,000",73886,11780,East_Prussia,squad_extractive
+313,What were the children that were left behind in East Prussia that was occupied by the Russians referred to as?,Wolf children,74043,11806,East_Prussia,squad_extractive
+314,How much did the Ukrainians make up in population as a percentage in East Prussia?,18.5%,74612,11892,East_Prussia,squad_extractive
+315,How was the pre-war population in East Prussia referred to as?,Germanized Poles,74695,11904,East_Prussia,squad_extractive
+316,In who's honor was the city named Kaliningrad from  Konigsberg? ,Mikhail Kalinin,75469,12024,East_Prussia,squad_extractive
+317,Between August 24th and October 26th how many German's left the Oblast to the Soviet Occupation zone?,"42,094",75594,12045,East_Prussia,squad_extractive
+318,What happened to the Curonians who lived in the area in East Prussia?,expelled by the Soviet Union,75988,12108,East_Prussia,squad_extractive
+319,What did the Russians consider Curonians?,fascists,76199,12142,East_Prussia,squad_extractive
+320,Where did most of the Curonians flee to in 1958?,West Germany,76260,12150,East_Prussia,squad_extractive
+321,"Once the German populations was removed, what three groups  settled into the nothern area?","ethnic Russians, Belarusians, and Ukrainians",76370,12168,East_Prussia,squad_extractive
+322,"In the Soviet section to the north, what did they want to expel from their land?",eliminating all remnants of German history,76496,12189,East_Prussia,squad_extractive
+323,What else happened in the northern part of East Prussia in the now Russian area?,names were replaced by new Russian names,76569,12200,East_Prussia,squad_extractive
+324,How was the removal of the Germans in East Prussia usually handled by the Russians?,violent and aggressive,76987,12270,East_Prussia,squad_extractive
+325,What has since been considered in Kalinigrad?,reverting Kaliningrad's name to its historic name of Königsberg,77225,12306,East_Prussia,squad_extractive
+326,What were common task of the corporation formed by the urban and rural districts?,"schools, traffic installations, hospitals, cultural institutions, jails",77630,12370,East_Prussia,squad_extractive
+327,What was the name of the corporation that looked over common task?,Provinzialverband,77719,12379,East_Prussia,squad_extractive
+328,What has since happened from 1919 that involve the provincial diets?,elected by the citizens of the provinces,78035,12419,East_Prussia,squad_extractive
+329,How are political parties elected in democracies? ,the electorate,78828,12530,Political_party,squad_extractive
+330,What are some countries that have multiple powerful political parties?,Germany and India,78929,12545,Political_party,squad_extractive
+331,What are the two most powerful political parties in the United States?,Democratic Party and the Republican Party,79089,12572,Political_party,squad_extractive
+332,Around what time did the first political factions start to emerge?,late-17th-century England,79277,12600,Political_party,squad_extractive
+333,In what year did the jacobite rising fail?,1715,79919,12694,Political_party,squad_extractive
+334,Who was the leader if the Whigs?,Robert Walpole,79953,12701,Political_party,squad_extractive
+335,Did the Whigs want to limit the monarch's power?,championing constitutional monarchy with strict limits on the monarch's power,80394,12769,Political_party,squad_extractive
+336,Did the Whigs support or oppose the Catholic king?,the Whigs adamantly opposed a Catholic king as a threat to liberty,80473,12779,Political_party,squad_extractive
+337,Who's liberal political ideas influenced the Whigs?,John Locke,80690,12813,Political_party,squad_extractive
+338,Name the two people who's concepts of universal rights influenced the Whigs.,Locke and Algernon Sidney,80751,12823,Political_party,squad_extractive
+339,For how long were the Tories dismissed from office?,half a century,80830,12835,Political_party,squad_extractive
+340,Who did the Tories occasionally cooperate with?,"the ""Opposition Whigs""",81236,12901,Political_party,squad_extractive
+341,Why could the Tories and the Opposition Whigs never form a single party?,ideological gap,81326,12915,Political_party,squad_extractive
+342,When did the Tories regain power?,1760,81500,12943,Political_party,squad_extractive
+343,Who was the first distinctive Whig party that emerged from the chaos?,the Rockingham Whigs,81848,12994,Political_party,squad_extractive
+344,Who was the leader of the Rockingham Whigs?,Charles Watson-Wentworth,81893,13001,Political_party,squad_extractive
+345,What was the description for the basic framework of the Rockingham Whigs party?,"""a body of men united for promoting by their joint endeavours the national interest, upon some particular principle in which they are all agreed""",82080,13028,Political_party,squad_extractive
+346,Did the Rockingham Whigs ever regain power as a opposition to the government?,remained out of power as a united opposition to government.,82431,13087,Political_party,squad_extractive
+347,What was the modern Conservative party created from?,the 'Pittite' Tories,82541,13105,Political_party,squad_extractive
+348,Who Issued the Tamworth manifesto?,Robert Peel,82769,13141,Political_party,squad_extractive
+349,In what year was the Tamworth manifesto introduced?,1834,82867,13157,Political_party,squad_extractive
+350,"Which party did the Whigs, along with others form?",the Liberal Party,83192,13209,Political_party,squad_extractive
+351,What were the two proto-political parties?,the Federalist Party and the Democratic-Republican Party,83613,13273,Political_party,squad_extractive
+352,Who were the leaders of the Federalist and Democratic-Republican parties?,Framers Alexander Hamilton and James Madison,83696,13284,Political_party,squad_extractive
+353,"In which year did the period known as the ""Era of Good Feelings"" begin?",1816,83825,13302,Political_party,squad_extractive
+354,Who was the leader of the Irish political party in the 1880s?,Charles Stewart Parnell,84236,13370,Political_party,squad_extractive
+355,What did Charles Stewart Parnell change his parties name to in 1882?,Irish Parliamentary Party,84318,13385,Political_party,squad_extractive
+356,Did the Irish Parliamentary Party ever adopt the Parnellite model?,they soon came to model themselves on the Parnellite model.,84926,13482,Political_party,squad_extractive
+357,Do political parties have a Party leader?,A political party is typically led by a party leader,84987,13492,Political_party,squad_extractive
+358,Who maintains the daily work and records of party meetings?,party secretary,85110,13512,Political_party,squad_extractive
+359,Who is responsible for the membership fees and expenses? ,party treasurer,85188,13524,Political_party,squad_extractive
+360,Who is responsible for recruiting and maintaining party members?,party chair,85249,13533,Political_party,squad_extractive
+361,"If a party is represented by members from the lower house of parliament, what other position can the party leader serve?",leader of the parliamentary group of that full party representation,86318,13700,Political_party,squad_extractive
+362,What type of parties allow leaders to form frontbench teams?,Westminster-based parties,86432,13718,Political_party,squad_extractive
+363,When does a party form an official opposition?,When a party becomes the largest party not part of the Government,86616,13745,Political_party,squad_extractive
+364,When does a party's frontbench become the Cabinet of government ministers?,When a party achieves enough seats in an election to form a majority,86849,13778,Political_party,squad_extractive
+365,What is considered a measurement of a state's support to liberal democracy?,"The freedom to form, declare membership in, or campaign for",86988,13800,Political_party,squad_extractive
+366,How are parties regulated?,a crackdown on or repression of all opposition parties,87211,13836,Political_party,squad_extractive
+367,Will parties that hold a counter belief to the general beliefs of the state's incumbents be repressed?,to the repression of certain parties which hold or promote ideals which run counter to the general ideology of the state's incumbents,87305,13850,Political_party,squad_extractive
+368,which  outsider parties considered unacceptable to work with?,"far-right, far-left and regionalism",87533,13885,Political_party,squad_extractive
+369,Will mainstream political parties not cooperate towards outsider parties if they are too extream?,"mainstream political parties may form an informal cordon sanitarian which applies a policy of non-cooperation towards those ""Outsider Parties""",87636,13900,Political_party,squad_extractive
+370,What has been increasingly abandoned in the past two decades?,Cordon Sanitarian,87882,13933,Political_party,squad_extractive
+371,Do official political parties exist in a nonpartisan system?,"In a nonpartisan system, no official political parties exist",88245,13986,Political_party,squad_extractive
+372,Was the administration of George Washington nonpartisan?,The administration of George Washington and the first few sessions of the United States Congress were nonpartisan.,88559,14030,Political_party,squad_extractive
+373,In what systems is the political party allowed to legally hold effective power?,one-party systems,89315,14135,Political_party,squad_extractive
+374,What are North Korea and China examples of?,positions within the party may in fact be more important than positions within the government,89598,14178,Political_party,squad_extractive
+375,When was Nazi Germany in a one-party system?,1934 and 1945,89797,14211,Political_party,squad_extractive
+376,What is the one-party system often compared with?,dictatorships and tyranny,89862,14222,Political_party,squad_extractive
+377,When are opposition parties allowed?,In dominant-party systems,89890,14225,Political_party,squad_extractive
+378,What are some of the reasons for a party's failure?,"political, social and economic circumstances, and public opinion",90106,14257,Political_party,squad_extractive
+379,What are some ways a dominant party can stay in power?,patronage and sometimes by voting fraud,90363,14295,Political_party,squad_extractive
+380,What are some examples of dominant party systems?,"African National Congress in South Africa, the Cambodian People's Party in Cambodia",90588,14328,Political_party,squad_extractive
+381,What were the first parties in the united States called?,Federalist and Republican,91280,14435,Political_party,squad_extractive
+382,For how long did the Whigs survive?,two decades,91544,14474,Political_party,squad_extractive
+383,What are challenged to an unpopular political party?,tremendous land area and large population of the country,92648,14647,Political_party,squad_extractive
+384,What has the UK political system functioned as?,"a two-party (sometimes called a ""two-and-a-half party"") system",92868,14679,Political_party,squad_extractive
+385,What are the two largest political parties in the UK?,Conservative Party and the Labour Party,92996,14698,Political_party,squad_extractive
+386,What was the other major party before the Labour party?,Liberal Party,93090,14713,Political_party,squad_extractive
+387,What is Duveger's Law?,A plurality voting system usually leads to a two-party system,93501,14775,Political_party,squad_extractive
+388,In which case are parties not likely to gain power on their own?,in cases where there are three or more parties,93749,14814,Political_party,squad_extractive
+389,Is Ireland ever not led by a coalition Government?,since the forming of the Republic of Iceland there has never been a government not led by a coalition,94129,14881,Political_party,squad_extractive
+390,Since what date has Ireland not been led by a single power?,1989,94381,14923,Political_party,squad_extractive
+391,When is political change easier?,Political change is often easier with a coalition government,94574,14956,Political_party,squad_extractive
+392,What are prime examples coalition governments that struggle to change policy?,post World War II France and Italy,95047,15029,Political_party,squad_extractive
+393,What are called factions by some people?,Political parties,95497,15098,Political_party,squad_extractive
+394,What are political parties lobbied by?,"organizations, businesses and special interest groups",95621,15115,Political_party,squad_extractive
+395,What are traditional sources of funding for parties?,Money and gifts,95697,15125,Political_party,squad_extractive
+396,When did parties that relied on donations start to run into problems?,second half of the 20th century,96122,15191,Political_party,squad_extractive
+397,Why did parties that relied on donations or subscriptions run into problems?,increased scrutiny of donations there has been a long-term decline in party memberships,96273,15215,Political_party,squad_extractive
+398,"In the United Kingdom, what is awarded to people who help fund the parties?",peerages,96681,15283,Political_party,squad_extractive
+399,Who was discovered to be selling peerages?,Lloyd George,96865,15312,Political_party,squad_extractive
+400,What act did parliament put into place to stop such corruptions?,Honours (Prevention of Abuses) Act,96983,15331,Political_party,squad_extractive
+401,What did the Honours act do?,outright sale of peerages and similar honours became a criminal act,97042,15341,Political_party,squad_extractive
+402,How did people attempt to overcome this law?,cloaking their contributions as loans,97189,15364,Political_party,squad_extractive
+403,What are the two categories of public funding?,"direct, which entails a monetary transfer to a party, and indirect",97327,15385,Political_party,squad_extractive
+404,What percentage of nations provide direct funding?,58%,97655,15439,Political_party,squad_extractive
+405,What percentage of nations provide indirect funding?,60%,97693,15445,Political_party,squad_extractive
+406,Are parties required to reveal their funding?,required to disclose their finances to the Election management body.,98039,15501,Political_party,squad_extractive
+407,What do international donors do to promote democracy? ,provide financing to political parties in developing countries,98200,15524,Political_party,squad_extractive
+408,What is another common occurrence of international support for a party? ,Developing links between ideologically linked parties,98514,15567,Political_party,squad_extractive
+409,What does the overseas development institute want to do?,to increase support to political parties,99084,15654,Political_party,squad_extractive
+410,What parties is the color green for?,"Islamist parties, Nordic agrarian parties and Irish republican parties",99273,15684,Political_party,squad_extractive
+411,What was purple considered the color for?,royalty,99591,15738,Political_party,squad_extractive
+412,What parties is the color black associated with?,fascist parties,100040,15813,Political_party,squad_extractive
+413,Brown is associated with what parties?,Nazism,100174,15831,Political_party,squad_extractive
+414,What is the color red associated with?,right-wing Republican Party,100370,15860,Political_party,squad_extractive
+415,What political party is the color blue associated with?,left-wing Democratic Party,100416,15867,Political_party,squad_extractive
+416,Did the political parties choose those colors?,"unlike political color schemes of other countries, the parties did not choose those colors",100453,15871,Political_party,squad_extractive
+417,When did political parties organize themselves into international organizations?,19th and 20th century,100937,15947,Political_party,squad_extractive
+418,What are some examples of this?,"The Universal Party, International Workingmen's Association",101095,15967,Political_party,squad_extractive
+419,Name an example of an administration that outlaws links between local and foreign political organizations. ,Hong Kong,101920,16071,Political_party,squad_extractive
+420,Who drew a difference between cadre parties and mass parties?,Maurice Duverger,102088,16090,Political_party,squad_extractive
+421,What are cadre parties?,political elites that were concerned with contesting elections and restricted the influence of outsiders,102183,16104,Political_party,squad_extractive
+422,What are mass parties?,Mass parties tried to recruit new members who were a source of party income and were often expected to spread party ideology,102345,16127,Political_party,squad_extractive
+423,What is an example of a mass party?,Socialist parties,102501,16155,Political_party,squad_extractive
+424,What type of parties are the two major parties in the United States?,cadre parties,102712,16186,Political_party,squad_extractive
+425,"What is the word for a beardless, athletic youth?",kouros,103217,16262,Apollo,squad_extractive
+426,Who are the parents of Apollo?,Zeus and Leto,103406,16294,Apollo,squad_extractive
+427,What name is Apollo known by in Etruscan mythology?,Apulu,103531,16314,Apollo,squad_extractive
+428,Who created the lyre for Apollo?,Hermes,104124,16410,Apollo,squad_extractive
+429,What was the term for hymns sung to Apollo?,paeans,104246,16431,Apollo,squad_extractive
+430,Who was the Titan goddess of the moon?,Selene,104448,16463,Apollo,squad_extractive
+431,Apellon is derived from what Doric month?,Apellaios,105145,16577,Apollo,squad_extractive
+432,What is offered at the initiation of young men during familly-festival apellai?,apellaia,105186,16582,Apollo,squad_extractive
+433,What is the name of the popular assembly in Sparta?,Apella,105478,16626,Apollo,squad_extractive
+434,"What is the Greek word for ""to destroy?""",apollymi,105865,16686,Apollo,squad_extractive
+435,What title was given to the god Nergal?,Akkadian Aplu Enlil,106887,16836,Apollo,squad_extractive
+436,What is the meaning of Akkadia Apllu Enlil?,the son of Enlil,106923,16842,Apollo,squad_extractive
+437,Who was the Trojan priest of Apollo?,Chryses,107143,16883,Apollo,squad_extractive
+438,"What word literally means ""born of a wolf?""",Lukēgenēs,108089,17022,Apollo,squad_extractive
+439,The epithet Delphinius is associated with what animal?,dolphins,108812,17119,Apollo,squad_extractive
+440,Who is Apollo's son?,Acraepheus,109129,17152,Apollo,squad_extractive
+441,Where did Apollo have a temple in the agora?,Elis,110060,17273,Apollo,squad_extractive
+442,Where was a temple dedicated to Apollo Medicus?,Rome,110259,17306,Apollo,squad_extractive
+443,"What word literally means ""warding off evil?""",Alexicacus,110358,17323,Apollo,squad_extractive
+444,"What world literally means ""founder?""",Archegetes,110666,17352,Apollo,squad_extractive
+445,"What word literally mens ""ancestor?""",Genetor,110845,17370,Apollo,squad_extractive
+446,"What word means ""to avert?""",Agyieus,111064,17399,Apollo,squad_extractive
+447,Which epithet did Apollo have as god of prophecy and truth?,Manticus,111501,17459,Apollo,squad_extractive
+448,Which epithet has historically been associated with ambiguous?,Loxias,111773,17487,Apollo,squad_extractive
+449,Which epithet did Apollo have as god of healing and of prophecy?,Iatromantis,111981,17515,Apollo,squad_extractive
+450,Which epithet did Apollo have as god of music and arts?,Musagetes,112215,17549,Apollo,squad_extractive
+451,"As god of archery, Apollo was known by what name?",Aphetor,112445,17576,Apollo,squad_extractive
+452,"What name literally means ""far-shooting?""",Hecaërgus,112709,17605,Apollo,squad_extractive
+453,Who was the son of Amphion and Niobe?,Ismenius,112999,17633,Apollo,squad_extractive
+454,Who struck his parents with an arrow?,Ismenius,112999,17633,Apollo,squad_extractive
+455,Who discerned three components in the prehistory of Apollo worship?,Walter Burkert,113756,17759,Apollo,squad_extractive
+456,What were magicians also called?,seer-doctors,115143,17980,Apollo,squad_extractive
+457,What is a comon epithet of Apollo as a healer?,paion,115319,18009,Apollo,squad_extractive
+458,"In classical times, what was Apollo's strong function in popular religion?","keep away evil,",115548,18040,Apollo,squad_extractive
+459,"What is a word for ""defent from evil?""",alexikakos,115647,18054,Apollo,squad_extractive
+460,"About the 4th Century BCE, what was the object of paean?",to implore protection against disease and misfortune,116182,18140,Apollo,squad_extractive
+461,What played an important part in the cult of the god?,Stones,116927,18267,Apollo,squad_extractive
+462,Who was the adversary of Zeus in the titanomachy?,Typhon,117657,18384,Apollo,squad_extractive
+463,Who did the narrator confuse with Phyton?,Typhon,117657,18384,Apollo,squad_extractive
+464,"What was the name for ""the double-axe men?""",Labryaden,118638,18544,Apollo,squad_extractive
+465,What is another name for the double-axe?,labrys,118718,18554,Apollo,squad_extractive
+466,"Who was the Minoan ""Mistres of the animals?""",Britomartis,119196,18627,Apollo,squad_extractive
+467,Who did scholars beieve carried on the rituals in a consistent procedure?,Pythia,119784,18728,Apollo,squad_extractive
+468,Who is a mythical seeress of Anatoian origin?,Sibyl,119935,18751,Apollo,squad_extractive
+469,What Greek tradition seems to be confirmed by recent studies?,existence of vapours and chewing of laurel-leaves,120072,18773,Apollo,squad_extractive
+470,"What two women were said to be obsessed by ""mania?""",Delphi and Dodona,120205,18793,Apollo,squad_extractive
+471,What origin was Leto?,Lydian,120896,18909,Apollo,squad_extractive
+472,Where was Leto worshipped?,Asia Minor,120951,18919,Apollo,squad_extractive
+473,Who told the story of the Cretan seer Epimenides?,Plutarch,121415,18991,Apollo,squad_extractive
+474,Who is the Cretan seer that purified Athen after the pollution brought by the Alcmeonidae?,Epimenides,121456,18998,Apollo,squad_extractive
+475,What group was probably heir to the shemanic religions of Asia?,Epimenides,121697,19037,Apollo,squad_extractive
+476,Who was a tutelary god of Wilusa?,Appaliunas,122194,19122,Apollo,squad_extractive
+477,When were Greek festivals celebrated?,at the full moon,122584,19192,Apollo,squad_extractive
+478,When were the feasts of Apollo celebrated?,seventh day of the month,122650,19205,Apollo,squad_extractive
+479,What age ran from 1700 to 1200 BCE?,The Late Bronze Age,122752,19222,Apollo,squad_extractive
+480,Who was a god of plague?,Hittite and Hurrian Aplu,122796,19231,Apollo,squad_extractive
+481,Who is the mouse God?,Apollo Smintheus,123319,19326,Apollo,squad_extractive
+482,which two cult sites had widespread infuence?,Delos and Delphi,123660,19380,Apollo,squad_extractive
+483,In what did Apollo confirm that all deities are aspects of servants of an all-encopassing highest deity?,theological oracles,124287,19481,Apollo,squad_extractive
+484,Who tried to revive the Delphic oracle?,Julian the Apostate,124455,19505,Apollo,squad_extractive
+485,What buildings were originally rectangle wood structures?,peripteral temples,124902,19584,Apollo,squad_extractive
+486,Why were the first buildings narrow?,to hold the roof,125509,19676,Apollo,squad_extractive
+487,Why did mathematical relations become necessary?,in order to keep the original forms,125606,19690,Apollo,squad_extractive
+488,"Who believed that behind the appearance of things, there was a permanent principle of mathematics?",Pythagoras,125693,19705,Apollo,squad_extractive
+489,Who was the goddess of childbirth?,Eileithyia,125845,19728,Apollo,squad_extractive
+490,How long was the necklace offered to Hera?,nine yards,125999,19754,Apollo,squad_extractive
+491,What was the day of the new moon?,The seventh,126457,19832,Apollo,squad_extractive
+492,which spring emitted vapors that caused the oracle at Delphi to give her prophecies?,Castalian Spring,126663,19868,Apollo,squad_extractive
+493,Where did Apollo kill Python?,the sacred cave at Delphi. Apollo,126963,19919,Apollo,squad_extractive
+494,Who was a parent of Python?,Gaia,127070,19940,Apollo,squad_extractive
+495,Why did Zeus strike down Asclepius with a lightning bolt?,for resurrecting Hippolytus from the dead,127144,19952,Apollo,squad_extractive
+496,How long was Apollo sentenced for killing Cyclopes?,one year of hard labor,127406,19992,Apollo,squad_extractive
+497,Who was the daughter of Peneus?,Daphne,127645,20033,Apollo,squad_extractive
+498,Who shot Daphne with a leaden arrow?,Cupid,128017,20093,Apollo,squad_extractive
+499,Who is Daphne's father?,Peneus,128162,20118,Apollo,squad_extractive
+500,Who did Leucothea fall in love with?,Leucothea,128240,20132,Apollo,squad_extractive
+501,Who was Leucothea's mother?,Orchamus,128266,20136,Apollo,squad_extractive
+502,Who ordered Leucothea to be buried alive?,Orchamus,128559,20183,Apollo,squad_extractive
+503,Who owas King of the Lapiths?,Phlegyas,128845,20228,Apollo,squad_extractive
+504,Who was the son of Elatus?,Ischys,128927,20241,Apollo,squad_extractive
+505,How was Apollo informed of the affair between Coronis and Ischys?,A crow,128950,20245,Apollo,squad_extractive
+506,"Who blew the discus off course, killing Hyacinthus?",Zephyrus,129778,20390,Apollo,squad_extractive
+507,What item did Apollo create and name after his lover?,flower,129928,20415,Apollo,squad_extractive
+508,Who argued about whether the matricide was justified?,Apollo and the Furies,130118,20447,Apollo,squad_extractive
+509,Who says the bond of blood between mother and son is more meaningfu than the bond of marriage?,Erinyes,130287,20475,Apollo,squad_extractive
+510,Who was the mountain-god?,Tmolus,130781,20561,Apollo,squad_extractive
+511,Who was chosen as umpire of the trial of skill?,Tmolus,130781,20561,Apollo,squad_extractive
+512,Who was a faithful follower of Pan?,Midas,130941,20587,Apollo,squad_extractive
+513,What instrument did Apolo play?,lyre,131407,20671,Apollo,squad_extractive
+514,What instrument did Marsyas know how to play?,flute,131492,20690,Apollo,squad_extractive
+515,What is said to have turned into the river Marsyas?,Marsyas' blood,131740,20735,Apollo,squad_extractive
+516,Where was Apollo's first temple at Rome established?,Flaminian fields,131889,20761,Apollo,squad_extractive
+517,When was the Second Punic war?,212 BCE,132000,20779,Apollo,squad_extractive
+518,What is another name for the Ludi Apollinares?,Apollonian Games,132032,20785,Apollo,squad_extractive
+519,When was the height of colonization?,750–550 BCE,132443,20852,Apollo,squad_extractive
+520,What does Lykegenes mean?,born in Lycia,132952,20933,Apollo,squad_extractive
+521,Who was the god of wine?,Dionysus,133167,20961,Apollo,squad_extractive
+522,Where did Apollo go in winter?,Hyperborea,133458,21008,Apollo,squad_extractive
+523,Whose masterpieces are a mixture of naturallism with stylization?,Praxiteles,134041,21105,Apollo,squad_extractive
+524,In whose depictions can the evolution of Greek sculpture be observed?,Praxiteles,134041,21105,Apollo,squad_extractive
+525,Who seems to be released from any art and religious conformities?,Praxiteles,134041,21105,Apollo,squad_extractive
+526,Who asserted that a divine reason gave order to the seeds of the universe?,Anaxagoras,134203,21129,Apollo,squad_extractive
+527,What is one Greek word that has the same root as the word idea?,eidos,134522,21181,Apollo,squad_extractive
+528,The period between 640-580 BC was known as what?,early archaic period,136398,21495,Apollo,squad_extractive
+529,What was the name of the Dipylon master?,Daedalus,137099,21617,Apollo,squad_extractive
+530,Who created the New York kouros?,Daedalus,137099,21617,Apollo,squad_extractive
+531,Who is said to be the builder of the labyrinth?,Daedalus,137569,21698,Apollo,squad_extractive
+532,During what period was art's main theme the representation of motion in a specific movement?,Minoan period,137693,21721,Apollo,squad_extractive
+533,What period ran from 520-485 BC?,late archaic period,138290,21819,Apollo,squad_extractive
+534,What was the harbour of Athens?,Piraeus,138551,21863,Apollo,squad_extractive
+535,What did Piraeus Apollo hold in his left hand?,the bow,138610,21872,Apollo,squad_extractive
+536,What did Piraeus Apollo hold in his right hand?,a cup of pouring libation,138640,21879,Apollo,squad_extractive
+537,In what type of art does the god hold the cithara in his left arm?,Apollo Citharoedus statue type,140044,22112,Apollo,squad_extractive
+538,What type of art is modeled after a supposed Greek bronze original made in the second quarter of the 5th Century BCE.,neo-Attic Imperial Roman copies of the late 1st or early 2nd century,140155,22132,Apollo,squad_extractive
+539,What rely on presenting scenes directly to the eye for their own visibe sake?,These representations,141734,22397,Apollo,squad_extractive
+540,"While each scene has its own character and completeness, it must fit into what?",the general sequence to which it belongs,142001,22443,Apollo,squad_extractive
+541,Who seemed to have been dominated by geometrical pattern and order?,The artists,142157,22469,Apollo,squad_extractive
+542,What is the name of a marble sculpture that was rediscovered in the late 15th century?,The Apollo Belvedere,142505,22527,Apollo,squad_extractive
+543,Who made the Apollo Belvedere?,Leochares,142805,22576,Apollo,squad_extractive
+544,When did Leochares make The Apollo Belvedere?,between 350 and 325 BCE,142821,22578,Apollo,squad_extractive
+545,What is the maximum length of the runway gymnasts sprint down before hurdling onto a spring board?,25 meters,142905,22594,Gymnastics,squad_extractive
+546,What is the maximum length of a runway?,25 meters,142905,22594,Gymnastics,squad_extractive
+547,What is blocking using only a shoulder movement called?,punching,143067,22623,Gymnastics,squad_extractive
+548,What position is the gymnast when in the air?,a standing position,143170,22637,Gymnastics,squad_extractive
+549,What may be added to a vault before landing in advanced gymnastics?,multiple twists and somersaults,143215,22643,Gymnastics,squad_extractive
+550,What are later added to the landing by advanced gymnasts?,multiple twists and somersaults,143215,22643,Gymnastics,squad_extractive
+551,What is one thing a successful vault depends on?,the length of the hurdle,143326,22661,Gymnastics,squad_extractive
+552,What do successful vaults depend on other than speed of the run?,"the length of the hurdle, the power the gymnast generates from the legs and shoulder girdle, the kinesthetic awareness in the air, and the speed of rotation",143326,22661,Gymnastics,squad_extractive
+553,What does rhythmic gymastics combine together?,"ballet, gymnastics, dance, and apparatus manipulation",143643,22715,Gymnastics,squad_extractive
+554,What 5 items are used in rhythmic gymnastic routines?,"ball, ribbon, hoop, clubs, rope",143791,22736,Gymnastics,squad_extractive
+555,What five seperate apparatuses are used in the five separate routines?,"ball, ribbon, hoop, clubs, rope",143791,22736,Gymnastics,squad_extractive
+556,Rhythmic gymnastics places greater emphaises on aesthetics rather than what?,the acrobatic,143898,22754,Gymnastics,squad_extractive
+557,How many possible points are there for rhythmic routines?,30 points,144050,22779,Gymnastics,squad_extractive
+558,What does AGG stand for?,Aesthetic Group Gymnastics,144208,22806,Gymnastics,squad_extractive
+559,Why is AGG different than Rhythmic Gymnastics? ,body movement is large and continuous and teams are larger',144334,22823,Gymnastics,squad_extractive
+560,Do athletes use apparatuses in the international AGG competitions?,do not use apparatus in international AGG competitions,144403,22834,Gymnastics,squad_extractive
+561,What physical qualities are needed for rhythmic gymastics? ,"flexibility, balance, speed, strength, coordination and sense of rhythm",144599,22865,Gymnastics,squad_extractive
+562,What is the rope made out of that the gymnists uses in their routine?,hemp or a synthetic material,145116,22939,Gymnastics,squad_extractive
+563,How long is the rope?,Its length is in proportion to the size of the gymnast,145202,22952,Gymnastics,squad_extractive
+564,What are at the ends of the ropes to help the gymnists hold it?,One or two knots at each end are for keeping hold of the rope while doing the routine.,145340,22978,Gymnastics,squad_extractive
+565,What other requirement is there for the rope?,"The rope must be coloured, either all or partially and may either be of a uniform diameter or be progressively thicker in the center",145579,23025,Gymnastics,squad_extractive
+566,Where was the FIG founded?,Liege,146087,23107,Gymnastics,squad_extractive
+567,What year was FIG founded?,1881,146096,23109,Gymnastics,squad_extractive
+568,When was gymnastics included in the Olympics?,1896,146242,23133,Gymnastics,squad_extractive
+569,Where were the first women's Olympic competitions held?,in Amsterdam,146803,23212,Gymnastics,squad_extractive
+570,How long is the run way in vaulting?,25 metres (82 ft),146865,23222,Gymnastics,squad_extractive
+571,How man feet do vaulters land on?,a two footed landing,147181,23273,Gymnastics,squad_extractive
+572,What determines where a vaulter starts on the runway?,their height and strength,147300,23293,Gymnastics,squad_extractive
+573,What is a round-off entry vault called?,Yurchenko,147468,23319,Gymnastics,squad_extractive
+574,What is the most common vault in elite level gymnastics?,yurchenko,147549,23332,Gymnastics,squad_extractive
+575,How are gymnasts scored?,from deductions taken from their start value,147981,23398,Gymnastics,squad_extractive
+576,How is the start vaule determined?,e start value of a routine is based on the difficulty of the elements the gymnast attempts and whether or not the gymnast meets composition requirements,148029,23406,Gymnastics,squad_extractive
+577,What is this score called?,D score,148271,23444,Gymnastics,squad_extractive
+578,Deductions in execution and artistry are taken from what score?,10.0,148332,23454,Gymnastics,squad_extractive
+579,What were added to scoring in 2007?,adding bonus plus the execution and then adding those two together to get the final score,148525,23490,Gymnastics,squad_extractive
+580,How many apparatuses are used?,only four types,148731,23523,Gymnastics,squad_extractive
+581,What are the types of apparatuses used?,"the double rings, the stick, the rope, and the clubs",148770,23530,Gymnastics,squad_extractive
+582,What apparatuses do groups use?,Groups do not use any apparatus,148824,23540,Gymnastics,squad_extractive
+583,When did Japan hold the first of the Men's Rhythmic Gymnastics World Champtionship?,"November 27–29, 2003",149048,23576,Gymnastics,squad_extractive
+584,What Greek word did gymnastics derive from?,"γυμνός (gymnos) meaning ""naked""",149211,23599,Gymnastics,squad_extractive
+585,What does the  verb gymnazo mean?,"to train naked"", ""train in gymnastic exercise"", generally ""to train, to exercise""",149307,23614,Gymnastics,squad_extractive
+586,Why was this verb used?,because athletes in ancient times exercised and competed without clothing,149417,23631,Gymnastics,squad_extractive
+587,When did the word come into use?,1570s,149516,23647,Gymnastics,squad_extractive
+588,What year was the Olympic Games apparatus and events standardized?,1954,149670,23670,Gymnastics,squad_extractive
+589,What is the grading structure?,a point system from 1 to 15,149816,23692,Gymnastics,squad_extractive
+590,Who set the first precedent that continues this day?,Soviet gymnasts,149881,23706,Gymnastics,squad_extractive
+591,Who recieved the first perfect score?,Nadia Comăneci,150235,23756,Gymnastics,squad_extractive
+592,What year and where was the first perfect score given?,"1976 Summer Olympics held in Montreal, Canada",150291,23765,Gymnastics,squad_extractive
+593,What does a typical pommel horse exercise consist of?,both single leg and double leg work,150706,23832,Gymnastics,squad_extractive
+594,Single leg skills are found in the form of what normally?,"form of scissors, an element often done on the pommels",150788,23847,Gymnastics,squad_extractive
+595,What is the main staple of this event?,Double leg work,150844,23857,Gymnastics,squad_extractive
+596,When does the routine end?,when the gymnast performs a dismount,151255,23922,Gymnastics,squad_extractive
+597,What are two ways that a gymnist dismounts?,"by swinging his body over the horse, or landing after a handstand",151300,23929,Gymnastics,squad_extractive
+598,Where do most injuries happen?,"the lower extremities such as: cartilage lesions, ligament tears, and bone bruises/fractures",151874,24020,Gymnastics,squad_extractive
+599,How do you avoid injuries?,proper technique must be used by the gymnast,152033,24043,Gymnastics,squad_extractive
+600,What is a successful landing?,"soft, meaning the knee and hip joints are at greater than 63 degrees of flexion",152268,24079,Gymnastics,squad_extractive
+601,Individual routines start with what phases?,build-up phase during which the gymnast jumps repeatedly to achieve height,152396,24100,Gymnastics,squad_extractive
+602,What does the gymnast do during the 10 bounces.,a sequence of aerial skills,152558,24125,Gymnastics,squad_extractive
+603,What is the maximum scroe for routines?,10 points,152633,24139,Gymnastics,squad_extractive
+604,How can additional points be earned?,depending on the difficulty of the moves and the length of time taken to complete the ten skills,152731,24155,Gymnastics,squad_extractive
+605,In high level competitions how many preliminary rountines are there?,two preliminary routines,152925,24190,Gymnastics,squad_extractive
+606,What are the uneven bars?,two horizontal bars set at different heights,153286,24252,Gymnastics,squad_extractive
+607,What are these bars made out of?,fiberglass covered in wood laminate,153355,24264,Gymnastics,squad_extractive
+608,Why are the bars not made of wood anymore?,"the bars were prone to breaking,",153464,24283,Gymnastics,squad_extractive
+609,How have the bars changed over the years?,They've been moved increasingly further apart,153663,24317,Gymnastics,squad_extractive
+610,How do gymnasts normally mount the uneven bars?,"using a springboard, or a small mat",153945,24359,Gymnastics,squad_extractive
+611,What does a higher flight phase result in?,a higher vertical ground reaction force,154319,24425,Gymnastics,squad_extractive
+612,What is vertical ground reaction force?,s external force which the gymnasts have to overcome with their muscle force and has an impact on the gymnasts linear and angular momentum,154400,24436,Gymnastics,squad_extractive
+613,What else is an important aspect that affects linear and agular movements?,time the landing takes Gymnasts,154611,24469,Gymnastics,squad_extractive
+614,What was aerobic gymnastics called orginally?,Sport Aerobics,154912,24519,Gymnastics,squad_extractive
+615,What does aerobic gymnastiscs involve?,"the performance of routines by individuals, pairs, trios or groups up to 6 people, emphasizing strength, flexibility, and aerobic fitness",154937,24522,Gymnastics,squad_extractive
+616,How many people can be in a routine?,"individuals, pairs, trios or groups up to 6 people",154968,24527,Gymnastics,squad_extractive
+617,What is the size of the mat?,7x7m,155164,24556,Gymnastics,squad_extractive
+618,How long do the routines last?,Routines generally last 60–90 seconds depending on age of participant and routine category,155360,24592,Gymnastics,squad_extractive
+619,What kind of routines do general gymnastic groups perform?,"synchronized, choreographed routines",155595,24628,Gymnastics,squad_extractive
+620,What do the troupes consist of?,of both genders and are not separated into age divisions,155653,24634,Gymnastics,squad_extractive
+621,What was the first Sport Program recongized by FIG?,Gymnastics for All,155829,24662,Gymnastics,squad_extractive
+622,How many participants are there?,30 million,156043,24691,Gymnastics,squad_extractive
+623,What is gymnastics?,"Gymnastics is a sport involving the performance of exercises requiring strength, flexibility, balance and control",156056,24693,Gymnastics,squad_extractive
+624,Who governs all events in gymnastics?,Fédération Internationale de Gymnastique (FIG),156219,24715,Gymnastics,squad_extractive
+625,What does each country have?,Each country has its own national governing body (BIW) affiliated to FIG,156267,24720,Gymnastics,squad_extractive
+626,What are the best known gymnastic events?,Competitive artistic gymnastics,156341,24732,Gymnastics,squad_extractive
+627,What events does this normally consist of for women?,"vault, uneven bars, balance beam, and floor exercise.",156460,24750,Gymnastics,squad_extractive
+628,What two Germans were known for creating exercises on apparauses?,Johann Friedrich GutsMuths (1759–1839) and Friedrich Ludwig Jahn (1778–1852),156868,24810,Gymnastics,squad_extractive
+629,What did the exercises lead to?,to what is considered modern gymnastics,157039,24835,Gymnastics,squad_extractive
+630,Who introduced educative gymnastics in France?,Don Francisco Amorós y Ondeano,157080,24841,Gymnastics,squad_extractive
+631,What did Jahn promote the use of?,"parallel bars, rings and high bar",157306,24882,Gymnastics,squad_extractive
+632,What are the two different scores?,an execution score and a difficulty score,157611,24934,Gymnastics,squad_extractive
+633,How much is a fall deduction?,1.00 deduction,157857,24979,Gymnastics,squad_extractive
+634,What is a gymnast's difficulty score based on?,what elements they perform,158009,25002,Gymnastics,squad_extractive
+635,What was the floor exercise even on before?,the bare floor or mats such as wrestling mats,158701,25125,Gymnastics,squad_extractive
+636,What is the floor exercise events performed on now?,"a carpeted 12m × 12m square, usually consisting of hard foam over a layer of plywood",158781,25140,Gymnastics,squad_extractive
+637,Why helps add an extra bounce to the floor?,"springs or foam blocks generally called a ""spring"" floor",158889,25160,Gymnastics,squad_extractive
+638,What is the maximum for floor events?,up to 90 seconds,159162,25201,Gymnastics,squad_extractive
+639,What do athletes perform for tumbling?,an explosive series of flips and twists down a sprung tumbling track,160099,25358,Gymnastics,squad_extractive
+640,Where are offical tumbling competitions allowed?,only allowed as an event in Trampoline gymnastics meets,160686,25452,Gymnastics,squad_extractive
+641,What are mens' rhythmic gymnastics related to?,both Men's artistic gymnastics and wushu martial arts,160784,25467,Gymnastics,squad_extractive
+642,Where did mens' rhythmic gymnastics develop from?,stick gymnastics,160864,25480,Gymnastics,squad_extractive
+643,What is the aim of stick gymnastics?,improving physical strength and health,160960,25496,Gymnastics,squad_extractive
+644,What are the main focus?,"tumbling, strength, power, and martial arts skills are the main focus",161146,25523,Gymnastics,squad_extractive
+645,How many mens' rhythmic gymnasts were in Japan in 2002?,1000,161496,25579,Gymnastics,squad_extractive
+646,What was the name of GE's major appliance manufacturing plant?,Appliance Park,161831,25633,General_Electric,squad_extractive
+647,What division of GE provides computer timesharing services?,GXS,162191,25683,General_Electric,squad_extractive
+648,What was the name of the lamp manufacturer in East Newark which Thomas Edison an interest in?,Edison Lamp Company,162343,25702,General_Electric,squad_extractive
+649,Where was Edison Machine Works located?,"Schenectady, New York",162489,25725,General_Electric,squad_extractive
+650,What was the name of the company that held the patents from Edison's research?,Edison Electric Light Company,162628,25744,General_Electric,squad_extractive
+651,Who provided financial backing for the Edison Lighting Company?,J.P. Morgan and the Vanderbilt family,162718,25757,General_Electric,squad_extractive
+652,"In what year did Drexel, Morgan & Co. begin to finance Edison's research and form Edison General Electric Company?",1889,162794,25768,General_Electric,squad_extractive
+653,How much of GE's revenues is derived from the financial services it provides?,over half,163150,25826,General_Electric,squad_extractive
+654,What is the business source of the majority of GE's revenues?,financial services,163192,25834,General_Electric,squad_extractive
+655,"Besides ITT Corporation, which two companies tried to emulate GE, but failed by the mid-1980's?","Ling-Temco-Vought, Tenneco",163439,25875,General_Electric,squad_extractive
+656,"Who composed GE's slogan ""Imagination at work?""?",David Lucas,163826,25934,General_Electric,squad_extractive
+657,"What was GE's slogan prior to ""Imagination at work?""",We Bring Good Things to Life,163862,25941,General_Electric,squad_extractive
+658,"In what year was the slogan ""We Bring Good Things to Life"" first used?",1979,163903,25948,General_Electric,squad_extractive
+659,Which company designed the standard format for GE's marketing literature and website?,Wolff Olins,164052,25971,General_Electric,squad_extractive
+660,What is the name of the typeface family created for GE in 2014?,GE Sans and Serif by Bold Monday,164170,25990,General_Electric,squad_extractive
+661,Which organization identified GE as the fourth largest corporate producer of air pollution in the US?,Political Economy Research Institute,164387,26029,General_Electric,squad_extractive
+662,"Based on year 2000 data, where is GE ranked among the largest corporate producers of air pollution in the US?",fourth-largest,164454,26038,General_Electric,squad_extractive
+663,How many tons of toxic chemicals does GE release into the atmosphere each year?,"2,000",164571,26057,General_Electric,squad_extractive
+664,According to which government agency is GE a leading producer of Superfund toxic waste sites?,EPA,164698,26078,General_Electric,squad_extractive
+665,Which two commercial businesses produce more Superfund toxic waste sites than GE?,"Honeywell, and Chevron Corporation",164748,26085,General_Electric,squad_extractive
+666,Who led the Thomson-Houston Electric Company when GE was formed?,Charles Coffin,164872,26103,General_Electric,squad_extractive
+667,In what year was General Electric formed?,1892,165047,26128,General_Electric,squad_extractive
+668,Where was the Thomson-Houston Electric Company based?,"Lynn, Massachusetts",165160,26144,General_Electric,squad_extractive
+669,Which city was the home of GE's first headquarters?,Schenectady,165338,26175,General_Electric,squad_extractive
+670,"Which river did GE pollute with PCBs from its plant in Pittsfield, MA?",Housatonic River,165565,26206,General_Electric,squad_extractive
+671,What were the primary contaminants contained in the pollution discharged into the Housatonic River?,Aroclor 1254 and Aroclor 1260,165665,26219,General_Electric,squad_extractive
+672,Which company produced the Aroctor 1254 and Aroctor 1260?,Monsanto,165704,26226,General_Electric,squad_extractive
+673,How high have the levels of PCBs in the sediments behind Woods Pond dam been measured at?,110 mg/kg,165929,26262,General_Electric,squad_extractive
+674,How many pounds of PCBs are estimated to be retained in the sediment behind Woods Pond dam?,"11,000",166103,26295,General_Electric,squad_extractive
+675,How much money has GE invested in renewable energy commercialization?,more than $850 million,166510,26360,General_Electric,squad_extractive
+676,When did GE announce an expansion of its business in Northern Ireland?,May 2010,166823,26404,General_Electric,squad_extractive
+677,"As of 2009, how many people did GE employ in its renewable energy initiatives?","more than 4,900",167006,26430,General_Electric,squad_extractive
+678,When did GE announce its Ecoimagination program?,May 2005,167093,26444,General_Electric,squad_extractive
+679,Who was the CEO of GE when it announced its Ecoimagination program?,Jeff Immelt,167194,26461,General_Electric,squad_extractive
+680,What type of locomotive technology was to be developed by GE under its Ecoimagination program?,hybrid,167261,26471,General_Electric,squad_extractive
+681,What type of technology related to water was to be developed under the Ecoimagination program?,water purification technology,167390,26486,General_Electric,squad_extractive
+682,Which newspaper printed an op-ed piece that questioned Immelt's credibility as a spokesman on environmental policy?,The New York Times,167466,26496,General_Electric,squad_extractive
+683,Who led GE's effort to build the first turbosupercharges during World War I?,Sanford Alexander Moss,167993,26574,General_Electric,squad_extractive
+684,Which jet engine did GE introduce in 1941?,Whittle W.1,168367,26632,General_Electric,squad_extractive
+685,What was GE's rank among US corporations in the value of wartime production contracts during World War II?,ninth,168452,26647,General_Electric,squad_extractive
+686,To which company did GE hand off their work on Whittle's jet engines?,Allison Engine Company,168606,26670,General_Electric,squad_extractive
+687,Which company is ranked as the largest engine manufacturer in the world?,Rolls-Royce plc,168738,26690,General_Electric,squad_extractive
+688,What does PCB stand for?,polychlorinated biphenyls,168816,26700,General_Electric,squad_extractive
+689,In what time period did GE pollute the Hudson River with PCBs?,1947-77,168857,26704,General_Electric,squad_extractive
+690,Who founded the Hudson River Sloop Clearwater and the Clearwater Festival to bring attention to the pollution caused by GE?,Pete Seeger,169067,26738,General_Electric,squad_extractive
+691,What designation did the EPA give to the site of GE's Hudson River pollution,superfund,169254,26771,General_Electric,squad_extractive
+692,What other types of pollution have contaminated the Hudson River watershed?,mercury contamination and sewage dumping,169337,26781,General_Electric,squad_extractive
+693,How much money has GE said it will invest in 2008 for clean technology R&D?,$1.4 billion,169477,26803,General_Electric,squad_extractive
+694,What type of lamp was introduced by GE as part of its Ecoimagination initiative?,halogen,169687,26837,General_Electric,squad_extractive
+695,What type of engine did GE bring to market as part of its Ecoimagination project?,biogas,169704,26840,General_Electric,squad_extractive
+696,What was GE's new revenue target for its Ecoimagination program in 2010?,$25 billion,169826,26860,General_Electric,squad_extractive
+697,What was the name of the project introduced by GE at the 2011 Toronto International Fils Festival?,"Short Films, Big Ideas",170013,26890,General_Electric,squad_extractive
+698,"Which company was GE's partner in the Short Fils, Big Ideas project?",cinelan,170117,26906,General_Electric,squad_extractive
+699,What type of system is Sligshot?,water vapor distillation,170171,26913,General_Electric,squad_extractive
+700,What prize was awarded to the winning amateur dirctor film at the 2013 Sundance Film Festival?,"US$100,000",170510,26961,General_Electric,squad_extractive
+701,"How many online views did the Short Films, Big Ideas campaign generate?",14 million,170669,26984,General_Electric,squad_extractive
+702,When did GE announce it was in talks to acquire the French engineering group Alstom?,April 2014,170746,26996,General_Electric,squad_extractive
+703,When was GE's acquisition of Alstom agreed to by Alstom's board?,June 2014,171171,27068,General_Electric,squad_extractive
+704,What was the final acquisition price paid by GE for Alstom?,$17 billion,171210,27076,General_Electric,squad_extractive
+705,From which company did the Alstom board reject a rival acquisition proposal?,Siemens-Mitsubishi Heavy Industries,171430,27113,General_Electric,squad_extractive
+706,Where is GE's headquarters located?,"Fairfield, Connecticut",171587,27134,General_Electric,squad_extractive
+707,"What was the former name of the Comcast Building, location of GE's main offices?",30 Rockefeller Plaza at Rockefeller Center,171643,27142,General_Electric,squad_extractive
+708,On what street in New York was GE headquartered before moving to Fairfield?,Lexington Avenue,172053,27212,General_Electric,squad_extractive
+709,"Which New York State Attorney General filed suit in US District Court to force GE to pay for the cleanup of chemicals dumped by their plant in Waterford, NY?",Robert Abrams,172134,27225,General_Electric,squad_extractive
+710,How many tons of PCBs were claimed to have been dumped by GE's Waterford Plant in the 1983 lawsuit?,"more than 100,000",172295,27256,General_Electric,squad_extractive
+711,How much did GE agree to pay in claims for the pollution it caused in the Housatonic River and other sites?,$250 million,172416,27278,General_Electric,squad_extractive
+712,What was the location of the pollution caused by GE in the Housatonic River?,"Pittsfield, Massachusetts",172500,27291,General_Electric,squad_extractive
+713,Which two languages strongly influenced Czech?,Latin and German,172803,27328,Czech_language,squad_extractive
+714,What languages strongly influenced Czech?,Latin and German,172803,27328,Czech_language,squad_extractive
+715,How many people speak Czech?,10 million,172845,27335,Czech_language,squad_extractive
+716,In which country is Czech the official language?,Czech Republic,172902,27346,Czech_language,squad_extractive
+717,What deliberate action has been done to some languages in the name of nationalism?,highlighting of minor linguistic differences,173314,27408,Czech_language,squad_extractive
+718,Name three Serbo-Croatian languages that have made a point of establishing their own unique linguistic identities.,"Bosnian, Serbian and Croatian",173409,27423,Czech_language,squad_extractive
+719,Why have many Slavic languages sought to separate themselves from Russian influence?,widespread public resentment against the former Soviet Union,173584,27447,Czech_language,squad_extractive
+720,Why did many Slavic languages distance themselves from Russian influences?,resentment against the former Soviet Union,173602,27449,Czech_language,squad_extractive
+721,When did the Soviet Union occupy Czechoslovakia?,1968,173679,27459,Czech_language,squad_extractive
+722,When did the Soviet Union occupy Czechoslovakia?,1968,173679,27459,Czech_language,squad_extractive
+723,"How much do the lexicons of Czech and Slovak differ, according to on study?",by 80 percent,173880,27488,Czech_language,squad_extractive
+724,What was the high percentage of differing lexicons found to derive from?,differing orthographies and slight inconsistencies in morphological formation,173953,27501,Czech_language,squad_extractive
+725,When is Slovak morphology more regular than Czech?,when changing from the nominative to the locative case,174067,27515,Czech_language,squad_extractive
+726,The most differences between Czech and Slovak can be found in colloquial vocabulary as well as what?,some scientific terminology,174276,27546,Czech_language,squad_extractive
+727,What does Slovak have slightly more of than Czech?,borrowed words,174330,27553,Czech_language,squad_extractive
+728,Why did the Czechoslavs consider Czech and Slovak to be a single language?,The similarities,174358,27557,Czech_language,squad_extractive
+729,"Who called themselves ""Czechoslavs""?",a group of 19th-century scholars,174459,27573,Czech_language,squad_extractive
+730,When was the first Czechoslovak Republic?,1918–1938,174720,27611,Czech_language,squad_extractive
+731,What was standard written Slovak partially modeled on?,literary Czech,174907,27635,Czech_language,squad_extractive
+732,When was the Prague Spring?,1968,175409,27715,Czech_language,squad_extractive
+733,When did a tribe of Slavs arrive in Central Europe?,sixth century AD,175622,27745,Czech_language,squad_extractive
+734,"Who was the hero who led the Slavs to their new home, according to legend?",Čech,175747,27769,Czech_language,squad_extractive
+735,What did the ninth century bring?,state of Great Moravia,175819,27781,Czech_language,squad_extractive
+736,"Whose influence was Rastislav eager to reduce, when he invited  Michael III to send missionaries? ",East Francia,175982,27807,Czech_language,squad_extractive
+737,What alphabet did the missionaries bring to the West Slavs?,Glagolitic,176223,27842,Czech_language,squad_extractive
+738,"By the thirteenth century, what had the Czech language separated from?",other Slavic tongues,176651,27902,Czech_language,squad_extractive
+739,How long was the precursor to Czech classified as Old Czech?,through the sixteenth century,176768,27920,Czech_language,squad_extractive
+740,How did Old Czech's use of cases differ from modern usage?,did not yet have a vocative case or an animacy distinction,176870,27936,Czech_language,squad_extractive
+741,Why aren't some sound clusters used in modern Czech?,no longer exist,177328,28006,Czech_language,squad_extractive
+742,How did old Czech allow some complex consonant clusters to be pronounced?,all at once,177479,28030,Czech_language,squad_extractive
+743,What type of phenomenon is Havlik's law?,phonological,177519,28037,Czech_language,squad_extractive
+744,"Which ""yer""s were vocalized as vowels?",every odd-numbered,177705,28065,Czech_language,squad_extractive
+745,What Holy Roman Emperor expedited the growth of Bohemia in the 14th century?,Charles IV,178000,28111,Czech_language,squad_extractive
+746,When was Charles University founded in Prague?,1348,178056,28120,Czech_language,squad_extractive
+747,Who contributed heavily to the effort to standardize Czech orthography?,Jan Hus,178267,28150,Czech_language,squad_extractive
+748,What did Jan Hus advocate for among the Czech commoners?,widespread literacy,178360,28162,Czech_language,squad_extractive
+749,When was the Kralice Bible published?,late sixteenth century,178740,28220,Czech_language,squad_extractive
+750,What did the publication of the Kralice Bible spawn?,widespread nationalism,178920,28247,Czech_language,squad_extractive
+751,In what war were the Czechs defeated at the Battle of White Mountain?,Thirty Years' War,179244,28296,Czech_language,squad_extractive
+752,When do linguists agree modern Czech originated?,the eighteenth century,179637,28352,Czech_language,squad_extractive
+753,What had Czech developed by the 18th century?,literary tradition,179698,28362,Czech_language,squad_extractive
+754,Journals from the 18th century have no substantial differences from what?,modern standard Czech,179819,28380,Czech_language,squad_extractive
+755,What did the Czech language abandon which survives in Slovak?,a distinction between phonemic /l/ and /ʎ/,180118,28429,Czech_language,squad_extractive
+756,What did the Czechs as a people gain during the mid-18th century?,widespread national pride,180212,28444,Czech_language,squad_extractive
+757,What inspired the Czech's national pride?,Age of Enlightenment a half-century earlier,180289,28454,Czech_language,squad_extractive
+758,What did Czech historians emphasize about their countrymen?,accomplishments,180385,28467,Czech_language,squad_extractive
+759,What did Czech philologists advocate?,the return of the language to high culture,180620,28493,Czech_language,squad_extractive
+760,What is the period during the mid-eighteenth century also remembered as?,Czech National Revival,180692,28507,Czech_language,squad_extractive
+761,What year did Joseph Dobrovský release a German-language grammar of Old Czech?,1809,180756,28516,Czech_language,squad_extractive
+762,What was the professions of Joseph Dobrovský?,linguist and historian,180761,28517,Czech_language,squad_extractive
+763,What didn't Dobrovský think Czech had a chance of returning as?,a major language,181071,28561,Czech_language,squad_extractive
+764,What did Josef Jungmann advocate for?,a Czech linguistic revival,181173,28576,Czech_language,squad_extractive
+765,Who disagree about whether the revivalists were motivated by nationalism or if they considered contemporary spoken Czech unsuitable for formal use?,Modern scholars,181495,28631,Czech_language,squad_extractive
+766,How long has the Czech Republic been a member of the European Union?,since 2004,181756,28667,Czech_language,squad_extractive
+767,What distinction does Czech have in Slovakia?,foreign language most often used,181866,28686,Czech_language,squad_extractive
+768,Who collected data on language knowledge in Europe for the 2012 European Day of Languages?,Jonathan van Parys,181922,28694,Czech_language,squad_extractive
+769,Czechs immigrated from Europe to the U.S. primary from 1848 to when?,1914,182308,28753,Czech_language,squad_extractive
+770,What kind of language is Czech in U.S. schools?,a Less Commonly Taught Language,182323,28756,Czech_language,squad_extractive
+771,What states have large communities of Czech Americans?,"Texas, Nebraska and Wisconsin",182472,28781,Czech_language,squad_extractive
+772,How many Americans spoke Czech as their first language as of 2009?,"70,500",182938,28851,Czech_language,squad_extractive
+773,Where are dialects of Czech commonly found?,rural areas,183181,28888,Czech_language,squad_extractive
+774,What is dialect use associated with and thus stigmatized because of?,lower class,183420,28926,Czech_language,squad_extractive
+775,What kind of scholarly interest has Czech received?,considerable,183668,28964,Czech_language,squad_extractive
+776,"Where could citizens register ""Bohemian-Moravian-Slovak' as being their spoken language?",the Austro-Hungarian Empire,184086,29027,Czech_language,squad_extractive
+777,How many Czechs spoke Moravian as their first language as of 2011?,"62,908",184356,29064,Czech_language,squad_extractive
+778,How many Czechs spoke both Moravian and standard Czech as first languages in 2011?,"45,561",184421,29074,Czech_language,squad_extractive
+779,What are vowel sounds never reduced to when unstressed?,schwa sounds,184825,29139,Czech_language,squad_extractive
+780,What a few exceptions where is the primary word stress in Czech?,first syllable,184899,29151,Czech_language,squad_extractive
+781,What is stress unrelated to in Czech?,vowel length,185100,29178,Czech_language,squad_extractive
+782,"In Czech, what are loanwords from other languages associated with?",high culture,185387,29219,Czech_language,squad_extractive
+783,What word roots in the 19th century were rejected in favor of words with more common Slavic roots?,Greek and Latin,185443,29227,Czech_language,squad_extractive
+784,"How does one say the word ""music"" in Czech?",hudba,185628,29261,Czech_language,squad_extractive
+785,"What Czech word did the English ""robot"" derive from?",robota,185742,29278,Czech_language,squad_extractive
+786,Czech's word order is flexible because it uses what to convey word function in a sentence?,grammatical case,185842,29293,Czech_language,squad_extractive
+787,In Czech an intransitive sentence may consist of only what?,a verb,186056,29329,Czech_language,squad_extractive
+788,What is a hard to pronounce and remember term meaning primarily auxiliary verbs and pronouns?,Enclitics,186118,29340,Czech_language,squad_extractive
+789,Where must enclitics appear in a sentence?,second syntactic slot,186188,29350,Czech_language,squad_extractive
+790,What is the sentence structure of Czech syntax?,subject–verb–object,186451,29398,Czech_language,squad_extractive
+791,"Because word order is flexible in Czech, what does it tend to actually be used for?",topicalization and focus,186549,29411,Czech_language,squad_extractive
+792,What kind of passive construction does Czech have?,periphrastic,186596,29418,Czech_language,squad_extractive
+793,What happens to the subject and object to produce a passive voice in Czech?,inverted,186822,29451,Czech_language,squad_extractive
+794,When are nouns in Czech inflected?,to indicate their use in a sentence,187118,29498,Czech_language,squad_extractive
+795,How does Czech mark subject nouns?,with nominative case,187215,29512,Czech_language,squad_extractive
+796,What must an adjective's case agree with in Czech?,the noun it describes,187584,29563,Czech_language,squad_extractive
+797,What categories is the masculine gender in Czech divided into?,animate and inanimate,187819,29595,Czech_language,squad_extractive
+798,What do Czech adjectives agree with in the nouns they modify?,gender and animacy,188012,29629,Czech_language,squad_extractive
+799,What is the main effect of gender in Czech?,difference in noun and adjective declension,188188,29659,Czech_language,squad_extractive
+800,What does gender also affect in Czech?,past-tense verb endings,188259,29669,Czech_language,squad_extractive
+801,What are inflected for number in Czech?,Nouns,188379,29690,Czech_language,squad_extractive
+802,What is Czech's handling of cardinal numbers typical of?,a Slavic language,188471,29703,Czech_language,squad_extractive
+803,What are the cardinal numbers one through four in Czech allowed to take?,any case,188581,29721,Czech_language,squad_extractive
+804,When is the genitive case used?,when the entire expression is in nominative or accusative case,188667,29736,Czech_language,squad_extractive
+805,What two grammatical aspects can verbs in Czech have?,perfective and imperfective,188977,29789,Czech_language,squad_extractive
+806,What describes the state of the action of the verb at the time specified by its tense?,Aspect,189368,29850,Czech_language,squad_extractive
+807,How many ways can a verb in an aspect pair differ?,two ways,189494,29874,Czech_language,squad_extractive
+808,What does a perfective verb have added in prefix pairs?,an added prefix,189569,29888,Czech_language,squad_extractive
+809,What is added to the ending in suffix pairs?,different infinitive ending,189805,29929,Czech_language,squad_extractive
+810,What can imperfective verb undergo to make other imperfective verbs?,further morphology,190018,29961,Czech_language,squad_extractive
+811,What type of action can second level morphed imperfective verbs denote?,repeated or regular action,190116,29973,Czech_language,squad_extractive
+812,What verb form is found in Czech dictionaries?,infinitive,190274,29999,Czech_language,squad_extractive
+813,What are the grammatical moods of Czech verbs?,"indicative, imperative and conditional",190488,30034,Czech_language,squad_extractive
+814,What mood adds specific endings for each of three person or number categories?,imperative,190532,30039,Czech_language,squad_extractive
+815,Which Czech verb mood indicates possible events?,conditional,190745,30066,Czech_language,squad_extractive
+816,How many graphemes does Czech have?,thirty-one,190980,30104,Czech_language,squad_extractive
+817,What have some of Czech's characters been used for by phonologists to denote?,corresponding sounds in other languages,191222,30146,Czech_language,squad_extractive
+818,What do Czech typographical features not associated with phonetics tend to resemble?,those of most Latin European languages,191721,30230,Czech_language,squad_extractive
+819,"In Czech, what is done to proper nouns, honorifics, and the first letters of quotations?",capitalized,191846,30248,Czech_language,squad_extractive
+820,What is typical in Czech as other Latin European languages?,punctuation,191863,30250,Czech_language,squad_extractive
+821,What word is capitalized in proper noun phrases in Czech?,only the first,192435,30341,Czech_language,squad_extractive
+822,What is the nickname given to the large studios of which Universal is a part?,Big Six,192687,30380,Universal_Studios,squad_extractive
+823,What is the street address of Universal Studios' production studios?,100 Universal City Plaza Drive,192740,30388,Universal_Studios,squad_extractive
+824,Where does Universal's filming take place?,"Universal City, California",192774,30394,Universal_Studios,squad_extractive
+825,In what city and state are its production studios located?,"Universal City, California",192774,30394,Universal_Studios,squad_extractive
+826,In what city are Universal Studios' corporate offices located?,New York City,192850,30404,Universal_Studios,squad_extractive
+827,Which French companies are older than Universal?,Gaumont Film Company and Pathé,193250,30465,Universal_Studios,squad_extractive
+828,Which film studio from Denmark is older than Universal?,Nordisk,193297,30473,Universal_Studios,squad_extractive
+829,"Along with Pathé and the Gaumont Film Company, what major film studio is older then Universal Studios?",Nordisk Film company,193297,30473,Universal_Studios,squad_extractive
+830,After a trip to what city did Carl Laemmle leave the dry goods business?,Chicago,193631,30523,Universal_Studios,squad_extractive
+831,In what year was the Motion Picture Trust created?,1908,193768,30545,Universal_Studios,squad_extractive
+832,For what part of a motion picture projector did the Motion Picture Trust hold a patent?,the Latham Loop,193910,30567,Universal_Studios,squad_extractive
+833,What company did Laemmle found in June 1909?,Yankee Film Company,194267,30622,Universal_Studios,squad_extractive
+834,Who were Laemmle's business partners in the Yankee Film Company?,Abe Stern and Julius Stern,194301,30627,Universal_Studios,squad_extractive
+835,In what city and state was the Independent Moving Pictures Company based?,"Fort Lee, New Jersey",194426,30646,Universal_Studios,squad_extractive
+836,What was a nickname of Florence Lawrence?,The Biograph Girl,194841,30715,Universal_Studios,squad_extractive
+837,What actor did Laemmle promote?,King Baggot,194871,30719,Universal_Studios,squad_extractive
+838,On what date was the incorporation of the Universal Film Manufacturing Company?,"April 30, 1912",195034,30747,Universal_Studios,squad_extractive
+839,What was the fate of the other partners of the Universal Film Manufacturing Company?,bought out by Laemmle,195239,30778,Universal_Studios,squad_extractive
+840,"Along with exhibition and distribution, what business did the Universal Film Manufacturing Company engage in?",movie production,195329,30792,Universal_Studios,squad_extractive
+841,On what date did Universal City Studios open?,"March 15, 1915",195473,30814,Universal_Studios,squad_extractive
+842,"In square kilometers, what was the size of Universal City Studios?",0.9,195601,30833,Universal_Studios,squad_extractive
+843,What geographical feature separated Universal City Studios from Hollywood?,Cahuenga Pass,195639,30838,Universal_Studios,squad_extractive
+844,What sort of films were produced by Red Feather?,low-budget programmers,196152,30913,Universal_Studios,squad_extractive
+845,What type of movies came out of Bluebird?,more ambitious productions,196186,30916,Universal_Studios,squad_extractive
+846,What motion pictures were made by Jewel?,prestige motion pictures,196231,30922,Universal_Studios,squad_extractive
+847,What was the profession of George Marshall?,Directors,196257,30925,Universal_Studios,squad_extractive
+848,Who was one of the few female Hollywood directors in this era?,Lois Weber,196351,30939,Universal_Studios,squad_extractive
+849,Who directed Blind Husbands?,Erich von Stroheim,196731,31001,Universal_Studios,squad_extractive
+850,In what year was Foolish Wives produced?,1922,196854,31020,Universal_Studios,squad_extractive
+851,Who starred in The Phantom of the Opera?,Lon Chaney,197009,31042,Universal_Studios,squad_extractive
+852,What year saw a film version of The Hunchback of Notre Dame?,1923,197169,31070,Universal_Studios,squad_extractive
+853,Who was at one time Laemmle's personal secretary?,Irving Thalberg,197292,31089,Universal_Studios,squad_extractive
+854,In what year did Deutsche Universal-Film AG open?,1926,197757,31161,Universal_Studios,squad_extractive
+855,What was the name of Universal's German production unit?,Deutsche Universal-Film AG,197810,31169,Universal_Studios,squad_extractive
+856,Who ran Universal's German production unit?,Joe Pasternak,197861,31176,Universal_Studios,squad_extractive
+857,How many films did Universal's German subsidiary make yearly?,three to four,197895,31181,Universal_Studios,squad_extractive
+858,"Along with Germany and Austria, where was Deutsche Universal-Film AG at one time based?",Hungary,197949,31191,Universal_Studios,squad_extractive
+859,what was the policy that Universal followed in its early years?,"""clean picture""",198574,31286,Universal_Studios,squad_extractive
+860,"By what month and year did Laemmle change his opinion on ""unclean pictures""?",April 1927,198610,31291,Universal_Studios,squad_extractive
+861,"Why did Laemmle change his position on ""unclean pictures""?",Universal was losing money,198742,31312,Universal_Studios,squad_extractive
+862,"Along with Walt Disney, who created Oswald the Lucky Rabbit?",Ub Iwerks,198867,31331,Universal_Studios,squad_extractive
+863,Who produced an Oswald the Lucky Rabbit motion picture?,Charles Mintz,198960,31346,Universal_Studios,squad_extractive
+864,What character did Walt Disney create in 1928?,Mickey Mouse,199154,31376,Universal_Studios,squad_extractive
+865,What was the first animated short with synchronized sound?,Steamboat Willie,199228,31389,Universal_Studios,squad_extractive
+866,Who was 2006 seller of the Oswald cartoons?,NBC Universal,199545,31436,Universal_Studios,squad_extractive
+867,What notable figure worked as a sportscaster for ABC?,Al Michaels,199714,31461,Universal_Studios,squad_extractive
+868,Who began producing Oswald cartoons for Universal in 1929?,Walter Lantz,199883,31488,Universal_Studios,squad_extractive
+869,In what year did Walter Lantz cease producing Oswald cartoons for Universal?,1943,199909,31493,Universal_Studios,squad_extractive
+870,"What was Carl Laemmle, Sr.'s nickname at Universal?",Uncle Carl,200223,31547,Universal_Studios,squad_extractive
+871,What poet wrote a notable rhyme about Laemmle?,Ogden Nash,200236,31548,Universal_Studios,squad_extractive
+872,What Academy Award-winning director was a relative of Carl Laemmle's?,William Wyler,200394,31570,Universal_Studios,squad_extractive
+873,What was Carl Laemmle Jr.'s nickname?,Junior,200411,31573,Universal_Studios,squad_extractive
+874,What all-color musical did Universal make in 1930?,King of Jazz,200845,31634,Universal_Studios,squad_extractive
+875,What movie won the 1930 Academy Award for Best Picture?,All Quiet on the Western Front,200883,31641,Universal_Studios,squad_extractive
+876,In what year did Universal make a film version of Dracula?,1931,201138,31682,Universal_Studios,squad_extractive
+877,When was Universal's version of Frankenstein made?,1931,201138,31682,Universal_Studios,squad_extractive
+878,What film was produced by Laemmle in 1934?,Imitation of Life,201266,31702,Universal_Studios,squad_extractive
+879,What part of Universal's business was terminated while it was in bankruptcy?,The theater chain,201580,31753,Universal_Studios,squad_extractive
+880,"Along with distribution and studio operations, what part of Universal was retained by Carl Laemmle, Jr. during bankruptcy?",production operations,201664,31767,Universal_Studios,squad_extractive
+881,What was the amount of the production loan Universal sought to complete Show Boat?,"$750,000",202258,31864,Universal_Studios,squad_extractive
+882,Who granted Universal the production loan?,the Standard Capital Corporation,202288,31868,Universal_Studios,squad_extractive
+883,When did the Standard Capital Corporation take control of Universal?,"April 2, 1936",202659,31923,Universal_Studios,squad_extractive
+884,Who became president of Universal after the Standard Capital takeover?,J. Cheever Cowdin,203144,31999,Universal_Studios,squad_extractive
+885,Who was Universal's chairman of the board of directors after the Standard Captial takeover?,J. Cheever Cowdin,203144,31999,Universal_Studios,squad_extractive
+886,"Along with Margaret Sullavan, what notable film talent left Universal after the Standard Capital takeover?",William Wyler,203402,32042,Universal_Studios,squad_extractive
+887,What notable female star left Universal after the Standard Capital takeover?,Margaret Sullavan,203420,32045,Universal_Studios,squad_extractive
+888,Who produced the film Three Smart Girls?,Joe Pasternak,203466,32050,Universal_Studios,squad_extractive
+889,What type of films did Joe Pasternak produce in Germany?,light musicals,203517,32057,Universal_Studios,squad_extractive
+890,"Prior to his work in America, where was Joe Pasternak employed?",Universal's German subsidiary,203556,32063,Universal_Studios,squad_extractive
+891,Who starred in the film Three Smart Girls?,Deanna Durbin,203635,32073,Universal_Studios,squad_extractive
+892,"Along with Donald O'Connor and Bing Crosby, with whom did Gloria Jean star?",Bing Crosby,204182,32161,Universal_Studios,squad_extractive
+893,Who played Destry in Destry Rides Again?,James Stewart,204313,32183,Universal_Studios,squad_extractive
+894,"Prior to working at Universal, what studio employed Marlene Dietrich?",Paramount Studios,204393,32196,Universal_Studios,squad_extractive
+895,During what period were the Little Tough Guys films produced?,1938–43,204739,32249,Universal_Studios,squad_extractive
+896,Over what span were the Baby Sandy films made?,1938–41,204792,32257,Universal_Studios,squad_extractive
+897,In what period did Universal produce Hugh Herbert comedies?,1938–42,204830,32262,Universal_Studios,squad_extractive
+898,When did Universal make Tom Mix westerns?,1932–33,204991,32287,Universal_Studios,squad_extractive
+899,In what span did Universal produce westerns with Kirby Grant?,1946–47,205113,32304,Universal_Studios,squad_extractive
+900,"Along with Abbott and Costello and Edgar Bergen, what radio star appeared in Universal films?",W. C. Fields,205469,32360,Universal_Studios,squad_extractive
+901,What two performers were known as the team Abbott and Costello?,Bud Abbott and Lou Costello,205527,32372,Universal_Studios,squad_extractive
+902,What military comedy did Bud Abbott and Lou Costello star in?,Buck Privates,205595,32381,Universal_Studios,squad_extractive
+903,Who was the directorial partner of Walter Wanger?,Fritz Lang,205813,32412,Universal_Studios,squad_extractive
+904,In what period did Basil Rathbone star in a series of Sherlock Holmes films?,1942–46,206109,32458,Universal_Studios,squad_extractive
+905,In what period did film versions of Inner Sanctum Mysteries appear?,1943–45,206277,32482,Universal_Studios,squad_extractive
+906,In what year was Shadow of a Doubt produced?,1943,206277,32482,Universal_Studios,squad_extractive
+907,What was the studio that Alfred Hitchcock normally worked for?,Selznick International Pictures,206341,32491,Universal_Studios,squad_extractive
+908,What was the first Universal film to use the three-strip Technicolor process?,Arabian Nights,206629,32537,Universal_Studios,squad_extractive
+909,What actress starred in Arabian Nights?,Maria Montez,206674,32544,Universal_Studios,squad_extractive
+910,When was Universal's first version of the Phantom of the Opera made?,1925,206765,32558,Universal_Studios,squad_extractive
+911,"Along with Nelson Eddy, who starred in the Phantom of the Opera?",Claude Rains,206814,32566,Universal_Studios,squad_extractive
+912,What producer was involved in the founding of United World Pictures?,Kenneth Young,207151,32615,Universal_Studios,squad_extractive
+913,How long did United World Pictures last?,one year,207245,32630,Universal_Studios,squad_extractive
+914,Who was the head of production at Universal-International Pictures?,William Goetz,207392,32647,Universal_Studios,squad_extractive
+915,Who was William Goetz's father-in-law?,Louis B. Mayer,207643,32683,Universal_Studios,squad_extractive
+916,Who directed 1946's Great Expectations?,David Lean,208098,32746,Universal_Studios,squad_extractive
+917,"In 1947, what company did Universal buy a stake in?",Castle Films,208328,32775,Universal_Studios,squad_extractive
+918,In what year did Universal-International take over Castle Films?,1951,208390,32786,Universal_Studios,squad_extractive
+919,Who ran Realart Pictures?,Jack Broeder,208598,32812,Universal_Studios,squad_extractive
+920,What Universal-International film was about a talking mule?,Francis,209048,32884,Universal_Studios,squad_extractive
+921,What Abbott and Costello film was released in 1948?,Abbott and Costello Meet Frankenstein,209248,32920,Universal_Studios,squad_extractive
+922,Who bought Rank's share of Universal-International?,Milton Rackmil,209417,32946,Universal_Studios,squad_extractive
+923,Who did many of Universal-International's Arabian Nights films feature?,Tony Curtis,209745,32991,Universal_Studios,squad_extractive
+924,Who notably produced monster and science fiction films for Universal?,William Alland,209839,33007,Universal_Studios,squad_extractive
+925,Who directed monster movies for Universal?,Jack Arnold,209877,33013,Universal_Studios,squad_extractive
+926,What Universal director was known for his melodramas?,Douglas Sirk,209938,33022,Universal_Studios,squad_extractive
+927,Who produced melodramas for Universal?,Ross Hunter,209967,33027,Universal_Studios,squad_extractive
+928,What legal decision resulted in movie studios letting their contract actors go?,"U.S. vs. Paramount Pictures, et al.",210399,33098,Universal_Studios,squad_extractive
+929,Who was a notable talent agent circa 1950?,Lew Wasserman,210540,33122,Universal_Studios,squad_extractive
+930,What star did Lew Wasserman represent?,James Stewart,210596,33132,Universal_Studios,squad_extractive
+931,What actor featured in Winchester '73?,James Stewart,210596,33132,Universal_Studios,squad_extractive
+932,Where did MCA's Revue Productions subsidiary rent space?,Republic Studios,211278,33242,Universal_Studios,squad_extractive
+933,"In square kilometers, how large was the lot Universal sold to MCA?",1.5,211420,33264,Universal_Studios,squad_extractive
+934,In what year did Universal sell its 360-acre lot to MCA?,1958,211450,33270,Universal_Studios,squad_extractive
+935,How much did MCA pay for Universal's 360-acre lot?,$11 million,211460,33272,Universal_Studios,squad_extractive
+936,In what year did MCA take over Universal?,1962,211863,33332,Universal_Studios,squad_extractive
+937,When did Universal inaugurate its studio tour subsidiary?,1964,212089,33368,Universal_Studios,squad_extractive
+938,What company did MCA create in 1964?,"Universal City Studios, Inc.",212105,33371,Universal_Studios,squad_extractive
+939,What new name was given to Revue Productions in 1966?,Universal Television,212258,33392,Universal_Studios,squad_extractive
+940,What was the company formed by the merger of Universal and NBC?,NBC Universal,212669,33454,Universal_Studios,squad_extractive
+941,Who produced Anne of the Thousand Days?,Hal B. Wallis,212868,33485,Universal_Studios,squad_extractive
+942,Who wrote the original work that the film version of Anne of the Thousand Days was based on?,Maxwell Anderson,213030,33513,Universal_Studios,squad_extractive
+943,"In what year was the film version of Mary, Queen of Scots made?",1971,213128,33530,Universal_Studios,squad_extractive
+944,Whose performance in Anne of the Thousand Days garnered a Best Actor nod?,Richard Burton,213289,33556,Universal_Studios,squad_extractive
+945,What was the name of the sequel to True Grit produced by Universal?,Rooster Cogburn,213435,33575,Universal_Studios,squad_extractive
+946,Who partnered with Universal in the creation of Cinema International Corporation?,Paramount Pictures,213757,33625,Universal_Studios,squad_extractive
+947,What Universal hit film was produced in 1974?,Earthquake,214002,33657,Universal_Studios,squad_extractive
+948,What company was purchased by MGM in 1981?,United Artists,214200,33683,Universal_Studios,squad_extractive
+949,When did United International Pictures start distributing films for DreamWorks?,1997,214790,33773,Universal_Studios,squad_extractive
+950,Who was the head of MCA in 1990?,Lew Wasserman,215115,33824,Universal_Studios,squad_extractive
+951,What is the current name of the company that was called Matsushita Electric in 1990?,Panasonic,215231,33840,Universal_Studios,squad_extractive
+952,How much did Matsushita Electric pay for MCA?,$6.6 billion,215275,33847,Universal_Studios,squad_extractive
+953,How much did Seagram pay to buy a large share of MCA/Universal?,$5.7 billion,215700,33913,Universal_Studios,squad_extractive
+954,What did Seagram sell to finance their purchase of a share in MCA/Universal?,its stake in DuPont,215731,33918,Universal_Studios,squad_extractive
+955,What company did Seagram buy in 1999?,PolyGram,215880,33940,Universal_Studios,squad_extractive
+956,Who was the head of Seagram?,Edgar Bronfman Jr.,216119,33975,Universal_Studios,squad_extractive
+957,Who bought the USA cable network from Seagram?,Barry Diller,216208,33987,Universal_Studios,squad_extractive
+958,What StudioCanal film received an Academy Award nomination?,Mulholland Drive,216584,34042,Universal_Studios,squad_extractive
+959,What was the budget of the film Love Actually?,$40 million,216856,34079,Universal_Studios,squad_extractive
+960,In what month and year did Comcast buy 49% of NBCUniversal?,March 2013,217852,34230,Universal_Studios,squad_extractive
+961,How much did Comcast pay for 49% of NBCUniversal in 2013?,$16.7 billion,217917,34240,Universal_Studios,squad_extractive
+962,What Universal chairperson headed DreamWorks as of 2006?,Stacey Snider,218093,34263,Universal_Studios,squad_extractive
+963,Who became the chairperson in late 2009?,Adam Fogelson,218421,34313,Universal_Studios,squad_extractive
+964,Who became chairperson of Universal Pictures in September 2013?,Donna Langley,218468,34319,Universal_Studios,squad_extractive
+965,Who was the founder of Universal Partnerships & Licensing?,Stephanie Sperber,218525,34328,Universal_Studios,squad_extractive
+966,Universal's deal with what company ended in 2013?,Elliott Management,219222,34425,Universal_Studios,squad_extractive
+967,With whom did Universal sign a marketing and distribution deal in July 2013?,Legendary Pictures,219305,34438,Universal_Studios,squad_extractive
+968,What film studio was brought back in May 2015?,Gramercy Pictures,219681,34491,Universal_Studios,squad_extractive
+969,What division of NBCUniversal revived Gramercy Pictures?,Focus Features,219714,34496,Universal_Studios,squad_extractive
+970,What genre of films will Gramercy be responsible for creating?,"action, sci-fi, and horror",219768,34505,Universal_Studios,squad_extractive
+971,How many studios have released three billion-dollar films in one year?,Universal is the only studio,219815,34513,Universal_Studios,squad_extractive
+972,"Along with Jurassic World and Furious 7, what billion-dollar film was released by Universal in 2015?",Minions,219974,34539,Universal_Studios,squad_extractive
+973,What was the name of the Universal production company based in Paris?,Universal Productions France S.A.,220140,34567,Universal_Studios,squad_extractive
+974,What was the name of Universal's French distribution company?,Universal Pictures France,220244,34581,Universal_Studios,squad_extractive
+975,What was the English title of Le scandale?,The Champagne Murders,220359,34598,Universal_Studios,squad_extractive
+976,What film was known in English as Going Places?,Les Valseuses,220608,34636,Universal_Studios,squad_extractive
+977,Who directed The Day of the Jackal?,Fred Zinnemann,220656,34643,Universal_Studios,squad_extractive
+978,"Sanskrit is used as a pkilsosophical language in Hinduism, Buddhism, Jainism and which other religion?",Sikhism,221073,34701,Sanskrit,squad_extractive
+979,"Besides its uses as language of religions, for what other application can Sanskrit be used?",lingua franca,221139,34714,Sanskrit,squad_extractive
+980,Sanskrit is a standardized dialect of which language?,Old Indo-Aryan,221203,34725,Sanskrit,squad_extractive
+981,From what is Sanskrit an adaption?,Old Indo-Aryan,221203,34725,Sanskrit,squad_extractive
+982,Which Indian state has Sanskrit as its official language?,Uttarakhand,221446,34763,Sanskrit,squad_extractive
+983,"Approximately how many weeklies, fortnightlies and quarterlies published in Sanskrit?",Over 90,221619,34785,Sanskrit,squad_extractive
+984,"What is the publication, Sudharma?",daily newspaper,221706,34797,Sanskrit,squad_extractive
+985,Where is the newspaper Sudharma published?,"Mysore, India",221761,34806,Sanskrit,squad_extractive
+986,Where are Sanskrit Vartman Patram and Vishwasya Vrittantam published?,Gujarat,221854,34819,Sanskrit,squad_extractive
+987,Where can the Sanskrit broadcasts be found online?,AIR's website,222036,34850,Sanskrit,squad_extractive
+988,What is the broadcast time for Sanskrit news on the DD National channel?,6:55 AM IST,222139,34868,Sanskrit,squad_extractive
+989,"Which Sanskrit linguist describes Sanskrit as a ""particularly refined or perfected manner of speaking?""",Madhav Deshpande,222171,34873,Sanskrit,squad_extractive
+990,What style of speech did linguist Madhav Deshpande say Sanskrit started out as?,perfected manner,222346,34903,Sanskrit,squad_extractive
+991,The use of Sanskrit was considered to be a marker of what in Ancient India?,social class and educational attainment,222414,34914,Sanskrit,squad_extractive
+992,Of what was Sanskrit once thought to be a divider?,social class,222414,34914,Sanskrit,squad_extractive
+993,The works of which two scholars were used to teach Sanskrit to the higher castes of India?,Pāṇini and Patanjali,222589,34942,Sanskrit,squad_extractive
+994,Where was Sanskrit a learned language of the high classes?,Ancient India,222717,34961,Sanskrit,squad_extractive
+995,With what did Sanskrit exist beside?,vernacular Prakrits,222759,34967,Sanskrit,squad_extractive
+996,What type of language were Prakrits?,Middle Indo-Aryan,222791,34971,Sanskrit,squad_extractive
+997,What were used to write Sanskrit?,Brahmic scripts,222937,34991,Sanskrit,squad_extractive
+998,What types of script was used to write Sanskrit in the northwest part of Indai?,Kharosthi,223035,35006,Sanskrit,squad_extractive
+999,What script was used in the northwest of India?,Kharosthi,223035,35006,Sanskrit,squad_extractive
+1000,Around what time did the Gupta script become prevalent for writing Sanskrit?,between the fourth and eighth centuries,223101,35016,Sanskrit,squad_extractive
+1001,"Between the forth and eighth century, what script evolved?",Gupta,223146,35023,Sanskrit,squad_extractive
+1002,Which script evolved from the Gupta script in the 8th century?,Śāradā,223230,35035,Sanskrit,squad_extractive
+1003,What script evolved from the Gupta script?,Śāradā,223230,35035,Sanskrit,squad_extractive
+1004,Which script replaced the Gupta script?,Devanagari,223317,35051,Sanskrit,squad_extractive
+1005,In what time period did the Devangari script become prevalent?,11th or 12th century,223335,35054,Sanskrit,squad_extractive
+1006,Where were many Sanskrit words found?,Austronesian languages,223532,35086,Sanskrit,squad_extractive
+1007,In what older from of which language were more than half the words borrowed from Sanskrit?,Javanese,223564,35090,Sanskrit,squad_extractive
+1008,What is an example of a traditional language that derives much of its vocabulary from Sanskrit?,Malay,223701,35109,Sanskrit,squad_extractive
+1009,Tagalog is what kind of language?,Philippine,223866,35134,Sanskrit,squad_extractive
+1010,What is an example of a Sanskrit loanword used in Southeast Asian languages?,bhāṣā,224051,35161,Sanskrit,squad_extractive
+1011,What Sanskrit borrowed word is found in many Asian languages?,bhāṣā,224051,35161,Sanskrit,squad_extractive
+1012,How long was Sanskrit a language of culture?,2000 years,224145,35178,Sanskrit,squad_extractive
+1013,Where is a post-Vedic form of Sanskrit found?,Indian epic poetry,224378,35217,Sanskrit,squad_extractive
+1014,What are two examples of epic poetry written in Sanskrit?,the Ramayana and Mahabharata,224397,35220,Sanskrit,squad_extractive
+1015,What epic poems are written in post-Vedic Sanskrit?,Ramayana and Mahabharata,224401,35220,Sanskrit,squad_extractive
+1016,What is found to a lesser extent in Classical Sanskrit?,prakritisms,224768,35276,Sanskrit,squad_extractive
+1017,What are prakritisms?,borrowings from common speech,224782,35277,Sanskrit,squad_extractive
+1018,Which Sanskrit literary language has been influenced by the Middle Indo-Aryan languages?,Buddhist Hybrid Sanskrit,224848,35285,Sanskrit,squad_extractive
+1019,When was the time of Panini?,fourth century BCE,225119,35325,Sanskrit,squad_extractive
+1020,What type of text is the Samaveda?,Vedic texts,225208,35339,Sanskrit,squad_extractive
+1021,What was Sanskrit used for?,sacred purposes,225346,35359,Sanskrit,squad_extractive
+1022,Who has said the Sanskrit is dead?,Sheldon Pollock,225691,35410,Sanskrit,squad_extractive
+1023,"According to Pollock, how is Sanskrit solely used?",literary cultures,225869,35438,Sanskrit,squad_extractive
+1024,What is Sanskrit not  able to express?,the modern age,226012,35460,Sanskrit,squad_extractive
+1025,How is Sanskrit limited in it function towards ideas?,restatements,226078,35470,Sanskrit,squad_extractive
+1026,To what has the Central Board of Education of India relegated Sanskrit? ,alternative option,226426,35519,Sanskrit,squad_extractive
+1027,Where has the Education Board ranked Sanskrit as a language option?,second or third,226487,35529,Sanskrit,squad_extractive
+1028,What grades in Indian schools have an option for Sanskrit study?,5 to 8,226605,35549,Sanskrit,squad_extractive
+1029,In what language states is Sanskrit considered an option?,Hindi,226752,35576,Sanskrit,squad_extractive
+1030,In what other type of schools is Sanskrit also taught?,gurukulas,226798,35583,Sanskrit,squad_extractive
+1031,What English school offers Sanskrit as a language study?,St James Junior School,226827,35586,Sanskrit,squad_extractive
+1032,Since what date has Sanskrit been offered as a language option in the U.S.?,September 2009,226941,35605,Sanskrit,squad_extractive
+1033,What is the credit towards in study in the U.S.?,Foreign Language,227043,35621,Sanskrit,squad_extractive
+1034,Who coordinates the study program of Samskritam as a Foreign Language?,Samskrita Bharati.,227174,35640,Sanskrit,squad_extractive
+1035,What school in Australia offers Sanskrit as a study?,Sydney Grammar School,227244,35650,Sanskrit,squad_extractive
+1036,Under what type of tradition did Sanskrit begin?,oral tradition,227404,35675,Sanskrit,squad_extractive
+1037,What feature of written text influenced the use of scripts?,regional scripts,227658,35714,Sanskrit,squad_extractive
+1038,What does Sanskrit not have of its own?,native script,227718,35723,Sanskrit,squad_extractive
+1039,From what time has the Latin alphabet been used to transcribe Sanskrit?,late 18th century,227877,35750,Sanskrit,squad_extractive
+1040,What transliteration system is most common today?,IAST,227998,35769,Sanskrit,squad_extractive
+1041,How long has IAST been the standard system used for transliteration of Sanskrit?,since 1888,228094,35781,Sanskrit,squad_extractive
+1042,What is used in transliteration for computer systems? ,ASCII,228106,35783,Sanskrit,squad_extractive
+1043,What transliteration scheme is often used on the internet?,ITRANS,228270,35802,Sanskrit,squad_extractive
+1044,What in the use of Sanskrit has influenced Sino-Tibetan languages?,Buddhist texts,228750,35875,Sanskrit,squad_extractive
+1045,What were transliterated and added to the Chinese language?,Many terms,228908,35897,Sanskrit,squad_extractive
+1046,Where do many Sanskrit texts survive?,Tibetan collections,229126,35928,Sanskrit,squad_extractive
+1047,Of what is Hindi considered to be in relation to Sanskrit?,Sanskritised register,229336,35960,Sanskrit,squad_extractive
+1048,From what dialect is Hindi descended?,Khariboli,229366,35963,Sanskrit,squad_extractive
+1049,What is the percentage of Sanskrit words thought to be in modern Indo-Aryan languages?,fifty percent,229651,36002,Sanskrit,squad_extractive
+1050,What language texts  are as much as 70% Sanskrit?,Telugu,229789,36024,Sanskrit,squad_extractive
+1051,From when are the earliest dated Sanskrit inscriptions?,first century BCE,229948,36048,Sanskrit,squad_extractive
+1052,How were early sacred texts offered?,orally,230666,36160,Sanskrit,squad_extractive
+1053,What is the Sanskrit grammatical tradition?,Vyākaraṇa,230820,36182,Sanskrit,squad_extractive
+1054,In what period did Vyakarana begin?,late Vedic,230869,36191,Sanskrit,squad_extractive
+1055,How many sutras are in the Astadhyayi?,3990 sutras,230949,36204,Sanskrit,squad_extractive
+1056,Who composed Vartikas on the Panini sutras?,Kātyāyana,231033,36218,Sanskrit,squad_extractive
+1057,What is the abbreviated alphabet called? ,Pratyāhara,231557,36295,Sanskrit,squad_extractive
+1058,"According to Panini, from where did Sanskrit evolve?",earlier Vedic,231621,36305,Sanskrit,squad_extractive
+1059,To what time can the present form of Sanskrit be traced?,second millennium BCE,231714,36323,Sanskrit,squad_extractive
+1060,As what are Classical and Vedic Sanskrit often viewed?,separate dialects,231835,36339,Sanskrit,squad_extractive
+1061,What is Vedic Sanskrit meant to be used as?,the Vedas,232009,36366,Sanskrit,squad_extractive
+1062,What hymns are thought to be the earliest?,Rigveda Samhita,232212,36393,Sanskrit,squad_extractive
+1063,What is the theory called dealing with the transfer of Sanskrit to India?,Indo-Aryan migration theory,232654,36464,Sanskrit,squad_extractive
+1064,Sanskrit came from the north west and traveled to what present day countries?,India and Pakistan,232767,36481,Sanskrit,squad_extractive
+1065,From what direction did Sanskrit travel to come to India?,north-west,232795,36486,Sanskrit,squad_extractive
+1066,When is it thought that early speakers of Sanskrit came to India?,early second millennium BCE,232827,36491,Sanskrit,squad_extractive
+1067,What form of speech shows that Sanskrit and Prakrits existed together?,Sanskrit dramas,233128,36534,Sanskrit,squad_extractive
+1068,What type of speakers spoke Sanskrit?,multilingual,233211,36546,Sanskrit,squad_extractive
+1069,For what did Brahmins use Sanskrit?,scholarly communication,233420,36575,Sanskrit,squad_extractive
+1070,How large of a group in society use Sanskrit?,thin layer,233456,36580,Sanskrit,squad_extractive
+1071,Until what period was high Sanskrit used?,British times,233679,36613,Sanskrit,squad_extractive
+1072,What organization is trying to revive Sanskrit?,Samskrita Bharati,233695,36615,Sanskrit,squad_extractive
+1073,What kind of competitions does the All-India Sanskrit Festival have?,composition contests,233815,36631,Sanskrit,squad_extractive
+1074,How many speakers of Sanskrit were there by the 1991 census?,"49,736",233869,36638,Sanskrit,squad_extractive
+1075,Where in India is Sanskrit still spoken by the population?,Mattur village,233998,36657,Sanskrit,squad_extractive
+1076,Who originally gave Mattur village to Sanskrit scholars?,king Krishnadevaraya,234276,36699,Sanskrit,squad_extractive
+1077,In what century was Indian culture accorded a more hostile reception?,early 19th century,234945,36801,Sanskrit,squad_extractive
+1078,How did the British academics show their feelings about Sanskrit?,neglect,234989,36808,Sanskrit,squad_extractive
+1079,What did British of the 19th century want India to be as soon as possible?,assimilated to Britain,235156,36835,Sanskrit,squad_extractive
+1080,"Besides assimilation of British culture, what else did the British consider Indians to be?",inferior,235626,36900,Sanskrit,squad_extractive
+1081,Who wrote an opera in Sanskrit?,Philip Glass,235684,36908,Sanskrit,squad_extractive
+1082,On what was the Philip Glass opera based?,Bhagavad Gita,235718,36914,Sanskrit,squad_extractive
+1083,Which well known performer has used Sanskrit chants in her music?,Madonna,235872,36937,Sanskrit,squad_extractive
+1084,Which composer featured Sanskrit music in his movies?,John Williams,236080,36970,Sanskrit,squad_extractive
+1085,How many square miles does Boston cover?,48 square miles,236681,37066,Boston,squad_extractive
+1086,How many square miles is Boston?,48 square miles,236681,37066,Boston,squad_extractive
+1087,What is the approximate population for 2014?,"655,884",236739,37076,Boston,squad_extractive
+1088,What was the population of Boston in 2014,"655,884",236739,37076,Boston,squad_extractive
+1089,What place is Boston in for largest city in the US?,24th,236806,37089,Boston,squad_extractive
+1090,What is the estimated population of Greater Boston?,4.7 million people,236966,37115,Boston,squad_extractive
+1091,What is the name of the peninsula Boston was founded on?,the Shawmut Peninsula,237267,37163,Boston,squad_extractive
+1092,Where was Boston Founded?,Shawmut Peninsula,237271,37164,Boston,squad_extractive
+1093,List one major event that took place in Boston.,Boston Massacre,237410,37188,Boston,squad_extractive
+1094,How many people visit Faneuil Hall annually?,20 million,237841,37255,Boston,squad_extractive
+1095,The Faneuil Hall draws over how many tourists to Boston each year?,20 million,237841,37255,Boston,squad_extractive
+1096,Households in Boston claim the highest average rate of what in the United States?,philanthropy,238381,37333,Boston,squad_extractive
+1097,What ranks in the top of the country for investment?,businesses and institutions,238416,37338,Boston,squad_extractive
+1098,Bostons businesses rank top in the country for what?,environmental sustainability and investment,238484,37349,Boston,squad_extractive
+1099,Where does Boston rank as far as cost of living in the United States?,The city has one of the highest costs of living,238529,37353,Boston,squad_extractive
+1100,What was the name before the city was called Boston?,Trimountaine,238712,37384,Boston,squad_extractive
+1101,What did Boston's early settlers call the area?,Trimountaine,238712,37384,Boston,squad_extractive
+1102,What does Trimountaine mean?,three mountains,238737,37388,Boston,squad_extractive
+1103,Who named the city Boston?,Puritan colonists from England,238955,37419,Boston,squad_extractive
+1104,What were the puritan colonists searching for when they came to Boston?,fresh water,239053,37435,Boston,squad_extractive
+1105,What year was the Cambridge Agreement signed?,1629,239320,37480,Boston,squad_extractive
+1106,Who was Massachusetts first governor?,John Winthrop,239373,37487,Boston,squad_extractive
+1107,Who led the signing of the Cambridge Agreement?,John Winthrop,239373,37487,Boston,squad_extractive
+1108,America's first public school was founded in Boston in what year?,1635,239598,37523,Boston,squad_extractive
+1109,Boston became one of the wealthiest international ports after what war?,the American Revolution,239903,37575,Boston,squad_extractive
+1110,Boston was the location of many important events of what war?,the American Revolution,239903,37575,Boston,squad_extractive
+1111,What long held tradition helped make Boston a wealthy port?,seafaring tradition,240154,37613,Boston,squad_extractive
+1112,What act was put in place during the Napoleonic wars and the war of 1812?,The Embargo Act of 1807,240305,37634,Boston,squad_extractive
+1113,What act cut down on Boston's harbor activity?,The Embargo Act of 1807,240305,37634,Boston,squad_extractive
+1114,When did Boston stop being known for it's garment production and leather goods?,the early 20th century,240772,37698,Boston,squad_extractive
+1115,Boston was admired for what kind of life?,literary life,241270,37773,Boston,squad_extractive
+1116,Boston improved culturally because of its generous what?,artistic patronage,241297,37777,Boston,squad_extractive
+1117,What was the name given to old Boston families?,Boston Brahmins,241371,37786,Boston,squad_extractive
+1118,Who came to be known as the nation's social elites?,Boston Brahmins,241371,37786,Boston,squad_extractive
+1119,"Boston was overtaken by Salem, Massachusetts in what type of trade? ",slave trade,241506,37807,Boston,squad_extractive
+1120,What movement did Boston become the center of after it stopped slave trade?,the abolitionist movement,241658,37831,Boston,squad_extractive
+1121,What law involving slaves did the city react strongly to?,the Fugitive Slave Law of 1850,241714,37839,Boston,squad_extractive
+1122,What President attempted to make an example out of Boston due to it's view on the Anthony Burns Fugitive Slave Case?,Franklin Pierce,241772,37848,Boston,squad_extractive
+1123,What year was the name changes to the City of Boston?,1822,241876,37865,Boston,squad_extractive
+1124,What was the City of Boston's name before it was the City of Boston?,the Town of Boston,241945,37878,Boston,squad_extractive
+1125,Boston was chartered as what in 1822?,a city,242114,37908,Boston,squad_extractive
+1126,What was the population of Boston in 1822?,"about 46,226",242141,37913,Boston,squad_extractive
+1127,How many square miles was the city in 1822?,4.7 square miles,242191,37923,Boston,squad_extractive
+1128,How did Boston's population change in the 1820's?,Boston's population grew rapidly,242233,37931,Boston,squad_extractive
+1129,The first Europen immigrants arrival changed what in Boston?,the city's ethnic composition,242271,37936,Boston,squad_extractive
+1130,What was the estimated population of Irish people living in Boston in 1850?,"about 35,000",242496,37968,Boston,squad_extractive
+1131,What religion did Irish and Italian immigrants bring with them to Boston?,Roman Catholicism,242990,38045,Boston,squad_extractive
+1132,What is Bostons largest religious group today?,Catholics,243020,38048,Boston,squad_extractive
+1133,What was used to fill a mill pond that became the Haymarket Square?,the crown of Beacon Hill,243484,38119,Boston,squad_extractive
+1134,What sits on Beacon Hill today?,State House,243618,38144,Boston,squad_extractive
+1135,What famous disaster happened in Boston in 1872?,The Great Boston Fire of 1872,243819,38176,Boston,squad_extractive
+1136,What was the rubble from the Great Boston Fire used for?,as landfill along the downtown waterfront,243879,38186,Boston,squad_extractive
+1137,Projects to renew the city were put into place by what?,the Boston Redevelopment Authority (BRA),244810,38325,Boston,squad_extractive
+1138,How did the people of Boston react to the demolition of the West End?,with vociferous public opposition.,244992,38352,Boston,squad_extractive
+1139,What year did the first community health center in the US open?,1965,245167,38376,Boston,squad_extractive
+1140,Where was Colombia Point Health Center located?,the Dorchester neighborhood,245273,38393,Boston,squad_extractive
+1141,"In 1990, the Colombia Point Health Center was renamed what?",Geiger-Gibson Community Health Center,245483,38427,Boston,squad_extractive
+1142,The New York Times bought what famous Boston newspaper?,The Boston Globe,246642,38592,Boston,squad_extractive
+1143,Who bought FleetBoston Financial?,Bank of America,246824,38620,Boston,squad_extractive
+1144,What department stores merged to form Macy's?,Jordan Marsh and Filene's,246880,38628,Boston,squad_extractive
+1145,Two Boston department stores merged to form what Cincinnati based department store?,Macy's,246954,38639,Boston,squad_extractive
+1146,On what date did bombs go off at the Boston marathon?,"April 15, 2013",247453,38725,Boston,squad_extractive
+1147,At what point of the Marathon were the bombs exploded?,near the finish line,247518,38735,Boston,squad_extractive
+1148,About how many people were injured in the explosion?,264,247605,38749,Boston,squad_extractive
+1149,What is the total area of Boston?,89.6 square miles,247633,38755,Boston,squad_extractive
+1150,How many square miles of land is Boston?,48.4 square miles,247663,38760,Boston,squad_extractive
+1151,How many square miles of water is Boston?,41.2 square miles,247713,38768,Boston,squad_extractive
+1152,How many feet above sea level is the City of Boston?,19 ft,247839,38787,Boston,squad_extractive
+1153,Boston is the only state capital in the contiguous US to have what type of coastline?,oceanic coastline,248103,38837,Boston,squad_extractive
+1154,What river seperates Boston from Charlestown?,The Charles River,248354,38871,Boston,squad_extractive
+1155,What direction from Boston is Boston Harbor?,To the east,248497,38893,Boston,squad_extractive
+1156,Calf Island and Green Island are considered part of what National Recreation Area?,Boston Harbor Islands National Recreation Area,248535,38901,Boston,squad_extractive
+1157,What s Boston sometimes called?,city of neighborhoods,249219,39000,Boston,squad_extractive
+1158,What division of the City Government designated the 23 neighborhoods?,Office of Neighborhood Services,249313,39012,Boston,squad_extractive
+1159,How many neighborhoods are in Boston?,23 neighborhoods,249371,39019,Boston,squad_extractive
+1160,How much of Inner Bostons land area did not exist when the city was founded?,More than two-thirds,249390,39021,Boston,squad_extractive
+1161,The modern land area was created by the gradual filling in of surrounding what?,tidal areas,249549,39049,Boston,squad_extractive
+1162,Tremont Street is named after what original hill in Boston?,Trimountain,249669,39069,Boston,squad_extractive
+1163,A train full of gravel came from Needham to fill what?,the Back Bay,249775,39085,Boston,squad_extractive
+1164,The Boston Public Library is located in what part of Boston?,the Back Bay,249775,39085,Boston,squad_extractive
+1165,Most of the city lies in which USDA plant hardiness zone?,6b,251350,39319,Boston,squad_extractive
+1166,What minimizes the influence of the Atlantic ocean on Bostons weather?,Prevailing wind patterns,251690,39372,Boston,squad_extractive
+1167,On what coast is Boston located?,the North Atlantic,252806,39571,Boston,squad_extractive
+1168,What type of weather systems in Boston can produce much snow and rain?,Nor'easter,252885,39584,Boston,squad_extractive
+1169,What is the average rainfall in the City of Boston per year?,43.8 inches,252967,39597,Boston,squad_extractive
+1170,What is the average snowfall per year in the City of Boston?,43.8 inches,252967,39597,Boston,squad_extractive
+1171,When does most snowfall occur?,December through March,253250,39643,Boston,squad_extractive
+1172,During what seasons is fog common in Boston?,spring and early summer,253626,39706,Boston,squad_extractive
+1173,When can tropical storms and hurricanes threaten Boston?,late summer and early autumn,253737,39723,Boston,squad_extractive
+1174,Sea breezes occur during what season?,late spring,253869,39745,Boston,squad_extractive
+1175,What months do thunderstorms occur in Boston?,May to September,254092,39783,Boston,squad_extractive
+1176,What is the average hours of sunshine per year in Boston?,"2,600",254486,39846,Boston,squad_extractive
+1177,About what was the population of Boston in 2010?,"617,594",254560,39859,Boston,squad_extractive
+1178,What is the density of Boston's population?,"12,200 persons/sq mile",254592,39864,Boston,squad_extractive
+1179,How many housing units were there in Boston in 2010?,"272,481",254640,39871,Boston,squad_extractive
+1180,How many people are in Boston during work hours?,1.2 million,254799,39898,Boston,squad_extractive
+1181,What can the population of Boston rech during special events?,2 million,254801,39899,Boston,squad_extractive
+1182,What percentage of the City of Bostons population is 19 and under?,21.9%,255130,39953,Boston,squad_extractive
+1183,What percentage of the City of Boston's population is 20 to 24?,14.3%,255157,39959,Boston,squad_extractive
+1184,What percentage of the City of Bostons population is 25 to 44?,33.2%,255178,39964,Boston,squad_extractive
+1185,What percentage of the City of Bostons residents are 45 to 64?,20.4%,255199,39969,Boston,squad_extractive
+1186,What percentage of the City of Boston's residents are over 65?,10.1%,255224,39975,Boston,squad_extractive
+1187,What is the average household income in Boston?,"$51,739",255865,40089,Boston,squad_extractive
+1188,What is the average family income in Boston?,"$61,035",255915,40098,Boston,squad_extractive
+1189,What is the average income for a full time male worker?,"$52,544",255981,40108,Boston,squad_extractive
+1190,What is the average income for a full time female worker?,"$46,540",255996,40110,Boston,squad_extractive
+1191,What percent of families fall below the poverty line?,16.0%,256121,40130,Boston,squad_extractive
+1192,What percent of Boston's population was white in 1950?,94.7%,256324,40167,Boston,squad_extractive
+1193,"In 2000, what percen tof the population were non hispanic and white?",49.5%,256498,40196,Boston,squad_extractive
+1194,"In recent years, the whote population has begun to move where?",formerly non-white areas,256703,40226,Boston,squad_extractive
+1195,What people form the largest ethnic group in the city?,People of Irish descent,257210,40305,Boston,squad_extractive
+1196,What percentage of the city's population is Irish?,15.8%,257294,40320,Boston,squad_extractive
+1197,What is the second largest ethnic group in the city?,Italians,257331,40326,Boston,squad_extractive
+1198,What percentage of the citys population is italian?,8.3%,257356,40329,Boston,squad_extractive
+1199,How many Chinese Americans lived in Boston City proper in 2013?,"Over 27,000",257505,40354,Boston,squad_extractive
+1200,How many Jewish people live in the City of Boston?,"25,000",258139,40449,Boston,squad_extractive
+1201,How many Jewish people live in the Boston Metro area?,"227,000",258171,40455,Boston,squad_extractive
+1202,What adjascent communities also hold a high Jewish population?,Brookline and Newton,258295,40475,Boston,squad_extractive
+1203,What is the estimated percentage of the population of Brookline and newton that are jewish?,one-third,258339,40481,Boston,squad_extractive
+1204,What neighborhoos has a high rate of hispanics?,the East Boston neighborhood,258379,40486,Boston,squad_extractive
+1205,How many hispanics live in the City of Boston?,"107,917",258869,40560,Boston,squad_extractive
+1206,How many Puerto Rican hispanics live in greater Boston?,"175,000+",258959,40572,Boston,squad_extractive
+1207,How many Mexican hispanics live in greater Boston?,"25,000+",259040,40580,Boston,squad_extractive
+1208,How many Colombians live in greater Boston?,"22,000+",259074,40584,Boston,squad_extractive
+1209,"In 2014, what percentage of the city identified as Christian?",57%,259138,40595,Boston,squad_extractive
+1210,"In 2014, what percent of the City of Boston was Catholic?",29%,259306,40621,Boston,squad_extractive
+1211,"In 2014, what percentage of Bostons residents did not claim to belong to any religion?",33%,259351,40627,Boston,squad_extractive
+1212,"In 2014, other religions mad eup what percentage of the citys population?",10%,259506,40649,Boston,squad_extractive
+1213,How many member attended the Catholic Church in the Boston area in 2010?,two million,259680,40677,Boston,squad_extractive
+1214,How many Catholic churches were in the Boston area in 2010?,339,259704,40681,Boston,squad_extractive
+1215,How many Episcopal churches were in the Boston Metro area in 2010?,160,259776,40692,Boston,squad_extractive
+1216,What Boston church is one of the oldest congregations in the US?,Old South Church,259924,40716,Boston,squad_extractive
+1217,What year was Old South Church organized?,1669,260028,40735,Boston,squad_extractive
+1218,What rank does Boston hold as far as being an economically powerful city in the world?,among the top 30,260334,40784,Boston,squad_extractive
+1219,What is the economy of Boston?,$363 billion,260412,40796,Boston,squad_extractive
+1220,What ranking in the country does Greater Boston metro hold as far as economy?,sixth-largest,260471,40805,Boston,squad_extractive
+1221,What ranking in the world does greater Boston metro hold as far as economy?,12th-largest,260512,40811,Boston,squad_extractive
+1222,How many college students does Boston attract?,"more than 350,000",260642,40829,Boston,squad_extractive
+1223,Students from around the world contribute how much a year to Bostons economy?,$4.8 billion,260725,40842,Boston,squad_extractive
+1224,"Because of the number of tech companies, the city is a hub for what?",biotechnology,260938,40879,Boston,squad_extractive
+1225,The Milken Institute rated Boston as the top what in the country?,life sciences cluster,261004,40889,Boston,squad_extractive
+1226,"Of all cities in the US, Boston received the highest amount of funding from where?",the National Institutes of Health,261109,40905,Boston,squad_extractive
+1227,The city is innovative becaus eit has access to what type of capital?,venture capital,261293,40935,Boston,squad_extractive
+1228,There is a  high presence of what type of company in the city?,high-tech companies,261335,40942,Boston,squad_extractive
+1229,Route 128 and Greater Boston are centers for what type of investment?,venture capital investment,261432,40958,Boston,squad_extractive
+1230,What remains an important sector?,high technology,261464,40962,Boston,squad_extractive
+1231,How many tourists visited Boston in 2011?,21.2 million,261571,40978,Boston,squad_extractive
+1232,How much did tourists spend in Boston in 2011?,$8.3 billion,261629,40985,Boston,squad_extractive
+1233,Mutual funds and insurance are what type of industry?,financial services,262178,41073,Boston,squad_extractive
+1234,What Boston investment firm helped make mutual funds popular in the 1980's?,Fidelity Investments,262250,41081,Boston,squad_extractive
+1235,What helped make Boston one of the top financial cities in the US?,Fidelity Investments,262250,41081,Boston,squad_extractive
+1236,Boston is the center for what type of capital firms?,venture capital,262475,41121,Boston,squad_extractive
+1237,"In 2016, GE Corporation decided to move its global headquarters to where?",the Seaport District in Boston,263166,41225,Boston,squad_extractive
+1238,How many students are in Boston Public schools?,"57,000",263342,41249,Boston,squad_extractive
+1239,How many schools are in Boston?,145 schools,263368,41252,Boston,squad_extractive
+1240,What is the oldest public high school in the US?,The Boston Latin School,263494,41272,Boston,squad_extractive
+1241,What percentage of Bostons public students are African American?,35%,263746,41312,Boston,squad_extractive
+1242,How many students are enrolled in boston and Cambridge?,"250,000",264599,41433,Boston,squad_extractive
+1243,Babson College is what type of institution?,Smaller private schools,265385,41542,Boston,squad_extractive
+1244,What small private law school is located in Boston?,New England School of Law,265698,41579,Boston,squad_extractive
+1245,What was the name of Americas first all female law school?,New England School of Law,265698,41579,Boston,squad_extractive
+1246,Wher e is Lesley University College of Art and Desighn located?,Metropolitan Boston,265813,41596,Boston,squad_extractive
+1247,What is another name for New Englans school of Art and Design,Suffolk University,266076,41639,Boston,squad_extractive
+1248,What is the oldest independant conservatory in the US?,the New England Conservatory,266140,41648,Boston,squad_extractive
+1249,What college plays an important role in making Boston known for Jazz?,Berklee College of Music,266286,41667,Boston,squad_extractive
+1250,What Univesity located outside of Boston still holds a large presence in the city?,Harvard University,266448,41693,Boston,squad_extractive
+1251,What is the nations oldest college?,Harvard University,266448,41693,Boston,squad_extractive
+1252,What was MIT originally known as?,Boston Tech,266950,41768,Boston,squad_extractive
+1253,"Since the early 1990's, Boston has had less of what type of crime?",violent crime,267384,41837,Boston,squad_extractive
+1254,Boston police and local groups make an effort toprevent youth from doing what?,joining gangs,267595,41869,Boston,squad_extractive
+1255,The Boston Miracle is the name for the reduction in what crime from 1990 to 1999?,Murders,267772,41898,Boston,squad_extractive
+1256,What was the murder rate in Boston in 1990?,"26.5 per 100,000",267839,41912,Boston,squad_extractive
+1257,Boston is culturally similar to what area?,greater New England,268151,41964,Boston,squad_extractive
+1258,What is the Boston accent known as?,Boston English,268246,41979,Boston,squad_extractive
+1259,"Food with an emphasis on seafood, salt, and dairy is an exaple of what?",regional cuisine,268268,41983,Boston,squad_extractive
+1260,Who influences Boston's politics and religion?,Irish Americans,268345,41995,Boston,squad_extractive
+1261,What are Bostons neologisms more commonly known as?,Boston slang,268490,42017,Boston,squad_extractive
+1262,"Known for its literary culture, Boston has also been called what?",Athens of America,268533,42025,Boston,squad_extractive
+1263,Where was the Atlantic Monthly first published?,the Old Corner Bookstore,268842,42068,Boston,squad_extractive
+1264,What was the name of the bookstore the authors met in?,Old Corner Bookstore,268846,42069,Boston,squad_extractive
+1265,What year was the Boston Public Library founded?,1852,268985,42091,Boston,squad_extractive
+1266,The Boston Symphony Orchestra is a member of what?,Big Five,269264,42137,Boston,squad_extractive
+1267,What classical music magazine called the Boston Symphony orchestra one of the worlds best orchestras?,Gramophone,269353,42150,Boston,squad_extractive
+1268,What does Boston Symphony orchestra call home?,Symphony Hall,269412,42159,Boston,squad_extractive
+1269,Where is Symphony Hall located?,west of Back Bay,269435,42162,Boston,squad_extractive
+1270,Where is the theater District located?,south of Boston Common,270553,42339,Boston,squad_extractive
+1271,What event occurs on New Year's Eve?,First Night,270739,42367,Boston,squad_extractive
+1272,Where is the annual Boston Arts festival?,Christopher Columbus Waterfront Park,270852,42386,Boston,squad_extractive
+1273,Where are Italian Summer feasts held?,the North End,270919,42395,Boston,squad_extractive
+1274,Whos is honored in the Italian Summer Feasts?,Catholic saints,270942,42399,Boston,squad_extractive
+1275,How long are the Harbor-Fest festivities?,week-long,271049,42418,Boston,squad_extractive
+1276,What is preserved in the Boston national Historical Park?,several historic sites,271234,42446,Boston,squad_extractive
+1277,What is marked by a line of red bricks in the ground?,the Freedom Trail,271364,42467,Boston,squad_extractive
+1278,Where is the institute of contemporary Art located?,in the Seaport District,271676,42521,Boston,squad_extractive
+1279,What is one of the oldest libraries in the US?,The Boston Athenaeum,271801,42540,Boston,squad_extractive
+1280,How long has Boston been a religious center?,from its earliest days,272099,42588,Boston,squad_extractive
+1281,How many Roman Catholic parishes are in Boston?,nearly 300,272171,42599,Boston,squad_extractive
+1282,What was the city's first Anglican church?,King's Chapel,272631,42674,Boston,squad_extractive
+1283,How is the air quality in Boston?,generally very good,273062,42743,Boston,squad_extractive
+1284,How many days between 2004 and 2013 was the air unhealthy?,4 days,273137,42754,Boston,squad_extractive
+1285,Who determined that the air quality was unhealthy on those 4 days?,the EPA,273212,42768,Boston,squad_extractive
+1286,Allston Green District is an example of what?,cleaner energy facilities,273234,42773,Boston,squad_extractive
+1287,How often is Boston's climate plan updated?,every three years,273614,42825,Boston,squad_extractive
+1288,Who came up with the Renew Boston Whole Building Incentive?,Mayor Thomas Menino,274079,42893,Boston,squad_extractive
+1289,Whos is the late Mayor of Boston?,Thomas Menino,274085,42894,Boston,squad_extractive
+1290,The incentive reduced the cost of what in buildings?,cost of living,274164,42906,Boston,squad_extractive
+1291,Lots of older buildings are supported by what?,wooden piles,274575,42970,Boston,squad_extractive
+1292,What has been happening to groundwater levels?,dropping,274757,43002,Boston,squad_extractive
+1293,Where does the groundwater go instead of into the ground?,directly into sewers,274879,43024,Boston,squad_extractive
+1294,How many championships has Boston won in these leagues?,36 championships,275425,43110,Boston,squad_extractive
+1295,Why did the city turn down the chance to host the 2024 Olympic games?,financial concerns,276021,43209,Boston,squad_extractive
+1296,When did Boston withdraw its bid for hosting the Olympic games?,"July 27, 2015",276068,43217,Boston,squad_extractive
+1297,Who plays their games at Fenway park?,The Boston Red Sox,276084,43220,Boston,squad_extractive
+1298,Where is Fenway park?,near Kenmore Square,276217,43244,Boston,squad_extractive
+1299,What year was the first game of the first world series played?,1903,276623,43309,Boston,squad_extractive
+1300,What was the name of Bostons first baseball team?,Red Stockings,276882,43350,Boston,squad_extractive
+1301,What is the TD Gardens former name?,the FleetCenter,277262,43416,Boston,squad_extractive
+1302,What was the FleetCenter built to replace?,Boston Garden,277325,43425,Boston,squad_extractive
+1303,How many people can be seated in a basketball game at TD Garden?,"18,624",277539,43461,Boston,squad_extractive
+1304,How many people can be seated for an ice hockey game at TD Garden?,"17,565",277571,43466,Boston,squad_extractive
+1305,What league do the new England patriots belong to?,the National Football League,278032,43542,Boston,squad_extractive
+1306,What was the original name of the new England patriots?,Boston Patriots,278089,43552,Boston,squad_extractive
+1307,When dod the Boston patriots change their name?,after relocating,278126,43557,Boston,squad_extractive
+1308,What stadium do the patriots play in?,Gillette Stadium,278229,43575,Boston,squad_extractive
+1309,What is the name of the highest level of college football?,the Football Bowl Subdivision,278725,43648,Boston,squad_extractive
+1310,What is the name of the second highest level of college football?,Football Championship Subdivision,278810,43659,Boston,squad_extractive
+1311,What is one of the most famous sporting events in the city?,the Boston Marathon,278899,43673,Boston,squad_extractive
+1312,What is the oldest public park in the US?,Boston Common,279198,43723,Boston,squad_extractive
+1313,Where is Boston Common located?,near the Financial District and Beacon Hill,279221,43726,Boston,squad_extractive
+1314,What is next to Boston Common?,Boston Public Garden,279338,43746,Boston,squad_extractive
+1315,Who designed the Emerald necklace?,Frederick Law Olmsted,279426,43762,Boston,squad_extractive
+1316,Who ranks city park systems?,ParkScore,280061,43861,Boston,squad_extractive
+1317,What ranking does the Boston park system have?,third-best,280185,43881,Boston,squad_extractive
+1318,Parkscore ranks the number of resident within what distance of the park?,a half-mile,280404,43918,Boston,squad_extractive
+1319,How often are elections for mayor held in Boston?,every fourth year,280602,43951,Boston,squad_extractive
+1320,What kind of power does the mayor have?,extensive executive power,280625,43955,Boston,squad_extractive
+1321,"Who became Mayor in january, 2014?",Marty Walsh,280652,43958,Boston,squad_extractive
+1322,Who oversees the Boston Public Schools?,The School Committee,280911,43998,Boston,squad_extractive
+1323,What is the MWRA?,Massachusetts Water Resources Authority,281190,44035,Boston,squad_extractive
+1324,What is the name of the massachusetts port authority?,Massport,281276,44046,Boston,squad_extractive
+1325,"As the state capital, Boston plays a large role in what?",state politics,281387,44064,Boston,squad_extractive
+1326,What court is located in Boston?,the United States Court of Appeals for the First Circuit,281540,44086,Boston,squad_extractive
+1327,What is the name of the famous bank located in Boston?,Federal Reserve Bank of Boston,281674,44108,Boston,squad_extractive
+1328,What district is the North 3/4 of the city located in?,the 7th district,281816,44129,Boston,squad_extractive
+1329,Who represents the 7th district?,Mike Capuano,281849,44134,Boston,squad_extractive
+1330,What district is the South fourth of Boston located in?,the 8th district,281900,44143,Boston,squad_extractive
+1331,The Boston Globe and the Boston herals are two of Bostons what?,daily newspapers,282434,44231,Boston,squad_extractive
+1332,How often does The Christian Science monitor publish their magazine?,weekly,282778,44282,Boston,squad_extractive
+1333,What is the name of the teen paper that the Boston Globe provides to schools?,Teens in Print,282907,44301,Boston,squad_extractive
+1334,The former publisher of the Boston phoenix owns what Spanish newspaper?,El Planeta,283148,44339,Boston,squad_extractive
+1335,Where is the main office of Siglo21?,Lawrence,283280,44362,Boston,squad_extractive
+1336,What is the name of the citys only lesbian owned LGBT magazine?,The Rainbow Times,283432,44383,Boston,squad_extractive
+1337,What locations does the Rainbow Times serve?,all of New England,283580,44407,Boston,squad_extractive
+1338,What is the national ranking of Bostons radio market?,11th largest,283691,44426,Boston,squad_extractive
+1339,What Bostom Am radio station is a sports and talk station?,WEEI,283797,44442,Boston,squad_extractive
+1340,WBUR and WGBH are exaples of what type of radio station?,NPR,283926,44466,Boston,squad_extractive
+1341,What is the name of Harvards radio station?,WHRB,284016,44479,Boston,squad_extractive
+1342,What is the name of Boston Colleges radio station?,WZBC,284065,44486,Boston,squad_extractive
+1343,What ranking does the Boston television DMA hold?,8th largest in the United States,284330,44521,Boston,squad_extractive
+1344,What is the sister station to WBZ-TV?,WSBK-TV,284478,44544,Boston,squad_extractive
+1345,What is the citys PBS station?,WGBH-TV,284643,44574,Boston,squad_extractive
+1346,MundoFox is an example of what?,Spanish-language television networks,284712,44585,Boston,squad_extractive
+1347,Where are most of the television stations transmitters located?,Needham and Newton,285013,44624,Boston,squad_extractive
+1348,What is the Longwood medical and Academic Area located next to?,the Fenway district,285253,44660,Boston,squad_extractive
+1349,Where is Massachusetts General Hospital located?,the Beacon Hill area,285744,44724,Boston,squad_extractive
+1350,Where is St. Elizabeths medical center located?,Brighton Center,285803,44734,Boston,squad_extractive
+1351,What agency oversees health concerns for city residents?,The Boston Public Health Commission,286004,44764,Boston,squad_extractive
+1352,The Longwood medical and Academic Area is affiliated with what medical school?,Harvard Medical School,286402,44818,Boston,squad_extractive
+1353,Tufts- new England medical Center was renamed what?,Tufts Medical Center,286426,44821,Boston,squad_extractive
+1354,What is the name of the first municipal Hospital in the US?,Boston City Hospital,286870,44889,Boston,squad_extractive
+1355,What Airport is located in East Boston?,Logan Airport,286954,44902,Boston,squad_extractive
+1356,What is the name of Bostons main airport?,Logan Airport,286954,44902,Boston,squad_extractive
+1357,Who operates Logan Airport?,Massport,287042,44916,Boston,squad_extractive
+1358,What airport is North of Logan Airport?,Beverly Municipal Airport,287121,44925,Boston,squad_extractive
+1359,What airport is south of Logan Airport?,Norwood Memorial Airport,287192,44937,Boston,squad_extractive
+1360,How did the streets of downtown Boston grow?,organically,287491,44982,Boston,squad_extractive
+1361,The streets of Back bay grew into a what?,planned grid,287526,44989,Boston,squad_extractive
+1362,Boston is at the East end of what Interstate?,I-90,287662,45011,Boston,squad_extractive
+1363,How many people in Boston use public transportation?,nearly a third,287938,45053,Boston,squad_extractive
+1364,Where does Boston rank nationally in terms of public transportation use?,fifth-highest,288030,45069,Boston,squad_extractive
+1365,What is the name of Bostons subway system?,MBTA,288161,45087,Boston,squad_extractive
+1366,How long is bostons subway system?,65.5 miles,288322,45111,Boston,squad_extractive
+1367,Where do Amtrack's Northeast corridor and Chicago lines start?,South Station,288506,45141,Boston,squad_extractive
+1368,Trains serving new Yourk and Washington D.C also stop where?,Route 128 Station,288711,45174,Boston,squad_extractive
+1369,What suburbs of Boston is the Route 128 Station located in?,southwestern,288736,45179,Boston,squad_extractive
+1370,Where does the Downeaster service to maine start?,North Station,288830,45191,Boston,squad_extractive
+1371,What is Bostons nickname?,The Walking City,288976,45215,Boston,squad_extractive
+1372,What type of commuters does Have than any other largely populated city?,pedestrian,289013,45220,Boston,squad_extractive
+1373,What percent of Boston's population commutes by walking?,13 percent,289160,45242,Boston,squad_extractive
+1374,What magazine put Boston on its Future best City For Biking list?,Bicycling magazine,289580,45318,Boston,squad_extractive
+1375,Bicycling magazine named Boston one of the worst cities in the US for what?,cycling,289582,45319,Boston,squad_extractive
+1376,What is the name of the bike share program in Boston?,Hubway,290041,45397,Boston,squad_extractive
+1377,How many rides did Hubway log in its first year?,"more than 140,000",290084,45404,Boston,squad_extractive
+1378,What does Upa-Mahanagar mean in English?,Sub-Metropolitan City,290597,45477,Kathmandu,squad_extractive
+1379,"Along with ""KTM,"" what is another nickname of Kathmandu?",tri-city,290880,45518,Kathmandu,squad_extractive
+1380,How many people lived in Kathmandu in 2011?,"975,453",290969,45530,Kathmandu,squad_extractive
+1381,How many square kilometers in size is Kathmandu?,49.45,290990,45533,Kathmandu,squad_extractive
+1382,What is the English translation of Mandap?,covered shelter,291755,45654,Kathmandu,squad_extractive
+1383,What do Newar speakers call Kasthamandap temple?,Maru Satal,291800,45660,Kathmandu,squad_extractive
+1384,Who was responsible for the construction of Kasthamandap temple?,King Laxmi Narsingh Malla,291855,45671,Kathmandu,squad_extractive
+1385,On what date was Maru Satal destroyed?,25 April 2015,292120,45715,Kathmandu,squad_extractive
+1386,What is the ancient name of Kathmandu?,Kasthamandap Mahanagar,292231,45734,Kathmandu,squad_extractive
+1387,What is the English translation of Mahanagar?,great city,292289,45742,Kathmandu,squad_extractive
+1388,How does कान्तिपुर transliterate into English?,Kantipur,292493,45774,Kathmandu,squad_extractive
+1389,Who is also called Kanti?,Lakshmi,292620,45797,Kathmandu,squad_extractive
+1390,What animals notably resided in Nagdaha?,snakes,292854,45835,Kathmandu,squad_extractive
+1391,Who was the founder of Manjupattan?,Bodhisatwa Manjusri,292890,45842,Kathmandu,squad_extractive
+1392,What type of creature was Banasur?,demon,293081,45874,Kathmandu,squad_extractive
+1393,Who was Banasur's murderer?,Krishna,293162,45889,Kathmandu,squad_extractive
+1394,Who was the founder of the Kirata dynasty?,Yalamber,293604,45957,Kathmandu,squad_extractive
+1395,Speakers of what languages sometimes call Kathmandu Yambu?,Sino-Tibetan,293725,45978,Kathmandu,squad_extractive
+1396,Where in Kathmandu was Yengal located?,southern half,293842,45994,Kathmandu,squad_extractive
+1397,Who won the war between the Licchavis and the Kiratas?,Licchavis,294040,46023,Kathmandu,squad_extractive
+1398,Who killed the Shakyas?,Virudhaka,294220,46049,Kathmandu,squad_extractive
+1399,Who did the migrating Shakyas pretend to be?,Koliyas,294319,46063,Kathmandu,squad_extractive
+1400,"Under the Licchavi dynasty, what name was typically used to refer to Yengal?",Dakshin Koligram,294662,46113,Kathmandu,squad_extractive
+1401,Who is Kathmandu's historical founder?,Gunakamadeva,294744,46125,Kathmandu,squad_extractive
+1402,Kathmandu resulted from the merger of what two settlements?,Dakshin Koligram,294777,46129,Kathmandu,squad_extractive
+1403,Who did Chandrahrasa belong to?,Manjushri,294892,46148,Kathmandu,squad_extractive
+1404,"Along with Khas, who attacked Nepal in the early Malla period?",Turk Muslims,296333,46372,Kathmandu,squad_extractive
+1405,What notable Nepali figure died in a Kathmandu earthquake?,Abhaya Malla,296468,46393,Kathmandu,squad_extractive
+1406,"Along with the Mangriha, what Licchavi-era building was destroyed in an ancient earthquake?",Kailashkut Bhawan,296591,46414,Kathmandu,squad_extractive
+1407,"In the waning years of the Malla dynasty, what fortified cities existed in the Kathmandu Valley?","Kantipur, Lalitpur, Bhaktapur, and Kirtipur",296996,46474,Kathmandu,squad_extractive
+1408,What cultures influenced Nepal in the later Malla era?,"India, Tibet, China, Persia, and Europe",297590,46563,Kathmandu,squad_extractive
+1409,What is an example of a book of medicine from the Malla period?,Haramekhala,297830,46602,Kathmandu,squad_extractive
+1410,When does Amarkosh date to?,1381,297953,46616,Kathmandu,squad_extractive
+1411,Who won the Battle of Kathmandu?,Gorkha Kingdom,298197,46650,Kathmandu,squad_extractive
+1412,What European country did Bhimsen Thapa oppose?,Great Britain,298841,46749,Kathmandu,squad_extractive
+1413,What geographic portion of the Kathmandu Valley houses Kathmandu?,northwestern,299052,46781,Kathmandu,squad_extractive
+1414,How large is Kathmandu in terms of square miles?,19.56,299161,46802,Kathmandu,squad_extractive
+1415,About how many feet above sea level is Kathmandu?,"4,600",299214,46811,Kathmandu,squad_extractive
+1416,How many feet high are the mountains from which the Bagmati flows?,"4,900–9,800",300091,46946,Kathmandu,squad_extractive
+1417,Where did the canal that once terminated in Kathmandu originate?,Nagarjuna hill,300217,46966,Kathmandu,squad_extractive
+1418,What is another term for VDCs?,villages,300717,47042,Kathmandu,squad_extractive
+1419,About how many people live in a square kilometer in Gonggabu VDC?,"20,000",300981,47074,Kathmandu,squad_extractive
+1420,How many significant climate regions exist in Nepal?,Five,301103,47090,Kathmandu,squad_extractive
+1421,How many meters up is the Cool Temperate Zone?,"2,100–3,300",301414,47138,Kathmandu,squad_extractive
+1422,"Along with a subtropical highland climate, what climate classification covers Kathmandu?",humid subtropical climate,301541,47155,Kathmandu,squad_extractive
+1423,What is the Köppen abbreviation for a humid subtropical climate?,Cwa,301568,47159,Kathmandu,squad_extractive
+1424,"What is the Kathmandu Valley's average temperature in winter, in degrees Fahrenheit?",50.2,301852,47202,Kathmandu,squad_extractive
+1425,On what date in 2013 was it 15.4 degrees Fahrenheit in Kathmandu?,January 10,302192,47260,Kathmandu,squad_extractive
+1426,In what months does the monsoon occur in Nepal?,June to August,302331,47283,Kathmandu,squad_extractive
+1427,Existing between what two countries contributed to Kathmandu becoming a center of trade?,India and China,303708,47503,Kathmandu,squad_extractive
+1428,Approximately what portion of Nepal's GDP is produced by the Kathmandu metropolitan area?,one third,304272,47586,Kathmandu,squad_extractive
+1429,What is the GDP of Kathmandu?,6.5billion,304306,47593,Kathmandu,squad_extractive
+1430,What do Kathmandu residents earn per capita each year?,$2200,304381,47604,Kathmandu,squad_extractive
+1431,When did construction on the Tribhuvan Highway begin?,1956,305120,47709,Kathmandu,squad_extractive
+1432,What city was connected to Kathmandu via the Tribhuvan Highway?,Raxaul,305210,47721,Kathmandu,squad_extractive
+1433,How many tourists visited Kathmandu in the period 1961-62?,"6,179",306208,47864,Kathmandu,squad_extractive
+1434,What event led to an increase in tourism in 2009?,end of the Maoist insurgency,306292,47877,Kathmandu,squad_extractive
+1435,What Nepalese mountains are claimed to attract tourists?,Himalayas,306654,47936,Kathmandu,squad_extractive
+1436,What Kathmandu neighborhood is noted for its abundance of tourists?,Thamel,306733,47948,Kathmandu,squad_extractive
+1437,What neighborhood is also known as Jhamel?,Jhamsikhel,306935,47975,Kathmandu,squad_extractive
+1438,What is the traditional name for Freak Street?,Jhochhen Tol,306975,47981,Kathmandu,squad_extractive
+1439,What tourists first brought attention to Jhocchen Tol?,hippies,307079,47997,Kathmandu,squad_extractive
+1440,What type of hotel is Aloha Inn?,three-star,307858,48124,Kathmandu,squad_extractive
+1441,De L'Annapurna is an example of what sort of hotel?,five-star,307967,48142,Kathmandu,squad_extractive
+1442,What attractions are present at Hotel Yak & Yeti and the Hyatt Regency?,casinos,307994,48145,Kathmandu,squad_extractive
+1443,What sector of Kathmandu doesn't have the word 'sector' in its name?,City Core,308124,48165,Kathmandu,squad_extractive
+1444,What is the purpose of Kathmandu being divided into 35 wards?,civic administration,308159,48172,Kathmandu,squad_extractive
+1445,What is Kathmandu's fire department called?,Barun Yantra Karyalaya,309131,48318,Kathmandu,squad_extractive
+1446,What year saw the founding of Kathmandu's fire department?,1937,309196,48328,Kathmandu,squad_extractive
+1447,What is the mission of FAN?,raising public awareness about fire and improving safety,309851,48432,Kathmandu,squad_extractive
+1448,What was the population of Kathmandu in 1991?,"427,045",310096,48470,Kathmandu,squad_extractive
+1449,About how many people are likely to live in Kathmandu in 2021?,"1,319,597",310190,48487,Kathmandu,squad_extractive
+1450,How many acres of land did the KMC control in 2001?,"20,300",310335,48510,Kathmandu,squad_extractive
+1451,What is the third largest ethnic group in Kathmandu?,Khas Brahmins,310596,48557,Kathmandu,squad_extractive
+1452,What percentage of Kathmandu residents are Chettris?,18.5,310633,48563,Kathmandu,squad_extractive
+1453,"Along with Nepali, what is Kathmandu's main language?",Nepal Bhasa,310897,48603,Kathmandu,squad_extractive
+1454,What are Kathmandu's primary religions?,Hinduism and Buddhism,311009,48620,Kathmandu,squad_extractive
+1455,How many acres are the Kathmandu valley monument zones?,466.9,311646,48717,Kathmandu,squad_extractive
+1456,"In hectares, how large is the Kathmandu valley monument buffer zone?",239.34,311694,48724,Kathmandu,squad_extractive
+1457,When did a notable earthquake occur that damaged Kathmandu's Durbar Square?,April 2015,312591,48860,Kathmandu,squad_extractive
+1458,What is Durga called in Nepali?,Taleju,313042,48934,Kathmandu,squad_extractive
+1459,How long is Kumari believed to incarnate Taleju?,until she menstruates,313077,48940,Kathmandu,squad_extractive
+1460,Who was the Royal Kumari as of late 2008?,Matina Shakya,313296,48979,Kathmandu,squad_extractive
+1461,What type of government did Nepal have after the monarchy?,Maoist,313358,48990,Kathmandu,squad_extractive
+1462,What is another name for Pashupati?,Lord Shiva,313480,49008,Kathmandu,squad_extractive
+1463,"Prior to the secularization of Nepal, who was the country's national god?",Lord Pashupatinath,313683,49042,Kathmandu,squad_extractive
+1464,Who damaged the Pashupatinath Temple in the 14th century?,Mughal invaders,313791,49058,Kathmandu,squad_extractive
+1465,Who supposedly encouraged the usage of Karnataka Brahmin priests at Pashupatinath Temple?,Adi Shankaracharya,314655,49201,Kathmandu,squad_extractive
+1466,What is another term for Bharatam?,Unified India,314718,49212,Kathmandu,squad_extractive
+1467,What do the Newars call Boudhanath?,Khāsti,315085,49266,Kathmandu,squad_extractive
+1468,What is Boudhanath called in Nepali?,Bauddha or Bodhnāth,315109,49271,Kathmandu,squad_extractive
+1469,When did UNESCO make Boudhanath a World Heritage Site?,1979,315369,49314,Kathmandu,squad_extractive
+1470,Who is pictured on the stupa's base?,Dhyani Buddha Amitabha,315430,49326,Kathmandu,squad_extractive
+1471,What mantra is engraved on the stupa's prayer wheels?,om mani padme hum,315569,49350,Kathmandu,squad_extractive
+1472,What is Ajima the deity of?,smallpox,315685,49371,Kathmandu,squad_extractive
+1473,Visitors from what faith routinely visit the stupa?,Tibetan Buddhist,315730,49378,Kathmandu,squad_extractive
+1474,In what part of Kathmandu is Swayambhu located?,northwestern,316180,49452,Kathmandu,squad_extractive
+1475,"In Swayambhu, what is present in the small area above the tiers?",gajur,316716,49545,Kathmandu,squad_extractive
+1476,What types of deities are Bhavani and Durga?,Mother Goddesses,317352,49651,Kathmandu,squad_extractive
+1477,"Along with the National Museum of Nepal, what notable Nepalese museum is present in Kathmandu?",Natural History Museum of Nepal,318184,49775,Kathmandu,squad_extractive
+1478,What Kathmandu valley area was named a World Heritage Site by UNESCO?,Monument Zones,318430,49811,Kathmandu,squad_extractive
+1479,What stupa is close to the National Museum?,Swayambhunath,318882,49882,Kathmandu,squad_extractive
+1480,Who built the building that contains the National Museum?,Bhimsen Thapa,318996,49899,Kathmandu,squad_extractive
+1481,What does Chhauni Silkhana mean?,the stone house of arms and ammunition,319313,49951,Kathmandu,squad_extractive
+1482,Who was the penultimate king of Nepal?,Birendra,320367,50108,Kathmandu,squad_extractive
+1483,Where in Kathmandu is Narayanhity Palace Museum located?,north-central,320452,50122,Kathmandu,squad_extractive
+1484,What god is Narayana?,Vishnu,320549,50137,Kathmandu,squad_extractive
+1485,Whose marriage led to the construction of Narayanhity?,Birenda Bir Bikram Shah,320898,50201,Kathmandu,squad_extractive
+1486,What is the Taragaon Museum dedicated to?,modern history of the Kathmandu Valley,321292,50271,Kathmandu,squad_extractive
+1487,Who is the designer of the Taragaon Museum?,Carl Pruscha,321716,50333,Kathmandu,squad_extractive
+1488,In what year was the Taragaon Museum built?,1971,321798,50346,Kathmandu,squad_extractive
+1489,What was the Taragaon Museum prior to being a museum?,hostel,321865,50356,Kathmandu,squad_extractive
+1490,What stupa is located close to the Taragaon Museum?,Boudhnath,322071,50391,Kathmandu,squad_extractive
+1491,What do the Nepalese call Thangkas?,Paubhas,322604,50477,Kathmandu,squad_extractive
+1492,What do the Tibetans call traditional idealistic paintings?,Thangkas,322656,50486,Kathmandu,squad_extractive
+1493,What UK charity works on behalf of Kathmandu art?,Kathmandu Contemporary Art Centre,322983,50532,Kathmandu,squad_extractive
+1494,In which of Nepal's art galleries can one take an art class?,Srijana Contemporary Art Gallery,323068,50544,Kathmandu,squad_extractive
+1495,Where can one find the Srijana Contemporary Art Gallery?,Bhrikutimandap Exhibition grounds,323121,50551,Kathmandu,squad_extractive
+1496,Where can the Nepal Art Council Gallery be found?,Babar Mahal,323787,50653,Kathmandu,squad_extractive
+1497,How many volumes are contained in Nepal's National Library?,"70,000",324070,50698,Kathmandu,squad_extractive
+1498,"Along with Hindi, Sanskrit, Nepali and English, the National Library contains books in what language?",Nepal Bhasa,324122,50705,Kathmandu,squad_extractive
+1499,What government department is located in the same building as the Kaiser Library?,Ministry of Education,324365,50747,Kathmandu,squad_extractive
+1500,How many volumes does the Kaiser Library contain?,"45,000",324423,50755,Kathmandu,squad_extractive
+1501,Who did the Kaiser Library's books previously belong to?,Kaiser Shamsher Jang Bahadur Rana,324477,50764,Kathmandu,squad_extractive
+1502,Where can the National Dance Theatre be found in Kathmandu?,Kanti Path,324966,50842,Kathmandu,squad_extractive
+1503,What year saw the beginning of the Aarohan Theater Group?,1982,325060,50857,Kathmandu,squad_extractive
+1504,What gathering is the work of the Gurukul School of Theatre?,Kathmandu International Theater Festival,325151,50874,Kathmandu,squad_extractive
+1505,Who constructed the theater in Hanumandhoka Durbar Square?,Durbar Conservation and Promotion Committee,325322,50899,Kathmandu,squad_extractive
+1506,What meat is very rarely eaten in Kathmandu?,beef,325557,50932,Kathmandu,squad_extractive
+1507,What animal does buff come from?,water buffalo,325630,50945,Kathmandu,squad_extractive
+1508,What do Kathmandu residents typically eat for breakfast?,Momo or Chowmein,326238,51049,Kathmandu,squad_extractive
+1509,"Along with locals and tourists, who eats at Kathmandu's restaurants?",expatriates,326526,51090,Kathmandu,squad_extractive
+1510,How is the egg in American chop suey prepared?,fried,326770,51129,Kathmandu,squad_extractive
+1511,What chain restaurants are present in Kathmandu?,Pizza Hut and KFC,326975,51159,Kathmandu,squad_extractive
+1512,How might a western traveler find the tea served in Kathmandu?,extremely weak,327202,51195,Kathmandu,squad_extractive
+1513,What are bhattis?,alcohol serving eateries,327593,51258,Kathmandu,squad_extractive
+1514,What goes through a fermentation process to create tongba?,millet or barley,327648,51263,Kathmandu,squad_extractive
+1515,"In addition to Hindus, who regards the Bagmati River as sacred?",Buddhists,328871,51455,Kathmandu,squad_extractive
+1516,What is done with Hindus after they die?,cremated,329013,51481,Kathmandu,squad_extractive
+1517,What are done with the bodies of Kirants after death?,buried,329052,51488,Kathmandu,squad_extractive
+1518,"In a Hindu funeral, who is typically the main mourner?",first son,329233,51519,Kathmandu,squad_extractive
+1519,When did Araniko die?,1306,329611,51580,Kathmandu,squad_extractive
+1520,How many Newar Buddhist monasteries are present in Kathmandu?,108,329743,51602,Kathmandu,squad_extractive
+1521,Approximately how many monasteries in the Kathmandu area are run by Tibetan Buddhists?,fifty,329951,51633,Kathmandu,squad_extractive
+1522,Who follows the Kirant Mudhum faith?,Kirat people,330185,51668,Kathmandu,squad_extractive
+1523,What is another name for ancestor worship?,worship of Ajima,330267,51681,Kathmandu,squad_extractive
+1524,Who worshipped at Wanga Akash Bhairabh in ancient times?,Kirats,330389,51700,Kathmandu,squad_extractive
+1525,Where can a temple of the Jain faith be found?,Gyaneshwar,330834,51772,Kathmandu,squad_extractive
+1526,Where is the Baha'i national office located in Nepal?,"Shantinagar, Baneshwor",331052,51806,Kathmandu,squad_extractive
+1527,About what percentage of the Nepali population follows Islam?,4.2,331258,51837,Kathmandu,squad_extractive
+1528,Of what university is the Institute of Medicine a constituent college?,Tribhuwan,331811,51921,Kathmandu,squad_extractive
+1529,In what part of Kathmandu is the Institute of Medicine found?,Maharajgunj,331888,51934,Kathmandu,squad_extractive
+1530,When did the Institute of Medicine begin to offer education in medicine?,1978,331984,51948,Kathmandu,squad_extractive
+1531,What institution of tertiary education is known as NAMS?,National Academy of Medical Sciences,332142,51970,Kathmandu,squad_extractive
+1532,What does KUSMS stand for?,Kathmandu University School of Medical Sciences,332190,51977,Kathmandu,squad_extractive
+1533,What body oversees soccer in Nepal?,All Nepal Football Association,332449,52019,Kathmandu,squad_extractive
+1534,In what part of Kathmandu is Dasarath Rangasala Stadium located?,Tripureshwor,332719,52058,Kathmandu,squad_extractive
+1535,How many people can fit in Dasarath Rangasala Stadium?,"25,000",332787,52070,Kathmandu,squad_extractive
+1536,"As of 2004, how many kilometers of road existed in Nepal?","17,182",333243,52148,Kathmandu,squad_extractive
+1537,Why is travel in Kathmandu mainly via automobile or aircraft?,hilly terrain,333478,52183,Kathmandu,squad_extractive
+1538,"If one wished to travel north out of Kathmandu, what highway would be used?",Araniko,333655,52212,Kathmandu,squad_extractive
+1539,What highway connecting Kathmandu to elsewhere in Nepal is currently being built?,BP,333689,52218,Kathmandu,squad_extractive
+1540,What is Nepal's primary airport for international travel?,Tribhuvan International Airport,333846,52242,Kathmandu,squad_extractive
+1541,From what city does Arkefly offer nonstop flights to Kathmandu?,Amsterdam,334473,52338,Kathmandu,squad_extractive
+1542,Who operates flights between Kathmandu and Istanbul?,Turkish Airlines,334509,52343,Kathmandu,squad_extractive
+1543,What is KMC an initialism of?,Kathmandu Metropolitan City,334731,52375,Kathmandu,squad_extractive
+1544,In what US state did Kathmandu first establish an international relationship?,Oregon,334960,52405,Kathmandu,squad_extractive
+1545,What was Yangon previously known as?,Rangoon,335145,52432,Kathmandu,squad_extractive
+1546,With what Belorussian city does Kathmandu have a relationship?,Minsk,335207,52442,Kathmandu,squad_extractive

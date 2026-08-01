@@ -1,0 +1,128 @@
+{
+  "genre": "caselaw",
+  "format": "5-option multiple choice (chance = 0.20)",
+  "n_corpora": 20,
+  "disjoint_from": "lex_glue/case_hold train[:400] (eval)",
+  "corpora": [
+    {
+      "corpus": "corpus_00",
+      "n_excerpts": 400,
+      "words": 55080,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_01",
+      "n_excerpts": 400,
+      "words": 54763,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_02",
+      "n_excerpts": 400,
+      "words": 54907,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_03",
+      "n_excerpts": 400,
+      "words": 54594,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_04",
+      "n_excerpts": 400,
+      "words": 55137,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_05",
+      "n_excerpts": 400,
+      "words": 54323,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_06",
+      "n_excerpts": 400,
+      "words": 54928,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_07",
+      "n_excerpts": 400,
+      "words": 55353,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_08",
+      "n_excerpts": 400,
+      "words": 54965,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_09",
+      "n_excerpts": 400,
+      "words": 54803,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_10",
+      "n_excerpts": 400,
+      "words": 54883,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_11",
+      "n_excerpts": 400,
+      "words": 54903,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_12",
+      "n_excerpts": 400,
+      "words": 54932,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_13",
+      "n_excerpts": 400,
+      "words": 54590,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_14",
+      "n_excerpts": 400,
+      "words": 54775,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_15",
+      "n_excerpts": 400,
+      "words": 55384,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_16",
+      "n_excerpts": 400,
+      "words": 54957,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_17",
+      "n_excerpts": 400,
+      "words": 55182,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_18",
+      "n_excerpts": 400,
+      "words": 54927,
+      "n_questions": 400
+    },
+    {
+      "corpus": "corpus_19",
+      "n_excerpts": 400,
+      "words": 55037,
+      "n_questions": 400
+    }
+  ]
+}

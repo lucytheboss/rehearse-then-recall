@@ -1,0 +1,126 @@
+{
+  "genre": "wiki",
+  "n_corpora": 20,
+  "corpora": [
+    {
+      "corpus": "corpus_00",
+      "n_titles": 11,
+      "words": 51159,
+      "n_questions": 1784
+    },
+    {
+      "corpus": "corpus_01",
+      "n_titles": 13,
+      "words": 52770,
+      "n_questions": 1687
+    },
+    {
+      "corpus": "corpus_02",
+      "n_titles": 14,
+      "words": 51295,
+      "n_questions": 1629
+    },
+    {
+      "corpus": "corpus_03",
+      "n_titles": 12,
+      "words": 50042,
+      "n_questions": 1791
+    },
+    {
+      "corpus": "corpus_04",
+      "n_titles": 10,
+      "words": 52500,
+      "n_questions": 1620
+    },
+    {
+      "corpus": "corpus_05",
+      "n_titles": 9,
+      "words": 53873,
+      "n_questions": 1931
+    },
+    {
+      "corpus": "corpus_06",
+      "n_titles": 7,
+      "words": 50553,
+      "n_questions": 1279
+    },
+    {
+      "corpus": "corpus_07",
+      "n_titles": 13,
+      "words": 54407,
+      "n_questions": 1697
+    },
+    {
+      "corpus": "corpus_08",
+      "n_titles": 11,
+      "words": 54471,
+      "n_questions": 1683
+    },
+    {
+      "corpus": "corpus_09",
+      "n_titles": 11,
+      "words": 51315,
+      "n_questions": 1654
+    },
+    {
+      "corpus": "corpus_10",
+      "n_titles": 9,
+      "words": 53235,
+      "n_questions": 1777
+    },
+    {
+      "corpus": "corpus_11",
+      "n_titles": 10,
+      "words": 50439,
+      "n_questions": 1353
+    },
+    {
+      "corpus": "corpus_12",
+      "n_titles": 11,
+      "words": 52537,
+      "n_questions": 1547
+    },
+    {
+      "corpus": "corpus_13",
+      "n_titles": 13,
+      "words": 52484,
+      "n_questions": 1546
+    },
+    {
+      "corpus": "corpus_14",
+      "n_titles": 13,
+      "words": 53228,
+      "n_questions": 1734
+    },
+    {
+      "corpus": "corpus_15",
+      "n_titles": 12,
+      "words": 52387,
+      "n_questions": 1746
+    },
+    {
+      "corpus": "corpus_16",
+      "n_titles": 11,
+      "words": 51565,
+      "n_questions": 1524
+    },
+    {
+      "corpus": "corpus_17",
+      "n_titles": 11,
+      "words": 50322,
+      "n_questions": 1401
+    },
+    {
+      "corpus": "corpus_18",
+      "n_titles": 8,
+      "words": 50617,
+      "n_questions": 1623
+    },
+    {
+      "corpus": "corpus_19",
+      "n_titles": 8,
+      "words": 53600,
+      "n_questions": 1640
+    }
+  ]
+}

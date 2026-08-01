@@ -1,0 +1,1354 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,source_title,type
+1,What does DBMS stand for?,database management system,2,2,Database,squad_extractive
+2,What is the purpose of a DBMS?,"to allow the definition, creation, querying, update, and administration of databases",209,32,Database,squad_extractive
+3,How are DBMSs classified?,according to the database model that they support,657,100,Database,squad_extractive
+4,What is the most popular DBMS?,SQL language,820,126,Database,squad_extractive
+5,How is data accessed?,"by a ""database management system"" (DBMS)",1037,163,Database,squad_extractive
+6,A DBMS consists of what?,an integrated set of computer software,1092,171,Database,squad_extractive
+7,How much data can a DBMS store?,large quantities,1404,221,Database,squad_extractive
+8,What is used to recover data if disks suffer a failure?,RAID,1708,264,Database,squad_extractive
+9,How can large quantities of data be accessed?,Hardware database accelerators,1810,284,Database,squad_extractive
+10,What is required for a modern DBMS to function?,standard operating system,2154,336,Database,squad_extractive
+11,How long can it take to create a DBMS?,thousands of human years,2532,392,Database,squad_extractive
+12,Name three DBMSs that have been used since the 1970s.,"Adabas, Oracle and DB2",2618,404,Database,squad_extractive
+13,How is the cost to create a DBMS distributed?,spread over a large number of users,2852,442,Database,squad_extractive
+14,Name an example of a general-purpose DBMS.,an email system,3191,493,Database,squad_extractive
+15,How are many databases accessed?,application software,3613,562,Database,squad_extractive
+16,What is a way for programmers to use the DBMS?,wire protocol,3765,583,Database,squad_extractive
+17,How do administrators work with the DBMS?,through dedicated interfaces,3920,603,Database,squad_extractive
+18,Who created the relational model of DBMS?,Edgar F. Codd,4183,641,Database,squad_extractive
+19,"Instead of using links, how was information found in a relational model?",by content,4281,656,Database,squad_extractive
+20,What type of system in still prominent to this day?,relational systems,4600,705,Database,squad_extractive
+21,When were DBMSs first used commercially?,mid-1960s,5044,769,Database,squad_extractive
+22,Why was COBOL created?,Interest in a standard,5109,780,Database,squad_extractive
+23,What group discovered COBOL?,Database Task Group,5242,803,Database,squad_extractive
+24,When was the standard protocol completed?,1971,5351,818,Database,squad_extractive
+25,What was the standard protocol called?,CODASYL approach,5443,833,Database,squad_extractive
+26,What was the DBMS created by IBM called?,Information Management System (IMS),5593,858,Database,squad_extractive
+27,What was the purpose of the IBM DBMS?,the Apollo program,5676,870,Database,squad_extractive
+28,What was the name of Bachman's Turing Award presentation in 1973?,The Programmer as Navigator,6002,922,Database,squad_extractive
+29,What is the classification of IMS?,hierarchical database,6064,932,Database,squad_extractive
+30,How is data accessed in a table?,A linked-list system,6498,1004,Database,squad_extractive
+31,How was the relational model able to improve over time?,without constant rewriting of links and pointers,7087,1103,Database,squad_extractive
+32,What is the relationship called in a hierarchical model?,one-to-many,7224,1124,Database,squad_extractive
+33,What is the relationship called in a navigational model?,many-to-many,7293,1132,Database,squad_extractive
+34,What is a third type of model that can be combined with heirarchical and navigation models?,tabular,7459,1155,Database,squad_extractive
+35,How is a database system frequently used?,to track information about users,7626,1183,Database,squad_extractive
+36,How is information stored in a navigational system?,in a single record,7790,1208,Database,squad_extractive
+37,What happens to blank data fields in a navigational system?,not be placed in the database,7840,1217,Database,squad_extractive
+38,How is information stored in a relational system?,normalized into a user table,7917,1231,Database,squad_extractive
+39,How is information accessed in a relational model?,"a ""key""",8243,1286,Database,squad_extractive
+40,What is a key used for?,uniquely defining a particular record,8252,1288,Database,squad_extractive
+41,How is data in an optional table accessed?,by searching for this key,8399,1310,Database,squad_extractive
+42,What technique is used to collect into one place?,re-linking,8584,1346,Database,squad_extractive
+43,How does a program collect information using a navigational system?,require programs to loop,8754,1370,Database,squad_extractive
+44,What is used to solve the problem of looping?,a set-oriented language,8942,1399,Database,squad_extractive
+45,What type of math was used to create a system to find data sets?,tuple calculus,9062,1418,Database,squad_extractive
+46,Who used Codd's paper at Berkeley to improve a geographical database?,Eugene Wong and Michael Stonebraker,9347,1465,Database,squad_extractive
+47,When was INGRES first tested?,1973,9559,1497,Database,squad_extractive
+48,What computer language was used in INGRES to access data?,QUEL,9773,1535,Database,squad_extractive
+49,Is QUEL still used to access data in INGRES?,INGRES moved to the emerging SQL standard,9790,1538,Database,squad_extractive
+50,What is a CAFS accelerator?,a hardware disk controller with programmable search capabilities,9923,1557,Database,squad_extractive
+51,Did the CAFS accelerator work as planned?,efforts were generally unsuccessful,10013,1570,Database,squad_extractive
+52,How are today's database systems run?,general-purpose hardware,10245,1601,Database,squad_extractive
+53,Name a company that is still working on the CAFS accellerator?,Netezza and Oracle (Exadata),10399,1621,Database,squad_extractive
+54,What is the system IBM created using Codd's research?,System R,10508,1638,Database,squad_extractive
+55,When was IBM's system released?,1974/5,10568,1650,Database,squad_extractive
+56,What did System R work on to change the way data was stored?,multi-table systems,10601,1656,Database,squad_extractive
+57,What was the name of the database product created by IBM?,"SQL/DS, and, later, Database 2 (DB2)",11086,1740,Database,squad_extractive
+58,Why was dBASE successful?,lightweight and easy for any computer user to understand out of the box,11307,1775,Database,squad_extractive
+59,Who created dBASE?,C. Wayne Ratliff,11380,1788,Database,squad_extractive
+60,Why was dBASE unique?,data manipulation is done by dBASE,11554,1820,Database,squad_extractive
+61,What is a benefit of using dBASE?,managing space allocation,11756,1857,Database,squad_extractive
+62,"In the 1990s, what type of programming changed the handling of databases?",object-oriented,11896,1882,Database,squad_extractive
+63,What term is used for the difficulty in database table and programmed object translation?,object-relational impedance mismatch,12403,1967,Database,squad_extractive
+64,How is the problem of object-relational impedance mismatch corrected?,object-oriented language,12627,1993,Database,squad_extractive
+65,What is the library programmers use to solve object-relational impedance mismatch?,object-relational mappings (ORMs),12795,2017,Database,squad_extractive
+66,What kind of database is XML?,structured document-oriented database,12894,2032,Database,squad_extractive
+67,Where are XML databases frequently used?,enterprise database management,13020,2049,Database,squad_extractive
+68,How is XML used in enterprise database management?,machine-to-machine data,13083,2059,Database,squad_extractive
+69,What type of processing is used in enterprise database software?,ACID-compliant transaction processing,13377,2095,Database,squad_extractive
+70,"What explains the difficulty in a system containing availability, consistency, and partition tolerance guarantees?",the CAP theorem,13625,2128,Database,squad_extractive
+71,What is used to offer a balance in guarantees?,eventual consistency,13931,2176,Database,squad_extractive
+72,What should a conceptual data model do?,reflects the structure of the information to be held,14140,2208,Database,squad_extractive
+73,What makes a successful data model?,accurately reflect the possible state of the external world being modeled,14405,2251,Database,squad_extractive
+74,What must one understand in order to create a successful data model?,the application domain,14659,2292,Database,squad_extractive
+75,Asking questions about an organization's needs will help to create what?,definitions of the terminology used for entities,15086,2365,Database,squad_extractive
+76,In what form is the output of a logical database design?,schema,15527,2434,Database,squad_extractive
+77,A conceptual data model in separate from the choice of what?,database technology,15622,2450,Database,squad_extractive
+78,What decisions must be made in the last stage of database design?,"performance, scalability, recovery, security",16053,2522,Database,squad_extractive
+79,What is an important goal in in this final stage?,data independence,16192,2543,Database,squad_extractive
+80,What factor is reflected in performance requirements?,Physical design,16332,2561,Database,squad_extractive
+81,How many different external views of data are there?,any number,16656,2613,Database,squad_extractive
+82,What is the benefit of external views of data?,see database information in a more business-related way,16717,2623,Database,squad_extractive
+83,What does the conceptual view offer?,a level of indirection between internal and external,17156,2689,Database,squad_extractive
+84,How does the conceptual view handle how data is managed?,abstracts away details,17341,2720,Database,squad_extractive
+85,What is database storage?,physical materialization of a database,17866,2808,Database,squad_extractive
+86,What is responsible for putting information into permanent storage?,database engine,18260,2865,Database,squad_extractive
+87,What do database administrators closely monitor?,storage properties and configuration setting,18472,2894,Database,squad_extractive
+88,"While working, does DBMS store information in one place?",several types of storage,18706,2928,Database,squad_extractive
+89,What are huge quantities of information stored as?,bits,18872,2953,Database,squad_extractive
+90,What does database access limit?,who (a person or a certain computer program) is allowed to access what information,19309,3021,Database,squad_extractive
+91,What are examples of database objects?,"record types, specific records, data structures",19471,3046,Database,squad_extractive
+92,Who sets database access?,special authorized (by the database owner) personnel,19769,3088,Database,squad_extractive
+93,What does data security avoid?,unauthorized users from viewing or updating the database,20146,3144,Database,squad_extractive
+94,What is a subset of a database called that can be accessed by using a password?,subschemas,20294,3168,Database,squad_extractive
+95,What is possible when a DBMS interrogate and update a database?,managing personal databases,20664,3229,Database,squad_extractive
+96,How can database transactions ensure accuracy after a crash?,fault tolerance,20755,3242,Database,squad_extractive
+97,Are transactions limited?,Each transaction has well defined boundaries,21051,3287,Database,squad_extractive
+98,Why would someone attempt to unite two different databases?,primarily economical,21466,3352,Database,squad_extractive
+99,"In order to merge, what must the database maintain?",database related application,21774,3393,Database,squad_extractive
+100,What are the important parts of the database related application that should be moved?,conceptual and external architectural levels,21873,3405,Database,squad_extractive
+101,How can a DBMS database migration be made easier?,vendor provides tools,22315,3475,Database,squad_extractive
+102,Name a reason to take a database backward in time?,database is found corrupted,22501,3506,Database,squad_extractive
+103,Is each database backup kept in the same file?,dedicated backup files,22805,3556,Database,squad_extractive
+104,Who can restore a database that has been corrupted?,database administrator,22933,3578,Database,squad_extractive
+105,What parameter is requiret to restore a database?,desired point in time,23034,3595,Database,squad_extractive
+106,How can static analysis be useful with query languages?,software verification,23174,3618,Database,squad_extractive
+107,What do query languages support in abstract interpretation frameworks?,sound approximation techniques,23401,3653,Database,squad_extractive
+108,Can query languages be adjusted?,according to suitable abstractions of the concrete domain of data,23479,3664,Database,squad_extractive
+109,What is a security measure that uses a relational database system?,watermarking,23702,3695,Database,squad_extractive
+110,"What type of organism did Frank apply the term ""symbiosis"" to?",lichens,24045,3744,Symbiosis,squad_extractive
+111,How long did it take for scientists to stop using the narrow definition of symbiosis?,130 years,24442,3801,Symbiosis,squad_extractive
+112,What is an example of an obligate relationship?,lichens,24847,3860,Symbiosis,squad_extractive
+113,What is the type of symbiotic relationship where the symbionts can live together but can also survive alone?,facultative,24944,3875,Symbiosis,squad_extractive
+114,What is an example of ectosymbiosis?,mistletoe,25142,3904,Symbiosis,squad_extractive
+115,What is it called when one symbiont lives within its partner?,endosymbiosis,25199,3914,Symbiosis,squad_extractive
+116,What is it called when the organisms are not physically joined?,disjunctive symbiosis,25501,3959,Symbiosis,squad_extractive
+117,What is the name of a bacteria inside of tree roots?,Frankia,25835,4002,Symbiosis,squad_extractive
+118,What endosymbionts live in coral? ,algae,25897,4011,Symbiosis,squad_extractive
+119,What is another name for ectosymbiosis?,exosymbiosis,26058,4032,Symbiosis,squad_extractive
+120,What organisms are described as living on the surface of whales?,barnacles,26336,4076,Symbiosis,squad_extractive
+121,What is another term for mutualism?,interspecies reciprocal altruism,26462,4095,Symbiosis,squad_extractive
+122,Of what duration are symbiotic relationships?,lifelong,26603,4113,Symbiosis,squad_extractive
+123,What do coral and algae produce together?,Coral reefs,27198,4198,Symbiosis,squad_extractive
+124,How do plants contribute to terrestrial ecosystems?,fix carbon from the air,27395,4230,Symbiosis,squad_extractive
+125,What type of fungus draws liquid and minerals out of the earth?,mycorrhyzal,27424,4236,Symbiosis,squad_extractive
+126,What type of relationship do the clownfish and anemone have?,mutual symbiosis,27519,4251,Symbiosis,squad_extractive
+127,What lives with Ritteri sea anemones?,ocellaris clownfish,27568,4258,Symbiosis,squad_extractive
+128,What prevents the clownfish from being stung?,A special mucus,27804,4293,Symbiosis,squad_extractive
+129,What species does this shrimp have a relationship with?,the goby fish,27900,4309,Symbiosis,squad_extractive
+130,What part of the fish is used to signal danger?,its tail,28205,4365,Symbiosis,squad_extractive
+131,What type of symbiosis seen between bryozoans and hermit crabs?,non-obligate,28445,4402,Symbiosis,squad_extractive
+132,What does the bacteria give the worm?,nutrition,29043,4489,Symbiosis,squad_extractive
+133,When were the worms found?,the late 1980s,29175,4509,Symbiosis,squad_extractive
+134,What land is near the worms' first known location?,the Galapagos Islands,29221,4517,Symbiosis,squad_extractive
+135,What does the host make that affect its genes?,specialized cells,29552,4569,Symbiosis,squad_extractive
+136,In what manner are the described genetic alternations given to future generations?,vertical transmission,29768,4602,Symbiosis,squad_extractive
+137,What is the main alteration in an endosymbiont when it adapts to a host?,drastic reduction in its genome size,29919,4622,Symbiosis,squad_extractive
+138,What is the term that describes the way the endosymbiont can't go back to its original phenotype?,Muller's ratchet phenomenon,30985,4786,Symbiosis,squad_extractive
+139,What does the article say could be the reason for the buildup of harmful mutations?,lack of selection mechanisms,31223,4820,Symbiosis,squad_extractive
+140,What type of symbiotic relationship helps one organism and doesn't have a major affect on the other?,Commensalism,31301,4832,Symbiosis,squad_extractive
+141,In what type of relationship does an organism travel by means of another?,phoresy,31706,4893,Symbiosis,squad_extractive
+142,What is the term for a relationship where one organism provides a dwelling for the other?,inquilinism,31731,4897,Symbiosis,squad_extractive
+143,What type of relationship is it when arachnids attach webs to dead plants?,metabiosis,31831,4912,Symbiosis,squad_extractive
+144,Antagonistic or antipathetic symbiosis are alternate names for what?,A parasitic relationship,31975,4932,Symbiosis,squad_extractive
+145,What is it called when organisms are lethal to their host?,necrotrophic,32306,4984,Symbiosis,squad_extractive
+146,What is it called when parasites need their host to live?,biotrophic,32361,4994,Symbiosis,squad_extractive
+147,What proportion of animals go through a parasitic stage?,as many as half,32515,5016,Symbiosis,squad_extractive
+148,Name a biotrophic organism.,a tick,32776,5063,Symbiosis,squad_extractive
+149,What is the name for the kind of symbiosis in which one organism is seriously harmed and there is no affect on the other?,Amensalism,32818,5072,Symbiosis,squad_extractive
+150,What kinds of amensalism are there?,competition and antibiosis,33120,5117,Symbiosis,squad_extractive
+151,What does the black walnut give out that kills plants?,juglone,33973,5253,Symbiosis,squad_extractive
+152,What type of relationship is it when large animals crush small plants?,Amensalism,34055,5265,Symbiosis,squad_extractive
+153,What organisms is the ibex in an amensalistic relationship with?,weevils,34527,5338,Symbiosis,squad_extractive
+154,What does the Spanish ibex eat?,shrub,34590,5350,Symbiosis,squad_extractive
+155,What type of relationship harms both organisms?,Synnecrosis,34853,5391,Symbiosis,squad_extractive
+156,Why do bees sting even though it will kill them?,to protect the hive,35320,5466,Symbiosis,squad_extractive
+157,What far-reaching result do scientists think has come about from symbiosis with bacteria?,the evolution of all eukaryotes,35671,5519,Symbiosis,squad_extractive
+158,What are eukaryotes?,"plants, animals, fungi, and protists",35704,5525,Symbiosis,squad_extractive
+159,Who agrees with Margulis' cooperative view of evolution?,Dorion Sagan,36373,5622,Symbiosis,squad_extractive
+160,How big a part did symbiosis have in the development of flowering plants and their pollinators?,a major role,36470,5638,Symbiosis,squad_extractive
+161,What did some plants produce when flowers became less simple?,nectar and large sticky pollen,37012,5720,Symbiosis,squad_extractive
+162,What forms of entertainment does the Digimon franchise include?,"virtual pet toys, anime, manga, video games, films and a trading card game",37473,5788,Digimon,squad_extractive
+163,What is the Digital World in which the Digimon creatures live?,a parallel universe that originated from Earth's various communication networks,37641,5815,Digimon,squad_extractive
+164,What are the people who raise Digimon called?,"""Digidestined"" or ""Tamers""",37780,5834,Digimon,squad_extractive
+165,What are the Digimon villians main goals?,trying to destroy the fabric of the Digital world,37875,5850,Digimon,squad_extractive
+166,Name two types of toys the original Digimon bore a close resemblence to.,Tamagotchi or nano Giga Pet toys,38048,5879,Digimon,squad_extractive
+167,What influenced the look of the Digimons?,Tamagotchi or nano Giga Pet toys,38048,5879,Digimon,squad_extractive
+168,What kind of toy were the original Digimon?,virtual pet toy,38661,5977,Digimon,squad_extractive
+169,What was the screen size of the Digimon toy?,16 by 16 pixels,38807,6003,Digimon,squad_extractive
+170,What was the name of the original Digimon character?,Tyrannomon,38965,6027,Digimon,squad_extractive
+171,What kind of creatures where the early digimon patterned after?,dinosaurs,39018,6035,Digimon,squad_extractive
+172,What animals were the digimon based off of?,dinosaurs,39018,6035,Digimon,squad_extractive
+173,Who was the designer responsible for the westernization of Digimon character design?,Kenji Watanabe,39066,6042,Digimon,squad_extractive
+174,Who was the designer of the Digimon card game?,Kenji Watanabe,39066,6042,Digimon,squad_extractive
+175,What properties of american comics were the later generations of digimon trying to capture?,"stronger and ""cool.""",39332,6086,Digimon,squad_extractive
+176,How are digimon born?,Digimon hatch from types of eggs which are called Digi-Eggs,39501,6109,Digimon,squad_extractive
+177,What were the eggs called that the Digimon were hatched from?,Digi-Eggs,39551,6118,Digimon,squad_extractive
+178,How do digimon evolve?,Digimental,39752,6151,Digimon,squad_extractive
+179,What is the second type of Digi-Eggs called?,Digimental,39752,6151,Digimon,squad_extractive
+180,What effect does digivolution have on digimon?,changes their appearance and increases their powers,40033,6194,Digimon,squad_extractive
+181,Are digimon all mindless monsters?,"Some Digimon act feral. Most, however, are capable of intelligence and human speech",40336,6246,Digimon,squad_extractive
+182,When was the digimon life cycle first described?,The first Digimon anime,40777,6322,Digimon,squad_extractive
+183,What was introduced during the first Digimon anime?,Digimon life cycle,40816,6328,Digimon,squad_extractive
+184,What are digimon made of?,reconfigurable data,40952,6352,Digimon,squad_extractive
+185,What typically happens when digimon are killed?,Any Digimon that receives a fatal wound will dissolve into infinitesimal bits of data,41012,6361,Digimon,squad_extractive
+186,What happened to a digimon that receives a fatal wound?,dissolve into infinitesimal bits of data,41057,6369,Digimon,squad_extractive
+187,How is a digimon reborn?,"The data then recomposes itself as a Digi-Egg, which will hatch when rubbed gently",41099,6375,Digimon,squad_extractive
+188,What happens to a digimon after it dissolves?,goes through its life cycle again,41199,6392,Digimon,squad_extractive
+189,Are there any circumstances under which a digimon cannot be reborn?,"if a Digimon's data is completely destroyed, they will die",41357,6418,Digimon,squad_extractive
+190,What happens if a Digimons data is completely destroyed?,they will die,41402,6425,Digimon,squad_extractive
+191,What companies were responsible for the creation and subsequent release of the original digimon?,planned by WiZ and released by Bandai,41536,6447,Digimon,squad_extractive
+192,When was the Digimon released by WiZ?,"June 26, 1997",41577,6455,Digimon,squad_extractive
+193,Who was the main market for the original digimon?,mainly for boys,41644,6468,Digimon,squad_extractive
+194,What made digimon different from similar digital pets?,being more difficult and being able to fight other Digimon v-pets,41726,6482,Digimon,squad_extractive
+195,What was involved in the original digimon virtual pet gameplay?,"Every owner would start with a Baby Digimon, train it, evolve it, take care of it, and then have battles with other Digimon owners",41793,6493,Digimon,squad_extractive
+196,What is the world of the digimon called?,DigiWorld,42252,6569,Digimon,squad_extractive
+197,Where are Digimon the inhabitants of?,DigiWorld,42252,6569,Digimon,squad_extractive
+198,What is the world in which the digimon live?,a manifestation of Earth's communication network,42264,6569,Digimon,squad_extractive
+199,Who accompanies the digimon as they work to save their world?,a group of mostly pre-teens,42334,6579,Digimon,squad_extractive
+200,What group of kids are in charge of the Digimons?,mostly pre-teens,42345,6582,Digimon,squad_extractive
+201,What happens to a digimon after they evolve?,"the Digimon change appearance and become much stronger, often changing in personality as well",42602,6622,Digimon,squad_extractive
+202,Are the children who accompany the digimon always the same?,The group of children who come in contact with the Digital World changes from series to series,42697,6636,Digimon,squad_extractive
+203,How many series have aired since 2011?,six series,42822,6659,Digimon,squad_extractive
+204,What is the name of the second Digimon series?,Digimon Adventure 02,42875,6667,Digimon,squad_extractive
+205,When was the movie Digital Monster X-Evolution released?,"January 3, 2005",43953,6836,Digimon,squad_extractive
+206,When did the first digimon series begin airing in japan?,"March 7, 1999 in Japan",44366,6908,Digimon,squad_extractive
+207,When did Digimon begin airing in America?,"August 14, 1999",44424,6921,Digimon,squad_extractive
+208,What was the premise of Digimon?,travel to the Digital World,44603,6954,Digimon,squad_extractive
+209,How many people are in the original Digimon?,seven original characters,45815,7157,Digimon,squad_extractive
+210,When did the second series of Digimon air?,"April 2, 2000",46182,7212,Digimon,squad_extractive
+211,What age are the original DigiDestined now that they are in High School?,fourteen,46281,7230,Digimon,squad_extractive
+212,Who is the new evil force that has been enslaving people?,Digimon Kaiser,46414,7253,Digimon,squad_extractive
+213,What did Ken do in order to atone for his mistakes?,joins the DigiDestined,47303,7392,Digimon,squad_extractive
+214,When did the third Digimon series begin?,"April 1, 2001",47773,7463,Digimon,squad_extractive
+215,What can tamers do in order to give their partners advantages?,"slide game cards through their ""Digivices",48704,7616,Digimon,squad_extractive
+216,What is the act called of giving partners advantages in Digimon?,Digi-Modify,48840,7639,Digimon,squad_extractive
+217,When did the fourth series of Digimon begin?,"April 7, 2002",49626,7764,Digimon,squad_extractive
+218,What was the main focus surrounding the fourth series?,Spirit Evolution,49742,7784,Digimon,squad_extractive
+219,What did the characters use to transform themselves into special Digimons?,D-Tectors,49800,7793,Digimon,squad_extractive
+220,"After the characters transformed into special Digimons, what were they called?",Legendary Warriors,49886,7804,Digimon,squad_extractive
+221,How long did Digimon stay off the air before returning?,three-year hiatus,51426,8042,Digimon,squad_extractive
+222,What year did the fifth  series start?,"April 2, 2006",51484,8051,Digimon,squad_extractive
+223,What was the main focus of the 5th season?,"D.A.T.S. (""Digital Accident Tactics Squad"")",51782,8101,Digimon,squad_extractive
+224,What age group did the season target with its darker theme?,ages 16 to 21,52948,8289,Digimon,squad_extractive
+225,What was the original target age for the Digimon series?,children aged 6 to 10,53159,8325,Digimon,squad_extractive
+226,How long after the 5th season did the next one start?,Three and a quarter years,54363,8526,Digimon,squad_extractive
+227,When did the sixth season of Digimon begin airing?,"July 6, 2010",54646,8579,Digimon,squad_extractive
+228,Who is the main character in the sixth Digimon series?,Mikey Kudō,54867,8620,Digimon,squad_extractive
+229,Who did the Fusion fighters find themselves in battle with?,Blue Flare,55630,8747,Digimon,squad_extractive
+230,When did the English dub for the sixth season start airing?,"September 7, 2013",56270,8859,Digimon,squad_extractive
+231,When was the sequel announcement for the third arc?,"August 17, 2011",56328,8869,Digimon,squad_extractive
+232,What was the original run of the third arc of Digimon?,"October 2, 2011 to March 25, 2012",56505,8899,Digimon,squad_extractive
+233,Who was the main character in the third arc series?,Tagiru Akashi and his partner Gumdramon,56609,8918,Digimon,squad_extractive
+234,What is the dimension called between the human world and digital world?,DigiQuartz,56877,8965,Digimon,squad_extractive
+235,How long after Digimon Fusion was a new series announced?,30 months,57198,9020,Digimon,squad_extractive
+236,When was the 15th year anniversary held for Digimon?,August 2014,57309,9040,Digimon,squad_extractive
+237,"Rather than a TV series, What kind of series would the Digimon become?",6-part theatrical film series,57876,9134,Digimon,squad_extractive
+238,Where are you able to watch the new series when it is released?,Crunchyroll and Hulu,57972,9149,Digimon,squad_extractive
+239,How soon after did another series start after the Digimon Adventure 02?,three years,58066,9165,Digimon,squad_extractive
+240,Whats the name of the group that defeats Cody and Ken?,Alphamon,58440,9227,Digimon,squad_extractive
+241,What happened for the first time to the DigiDestined in the film series?,the Mega level,58829,9287,Digimon,squad_extractive
+242,How many Digimon movies have been released in Japan?,nine Digimon movies,58931,9306,Digimon,squad_extractive
+243,What year was Digimon: The movie released in the US/Canada?,"October 6, 2000",59352,9367,Digimon,squad_extractive
+244,What magazine were given their own original stories of Digimon?,UK comics,59732,9423,Digimon,squad_extractive
+245,What happened to the magazines after their run of Digimon?,both magazines were cancelled,60500,9541,Digimon,squad_extractive
+246,Name one of the genres from any of the Digimon video games?,strategy,60814,9592,Digimon,squad_extractive
+247,What were the first two North American games released?,"Digimon World, Digimon World 2",60932,9610,Digimon,squad_extractive
+248,What is the majority religion of Somalis?,Sunni Muslim,62055,9786,Somalis,squad_extractive
+249,How many people of Somali ethnicity live in Somalia?,12.3 million,62164,9801,Somalis,squad_extractive
+250,From whom are several Somali clans descended?,Irir Samaale,62328,9826,Somalis,squad_extractive
+251,From what words is the term 'Somali' generally regarded as being derived?,soo and maal,62519,9859,Somalis,squad_extractive
+252,What does 'soo and maal' mean in English?,go and milk,62554,9866,Somalis,squad_extractive
+253,What word in Arabic means 'wealthy' in English?,dhawamaal,62733,9895,Somalis,squad_extractive
+254,What resource traditionally comprised Somali wealth?,livestock,62781,9901,Somalis,squad_extractive
+255,What did the Arabs call the northern Somali coast in the 9th century?,Berbera,62905,9922,Somalis,squad_extractive
+256,What did the Chinese call the northern Somali coast in the 9th century?,Po-pa-li,63000,9935,Somalis,squad_extractive
+257,In what century was the term 'Somali' first used?,15th,63096,9950,Somalis,squad_extractive
+258,Who ordered that a hymn be composed that first mentioned the Somalis?,the Abyssinian Emperor,63198,9967,Somalis,squad_extractive
+259,How long ago were rock paintings found in Somalia created?,5000 years,63396,9999,Somalis,squad_extractive
+260,Where are the most notable rock paintings located?,the Laas Geel complex,63527,10023,Somalis,squad_extractive
+261,"Along with animals, what is depicted on the rock paintings of Laas Geel?",human figures,63689,10049,Somalis,squad_extractive
+262,Where does a notable rock painting of a man on horseback exist?,the northern Dhambalin region,63729,10056,Somalis,squad_extractive
+263,What undeciphered writings were found alongside the rock paintings?,Inscriptions,63874,10082,Somalis,squad_extractive
+264,During what period did the Doian culture thrive?,the Stone age,64031,10107,Somalis,squad_extractive
+265,"Along with the Hargesian culture, what culture was present in Somalia in the Stone age?",the Doian culture,64046,10110,Somalis,squad_extractive
+266,From what millennium do the oldest cemeteries in the Horn of Africa date?,4th millennium BC,64263,10144,Somalis,squad_extractive
+267,At what site were important paleolithic stone tools found?,the Jalelo site,64308,10151,Somalis,squad_extractive
+268,What economic activity in the Horn of Africa did the ancient Somalis connect to the rest of the world?,commerce,64587,10199,Somalis,squad_extractive
+269,"Along with myrrh and spices, what important luxury did ancient Somali merchants provide?",frankincense,64688,10216,Somalis,squad_extractive
+270,"Along with the ancient Phoenicians, Egyptians and Babylonians, what ancient people regarded myrrh as a luxury?",Mycenaeans,64805,10231,Somalis,squad_extractive
+271,What ancient land was connected to the modern Somali people?,Land of Punt,64874,10240,Somalis,squad_extractive
+272,What nation did the Land of Put have a close relationship with?,Pharaonic Egypt,65036,10268,Somalis,squad_extractive
+273,Who was a Queen of Egypt during the time when Punt and Egypt were close?,Hatshepsut,65097,10278,Somalis,squad_extractive
+274,"Along with houses of dressed stone, what ancient architecture may have been influenced by Egypt?",pyramidal structures,65113,10280,Somalis,squad_extractive
+275,"Along with Mosylon, Malao, Nikon, Sarapion, Opone and Essina, what city-state flourished in ancient Somalia?",Damo,65336,10313,Somalis,squad_extractive
+276,Near what headland was Mosylon located?,Cape Guardafui,65358,10317,Somalis,squad_extractive
+277,"Along with the Parthians and Axumites, who were the commercial competitors of the ancient Somalis?",Sabaeans,65398,10323,Somalis,squad_extractive
+278,What trade did the ancient Somalis and others compete for?,Indo-Greco-Roman,65447,10330,Somalis,squad_extractive
+279,What body of water separated Somalia from the land where Islam was born?,Red Sea,65553,10346,Somalis,squad_extractive
+280,What civilization was Mogadishu a part of?,Berberi,66108,10430,Somalis,squad_extractive
+281,What was another name for Mogadishu?,the City of Islam,66172,10441,Somalis,squad_extractive
+282,What dynasty ruled the Sultanate of Ifat?,the Walashma dynasty,66288,10461,Somalis,squad_extractive
+283,Near what body of water did al-Umari say Ifat was located?,the Red Sea,66477,10491,Somalis,squad_extractive
+284,"According to al-Umari, how many cavalry did the Sultanate of Ifat have?","15,000",66571,10510,Somalis,squad_extractive
+285,What Somali polity of the Middle Ages was known for its fortresses?,the Ajuran Sultanate,66817,10545,Somalis,squad_extractive
+286,What state employed Abmad ibn Ibrahim al-Ghazi?,the Sultanate of Adal,66902,10556,Somalis,squad_extractive
+287,What was another name by which Abmad ibn Ibrahim al-Ghazi was known?,Ahmed Gurey,66967,10567,Somalis,squad_extractive
+288,What state did Adal conquer?,the Ethiopian Empire,67069,10583,Somalis,squad_extractive
+289,What Somali leader received tribute from the Omani empire?,Sultan Ahmed Yusuf,67241,10613,Somalis,squad_extractive
+290,What states supported the Dervish State?,the Ottoman and German empires,67809,10704,Somalis,squad_extractive
+291,In what year did the British defeat the Dervishes?,1920,68091,10751,Somalis,squad_extractive
+292,What was the capital of the Dervish State?,Taleex,68185,10768,Somalis,squad_extractive
+293,In what year did Fascist Italy achieve full control of Somalia?,1927,68460,10813,Somalis,squad_extractive
+294,In what year did the Italian occupation of Somalia end?,1941,68494,10818,Somalis,squad_extractive
+295,"Along with British Somaliland, what country in the region was a British protectorate after the Second World War?",Italian Somaliland,68635,10839,Somalis,squad_extractive
+296,At what meeting did the United Nations give Italy trusteeship of Italian Somaliland?,the Potsdam Conference,68688,10846,Somalis,squad_extractive
+297,"Along with the Somali Youth League and Somali National League, what was an early Somali political organization?",Hizbia Digil Mirifle Somali,68942,10884,Somalis,squad_extractive
+298,In what year did the British give the Haud to Ethiopia?,1948,69787,11007,Somalis,squad_extractive
+299,"Along with the Haud, what area of Somalia was given to Ethiopia by the British?",the Ogaden,70030,11048,Somalis,squad_extractive
+300,The Ogaden was given to Ethiopia on the basis of a treaty signed by the British with what Ethiopian leader?,Emperor Menelik,70153,11070,Somalis,squad_extractive
+301,In what year did Britain try to purchase Somali lands from Ethiopia?,1956,70415,11109,Somalis,squad_extractive
+302,What was Djibouti called in 1958?,French Somaliland,70804,11165,Somalis,squad_extractive
+303,What was Mahmoud Harbi's title?,Vice President of the Government Council,71397,11265,Somalis,squad_extractive
+304,Who was the first president of Djibouti?,Hassan Gouled Aptidon,71556,11291,Somalis,squad_extractive
+305,On what date did British Somaliland gain independence?,26 June 1960,71754,11321,Somalis,squad_extractive
+306,What was British Somaliland known as upon achieving independence?,the State of Somaliland,71770,11325,Somalis,squad_extractive
+307,What state formed the Somali Republic with British Somaliland?,the Trust Territory of Somalia,71799,11330,Somalis,squad_extractive
+308,On what date did the former British Somaliland and Italian Somaliland unite?,1 July 1960,71896,11345,Somalis,squad_extractive
+309,Who was the first President of the Somali Republic?,Aden Abdullah Osman Daar,72241,11399,Somalis,squad_extractive
+310,On what date was Abdirashid Ali Shermarke assassinated?,15 October 1969,72747,11481,Somalis,squad_extractive
+311,Who assassinated Abdirashid Ali Shermarke?,one of his own bodyguards,72886,11505,Somalis,squad_extractive
+312,"On what day, the day after the funeral of Abdirashid Ali Shermarke, did a coup occur?",21 October 1969,72981,11521,Somalis,squad_extractive
+313,What was Mohamed Siad Barre's rank?,Major General,73168,11550,Somalis,squad_extractive
+314,Who was the commander of the army when the coup occurred?,Mohamed Siad Barre,73182,11552,Somalis,squad_extractive
+315,What was the military rank of Salaad Gabeyre Kediye?,Lieutenant Colonel,73368,11579,Somalis,squad_extractive
+316,"Along with Jama Korshel, who led the Supreme Revolutionary Council?",Salaad Gabeyre Kediye,73387,11581,Somalis,squad_extractive
+317,What was Jama Korshel's title?,Chief of Police,73413,11585,Somalis,squad_extractive
+318,What name did the Supreme Revolutionary Council give to Somalia?,the Somali Democratic Republic,73484,11596,Somalis,squad_extractive
+319,"Along with dissolving the Supreme Court and parliament, what action did the Supreme Revolutionary Council take?",suspended the constitution,73568,11608,Somalis,squad_extractive
+320,What international body did the new government join?,the Arab League,73986,11665,Somalis,squad_extractive
+321,In what year did the new government enter the Arab League?,1974,74010,11670,Somalis,squad_extractive
+322,What organization would the Organization of African Unity later become?,the African Union,74125,11689,Somalis,squad_extractive
+323,In what geographic portion of Kenya can Somali people be found?,northeastern,74258,11709,Somalis,squad_extractive
+324,What is the name of the idea that believes all ethnic Somalis should live in the same country?,Pan-Somalism,74375,11725,Somalis,squad_extractive
+325,"What was the name of the conflict between Somalia and the Soviet Union, Cuba and Ethiopia?",the Ogaden War,74682,11774,Somalis,squad_extractive
+326,"Along with the Soviet Union, what country supported Ethiopia in its war against Somalia?",Cuba,74740,11784,Somalis,squad_extractive
+327,What haplogroup is present in a significant number of Somalis?,E1b1b1a,75034,11830,Somalis,squad_extractive
+328,What percentage of Somali males had DNA containing the M78 subclade of E1b1b?,77%,75304,11870,Somalis,squad_extractive
+329,"Based on the presence of the M78 subclade, where do some researchers think Somalis originated?",Egypt/Libya,75483,11900,Somalis,squad_extractive
+330,Who authored an mtDNA study in 2005?,Holden,75866,11958,Somalis,squad_extractive
+331,"Along with Egyptians, Algerians and Somalis, what people commonly possess the M1 haplogroup?",Ethiopians,76041,11985,Somalis,squad_extractive
+332,"According to Hodgson, how long ago did the Ethio-Somalis diverge from other non-African ancestries?","at least 23,000 years ago",76966,12118,Somalis,squad_extractive
+333,"According to Hodgson, where did the Ethio-Somalis originate?",the Near East,77139,12142,Somalis,squad_extractive
+334,From whom were the early Muslims fleeing?,the Quraysh,77805,12250,Somalis,squad_extractive
+335,A small minority of Somalis belong to what branch of Islam?,Shia,78092,12296,Somalis,squad_extractive
+336,What is another name for a Qur'anic school?,dugsi,78151,12304,Somalis,squad_extractive
+337,What government body regulates Qur'anic education?,the Ministry of Endowment and Islamic Affairs,79142,12452,Somalis,squad_extractive
+338,"Along with Minneapolis, London and Birmingham, what city contains a notable population of Somalis?",Toronto,79354,12483,Somalis,squad_extractive
+339,"Along with floods, what natural disaster often spurs Islamic fundraising?",droughts,79640,12528,Somalis,squad_extractive
+340,What is the name of the mosque under construction in Minneapolis?,the Abuubakar-As-Saddique Mosque,79706,12540,Somalis,squad_extractive
+341,Of what clan is the Abgaal a sub-clan?,Hawiye,80391,12647,Somalis,squad_extractive
+342,What practice is often used to bind different clans together?,marriage,80603,12679,Somalis,squad_extractive
+343,What percentage of Dhulbahante men married women of the Majerteen or Ogaden?,4.3%,80964,12741,Somalis,squad_extractive
+344,To what clan family do the Ogaden belong?,Darod,81008,12749,Somalis,squad_extractive
+345,What was the official name of the country in which the 1975 Somali Family Law was passed?,the Somali Democratic Republic,81162,12775,Somalis,squad_extractive
+346,What law gave Somali husbands and wives equal rights over personal property?,1975 Somali Family Law,81280,12793,Somalis,squad_extractive
+347,"In addition to giving spouses equal rights over their personal property during marriage, what did the Somali Family Law give them?",equal division of property between the husband and wife upon divorce,81322,12801,Somalis,squad_extractive
+348,What percentage of Somalians are ethnic Somalis?,85%,81550,12837,Somalis,squad_extractive
+349,Why do many Somalis live in South Asia and Europe?,their seafaring tradition,81837,12885,Somalis,squad_extractive
+350,What led to an increase in the number of Somalis leaving the country?,Civil strife,81865,12888,Somalis,squad_extractive
+351,"Along with Ottawa, Calgary, Edmonton, Montreal, Winnipeg, Hamilton and Vancouver, what Canadian city has a significant Somali population?",Toronto,82062,12923,Somalis,squad_extractive
+352,"As of 2006, where did Somalis rank in terms of population by ethnicity in Canada?",69th,82242,12947,Somalis,squad_extractive
+353,About how many Somalis live in the UK?,"108,000",82474,12985,Somalis,squad_extractive
+354,What percentage of Somalis living in Britain reside in London?,78%,82716,13018,Somalis,squad_extractive
+355,"As of 2014, how many Somalis lived in Sweden?","57,906",82809,13031,Somalis,squad_extractive
+356,"In 2014, how many Somalis resided in Norway?","38,413",82864,13038,Somalis,squad_extractive
+357,How many Somalis lived in Finland as of 2014?,"16,721",82916,13045,Somalis,squad_extractive
+358,About how many Somalis moved to Minnesota ten years ago?,"20,000",83192,13082,Somalis,squad_extractive
+359,What sort of meat is sold in Somali businesses in Minneapolis?,halal,83546,13137,Somalis,squad_extractive
+360,What is hawala?,money transfer services,83572,13142,Somalis,squad_extractive
+361,What area of Minneapolis contains a notable number of Somalis?,Cedar-Riverside,83734,13166,Somalis,squad_extractive
+362,In what Middle Eastern country is there a notable Somali population?,the United Arab Emirates,83811,13177,Somalis,squad_extractive
+363,What is another name for the city center of Dubai?,Deira,83881,13187,Somalis,squad_extractive
+364,People of what nationality export more products from Dubai than Somalis?,Iranians,83921,13194,Somalis,squad_extractive
+365,What is the name of an airline owned by Dubai-based Somalis?,Star African Air,84115,13220,Somalis,squad_extractive
+366,Near what city in Sudan do many Somalis reside?,Khartoum,84491,13277,Somalis,squad_extractive
+367,In what Somali enclave in Kenya have Somalis invested over $1.5 billion?,Eastleigh,84713,13308,Somalis,squad_extractive
+368,In what province of South Africa do Somalis congregate?,Western Cape,84842,13327,Somalis,squad_extractive
+369,"Along with Saho, what language is closely related to Somali?",Afar,84979,13349,Somalis,squad_extractive
+370,Before what year did studies on the Somali language exist?,1900,85108,13370,Somalis,squad_extractive
+371,About how many people in Somalia speak Somali?,7.78 million,85202,13386,Somalis,squad_extractive
+372,"In millions, about how many global Somali speakers are there?",12.65,85256,13395,Somalis,squad_extractive
+373,"Along with Greater Somalia ethnic Somalis, who speaks Somali?",the Somali diaspora,85360,13411,Somalis,squad_extractive
+374,"Along with Northern and Maay, what is the third main group of Somali dialects?",Benaadir,85444,13423,Somalis,squad_extractive
+375,What dialect is Standard Somali based on?,Northern Somali,85463,13426,Somalis,squad_extractive
+376,What dialect is spoken on Mogadishu?,Benaadir,85545,13437,Somalis,squad_extractive
+377,What is another name for Benaadir?,Coastal Somali,85569,13441,Somalis,squad_extractive
+378,What is the most frequently used writing script for the Somali language?,the Somali alphabet,85996,13511,Somalis,squad_extractive
+379,Who introduced the Somali alphabet?,Mohamed Siad Barre,86145,13536,Somalis,squad_extractive
+380,In what month and year was the Somali alphabet introduced?,October 1972,86190,13543,Somalis,squad_extractive
+381,Who created the Somali alphabet?,Shire Jama Ahmed,86252,13553,Somalis,squad_extractive
+382,Who invented the Osmanya script?,Osman Yusuf Kenadid,86679,13617,Somalis,squad_extractive
+383,What organization do both Djibouti and Somalia belong to?,the Arab League,87092,13680,Somalis,squad_extractive
+384,Civilizations from what geographic part of Africa influenced Somali culture?,Northeast,87283,13708,Somalis,squad_extractive
+385,"Along with textiles, wood carving and pottery, what ancient cultural activity still dominates Somalia today?",monumental architecture,87491,13739,Somalis,squad_extractive
+386,Somali food contains influences from what region?,Southeast Asian,87665,13762,Somalis,squad_extractive
+387,"Of what nationality is the person who called Somalia a ""Nation of Bards""?",Canadian,87889,13799,Somalis,squad_extractive
+388,"What is the profession of the individual who referred to Somalia as a ""Nation of Bards""?",novelist,87898,13800,Somalis,squad_extractive
+389,"Who called Somalia a ""Nation of Bards""?",Margaret Laurence,87907,13801,Somalis,squad_extractive
+390,"Along with sport, games, literature, dress and festivals, what is a notable Somali cultural tradition?",martial arts,87973,13809,Somalis,squad_extractive
+391,What is a notable game that is played in Somalia?,Shax,88030,13818,Somalis,squad_extractive
+392,What scale is used by most Somali songs?,pentatonic,88202,13843,Somalis,squad_extractive
+393,What is an exaple of a hepatonic scale?,the major scale,88317,13863,Somalis,squad_extractive
+394,"Along with Arabia and Ethiopia, what land has songs that sound similar to those of Somalia?",Sudan,88433,13883,Somalis,squad_extractive
+395,What does midho mean in English?,lyricists,88582,13907,Somalis,squad_extractive
+396,In what year was the SFA founded?,1975,88918,13954,Somalis,squad_extractive
+397,Who was the representative of the Somali Film Agency in Rome?,Ali Said Hassan,88991,13966,Somalis,squad_extractive
+398,What are riwaaydo?,popular musicals,89094,13983,Somalis,squad_extractive
+399,What was the name of Said Salah Ahmed's first feature?,The Somali Darwish,89425,14031,Somalis,squad_extractive
+400,What is a notable characteristic of Somali art?,aniconism,90132,14135,Somalis,squad_extractive
+401,What animals are depicted on the Mogadishan canopies?,birds,90447,14182,Somalis,squad_extractive
+402,What do Somali women wear on their feet during Eid?,henna,90675,14213,Somalis,squad_extractive
+403,"Along with triangular shapes, what are common henna designs in Somalia?",flower motifs,90928,14255,Somalis,squad_extractive
+404,What activity is often held before Somali weddings?,Henna parties,91065,14279,Somalis,squad_extractive
+405,What do Somali women traditionally put around their eyes?,kohl,91177,14295,Somalis,squad_extractive
+406,From what ancient region did kuul application come?,Land of Punt,91284,14316,Somalis,squad_extractive
+407,What sport do Somalis most enjoy?,Football,91299,14319,Somalis,squad_extractive
+408,"Along with the Somalia Cup, what is an important Somali football competition?",the Somalia League,91378,14330,Somalis,squad_extractive
+409,What is the name of the Somali national football team?,Ocean Stars,91431,14338,Somalis,squad_extractive
+410,"Along with Liban Abdi, Ayub Daud and Abdisalam Ibrahim, who is a notable Somali football player?",Mohammed Ahamed Jama,91763,14387,Somalis,squad_extractive
+411,When did the 1981 FIBA African Championship take place?,15–23 December 1981,91930,14413,Somalis,squad_extractive
+412,Who came in fourth in the 2013 Open World Taekwondo Challenge Cup?,Mohamed Deq Abdulle,93065,14606,Somalis,squad_extractive
+413,What medal did Faisal Jeylani Aweys win in the 2013 Open World Taekwondo Challenge Cup?,silver,93102,14613,Somalis,squad_extractive
+414,Where did the 2013 Open World Taekwondo Challenge Cup take place?,Tongeren,93197,14628,Somalis,squad_extractive
+415,"Along with Thai Boxing, in what has Mohamed Jama won a European title?",K1,93403,14658,Somalis,squad_extractive
+416,What do Somali men wear when they aren't wearing Western clothing?,the macawis,93519,14677,Somalis,squad_extractive
+417,What piece of clothing is the macawis similar to?,sarong,93543,14682,Somalis,squad_extractive
+418,Where is the macawis worn?,around the waist,93568,14685,Somalis,squad_extractive
+419,"Aside from the koofiyad, what do Somali men wear on their head?",turban,93629,14696,Somalis,squad_extractive
+420,What is a koofiyad?,an embroidered fez,93658,14701,Somalis,squad_extractive
+421,"Along with jellabiyad, what is the jellabiya called in Somali?",qamiis,93807,14725,Somalis,squad_extractive
+422,What is the jellabiya?,a long white garment,93826,14728,Somalis,squad_extractive
+423,In what region do men commonly wear the jellabiya?,the Arab world,93857,14734,Somalis,squad_extractive
+424,What is the regular garment of Somali women?,the guntiino,93939,14745,Somalis,squad_extractive
+425,What is the guntiino normally made from?,alandi,94055,14767,Somalis,squad_extractive
+426,What is the usual formal attire for Somali women?,the dirac,94359,14820,Somalis,squad_extractive
+427,"Along with silk, saree fabric or chiffon, what might the dirac be made out of?",taffeta,94437,14834,Somalis,squad_extractive
+428,What is the underskirt of the dirac called?,the gorgorad,94534,14851,Somalis,squad_extractive
+429,What is the name of the headscarf worn by married women?,shaash,94981,14925,Somalis,squad_extractive
+430,What is the name of the shawl that married women wear on their upper bodies?,garbasaar,95060,14940,Somalis,squad_extractive
+431,"Along with abaya, what is a traditional Arab garment sometimes worn by Somali women?",the jilbab,95173,14957,Somalis,squad_extractive
+432,"Along with anklets, what pieces of jewelry are traditionally worn by Somali women?",necklaces,95419,14995,Somalis,squad_extractive
+433,In what year was the Somali flag invented?,1954,95534,15014,Somalis,squad_extractive
+434,Who devised the Somali flag?,Mohammed Awale Liban,95561,15019,Somalis,squad_extractive
+435,What is the star at the center of the Somali flag called?,Star of Unity,95814,15063,Somalis,squad_extractive
+436,What is the one culinary tradition that is present among all Somali regional cuisines?,all food is served halal,96195,15123,Somalis,squad_extractive
+437,What type of meat is never present in halal dishes?,pork,96244,15132,Somalis,squad_extractive
+438,What beverage is not halal?,alcohol,96257,15134,Somalis,squad_extractive
+439,"Along with alcohol, what liquid is never present in halal food?",blood,96326,15148,Somalis,squad_extractive
+440,What is the English word for qado?,lunch,96358,15153,Somalis,squad_extractive
+441,What is the most popular variety of bariis?,basmati,96444,15166,Somalis,squad_extractive
+442,After what event during Ramadan is dinner served?,Tarawih prayers,96684,15205,Somalis,squad_extractive
+443,When is the latest a Somali might eat dinner during Ramadan?,11 pm,96722,15211,Somalis,squad_extractive
+444,What is another term for xalwo?,halva,96737,15215,Somalis,squad_extractive
+445,"Along with wedding receptions, when is xalwo often consumed?",Eid celebrations,96808,15225,Somalis,squad_extractive
+446,What do the Somalis call frankincense?,lubaan,97055,15262,Somalis,squad_extractive
+447,What do the Somalis call incense burners?,dabqaad,97144,15276,Somalis,squad_extractive
+448,Who is the most well-known modern Somali writer?,Nuruddin Farah,97502,15330,Somalis,squad_extractive
+449,Who wrote Ignorance is the enemy of love?,Farah Mohamed Jama Awl,97749,15366,Somalis,squad_extractive
+450,Who won the 2010 Betty Trask Prize?,Nadifa Mohamed,97906,15393,Somalis,squad_extractive
+451,What fact about Somali legal terms implies that Xeer developed locally?,devoid of loan words,98648,15512,Somalis,squad_extractive
+452,"In the Xeer system, what are judges called?",odayal,98874,15547,Somalis,squad_extractive
+453,What does xeer boggeyaal mean in English?,jurists,98907,15552,Somalis,squad_extractive
+454,What does the Xeer system call attorneys?,garxajiyaal,98942,15554,Somalis,squad_extractive
+455,By what term are witnesses known in the Xeer system?,murkhaatiyal,98967,15556,Somalis,squad_extractive
+456,What does the Xeer system call cops?,waranle,98996,15559,Somalis,squad_extractive
+457,"Along with Somalo-Islamic architecture, what influences modern Somali architecture?",Western designs,99543,15630,Somalis,squad_extractive
+458,What do Somalis call their ancient pyramids?,taalo,99645,15644,Somalis,squad_extractive
+459,What were taalo used for?,burial,99666,15648,Somalis,squad_extractive
+460,What were ancient Somali houses made out of?,dressed stone,99780,15666,Somalis,squad_extractive
+461,What is a notable stone wall built in ancient Somalia?,the Wargaade Wall,99923,15689,Somalis,squad_extractive
+462,During what period was the Muslim faith introduced to Somalia?,early medieval,99985,15699,Somalis,squad_extractive
+463,"Before Islam was introduced, what was a common building material in Somalia?",drystone,100154,15724,Somalis,squad_extractive
+464,"Along with sundried bricks and coral stone, what construction material was widely used after the introduction of Islam?",limestone,100250,15739,Somalis,squad_extractive
+465,What is the academic study of the Somali people called?,Somali Studies,100554,15785,Somalis,squad_extractive
+466,"Along with sociology, linguistics, historiography and archaeology, what field is part of Somali Studies?",anthropology,100613,15794,Somalis,squad_extractive
+467,"Along with chronicles and records, what indigenous sources are used in Somali Studies?",oral literature,100739,15809,Somalis,squad_extractive
+468,What is the name of the annual gathering of Somali Studies scholars?,the International Congress of Somali Studies,100989,15848,Somalis,squad_extractive
+469,What is it called when government officials use their power for private gain?,Political corruption,101041,15855,Political_corruption,squad_extractive
+470,It is only considered political corruption if the act directly relates to what?,their official duties,101244,15886,Political_corruption,squad_extractive
+471,"One form of corruption involves the hiring of family members, which is called what?",nepotism,101397,15909,Political_corruption,squad_extractive
+472,"Another form of corruption, the practice of usury, is called what?",gombeenism,101407,15910,Political_corruption,squad_extractive
+473,Drug trafficking and money laundering are considered what?,criminal enterprise,101514,15921,Political_corruption,squad_extractive
+474,"Three forms of corruption that can promote criminal activities include drugs, money laundering, and what?",human trafficking,101582,15930,Political_corruption,squad_extractive
+475,The repression of what is also considered political corruption?,political opponents,101716,15950,Political_corruption,squad_extractive
+476,What is considered political corruption is differnt in each what?,country or jurisdiction,101882,15971,Political_corruption,squad_extractive
+477,Sometime sit is hard to tell if actions are legal or illegal because governement officials have what kind of power?,broad or ill-defined,102050,15997,Political_corruption,squad_extractive
+478,How much money is involved in bribery in the world each year?,1 trillion US dollars,102207,16020,Political_corruption,squad_extractive
+479,What does kleptocracy mean?,rule by thieves,102330,16039,Political_corruption,squad_extractive
+480,What does kleptocracy mean?,rule by thieves,102330,16039,Political_corruption,squad_extractive
+481,Another for of corruption is what?,institutional corruption,102388,16049,Political_corruption,squad_extractive
+482,A form of corruption that does not involve personal gain is known as what?,institutional corruption,102388,16049,Political_corruption,squad_extractive
+483,What are some forms of corruption now  called?,institutional corruption,102388,16049,Political_corruption,squad_extractive
+484,Bribery is an example of corruption that involves what type of gain?,personal gain,102474,16060,Political_corruption,squad_extractive
+485,This type of problem happens in any organization where the interests of the people who financially support it conflicts with what?,the primary purpose of the institution,102635,16085,Political_corruption,squad_extractive
+486,What does corruption undermine in politics?,democracy,102711,16095,Political_corruption,squad_extractive
+487,What does corruption disregard in politics?,formal processes,102772,16104,Political_corruption,squad_extractive
+488,Corruption in what creates weak provision of services?,public administration,102980,16132,Political_corruption,squad_extractive
+489,Corruption disintegrates government capacity when public offices are what?,bought and sold,103299,16175,Political_corruption,squad_extractive
+490,What two democratic values are soiled due to corruption?,trust and tolerance,103397,16189,Political_corruption,squad_extractive
+491,Some people feel that corruption actually reduces costs because it cuts what?,bureaucracy,103986,16272,Political_corruption,squad_extractive
+492,What process is better than allowing bribes to remain in place?,Openly removing costly and lengthy regulations,104086,16287,Political_corruption,squad_extractive
+493,Economic distortion is created by corruption in the public sector by diverting what into capital projects?,public investment,104461,16340,Political_corruption,squad_extractive
+494,What is more plentiful in capital projects?,bribes and kickbacks,104507,16346,Political_corruption,squad_extractive
+495,Corruption can lower what with environmental regulations?,compliance,104727,16378,Political_corruption,squad_extractive
+496,What form has corruption taken in Africa?,rent extraction,105071,16426,Political_corruption,squad_extractive
+497,"In Africa, the finances are often moved where?",overseas,105130,16434,Political_corruption,squad_extractive
+498,African dictators often have what kind of bank accounts?,Swiss,105248,16451,Political_corruption,squad_extractive
+499,Which researchers studied corruption from Sub-Saharan countries from 1970 to 1996?,University of Massachusetts Amherst,105392,16474,Political_corruption,squad_extractive
+500,The 187 billion exceeded what in these countries?,external debts,105560,16496,Political_corruption,squad_extractive
+501,What was one of the factors for this behavior in Africa?,political instability,105759,16528,Political_corruption,squad_extractive
+502,Where is corruption most noticeable?,countries with the smallest per capita incomes,106218,16592,Political_corruption,squad_extractive
+503,These countries rely on foreign aid for what?,health services,106293,16604,Political_corruption,squad_extractive
+504,"In Sub-Saharan African countries, what level of government is corruption especially prevalent at?",Local,106310,16606,Political_corruption,squad_extractive
+505,Which report described this corruption? ,the 2006 World Bank Report,106451,16626,Political_corruption,squad_extractive
+506,How many funds did not reach their intended recipients who needed medical attention?,about half,106483,16632,Political_corruption,squad_extractive
+507,"In addition to ghost employees and the black market receiving drugs, what other way was money expended?",counterfeit drugs,106682,16665,Political_corruption,squad_extractive
+508,Where were drugs siphoned off to?,the black market,106727,16671,Political_corruption,squad_extractive
+509,What kind of employees received payments?,ghost employees,106761,16677,Political_corruption,squad_extractive
+510,Corruption aids what as far as the environment is concerned?,environmental destruction,106964,16705,Political_corruption,squad_extractive
+511,Formal legislation cannot be regulated when officials are what?,bribed,107120,16727,Political_corruption,squad_extractive
+512,"Bribes also halt unions, the protection of children in labor, and what?",social rights worker protection,107148,16732,Political_corruption,squad_extractive
+513,"When these laws are broken, corrupt countries gain what in the international market?",illegitimate economic advantage,107288,16751,Political_corruption,squad_extractive
+514,Who has stated that apolitical food problems do not exist?,Amartya Sen,107384,16762,Political_corruption,squad_extractive
+515,What can trigger famine conditions?,drought,107476,16778,Political_corruption,squad_extractive
+516,"While natural occurrences can cause famine, what determines the severity of it?",government action or inaction,107558,16790,Political_corruption,squad_extractive
+517,How is food aid usually directly redirected from the people it should go to?,physically diverted,108411,16928,Political_corruption,squad_extractive
+518,Food aid can also be indirectly diverted from its intended recipients through the manipulation of what?,assessments,108504,16940,Political_corruption,squad_extractive
+519,Substandard what is often one way for corruption to enter the construction field?,workmanship,108706,16965,Political_corruption,squad_extractive
+520,What happens with contracts to aid corruption?,kickbacks,108719,16966,Political_corruption,squad_extractive
+521,Recipients of aid are concerned about what?,exclusion,108965,17001,Political_corruption,squad_extractive
+522,"Those receiving aid may have connections, pay bribes or what?",forced to give sexual favors,109063,17019,Political_corruption,squad_extractive
+523,Corrupt people may manipulate what to receive more assistance?,statistics,109137,17032,Political_corruption,squad_extractive
+524,These types of corruption can harm what?,the public health,110208,17191,Political_corruption,squad_extractive
+525,"Along with institutions, this type of corruption can discredit what?",social relationships,110282,17201,Political_corruption,squad_extractive
+526,Corruption can determine certain things in what kind of activities?,sports,110358,17211,Political_corruption,squad_extractive
+527,Medical staff can affect what aspect of sports?,anti-doping controls,110437,17221,Political_corruption,squad_extractive
+528,What needs to stay away from loopholes?,national anti-corruption initiatives,110708,17254,Political_corruption,squad_extractive
+529,What do you call paying government officials to use their position in their office?,a bribe,110866,17277,Political_corruption,squad_extractive
+530,What is it called when corruption is part of all public life?,culture of corruption,111258,17344,Political_corruption,squad_extractive
+531,What two types of bribery is the international community trying to get prosecuted as separate?,active and passive bribery,111947,17454,Political_corruption,squad_extractive
+532,In some countries there is no formal deal but what that makes prosecuting bribes difficult?,mutual understanding,112569,17549,Political_corruption,squad_extractive
+533,"A bribe can include requesting, offering, giving or what of favors or money?",accepting,112976,17616,Political_corruption,squad_extractive
+534,Bribes can be direct or what?,indirect,112999,17619,Political_corruption,squad_extractive
+535,Selling or trading government position influence is called what?,influence peddling,113242,17658,Political_corruption,squad_extractive
+536,Selling influence can involve third-parties and this is called what type of relation?,tri-lateral,113433,17688,Political_corruption,squad_extractive
+537,In some situations the third-party in an influence peddling crime may be not involved or may be what?,an accessory,113594,17717,Political_corruption,squad_extractive
+538,"Where lobbying is controlled, what does it provide for consideration to determine improper influencing?",distinctive criteria,114213,17813,Political_corruption,squad_extractive
+539,What article of the Criminal Law Convention on Corruption contains distinctive criteria to determine improper influence?,article 12,114324,17830,Political_corruption,squad_extractive
+540,Giving government jobs to supporters is called what?,Patronage,114417,17846,Political_corruption,squad_extractive
+541,What is it called when relatives are favored over other people?,nepotism,115385,18000,Political_corruption,squad_extractive
+542,"Cronyism is also when people are selected from a closed and exclusive social network, which is called what?",old boy network,115881,18083,Political_corruption,squad_extractive
+543,Corruption also occurs when an official wants to cause some form of harm to who?,enemies,116121,18120,Political_corruption,squad_extractive
+544,False charges can be brought against a journalist who writes about what?,politically sensitive issues,116312,18149,Political_corruption,squad_extractive
+545,What is it called when a person is dishonest or corrupt for his own gain?,Gombeenism,116388,18159,Political_corruption,squad_extractive
+546,Parish pump politics is also called what?,parochialism,116522,18180,Political_corruption,squad_extractive
+547,"Which crisis in Ireland involved bribery, cronyism and collusion?",Irish Banking crisis,116864,18233,Political_corruption,squad_extractive
+548,Politicians who were at the end of their political careers were offered what kind of position with companies they were involved with politically?,senior management or committee position,117045,18262,Political_corruption,squad_extractive
+549,Illegal interference with an election is called what?,Electoral fraud,117123,18274,Political_corruption,squad_extractive
+550,Another term for electoral fraud is what?,voter fraud,117399,18319,Political_corruption,squad_extractive
+551,"Illegal voter registration, the miscounting of votes, and what at polls is considered voter fraud?",intimidation,117472,18328,Political_corruption,squad_extractive
+552,"When entrusted funds are stolen, it is called what?",Embezzlement,117524,18335,Political_corruption,squad_extractive
+553,A contract can be given to someone who is not the best what?,bidder,118161,18443,Political_corruption,squad_extractive
+554,What is not limited to just government officials?,Kickbacks,118584,18514,Political_corruption,squad_extractive
+555,"When groups that are antagonistic to each other form a coalition for hidden gain, it is called what?",unholy alliance,118769,18545,Political_corruption,squad_extractive
+556,When was Jinrong a police chief in this area?,1920s and 1930s,119390,18637,Political_corruption,squad_extractive
+557,"In addition to being a police chief, Jinrong was also what?",a gang boss,119508,18655,Political_corruption,squad_extractive
+558,Who was a local gang ringleader in the same area?,Du Yuesheng,119542,18661,Political_corruption,squad_extractive
+559,What is Noriega's first name?,Manuel,119749,18689,Political_corruption,squad_extractive
+560,What country did Noriega rule?,Panama,119780,18693,Political_corruption,squad_extractive
+561,What was Noriega's government accused of being?,narcokleptocracy,119799,18698,Political_corruption,squad_extractive
+562,What is a narcokleptocracy?,government profiting on illegal drug trade,119828,18700,Political_corruption,squad_extractive
+563,Who found evidence that where the media had freedom there was less political corruption?,Brunetti and Weder,120265,18768,Political_corruption,squad_extractive
+564,Who discovered that more people reading newspapers resulted in higher political accountability?,"Adserà, Boix, and Payne",120547,18809,Political_corruption,squad_extractive
+565,About 100 countries and what else was information gathered from to show that more people reading newspapers had higher political accountability?,different states in the US.,120723,18835,Political_corruption,squad_extractive
+566,Who discovered the correlation that congressman who have less local press coverage work less for the people who elected them?,Snyder and Strömberg,120752,18840,Political_corruption,squad_extractive
+567,What newspaper stopped publishing in 2007?,Cincinnati Post,121211,18913,Political_corruption,squad_extractive
+568,Who was most likely to get reelected after the Post shut down?,incumbents,121336,18933,Political_corruption,squad_extractive
+569,Campaign spending and what fell after the Post stopped publishing?,voter turnout,121389,18941,Political_corruption,squad_extractive
+570,What did the analysis show mixed results for?,growth of the Internet,121544,18969,Political_corruption,squad_extractive
+571,What was disrupted by Internet growth for the press?,traditional sources of funding,121721,18998,Political_corruption,squad_extractive
+572,How much has new types of Internet journalism replaced what has been lost in the press?,a tiny fraction,121809,19011,Political_corruption,squad_extractive
+573,What is the measure that it publishes that involves polling to determine the public's take on how corrupt various countries are?,CPI,121929,19028,Political_corruption,squad_extractive
+574,What is the measure that Transparency International publishes that looks at the willingness of a foreign company to pay a bribe?,Bribe Payers Index,122403,19097,Political_corruption,squad_extractive
+575,Which index studies the correlation of corruption and military in a country?,Government Defence Anti-corruption Index,122683,19143,Political_corruption,squad_extractive
+576,How many firms throughout the world have been surveyed by the World Bank in regards to its corruption study?,"over 100,000",122889,19171,Political_corruption,squad_extractive
+577,"One of the dimensions is the extent to which power is exercised for personal gain, which is called what?",Control of Corruption,123084,19200,Political_corruption,squad_extractive
+578,Which organization is most notable for adopting the global coverage of these studies?,Millennium Challenge Corporation,123708,19297,Political_corruption,squad_extractive
+579,A second set of corruption metrics has been compiled by Global Integrity and what other organization?,International Budget Partnership,124333,19391,Political_corruption,squad_extractive
+580,Both companies no longer use what means of collecting of data?,public surveys,124385,19397,Political_corruption,squad_extractive
+581,"Instead of public surveys, the organizations use what to study corruption?",in-country experts,124417,19402,Political_corruption,squad_extractive
+582,What is the British aid agency's research called?,Drivers of Change,125110,19494,Political_corruption,squad_extractive
+583,What does Drivers of Change promote?,understanding corruption,125165,19502,Political_corruption,squad_extractive
+584,What type of regulations make corruption worse for public spending?,Complicated,125378,19532,Political_corruption,squad_extractive
+585,The potential for corruption in public spending are one of the arguments that favor what?,privatization and deregulation,125496,19547,Political_corruption,squad_extractive
+586,What countries have big public sectors but low corruption?,Nordic,125771,19585,Political_corruption,squad_extractive
+587,What do the low corruption countries have solidly established?,rule of law,125904,19607,Political_corruption,squad_extractive
+588,What type of people got wealthy from the sale of state-owned companies?,Those with political connections,126589,19707,Political_corruption,squad_extractive
+589,Where is corruption even more prevalent?,non-privatized sectors,126971,19761,Political_corruption,squad_extractive
+590,Countries that what have more extralegal and unofficial things going on?,privatized less,127116,19780,Political_corruption,squad_extractive
+591,Providing a government service from the lowest form of local government that can adequately provide the service is called what?,principle of subsidiarity,127161,19787,Political_corruption,squad_extractive
+592,Even small amounts of public money can be a lot in what type of authority?,centralized,127465,19833,Political_corruption,squad_extractive
+593,What examples of natural resources do some corrupt officials in government take?,diamonds and oil,127813,19885,Political_corruption,squad_extractive
+594,Some corrupt governments use what type of money coming in?,foreign aid,127955,19906,Political_corruption,squad_extractive
+595,Foreign aid money is sometimes used to build fancy structures and to buy what?,armaments,128012,19916,Political_corruption,squad_extractive
+596,"In their pursuit of more money and power, corrupt dictators often ignore what?",economic and social problems,128246,19951,Political_corruption,squad_extractive
+597,Who was the dictator in Zaire from 1965 to 1997?,Marshal Mobutu Sese Seko,128408,19979,Political_corruption,squad_extractive
+598,What did Zaire used to be known as?,Democratic Republic of the Congo,128448,19986,Political_corruption,squad_extractive
+599,Who ruled Nigeria until he died in 1998?,General Sani Abacha,128721,20031,Political_corruption,squad_extractive
+600,What magazine had articles about Castro benefiting from corruption?,Forbes,129222,20114,Political_corruption,squad_extractive
+601,What is Fidel Castro's official title?,General Secretary of the Republic of Cuba,129269,20121,Political_corruption,squad_extractive
+602,The $900 million Forbes said Castro took may only be what of his total assets?,a portion,129716,20191,Political_corruption,squad_extractive
+603,What is OAS?,Organization of American States,129854,20215,Political_corruption,squad_extractive
+604,Additional conventions were adopted at the regional level by OAS and who?,the African Union,129900,20222,Political_corruption,squad_extractive
+605,What organization joined at the universal level?,the United Nations Convention against Corruption,129969,20235,Political_corruption,squad_extractive
+606,Why is it difficult to measure corruption?,imprecise definitions of corruption,130135,20258,Political_corruption,squad_extractive
+607,"What was the first index on corruption, in 1995?",the Corruption Perceptions Index CPI,130227,20270,Political_corruption,squad_extractive
+608,What part of the government controls the judiciary budget in many developing countries?,executive,130626,20330,Political_corruption,squad_extractive
+609,What does executive branch control over judiciary money undermine?,separation of powers,130663,20335,Political_corruption,squad_extractive
+610,Radio broadcasts and what help deter corruption?,Mobile telecommunications,130976,20378,Political_corruption,squad_extractive
+611,Who works against corruption in India?,the anti-corruption bureau,131156,20402,Political_corruption,squad_extractive
+612,What new ombudsman bill is being readied in India?,Jan Lokpal Bill,131242,20414,Political_corruption,squad_extractive
+613,Who started the Programme of Action?,Ministers of the Council of Europe,131470,20453,Political_corruption,squad_extractive
+614,What did the Programme of Action issue?,a series of anti-corruption standard-setting instruments,131609,20472,Political_corruption,squad_extractive
+615,The instruments used to point out the different corrupt forms looked to see if they were rigidly domestic or what?,transnational,131890,20513,Political_corruption,squad_extractive
+616,What does GRECO stand for?,Group of States Against Corruption,132052,20536,Political_corruption,squad_extractive
+617,What is the name of the French equivalent of GRECO?,Groupe d'Etats contre la corruption,132118,20546,Political_corruption,squad_extractive
+618,What is another term for southern Europe,Mediterranean Europe,132225,20562,Southern_Europe,squad_extractive
+619,What is the name for the stretch of land on which Spain and Portugal are located?,Iberian peninsula,132276,20569,Southern_Europe,squad_extractive
+620,What area of France is considered a part of Mediterranean Europe?,southern France,132339,20577,Southern_Europe,squad_extractive
+621,What nations are sometimes included in the scope of southern Europe?,Balkan countries,132407,20586,Southern_Europe,squad_extractive
+622,What are three characteristics that can be employed to characterize southern Europe?,"political, economic, and cultural attributes",132658,20621,Southern_Europe,squad_extractive
+623,What are three aspects of the environment of southern Europe that can be used to distinguish the region?,"geography, climate, and flora",132770,20638,Southern_Europe,squad_extractive
+624,What kind of climate is exemplary of southern Europe?,The Mediterranean climate,132945,20663,Southern_Europe,squad_extractive
+625,Which parts of Turkey are characterized by a Mediterranean climate?,Western and Southern coastal regions,133070,20679,Southern_Europe,squad_extractive
+626,What are two broad categories of similarity among countries which have a Mediterranean climate?,vegetations and landscapes,133208,20699,Southern_Europe,squad_extractive
+627,Where do colder areas occur within southern Europe?,mountain ranges of Spain and Italy,133414,20729,Southern_Europe,squad_extractive
+628,Where are more moist areas found in southern Europe?,north coast of Spain,133468,20737,Southern_Europe,squad_extractive
+629,What term can be used to describe the wet area of North Spain?,Atlantic climate,133510,20744,Southern_Europe,squad_extractive
+630,What is a word that can be used to describe the plant life of southern Europe?,phytochoria,133601,20758,Southern_Europe,squad_extractive
+631,Who coined the term phytochoria?,Armen Takhtajan,133627,20761,Southern_Europe,squad_extractive
+632,What era started when Ancient Greek cities became self-governing entities?,classical antiquity,133956,20809,Southern_Europe,squad_extractive
+633,What was the name of the different governments forming in Ancient Greece?,city-states,134003,20817,Southern_Europe,squad_extractive
+634,Who was responsible for the bringing Greek culture as far as Asia?,Alexander the Great,134099,20831,Southern_Europe,squad_extractive
+635,By what year was the Roman Empire split into two sections?,300 AD,134320,20866,Southern_Europe,squad_extractive
+636,Which tribes brought down the Western Roman Empire?,Germanic,134474,20893,Southern_Europe,squad_extractive
+637,What year is considered the transition between the classical period and the Middle Ages?,AD 476,134557,20908,Southern_Europe,squad_extractive
+638,What is the Eastern Roman Empire in the Middle Ages called by contemporary scholars?,the Byzantine Empire,134772,20945,Southern_Europe,squad_extractive
+639,Who took over the remains of the Western Roman Empire?,Germanic peoples,134813,20951,Southern_Europe,squad_extractive
+640,What did Germanic people create in place of the Western Roman Empire?,kingdoms and empires of their own,134927,20969,Southern_Europe,squad_extractive
+641,What is the name of the period of armed incursions undertaken in the name of Christianity?,the Crusades,134983,20979,Southern_Europe,squad_extractive
+642,When did Crusaders invade Constantinople?,1204,135320,21029,Southern_Europe,squad_extractive
+643,What empire was destroyed by the Sack of Constantinople?,the Byzantine Empire,135350,21035,Southern_Europe,squad_extractive
+644,Which two cities benefited greatly from the activities of Crusaders?,Genoa and Venice,135582,21073,Southern_Europe,squad_extractive
+645,What was the name of another activity like the Crusades occuring on the Iberian peninsula?,The Reconquista,135632,21081,Southern_Europe,squad_extractive
+646,What era was characterized by turmoil in Europe?,The Late Middle Ages,135714,21092,Southern_Europe,squad_extractive
+647,What disease plagued Europe during the Late Middle Ages?,the Black Death,135801,21107,Southern_Europe,squad_extractive
+648,Which new regime appeared in the Balkan region during the Late Middle Ages?,the Ottoman Empire,136033,21146,Southern_Europe,squad_extractive
+649,When did the Ottoman Empire conquer Constantinople?,1453,136186,21168,Southern_Europe,squad_extractive
+650,When was the start of the period known as the Renaissance?,14th century,136218,21173,Southern_Europe,squad_extractive
+651,In what city did the Renaissance begin?,Florence,136234,21176,Southern_Europe,squad_extractive
+652,What areas of knowledge were subject to much debate during the Renaissance?,science and theology,136386,21197,Southern_Europe,squad_extractive
+653,The encounter with Arabic knowledge put Renaissance thinkers back in touch with the teachings of which ancient civilizations?,Greek and Roman,136482,21211,Southern_Europe,squad_extractive
+654,Which countries initiated the Age of Exploration following the Reconquista?,Portugal and Spain,136529,21218,Southern_Europe,squad_extractive
+655,When did religious conflict end in Europe?,1648,136759,21256,Southern_Europe,squad_extractive
+656,Between which two nations was the Treaty of the Pyrenees signed?,Spain and France,136969,21292,Southern_Europe,squad_extractive
+657,Which scientist developed a means of viewing space?,Galileo Galilei,137274,21342,Southern_Europe,squad_extractive
+658,Who was responsible for creating the first radio?,Guglielmo Marconi,137455,21371,Southern_Europe,squad_extractive
+659,What resulted from Europe's exploration of the New World?,the rise of colonial empires,137529,21381,Southern_Europe,squad_extractive
+660,What institution of mercantilism was established with New World colonies?,the Columbian Exchange,137569,21387,Southern_Europe,squad_extractive
+661,"Aside from the activities of colonies, what other event fostered the transition from agriculture to manufacturing?",the Industrial Revolution of Great Britain,137652,21400,Southern_Europe,squad_extractive
+662,What replaced agriculture as the focus of European economy with the establishment of overseas colonies?,manufacturing,137727,21412,Southern_Europe,squad_extractive
+663,When were there many struggles for independence or overthrowing prevailing governments?,between 1815 and 1871,137789,21419,Southern_Europe,squad_extractive
+664,From whom did Balkan states start retaking their independence?,the Ottoman Empire,137928,21440,Southern_Europe,squad_extractive
+665,In what year was Rome conquered?,1870,138006,21454,Southern_Europe,squad_extractive
+666,What phrase is used to describe the period marked by competition for extant lands?,The Age of Empire,138104,21472,Southern_Europe,squad_extractive
+667,In what year did World War I begin?,1914,138155,21483,Southern_Europe,squad_extractive
+668,When did a victor emerge in World War I?,1918,138304,21508,Southern_Europe,squad_extractive
+669,At what event did the major Allied powers assert their conditions at the end of the war?,the Paris Peace Conference,138317,21510,Southern_Europe,squad_extractive
+670,Which group took control in 1933?,The Nazi regime,138440,21530,Southern_Europe,squad_extractive
+671,Who led the Nazis?,Adolf Hitler,138462,21534,Southern_Europe,squad_extractive
+672,Who was the leader of Italy when World War II started?,Mussolini,138513,21544,Southern_Europe,squad_extractive
+673,What was the military partnership between countries aligned with the Soviet Union called?,the Warsaw Pact,139033,21623,Southern_Europe,squad_extractive
+674,What does EU stand for?,European Union,139204,21649,Southern_Europe,squad_extractive
+675,What was the European Union tasked with managing?,"market rules, competition, legal standards and environmentalism",139350,21673,Southern_Europe,squad_extractive
+676,What is the most common group of languages spoken in Mediterranean Europe?,Romance languages,139901,21754,Southern_Europe,squad_extractive
+677,What are the three main areas of southern Europe where Italian speakers can be found?,"Italy, San Marino, and the Vatican",140170,21798,Southern_Europe,squad_extractive
+678,How many people in Spain and Gibraltar are Spanish speakers?,over 40 million,140238,21810,Southern_Europe,squad_extractive
+679,Where can people who speak Catalan be found?,eastern Spain,140444,21842,Southern_Europe,squad_extractive
+680,What language is spoken in northwest Spain?,Galician,140463,21845,Southern_Europe,squad_extractive
+681,What is another term for Greek?,Hellenic,140517,21853,Southern_Europe,squad_extractive
+682,"Outside of Greece itself, in what other nation is Greek a major language?",Cyprus,140607,21869,Southern_Europe,squad_extractive
+683,What do people speak in Bulgaria?,Bulgarian,140858,21907,Southern_Europe,squad_extractive
+684,Slovene is a major language in what country?,Slovenia,140983,21928,Southern_Europe,squad_extractive
+685,What language is used in Macedonia?,Macedonian,140997,21930,Southern_Europe,squad_extractive
+686,"Besides English, what other language is spoken in Malta?",Maltese,141247,21970,Southern_Europe,squad_extractive
+687,What language can be found used in Kosovo and Albania?,Albanian,141313,21979,Southern_Europe,squad_extractive
+688,What type of language is Maltese?,Semitic,141398,21993,Southern_Europe,squad_extractive
+689,Where is Basque Country located?,northern Spain and southwestern France,141520,22014,Southern_Europe,squad_extractive
+690,When did the Romans make Christianity their official religion?,380 AD,141780,22051,Southern_Europe,squad_extractive
+691,What denomination of Christianity is common in the western part of southern Europe?,Roman Catholic,142100,22103,Southern_Europe,squad_extractive
+692,Which denomination of Christianity is more common in the eastern part of Mediterranean Europe?,Greek Orthodox,142208,22120,Southern_Europe,squad_extractive
+693,What is the reason for the UNO's division into regions?,statistical convenience,142416,22150,Southern_Europe,squad_extractive
+694,What smaller unit makes up the southern Europe region?,sub-regions,142649,22183,Southern_Europe,squad_extractive
+695,Which group uses TDM as a metric?,European Travel Commission,142730,22193,Southern_Europe,squad_extractive
+696,What does TDM stand for?,Tourism Decision Metrics,142801,22204,Southern_Europe,squad_extractive
+697,Which angel is believed to have communicated the Quran to Muhammad?,Gabriel,142995,22232,Quran,squad_extractive
+698,What is the Arabic variant of Gabriel?,Jibril,143004,22234,Quran,squad_extractive
+699,On which date did Muhammad begin receiving the Quran?,22 December 609 CE,143077,22244,Quran,squad_extractive
+700,In which year CE did Muhammad die?,632,143137,22255,Quran,squad_extractive
+701,Who first recorded Muhammad revelations?,companions of Muhammad,143578,22331,Quran,squad_extractive
+702,Who first standardized the earliest versions of the Quran?,Caliph Uthman,143838,22371,Quran,squad_extractive
+703,By what name is the first standardized version of the Quran known?,Uthman's codex,143897,22381,Quran,squad_extractive
+704,What accounts are form the basis of much of the accounts in the Quran?,Biblical scriptures,144133,22415,Quran,squad_extractive
+705,The Quran is used in the interpretation of which form of law?,sharia,144542,22478,Quran,squad_extractive
+706,"From which Arabic verb might ""Quran"" be derived?",qaraʼa,144743,22513,Quran,squad_extractive
+707,"What Syriac word might be related to ""Quran""?",qeryānā,144825,22526,Quran,squad_extractive
+708,Which word do most Muslim scholars point to as the origin of the Quran's name?,qaraʼa,145026,22559,Quran,squad_extractive
+709,"The words from which the name ""Quran"" might be described are related to which act?",reciting,145154,22581,Quran,squad_extractive
+710,"Which term used in the Quran to indicate itself means ""book""?",kitāb,145484,22636,Quran,squad_extractive
+711,"Which term does the Quran use to refer to itself as ""scripture""?",sūrah,145515,22641,Quran,squad_extractive
+712,"What name does the Quran use for itself that means ""revelation""?",waḥy,145707,22673,Quran,squad_extractive
+713,What meaning does the Quran take when it calls itself hikmah?,wisdom,145894,22705,Quran,squad_extractive
+714,"Which term meaning ""the mother book"" does the Quran apply to itself?",umm al-kitāb,146037,22726,Quran,squad_extractive
+715,What is an English translation of huda?,the guide,146053,22728,Quran,squad_extractive
+716,What is the Arabic term commonly used to refer to works like the Torah or the Gospels?,al-kitāb,146261,22759,Quran,squad_extractive
+717,What term is used in the Quran to indicate previous revelations?,mus'haf,146553,22802,Quran,squad_extractive
+718,In which mountain cave did Mohammad experience his first revelation?,Cave of Hira,146868,22847,Quran,squad_extractive
+719,Prisoners from which battle are thought to have helped Muslims learn to write?,Badr,147313,22923,Quran,squad_extractive
+720,Vegetation from which tree served as an early recording medium for the Quran?,date palm,147563,22967,Quran,squad_extractive
+721,What term does the Quran use to describe Mohammad's lack of exposure to scripture?,ummi,148022,23048,Quran,squad_extractive
+722,"What is the most common interpretation of the word ""ummi"" that the Quran applies to Muhammad?",illiterate,148068,23054,Quran,squad_extractive
+723,What skills would have made others more suspicious that Mohammad was not getting his revelations in the way he said?,writing and reading,148533,23125,Quran,squad_extractive
+724,"Because Mohammed was ""ummi,"" what would he not have known about that lent credence to his prophethood?",earlier sacred texts,148746,23161,Quran,squad_extractive
+725,In which year did Abu Bakr die?,634,148977,23202,Quran,squad_extractive
+726,Which scribe led the production of the first written Quran?,Zayd ibn Thabit,149055,23217,Quran,squad_extractive
+727,Who took possession of the first Quran manuscript after Abu Bakr?,Hafsa bint Umar,149603,23307,Quran,squad_extractive
+728,Which caliph ordered the Quran manuscript copied and standardized?,Uthman ibn Affan,149704,23323,Quran,squad_extractive
+729,In which city was evidence of pre-Uthmanic Quranic writing discovered in 1972?,"Sana'a, Yemen",150447,23453,Quran,squad_extractive
+730,What is the term for recycled parchments used in ancient manuscripts?,palimpsests,150608,23479,Quran,squad_extractive
+731,What version of the Quran was the scriptio superior of the Sana'a manuscripts?,Uthmanic,151014,23542,Quran,squad_extractive
+732,Before which year were the Sana'a manuscripts produced?,671 AD,151122,23558,Quran,squad_extractive
+733,How many years old were the Quran fragments discovered in Birmingham in 2015?,1370,151218,23576,Quran,squad_extractive
+734,What script were the Birmingham Quran fragments written in?,Hijazi,151505,23622,Quran,squad_extractive
+735,What feature of the Birmingham Quran fragments' text make some doubt that it is older than other known versions of the Quran?,dots and chapter separators,151837,23680,Quran,squad_extractive
+736,Which section of the Quran inspires some Muslims to ritually wash themselves before touching their copy?,56:79,152110,23725,Quran,squad_extractive
+737,In what state are copies of the Quran sometime wrapped in cloth and buried?,Worn-out,152310,23759,Quran,squad_extractive
+738,Which are the safest places to inter an older copy of the Quran?,a mosque or a Muslim cemetery,152413,23778,Quran,squad_extractive
+739,What is done with the ashes of burned copies of the Quran?,buried or scattered over water,152468,23789,Quran,squad_extractive
+740,What term indicates that the contents of the Quran cannot be reproduced in speech?,I'jaz,152533,23800,Quran,squad_extractive
+741,Until what day is the Quran believed to be in effect?,Day of Resurrection,152699,23828,Quran,squad_extractive
+742,Which Muslim scholar studied the Quran's inimitability until his death in 1078?,al-Jurjani,153380,23935,Quran,squad_extractive
+743,In which year did the Medieval Muslim scholar al-Baqillani die?,1013,153422,23941,Quran,squad_extractive
+744,What two city-related categories divide the Quran's suras?,Meccan or Medinan,154114,24047,Quran,squad_extractive
+745,Which Arabic phrase opens almost all suras?,Bismillah,154621,24136,Quran,squad_extractive
+746,What division of the Quran is used for a month-long reading?,juz',155051,24210,Quran,squad_extractive
+747,What is the term for a subdivision of a hizb?,rubʻ al-ahzab,155324,24260,Quran,squad_extractive
+748,What division is used for a week-long recital of the Quran?,manzil,155403,24272,Quran,squad_extractive
+749,What general topic is eschatology about?,the final fate of the universe,156041,24371,Quran,squad_extractive
+750,What fraction of the Quran deals with eschatology?,one-third,156167,24392,Quran,squad_extractive
+751,Which natural disaster features in Sura 22?,earthquake,156798,24510,Quran,squad_extractive
+752,In what form does the Quran say God sends his messages to people?,signs and revelations,157060,24555,Quran,squad_extractive
+753,Which humans are the messengers of God?,Prophets,157083,24558,Quran,squad_extractive
+754,How does the Quran describe the similarity of messages God has delivered throughout human history?,identical,157191,24574,Quran,squad_extractive
+755,Who intermediates between God and prophets?,Angels,157443,24619,Quran,squad_extractive
+756,Which part of the Quran describes God's use of intermediaries between himself and his prophets?,42:51,157540,24635,Quran,squad_extractive
+757,What mental state is the foundation of morality as described by the Quran?,Belief,157748,24674,Quran,squad_extractive
+758,What finance-related acts are forbidden by the Quran?,usury and gambling,158538,24803,Quran,squad_extractive
+759,What is the name of the formal prayer proscribed by the Quran?,salat,158748,24835,Quran,squad_extractive
+760,Which month is designated for fasting in the Quran?,Ramadan,158783,24841,Quran,squad_extractive
+761,Which astrophysicist has written about the ways the Quran encourages scientific thinking?,Nidhal Guessoum,159028,24879,Quran,squad_extractive
+762,Whose scholarship on the concept of proof in the Quran does Guessoum cite?,Ghaleb Hasan,159594,24966,Quran,squad_extractive
+763,Which philosopher believed the Quran had a rational and empirical basis like science?,Muhammad Iqbal,160254,25065,Quran,squad_extractive
+764,Nature and its phenomena are mentioned in approximately how many of the Quran's verses?,750,160399,25085,Quran,squad_extractive
+765,Who recommended science as a way to achieve the goals of the Quran?,Mohammad Hashim Kamali,160656,25124,Quran,squad_extractive
+766,Who argued that the Quran inspired the first practitioners of the scientific method we use today?,Ziauddin Sardar,160858,25155,Quran,squad_extractive
+767,Which physicist quoted the Quran in his address after receiving the Nobel Prize?,Abdus Salam,161237,25211,Quran,squad_extractive
+768,Which verse from the Quran did Abdus Salam quote at his Nobel banquet?,67:3-4,161328,25228,Quran,squad_extractive
+769,Which two Muslim scientists did Salam celebrate as inventors of empirical methods?,Ibn al-Haytham and Al-Biruni,161863,25316,Quran,squad_extractive
+770,Salam suggests physics and science be kept separate from which topics which are more suited to religion?,metaphysics,162094,25349,Quran,squad_extractive
+771,What description of the writing in the Quran highlights its poetic aspect?,rhymed prose,162427,25403,Quran,squad_extractive
+772,Which suras in the Quran are particularly rhythmic?,earlier Meccan suras,162722,25452,Quran,squad_extractive
+773,What often changes along with the rhyming of Quranic verses?,subject of discussion,163061,25511,Quran,squad_extractive
+774,What is lacking in the arrangement of the Quranic text?,continuity,163338,25557,Quran,squad_extractive
+775,Which scholar believes the Quran's fragmentary writing style is an effective literary device for a prophetic message?,Michael Sells,163418,25567,Quran,squad_extractive
+776,To which critic does Michael Sells refer on the subject of the Quran's disorganization?,Norman O. Brown,163463,25575,Quran,squad_extractive
+777,How does Sells describe the Quran's repetitiveness?,a literary device,163932,25646,Quran,squad_extractive
+778,What metatextual character does Stefan Wild focus on in his discussion of the Quran?,Self-referentiality,164192,25683,Quran,squad_extractive
+779,"Which term that the Quran uses for itself means ""news""?",naba',164325,25702,Quran,squad_extractive
+780,What quality does the Quran claim in the different ways in which it refers to itself?,Divinity,164407,25711,Quran,squad_extractive
+781,The Quran is more self-referential in which of its suras?,early Meccan suras,164791,25777,Quran,squad_extractive
+782,What is the name of the activity of explaining what Quranic verses mean?,Tafsir,164812,25780,Quran,squad_extractive
+783,What is the Arabic term for Quranic exegesis?,Tafsir,164812,25780,Quran,squad_extractive
+784,Who were 'Ali ibn Abi Talib and 'Abdullah ibn 'Abbas?,Companions of Muhammad,165020,25814,Quran,squad_extractive
+785,In which language is the Quran recited?,classical Arabic,165495,25893,Quran,squad_extractive
+786,What is the Arabic term for the cancellation of one part of the Quran by another?,nāsikh,166075,25981,Quran,squad_extractive
+787,What is the term for earlier portions of the Quran that may have been superseded by later parts?,mansūkh,166101,25985,Quran,squad_extractive
+788,In which language is the Tafseer e Kabir written?,Urdu,166252,26006,Quran,squad_extractive
+789,What is the name of the Ahmadiyya Muslim Community's published Quran commentary?,Tafseer e Kabir,166296,26014,Quran,squad_extractive
+790,What is another term for Sufi Quranic interpretation?,Esoteric,166314,26017,Quran,squad_extractive
+791,What Arabic word describes the aspects of Quranic verses that Sufism tries to push beyond?,zahir,166432,26036,Quran,squad_extractive
+792,Sands says Sufi interpretations tend to use which literary device rather than direct explanation?,allusions,166679,26070,Quran,squad_extractive
+793,What is an Arabic term for allusions?,isharat,166690,26072,Quran,squad_extractive
+794,Which Quranic verse describes Moses' encounter with God at the mountain?,7:143,166830,26091,Quran,squad_extractive
+795,Who wrote that Moses had lost the Moses in himself along the way to his encounter with God?,Qushayri,167134,26150,Quran,squad_extractive
+796,"In Sufi thought, what experiences bring one closer to truth?",longing and suffering,167433,26201,Quran,squad_extractive
+797,Who was an important esoteric interpreter of the Quran in the 11th century?,Sulami,167574,26224,Quran,squad_extractive
+798,What is the English name of Sulami's major work?,Truths of Exegesis,167747,26252,Quran,squad_extractive
+799,In which year did the poet Rumi die?,1273,168204,26322,Quran,squad_extractive
+800,Which Sufi commentator wrote the Spirit of Elucidation?,Ismail Hakki Bursevi,168929,26442,Quran,squad_extractive
+801,What is the Arabic term for the surface-level aspects of a text?,zahir,169238,26491,Quran,squad_extractive
+802,Which two groups are examples of Muslims who advocate a very literal reading of the Quran?,Salafis and Zahiris,169617,26548,Quran,squad_extractive
+803,To which dynasty did the king who commissioned the first translation of Quranic texts belong?,Samanid,169853,26586,Quran,squad_extractive
+804,Which work did scribes from Khorasan translate in the 10th century?,Tafsir al-Tabari,169946,26601,Quran,squad_extractive
+805,Whose student wrote a Persian tafsir of the Quran in the 11th century?,Abu Mansur Abdullah al-Ansari,170050,26618,Quran,squad_extractive
+806,Who wrote a Persian translation of the Quran in the 12th century?,Najm al-Din Abu Hafs al-Nasafi,170150,26635,Quran,squad_extractive
+807,Who completed the first Latin version of the Quran?,Robert of Ketton,170322,26660,Quran,squad_extractive
+808,In which year was the Quran first translated into a Western language?,1143,170341,26663,Quran,squad_extractive
+809,Whose French translation of the Quran was the model for the first English version?,Andre du Ryer,170591,26702,Quran,squad_extractive
+810,Which organization offers versions of the Quran in 50 languages?,Ahmadiyya Muslim Community,170883,26749,Quran,squad_extractive
+811,What discipline concerns the way the Quran is correctly recited?,tajwid,171140,26788,Quran,squad_extractive
+812,Tajwid deals with what aspect of the phonemes in the Quran?,pronunciation,171619,26871,Quran,squad_extractive
+813,Tajwid describes rules for what noiseless aspect of articulating Quranic verses?,pause in recitation,171715,26885,Quran,squad_extractive
+814,Rhythm is an example of which features of Quranic recitation covered by tajwid?,musical and melodious,171776,26895,Quran,squad_extractive
+815,The absence of which language feature made early Quranic recitation more diverse?,Vocalization markers,171823,26901,Quran,squad_extractive
+816,Which Baghdad scholar identified justified seven different Quranic readings?,Ibn Mujāhid,172256,26966,Quran,squad_extractive
+817,Which recitation is the original basis of the Quran of Cairo?,ʻAsim's,173134,27107,Quran,squad_extractive
+818,Which city corresponds to Asim's recitation of the Quran?,Kufa,173184,27113,Quran,squad_extractive
+819,Who created Quranic manuscripts before the 19th century?,calligraphers and copyists,173368,27143,Quran,squad_extractive
+820,What is the name of the thicker-stroked writing used for the Quran beginning in the 9th century?,Kufic scripts,173680,27188,Quran,squad_extractive
+821,Which was the most widely used script by copyists in the 11th century?,naskh,174090,27257,Quran,squad_extractive
+822,Where was the Maghribi script most commonly used by Quran copyists?,North Africa and Spain,174197,27274,Quran,squad_extractive
+823,Which script was only used to copy the Quran by people in northern India?,Bihari,174274,27287,Quran,squad_extractive
+824,What are the parts of the Quran called that are 30 in total?,juzʼ,174799,27381,Quran,squad_extractive
+825,Who has claimed that Christians and Jews had heard and discussed the Quran before it took on its standardized Arabic form?,Sahih al-Bukhari,174995,27410,Quran,squad_extractive
+826,Which older language is thought to strongly resemble that of the Quran?,Syriac,175162,27436,Quran,squad_extractive
+827,Which relative of Jesus appears more often in the Quran than the New Testament?,Mary,175794,27533,Quran,squad_extractive
+828,What do devout Muslims believe is the reason for the overlap of events and characters in the Bible and Quran?,common divine source,176006,27567,Quran,squad_extractive
+829,What are the two type of ta'wil?,acceptable and unacceptable,176182,27591,Quran,squad_extractive
+830,The implicit meaning of a Quranic verse that is known fully only by God is which type of ta'wil?,Acceptable,176236,27596,Quran,squad_extractive
+831,Which type of esoteric interpretation involves a transfer by proof of a verse's meaning?,Unacceptable,176602,27653,Quran,squad_extractive
+832,Which which university is Fred Donner affiliated?,University of Chicago,177886,27863,Quran,squad_extractive
+833,What was done to the Quranic text early in its history leaving few markedly different variants?,standardized,178157,27908,Quran,squad_extractive
+834,What measure of distance described the nearness of the Angel's approach to Mohammad?,two bows' length,179266,28084,Quran,squad_extractive
+835,In which work did Welch express his belief that Mohammad's physical reaction to the revelation was historically accurate? ,Encyclopaedia of Islam,179348,28098,Quran,squad_extractive
+836,What physical symptom accompanied Muhammad's revelations?,seizures,179567,28130,Quran,squad_extractive
+837,Which people would Mohammad's critics have compared him to at the time?,"a possessed man, a soothsayer or a magician",179743,28156,Quran,squad_extractive
+838,What was the original meaning of ta'wil?,"""to return"" or ""the returning place""",180475,28269,Quran,squad_extractive
+839,What philosophical term corresponds to the type of interpretation in ta'wil?,hermeneutic,180575,28285,Quran,squad_extractive
+840,What can interpretation find that lies the behind the apparent events referred to in a Quranic story?,a spiritual reality,181052,28361,Quran,squad_extractive
+841,Who do Shia Muslims believe can approach Quranic truths besides God and Muhammad?,imams,181334,28408,Quran,squad_extractive
+842,How must God have treated those who are qualified to know Quranic sectets?,purified,181688,28463,Quran,squad_extractive
+843,What is Madonna's real name?,Madonna Louise Ciccone,181768,28477,Madonna_(entertainer),squad_extractive
+844,When was Madonna born?,"August 16, 1958",181833,28484,Madonna_(entertainer),squad_extractive
+845,Which is the other name that Madonna is always referred as?,Queen of Pop,182316,28558,Madonna_(entertainer),squad_extractive
+846,Where was Madonna born?,"Bay City, Michigan",182393,28572,Madonna_(entertainer),squad_extractive
+847,Which record label did Madonna sign with in 1982?,Sire Records,182566,28603,Madonna_(entertainer),squad_extractive
+848,Name a film role that Madonna acted in.,Desperately Seeking Susan,183215,28705,Madonna_(entertainer),squad_extractive
+849,Name one of Madonna's other business ventures?,fashion design,183436,28741,Madonna_(entertainer),squad_extractive
+850,How many records did Madonna sell worldwide?,more than 300 million,183731,28783,Madonna_(entertainer),squad_extractive
+851,Madonna is recognize as the best selling female music artiste by who?,Guinness World Records,183853,28802,Madonna_(entertainer),squad_extractive
+852,How many certified albums does Madonna have?,64.5 million,184069,28835,Madonna_(entertainer),squad_extractive
+853,"Since 1990, how much did Madonna make in her concerts?",$1.31 billion,184200,28854,Madonna_(entertainer),squad_extractive
+854,Where were Madonna's paternal grandparents come from?,"Pacentro, Italy",184813,28961,Madonna_(entertainer),squad_extractive
+855,Madonna's mother was from which ancestry?,French-Canadian,184854,28968,Madonna_(entertainer),squad_extractive
+856,What was Tony's occupation?,engineer designer,184898,28974,Madonna_(entertainer),squad_extractive
+857,What was Madonna's nickname when she was younger?,Little Nonni,185023,28995,Madonna_(entertainer),squad_extractive
+858,Which name did Madonna adopted as her confirmation name?,Veronica,185250,29029,Madonna_(entertainer),squad_extractive
+859,Where was Madonna raised?,Detroit suburbs of Pontiac and Avon Township,185305,29039,Madonna_(entertainer),squad_extractive
+860,Which disease did her mother passed away from?,breast cancer,185406,29055,Madonna_(entertainer),squad_extractive
+861,Who did Madonna turn to for comfort during her mother's illness?,paternal grandmother,185750,29112,Madonna_(entertainer),squad_extractive
+862,How did the Ciccone siblings behaved towards anyone brought to their home to replace their beloved mother?,rebelled,185841,29123,Madonna_(entertainer),squad_extractive
+863,"Who did Madonna tell in an interview that as a young girl, she was lonely and always searching for something?",Vanity Fair,185962,29142,Madonna_(entertainer),squad_extractive
+864,"Afraid that Tony would be taken from her, what does she do?",unable to sleep unless she was near him,186360,29216,Madonna_(entertainer),squad_extractive
+865,"In 1966, who did Tony married?",Joan Gustafson,186449,29231,Madonna_(entertainer),squad_extractive
+866,Name one child from the union of Tony and Joan?,Mario,186513,29241,Madonna_(entertainer),squad_extractive
+867,When was Mario born?,1968,186525,29243,Madonna_(entertainer),squad_extractive
+868,What is the name of the middle school that Madonna attended?,West Middle School,186706,29270,Madonna_(entertainer),squad_extractive
+869,Madonna achieved a name for herself in school by her unusual behavior and also for what other reason?,high grade point average,186752,29278,Madonna_(entertainer),squad_extractive
+870,Which restaurant did Madonna work in New York City?,Dunkin' Donuts,187166,29348,Madonna_(entertainer),squad_extractive
+871,Where did Madonna take dance classes at in New York City?,Alvin Ailey American Dance Theater,187234,29359,Madonna_(entertainer),squad_extractive
+872,How much did Madonna have when she first went to NYC?,$35,187470,29403,Madonna_(entertainer),squad_extractive
+873,What did she also work as for other established artists?,backup dancer,187554,29421,Madonna_(entertainer),squad_extractive
+874,Who did Madonna started seeing when she worked as a back up singer/dancer during Patrick Hernandez's tour?,Dan Gilroy,188105,29515,Madonna_(entertainer),squad_extractive
+875,When did Madonna leave the Breakfast Club?,1980 or 1981,188235,29537,Madonna_(entertainer),squad_extractive
+876,"After leaving the Breakfast Club, who did she formed the band Emmy with?",Stephen Bray,188303,29549,Madonna_(entertainer),squad_extractive
+877,What was Madonna's debut single called?,Everybody,188650,29607,Madonna_(entertainer),squad_extractive
+878,"When was ""Everybody"" released?",October 1982,188678,29610,Madonna_(entertainer),squad_extractive
+879,What was the name of the second single called?,Burning Up,188709,29616,Madonna_(entertainer),squad_extractive
+880,Who produced Madonna's debut album?,Reggie Lucas of Warner Bros,188970,29657,Madonna_(entertainer),squad_extractive
+881,Who was the boyfriend that Madonna moved in with?,"John ""Jellybean"" Benitez",189170,29688,Madonna_(entertainer),squad_extractive
+882,Who remixed most of Madonna's album tracks?,Benitez,189250,29699,Madonna_(entertainer),squad_extractive
+883,Which song was Madonna's first global hit?,Holiday,189299,29708,Madonna_(entertainer),squad_extractive
+884,When was Madonna's album released?,July 1983,189584,29758,Madonna_(entertainer),squad_extractive
+885,Who did Madonna's look and style of dressing influence?,young girls and women,189822,29797,Madonna_(entertainer),squad_extractive
+886,Who is the stylist and jewellery designer that created Madonna's look?,Maripol,189949,29819,Madonna_(entertainer),squad_extractive
+887,When did Madonna achieve global recognition?,November 1984,190195,29856,Madonna_(entertainer),squad_extractive
+888,"How long did ""Like a Virgin"" stayed on the Billboard 100?",six consecutive weeks,190385,29889,Madonna_(entertainer),squad_extractive
+889,"What was Madonna wearing during the performance of ""Like A Virgin"" at the VMA?",a wedding dress,190786,29953,Madonna_(entertainer),squad_extractive
+890,"Her video of ""Material Girl"" was an imitation of which singer's song, ""Diamonds are a girl's best friend?""",Marilyn Monroe,191034,29997,Madonna_(entertainer),squad_extractive
+891,When did Madonna married Sean Penn?,on her birthday in 1985,191235,30028,Madonna_(entertainer),squad_extractive
+892,"When did Madonna audition for a dance role in the show ""A Chorus Line?"" ",February 1984,191396,30055,Madonna_(entertainer),squad_extractive
+893,When did Madonna enter mainstream films?,February 1985,191667,30099,Madonna_(entertainer),squad_extractive
+894,What is the name of the romantic drama film that Madonna starred in?,Vision Quest,191736,30111,Madonna_(entertainer),squad_extractive
+895,What is the name of Madonna's two new singles?,"""Crazy for You"" and ""Gambler""",191843,30127,Madonna_(entertainer),squad_extractive
+896,When did Madonna appear in the comedy Desperately Seeking Susan?,March 1985,191935,30142,Madonna_(entertainer),squad_extractive
+897,What song did the comedy Desperately Seeking Susan promote?,"""Into the Groove""",191980,30150,Madonna_(entertainer),squad_extractive
+898,When was Madonna's first concert tour in North America?,Beginning in April 1985,192294,30206,Madonna_(entertainer),squad_extractive
+899,Who were the opening act for Madonna's concert The Virgin tour?,Beastie Boys,192406,30225,Madonna_(entertainer),squad_extractive
+900,How much was Madonna's nude photos were finally sold for?,"up to $100,000",192980,30325,Madonna_(entertainer),squad_extractive
+901,When was Madonna's third album released?,June 1986,193188,30363,Madonna_(entertainer),squad_extractive
+902,Who was the album True Blue dedicated to?,Sean Penn,193290,30380,Madonna_(entertainer),squad_extractive
+903,Madonna's album topped in how many countries chart worldwide?,28 countries,193669,30445,Madonna_(entertainer),squad_extractive
+904,What award did Madonna receive for her role in the film Shanghai Surprise?,Golden Raspberry Award,193942,30490,Madonna_(entertainer),squad_extractive
+905,Name a soundtrack in the film Who's That Girl?,Causing a Commotion,194249,30542,Madonna_(entertainer),squad_extractive
+906,When did Madonna sign an endorsement deal with Pepsi?,January 1989,194275,30545,Madonna_(entertainer),squad_extractive
+907,"With Madonna's new video, Like A Prayer, the blasphemy that she portrayed in the video led to what consequences?",canceled her sponsorship contract,194717,30615,Madonna_(entertainer),squad_extractive
+908,"Who co-written and co-produced the song, Like A Prayer?",Patrick Leonard and Stephen Bray.,194863,30637,Madonna_(entertainer),squad_extractive
+909,How many copies did Like A Prayer sell worldwide?,15 million copies,195088,30677,Madonna_(entertainer),squad_extractive
+910,"When was Madonna named ""Artist of the Decade"" by MTV, Billboard and Musician Magazine?",end of the 1980s,195331,30717,Madonna_(entertainer),squad_extractive
+911,"In the film Dick Tracy, who did Madonna starred as?",Breathless Mahoney,195458,30739,Madonna_(entertainer),squad_extractive
+912,Madonna's role in Dick Tracy led to which award nomination?,Saturn Award,195576,30759,Madonna_(entertainer),squad_extractive
+913,"Who earned an Academy Award for the song ""Vogue"" and ""Sooner or Later?"" ",Stephen Sondheim,195845,30800,Madonna_(entertainer),squad_extractive
+914,Who did Madonna have a relationship with while shooting the film?,Beatty,195970,30820,Madonna_(entertainer),squad_extractive
+915,When did Madonna and Beatty's relationship end?,end of 1990,196001,30825,Madonna_(entertainer),squad_extractive
+916,What is Madonna's compilation album called?,The Immaculate Collection,196696,30938,Madonna_(entertainer),squad_extractive
+917,What is one of the title of the songs that was released in the Immaculate Collection?,Justify My Love,196831,30957,Madonna_(entertainer),squad_extractive
+918,How many albums did it sell worldwide?,over 30 million copies,196914,30971,Madonna_(entertainer),squad_extractive
+919,Why did MTV ban the video for Justify My Love?,too sexually explicit,197209,31017,Madonna_(entertainer),squad_extractive
+920,Who did Madonna play in the role A League Of Their Own?,Mae Mordabito,197546,31082,Madonna_(entertainer),squad_extractive
+921,What is the film's theme song?,This Used to Be My Playground,197640,31098,Madonna_(entertainer),squad_extractive
+922,How much was the royalties paid to Madonna for the music proceedings?,20%,198079,31165,Madonna_(entertainer),squad_extractive
+923,What was the name of the erotic thriller that shows scenes of sadomasochism and bondage?,Body of Evidence,198908,31301,Madonna_(entertainer),squad_extractive
+924,When was The Girlie Show World Tour?,September 1993,199212,31353,Madonna_(entertainer),squad_extractive
+925,What was Madonna dressed in for the tour?,whip-cracking dominatrix,199302,31369,Madonna_(entertainer),squad_extractive
+926,In which country did Madonna rubbed the country's flag between her thighs that anger the public?,Puerto Rico,199361,31376,Madonna_(entertainer),squad_extractive
+927,What did Madonna give to Letterman to smell in his late night show that created an uproar?,a pair of her panties,199626,31419,Madonna_(entertainer),squad_extractive
+928,What did the critics call Madonna after the Letterman show?,a sexual renegade,199818,31452,Madonna_(entertainer),squad_extractive
+929,"Which biographer described her song ""I'll Remember"" as trying to clean up Madonna's image?",J. Randy Taraborrelli,199958,31475,Madonna_(entertainer),squad_extractive
+930,"The song ""I'll Remember"" was recorded for which film?",With Honors,200123,31501,Madonna_(entertainer),squad_extractive
+931,What was Madonna's sixth album named?,Bedtime Stories,200375,31544,Madonna_(entertainer),squad_extractive
+932,"The single ""Take A Bow"" was at the Hot 100 for how many weeks?",seven weeks,200626,31586,Madonna_(entertainer),squad_extractive
+933,Who was the fitness trainer that Madonna was involved with?,Carlos Leon,200753,31606,Madonna_(entertainer),squad_extractive
+934,"In the film Evita, who did Madonna play?",Eva Perón,201008,31649,Madonna_(entertainer),squad_extractive
+935,Which director did Madonna write to saying that she was perfect for the part of Eva Peron?,Alan Parker,201092,31665,Madonna_(entertainer),squad_extractive
+936,"After securing the role of Evita, what kind of training did Madonna have?",vocal training,201441,31734,Madonna_(entertainer),squad_extractive
+937,When was Madonna pregnant?,During shooting,201510,31745,Madonna_(entertainer),squad_extractive
+938,Who from Times magazine gave an excellent critique of the film Evita?,Zach Conner,202158,31860,Madonna_(entertainer),squad_extractive
+939,When was Madonna's daughter born?,"October 14, 1996",202883,31984,Madonna_(entertainer),squad_extractive
+940,What is the name of Madonna's daughter?,Lourdes Maria Ciccone Leon,202923,31991,Madonna_(entertainer),squad_extractive
+941,When did Madonna's relationship with Carlos Leon ended?,May 1997,203426,32075,Madonna_(entertainer),squad_extractive
+942,Which electronica producer did Madonna team up with for Ray of Light?,William Orbit,203780,32129,Madonna_(entertainer),squad_extractive
+943,Which type of music was popular during the 90s?,Techno and rave,204023,32172,Madonna_(entertainer),squad_extractive
+944,How many albums did Ray of Light sell worldwide?,16 million copies,204674,32282,Madonna_(entertainer),squad_extractive
+945,Which single in the album made it to the UK number one?,Frozen,204730,32291,Madonna_(entertainer),squad_extractive
+946,Which film project did Madonna leave because of differences with the director?,Music of the Heart,205216,32376,Madonna_(entertainer),squad_extractive
+947,Who was the director of Music of the Heart?,Wes Craven,205301,32389,Madonna_(entertainer),squad_extractive
+948,Which film did Madonna record the single Beautiful Stranger for?,Beautiful Stranger,205338,32396,Madonna_(entertainer),squad_extractive
+949,What was the film that Madonna starred in 2000?,The Next Best Thing,205621,32445,Madonna_(entertainer),squad_extractive
+950,What was the name of the film's soundtrack called?,Time Stood Still,205695,32458,Madonna_(entertainer),squad_extractive
+951,"When was ""Music"" released?",September 2000,205815,32478,Madonna_(entertainer),squad_extractive
+952,"How many albums did ""Music"" sell in the first 10 days?",four million,206510,32591,Madonna_(entertainer),squad_extractive
+953,Who is Madonna's second husband?,Guy Ritchie,206937,32670,Madonna_(entertainer),squad_extractive
+954,When was Rocco John Ritchie born?,"August 11, 2000",207054,32691,Madonna_(entertainer),squad_extractive
+955,What type of birth complications did Madonna suffer at birth?,placenta praevia,207166,32709,Madonna_(entertainer),squad_extractive
+956,When did Madonna marry Guy Ritchie?,"December 21, 2000.",207248,32721,Madonna_(entertainer),squad_extractive
+957,When did Madonna's Drowned World Tour start?,June 2001,207395,32744,Madonna_(entertainer),squad_extractive
+958,Which film did Madonna starred in that was directed by Ritchie?,Swept Away,207770,32808,Madonna_(entertainer),squad_extractive
+959,When did Madonna appear in the play Up For Grabs at the Wyndhams Theatre?,May 2002,207890,32827,Madonna_(entertainer),squad_extractive
+960,What was Madonna's title song for the James Bond movie?,Die Another Day,208190,32878,Madonna_(entertainer),squad_extractive
+961,What is the name of the exhibition installation that Madonna teamed up with fashion photographer Chris Klein called?,X-STaTIC Pro=CeSS,208600,32945,Madonna_(entertainer),squad_extractive
+962,How many copies did the album sell worldwide?,four million,209615,33115,Madonna_(entertainer),squad_extractive
+963,Who did Madonna kiss at the MTV Video Music Awards?,Spears and Aguilera,209947,33163,Madonna_(entertainer),squad_extractive
+964,When did Madonna collaborated as guest vocals for Spears single?,October 2003,210007,33171,Madonna_(entertainer),squad_extractive
+965,Madonna signed a contract with Callaway Arts and Entertainment to be a writer of what type of books?,children's books,210407,33234,Madonna_(entertainer),squad_extractive
+966,What was the title of the first book Madonna penned?,"The English Roses,",210458,33242,Madonna_(entertainer),squad_extractive
+967,When was the The English Roses published?,September 2003,210494,33248,Madonna_(entertainer),squad_extractive
+968,Madonna and Maverick sued which company for poor bookkeeping and mismanagement of resources?,Warner Music Group,210906,33318,Madonna_(entertainer),squad_extractive
+969,Warner resolved the dispute by buying whose shares?,Madonna and Ronnie Dashev,211242,33372,Madonna_(entertainer),squad_extractive
+970,Maverick became a wholly owned  subsidiary of which company?,Warner Music,211360,33390,Madonna_(entertainer),squad_extractive
+971,When was the Re-Invention World Tour kick off?,mid-2004,211454,33405,Madonna_(entertainer),squad_extractive
+972,HOw much did the tour earn?,around $120 million,211597,33427,Madonna_(entertainer),squad_extractive
+973,What was Madonna's documentary called?,I'm Going to Tell You a Secret,211659,33437,Madonna_(entertainer),squad_extractive
+974,When was Madonna inducted into the UK Hall of Fame?,November 2004,211694,33445,Madonna_(entertainer),squad_extractive
+975,When did Madonna perform at the Live 8 benefit concert in the UK?,July 2005.,212016,33503,Madonna_(entertainer),squad_extractive
+976,When was Confessions on a Dance Floor released?,November 2005,212098,33517,Madonna_(entertainer),squad_extractive
+977,Which pop group allowed Madonna to sing a cover of their song Gimme! Gimme! Gimme!,ABBA,212588,33603,Madonna_(entertainer),squad_extractive
+978,What was the name of the single that was Madonna's twelfth number one hit in the UK?,Sorry,212804,33640,Madonna_(entertainer),squad_extractive
+979,When did the Confessions Tour start?,May 2006,212930,33658,Madonna_(entertainer),squad_extractive
+980,How much did the Confessions Tour make?,over $193.7 million,212995,33670,Madonna_(entertainer),squad_extractive
+981,Why did the Russian Orthodox Church and Federation of Jewish Communities of Russian asked members to boycott the concert?,used religious symbols,213093,33685,Madonna_(entertainer),squad_extractive
+982,It was confirmed by IFPI that Madonna officially sold how many albums worldwide?,over 200 million,213462,33744,Madonna_(entertainer),squad_extractive
+983,What was the charity that Madonna was involved in when in Malawi?,Raising Malawi initiative,213561,33760,Madonna_(entertainer),squad_extractive
+984,When did Madonna adopt David Banda?,October 2006,213716,33786,Madonna_(entertainer),squad_extractive
+985,What was Banda suffering from when Madonna first met him?,pneumonia,214082,33844,Madonna_(entertainer),squad_extractive
+986,What was the name of Banda's biological father?,Yohane,214184,33858,Madonna_(entertainer),squad_extractive
+987,When was the adoption finalized?,May 2008,214478,33911,Madonna_(entertainer),squad_extractive
+988,What song did Madonna release for the Live Earth series of concerts?,Hey You,214516,33918,Madonna_(entertainer),squad_extractive
+989,What was the documentary Madonna produced and wrote about the Malawis?,I Am Because We Are,214838,33973,Madonna_(entertainer),squad_extractive
+990,What is the name of the first film Madonna directed?,Filth and Wisdom,215024,34004,Madonna_(entertainer),squad_extractive
+991,When was Hard Candy released?,April 2008,215780,34134,Madonna_(entertainer),squad_extractive
+992,Hard Candy debuted at number one in how many countries?,thirty seven,216031,34172,Madonna_(entertainer),squad_extractive
+993,Which single was released as the album's lead single?,4 Minutes,216299,34215,Madonna_(entertainer),squad_extractive
+994,4 minutes became Madonna's which number one single in the UK?,thirteenth,216641,34275,Madonna_(entertainer),squad_extractive
+995,What is the name of the first tour with Live Nation?,Sticky & Sweet Tour,216867,34312,Madonna_(entertainer),squad_extractive
+996,How much did Stick and Sweet Tour grossed?,"$280 million,",216946,34327,Madonna_(entertainer),squad_extractive
+997,What is the title of the book by Madonna's brother?,Life with My Sister Madonna,217260,34380,Madonna_(entertainer),squad_extractive
+998,When was the divorce finalized between Madonna and Ritchie?,December 2008,217721,34450,Madonna_(entertainer),squad_extractive
+999,When did the High Court of Malawi gave the right for Madonna to adopt her second son?,"June 12, 2009",217968,34488,Madonna_(entertainer),squad_extractive
+1000,When did Madonna appear in MTV for the tribute to Michael Jackson?,"September 13, 2009",218443,34568,Madonna_(entertainer),squad_extractive
+1001,When was Mercy adopted?,June 2009,218637,34598,Madonna_(entertainer),squad_extractive
+1002,Who initially protested the adoption?,Mercy's grandmother,218711,34612,Madonna_(entertainer),squad_extractive
+1003,Who insisted that Mercy should be adopted?,The men,218923,34652,Madonna_(entertainer),squad_extractive
+1004,Who stated that he could not support the adoption since he was alive??,Mercy's father,219030,34672,Madonna_(entertainer),squad_extractive
+1005,When did Madonna perform at the Hope for Haiti Now?,January 2010,219225,34705,Madonna_(entertainer),squad_extractive
+1006,What album did Madonna released in April 2010?,Sticky & Sweet Tour,219283,34715,Madonna_(entertainer),squad_extractive
+1007,Madonna granted which TV show the rights to her entire catalog of music?,Glee,219417,34738,Madonna_(entertainer),squad_extractive
+1008,What is the name of the episode of Glee that featured Madonna's songs?,"Glee: The Music, The Power of Madonna",219541,34757,Madonna_(entertainer),squad_extractive
+1009,What is the name of the clothing line Madonna released with her daughter?,Material Girl,219753,34792,Madonna_(entertainer),squad_extractive
+1010,Material Girl clothing line is released under which brand?,Macy's,219962,34825,Madonna_(entertainer),squad_extractive
+1011,What is the name of the fitness gyms that Madonna opened?,Hard Candy Fitness,220047,34839,Madonna_(entertainer),squad_extractive
+1012,When did Madonna released her second clothing line?,November 2011,220070,34843,Madonna_(entertainer),squad_extractive
+1013,What is the name of the second film that Madonna directed?,W.E.,220281,34876,Madonna_(entertainer),squad_extractive
+1014,How many viewers did the half-time show attract?,114 million viewers,220846,34966,Madonna_(entertainer),squad_extractive
+1015,Madonna signed a three album deal with which record company?,Interscope Records,220968,34987,Madonna_(entertainer),squad_extractive
+1016,When was MDNA released?,March 2012,221120,35012,Madonna_(entertainer),squad_extractive
+1017,When did MDNA Tour begin?,May 2012,221855,35130,Madonna_(entertainer),squad_extractive
+1018,Where did the MDNA Tour start?,"Tel Aviv, Israel",221867,35133,Madonna_(entertainer),squad_extractive
+1019,How much did the Tour grossed?,$305.2 million,222153,35177,Madonna_(entertainer),squad_extractive
+1020,Who named Madonna as the top-earning celebrity of the year?,Forbes,222470,35229,Madonna_(entertainer),squad_extractive
+1021,"By 2013, how many did Madonna's Raising Malawi organization built?",ten schools,222599,35249,Madonna_(entertainer),squad_extractive
+1022,When did Madonna visit Malawi's school?,April 2013,222707,35268,Madonna_(entertainer),squad_extractive
+1023,"Who criticized Madonna's charity efforts, stating that she exaggerated her contributions?",President of Malawi Joyce Banda,222719,35270,Madonna_(entertainer),squad_extractive
+1024,What was the name of the 17 minute film called?,secretprojectrevolution,223306,35359,Madonna_(entertainer),squad_extractive
+1025,Which company was selected to release the film?,The BitTorrent company,223331,35360,Madonna_(entertainer),squad_extractive
+1026,When was secretprojectrevolution released?,"September 24, 2013",223446,35381,Madonna_(entertainer),squad_extractive
+1027,What initiative did Madonna launched with her film?,Art for Freedom,223592,35406,Madonna_(entertainer),squad_extractive
+1028,How many submissions does the initiative have?,"over 3,000",223768,35436,Madonna_(entertainer),squad_extractive
+1029,What award ceremony did Madonna appeared in?,56th Annual Grammy Awards,224049,35480,Madonna_(entertainer),squad_extractive
+1030,What song did Madonna sing at the ceremony?,Open Your Heart,224104,35489,Madonna_(entertainer),squad_extractive
+1031,Which singer did she join on MTV Unplugged to sing?,Miley Cyrus,224314,35522,Madonna_(entertainer),squad_extractive
+1032,When did Madonna premiered her MDNA skincare line?,February 2014,224482,35551,Madonna_(entertainer),squad_extractive
+1033,Which city did Madonna contribute funds to help poverty?,Detroit,224607,35572,Madonna_(entertainer),squad_extractive
+1034,When did Madonna's album demo leaked online?,December 2014,225057,35647,Madonna_(entertainer),squad_extractive
+1035,What is Madonna's thirteenth album called?,Rebel Heart,225289,35687,Madonna_(entertainer),squad_extractive
+1036,When was Rebel Heart released?,"March 10, 2015",225318,35692,Madonna_(entertainer),squad_extractive
+1037,When did Madonna embark on the Rebel Heart Tour?,September 2015,225339,35696,Madonna_(entertainer),squad_extractive
+1038,How much did Rebel Heart Tour grossed?,$169.8 million,225633,35749,Madonna_(entertainer),squad_extractive
+1039,Who is the author of Contemporary Strategic Analysis?,Robert M. Grant,226276,35854,Madonna_(entertainer),squad_extractive
+1040,Who was Madonna's first producer?,Mark Kamins,227854,36098,Madonna_(entertainer),squad_extractive
+1041,Madonna was nominated to be inducted twice which year to the Songwriter Hall of Fame?,2014 and 2016,228966,36274,Madonna_(entertainer),squad_extractive
+1042,Which genre did Madonna started out in?,rock music,229148,36306,Madonna_(entertainer),squad_extractive
+1043,"When performing with Emmy, how many songs did Madonna produce?",12-14,229256,36322,Madonna_(entertainer),squad_extractive
+1044,Which 2 album show Madonna's artistic statement?,True Blue (1986) and Like a Prayer (1989),230332,36493,Madonna_(entertainer),squad_extractive
+1045,Which 2 albums explored the New Lack Swing?,Erotica (1992) and Bedtime Stories (1994),230851,36574,Madonna_(entertainer),squad_extractive
+1046,Madonna brought which type of music to mainstream with Ray of Light?,electronic music,231191,36628,Madonna_(entertainer),squad_extractive
+1047,What type of music did Madonna experimented with in Music?,folk and acoustic,231319,36645,Madonna_(entertainer),squad_extractive
+1048,Most of the songs in Music are what type of songs?,"simple love songs,",231466,36673,Madonna_(entertainer),squad_extractive
+1049,What type of songs are in Confessions of a Dance floor?,dance songs,231894,36739,Madonna_(entertainer),squad_extractive
+1050,What type of songs does Hard Candy have?,urban direction,232074,36768,Madonna_(entertainer),squad_extractive
+1051,MDNA focuses on which type of music?,electronic dance music,232192,36788,Madonna_(entertainer),squad_extractive
+1052,Madonna has which vocal range?,mezzo-soprano,232273,36801,Madonna_(entertainer),squad_extractive
+1053,What was the title of Madonna's Book?,Blonde Ambition,232479,36832,Madonna_(entertainer),squad_extractive
+1054,Who stated that Madonna's voice are key to her rock roots?,Tony Sclafani,232626,36852,Madonna_(entertainer),squad_extractive
+1055,When did Madonna take voice lessons?,filming of Evita,233108,36932,Madonna_(entertainer),squad_extractive
+1056,Which instruments can Madonna play?,drum and guitar,233527,37007,Madonna_(entertainer),squad_extractive
+1057,Who taught Madonna how to play the drum and guitar?,Dan Gilroy,233567,37013,Madonna_(entertainer),squad_extractive
+1058,How long did Madonna spent learning to play the violin?,three months,234133,37107,Madonna_(entertainer),squad_extractive
+1059,Who was the guitarist that Madonna learnt from to improve on her skills?,Monte Pittman,234411,37154,Madonna_(entertainer),squad_extractive
+1060,According to who was the defining moment of Madonna's childhood with her mother's death?,"Taraborrelli,",234704,37201,Madonna_(entertainer),squad_extractive
+1061,"Which psychiatrist said that when a parent dies when the child is young, it leaves a lasting impact?",Keith Ablow,234831,37219,Madonna_(entertainer),squad_extractive
+1062,Who believes that the rape Madonna experienced is the driving force in life?,Lucy O'Brien,235267,37294,Madonna_(entertainer),squad_extractive
+1063,Who felt deep sadness as the death of their mother fades away?,Madonna and her sisters,235764,37376,Madonna_(entertainer),squad_extractive
+1064,Who does Madonna's mum resemble?,poet Anne Sexton,235952,37409,Madonna_(entertainer),squad_extractive
+1065,Who is Madonna's favorite poet?,Sylvia Plath,236052,37424,Madonna_(entertainer),squad_extractive
+1066,Which song made a strong impression on Madonna?,These Boots Are Made for Walkin,237113,37617,Madonna_(entertainer),squad_extractive
+1067,Who sang the song these boots are made for walking?,Nancy Sinatra;,237150,37623,Madonna_(entertainer),squad_extractive
+1068,Name one of Madonna's major influence?,Karen Carpenter,237516,37681,Madonna_(entertainer),squad_extractive
+1069,What is Madonna's religious background?,Italian-Catholic,237728,37716,Madonna_(entertainer),squad_extractive
+1070,Like a Prayer reflects Madonna's relationship with who?,her parents,237782,37722,Madonna_(entertainer),squad_extractive
+1071,In which video did Madonna wear a rosary?,"La Isla Bonita""",238064,37775,Madonna_(entertainer),squad_extractive
+1072,In which video does it show Madonna being scolded by her boss in Italian?,Open Your Heart,238086,37779,Madonna_(entertainer),squad_extractive
+1073,She dedicated Papa Don't Preach to whom?,Pope John Paul II.,238242,37806,Madonna_(entertainer),squad_extractive
+1074,Name one actor that Madonna was inspired by?,Marilyn Monroe,238376,37828,Madonna_(entertainer),squad_extractive
+1075,Madonna's Material Girl recreated whose look?,Monroe's,238548,37856,Madonna_(entertainer),squad_extractive
+1076,The video Express Yourself was inspired by which silent film?,Metropolis,238864,37907,Madonna_(entertainer),squad_extractive
+1077,Who stated that Madonna was a bad actress to watch?,Stephanie Zacharek,239300,37975,Madonna_(entertainer),squad_extractive
+1078,Which one of Madonna's movie is a box office bomb?,Swept Away,239627,38026,Madonna_(entertainer),squad_extractive
+1079,Whose art influence Madonna?,Frida Kahlo,239871,38069,Madonna_(entertainer),squad_extractive
+1080,Which video featured art from Kahlo and Remedios Varo?,Bedtime Story,239913,38078,Madonna_(entertainer),squad_extractive
+1081,Madonna collects whose painting?,Tamara de Lempicka,240029,38096,Madonna_(entertainer),squad_extractive
+1082,Her video Hollywood was a homage to which photographer?,Guy Bourdin,240197,38125,Madonna_(entertainer),squad_extractive
+1083,Where did Madonna attend Catholic services in 2011?,Opus Dei center,241353,38311,Madonna_(entertainer),squad_extractive
+1084,Who are the Madonna Companion Biographers?,Allen Metz and Carol Benson,241484,38329,Madonna_(entertainer),squad_extractive
+1085,What influence did Madonna music video reflects?,American and Hispanic mixed street style,242504,38493,Madonna_(entertainer),squad_extractive
+1086,She transmit her avant garde style to which audience?,American audience,242660,38518,Madonna_(entertainer),squad_extractive
+1087,Which look of Madonna became a fashion trend?,Spanish look,243009,38568,Madonna_(entertainer),squad_extractive
+1088,What type of Spanish clothings were worn for the video La Ista Bonita?,boleros and layered skirts,243090,38584,Madonna_(entertainer),squad_extractive
+1089,Who noted that Madonna was reversing the gender role?,Academics,243203,38603,Madonna_(entertainer),squad_extractive
+1090,Who had new standards of showmanship?,Madonna and Janet Jackson,244372,38799,Madonna_(entertainer),squad_extractive
+1091,What came as an expense of live singing?,highly athletic dancing,244531,38821,Madonna_(entertainer),squad_extractive
+1092,What did Madonna use in her concerts?,hands-free radio-frequency headset microphones,245097,38912,Madonna_(entertainer),squad_extractive
+1093,What was the microphone coined as?,"""Madonna mic""",245356,38956,Madonna_(entertainer),squad_extractive
+1094,"Who wrote the book, Madonna and Me?",Laura Barcella,246778,39173,Madonna_(entertainer),squad_extractive
+1095,Who said that Madonna changed the world social history?,William Langley from The Daily Telegraph,247077,39223,Madonna_(entertainer),squad_extractive
+1096,Who said that Madonna is like post-moderm art?,Alan McGee from The Guardian,247260,39253,Madonna_(entertainer),squad_extractive
+1097,Who is the director of the curator of Rock and Roll Hall of Fame and Museum?,Howard Kramer,247787,39342,Madonna_(entertainer),squad_extractive
+1098,Who included Madonna as the most powerful woman of the century?,Time magazine,248435,39446,Madonna_(entertainer),squad_extractive
+1099,Who is the other woman who earned the title?,Aretha Franklin,248594,39475,Madonna_(entertainer),squad_extractive
+1100,Madonna used what to benefit her career?,sexual imagery,248732,39499,Madonna_(entertainer),squad_extractive
+1101,Who wrote that Madonna is an almost scared feminist icon?,Professor Sut Jhally,250027,39696,Madonna_(entertainer),squad_extractive
+1102,Madonna generated how much in sales in the first 10 years of her career?,$1.2 billion in,250304,39740,Madonna_(entertainer),squad_extractive
+1103,Who called Madonna a dynamic entrepreneur?,London Business School academics,250577,39782,Madonna_(entertainer),squad_extractive
+1104,"Who wrote that Madonna is opportunistic, manipulative and ruthless?",Morton,250912,39835,Madonna_(entertainer),squad_extractive
+1105,Madonna sold how many albums worldwide?,300 million records,251497,39926,Madonna_(entertainer),squad_extractive
+1106,How much did Madonna make in all her concerts together?,$1.31 billion,252233,40042,Madonna_(entertainer),squad_extractive
+1107,Did LaserDisks offer higher or lower quality sound and picture than VHS?,higher-quality,253443,40239,LaserDisc,squad_extractive
+1108,Why didn't LaserDisk gain popularity in North America?,high costs for the players and video titles themselves and the inability to record TV programming,253623,40266,LaserDisc,squad_extractive
+1109,With whom was LaserDisk a popular choice for it's picture and sound quality?,videophiles and film enthusiasts,254092,40345,LaserDisc,squad_extractive
+1110,Where was LaserDisc first available?,"Atlanta, Georgia",254195,40360,LaserDisc,squad_extractive
+1111,How many years after VHS was LaserDisk released?,two years,254235,40366,LaserDisc,squad_extractive
+1112,Under what name was LaserDisc originally marketed?,MCA DiscoVision,254418,40397,LaserDisc,squad_extractive
+1113,How did the first viewers refer to the media?,"""Video Long Play""",254716,40440,LaserDisc,squad_extractive
+1114,Who purchased the majority stake and re-marketed the product in 1980?,Pioneer Electronics,254736,40443,LaserDisc,squad_extractive
+1115,"Was Laserdisk officially or unofficially reffered to as ""Laser Videodisc""?",unofficially,254910,40470,LaserDisc,squad_extractive
+1116,Who were the scientists that worked on the early research for Laserdiscs?,"Richard Wilkinson, Ray Dakin and John Winslow",255174,40509,LaserDisc,squad_extractive
+1117,What company did the early Laserdisc researchers later found?,Optical Disc Corporation (now ODC Nimbus),255229,40516,LaserDisc,squad_extractive
+1118,Who chose LaserFisc for their Domesday Project in the mid-1980s?,British Broadcasting Corporation (BBC),255759,40601,LaserDisc,squad_extractive
+1119,What was the BBC Domesday Project?,a school-based project to commemorate 900 years since the original Domesday Book in England,255845,40613,LaserDisc,squad_extractive
+1120,How large was a standard LaserDisc?,30 cm (12 in) in diameter,256084,40652,LaserDisc,squad_extractive
+1121,What numbers are used in Binary information coding?,1s and 0s,256857,40783,LaserDisc,squad_extractive
+1122,What was the length capacity of the CAA55 format?,55 minutes 5 seconds,257332,40862,LaserDisc,squad_extractive
+1123,Why was Back to the Future released with analog sound?,due to the length of the title and the desire to keep the film on one disc,257516,40891,LaserDisc,squad_extractive
+1124,What was the maximum length of the CAA60 format?,60 minutes 5 seconds,257738,40934,LaserDisc,squad_extractive
+1125,How many works were released to the public with the CAA70 format?,There are not any known uses of this format on the consumer market,258153,41005,LaserDisc,squad_extractive
+1126,What was the difference between LaserDisc and LaserVision in the UK?,"""LaserVision"" is used to refer to discs with analog sound, while ""LaserDisc"" is used for those with digital audio",258641,41095,LaserDisc,squad_extractive
+1127,The Phantom Menace was one of the first home videos to use what sound format?,6.1 channel Dolby Digital EX Surround.,259086,41170,LaserDisc,squad_extractive
+1128,What sound formatting do DVDs use?,Dolby Digital audio in digital form,259150,41180,LaserDisc,squad_extractive
+1129,"Did all AV receivers carry the demodulator circuits necessary for LaserDiscs, or only high-end models?",higher-end,259797,41287,LaserDisc,squad_extractive
+1130,What competition caused LaserDisc sales to decline?,DVD's growing popularity,260006,41318,LaserDisc,squad_extractive
+1131,What did the Onkyo outboard demodulator covert the RF AC-2 signal to?,6-channel analog audio,260557,41404,LaserDisc,squad_extractive
+1132,Was sound quality from disc to disc and between players consistent or varied?,varied greatly,260758,41435,LaserDisc,squad_extractive
+1133,What result did adding CX Noise Reduction have on analog discs?,improved the signal-noise ratio of their audio,261516,41553,LaserDisc,squad_extractive
+1134,Which channel would not work in conjunction with AC-3 audio?,right analog audio channel,261748,41587,LaserDisc,squad_extractive
+1135,What audio playback options were available if an AC-3 output was not present?,digital Dolby Surround or stereo audio tracks,261915,41616,LaserDisc,squad_extractive
+1136,What happens to the right channel in a player that doesn't recognize AC-3?,garbage (static) output,262617,41735,LaserDisc,squad_extractive
+1137,How many 5.1 surround sound options exist in LaserDiscs?,Only one,262664,41742,LaserDisc,squad_extractive
+1138,Which has a longer playing time: PAL LaserDiscs or NTSC discs?,PAL LaserDiscs,263407,41866,LaserDisc,squad_extractive
+1139,Which two audio options are available on PAL LaserDiscs?,"two analog-only tracks on older PAL LDs, or two digital-only tracks on newer discs",263564,41892,LaserDisc,squad_extractive
+1140,When did Pioneer release the LD-700?,March 1984,264048,41975,LaserDisc,squad_extractive
+1141,What was the name of the first solid-state laser consumer LaserDisc player?,LD-700,264135,41988,LaserDisc,squad_extractive
+1142,"Besides a solid-state laser, what else was unique about the LD-700?",first LD player to load from the front and not the top,264159,41993,LaserDisc,squad_extractive
+1143,Which three names did MCA use for LaserDisc technology during its development?,"Optical Videodisc System, ""Reflective Optical Videodisc"" or ""Laser Optical Videodisc""",264707,42081,LaserDisc,squad_extractive
+1144,Consumer sales of MCA films began in 1978 with what movie?,Jaws,265436,42191,LaserDisc,squad_extractive
+1145,What did VLP stand for in English-speaking countries?,Video Long-Play,265609,42215,LaserDisc,squad_extractive
+1146,What was the first consumer VLP player?,Magnavox VH-8000,265657,42222,LaserDisc,squad_extractive
+1147,"Which group officially chose the name ""Laservision""?",The LaserVision Association,265990,42277,LaserDisc,squad_extractive
+1148,The Laservision Association was comprised of which companies?,"MCA, Universal-Pioneer, IBM, and Philips/Magnavox",266030,42283,LaserDisc,squad_extractive
+1149,Which company joined a 50/50 partnership with MCA in 1977?,Pioneer Electronics,266267,42315,LaserDisc,squad_extractive
+1150,What was the name of the first Universal-Pioneer player?,the VP-1000,266558,42357,LaserDisc,squad_extractive
+1151,Which singer did an ad for the LD-700 player in 1984?,Ray Charles,267085,42439,LaserDisc,squad_extractive
+1152,What other companies did MCA manufacture discs for?,"Paramount, Disney and Warner Bros",267392,42486,LaserDisc,squad_extractive
+1153,"Which film is only available with its original score in LD format , even today?",The Electric Horseman,268203,42613,LaserDisc,squad_extractive
+1154,What quirk is present in MCA's release of Howard the Duck?,only the start credits shown in widescreen before changing to 4:3 for the rest of the film,268490,42659,LaserDisc,squad_extractive
+1155,What is unique about the LaserDisc release of E.T.?,only format to include the cut scene of Harrison Ford playing the part of the school headmaster,268768,42706,LaserDisc,squad_extractive
+1156,How many horizontal TVL lines did LaserDisc have in comparison to VHS's 240?,425,269047,42754,LaserDisc,squad_extractive
+1157,Were Laserdiscs initially cheaper or more costly to produce than their VHS counterparts?,cheaper,269792,42879,LaserDisc,squad_extractive
+1158,How many parts does a VHS tape have that must be manufactured?,at least 14,270004,42913,LaserDisc,squad_extractive
+1159,How much did LaserDiscs cost to produce by the end of the 1980s?,$5.00 per two-sided disc,270339,42969,LaserDisc,squad_extractive
+1160,How much did VHS cost to produce by the 1990s?,as little as $1.00,270594,43008,LaserDisc,squad_extractive
+1161,Where do VHS tapes store their information?,magnetic coating,271182,43108,LaserDisc,squad_extractive
+1162,Why is physical contact with a VHS tape less desirable than an optical reading?,progressive wear with each use,271269,43123,LaserDisc,squad_extractive
+1163,What device seperated the black and white and color signals in LaserDiscs?,the receiver,271808,43208,LaserDisc,squad_extractive
+1164,How is data stored on DVDs?,digital blocks which make up each independent frame,271957,43234,LaserDisc,squad_extractive
+1165,In what areas are comb filters most likely to lose detail?,low-contrast details like skin tones,272343,43298,LaserDisc,squad_extractive
+1166,"Are comb filters exact, or is some data smudged?",comb filters almost inevitably smudge some detail,272387,43304,LaserDisc,squad_extractive
+1167,What is contrast banding?,subtle visible lines in gradient areas,272727,43357,LaserDisc,squad_extractive
+1168,What step of the DVD production process causes contrast banding?,MPEG-2 encoding process,272866,43378,LaserDisc,squad_extractive
+1169,How does LaserDisc operation vary from DVD?,the transport mechanism always obeys commands from the user,273484,43473,LaserDisc,squad_extractive
+1170,"What are ""User Protected Options"" on DVDs?",where content protection code instructs the player to refuse commands to skip a specific part,273688,43500,LaserDisc,squad_extractive
+1171,Where are User Protected Options commonly found on DVDs?,copyright warnings,273815,43520,LaserDisc,squad_extractive
+1172,What does the repair+skip feature on newer DVD players do?,filling in unreadable areas of the picture with blank space or a frozen frame of the last readable image and sound,274282,43594,LaserDisc,squad_extractive
+1173,"What features do LaserDiscs lack in, causing DVDs to appear sharper and clearer?",video signal-to-noise ratio and bandwidth,275306,43766,LaserDisc,squad_extractive
+1174,"What protection could not be applied to LaserDiscs, making them prone to piracy?",Macrovision's Copyguard protection,275579,43809,LaserDisc,squad_extractive
+1175,"What was the vertical blanking interval used for in LaserDiscs, preventing Macrovision signal to be implemented?",internal timing,275782,43839,LaserDisc,squad_extractive
+1176,Why wasn't there a need to redesign the LaserDisc format to prevent piracy?,relatively small market share,275972,43872,LaserDisc,squad_extractive
+1177,"What feature, unique to LaserDisc, made bonus content possible?",support for multiple audio tracks,276087,43888,LaserDisc,squad_extractive
+1178,LaserDisc was the first format to provide what type of releases to consumers?,"""Special Edition""",276227,43910,LaserDisc,squad_extractive
+1179,"What was the first ""Special Edition"" film to be released to home video?",the 1984 Criterion Collection edition of Citizen Kane,276255,43913,LaserDisc,squad_extractive
+1180,"What bonus features were available on the first home video ""Special Edition""?","interviews, commentary tracks, documentaries, still photographs",276495,43950,LaserDisc,squad_extractive
+1181,What must be reduced in order to allow LaserDisc playback time to increase?,line count,276798,43992,LaserDisc,squad_extractive
+1182,What was required of a LaserDisc to continue playback after 60 minutes?,a disc has to be flipped over in order to continue watching,276870,44003,LaserDisc,squad_extractive
+1183,Which LaserDisc player solves the disc switching dilemma?,Pioneer LD-W1,277395,44101,LaserDisc,squad_extractive
+1184,What video problems on a LaserDisc can be caused by dust or scratches?,"glitches, streaks, bursts of static, or momentary picture interruptions",278050,44204,LaserDisc,squad_extractive
+1185,Which format used in DVDs has built-in error correction?,digital MPEG-2,278140,44216,LaserDisc,squad_extractive
+1186,What problem can be caused by a player becoming out of alignment?,"""crosstalk""",278532,44282,LaserDisc,squad_extractive
+1187,"When does ""crosstalk"" occur?",when the laser optical pickup assembly within the player is out of alignment or because the disc is damaged or excessively warped,278565,44287,LaserDisc,squad_extractive
+1188,"How does ""crosstalk"" appear to the viewer?","swirling ""barber poles"" or rolling lines of static",279292,44407,LaserDisc,squad_extractive
+1189,Why does the CAV format prevent crosstalk?,the rotational speed never varies,279500,44438,LaserDisc,squad_extractive
+1190,"What happens during ""laser lock""?","the player reads the same two fields for a given frame over and over again, causing the picture to look frozen",279721,44475,LaserDisc,squad_extractive
+1191,Is LaserDisc quality consistent or inconsistent between player brands? ,inconsistency,279929,44512,LaserDisc,squad_extractive
+1192,What is LaserDisc playback quality dependent on?,hardware quality,280453,44587,LaserDisc,squad_extractive
+1193,What range of prices were high-end LaserDisc players in the 1990s?,"US$200 to well over $1,000",280826,44646,LaserDisc,squad_extractive
+1194,How cheaply could an older LaserDisc player be purchased in the 1990s?,$25,280950,44667,LaserDisc,squad_extractive
+1195,"What substandard product was used in LD manufacturing that caused ""laser rot""?",adhesive,281027,44678,LaserDisc,squad_extractive
+1196,"What was the internal name for ""laser rot"" within LD processing plants?","""color flash""",281403,44735,LaserDisc,squad_extractive
+1197,What problems could occur with laser rot?,black spots that looked like mold or burned plastic which cause the disc to skip and the movie to exhibit excessive speckling noise,281498,44749,LaserDisc,squad_extractive
+1198,Why didn't LaserDiscs become popular in North America?,high cost of the players and discs,281799,44801,LaserDisc,squad_extractive
+1199,"By 1990, how many American homes were estimated to use LD?",nearly one million,282210,44870,LaserDisc,squad_extractive
+1200,Why were LaserDiscs more popular in Japan?,prices were kept low to ensure adoption,282331,44892,LaserDisc,squad_extractive
+1201,How much did a LD cost in Hong Kong in the 1990s?,USD100,283363,45053,LaserDisc,squad_extractive
+1202,Broadcast in Hong Kong used which standard formatting?,PAL standard,283606,45094,LaserDisc,squad_extractive
+1203,By what year had DVD taken over the LaserDisc market?,late 1990s,284044,45169,LaserDisc,squad_extractive
+1204,Which collector group highly values LaserDisc for their rareness?,movie enthusiasts,284099,45179,LaserDisc,squad_extractive
+1205,"In what decade did Philips produce a ""professional"" LD model for computer?",early 1980s,284518,45254,LaserDisc,squad_extractive
+1206,Who created LD Jukeboxes in 1985?,Jasmine Multimedia,284639,45271,LaserDisc,squad_extractive
+1207,Which musical artists were featured on LD Jukeboxes in 1985?,"Michael Jackson, Duran Duran, and Cyndi Lauper",284715,45281,LaserDisc,squad_extractive
+1208,Which production company engineered the EditDroid machines in the 1980s?,Lucasfilm,285038,45331,LaserDisc,squad_extractive
+1209,Were EditDroid discs single or multi-sided?,single-sided,286277,45528,LaserDisc,squad_extractive
+1210,Which equipment was used for the Doomsday Project?,a SCSI-equipped LaserDisc player attached to a BBC Master computer,286301,45531,LaserDisc,squad_extractive
+1211,What does LV-ROM stand for?,LaserVision Read Only Memory,286445,45556,LaserDisc,squad_extractive
+1212,Which of Apple's programming languages allowed users to ceatively manipulate LaserDiscs?,HyperCard,287471,45731,LaserDisc,squad_extractive
+1213,What did LaserStacks software enable Mac users to do?,play specific content from the disc,287665,45760,LaserDisc,squad_extractive
+1214,"Where were ""stacks"" created with the LaserStack software used?",in education,287800,45778,LaserDisc,squad_extractive
+1215,Which commercial company was LaserStack's most successful distributor?,Voyager,287987,45804,LaserDisc,squad_extractive
+1216,A combination computer/LD player was comissioned by what government entity?,the U.S. Military,288072,45815,LaserDisc,squad_extractive
+1217,How much did Matrox's computer/LD combo weigh?,43 lb (20 kg),288291,45846,LaserDisc,squad_extractive
+1218,How could Matrox's computer unconventionally be controlled?,removing the ribbon cable and connecting a serial cable directly from the computer's serial port to the port on the LaserDisc player,288706,45920,LaserDisc,squad_extractive
+1219,What quality made LDs a consideration for videogames in the 1980s and 1990s?,instant-access capability,288854,45944,LaserDisc,squad_extractive
+1220,What was the first game to use LaserDiscs?,Sega's Astron Belt,289070,45978,LaserDisc,squad_extractive
+1221,How many years did it take Blu-ray and HD-DVD players to duplicate MUSE technology?,almost 15 years,289531,46044,LaserDisc,squad_extractive
+1222,With what operating ratio would MUSE Discs operate?,5:3,289866,46096,LaserDisc,squad_extractive
+1223,What benefits did the MUSE narrow wavelength red laser have?,"capable of reading through disc defects such as scratches and even mild disc rot that would cause most other players to stop, stutter or drop-out",290244,46155,LaserDisc,squad_extractive
+1224,"In addition to scratches and rot, what other common LaserDisc issue was to be eliminated by MUSE discs?",Crosstalk,290391,46180,LaserDisc,squad_extractive
+1225,What was the price for early HDTVs?,"US$10,000",290859,46257,LaserDisc,squad_extractive
+1226,What were some movies that were released on MUSE LaserDiscs?,"Terminator 2: Judgment Day, Lawrence of Arabia, A League of Their Own, Bugsy, Close Encounters of the Third Kind, Bram Stoker's Dracula and Chaplin",291063,46289,LaserDisc,squad_extractive
+1227,"What were ""Squeeze LDs""?",enhanced 16:9-ratio widescreen LaserDiscs,291528,46363,LaserDisc,squad_extractive
+1228,With what aspect ratio did Squeeze LDs operate?,16:9-ratio widescreen,291537,46364,LaserDisc,squad_extractive
+1229,What percent vertical resolution increase did Squeeze LDs feature over regular widescreen LDs?,33%,291828,46410,LaserDisc,squad_extractive
+1230,"Could the 16:9 aspect ratio be easily resized by a normal LD player, or was the image significantly distorted?",distorted,292202,46475,LaserDisc,squad_extractive
+1231,Why did Squeeze LDs have a very limited market?,very few people owned 16:9 displays,292219,46477,LaserDisc,squad_extractive
+1232,What Warner Brothers films were available in 16:9 aspect ratio Squeeze LDs?,"Unforgiven, Grumpy Old Men, The Fugitive, and Free Willy",292542,46528,LaserDisc,squad_extractive
+1233,What films were available for Japanese market Squeeze LDs?,"Basic Instinct, Stargate, Terminator 2: Judgment Day, Showgirls, Cutthroat Island, and Cliffhanger",292743,46560,LaserDisc,squad_extractive
+1234,Which movie was released twice on Squeeze LD?,Terminator 2,292843,46572,LaserDisc,squad_extractive
+1235,What improvement was added to Terminator 2's second Squeeze LD release?,THX certified,292915,46584,LaserDisc,squad_extractive
+1236,What does the acronym RLV stand for?,Recordable LaserVision disc,293131,46616,LaserDisc,squad_extractive
+1237,Which company originally developed and marketed the RLV?,"Optical Disc Corporation (ODC, now ODC Nimbus)",293203,46627,LaserDisc,squad_extractive
+1238,In what year did ODC develop the Recordable LaserVision Disc?,1984.,293253,46635,LaserDisc,squad_extractive
+1239,What is the difference in appearance between an RLV disc and a regular LD?,reflective purple-violet (or blue with some RLV discs) color,293584,46688,LaserDisc,squad_extractive
+1240,Why do RLV discs have a blue or purple reflective color?,"to make it recordable, as opposed to the silver mirror appearance of regular LDs",293713,46709,LaserDisc,squad_extractive
+1241,"What color were regular LaserDiscs, in contrast to RLVs blueish purple hues?",silver mirror,293754,46717,LaserDisc,squad_extractive
+1242,For what purpose were RLVs popular?,making short-run quantities of LaserDiscs for specialized applications such as interactive kiosks and flight simulators,293886,46740,LaserDisc,squad_extractive
+1243,"In contrast to large LD disks, what is the size of a standard CD?",12 cm (4.7 in),294024,46758,LaserDisc,squad_extractive
+1244,"What were CD size ""single""-style discs called that were compatible with LaserDisc players?","CD Video (CD-V) discs, and Video Single Discs (VSD)",294146,46778,LaserDisc,squad_extractive
+1245,How much video content could be stored on a CD-V disk?,up to five minutes of analog LaserDisc-type video content,294214,46790,LaserDisc,squad_extractive
+1246,Which artist released a music video and three audio tracks on CD-V in 1989?,David Bowie,294382,46820,LaserDisc,squad_extractive
+1247,Were VSDs or CD-Vs all digital and also playable on DVD players?,VSDs,294933,46910,LaserDisc,squad_extractive
+1248,What were VSDs lacking that CD-Vs included?,audio CD tracks,294978,46919,LaserDisc,squad_extractive
+1249,In what areas of the world were VSDs popular?,only in Japan and other parts of Asia,295095,46939,LaserDisc,squad_extractive
+1250,The various sizes as well as how panels are arranged help with what aspect of comics?,narrative pacing,295569,47014,Comics,squad_extractive
+1251,Which form of comics entails the use of photographic images?,fumetti,295682,47030,Comics,squad_extractive
+1252,What type of comic has taken off in the 21st century?,online webcomics,295954,47072,Comics,squad_extractive
+1253,When did Rodolphe Töpffer create cartoons?,1830s,296395,47139,Comics,squad_extractive
+1254,Which superhero appeared in comics in 1938?,Superman,296722,47193,Comics,squad_extractive
+1255,When is the term comics considered singular rather than plural?,when it refers to the medium,297278,47288,Comics,squad_extractive
+1256,Some experts believe comics is a combination of what two things?,images and text,297887,47386,Comics,squad_extractive
+1257,The historical aspect of cartooning can be applied to mass reproduction or what?,recurring characters,298019,47407,Comics,squad_extractive
+1258,Who is best known for being the first comics creator in Europe?,Rodolphe Töpffer,298316,47446,Comics,squad_extractive
+1259,Who is considered to be the first comic creator in America?,Richard F. Outcault,298403,47462,Comics,squad_extractive
+1260,When did Outcault's The Yellow Kid appear in newspapers?,1890s,298425,47465,Comics,squad_extractive
+1261,What style of comics did Japan have a long history with prior to World War II?,satirical,298561,47486,Comics,squad_extractive
+1262,"In France, what did historians find that they consider a precedent for comics?",Lascaux cave paintings,299182,47584,Comics,squad_extractive
+1263,"In Egypt, historians consider what to be a precedent for comics?",hieroglyphs,299288,47600,Comics,squad_extractive
+1264,"In Rome, what do historians consider to be a precedent for comics?",Trajan's Column,299301,47601,Comics,squad_extractive
+1265,What Michelangelo work do historians consider to be a precedent for comics?,The Last Judgment in the Sistine Chapel,299459,47623,Comics,squad_extractive
+1266,What was the first illustrated humor periodical in Britain during the 19th century?,The Glasgow Looking Glass,299689,47653,Comics,squad_extractive
+1267,When did The Glasgow Looking Glass begin?,1825,299718,47658,Comics,squad_extractive
+1268,"In Britain, what was the most liked illustrated humor periodical?",Punch,299745,47663,Comics,squad_extractive
+1269,Which comic character was the first to appear in a weekly magazine?,Ally Sloper,299898,47685,Comics,squad_extractive
+1270,When did Ally Sloper first appear?,1884,300024,47706,Comics,squad_extractive
+1271,Which outlet did comic supplements find success in?,New York World,300158,47727,Comics,squad_extractive
+1272,Which strip had a good deal of success as a comic strip?,Outcault's The Yellow Kid,300219,47737,Comics,squad_extractive
+1273,When did Mutt and Jeff appear?,1907,300590,47791,Comics,squad_extractive
+1274,What comic strip did Bud Fisher have success with?,Mutt and Jeff,300611,47795,Comics,squad_extractive
+1275,Which comic book had success with its first superhero in 1938?,Action Comics,300968,47854,Comics,squad_extractive
+1276,Which genre of comic books had parents concerned?,crime and horror,301395,47922,Comics,squad_extractive
+1277,Which group was created after a Senate hearing on comic books content?,Comics Code Authority,301556,47947,Comics,squad_extractive
+1278,How were comics published when serialization became less common?,as albums,302307,48060,Comics,squad_extractive
+1279,Which small publisher published in formats that were not traditional?,L'Association,302345,48066,Comics,squad_extractive
+1280,Comics continue to thrive regardless of the decrease in what market?,print market,302629,48104,Comics,squad_extractive
+1281,What picture books from the 17th century show manga origins?,toba-e and kibyōshi picture books,302829,48130,Comics,squad_extractive
+1282,What is ukiyo-e an example of?,woodblock prints,302868,48136,Comics,squad_extractive
+1283,Who introduced satirical strips to Japan?,Western expatriates,303073,48165,Comics,squad_extractive
+1284,When did comic supplements start showing up in Japan?,1890s,303267,48195,Comics,squad_extractive
+1285,When did Jiji Manga debut?,1900,303383,48212,Comics,squad_extractive
+1286,Who started the first Japanese comic strip in modern times?,Rakuten Kitazawa,303524,48239,Comics,squad_extractive
+1287,What is considered the start of the modern comics in Japan?,after World War II,303762,48275,Comics,squad_extractive
+1288,What comic strip was created by Osamu Tezuka?,Sazae-san,303881,48296,Comics,squad_extractive
+1289,Where do comics usually appear?,newspapers,304451,48382,Comics,squad_extractive
+1290,How often are European serialized comics in magazines?,monthly or weekly,304955,48456,Comics,squad_extractive
+1291,How often do serialized comics typically appear in Japanese magazines?,weekly,304966,48457,Comics,squad_extractive
+1292,How long is the typical Japanese comic magazine?,hundreds of pages,305075,48473,Comics,squad_extractive
+1293,What are bounds volumes of comics called in America?,graphic novels,305300,48504,Comics,squad_extractive
+1294,What term can mean a non-fiction piece of a collection of short pieces?,graphic novels,305300,48504,Comics,squad_extractive
+1295,When did gag single-panel illustrations become known as cartoons?,1843,306076,48616,Comics,squad_extractive
+1296,In which publication was cartoon first used to describe gag single-panel illustrations?,Punch,306112,48622,Comics,squad_extractive
+1297,What did comics have in the United States because of cultural roots?,lowbrow reputation,306147,48630,Comics,squad_extractive
+1298,Who thought pop culture was a risk?,cultural elites,306207,48639,Comics,squad_extractive
+1299,"Who helped ""graphic novel"" get public attention?",Will Eisner,306614,48699,Comics,squad_extractive
+1300,"The popularity of the Watchmen, The Dark Knight Returns and what other comic helped popularize ""graphic novel"" as a term?",Maus,306766,48725,Comics,squad_extractive
+1301,"In addition to printed graphic novels in stores, what became popular online?",webcomics,306925,48749,Comics,squad_extractive
+1302,Who started producing comic strips and theories about them in 1827?,Rodolphe Töpffer,306973,48755,Comics,squad_extractive
+1303,What 1925 cartoon made speech bubbles popular?,Zig et Puce,307162,48783,Comics,squad_extractive
+1304,What comics began to dominate in Europe?,Franco-Belgian,307253,48799,Comics,squad_extractive
+1305,"When was ""The Adventures of Tintin"" serialized?",1929,307423,48823,Comics,squad_extractive
+1306,What does bandes dessinées mean?,drawn strips,307936,48907,Comics,squad_extractive
+1307,Comics for adults began to be called what?,Ninth Art,308072,48929,Comics,squad_extractive
+1308,What year did Pilote begin?,1959,308251,48957,Comics,squad_extractive
+1309,What became a best-seller comic in the French language?,Adventures of Asterix,308331,48970,Comics,squad_extractive
+1310,Pilote cartoonists were upset with censorship and what?,editorial interference,308611,49011,Comics,squad_extractive
+1311,Métal hurlant was of what genre?,science fiction,308816,49042,Comics,squad_extractive
+1312,What format did adult comics begin to be published in?,prestige,308917,49057,Comics,squad_extractive
+1313,Which historical overview did Seiki Hosokibara create?,Nihon Manga-Shi,309284,49112,Comics,squad_extractive
+1314,When did Hosokibara create Nihon Manga-Shi?,1924,309306,49115,Comics,squad_extractive
+1315,What was created in 2001 to give students comic scholarships?,Japan Society for Studies in Cartoon and Comics,310027,49224,Comics,squad_extractive
+1316,Who helped the rest of the world use the word manga outside of Japan's borders?,Frederik L. Schodt,310157,49244,Comics,squad_extractive
+1317,What publication is Schodt responsible for?,Manga! Manga! The World of Japanese Comics,310178,49247,Comics,squad_extractive
+1318,Who put together a history of American comics in 1947?,Coulton Waugh,310341,49275,Comics,squad_extractive
+1319,What was the name of Waugh's work?,The Comics,310421,49286,Comics,squad_extractive
+1320,What book did Will Eisner create in 1985?,Comics and Sequential Art,310454,49291,Comics,squad_extractive
+1321,Who created a book about comics from a philosophical point of view?,David Carrier,310600,49313,Comics,squad_extractive
+1322,What does bandes dessinées mean?,drawn strip,312010,49519,Comics,squad_extractive
+1323,What is the definitive factor of bandes dessinées?,drawn images,312056,49524,Comics,squad_extractive
+1324,What comics are on the Internet?,Webcomics,312247,49555,Comics,squad_extractive
+1325,"With webcomics, readers have access to what?",archived installments,312379,49577,Comics,squad_extractive
+1326,"Not held back by size limits, webcomics are said to have a what?",infinite canvas,312431,49585,Comics,squad_extractive
+1327,Storyboards are used a lot by what?,Film studios,312574,49607,Comics,squad_extractive
+1328,Storyboards are not considered what?,an end product,312711,49628,Comics,squad_extractive
+1329,Storyboards and what are thought to be comics by some?,Wordless novels,312761,49638,Comics,squad_extractive
+1330,A book with pictures with no captions that tell a story are called what?,Wordless novels,312761,49638,Comics,squad_extractive
+1331,What has not been reached as far as defining comics is concerned?,consensus,312914,49662,Comics,squad_extractive
+1332,"R. C. Harvey, Will Eisner and others are considered to be comic what?",Theorists,313063,49684,Comics,squad_extractive
+1333,What are there prominent examples of in comic history?,pantomime comics,313247,49713,Comics,squad_extractive
+1334,Who used a semiotics method to study comics in the 1970s?,Pierre Fresnault-Deruelle,313829,49800,Comics,squad_extractive
+1335,"Who introduced the term ""multiframe""?",Henri Vanlier,314052,49830,Comics,squad_extractive
+1336,Who used cognitive science to learn how people understand comics?,Neil Cohn,314725,49933,Comics,squad_extractive
+1337,What Russian word is used for comics?,komiks,315330,50019,Comics,squad_extractive
+1338,What Chinese word was derived from the Japanese word manga?,manhua,315386,50027,Comics,squad_extractive
+1339,What Korean word was derived from the Japanese word for manga?,manhwa,315408,50031,Comics,squad_extractive
+1340,Comic is used for what other kind of work other than humorous works?,non-humorous,315669,50072,Comics,squad_extractive
+1341,"Though one person typically creates the comic, there are usually a number of what involved in actually designing it?",specialists,316176,50155,Comics,squad_extractive
+1342,What is a person called who does the initial pencil work for the artwork?,penciller,316422,50195,Comics,squad_extractive
+1343,What does an inker do?,finishes the artwork in ink,316483,50206,Comics,squad_extractive
+1344,What are the individual images with action called in comics?,Panels,316585,50223,Comics,squad_extractive
+1345,Narrative is placed into panels using what?,encapsulation,316754,50251,Comics,squad_extractive
+1346,Who puts the panels together using closure?,The reader,316769,50252,Comics,squad_extractive
+1347,When a comic panel has events that are not at the same time the panel is considered to be what?,asynchronous,317068,50302,Comics,squad_extractive
+1348,What association with comics is strong?,Speech balloons,317260,50330,Comics,squad_extractive
+1349,What type of words are used to do sound effects in comics?,onomatopoeia,317702,50398,Comics,squad_extractive
+1350,What method is mostly used in making comics?,Cartooning,317729,50400,Comics,squad_extractive
+1351,What type of ink is often used in making comics?,India ink,317818,50412,Comics,squad_extractive
+1352,Mixed media and what else are becoming popular for making comics?,digital technology,317875,50423,Comics,squad_extractive
+1353,Motion lines and what are often used in comics?,abstract symbols,317961,50435,Comics,squad_extractive

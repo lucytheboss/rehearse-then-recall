@@ -1,0 +1,127 @@
+{
+  "genre": "news",
+  "n_corpora": 20,
+  "disjoint_from": "data/processed/news_eval/news_eval_corpus.txt",
+  "corpora": [
+    {
+      "corpus": "corpus_00",
+      "n_articles": 112,
+      "words": 50345,
+      "n_questions": 731
+    },
+    {
+      "corpus": "corpus_01",
+      "n_articles": 115,
+      "words": 50665,
+      "n_questions": 707
+    },
+    {
+      "corpus": "corpus_02",
+      "n_articles": 110,
+      "words": 50704,
+      "n_questions": 712
+    },
+    {
+      "corpus": "corpus_03",
+      "n_articles": 112,
+      "words": 50467,
+      "n_questions": 693
+    },
+    {
+      "corpus": "corpus_04",
+      "n_articles": 112,
+      "words": 50465,
+      "n_questions": 699
+    },
+    {
+      "corpus": "corpus_05",
+      "n_articles": 108,
+      "words": 50319,
+      "n_questions": 719
+    },
+    {
+      "corpus": "corpus_06",
+      "n_articles": 107,
+      "words": 50248,
+      "n_questions": 711
+    },
+    {
+      "corpus": "corpus_07",
+      "n_articles": 109,
+      "words": 50689,
+      "n_questions": 708
+    },
+    {
+      "corpus": "corpus_08",
+      "n_articles": 108,
+      "words": 50291,
+      "n_questions": 706
+    },
+    {
+      "corpus": "corpus_09",
+      "n_articles": 112,
+      "words": 50182,
+      "n_questions": 704
+    },
+    {
+      "corpus": "corpus_10",
+      "n_articles": 110,
+      "words": 50576,
+      "n_questions": 693
+    },
+    {
+      "corpus": "corpus_11",
+      "n_articles": 111,
+      "words": 50158,
+      "n_questions": 693
+    },
+    {
+      "corpus": "corpus_12",
+      "n_articles": 111,
+      "words": 50243,
+      "n_questions": 700
+    },
+    {
+      "corpus": "corpus_13",
+      "n_articles": 108,
+      "words": 50445,
+      "n_questions": 699
+    },
+    {
+      "corpus": "corpus_14",
+      "n_articles": 111,
+      "words": 50154,
+      "n_questions": 685
+    },
+    {
+      "corpus": "corpus_15",
+      "n_articles": 108,
+      "words": 50170,
+      "n_questions": 691
+    },
+    {
+      "corpus": "corpus_16",
+      "n_articles": 107,
+      "words": 50663,
+      "n_questions": 720
+    },
+    {
+      "corpus": "corpus_17",
+      "n_articles": 106,
+      "words": 50420,
+      "n_questions": 724
+    },
+    {
+      "corpus": "corpus_18",
+      "n_articles": 113,
+      "words": 50131,
+      "n_questions": 691
+    },
+    {
+      "corpus": "corpus_19",
+      "n_articles": 111,
+      "words": 50630,
+      "n_questions": 712
+    }
+  ]
+}

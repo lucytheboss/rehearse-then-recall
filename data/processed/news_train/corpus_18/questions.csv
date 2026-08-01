@@ -1,0 +1,692 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is Somalia facing according to the ICRC?,life-threatening food and water shortages,27,6,newsqa_extractive
+2,What is the ICRC?,International Committee of the Red Cross,114,18,newsqa_extractive
+3,What are leaving crops as dry as the landscape?,"winds ripping though the country,",767,118,newsqa_extractive
+4,What has been exacerbating the situation?,continual armed conflicts,981,151,newsqa_extractive
+5,What tension has contributed to the problem in Somalia?,continual armed conflicts,981,151,newsqa_extractive
+6,What parts of Somalia have experienced a lot of armed conflicts?,central and south,1010,155,newsqa_extractive
+7,What has exacerbated the situation in Somalia?,high inflation on food and fuel,1712,268,newsqa_extractive
+8,Inflation on what products has worsened the situation?,food and fuel,1730,271,newsqa_extractive
+9,What items in Somalia are affected by inflation the most?,food and fuel,1730,271,newsqa_extractive
+10,Who came out of hiding?,Anwar Ibrahim,2257,351,newsqa_extractive
+11,Who says he can prove government members faked evidence?,Anwar Ibrahim,2257,351,newsqa_extractive
+12,Who came out of hiding Monday?,Anwar Ibrahim,2257,351,newsqa_extractive
+13,What can he help prove?,senior members of the government faked evidence for sodomy charges against him.,2344,366,newsqa_extractive
+14,What did Anwar say?,he has proof sodomy charges against him were fabricated.,2474,384,newsqa_extractive
+15,What did Ibrahim say?,"""I have new evidence about the fabrication of evidence against me in 1998,""",2534,393,newsqa_extractive
+16,What was he charged with?,corruption and sodomy.,2790,435,newsqa_extractive
+17,Who claims German army chief knew civilians could be killed in airstrike?,"Gen. Wolfgang Schneiderhan,",3954,617,newsqa_extractive
+18,who asked to be relieved of his duties?,"Gen. Wolfgang Schneiderhan,",3954,617,newsqa_extractive
+19,Who asks to be relieved of his duties?,"Gen. Wolfgang Schneiderhan,",3954,617,newsqa_extractive
+20,when was the airstrike?,Sept. 4,4160,647,newsqa_extractive
+21,How many are killed?,90 people.,4234,660,newsqa_extractive
+22,What does Bild claim?,German Colonel Georg Klein was not able to rule out the possibility of civilian victims before he ordered the strike.,4884,762,newsqa_extractive
+23,What was damaged by the cyclone?,The Pacific Adventurer,5803,907,newsqa_extractive
+24,What is the name of the damaged ship?,The Pacific Adventurer,5803,907,newsqa_extractive
+25,What was the name of the cyclone?,Hamish,5872,916,newsqa_extractive
+26,Who has custody of the ship?,Australia's Maritime Safety Authority,6611,1038,newsqa_extractive
+27,who detained the ship,Australia's Maritime Safety Authority,6611,1038,newsqa_extractive
+28,In what country is the ship now?,Australia's,6611,1038,newsqa_extractive
+29,who makes third trip to North Korea?,The Rev. Franklin Graham,6865,1075,newsqa_extractive
+30,what did the news agency say?,Rev. Franklin Graham has arrived in North Korea bearing a gift for North Korean leader,6869,1076,newsqa_extractive
+31,who made third trip to north korea?,Franklin Graham,6874,1077,newsqa_extractive
+32,What did Graham do?,bearing a gift for North Korean leader,6917,1084,newsqa_extractive
+33,Who is also set to travel to china?,Rev. Franklin Graham,7031,1102,newsqa_extractive
+34,who is Franklin Graham's father?,Rev. Billy,7311,1146,newsqa_extractive
+35,what does Graham aim for?,"to help improve relations and to have a better understanding with each other,""",7667,1200,newsqa_extractive
+36,What is Graham hoping for?,better relations between the United States and North Korea.,8052,1268,newsqa_extractive
+37,What happened to Japan's gdp in 2008?,falling 12.7 percent in the fourth quarter,8912,1410,newsqa_extractive
+38,how much did japan's gdp fall?,12.7 percent,8920,1411,newsqa_extractive
+39,What caused Japanes layoffs?,The global economic crisis,9098,1441,newsqa_extractive
+40,what has a slump in exports caused,tens of thousands of layoffs,9236,1464,newsqa_extractive
+41,what has a slump in exports led to?,layoffs across Japan.,9257,1468,newsqa_extractive
+42,What was the number of convicts hanged?,Twenty-nine people,10020,1590,newsqa_extractive
+43,What number of  convicts were hanged?,Twenty-nine,10020,1590,newsqa_extractive
+44,Who was hanged?,"Twenty-nine people convicted of various crimes,",10020,1590,newsqa_extractive
+45,What were they guilty of?,"convicted of various crimes, ranging from murder to being a",10039,1592,newsqa_extractive
+46,were the convicts hanged?,"in Iran,",10140,1608,newsqa_extractive
+47,Which state TV reported the hangings?,"Iran,",10143,1609,newsqa_extractive
+48,what did the judiciary say,"all 30 were convicted of various crimes,",10477,1664,newsqa_extractive
+49,What were the convicts found guilty of?,"various crimes, which",10502,1669,newsqa_extractive
+50,What are hangings used for?,"should serve as a warning to those who are contemplating committing such crimes,",11253,1786,newsqa_extractive
+51,How many were killed?,65,12463,1970,newsqa_extractive
+52,Where did it take place?,"northeastern Nigeria,",12481,1974,newsqa_extractive
+53,"Which official says ""It is a very bad scene""?",Ibrahim Bulama,12674,2005,newsqa_extractive
+54,"Who said ""it was a very bad scene""?",Ibrahim Bulama,12674,2005,newsqa_extractive
+55,Who did gunmen attack first?,the police headquarters and the anti-terror office,12799,2025,newsqa_extractive
+56,What did the gunmen attack after the police officers?,"churches and mosques,",12867,2035,newsqa_extractive
+57,Where was the book shop that was attacked?,"Potiskum,",12951,2048,newsqa_extractive
+58,Where was the book shop that the gunmen attacked?,"near the police station,",13017,2059,newsqa_extractive
+59,What is the Federal Aviation Adminstration looking into?,"Last week's ""balloon boy"" incident",14114,2227,newsqa_extractive
+60,who is facing charges,"Richard and Mayumi Heene,",14353,2262,newsqa_extractive
+61,What are the balloon owners facing?,"a number of local charges,",14479,2284,newsqa_extractive
+62,What are balloon's owner facing?,"number of local charges,",14481,2285,newsqa_extractive
+63,What did the lawyer say?,the sheriff was overreaching and that the family deserves the presumption of innocence.,14889,2349,newsqa_extractive
+64,What does the Heene family deserve?,the presumption of innocence.,14947,2358,newsqa_extractive
+65,What will Federal Aviation Administration do?,"""investigating the circumstances""",15104,2381,newsqa_extractive
+66,who might have called the faa,Richard Heene,15371,2423,newsqa_extractive
+67,Who heard the passenger's screams?,A rescue worker,16080,2542,newsqa_extractive
+68,who heard a passenger's screams?,A rescue worker,16080,2542,newsqa_extractive
+69,What did the workers hear?,screams of a passenger,16111,2548,newsqa_extractive
+70,Who was taken to the hospital by villagers?,Ummerfarook Mohammed,17170,2718,newsqa_extractive
+71,To whom does the man credit his survival?,God's grace.,17725,2814,newsqa_extractive
+72,What was the ship involved in?,anti-piracy operation,18053,2870,newsqa_extractive
+73,Where was the french ship?,"about 250 nautical miles (463 kilometers) off Somalia's coast,",18386,2924,newsqa_extractive
+74,Where was it operating?,"about 250 nautical miles (463 kilometers) off Somalia's coast,",18386,2924,newsqa_extractive
+75,What carried supplies to forces?,The BCR Somme,18667,2969,newsqa_extractive
+76,what caused her death?,"bird flu,",19767,3147,newsqa_extractive
+77,When did the woman become ill,January 5,20018,3189,newsqa_extractive
+78,Who has bird flu?,a 2-year-old girl in northern China,20342,3243,newsqa_extractive
+79,who else contracted this,a 19-year-old Beijing woman,20710,3308,newsqa_extractive
+80,who sent the devices,"Islamic Jihad, the Fatah Al Aqsa Martyrs Brigade and the Nasser Salah A din Brigades",21926,3506,newsqa_extractive
+81,where was issue a leaflet by islamic groups?,Gaza,22031,3525,newsqa_extractive
+82,what israeli air force attacked?,"""two Hamas terrorist targets""",22338,3573,newsqa_extractive
+83,who was attacked,"""two Hamas terrorist targets""",22338,3573,newsqa_extractive
+84,What answer gave the Israeli army?,"""One of the targets was a terror tunnel, used for the infiltration of terrorists into Israel, while the other was used for smuggling of weapons. Direct hits were identified,""",22391,3580,newsqa_extractive
+85,who died last week in dubai?,"Mahmoud al-Mabhouh,",22722,3633,newsqa_extractive
+86,where is juarez,U.S.-Mexican border,23188,3698,newsqa_extractive
+87,what does mayor say,"city of Juarez on Friday to quell a wave of drug-related violence blamed for 200 deaths since January,",23208,3700,newsqa_extractive
+88,what is the mission off troops,to quell a wave of drug-related violence,23233,3705,newsqa_extractive
+89,What is the cause of death of 200 people?,drug-related violence,23252,3710,newsqa_extractive
+90,What are the two rival drug cartels trying to do?,"push each other out of the city,""",23469,3745,newsqa_extractive
+91,What separates Juarez and ElPaso?,the Rio Grande,24141,3857,newsqa_extractive
+92,who pleaded guilty?,"Cameron Douglas,",24913,3981,newsqa_extractive
+93,What did Cameron Douglas do?,pleaded guilty to distributing large quantities of methamphetamine and cocaine,24934,3984,newsqa_extractive
+94,whats the name of michael douglas wifE?,"Diandra Luker,",25524,4082,newsqa_extractive
+95,The ship's crew was instructed to hand over who?,Seven,26346,4216,newsqa_extractive
+96,Who was rescued?,Seven,26346,4216,newsqa_extractive
+97,How many Somali men were in possession of rocket grenades?,Seven,26346,4216,newsqa_extractive
+98,Who did the Danish Navy pick up?,suspected pirates,26352,4217,newsqa_extractive
+99,Who picked them up?,Danish warship,26383,4222,newsqa_extractive
+100,A ship from what country picked them up?,Danish,26383,4222,newsqa_extractive
+101,The Somali men possessed what weapons?,rocket-propelled grenades and AK-47s,26717,4280,newsqa_extractive
+102,What did the patrol craft respond to?,"a distress call,",26897,4307,newsqa_extractive
+103,What did the ships crew do?,"turned them over to Yemen's coast guard Friday morning,",27118,4342,newsqa_extractive
+104,which golfer is ahead of federer,Tiger Woods,28753,4612,newsqa_extractive
+105,Who tops Forbes' most valuable brand list?,Tiger Woods,28753,4612,newsqa_extractive
+106,what brand is repersented?,Forbes' top individual sports,28984,4652,newsqa_extractive
+107,How much does he earn?,$55 million,29146,4677,newsqa_extractive
+108,What happened to Nike?,The Miami Heat player earned half that total from his deal with,29684,4758,newsqa_extractive
+109,Which brand moved further ahead as the most valuable overall brand?,Nike,29748,4770,newsqa_extractive
+110,Which team toppled Manchester United as the best team brand?,New York Yankees.,29970,4806,newsqa_extractive
+111,How much is the fine FAA proposed?,$2.9 million,30671,4921,newsqa_extractive
+112,What was the fine proposed?,$2.9 million,30671,4921,newsqa_extractive
+113,What sum is FAA seeking?,$2.9 million,30671,4921,newsqa_extractive
+114,What does the FAA seek from the affiliate of American Airlines?,$2.9 million fine,30671,4921,newsqa_extractive
+115,What was the fine for?,"allegedly conducting more than 1,100 flights using planes with landing-gear doors that had not been repaired as prescribed by the FAA.",30725,4929,newsqa_extractive
+116,How many flights were faulty aircraft used?,"1,100",30756,4933,newsqa_extractive
+117,How many flights were the aircraft with bad repairs used on?,"1,100",30756,4933,newsqa_extractive
+118,what were used on 1100 flights?,landing-gear doors that had not been repaired as prescribed by the FAA.,30788,4938,newsqa_extractive
+119,What would the fine be for improper baggage weight check?,$2.5 million,30925,4961,newsqa_extractive
+120,What does the proposal call for?,"to house federal prisoners, including some detainees from Guantanamo Bay, in a largely",32930,5271,newsqa_extractive
+121,What proposal calling for the Illinois jail?,"to house federal prisoners,",32930,5271,newsqa_extractive
+122,What does proposal call for?,"house federal prisoners, including some detainees from Guantanamo Bay,",32933,5272,newsqa_extractive
+123,Where is the maximum-security prison located?,"Guantanamo Bay,",32988,5279,newsqa_extractive
+124,What did Illinois governor say?,"""This is something that is very good for our state, it's good for our economy, it's good for public safety,""",33140,5300,newsqa_extractive
+125,What does the Illinois governor have to say?,"""This is something that is very good for our state, it's good for our economy, it's good for public safety,""",33140,5300,newsqa_extractive
+126,What authorities Thomson visit?,"Officials from the departments of Defense, Justice, Homeland Security and the federal Bureau of Prisons",33292,5326,newsqa_extractive
+127,Who plans to visit the facility in Thomson on Monday?,"Officials from the departments of Defense, Justice, Homeland Security and the federal Bureau of Prisons",33292,5326,newsqa_extractive
+128,Where will feds visit?,Thomson Correctional Center,33411,5344,newsqa_extractive
+129,where will the prison be located,"Thomson, about 150 miles west of Chicago,",33587,5368,newsqa_extractive
+130,Where is Thompson located with respect to Chicago?,about 150 miles west,33596,5369,newsqa_extractive
+131,how far is thomson from chicago,150 miles,33602,5370,newsqa_extractive
+132,"Who said that Chicago could become ""ground zero"" for terror plots?","U.S. Rep. Mark Kirk,",35252,5637,newsqa_extractive
+133,where would ground zero be,metropolitan Chicago,35499,5673,newsqa_extractive
+134,What does Rep. Mark Kirk say?,"""we should not invite al Qaeda to make Illinois its number one target,""",35691,5699,newsqa_extractive
+135,What will be the base price of the all-electric Model S sedan?,"$57,400.",37327,5965,newsqa_extractive
+136,What is the base price of the Model S sedan?,"$57,400.",37327,5965,newsqa_extractive
+137,What is the base price for the all-electric Model S sedan?,"$57,400.",37327,5965,newsqa_extractive
+138,What kind of plant will be located in California?,manufacturing,37340,5967,newsqa_extractive
+139,Where will the Tesla manufacturing plant be located?,California.,37371,5972,newsqa_extractive
+140,Where will the Tesla manufacturing plant be?,California.,37371,5972,newsqa_extractive
+141,Who owns the Tesla corporation?,"Elon Musk,",37798,6039,newsqa_extractive
+142,What number of Model S sedans does Tesla hope to make each year?,"20,000",38902,6213,newsqa_extractive
+143,who is Nick Aaronson?,A US Airways flight attendant,39299,6279,newsqa_extractive
+144,What happened to his body?,"struck several times,",39765,6356,newsqa_extractive
+145,who did Reports do not indicate a safety breach at the hotel?,the Association of Flight Attendants (AFA) Council 66.,39981,6388,newsqa_extractive
+146,Who is remembered?,Aaronson,40289,6434,newsqa_extractive
+147,Who recalled batches of Lipton MilkTea?,Unilever,40609,6487,newsqa_extractive
+148,What did Unilever recall?,four batches of Lipton Milk Tea sold in Hong Kong,40631,6490,newsqa_extractive
+149,What has been contaminated with melamine?,Lipton Milk Tea,40647,6493,newsqa_extractive
+150,Which product was recalled?,Lipton Milk Tea,40647,6493,newsqa_extractive
+151,What company recalled a tea beverage?,Lipton,40647,6493,newsqa_extractive
+152,What have been contaminated with melamine?,Lipton Milk Tea,40647,6493,newsqa_extractive
+153,Where was the product sold?,Hong Kong and,40671,6498,newsqa_extractive
+154,Where was the recalled tea sold?,Macau,40685,6501,newsqa_extractive
+155,Who is Barrino?,Singer,43296,6903,newsqa_extractive
+156,What comment did Barrino make?,"""I feel so blessed that my son Dallas Xavier was born healthy, and is a wonderful new addition to our family,""",43554,6941,newsqa_extractive
+157,What age is her daughter?,10-year-old,43694,6968,newsqa_extractive
+158,Does the singer have any children?,daughter.,43706,6969,newsqa_extractive
+159,What product did Apple announce on Tuesday?,Mac Pro high-end desktop,45077,7186,newsqa_extractive
+160,What is the name of the processor in the Mac Pro?,"""Nehalem""",45121,7193,newsqa_extractive
+161,What is the name of Intel's processor?,"""Nehalem""",45121,7193,newsqa_extractive
+162,What did Apple unveil?,"new Mac Pro high-end desktop powered by Intel's ""Nehalem"" processor,",45168,7199,newsqa_extractive
+163,What makes the 24-inch iMac updated?,"""Nehalem"" processor, a new and more graphics-intensive Mac Mini machine,",45216,7207,newsqa_extractive
+164,What is the price range of the new Mac Pro high-end desktop?,"$1,499,",45806,7308,newsqa_extractive
+165,What product has twice the memory and twice the storage?,24-inch iMac,46186,7380,newsqa_extractive
+166,What is the tropical storm's name?,Claudette,47198,7546,newsqa_extractive
+167,What storm formed overnight?,Claudette,47198,7546,newsqa_extractive
+168,Where is Tropical Storm Claudette?,Gulf of Mexico,47257,7556,newsqa_extractive
+169,Which winds pick up to 50 mph?,Claudette's,47452,7588,newsqa_extractive
+170,When is the storm expected to hit land?,Sunday evening.,47755,7643,newsqa_extractive
+171,What was he charged for?,"burglary with assault,",49375,7911,newsqa_extractive
+172,What was Ronald Cummings arrested for?,"felony charges of burglary with assault,",49450,7922,newsqa_extractive
+173,Who is being held?,Ronald Cummings,49510,7930,newsqa_extractive
+174,What is Ronald Cummings bail amount?,"$12,500",49543,7936,newsqa_extractive
+175,What is the age of Haleigh Cummings?,5-year-old,50145,8028,newsqa_extractive
+176,what annouced the Liverpool?,a four-year deal with Standard Chartered Bank.,50777,8132,newsqa_extractive
+177,Liverpool is making a deal with whom?,Standard Chartered Bank.,50799,8136,newsqa_extractive
+178,Who sponsors Liverpool Football club,Standard Chartered Bank.,50799,8136,newsqa_extractive
+179,what will carry the Liverpool on their shirts?,Standard Chartered Bank.,50799,8136,newsqa_extractive
+180,How long did carlsberg sponsor the team for,17-year,51059,8174,newsqa_extractive
+181,how much is the deal worth,$133 million.,51241,8204,newsqa_extractive
+182,how much is worth the deal?,$133 million.,51241,8204,newsqa_extractive
+183,What is the deal reported to be worth?,$133 million.,51241,8204,newsqa_extractive
+184,what did obama say,"this regrettable incident was not a deliberate attack on Pakistan and reiterated the United States' strong commitment to a full investigation,""",53051,8513,newsqa_extractive
+185,What did Obama say abut the air strike?,not a deliberate attack on Pakistan,53081,8517,newsqa_extractive
+186,What was reaffirmed,"their commitment to the U.S.-Pakistan bilateral relationship,",53246,8541,newsqa_extractive
+187,Who did Obama and Zadari reaffirm their commitment to?,"U.S.-Pakistan bilateral relationship,",53270,8545,newsqa_extractive
+188,What is strained,relations between the two nations,53516,8582,newsqa_extractive
+189,When were the Pakistani Troops killed?,November 26.,53604,8596,newsqa_extractive
+190,Who fire shells into northern Iraq?,Turkish troops,55192,8840,newsqa_extractive
+191,What does the latest action come a week after?,"Turkey completed its eight-day ground offensive targeting Kurdish militants,",55282,8854,newsqa_extractive
+192,What was fired on uninhabited area in Iraq's Irbil province?,at least 16 rounds,55557,8891,newsqa_extractive
+193,What is the name of the targeted  province ?,Irbil,55637,8906,newsqa_extractive
+194,What is being considered,the construction of a super-express waterway through Bangkok,57822,9257,newsqa_extractive
+195,What would it prevent,future floods,57894,9267,newsqa_extractive
+196,"under the plan, what would be linked in 200-km super-highway",existing natural canals,58396,9342,newsqa_extractive
+197,What would be linked,existing natural canals,58396,9342,newsqa_extractive
+198,What KM is the highway?,200-km,58501,9362,newsqa_extractive
+199,What amount of water would the canal hold?,1.6 billion cubic meters,58616,9378,newsqa_extractive
+200,Super-canal would hold how much cubic of water,1.6 billion,58616,9378,newsqa_extractive
+201,Which country is considering a waterway?,Thailand's,59681,9546,newsqa_extractive
+202,What caused the plane to divert?,Severe,60197,9625,newsqa_extractive
+203,Where was the airliner forced to divert to?,"Miami, Florida,",60327,9644,newsqa_extractive
+204,Where was the plane forced to divert to?,"Miami, Florida,",60327,9644,newsqa_extractive
+205,Where was Jet en route from?,"Rio de Janeiro, Brazil,",60578,9687,newsqa_extractive
+206,Where was the jet en route to?,"Houston, Texas,",60605,9692,newsqa_extractive
+207,How many people were seriously hurt?,"injured, including four",61758,9874,newsqa_extractive
+208,after retirement from MMA what did Carano say,"""I got to be physical with some of the hottest guys in Hollywood,""",62893,10053,newsqa_extractive
+209,what did  Gina Carano said about Hollywood,"""I got to be physical with some of the hottest guys in Hollywood,""",62893,10053,newsqa_extractive
+210,With who did Carano get to be physical?,"Channing Tatum, Ewan McGregor and Michael Fassbender",62985,10070,newsqa_extractive
+211,who shot scenes with carano?,"Channing Tatum, Ewan McGregor",62985,10070,newsqa_extractive
+212,"who said  said he also emerged ""sore"" from his scenes with Carano","McGregor,",63615,10172,newsqa_extractive
+213,Who complained of being sore after scenes with Carano?,"McGregor,",63615,10172,newsqa_extractive
+214,has she retired from mma?,officially,63987,10236,newsqa_extractive
+215,What has Carano retired from?,MMA,64011,10239,newsqa_extractive
+216,is she planning on a return?,hasn't ruled out a,64028,10243,newsqa_extractive
+217,What is the name of the Inter coach?,Jose Mourinho,65148,10434,newsqa_extractive
+218,What is the Inter coach accused of?,"""physical and verbal aggression""",65182,10440,newsqa_extractive
+219,What was Jose accused of?,"""physical and verbal aggression""",65182,10440,newsqa_extractive
+220,Where did the confrontation happen?,Atalanta.,65271,10454,newsqa_extractive
+221,What does the acronym USSI stand for?,The Italian Sport Union of Journalists,65284,10455,newsqa_extractive
+222,What did the union condem?,Mourinho's alleged actions against Corriere dello Sport's Andrea Ramazzotti.,65340,10463,newsqa_extractive
+223,What's the name of the first Kurdish president?,Jalal Talabani,67189,10744,newsqa_extractive
+224,Who resigned in the PUK party?,"Khosrat Rasul,",67280,10759,newsqa_extractive
+225,What does PUK stand for?,Patriotic Union of Kurdistan,67399,10777,newsqa_extractive
+226,What is the name of Talabani's party?,Patriotic Union of Kurdistan,67399,10777,newsqa_extractive
+227,What could resignations threaten?,"the delicate balance of power in Iraqi Kurdistan,",67642,10810,newsqa_extractive
+228,What are resignations over?,"""It's about corruption,"" Ala Talabani said of the",68031,10877,newsqa_extractive
+229,Who rivals for power in Kurdistan?,"Democratic Party,",68629,10977,newsqa_extractive
+230,Who's popularity plummeted after media publized his affairs?,Woods',70106,11207,newsqa_extractive
+231,what happened to Tiger Woods' popularity?,has plummeted,70124,11209,newsqa_extractive
+232,what will the World's top golfer do at Augusta in April?,tees up,70205,11225,newsqa_extractive
+233,When will the top golfer make his appearance this season?,at the Masters tournament,70213,11227,newsqa_extractive
+234,When will his first appearance this season be?,"April,",70242,11232,newsqa_extractive
+235,What made Tiger woods popularity plummet?,his extramarital affairs.,70742,11315,newsqa_extractive
+236,How many people thought it was time for his return?,"75 percent,",71028,11361,newsqa_extractive
+237,what company is involved,"Saab,",72521,11602,newsqa_extractive
+238,Of what company is Saab a fully owned subsidiary?,"General Motors,",72555,11608,newsqa_extractive
+239,where Auto maker says plan considered to be the best?,formal reorganization is the,72710,11632,newsqa_extractive
+240,What was an independent administrator appointed to do?,work closely with the Saab management,72884,11658,newsqa_extractive
+241,what is the plan,"shed tens of thousands of employees, close factories, cut product lines and wants billions of dollars in government funding",73839,11809,newsqa_extractive
+242,What is the purpose of the recent GM job cuts?,bankruptcy.,73976,11831,newsqa_extractive
+243,Who was traded from the Suns to the Cavaliers?,Shaquille O'Neal,74451,11916,newsqa_extractive
+244,Who will now pair up with 2009 NBA MVP LeBron James at Cleveland ?,Shaquille O'Neal,74451,11916,newsqa_extractive
+245,7 foot one inch O'Neal has been named to which team ?,Cleveland Cavaliers,74502,11925,newsqa_extractive
+246,Where was Shaquille O'Neil traded to?,Cleveland Cavaliers -- the home of league MVP LeBron James.,74502,11925,newsqa_extractive
+247,Shaquille O'Neal is traded from the Phoenix Suns to who ?,Cleveland Cavaliers,74502,11925,newsqa_extractive
+248,What  is O'Neal's age?,37-year-old,74660,11952,newsqa_extractive
+249,Who were attacked in their homes?,"four former members of the same sorority,",76503,12266,newsqa_extractive
+250,What have Plano police done?,released a video,76918,12332,newsqa_extractive
+251,Which sorority were the women members of?,"Delta Sigma Theta,",77321,12395,newsqa_extractive
+252,What was the description of the attacker?,"black male in his late 30s to mid-40s, weighing from 275 to 300 pounds and standing between 5 feet 7 inches and 5 feet 9 inches tall.",77430,12411,newsqa_extractive
+253,What age is the alleged attacker?,"late 30s to mid-40s,",77448,12415,newsqa_extractive
+254,Where were the four women attacked?,"in ""residential settings""",77865,12485,newsqa_extractive
+255,Where is blackwater based?,USA,79078,12668,newsqa_extractive
+256,What is the Iraqi panel calling for?,"$8 million in compensation for each of the 17 Iraqis who died,",79144,12678,newsqa_extractive
+257,what number of cash do they want?,"$8 million in compensation for each of the 17 Iraqis who died,",79144,12678,newsqa_extractive
+258,What amount of money are the Iraqi panel asking for?,"$8 million in compensation for each of the 17 Iraqis who died,",79144,12678,newsqa_extractive
+259,Iraqi panel is calling for $8 million per victim in the September 16 shooting,in compensation,79155,12680,newsqa_extractive
+260,who died in the war,17 Iraqis,79187,12686,newsqa_extractive
+261,Was a stone thrown?,"""Not even a",80485,12876,newsqa_extractive
+262,Kellogg's donated how much cereal?,two tons,82660,13213,newsqa_extractive
+263,What did Kellogg donate?,two tons of cereal,82660,13213,newsqa_extractive
+264,Who received the boxes of cereal?,San Francisco Food Bank,82869,13251,newsqa_extractive
+265,What did the director say?,"With food banks across the country reporting shortages of food, the donation was a welcome one,",82913,13258,newsqa_extractive
+266,What was the name of the harry potter actor?,Rob Knox,84650,13544,newsqa_extractive
+267,"Which ""Harry Potter"" actor was killed?",Rob Knox,84650,13544,newsqa_extractive
+268,What was Karl Bishop's sentence?,four life,84674,13549,newsqa_extractive
+269,How long will he serve in jail?,at least 20 years.,84730,13560,newsqa_extractive
+270,Who killed Rob Knox?,Karl Bishop,84825,13577,newsqa_extractive
+271,Who attacked Rob Knox?,Karl Bishop,84825,13577,newsqa_extractive
+272,Who was the killer?,Karl Bishop,84825,13577,newsqa_extractive
+273,Where did the crime happen?,southeast London,85053,13619,newsqa_extractive
+274,What is a political hot topic in Britain?,Knife crime,86663,13901,newsqa_extractive
+275,Which it was was one of the tourist attractions of Pakistan?,"Swat Valley,",87533,14049,newsqa_extractive
+276,The valley was once known for what?,"one of Pakistan's premier tourist destinations, boasting the nation's only ski resort",87821,14094,newsqa_extractive
+277,Taliban millitants take control of what district?,Buner,89242,14319,newsqa_extractive
+278,When should the passengers go to toilet?,boarding.,90059,14451,newsqa_extractive
+279,What is Nippon airways asking?,passengers to use the restroom before flying to reduce weight.,90101,14457,newsqa_extractive
+280,What does Nippon Airways ask?,passengers to use the restroom before flying to reduce weight.,90101,14457,newsqa_extractive
+281,How much CO2 could be reduced?,4.2 tons a month.,90821,14570,newsqa_extractive
+282,How much reduction would there be?,4.2 tons a month.,90821,14570,newsqa_extractive
+283,What are struggling?,airline industry in Japan,91730,14715,newsqa_extractive
+284,Who kidnapped British couple?,Somalian pirates,92011,14760,newsqa_extractive
+285,Who was kidnapped by pirates,"Paul and Rachel Chandler,",92147,14781,newsqa_extractive
+286,When were they taken from yacht?,"October 23,",92263,14801,newsqa_extractive
+287,What require the pirates?,"ransom of $7 million,",92482,14834,newsqa_extractive
+288,What is the ransom demand?,"$7 million,",92492,14836,newsqa_extractive
+289,What was the ransom,"$7 million,",92492,14836,newsqa_extractive
+290,What did kidnapped couple issue a plea for?,"""Please help us, these people are not treating us well,""",92755,14879,newsqa_extractive
+291,What Paul and Rachel Chandler say?,"""Please help us, we have nobody to help us, we have no children... We have been in captivity for 98 days",93469,15001,newsqa_extractive
+292,where are located the makeshift camps?,"Leogane, Haiti",94570,15185,newsqa_extractive
+293,What are starting to function like mini cities?,makeshift,94667,15200,newsqa_extractive
+294,where is this camp,Leogane,95077,15270,newsqa_extractive
+295,What kind of oil was seen recently at camp?,Mazola,95167,15282,newsqa_extractive
+296,Who was the last Republican to carry Minnesota?,Richard Nixon,97103,15573,newsqa_extractive
+297,What state did Nixon carry that many Republicans could not?,Minnesota,97129,15577,newsqa_extractive
+298,If McCain is elected he'll be the oldest what?,president sworn in to a first term.,97567,15648,newsqa_extractive
+299,When was McCain the presidential nominating speaker?,in 1996 for Sen. Robert Dole.,98270,15770,newsqa_extractive
+300,Who was McCain a speaker for in 1996?,Sen. Robert Dole.,98282,15773,newsqa_extractive
+301,What does 2008 mark?,fourth time the parties have held back-to-back conventions;,99093,15902,newsqa_extractive
+302,2008 marks the fourth time what has happened involving parties?,have held back-to-back conventions;,99117,15906,newsqa_extractive
+303,who did not wait for Schleck?,Alberto Contador,99446,15959,newsqa_extractive
+304,Who apologizes for taking advantage of Schleck problem in stage 15?,Alberto Contador,99446,15959,newsqa_extractive
+305,what did Contador apologizes for taking advantage?,Andy Schleck's mechanical failure,99522,15972,newsqa_extractive
+306,What did Contador apologize for?,Andy Schleck's mechanical failure to seize the yellow jersey in the Tour de France.,99522,15972,newsqa_extractive
+307,What did Contador take from Andy Schleck in controversial fashion?,the yellow jersey,99565,15978,newsqa_extractive
+308,What did Contador take from Andy Schleck?,the yellow jersey,99565,15978,newsqa_extractive
+309,How many seconds did Contador gain?,39,100047,16060,newsqa_extractive
+310,How many seconds did Contador gain after Schleck drops his chain on final climb?,39,100047,16060,newsqa_extractive
+311,What concerns did Allen cite?,possible security,102180,16426,newsqa_extractive
+312,what feed from the ship was discontinued,a camera,102227,16432,newsqa_extractive
+313,what happend to the camera feed,was discontinued,102260,16439,newsqa_extractive
+314,who  referred questions to the Justice Department,Thad Allen,102451,16467,newsqa_extractive
+315,What did Brazil's foreign minister say about the Haiti Government?,"must become more visible now,",103776,16689,newsqa_extractive
+316,What did the Brazil's foreign minister said ?,"""The government, in spite of all the difficulties, should appear more to the people,""",103943,16714,newsqa_extractive
+317,Who was among ministers and leading attending conference on Haiti ?,Celso Amorim,104056,16731,newsqa_extractive
+318,In what Canadian city was the conference held?,"Montreal,",104340,16775,newsqa_extractive
+319,How many foreign ministers are attending the conference on Haiti?,more than a dozen,104609,16819,newsqa_extractive
+320,How many foreign ministers attended the conference on Haiti?,more than a dozen,104609,16819,newsqa_extractive
+321,What was the goal of the conference in Montreal ?,develop a strategy for early recovery and longer-term reconstruction.,105553,16966,newsqa_extractive
+322,What does the Conference in Montreal aims to develop?,a strategy for early recovery and longer-term reconstruction.,105561,16967,newsqa_extractive
+323,Who is praying for the president's change of heart?,House Speaker Nancy Pelosi,106948,17197,newsqa_extractive
+324,Who is the Speaker of the House?,Nancy Pelosi,106962,17199,newsqa_extractive
+325,Who is the House Speaker?,Nancy Pelosi,106962,17199,newsqa_extractive
+326,Who objects to the measure?,President Bush,107009,17207,newsqa_extractive
+327,Who objected to expansion of coverage?,President Bush,107009,17207,newsqa_extractive
+328,What does Bush object to?,children's health insurance bill,107077,17220,newsqa_extractive
+329,What measure passed in the Senate?,State Children's Health Insurance legislation,107246,17243,newsqa_extractive
+330,What does the measure do?,expand the State Children's Health Insurance program,107758,17332,newsqa_extractive
+331,What does the measure expand?,the State Children's Health Insurance program by up to 4 million children.,107765,17333,newsqa_extractive
+332,What type of social service is being discussed?,State Children's Health Insurance program,107769,17334,newsqa_extractive
+333,What do the rallies offer?,"one part concert, one part Christian revival.",110501,17789,newsqa_extractive
+334,What do thousands of teens do each year?,attended an Acquire the Fire,111344,17937,newsqa_extractive
+335,what attend each year thousands of teens?,Acquire the Fire,111356,17939,newsqa_extractive
+336,What happens at the Christian rallies?,"seek to ""stage a reverse revolution"" against secular popular culture.",111754,18003,newsqa_extractive
+337,What do Christian rallies offer,"to ""stage a reverse revolution"" against secular popular culture.",111759,18004,newsqa_extractive
+338,what alternative rallies offer?,"""stage a reverse revolution"" against secular popular culture.",111762,18005,newsqa_extractive
+339,Which values Christian rallies promote,"""stage a reverse revolution""",111762,18005,newsqa_extractive
+340,what is causing teens to attend these rallies?,"""stage a reverse revolution"" against secular popular culture. They have the pull of headlining rock concerts,",111762,18005,newsqa_extractive
+341,What are the people rallying attempting to offer?,"""stage a reverse revolution""",111762,18005,newsqa_extractive
+342,who is the leader of the demonstration?,"Ron Luce,",112775,18174,newsqa_extractive
+343,What imposes conservative values?,"Ron Luce,",112775,18174,newsqa_extractive
+344,What is the name of the nurse practitioner?,Arlene Samen,114259,18411,newsqa_extractive
+345,what did the nurse do,created One H.E.A.R.T. (Health Education And Research in Tibet) to combat the high infant and maternal mortality rates in Tibet and around the world.,115220,18570,newsqa_extractive
+346,What is H.E.A.R.T?,(Health Education And Research in Tibet),115243,18573,newsqa_extractive
+347,what is the group working on,combat the high infant and maternal mortality rates in Tibet and around the world.,115287,18580,newsqa_extractive
+348,what can one heart do,"H.E.A.R.T has worked to set up centers that teach and educate local nurse practitioners, villagers and expectant mothers on how to deliver and care for newborn",115902,18680,newsqa_extractive
+349,What does One H.E.A.R.T. distribute?,community-tailored birth kits.,116177,18721,newsqa_extractive
+350,What part of Mexico?,"Nayarit,",116988,18854,newsqa_extractive
+351,Where is the nurse practitioner from?,"Samen lives in Salt Lake City,",117912,19004,newsqa_extractive
+352,Where is the group working this year?,Tibet.,117994,19019,newsqa_extractive
+353,Who is Susan Boyle?,A 47-year-old charity worker,118151,19045,newsqa_extractive
+354,Who is Simon Cowell?,notoriously harsh talent judge,118285,19068,newsqa_extractive
+355,who is 47-year-old British charity worker?,"Susan Boyle,",118413,19088,newsqa_extractive
+356,Who  is on you tube?,"Susan Boyle,",118413,19088,newsqa_extractive
+357,Where was Boyle from?,"West Lothian in Scotland,",118431,19091,newsqa_extractive
+358,From where is Susan Boyle?,"West Lothian in Scotland,",118431,19091,newsqa_extractive
+359,"what Boyle, from West Lothian, Scotland, said?","She told the judges and the audience of the show that she was single, she lived with her cat, Pebbles, and she had never been kissed.",118692,19132,newsqa_extractive
+360,Who finalizes partnership with Indian tycoon?,DreamWorks Studios',120578,19461,newsqa_extractive
+361,who finalized partnership withIndian tycoon?,DreamWorks Studios',120578,19461,newsqa_extractive
+362,Who did Steven Spielberg finalize a partnership with?,"Anil Ambani,",120856,19501,newsqa_extractive
+363,Who is Anil Ambani?,"chairman of India's Reliance BIG Entertainment,",120869,19503,newsqa_extractive
+364,What provides $875 million for DreamWorks?,"Ambani, the Walt Disney Co. and loans made by a syndicate of banks.",120988,19518,newsqa_extractive
+365,What is the name of the first film planned?,"""Harvey,""",122861,19812,newsqa_extractive
+366,What is Spielberg's first film planned?,"""Harvey,""",122861,19812,newsqa_extractive
+367,who bests the reigning box?,Quentin Tarantino,123320,19884,newsqa_extractive
+368,Who beat the reigning box office champ?,Quentin Tarantino,123320,19884,newsqa_extractive
+369,who had a much harder time?,Warner Bros.,124087,19997,newsqa_extractive
+370,what company had a harder time with a movie release,Warner Bros.,124087,19997,newsqa_extractive
+371,"Who had a hard time with its release ""Shorts""?",Warner Bros.,124087,19997,newsqa_extractive
+372,What movie earned $12.5 million in the third week?,"""G.I. Joe""",124804,20112,newsqa_extractive
+373,what movie hung in there for it's third week,"""G.I. Joe""",124804,20112,newsqa_extractive
+374,who stages flash strike,Staff,126086,20332,newsqa_extractive
+375,when were they told they will paid,their pay would be delayed by two weeks.,126516,20404,newsqa_extractive
+376,When would they be paid by?,"July 3,",126788,20450,newsqa_extractive
+377,What did Air India tell CNN?,"""We will not tolerate any strike. Striking employees will be subject to loss of wages and productive incentives.""",127109,20505,newsqa_extractive
+378,what Air India tells CNN?,"""We will not tolerate any strike. Striking employees will be subject to loss of wages and productive incentives.""",127109,20505,newsqa_extractive
+379,Students are protesting what?,"tuition increase,",128144,20680,newsqa_extractive
+380,Students continue to occupy what hall?,Kerr,128237,20693,newsqa_extractive
+381,How much money does the University officials think they need to raise to avoid further cut?,$505 million,128446,20724,newsqa_extractive
+382,University officials say they need to raise how much money?,$505 million,128446,20724,newsqa_extractive
+383,How much do they need to raise?,$505 million,128446,20724,newsqa_extractive
+384,How many students occupy US-Santa Cruz hall?,about 100,128829,20781,newsqa_extractive
+385,What are students occupying?,second-floor lobby of Kerr Hall,128871,20789,newsqa_extractive
+386,Who is the University official saying there will be no negotiation?,Barry Shiller,129134,20830,newsqa_extractive
+387,What did Thornton say Canadian concert-goers were,"""mashed potatoes with no gravy""",131547,21200,newsqa_extractive
+388,did Thornton describe the concert-goers?,"""mashed potatoes with no gravy""",131547,21200,newsqa_extractive
+389,who will rejoin tour?,Thornton's electric hillbilly band,131815,21243,newsqa_extractive
+390,Where will the band rejoin the tour,"Stamford, Connecticut,",131934,21263,newsqa_extractive
+391,What was Phelps smoking?,marijuana,134024,21592,newsqa_extractive
+392,What did Michael Phelps apologize for?,smoked marijuana on a college campus.,134149,21610,newsqa_extractive
+393,What did the photo show Phelps doing?,smoking through a bong.,134893,21731,newsqa_extractive
+394,Where was the photo taken?,"a November party at the University of South Carolina,",135000,21751,newsqa_extractive
+395,Where was the published photo taken?,"University of South Carolina, in Richland County.",135024,21756,newsqa_extractive
+396,What did Congress pass?,a massive stimulus bill,136657,22031,newsqa_extractive
+397,Amount of money that the bill is worth?,$787 billion,137448,22163,newsqa_extractive
+398,What is Obama expected to do on Tuesday?,sign the bill,137635,22194,newsqa_extractive
+399,What did the spokesman say?,"""We're happy that Congress, in a bipartisan way, took steps to make whatever happens in this recession easier to take for the American people.""",138105,22272,newsqa_extractive
+400,What did the spokesman say about the President?,unprecedented effort to reach out,138400,22323,newsqa_extractive
+401,Who was fired?,General Rookmangud Katawal,139758,22540,newsqa_extractive
+402,Who refused tp accept his dismissal?,Gen. Rookmangud Katawal,139873,22558,newsqa_extractive
+403,What is it the military have refused to do,"stop recruiting about 3,000 new soldiers",140213,22608,newsqa_extractive
+404,What is the location of the body found of Rolling Stones founder?,swimming pool,143218,23087,newsqa_extractive
+405,Where did his death take place?,"home in Cotchford Farm, East Sussex",143253,23094,newsqa_extractive
+406,What was the inquest's verdict?,"death by misadventure,",143350,23112,newsqa_extractive
+407,What did the inquest find?,"death by misadventure,",143350,23112,newsqa_extractive
+408,Who will scan body language?,security officials,145115,23406,newsqa_extractive
+409,Which police force will work with the TSA?,Tampa-area,146528,23634,newsqa_extractive
+410,What does the ACLU believe?,behavior screening is a bad idea.,146760,23667,newsqa_extractive
+411,What did the ACLU say about the screening?,is a bad idea.,146779,23669,newsqa_extractive
+412,What will TSA scan?,behavior screening,146922,23692,newsqa_extractive
+413,where were the bones prior to being removed for testing?,in the Basilica of St. Paul in Rome,148796,23990,newsqa_extractive
+414,Whose  bones were they proven to be ?,the apostle St. Paul,148845,24001,newsqa_extractive
+415,In which way Vatican tombs were doing the tests?,"carbon dating,",149068,24041,newsqa_extractive
+416,What also Vatican tomb holds?,"""traces of a precious linen cloth, purple in color and laminated with pure gold, and a blue colored textile with linen filaments,""",149403,24095,newsqa_extractive
+417,What was in the vatican tomb?,"""traces of a precious linen cloth, purple in color and laminated with pure gold, and a blue colored textile with linen filaments,""",149403,24095,newsqa_extractive
+418,What method was used to test the bones?,"inserting a probe into a small opening in the sarcophagus,",149582,24126,newsqa_extractive
+419,What was inserted in the sarcophagus?,a probe,149592,24127,newsqa_extractive
+420,Who won the election>,Lovemore Moyo,151613,24449,newsqa_extractive
+421,Who  received 110 votes?,Moyo,152025,24512,newsqa_extractive
+422,Who was Moyo's opponent?,"Paul Themba-Nyathi,",152157,24534,newsqa_extractive
+423,Who represented the splinter?,Themba-Nyathi,152275,24552,newsqa_extractive
+424,Who were arrested?,Two members of the main,152516,24588,newsqa_extractive
+425,Who lost the party majority?,ruling ZANU-PF,153461,24745,newsqa_extractive
+426,What ex-President was quoted?,Jimmy Carter,154487,24903,newsqa_extractive
+427,What event was Carter praising?,closing Guantanamo Bay,154759,24938,newsqa_extractive
+428,What would signal renewed U.S support for human rights?,closing Guantanamo Bay,154759,24938,newsqa_extractive
+429,What did Jimmy Carter say?,closing Guantanamo Bay and ending torture would send a strong message.,154759,24938,newsqa_extractive
+430,What prison does Obama want to close?,Guantanamo Bay,154767,24939,newsqa_extractive
+431,What did Carter say closing Guantanamo would do?,send a strong message.,154807,24945,newsqa_extractive
+432,Which president pledged to end torture?,President-elect Obama,155315,25028,newsqa_extractive
+433,What promise did Obama make about Guantanamo Base?,close GuantÃ¡namo Bay,155368,25035,newsqa_extractive
+434,What does Obama plan to do about torture?,end U.S.-sponsored,155411,25041,newsqa_extractive
+435,What would the message to dictators be about?,centrality of human rights,157256,25329,newsqa_extractive
+436,What happened since Sunday??,violent government crackdown,159425,25680,newsqa_extractive
+437,What did the Red Cross say?,"is facing an ""unprecedented level of violence.""",160320,25829,newsqa_extractive
+438,What is Yemen facing?,"""unprecedented level of violence.""",160333,25832,newsqa_extractive
+439,Who fired on crowds?,snipers,160733,25896,newsqa_extractive
+440,Who does bad roles?,Ray Liotta,161722,26046,newsqa_extractive
+441,What is Ray Liotta known for?,"""bad guy"" roles in such films as ""Something Wild"" and ""GoodFellas.""",161771,26055,newsqa_extractive
+442,What roles is Ray Liotta known for?,"""bad guy""",161771,26055,newsqa_extractive
+443,What is the name of the comedy?,"""Observe and Report""",161964,26086,newsqa_extractive
+444,What was the comedy?,"""Observe and Report""",161964,26086,newsqa_extractive
+445,Who will stand out?,"""Edgy guys",163293,26309,newsqa_extractive
+446,What did Liotta say?,"""Edgy guys stand out in people's minds,""",163293,26309,newsqa_extractive
+447,What group is Pharell Williams a part of?,N.E.R.D,164654,26541,newsqa_extractive
+448,What singer paid tribute to the music icon?,Gabriella Cilmi,164989,26596,newsqa_extractive
+449,What singer paid tribute?,Gabriella Cilmi,164989,26596,newsqa_extractive
+450,What song did Gabriella Cilmi sing?,"""Billie Jean""",165104,26617,newsqa_extractive
+451,What news did festival goers awake to?,the news of Jackson's death,165549,26691,newsqa_extractive
+452,Who gained control?,Sri Lankan soldiers,166909,26911,newsqa_extractive
+453,When did they do this?,"early Sunday morning,",166998,26925,newsqa_extractive
+454,Who wants independent homeland?,The Liberation Tigers of Tamil Eelam (LTTE),167729,27047,newsqa_extractive
+455,Who wants an independent homeland?,Liberation Tigers of Tamil Eelam,167733,27048,newsqa_extractive
+456,What did they establish there?,military garrison,168029,27097,newsqa_extractive
+457,Which northern town did troops regain control of?,"Elephant Pass,",168260,27131,newsqa_extractive
+458,who will face tomas berdych?,Andy Roddick,170351,27459,newsqa_extractive
+459,who reaches final in miami?,Andy Roddick,170351,27459,newsqa_extractive
+460,Who reaches the final in Miami?,Andy Roddick,170351,27459,newsqa_extractive
+461,Who will face Tomas Berxych in Sunday's final?,"Roddick,",170506,27482,newsqa_extractive
+462,what followed up his fourth round?,victories over world,172166,27784,newsqa_extractive
+463,What is the senate considering?,allowing many more shops across the country to open on Sundays.,172783,27890,newsqa_extractive
+464,when will the shops be open?,on Sundays.,172835,27899,newsqa_extractive
+465,where has opposition come from?,both the left and the right.,173685,28047,newsqa_extractive
+466,Where was their opposition?,Socialists,173717,28053,newsqa_extractive
+467,When is the debate,"scheduled to last three days, with a vote expected late on Thursday.",175064,28268,newsqa_extractive
+468,Who is in the lead going into the final race?,Lewis Hamilton,175227,28294,newsqa_extractive
+469,Who was last year's world champion?,Lewis Hamilton,175227,28294,newsqa_extractive
+470,Who starts from the pole position in Abu Dhabi?,Lewis Hamilton,175227,28294,newsqa_extractive
+471,What did Lewis Hamilton do?,Abu Dhabi Grand Prix,175291,28303,newsqa_extractive
+472,Who is Jenson Button?,"Formula One's top driver,",175335,28311,newsqa_extractive
+473,Where is the final race?,"Yas Marina circuit,",175506,28339,newsqa_extractive
+474,where was launched the solar cell phone?,Kenya.,178261,28815,newsqa_extractive
+475,where is samsung going to launch the solar cell phone?,Kenya.,178359,28828,newsqa_extractive
+476,Who launched its solar cell phone in June?,"Safaricom Ltd.,",178688,28879,newsqa_extractive
+477,Who launched its solar cell phone in India?,"Safaricom Ltd.,",178688,28879,newsqa_extractive
+478,how much cost the solar cell phone?,"about $35,",178945,28919,newsqa_extractive
+479,How much does each handset cost?,"about $35,",178945,28919,newsqa_extractive
+480,"Who expects its initial supply of 100,000 ?",Safaricom,179033,28931,newsqa_extractive
+481,what is the lawsuit about?,he is the father,181665,29362,newsqa_extractive
+482,what is the issue of the lawsuit,of basketball star LeBron James.,181682,29366,newsqa_extractive
+483,"Who says his memories were ""amplified"" in recent years?",Leicester Stovell,181720,29371,newsqa_extractive
+484,Who  wants a secure DNA test to prove paternity?,Leicester Stovell,181720,29371,newsqa_extractive
+485,what will a secure DNA test prove?,he's the NBA all-star's father.,181979,29413,newsqa_extractive
+486,what were amplified?,set of recollections,182805,29558,newsqa_extractive
+487,When will James will announce  which team he'll sign?,Thursday evening,183789,29724,newsqa_extractive
+488,what has guiness encouraged,rather odd achievements,185382,29988,newsqa_extractive
+489,What does the Guinness World Records editor praise?,people are still passionate and eager to achieve their goals,186159,30120,newsqa_extractive
+490,What does the editor praise in spite of?,"global market turmoil,""",186240,30135,newsqa_extractive
+491,Who praises pursuit of goals?,Editor-in-Chief Craig Glenday,186264,30138,newsqa_extractive
+492,What are some of the Guinness World Records Day categories?,Most People Reading Simultaneously.,186439,30166,newsqa_extractive
+493,who passed the bill,Hampshire's Senate,187070,30282,newsqa_extractive
+494,What has got Senate approval?,"a bill allowing same-sex couples to marry,",187102,30286,newsqa_extractive
+495,What is the New Hampshire bill for?,"allowing same-sex couples to marry,",187109,30288,newsqa_extractive
+496,Where will the bill be sent?,to the House of Representatives,187772,30389,newsqa_extractive
+497,What is being questioned about the bill?,the need for the,188568,30514,newsqa_extractive
+498,What has Lynch questioned?,the need for the bill.,188568,30514,newsqa_extractive
+499,who has less risk of developing dementia,with a stable mood and better capacity to handle stressful situations without anxiety,190257,30788,newsqa_extractive
+500,Less-stressed older individuals had lower risk of what?,"developing dementia,",190366,30806,newsqa_extractive
+501,What is a lower risk?,Subjects who were both socially active and not easily stressed,190620,30845,newsqa_extractive
+502,How many Americans age 71 have some form of dementia?,"3.4 million,",191907,31046,newsqa_extractive
+503,What number of Americans are affected?,"3.4 million,",191907,31046,newsqa_extractive
+504,how many people have a form of dementia,"3.4 million,",191907,31046,newsqa_extractive
+505,Some people don't show symptoms of Alzheimer's but have what?,"""cognitive reserve,""",192684,31164,newsqa_extractive
+506,What do officials want to know?,"if, during that time, he heeded the call to prayer coming from the hills above Yemen's capital,",194201,31401,newsqa_extractive
+507,What students say about terrorism?,"""It's against Islam,""",194638,31474,newsqa_extractive
+508,Who runs the school?,Al-Zindani,195224,31566,newsqa_extractive
+509,Who is running the school?,Al-Zindani,195224,31566,newsqa_extractive
+510,what says students?,"they don't think AbdulMutallab was ever at the school,",195720,31647,newsqa_extractive
+511,when will the transition be complete,March.,196664,31790,newsqa_extractive
+512,When will the transition be done?,March.,196664,31790,newsqa_extractive
+513,what did the dhs say,"the change is possible because of a jump in the number of Border Patrol officers in the region, an increase in technology and a drop in apprehensions at the border.",196915,31832,newsqa_extractive
+514,What does the DHS say?,the change is possible,196915,31832,newsqa_extractive
+515,what is the problem,world's wildlife has declined by 27 percent since 1970,199506,32246,newsqa_extractive
+516,What has the world's wildlife declined by?,27 percent since 1970,199539,32251,newsqa_extractive
+517,who is threatened,frilled-neck lizards,199665,32272,newsqa_extractive
+518,what species are under threat?,frilled-neck lizards,199665,32272,newsqa_extractive
+519,What are other factors causing the loss?,Pollution and overall climate change,202459,32694,newsqa_extractive
+520,What are pollution and climate change doing?,"causing a loss of biodiversity,",202514,32702,newsqa_extractive
+521,what pollution and overall climate change are causing?,"a loss of biodiversity,",202522,32703,newsqa_extractive
+522,What was invoked to impose peace?,martial law,202952,32766,newsqa_extractive
+523,What has been imposed there?,martial law,202952,32766,newsqa_extractive
+524,What number were killed last week?,57 people,203034,32778,newsqa_extractive
+525,what was invoked?,martial law,203154,32798,newsqa_extractive
+526,Whose home did they search?,"Andal Ampatuan Jr., mayor of Datu Unsay",204326,32985,newsqa_extractive
+527,What do the authorities say?,Andal Ampatuan Jr. directed the November 23 politically motivated killings.,204458,33005,newsqa_extractive
+528,Who allegedly directed the November 23rd killings?,Andal Ampatuan Jr.,204458,33005,newsqa_extractive
+529,Have we heard many different places mentioned this week?,on CNN Student News.,206790,33371,newsqa_extractive
+530,What CNN show mentioned the places?,Student News.,206797,33373,newsqa_extractive
+531,Where do you write your answers?,in the space provided.,206906,33391,newsqa_extractive
+532,What has Bill Clinton been doing?,"devoted to global philanthropic interests and speeches,",208385,33627,newsqa_extractive
+533,Who pardoned two US journalists?,President Kim Jong Il,208750,33683,newsqa_extractive
+534,What is Bill Clinton doing  in the Hillary campaign?,stumping,210208,33919,newsqa_extractive
+535,Who did Clinton team up for charity with?,former President George H.W. Bush,211813,34169,newsqa_extractive
+536,What has Clinton been doing in the literary world?,taken time to author a couple of best-selling books.,212155,34221,newsqa_extractive
+537,who says it expects to get permits for this year's races,Reno Air Racing Association,212643,34305,newsqa_extractive
+538,The group that runs event says it expects to get permits for what?,the full schedule of races to take place September 12-16,212714,34316,newsqa_extractive
+539,Who is investigating?,The NTSB,214515,34605,newsqa_extractive
+540,who  is investigating the cause of last year's crash,NTSB,214519,34606,newsqa_extractive
+541,What was the cause?,"piece of trim tab, an aerodynamic surface on the tail of the plane, separating from the plane at the time the pilot lost control.",214600,34621,newsqa_extractive
+542,What were the context of the videos that surfaced of him using slurs?,offensive language to describe people in his military unit.,216574,34949,newsqa_extractive
+543,What does Prince Harry apologize for?,videos of him making offensive comments while on military duty in 2006.,216665,34962,newsqa_extractive
+544,What did Prince Harry apologize for?,making offensive comments while on military duty in 2006.,216679,34965,newsqa_extractive
+545,What media revealed Prince Harry's offensive languages?,British newspaper News of the World,216916,35009,newsqa_extractive
+546,Who is doing an investigation?,The British Ministry of Defense,219319,35435,newsqa_extractive
+547,What does the British Ministry of Defense plan to do?,"would investigate the allegations of inappropriate behavior,",219416,35452,newsqa_extractive
+548,"acoording to an EU directive, what does Iceland owes?",billions of dollars,220050,35550,newsqa_extractive
+549,Who does Iceland owe compensation to?,"United Kingdom and the Netherlands,",220085,35557,newsqa_extractive
+550,What do some Icelanders say about repayment?,"""There is widespread frustration over the claim on ordinary citizens in Iceland to pay the price for the irresponsible behavior of reckless bankers,""",221587,35799,newsqa_extractive
+551,Who are the lawmakers?,"Ugandan parliament,",223652,36120,newsqa_extractive
+552,What is proposal punishment for gay sex ?,"sentenced to life in prison, while anyone found guilty of",223824,36148,newsqa_extractive
+553,What does Tatchll say about proposals ?,"""President Museveni is fast becoming the Robert Mugabe of Uganda and that's a threat to the civil rights of every Ugandan person -- gay or straight,""",224715,36292,newsqa_extractive
+554,Are their civil rights being threatened?,that's a threat to the,224784,36303,newsqa_extractive
+555,What is the title of the new film?,"""Get Smart""",225338,36393,newsqa_extractive
+556,What film is opening next week?,"""Get Smart""",225709,36456,newsqa_extractive
+557,What comes to the big screen next week?,"""Get Smart""",225709,36456,newsqa_extractive
+558,What is the newest film?,"""Get Smart""",225709,36456,newsqa_extractive
+559,Who said it  exaggerates many gadgets?,"Matt Ember,",226182,36540,newsqa_extractive
+560,What does a tv historian say?,"The inextricable link between gadgets and spy movies began with James Bond in 1962,",227126,36708,newsqa_extractive
+561,when did it debut?,"in 1965,",227656,36795,newsqa_extractive
+562,Who were shown the centrifuges?,to a representative of the International Atomic Energy Agency (IAEA).,229223,37046,newsqa_extractive
+563,What is Bushehr's plants full capacity?,"1,000 megawatts",229387,37071,newsqa_extractive
+564,What is the full capacity of the plant?,"1,000 megawatts",229387,37071,newsqa_extractive
+565,When will the plant reach full capacity?,"February 1,",229406,37074,newsqa_extractive
+566,Who believes that iran will be able to enrich uranium beyond 5% purity?,experts cited by the news agency.,230428,37238,newsqa_extractive
+567,What is considered to be weapons grade?,Uranium enriched to 93.5%,230545,37258,newsqa_extractive
+568,Who threw a $1 million party?,Sean Parker,231966,37478,newsqa_extractive
+569,who threw the party?,Sean Parker,231966,37478,newsqa_extractive
+570,What was the name of the person who throw the party,Sean Parker,231966,37478,newsqa_extractive
+571,How much did the party cost?,$1 million or more.,232578,37580,newsqa_extractive
+572,What was the reason for the party,"to celebrate the U.S. arrival of Spotify,",232634,37590,newsqa_extractive
+573,What was the $1 million party to celebrate?,"the U.S. arrival of Spotify,",232647,37592,newsqa_extractive
+574,For what  was the party held?,"U.S. arrival of Spotify,",232651,37593,newsqa_extractive
+575,Who does Parker say  is one the greatest business artists in history?,"""Steve",234573,37914,newsqa_extractive
+576,In which region Relations between U.S. and Pakistan tense?,tribal areas.,235927,38138,newsqa_extractive
+577,who is meeting with Pakistan's new prime minister?,Adm. Michael Mullen,235944,38140,newsqa_extractive
+578,He faces a balancing act in which campaign?,re-election,238376,38516,newsqa_extractive
+579,Who is losing support among blacks?,President Barack Obama,238396,38518,newsqa_extractive
+580,"In recent weeks, whose support among blacks has been beset by troubles?",President Barack Obama,238396,38518,newsqa_extractive
+581,who faces a balancing act in the 2012 campaign?,President Barack Obama,238396,38518,newsqa_extractive
+582,what does sociologist Reginald Daniel say?,"""Patience is running out,""",239191,38644,newsqa_extractive
+583,What did Reginald Daniel say?,"""Patience is running out,""",239191,38644,newsqa_extractive
+584,what occupation does reginald daniel have?,professor of sociology,239242,38652,newsqa_extractive
+585,"Who said ""Finding a middle ground is almost an impossibility""?",Daniels,240083,38782,newsqa_extractive
+586,Who died in Colorado ski accident?,John McWethy,242380,39159,newsqa_extractive
+587,Who died in a ski accident?,John McWethy,242380,39159,newsqa_extractive
+588,What was the reporter doing?,skiing,242426,39167,newsqa_extractive
+589,Who is the ABC president?,David Westin.,243257,39300,newsqa_extractive
+590,Obama met with whom?,South Korean President Lee Myung-bak,246332,39814,newsqa_extractive
+591,Who did Obama meet with?,South Korean President Lee Myung-bak,246332,39814,newsqa_extractive
+592,what did Obama met with South Korean President Lee Myung-bak ?,Nuclear negotiations involving North Korea,246424,39828,newsqa_extractive
+593,What did Obama announce?,he will send American envoy Stephen Bosworth to North Korea on December 8 for bilateral talks on dismantling Pyongyang's nuclear program.,246553,39846,newsqa_extractive
+594,Obama announced?,he will send American envoy Stephen Bosworth to North Korea on December 8 for bilateral talks on dismantling Pyongyang's nuclear program.,246553,39846,newsqa_extractive
+595,what will jet blue do,refund some tickets purchased before a traveler is laid off from a job.,249421,40303,newsqa_extractive
+596,In what circumstances will JetBlue give a refund?,some tickets purchased before a traveler is laid off from a job.,249428,40304,newsqa_extractive
+597,who is catered to,the layoff crowd,250051,40410,newsqa_extractive
+598,Who are travel companies and an airline catering to?,layoff crowd,250055,40411,newsqa_extractive
+599,What are the companies doing?,offering to refund fares.,250194,40437,newsqa_extractive
+600,what is the discount,15 percent,250770,40530,newsqa_extractive
+601,What is the discount they can get?,15 percent,250770,40530,newsqa_extractive
+602,What did a consultant say about the trip costs?,"""could be lunch money for somebody for the next six months,""",252137,40770,newsqa_extractive
+603,Who picked the top goalkeepers?,Football Fanzone,253655,41037,newsqa_extractive
+604,What does CNN want people to do?,Read through our picks and tell us if you disagree or if we've missed anyone in the Sound Off box below.,253729,41049,newsqa_extractive
+605,Share thoughts on what?,van der Sar's inclusion?,253855,41075,newsqa_extractive
+606,Who were found to have been fatally shot in a Nashville condo?,"McNair, 36, and Sahel Kazemi,",257297,41656,newsqa_extractive
+607,Who were fatally shot?,"McNair, 36, and Sahel Kazemi, 20,",257297,41656,newsqa_extractive
+608,When were they fatally shot?,July 4.,257397,41673,newsqa_extractive
+609,What did the text messages indicate?,she was stressed and needed money to pay bills.,258015,41782,newsqa_extractive
+610,What did the last text messages say about the door?,"""its open.""",259147,41989,newsqa_extractive
+611,what has been returned to parts of brazil,Electricity,259263,42009,newsqa_extractive
+612,Where was electricity lost?,southern Brazil,259332,42020,newsqa_extractive
+613,What happened to central and southern Brazil?,plunged into darkness,259357,42024,newsqa_extractive
+614,What was reported by Uruguay?,outages.,261071,42297,newsqa_extractive
+615,What other places reported blackouts?,"Sao Paulo, Mato Grosso do Sul, Rio de Janeiro",261333,42338,newsqa_extractive
+616,Who scored the goals?,Cristiano Ronaldo and Wayne Rooney,263307,42667,newsqa_extractive
+617,who scored goals?,Wayne Rooney,263329,42670,newsqa_extractive
+618,Which people scored the goals?,Wayne Rooney,263329,42670,newsqa_extractive
+619,What amount did they win by?,2-0,263394,42682,newsqa_extractive
+620,Who's the top player from Barca?,Nemanja Vidic,264295,42831,newsqa_extractive
+621,Where is Barcelona from?,Catalan,266034,43139,newsqa_extractive
+622,WHo set fire to the church?,Gangs of young men,266664,43250,newsqa_extractive
+623,What is the number of people dead?,At least 148 people have been killed,266924,43291,newsqa_extractive
+624,How many are dead?,148,266933,43293,newsqa_extractive
+625,What did the mob do?,burned a church filled with Kenyans seeking refuge from the violence.,267515,43388,newsqa_extractive
+626,What did the mob set fire to?,a church filled with Kenyans seeking refuge from the violence.,267522,43389,newsqa_extractive
+627,How many people have been reported dead?,About 120,268467,43548,newsqa_extractive
+628,How manyare injured?,"over 1,000",268506,43555,newsqa_extractive
+629,Who did Cahan photograph?,Kurt Russell,271023,43945,newsqa_extractive
+630,What was Kurt Russell photographed with?,boxy Mac desktop.,271045,43949,newsqa_extractive
+631,Name of the software developer?,"Cahan,",271228,43978,newsqa_extractive
+632,What brand is celebrating a birthday?,Macintosh computer,271703,44058,newsqa_extractive
+633,What is the age Macintosh is turning?,computer celebrates its 25th birthday,271713,44059,newsqa_extractive
+634,Who has a computer museum in a basement?,Gil Poulsen,271983,44102,newsqa_extractive
+635,Who paints his old Mac cases?,Mike Tuohy,274850,44566,newsqa_extractive
+636,Who is Juan Gonzalez?,An 18-year-old Guatemalan man,275000,44588,newsqa_extractive
+637,What happens without a transplant?,almost certain death,275052,44596,newsqa_extractive
+638,Who is dying without transplant?,Juan Gonzalez,275190,44618,newsqa_extractive
+639,What does Juan Gonzalez hope to learn Friday?,whether he will be added,275350,44646,newsqa_extractive
+640,what does jaun gonzalez hope to learn on friday?,whether he will be added,275350,44646,newsqa_extractive
+641,Who is Mansour Dau?,"the ""Black Box"" of Moammar Gadhafi's regime",277499,45013,newsqa_extractive
+642,Who is Mansour Daou?,"""Black Box"" of Moammar Gadhafi's regime",277503,45014,newsqa_extractive
+643,What was the dictator forced to do?,to scavenge for food and hide in abandoned houses in the coastal city of Sirte.,277940,45085,newsqa_extractive
+644,What was the former Libyan dictator forced to do?,scavenge for food and hide in abandoned houses,277943,45086,newsqa_extractive
+645,What did Gadhafi do in his final days?,became desperate to travel to,278142,45120,newsqa_extractive
+646,What was Gadafhi desperate to do?,"to travel to his birthplace,",278159,45122,newsqa_extractive
+647,Where was Gadhafi born?,"Jaref,",278203,45130,newsqa_extractive
+648,What  did Gadhafi do in his final days?,writing and reading books,280529,45534,newsqa_extractive
+649,Who died at the age of 88?,"Kennedy Shriver,",281417,45687,newsqa_extractive
+650,Who was Eunice Kennedy Shriver?,the sister of President John F.,281434,45689,newsqa_extractive
+651,What age did she die at?,88.,281588,45715,newsqa_extractive
+652,At what age did the sister of President Kennedy die?,88.,281588,45715,newsqa_extractive
+653,What year did Eunice Shriver found the Special Olympics?,1962.,282021,45791,newsqa_extractive
+654,What did the family say in a statement?,"""She was the light of our lives, a mother, wife, grandmother, sister and aunt who taught us by example and with passion",282163,45811,newsqa_extractive
+655,What was the pilot's name?,Sean Langman,285475,46376,newsqa_extractive
+656,Who crashed dangerously last year?,Sean Langman,285475,46376,newsqa_extractive
+657,"What will a half sailboat, half plane attempt?",to break the 50-knot sailing speed barrier,285501,46380,newsqa_extractive
+658,What barrier is being broken?,50-knot sailing speed,285514,46383,newsqa_extractive
+659,"What kind of technology does the ""wot rocket"" use?",supercavitation,285673,46408,newsqa_extractive
+660,What is the technology called?,supercavitation,285673,46408,newsqa_extractive
+661,Who scored for Bayern,Mario Gomez,288479,46905,newsqa_extractive
+662,What team did defeat Manchester City in group A?,Bayern Munich,288504,46909,newsqa_extractive
+663,What was the score,2-0,288520,46912,newsqa_extractive
+664,Who refused to come onto the pitch,Carlos Tevez,289340,47054,newsqa_extractive
+665,What was the final score in Basel game?,3-3,292053,47524,newsqa_extractive
+666,what did the president do,he can attack a cantaloupe and U.S. government claims in a single motion.,292448,47592,newsqa_extractive
+667,what President Manuel Zelaya says?,"""It's not in our fruit,"" he said about last week's report by the U.S. Food and Drug Administration that some Honduran cantaloupes may be contaminated with salmonella. ""It's not true what they are saying. Logically, we believe it is an error.""",292614,47619,newsqa_extractive
+668,What is salmonella?,"infection -- nausea, vomiting, fever, diarrhea and abdominal cramps",293663,47806,newsqa_extractive
+669,Who is the grower?,"Agropecuaria Montelibana,",293962,47857,newsqa_extractive
+670,who was laid off,"1,500 workers",294541,47945,newsqa_extractive
+671,who is ending his career?,Brian K. Vaughan,295051,48022,newsqa_extractive
+672,What is the name of the comic book that took on big themes with its story of last man on earth?,"""Y: The",295106,48032,newsqa_extractive
+673,which is the name of the comic?,"""Y: The Last Man,""",295106,48032,newsqa_extractive
+674,what is ending soon?,"""Y: The Last Man,""",295229,48054,newsqa_extractive
+675,what is the story about?,"""except for one boy and his monkey. And wackiness ensues.""",295398,48084,newsqa_extractive
+676,Name one theme that Vaughn used to  write the comic book about the last man on earth?,humanity in a world where gender has been all but eliminated from the equation.,297851,48510,newsqa_extractive
+677,what does the writer think,"she is the best 'actor' in comics,""",298293,48588,newsqa_extractive
+678,Where was the plane crash?,"Butte, Montana,",298653,48649,newsqa_extractive
+679,What area did the crash happen in?,"Butte, Montana,",298653,48649,newsqa_extractive
+680,What is the name of the witness who saw the plane nosedive?,Martha Guidoni,298759,48663,newsqa_extractive
+681,What type of engine did the plane have?,single-engine,298877,48683,newsqa_extractive
+682,Where did the plane leave from?,"Redlands, California,",299520,48785,newsqa_extractive
+683,What did the witness say the plane did?,"""went into the ground"" and caught a tree on fire.",301417,49097,newsqa_extractive
+684,who went into administration Friday?,English Premier League club Portsmouth,301797,49166,newsqa_extractive
+685,What are the estimated debts of Portsmouth?,around $90 million.,301916,49186,newsqa_extractive
+686,how much are their debts?,$90 million.,301923,49187,newsqa_extractive
+687,who has a favorable view of muslim countries?,one in five Americans,305151,49711,newsqa_extractive
+688,Does the average American have a favorable view of Muslim countries?,one in five,305151,49711,newsqa_extractive
+689,Where will Obama give his speech?,"Egypt,",306488,49926,newsqa_extractive
+690,where was the speech?,"Egypt,",306488,49926,newsqa_extractive
+691,Who will be the primary audience of Obama's speech?,the Muslim world.,306589,49941,newsqa_extractive

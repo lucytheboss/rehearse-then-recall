@@ -1,0 +1,1402 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,source_title,type
+1,What sorts of departments might one see in a major department store?,"clothing, furniture, home appliances, toys, cosmetics, gardening, toiletries, sporting goods",63,10,Department_store,squad_extractive
+2,"Other than at the check-out lanes at the front of a store, where may customers check out?",at sales counters within each department.,425,59,Department_store,squad_extractive
+3,Who started influencing department stores in the 1970's? ,discounters,608,90,Department_store,squad_extractive
+4,What has begun pressuring department stores in more recent years?,online stores such as Amazon.,681,101,Department_store,squad_extractive
+5,"When did the idea of a ""consumer society"" begin? ",at the turn of the 19th century.,802,121,Department_store,squad_extractive
+6,What social group grew as a result of the industrial revolution? ,the affluent middle-class,895,135,Department_store,squad_extractive
+7,What is one explanation for the rise of retail stores in earlier history?,urbanized social group,951,144,Department_store,squad_extractive
+8,Who was Josiah Wedgewood?,entrepreneurs,1374,205,Department_store,squad_extractive
+9,What business in Manchester claims to be the first department store? ,Kendals (formerly Kendal Milne & Faulkner),1705,250,Department_store,squad_extractive
+10,What did Kendals change it's name to in 2005? ,House of Fraser,1906,285,Department_store,squad_extractive
+11,What year did the Manchester institution begin?,1836,1964,294,Department_store,squad_extractive
+12,Who acquired the Manchester store in 1919? ,Harrods,2338,361,Department_store,squad_extractive
+13,Who founded Selfridges in 1909?,Harry Gordon Selfridge,2528,387,Department_store,squad_extractive
+14,What made Selfridges different from many department stores at the time? ,the radical notion of shopping for pleasure rather than necessity,2613,398,Department_store,squad_extractive
+15,How was the store most often presented to the public? ,paid advertising,2798,426,Department_store,squad_extractive
+16,What sort of customers did Selfridges most often cater to?,shoppers with educational and scientific exhibits,3364,515,Department_store,squad_extractive
+17,What were the origins of the Paris department store? ,magasin de nouveautés,3699,569,Department_store,squad_extractive
+18,What year was the first Paris department store founded? ,1784,3783,583,Department_store,squad_extractive
+19,What book described the functionality and operation of a contemporary Paris department/novelty store?,César Birotteau,3975,613,Department_store,squad_extractive
+20,What factors influenced the increase of department stores in Paris? ,the arrival of the railroads in Paris and the increased number of shoppers they brought,4011,619,Department_store,squad_extractive
+21,Where did department stores begin to advertise after the large influx of new shoppers?,newspapers,4220,655,Department_store,squad_extractive
+22,"What store was founded in Paris, in 1838, which sold a wide variety of products? ",Au Bon Marché,4255,660,Department_store,squad_extractive
+23,Who became a partner to this store in 1852 and drastically changed operations?,Aristide Boucicaut,4505,699,Department_store,squad_extractive
+24,What was the change in profit to Au Bon Marche after these changes? ,"increased from 500,000 francs in 1852 to five million in 1860",4743,735,Department_store,squad_extractive
+25,What engineering company helped the store expand in 1872,Gustave Eiffel,4959,776,Department_store,squad_extractive
+26,What was Boucicaut most widely known for? ,marketing innovations,5313,839,Department_store,squad_extractive
+27,Where was The Grands Magasins Dufayel built? ,the northern part of Paris,5705,897,Department_store,squad_extractive
+28,What were employees taught that made a shopping experience different? ,exciting social activity not just a routine exercise in obtaining necessities,5945,939,Department_store,squad_extractive
+29,What sort of stores were The Grands Magasins Dufayel compared to? ,bourgeois stores,6114,966,Department_store,squad_extractive
+30,How were these stores different than most during that time?,transform consumption from a business transaction into a direct relationship between consumer and sought-after goods,6142,970,Department_store,squad_extractive
+31,"What is recognized as the ""first"" department store in America?","Arnold, Constable",6537,1026,Department_store,squad_extractive
+32,"Who founded Arnold, Constable? ",Aaron Arnold,6622,1040,Department_store,squad_extractive
+33,Where was the store moved in 1857?,a five-story white marble dry goods palace known as the Marble House.,6770,1067,Department_store,squad_extractive
+34,"What made Arnold, Constable stand out from other stores during the civil war? ",was one of the first stores to issue charge bills of credit to its customers each month instead of on a bi-annual basis,6879,1085,Department_store,squad_extractive
+35,"When was the ""Palace of Trade"" built? ",1869,7163,1133,Department_store,squad_extractive
+36,"Where was the ""Marble Palace"" built in 1846?","on Broadway, between Chambers and Reade streets",7616,1211,Department_store,squad_extractive
+37,What policy did the Marble Palace introduce? ,"""free entrance"" to all potential customers.",7784,1238,Department_store,squad_extractive
+38,What selling methods did the Marble Palace use?,cash and not credit,8572,1356,Department_store,squad_extractive
+39,What customer services did the Marble Palace offer? ,waiting rooms and free delivery of purchases,8760,1381,Department_store,squad_extractive
+40,"Who opened the original ""modern"" department store in America?",John Wanamaker,8880,1399,Department_store,squad_extractive
+41,In what state was Wanamakers established? ,Pennsylvania,8963,1412,Department_store,squad_extractive
+42,What feature made Wanamakers different from other stores at the time? ,fixed prices marked on every article,9070,1426,Department_store,squad_extractive
+43,When was electric lighting first installed and used in the store? ,1878,9152,1438,Department_store,squad_extractive
+44,How were important documents and money transported throughout the store? ,pneumatic tubes,9196,1445,Department_store,squad_extractive
+45,When did Marshall's convert to the Macy's name? ,9 September 2006,9728,1524,Department_store,squad_extractive
+46,What made Marshall's such a good example for other stores?,exceptional customer service,9825,1541,Department_store,squad_extractive
+47,Where was Marshall's European buying office located? ,"Manchester, England",10193,1597,Department_store,squad_extractive
+48,What free service did Marshall's provide customers until changing their name to Macy's? ,personal shopper,10303,1615,Department_store,squad_extractive
+49,What occupation did David Jones have?,merchant,11206,1757,Department_store,squad_extractive
+50,What was the store in Sydney called after Jones moved to Australia? ,Appleton & Jones,11446,1794,Department_store,squad_extractive
+51,What were some of the original Australian department stores? ,Grace Bros. and Waltons,11826,1858,Department_store,squad_extractive
+52,When did Sydney Myer come to Australia? ,1899,12074,1894,Department_store,squad_extractive
+53,Where did the Myer Retail Group open it's first store? ,"Bendigo, Victoria",12198,1916,Department_store,squad_extractive
+54,What type of department stores are Myer and David Jones? ,up-market chains,12329,1937,Department_store,squad_extractive
+55,What department store brand is now out of business in Australia? ,Venture,12515,1967,Department_store,squad_extractive
+56,What business was the Hudson's Bay Company originally involved in? ,the fur trade,13015,2044,Department_store,squad_extractive
+57,What department store chain did Hudson's Bay Company own until it dissolved in 2013?,Zellers,13235,2079,Department_store,squad_extractive
+58,"Currently, what department store is most popular in Canada? ",Walmart,13705,2152,Department_store,squad_extractive
+59,What is one type of competition department stores face? ,specialist stores,14369,2251,Department_store,squad_extractive
+60,What types of stores have created even more competition? ,superstores,14466,2264,Department_store,squad_extractive
+61,What factor lead to a decrease in department store shoppers?,residents moved out of the downtown areas to the suburbs,14825,2319,Department_store,squad_extractive
+62,What began the influx of Chinese department stores?,opening policy in 1979,15212,2380,Department_store,squad_extractive
+63,What area does INTIME department stores have the most influence in?,Zhejiang province,15471,2416,Department_store,squad_extractive
+64,What department store has the most success in Jiangsu Province?,Jinying,15496,2419,Department_store,squad_extractive
+65,How are these foreign department stores expanding so quickly? ,by listing in the financial market.,15692,2445,Department_store,squad_extractive
+66,Who established Lane Crawford? ,Scots Thomas Ash Lane and Ninian Crawford,15793,2462,Department_store,squad_extractive
+67,What was the store's original target customer base?,visiting ships' crews as well as British Navy staff and their families,15915,2483,Department_store,squad_extractive
+68,Who opened the first Chinese-owned department store? ,Ma Ying Piu,16066,2507,Department_store,squad_extractive
+69,What are the 3 main department store companies in Denmark? ,"Magasin (1868), Illum (1891), Salling (1906).",16309,2547,Department_store,squad_extractive
+70,"Where is Magasin's ""flagship"" store located? ",Kongens Nytorv in Copenhagen,16470,2575,Department_store,squad_extractive
+71,What are two main department stores in France?,Galeries Lafayette and Le Printemps,16898,2647,Department_store,squad_extractive
+72,Who currently owns Le Bon Marche?,LVMH,17164,2691,Department_store,squad_extractive
+73,What apartment store in Paris was closed in 2005? ,La Samaritaine,17170,2692,Department_store,squad_extractive
+74,What French department store is part of the same group as Galeries Lafayette?,BHV (Bazar de l'Hotel de Ville),17323,2716,Department_store,squad_extractive
+75,What cities influenced how department stores in Germany operated? ,"London, Paris and New York.",17480,2743,Department_store,squad_extractive
+76,What department store was taken over by Nicolas Berggruen in 2010?,Karstadt,17658,2773,Department_store,squad_extractive
+77,What major department store operates in Berlin? ,KaDeWe,17728,2784,Department_store,squad_extractive
+78,What store is a part of the Metro AG?,GALERIA Kaufhof,17806,2796,Department_store,squad_extractive
+79,Where did the Metro Department store originally begin?,Singapore and Sogo from Japan,18044,2835,Department_store,squad_extractive
+80,What store led the Indonesian markets until 2010 when it closed? ,Harvey Nichols,18204,2861,Department_store,squad_extractive
+81,"Where did Galeries Lafayette open in 2013, inside Indonesia? ",Pacific Place Mall,18421,2894,Department_store,squad_extractive
+82,Who operates the wide range of department stores in these areas?,PT. Mitra Adiperkasa.,18687,2935,Department_store,squad_extractive
+83,What store did Parkson buy in 2011? ,Centro Department Store,18750,2944,Department_store,squad_extractive
+84,Where did Centro open it's first store of 2014?,Medan,18936,2973,Department_store,squad_extractive
+85,Who did Lotte partner with? ,Ciputra Group,19047,2990,Department_store,squad_extractive
+86,"Where is the ""Lotte Shopping Avenue"" located? ",Ciputra World Jakarta complex,19122,3001,Department_store,squad_extractive
+87,What was Makro re-labeled as after it's purchase? ,Lotte Mart,19203,3014,Department_store,squad_extractive
+88,When did Ireland begin to see a growth in its middle class?,mid-nineteenth century.,19296,3029,Department_store,squad_extractive
+89,What department store was founded in 1853?,Delany's New Mart,19367,3038,Department_store,squad_extractive
+90,In what city was Delany's New Mart opened? ,Dublin,19407,3046,Department_store,squad_extractive
+91,What was Delany's originally called? ,Monster House,19673,3093,Department_store,squad_extractive
+92,What Mexican department store typically caters to high-end goods?,El Palacio de Hierro,19872,3125,Department_store,squad_extractive
+93,What company is responsible for over 100 stores in the country? ,Sanborns,20015,3147,Department_store,squad_extractive
+94,What company operates Sears Mexico? ,Grupo Carso,20089,3158,Department_store,squad_extractive
+95,What chains typically cater to bargain shoppers? ,Coppel and Elektra,20187,3174,Department_store,squad_extractive
+96,What sorts of goods do the most popular department stores in New Zealand offer? ,high-end and luxury items,20702,3250,Department_store,squad_extractive
+97,What city is Arthur Barnett in? ,Dunedin,20777,3260,Department_store,squad_extractive
+98,Where are H & J Smith stores typically located? ,Southland,20836,3271,Department_store,squad_extractive
+99,Where is H & J Smith's flagship store?,Invercargill,20877,3278,Department_store,squad_extractive
+100,How did Panama's department stores originally begin? ,as textile retailers,21231,3330,Department_store,squad_extractive
+101,When did Panama's Department stores first start? ,at the turn of the nineteenth century,21252,3333,Department_store,squad_extractive
+102,"What department store is often called ""Felix"" by the local population? ",Felix B. Maduro,21536,3382,Department_store,squad_extractive
+103,What store has managed to survive despite much it's competition going under? ,Cocos,21673,3405,Department_store,squad_extractive
+104,Who opened some of the first department stores in the Philippines? ,Henry Hoskyn,21876,3440,Department_store,squad_extractive
+105,Where were some of the original Philippine stores located?  ,Manila,22031,3464,Department_store,squad_extractive
+106,What historical event led to many department stores in the area being destroyed? ,Battle of Manila in 1945,22530,3544,Department_store,squad_extractive
+107,What department store in Puerto Rico is named after an American city?,La New York,23238,3656,Department_store,squad_extractive
+108,What two major retailers have plans to do business in the mall once it opens? ,Nordstrom and Saks Fifth Avenue,23422,3685,Department_store,squad_extractive
+109,How many tenants are expected to set up shop in the Mall of San Juan?,100 tenants,23543,3708,Department_store,squad_extractive
+110,When is the Mall of San Juan expected to open? ,March 2015,23583,3717,Department_store,squad_extractive
+111,When was Saint Petersburg established? ,early 18th century,23709,3738,Department_store,squad_extractive
+112,Who founded a shopping mall reserved for the most elites of society? ,Count Essen-Stenbock-Fermor,23848,3760,Department_store,squad_extractive
+113,What famous author described parts of the mall in his books?,Dostoyevsky,24278,3824,Department_store,squad_extractive
+114,What historical site still operates within the mall? ,Komissarzhevskaya Theatre,24599,3871,Department_store,squad_extractive
+115,What group was established in 1921 in response to the clash between socialism and consumerism? ,State Department Stores (GUM),24673,3879,Department_store,squad_extractive
+116,"Who formed the State Department Stores, AKA GUM? ",Lenin,24714,3886,Department_store,squad_extractive
+117,When did they first establish the organization?,1921,24723,3888,Department_store,squad_extractive
+118,When did GUM begin to decline and lose power? ,late 1920s,25500,4003,Department_store,squad_extractive
+119,Where is the most notable Russian department store located?,Moscow,25855,4057,Department_store,squad_extractive
+120,In what city is the Passage located?,St. Petersburg,26094,4093,Department_store,squad_extractive
+121,What movie demonstrates the operation of department stores in the former Soviet Union?,Behind Store Window,26172,4106,Department_store,squad_extractive
+122,What department store chain operates the most stores? ,Lotte Department Store,26369,4135,Department_store,squad_extractive
+123,"Where is the ""field of distribution"" most often associated with?",South Korea,26827,4208,Department_store,squad_extractive
+124,What store was the largest department store in the world in 2010?,Shinsegae department store,27061,4246,Department_store,squad_extractive
+125,Where is the largest department store in the world located?,"Centum City, Busan",27091,4250,Department_store,squad_extractive
+126,What was the name of the first Spanish department store?,Almacenes el Siglo,27198,4268,Department_store,squad_extractive
+127,When was the first Spanish department store opened? ,October 1881,27227,4273,Department_store,squad_extractive
+128,What department store brand now owns most of the market in Spain? ,El Corte Inglés,27456,4309,Department_store,squad_extractive
+129,What is the world's oldest department store? ,John Lewis Newcastle,27924,4382,Department_store,squad_extractive
+130,Who partnered with William Alder Dunn to open the first store? ,Emerson Muschamp Bainbridge,28180,4423,Department_store,squad_extractive
+131,What was the location of the first store? ,"Market Street, Newcastle",28301,4442,Department_store,squad_extractive
+132,When did John Lewis purchase and take over the Bainbridge store?,1952,28650,4499,Department_store,squad_extractive
+133,"Who purchased a small shop in 1835, which would eventually become Kendals?",Kendal Milne and Faulkner,28844,4537,Department_store,squad_extractive
+134,How long did the store operate for? ,over 200 years,29063,4571,Department_store,squad_extractive
+135,Who eventually purchased and assumed operation of the store? ,House of Fraser,29100,4579,Department_store,squad_extractive
+136,When did Garfinckel's begin operating in Washington? ,1905,29583,4656,Department_store,squad_extractive
+137,How many stores was J. C. Penny operating in 1930?,1452,30237,4759,Department_store,squad_extractive
+138,How many stores was Sears operating in 1940?,595,30379,4784,Department_store,squad_extractive
+139,What demographic were most stores focusing on?,middle-class audience,30413,4791,Department_store,squad_extractive
+140,What was the store called in Southfield? ,Northland Center,31328,4931,Department_store,squad_extractive
+141,What company purchased the Northland Center in 2006?,Federated Department Stores,31741,4996,Department_store,squad_extractive
+142,Who opened Dayton's Dry Goods?,George Dayton,31939,5024,Department_store,squad_extractive
+143,In what year was Dayton's Dry Goods established? ,1902,32012,5036,Department_store,squad_extractive
+144,What store did the Dayton-Hudson Corporation purchase in 1978?,Mervyn's,32461,5107,Department_store,squad_extractive
+145,In what year did Horne began doing business?,1849,32761,5153,Department_store,squad_extractive
+146,In what city did Horne begin their operations?,Pittsburgh,32818,5162,Department_store,squad_extractive
+147,What company purchased Horne's in 1972?,Associated Dry Goods,32959,5184,Department_store,squad_extractive
+148,To what date has cotton been dated?,5000 BC,33677,5299,Cotton,squad_extractive
+149,Where in India has cotton been found from prehistoric times?,Indus Valley,33723,5308,Cotton,squad_extractive
+150,Where in Southeast Asia has early use of cotton been discovered?,"Mehrgarh, Pakistan",34108,5374,Cotton,squad_extractive
+151,To what period has cotton been dated in Pakistan?,Neolithic,34223,5392,Cotton,squad_extractive
+152,When did the Indus Valley Civilization cover parts of India and Pakistan?,3300 and 1300 BCE,34416,5421,Cotton,squad_extractive
+153,Until what event did the ancient methods of spinning and fabrication of cotton last?,industrialization,34567,5446,Cotton,squad_extractive
+154,During what time did cotton become widely used in India?,2000 and 1000 BC,34603,5450,Cotton,squad_extractive
+155,Use of cotton in Iran dates back to what period?,Achaemenid era,34820,5490,Cotton,squad_extractive
+156,When was the Achaemenid era?,5th century BC,34836,5493,Cotton,squad_extractive
+157,In what source can references to cotton be found in Iran?,Persian poets' poems,35002,5522,Cotton,squad_extractive
+158,What 13th century explorer saw cotton in Persia?,Marco Polo,35109,5536,Cotton,squad_extractive
+159,What Frenchman in the 17th century noted cotton farming in Persia?,John Chardin,35193,5549,Cotton,squad_extractive
+160,When did cotton begin to be commercially grown in Egypt?,"1820's,",35419,5586,Cotton,squad_extractive
+161,What French businessman convinced the ruler of Egypt to grow cotton for the French market?,M. Jumel,35465,5594,Cotton,squad_extractive
+162,Who was ruler of Egypt in the 1820s?,Mohamed Ali Pasha,35662,5625,Cotton,squad_extractive
+163,How high had cotton revenues risen by the time of the American Civil War?,$56 million,35961,5676,Cotton,squad_extractive
+164,How many bales of cotton were produced by Egypt by 1903?,1.2 million bales a year,36188,5714,Cotton,squad_extractive
+165,In the late medieval period in Europe as what was cotton viewed?,imported fiber,36282,5731,Cotton,squad_extractive
+166,What ancient writer gave later eras the idea that cotton might be a tree?,Herodotus,36402,5752,Cotton,squad_extractive
+167,Why was it easy for people to believe that cotton grew on sheep that grew in plants?,similarities to wool,36761,5814,Cotton,squad_extractive
+168,What 1350 writer stated that cotton was produced by sheep that grew on trees?,John Mandeville,36874,5832,Cotton,squad_extractive
+169,By the end of what century was cotton grown in the Americas and Asia?,16th century,37207,5890,Cotton,squad_extractive
+170,During what centuries did British rule effect Indian cotton production?,late 18th and early 19th,37436,5922,Cotton,squad_extractive
+171,What British business's policies damaged the Indian cotton industry?,British East India Company,37546,5939,Cotton,squad_extractive
+172,What cotton products did British law mandate that India was allowed to sell?,raw cotton,37710,5961,Cotton,squad_extractive
+173,What event produced an expansion of the British cotton industry?,Industrial Revolution,37834,5978,Cotton,squad_extractive
+174,When was a new spinning machine patented that boosted cotton production?,1738,37965,5997,Cotton,squad_extractive
+175,What device did James Hargreaves invent?,spinning jenny,38250,6042,Cotton,squad_extractive
+176,What was Samuel Crompton's invention of 1775?,spinning mule,38339,6055,Cotton,squad_extractive
+177,What American invented the cotton gin?,Eli Whitney,38770,6125,Cotton,squad_extractive
+178,"Before the use of the cotton gin, how was cotton separated?",by hand,38890,6146,Cotton,squad_extractive
+179,What business development did the British use to establish a hold on the global cotton market?,commercial chain,39521,6253,Cotton,squad_extractive
+180,From what source was raw cotton first bought and later resold?,colonial markets,39720,6284,Cotton,squad_extractive
+181,What was the difference that made American cotton preferred over Indian cotton?,"longer, stronger fibers",40111,6346,Cotton,squad_extractive
+182,"Besides buying from the American plantations, where else in the western hemisphere did Britain buy cotton?",Caribbean,40337,6377,Cotton,squad_extractive
+183,By what time had cotton become prominent in the American economy of the south?,mid-19th century,40355,6380,Cotton,squad_extractive
+184,What was cotton called in the 19th century?,King Cotton,40374,6383,Cotton,squad_extractive
+185,When did the American cotton industry fail?,American Civil War,40554,6409,Cotton,squad_extractive
+186,What action of the Union damaged the southern cotton exports?,Union blockade,40615,6419,Cotton,squad_extractive
+187,What characteristic of American cotton attracted buyers after the end of the Civil war?,cheap,41193,6508,Cotton,squad_extractive
+188,What did the abandonment of Egyptian cotton mean to the Egyptian economy?,bankruptcy,41304,6524,Cotton,squad_extractive
+189,What was the procedure called which involved workers to work for a share of the profits? ,sharecropping,41521,6562,Cotton,squad_extractive
+190,What part of the southern population worked as sharecroppers?,landless,41553,6566,Cotton,squad_extractive
+191,What difficulty in harvesting cotton required a large labor force?,hand-pick,41813,6607,Cotton,squad_extractive
+192,What function of southern schools was created for children to pick cotton?,split vacations,41940,6628,Cotton,squad_extractive
+193,What is the optimum amount of rainfall for cotton growth?,"600 to 1,200 mm",42145,6657,Cotton,squad_extractive
+194,Why is cotton grown as an annual crop?,control pests,42703,6753,Cotton,squad_extractive
+195,Where in the US is considered the best place to grow cotton on Earth?,South Plains,42876,6783,Cotton,squad_extractive
+196,What type of tolerances make cotton an ideal crop for semiarid areas?,salt and drought,43160,6824,Cotton,squad_extractive
+197,What form of cotton is GM?,Genetically modified,43683,6906,Cotton,squad_extractive
+198,What bacterium is used to produced GM cotton?,Bacillus thuringiensis,43788,6921,Cotton,squad_extractive
+199,What part of the life cycle of moths does Bt toxin effect?,larvae,43908,6939,Cotton,squad_extractive
+200,What farming pest management technique does the use of GM grown plants promote?,noninsecticide,44534,7038,Cotton,squad_extractive
+201,On what did a 2009 study conclude that increased insects were dependent?,temperature and rainfall,45443,7178,Cotton,squad_extractive
+202,What did the 2012 study say was doubled by the use of GM cotton?,"ladybirds, lacewings and spiders",45801,7237,Cotton,squad_extractive
+203,How much of the Earth's cotton crops are planted in GM cotton?,69%,46014,7269,Cotton,squad_extractive
+204,How much area was planted in India in GM cotton in 2011?,10.6 million hectares,46158,7295,Cotton,squad_extractive
+205,What was the percentage of GM cotton planted in India in 2011?,88%,46281,7318,Cotton,squad_extractive
+206,What percentage of Australia's cotton crop was GM in 2009?,95%,47156,7470,Cotton,squad_extractive
+207,What are organic plants understood to be?,not genetically modified,47484,7523,Cotton,squad_extractive
+208,Without what are organic plants meant to be grown ? ,synthetic agricultural chemicals,47566,7538,Cotton,squad_extractive
+209,What is meant by synthetic chemicals?,fertilizers or pesticides,47608,7543,Cotton,squad_extractive
+210,What group in the US determines the allowed practices in organic agriculture?,National Organic Program,47790,7568,Cotton,squad_extractive
+211,How much organic cotton was produced worldwide in 2007?,"265,517 bales",47955,7591,Cotton,squad_extractive
+212,What insect is the most destructive pest in cotton growing in the US?,boll weevil,48206,7632,Cotton,squad_extractive
+213,What is the organization that instigated the Boll Weevil Eradication Program?,US Department of Agriculture,48230,7637,Cotton,squad_extractive
+214,What program has effectively eliminated the boll weevil in the US?,Boll Weevil Eradication Program,48279,7643,Cotton,squad_extractive
+215,On what does the use of Bt cotton reduce reliance?,synthetic insecticides.,48659,7706,Cotton,squad_extractive
+216,How is most cotton harvested?,mechanically,48752,7719,Cotton,squad_extractive
+217,What is the cotton harvesting machine that removes the boll with damaging the plant?,cotton picker,48778,7723,Cotton,squad_extractive
+218,What machine strips off the entire head of the cotton plant?,cotton stripper,48884,7742,Cotton,squad_extractive
+219,What weather conditions mandate the planting of stripper types of cotton?,windy,48998,7762,Cotton,squad_extractive
+220,What type of plant is cotton?,perennial,49161,7789,Cotton,squad_extractive
+221,What was the first manufactured fiber?,rayon,49324,7815,Cotton,squad_extractive
+222,What type of industry produced a growing chain of synthetic fibers?,chemicals industry,49630,7862,Cotton,squad_extractive
+223,What was manufactured completely from petrochemicals?,Nylon,49720,7876,Cotton,squad_extractive
+224,What company produced nylon and acrylic in the 1930s and 1940s?,DuPont,49822,7891,Cotton,squad_extractive
+225,What prompted a help program produced by cotton producers in the 1960s?,decline in market share,50662,8022,Cotton,squad_extractive
+226,What law was passed in 1966 to aid cotton producers?,Cotton Research and Promotion Act,50856,8054,Cotton,squad_extractive
+227,What type of competitors does the 1966 act help combat?,synthetic competitors,50944,8068,Cotton,squad_extractive
+228,What did producers of cotton have to re-establish after the market declined?,markets for cotton,50986,8072,Cotton,squad_extractive
+229,For what is cotton used to make?,textile products,51194,8108,Cotton,squad_extractive
+230,For what can cotton yarn be used?,crochet and knitting,51592,8172,Cotton,squad_extractive
+231,"Besides new cotton fibers, what type of fibers can be used to make cotton products?",recycled or recovered cotton,51643,8181,Cotton,squad_extractive
+232,With what is cotton often blended to make a new style of fabric?,synthetic fibers,51875,8216,Cotton,squad_extractive
+233,What kinds of fabrics can be made from blended fibers?,knitted or woven,51936,8227,Cotton,squad_extractive
+234,For what is cottonseed used after it is separate from the fibers?,cottonseed oil,52157,8265,Cotton,squad_extractive
+235,What product is processed cottonseed oil?,vegetable oil.,52237,8278,Cotton,squad_extractive
+236,What is cottonseed meal used for feed?,ruminant livestock,52305,8290,Cotton,squad_extractive
+237,For what purpose are cottonseed hulls used in feed?,roughage,52451,8313,Cotton,squad_extractive
+238,As what did early scientists describe gossypol ?,poisonous pigment,52717,8360,Cotton,squad_extractive
+239,What part of the cotton plant is used for paper manufacture?,Cotton linters,52940,8395,Cotton,squad_extractive
+240,What do cotton linters look like?,"fine, silky fibers",52959,8398,Cotton,squad_extractive
+241,What are cotton linters called in the UK?,cotton wool,53385,8475,Cotton,squad_extractive
+242,What is cotton wool called in the US?,absorbent cotton,53435,8484,Cotton,squad_extractive
+243,What individual first used cotton wool medically?,Sampson Gamgee,53570,8506,Cotton,squad_extractive
+244,"What is a fine, tightly twisted type of cotton fabric?",Cotton lisle,53663,8519,Cotton,squad_extractive
+245,What is lisle considered to be as a fabric?,strong and durable,53749,8534,Cotton,squad_extractive
+246,What does extra twisting of lisle thread produce?,single thread,53899,8561,Cotton,squad_extractive
+247,How is color perceived to be for lisle in comparison to softer yarns? ,more brilliant,54077,8593,Cotton,squad_extractive
+248,Where was the lisle thread originally made?,"Lisle, France",54178,8612,Cotton,squad_extractive
+249,In 2009 what were the largest producers of cotton?,China and India,54277,8627,Cotton,squad_extractive
+250,How do the US and Africa rank as exporters of cotton?,largest exporters,54461,8655,Cotton,squad_extractive
+251,What is the combined international trade in cotton?,$12 billion,54633,8684,Cotton,squad_extractive
+252,What company is the top cotton broker in Africa?,Dunavant Enterprises,54925,8730,Cotton,squad_extractive
+253,Where is Dunavant Enterprises based?,"Memphis, Tennessee",54956,8734,Cotton,squad_extractive
+254,How many subsidized cotton growers are in the US?,"25,000",55314,8793,Cotton,squad_extractive
+255,What is the rate of subsidies of cotton growers in the US?,$2 billion per year,55406,8809,Cotton,squad_extractive
+256,Where in Africa is it possible to buy out brokerages in cotton?,former British colonies,55713,8858,Cotton,squad_extractive
+257,What organization has Brazil tried to use to curb US cotton subsidies?,WTO's Dispute Settlement Mechanism,55951,8892,Cotton,squad_extractive
+258,What was Brazil's argument against the US cotton industry?,heavily subsidized,55996,8898,Cotton,squad_extractive
+259,"What are the African countries of Benin, Burkina Faso, Chad, and Mali referred to as in the cotton industry?",Cotton-4,56137,8921,Cotton,squad_extractive
+260,What has the Cotton-4 been in regards to the US cotton subsidies?,leading protagonist,56161,8924,Cotton,squad_extractive
+261,What usage that causes worker damage have some countries been reported doing? ,exposure to pesticides,56574,8984,Cotton,squad_extractive
+262,What country has been accused of forced child and adult labor?,Uzbekistan,56751,9010,Cotton,squad_extractive
+263,Where does Uzbekistan rank as a cotton exporter?,third largest,56775,9013,Cotton,squad_extractive
+264,What system was started in 2005 to deal with organic and ethically produced products?,fair trade,57003,9046,Cotton,squad_extractive
+265,What is the final sequencing goal of sequencing diploid cotton genomes first ?,tetraploid cotton,57261,9088,Cotton,squad_extractive
+266,What type of cotton has two separate genomes within its nucleus? ,Tetraploid,57281,9091,Cotton,squad_extractive
+267,What type of genome must be sequenced first to prevent confusion before the tetraploid form?,diploid,57988,9201,Cotton,squad_extractive
+268,"In order to understand the tetraploid forms, what must be used as a comparison in cotton gene sequencing?",diploid counterparts,58489,9279,Cotton,squad_extractive
+269,What companies finished much of the sequencing of the D genome?,Monsanto and Illumina,58871,9341,Cotton,squad_extractive
+270,What did Monsanto and Illumina say they would do with the research?,donate,59012,9362,Cotton,squad_extractive
+271,What is the seeming result of donating genetic cotton sequencing to the public?,public relations,59055,9370,Cotton,squad_extractive
+272,What plants are the goal of sequencing wild forms of cotton?,cultivated varieties,59266,9406,Cotton,squad_extractive
+273,Which conflict was the impetus for the formation of the Pact?,the Cold War,59615,9459,Warsaw_Pact,squad_extractive
+274,Which nation saw the most significant Warsaw Pact military deployment? ,Czechoslovakia,60468,9598,Warsaw_Pact,squad_extractive
+275,Which country saw the largest Warsaw Pact deployment? ,Czechoslovakia,60468,9598,Warsaw_Pact,squad_extractive
+276,What was the name of the Polish revolutionary movement which the Warsaw Pact failed to suppress?,Solidarity,60663,9627,Warsaw_Pact,squad_extractive
+277,What was the name of the Polish labor movement which successfully defied the Warsaw Pact?,Solidarity,60663,9627,Warsaw_Pact,squad_extractive
+278,Who was the president of Czechoslovakia during the dissolution of the Warsaw Pact? ,Václav Havel,60919,9671,Warsaw_Pact,squad_extractive
+279,Which ideologies did the Soviet Union aspire to lead around the globe?,socialism and communism,62170,9861,Warsaw_Pact,squad_extractive
+280,Which Soviet leader formed doctrine aimed at keeping socialist satellite nations in line?,Brezhnev,62434,9904,Warsaw_Pact,squad_extractive
+281,The Soviet Union feared invasion from which potential enemy?,Western Europe,62545,9920,Warsaw_Pact,squad_extractive
+282,Who was the Soviet minister who proposed German reunification?,Molotov,63620,10085,Warsaw_Pact,squad_extractive
+283,When was reunification first proposed as an idea?,1952,63972,10139,Warsaw_Pact,squad_extractive
+284,Who was the general who spoke out against the USSR joining NATO?,Hastings Ismay,66079,10471,Warsaw_Pact,squad_extractive
+285,To what did the British general compare the USSR in his opposition to their joining NATO?,burglar,66336,10517,Warsaw_Pact,squad_extractive
+286,Halvard Lange was a minister of which NATO member?,Norway,67571,10725,Warsaw_Pact,squad_extractive
+287,Which nation was permitted rearmament by the foundation of the Warsaw Pact?,East Germany,68530,10876,Warsaw_Pact,squad_extractive
+288,What was the name of the East German armed forces?,the National People's Army,68589,10887,Warsaw_Pact,squad_extractive
+289,In which year did Mongolia seek entry in the Warsaw Pact?,1963,69123,10968,Warsaw_Pact,squad_extractive
+290,What was the focus of both alliances' policies towards the other in lieu of direct fighting?,containment,69684,11061,Warsaw_Pact,squad_extractive
+291,Who was the head of the Hungarian government at the time of the revolt?,Imre Nagy,69859,11089,Warsaw_Pact,squad_extractive
+292,Which country did the Pact conquer?,Czechoslovakia,70191,11139,Warsaw_Pact,squad_extractive
+293,In which year was the Warsaw Pact activated in a joint action?,1968,70216,11142,Warsaw_Pact,squad_extractive
+294,Which former Eastern Bloc country was the latest to join NATO?,Albania,71184,11288,Warsaw_Pact,squad_extractive
+295,What was the name of the Warsaw Pact's planned counteroffensive to a NATO first strike?,Seven Days to the River Rhine,71673,11358,Warsaw_Pact,squad_extractive
+296,Name the 8 peopl who began the movement,"Georges Braque and Pablo Picasso, joined by Jean Metzinger, Albert Gleizes, Robert Delaunay, Henri Le Fauconnier, Fernand Léger and Juan Gris.",72380,11466,Cubism,squad_extractive
+297,Which person  was the most influential in beginning the movement with is three dimensional forms?,Paul Cézanne,72632,11505,Cubism,squad_extractive
+298,What year's were Cezannes painting's displayed at Salon d'Automne? Not including the retrospectives.,1905 and 1906,72767,11527,Cubism,squad_extractive
+299,What were the three offshoots of Cubism formed in France?,"Orphism, Abstract art and later Purism",72921,11549,Cubism,squad_extractive
+300,What were the other offshoots formed in countries other than France?,"Futurism, Suprematism, Dada, Constructivism and De Stijl",72980,11558,Cubism,squad_extractive
+301,Which offshoot had little in common with Cubism?,Futurist,73076,11571,Cubism,squad_extractive
+302,Which offshoot of cubism was influenced by Picasso? ,Constructivism,73312,11607,Cubism,squad_extractive
+303,Between what years did cubism begin? ,1907 and 1911,73605,11645,Cubism,squad_extractive
+304,What was the first phase of Cubism known as? ,Analytic Cubism,74426,11776,Cubism,squad_extractive
+305,What was the second phase of Cubism called? ,Synthetic Cubism,74615,11808,Cubism,squad_extractive
+306,From what years did High Cubism take place? ,1909 to 1914,75039,11872,Cubism,squad_extractive
+307,From what years did Late Cubism take place? ,1914 to 1921,75179,11895,Cubism,squad_extractive
+308,In what year was the assertion made that the flat canvas supported Cubism?,early as 1920,75611,11964,Cubism,squad_extractive
+309,When was the assertion that the flat canvas supported Cubism put into debate?,"1950s and 1960s,",75665,11975,Cubism,squad_extractive
+310,Who was the main opponent that began to argue that the flat canvas did not support Cubism? ,Clement Greenberg.,75696,11980,Cubism,squad_extractive
+311,Who's work undermined Douglass  Coopers terms describing Cubism?,"Picasso, Braque, Gris and Léger",76738,12135,Cubism,squad_extractive
+312,"Which artists in the early 19th and 20th century inspired by the newly discovered African, Native American, Micro and Polynesian art?","Paul Gauguin, Henri Matisse, and Pablo Picasso",77010,12172,Cubism,squad_extractive
+313,"What about the Native cultures art inspired Matisse, Picasso, and Gauguin?",stark power and simplicity,77092,12185,Cubism,squad_extractive
+314,Who did Picasso meet around 1906 that had also recenelty learned about Primitivism? ,"Gertrude Stein,",77197,12201,Cubism,squad_extractive
+315,What were Picasso's 1907 paintings usually characterized by? ,Protocubism,77615,12267,Cubism,squad_extractive
+316,Which two artists did Douglass Cooper say were very important to the forming of Cubism?,Paul Gauguin and Paul Cézanne,77746,12286,Cubism,squad_extractive
+317,What does Cooper say is the first  Cubist picture? ,The Demoiselles,77934,12317,Cubism,squad_extractive
+318,Is it true that the first Cubist picture is The Demoiselles? ,although it was a major first step towards Cubism it is not yet Cubist.,78033,12332,Cubism,squad_extractive
+319,What did Daniel Robbins say about Demoiselles being the beginning of Cubism?,such deductions are unhistorical,78648,12435,Cubism,squad_extractive
+320,"During which years did the conscious begin to look for a new style in Germany, Italy, Russia, and Holland?","1905 and 1908,",78923,12473,Cubism,squad_extractive
+321,Which technique did the Impressionists use to make their subjects simple forms?,double point of view,79083,12500,Cubism,squad_extractive
+322,Which impressionist movements were also influenced by Cubism?,Les Nabis and the Symbolists,79114,12506,Cubism,squad_extractive
+323,Besides Seurat where else are the beginnigs of Cubism found?,in the two distinct tendencies of Cézanne's later work,79576,12579,Cubism,squad_extractive
+324,Cubism revolutionized the way things could be seen in art how? ,"all the surfaces of depicted objects in a single picture plane, as if the objects had all their faces visible at the same time.",79963,12636,Cubism,squad_extractive
+325,When did the historical study of Cubism begin?,in the late 1920s,80228,12682,Cubism,squad_extractive
+326,On which book and who was the author was one of the main sources of the historical study of Cubism based?,Daniel-Henry Kahnweiler's book Der Weg zum Kubismus,80367,12706,Cubism,squad_extractive
+327,Understanding who's work was the tradition meaning of Cubism formed on?,Braque and Picasso,81074,12810,Cubism,squad_extractive
+328,What other painters were not thought of as being as Cubist as Braque and Picasso?,"Jean Metzinger, Albert Gleizes, Robert Delaunay and Henri Le Fauconnier",81205,12830,Cubism,squad_extractive
+329,Who suggested that the artists other than Braque and Picasso's relgation to a distant role in Cubism was a mistake?,Daniel Robbins,81419,12860,Cubism,squad_extractive
+330,The artists of Passy included which two people?,Picabia and the Duchamp brothers,82611,13053,Cubism,squad_extractive
+331,Where did Picassos work until 1912? ,Montmartre,83525,13197,Cubism,squad_extractive
+332,Where did Braque and Gris stay until the end of the World War I?,Montmartre,83525,13197,Cubism,squad_extractive
+333,Where was Leger based around 1912? ,Montparnasse,83637,13216,Cubism,squad_extractive
+334,Which four people usually met at Fauconnier's studio in 1910?,"Metzinger, Gleizes, Delaunay and Léger",83969,13267,Cubism,squad_extractive
+335,Where was Fauconnier's studio located? ,Boulevard de Montparnasse,84069,13282,Cubism,squad_extractive
+336,What did the group meeting at Fauconnier's studio want to focus on?,"research into form, in opposition to the Neo-Impressionist emphasis on color.",84248,13308,Cubism,squad_extractive
+337,List the artists who were featured in the Salon d'Automne? ,"André Lhote, Marcel Duchamp, Jacques Villon, Roger de La Fresnaye, André Dunoyer de Segonzac and František Kupka",84443,13340,Cubism,squad_extractive
+338,In what year did the New York Times review the Salon d'Automne?,"October 8, 1911",84592,13363,Cubism,squad_extractive
+339,What was the subtitle of the article published in 1911 in New York TImes about Cubism?,Eccentric School of Painting Increases Its Vogue in the Current Art Exhibition - What Its Followers Attempt to Do,85149,13452,Cubism,squad_extractive
+340,Which Duchamp presentation was displayed in the 1912 Salon des Independants?,"Nude Descending a Staircase, No. 2",85359,13485,Cubism,squad_extractive
+341, Was Duchamp's work considered controversial when displayed in 1912?,caused a scandal,85408,13493,Cubism,squad_extractive
+342,What were one of  Metzingers two showings in 1912's Salon des Independants? ,La Femme au Cheval (Woman with a horse) 1911-1912,85892,13574,Cubism,squad_extractive
+343,Towards which social topic did the Cubists  at the Salon d'Automne creat contrevesy towards? ,"the use of government owned buildings,",86227,13626,Cubism,squad_extractive
+344,Which politician made the front page of Le Journa in 1912 for his indignation? ,Jean Pierre Philippe Lampué,86351,13646,Cubism,squad_extractive
+345,Who defended the Cubists in the controversy of 1912?,"Socialist deputy, Marcel Sembat.",86633,13697,Cubism,squad_extractive
+346,"What against did Metzinger and Gleizes write Du ""Cubsime""? ",public anger,86701,13707,Cubism,squad_extractive
+347,"Who published Du ""Cubisme""?",Eugène Figuière,86786,13720,Cubism,squad_extractive
+348,What were Kupka's two entries at the Salon d'Automne? ,Amorpha-Fugue à deux couleurs and Amorpha chromatique chaude,87630,13846,Cubism,squad_extractive
+349,What were the titles of Delaunay's paintings in 1912? ,"Simultaneous Windows,",87987,13896,Cubism,squad_extractive
+350,During what years did  Leger produce Contrasts of Forms? ,1913–14,88262,13935,Cubism,squad_extractive
+351,What two items did Duchamp attach together in 1913? ,a bicycle wheel to a kitchen stool,89290,14101,Cubism,squad_extractive
+352,What object did Duchamp select in 1914 as a scuplture by itself? ,bottle-drying rack,89348,14113,Cubism,squad_extractive
+353,"How many works displayed at The Salon de la Section d'Or at the Galerie La Boétie in Paris, October 1912?",Over 200,89907,14205,Cubism,squad_extractive
+354,What did the 1912 exhiibtion of Cubism show?,indicates the artists' intention of making their work comprehensible to a wide audience,90281,14266,Cubism,squad_extractive
+355,What did Christopher Green say of the difference between traditional cubist and Salon Cubists?,"It is by no means clear, in any case",90856,14358,Cubism,squad_extractive
+356,Whom did Braque and Picasso aim their works at? ,large public,91489,14454,Cubism,squad_extractive
+357,In Du Cubisme who so Metzinger and Gleizes  relate the sense of time to? ,Henri Bergson,91887,14510,Cubism,squad_extractive
+358,The Cubist used what kind of treatment of space and time?,The Salon Cubists,92049,14536,Cubism,squad_extractive
+359,What did the technique in Gliezes' piece Le Depiquage represent?,relative motion),93076,14690,Cubism,squad_extractive
+360,Which of Gliezes pieces was featured at Salon de la Section d'Or? ,Le Dépiquage des Moissons (Harvest Threshing),93157,14703,Cubism,squad_extractive
+361,Which 1907 piece did Picasso present in the show that introduced Cubism to the USA? ,Les Arbres,94229,14874,Cubism,squad_extractive
+362,What 1910 piece did Albert Gleizes present in that show that introduced Cubism to the USA? ,La Femme aux phlox,94585,14927,Cubism,squad_extractive
+363,What was the name of the 1909 Cubist sculpture Picassos created?,Head of a Woman,94940,14979,Cubism,squad_extractive
+364,What Douglas Cooper call Picasso's 1909 Cubist sculpture?,The first true Cubist sculpture,95063,14999,Cubism,squad_extractive
+365,Which  Alexander Archipenko piece was similar to other Cubist scupltures of that time?,Woman Walking,95376,15043,Cubism,squad_extractive
+366,What was the first time period that a significant change began to happen in Cubism?,1914 and 1916,95680,15090,Cubism,squad_extractive
+367,What was the second time period that a significant change began to happen in Cubism?,between 1917 and 1920,95883,15121,Cubism,squad_extractive
+368,What did the critic Maurice Raynal begin to refer to Cubism in around 1917-1920?,'crystal' Cubism,96185,15170,Cubism,squad_extractive
+369,Who's concept of duration was left  behind for a for more concrete frame's of references? ,Henri Bergson's,96346,15195,Cubism,squad_extractive
+370,With the assistance of what dealer did Cubism return as  a central consideration for artists after World War I?,Léonce Rosenberg,96563,15231,Cubism,squad_extractive
+371,Name the three writers who were in part resonsible for the reemergence of Cubism between 1917 and 1924.,"Pierre Reverdy, Maurice Raynal and Daniel-Henry Kahnweiler",97810,15423,Cubism,squad_extractive
+372,Name the three artists who were in part resonsible for the reemergence of Cubism between 1917 and 1924.,"Gris, Léger and Gleizes",97896,15435,Cubism,squad_extractive
+373,In 1918 which way did the French idealogies shift that effected Cubism?,conservatism,98344,15506,Cubism,squad_extractive
+374,What two things did Cubism in the early 20th century form an important link between?,art and architecture.,98901,15589,Cubism,squad_extractive
+375,In which four countries were the impacts of avant garde art particularly strong?,"France, Germany, the Netherlands and Czechoslovakia",99083,15610,Cubism,squad_extractive
+376,What are the four formal characteristics that are usually connected with Cubism?,"faceting of form, spatial ambiguity, transparency, and multiplicity.",99348,15649,Cubism,squad_extractive
+377,In Cubism what was architechtural interested base on?,the dissolution and reconstitution of three-dimensional form,99463,15663,Cubism,squad_extractive
+378,Who said that Cubism was becoming an influetial aspect in modern architecture ? ,Raymond Duchamp-Villon and André Mare,99858,15715,Cubism,squad_extractive
+379,The ideas of which Cubo Futurist influenced the avant-garde in architecture?,Filippo Tommaso Marinetti,100381,15796,Cubism,squad_extractive
+380,The De Stijl movement took part in the aesthetic principles of what?,Neo-plasticism,100528,15814,Cubism,squad_extractive
+381,Who developed Neo Plasticism? ,Piet Mondrian,100556,15817,Cubism,squad_extractive
+382,Who linked De Stijl to Cubist theory? ,Gino Severini,100638,15832,Cubism,squad_extractive
+383,Who did Le Corbusier open his Paris studio with in 1922?,his cousin Jeanneret,101284,15931,Cubism,squad_extractive
+384,What was La Maison Cubiste ?,a fully furnished house,102858,16171,Cubism,squad_extractive
+385,Which Metzinger piece was hung in La Maison Cubiste?,Woman with a Fan,103006,16193,Cubism,squad_extractive
+386,How big was the model of La Maison Cubiste? ,10-by-3-meter,103283,16238,Cubism,squad_extractive
+387,Is original Cubist architecture rare?,Cubist architecture is very rare,103659,16290,Cubism,squad_extractive
+388,Which country applied Cubism to architecture the most?,Bohemia (today Czech Republic,103789,16312,Cubism,squad_extractive
+389,What was for the form of architectural Cubism in Prague called?,Rondo-Cubism,104156,16368,Cubism,squad_extractive
+390,What was the essential piece Cubist architects explained in their theoretical rules? ,dynamism,104323,16391,Cubism,squad_extractive
+391,What feelings should Cubist architecture evoke in viewer?,dynamism and expressive plasticity,104459,16414,Cubism,squad_extractive
+392,What's  window shapes di Czech Cubist architects use? ,hexagonal,105070,16506,Cubism,squad_extractive
+393,Who were the leading Cubist architects? ,"Pavel Janák, Josef Gočár, Vlastislav Hofman, Emil Králíček and Josef Chochol",105181,16520,Cubism,squad_extractive
+394,What is the best known Cubist architecture building? ,House of the Black Madonna,105360,16548,Cubism,squad_extractive
+395,Where is the House of the Black Madonna located? ,Old Town of Prague,105394,16555,Cubism,squad_extractive
+396,Who built the House of the Black Madonna?,Vlastislav Hofman,105501,16576,Cubism,squad_extractive
+397,Did cubism influence other fields outside of painting and scuplture?,"The influence of cubism extended to other artistic fields,",105827,16626,Cubism,squad_extractive
+398,What was the title of Gertrude Stein's 1906-1908 book?,The Making of Americans,106142,16672,Cubism,squad_extractive
+399,What was Gertrude Stein's brother's name?,Leo,106266,16692,Cubism,squad_extractive
+400,Which poets are closely alligned with Cubism?,"Guillaume Apollinaire, Blaise Cendrars, Jean Cocteau, Max Jacob, André Salmon and Pierre Reverdy",106431,16718,Cubism,squad_extractive
+401,What is the name of the american Poet who is associated with talking about the rigiorous architecture of Cubism?,Kenneth Rexroth,106546,16734,Cubism,squad_extractive
+402,Which two American poets have recently created new traslations of Reverdy's work?,John Ashbery and Ron Padgett,107272,16840,Cubism,squad_extractive
+403,What is the name of Wallace Steven's work that explains how cubism can be translated into poetry? ,Thirteen Ways of Looking at a Blackbird,107378,16856,Cubism,squad_extractive
+404,What is the second busiest airport in Australia?,Melbourne Airport,107586,16888,Melbourne,squad_extractive
+405,What airport serves Melbourne?,Melbourne Airport (also called Tullamarine Airport),107586,16888,Melbourne,squad_extractive
+406,What passenger airport serves Melbourne?,Melbourne Airport (also called Tullamarine Airport),107586,16888,Melbourne,squad_extractive
+407,Which airport is the second busiest in Australia?,Melbourne Airport (also called Tullamarine Airport),107586,16888,Melbourne,squad_extractive
+408,What is another name Melbourne Airport is called?,Tullamarine Airport,107617,16892,Melbourne,squad_extractive
+409,What is another name for Melborne Airport?,Tullamarine Airport,107617,16892,Melbourne,squad_extractive
+410,What is Australia's busiest seaport for containerised and general cargo?,the Port of Melbourne,107685,16902,Melbourne,squad_extractive
+411,What is the busiest seaport in Melbourne?,Port of Melbourne,107689,16903,Melbourne,squad_extractive
+412,Which port in Melborne is the busiest seaport for containerised and general cargo?,Port of Melbourne,107689,16903,Melbourne,squad_extractive
+413,What is Melbourne's main regional train and coach terminus called?,Southern Cross Station,107936,16939,Melbourne,squad_extractive
+414,What is the main regional train and coach terminus in Melbourne?,Southern Cross Station,107936,16939,Melbourne,squad_extractive
+415,What is the name of the coach terminus in Melbourne?,Southern Cross Station,107936,16939,Melbourne,squad_extractive
+416,Between what year's did Victorian aboriginal groups dispossessed?,Between 1836 and 1842,108078,16960,Melbourne,squad_extractive
+417,During what years were Victorian Aboriginal groups largely displaced from their land?,Between 1836 and 1842,108078,16960,Melbourne,squad_extractive
+418,In 1844 how many Aborigines resident in squalid camps in Melbourne?,675,108218,16982,Melbourne,squad_extractive
+419,How many Aborigines were said to be resident in squalid camps in Melbourne in January 1844?,675,108218,16982,Melbourne,squad_extractive
+420,Who appointed five Aboriginal Protectors for the Aborigines of Victoria in 1839?,The British Colonial Office,108273,16990,Melbourne,squad_extractive
+421,By what year did fewer than 240 wealthy Europeans hold all the pastoral licenses?,1845,108496,17024,Melbourne,squad_extractive
+422,Who were the people that were power political and economic force in Victoria in 1845?,240 wealthy Europeans,108513,17027,Melbourne,squad_extractive
+423,How did Melbourne grow as major port for exporting the agricultural products?,gold mining,108774,17070,Melbourne,squad_extractive
+424,The Aboriginal population declined by what estimated percentage by 1863?,80%,109547,17189,Melbourne,squad_extractive
+425,What were some of the reasons the Aboriginal population continued to recline?,"introduced diseases, particularly smallpox, frontier violence and dispossession from their lands",109592,17197,Melbourne,squad_extractive
+426,"In 1863, why was Aboriginal population declining?","diseases, particularly smallpox, frontier violence and dispossession from their lands.",109603,17198,Melbourne,squad_extractive
+427,Which disease in particular caused the Aboriginal population to continue a decline?,smallpox,109626,17200,Melbourne,squad_extractive
+428,What is the second most populas city in Australia?,Oceania,109855,17234,Melbourne,squad_extractive
+429,Where is the Metropolis?,large natural bay of Port Phillip,110137,17281,Melbourne,squad_extractive
+430,What is the population of Melbourne?,"4,347,955 as of 2013",110358,17314,Melbourne,squad_extractive
+431,What was Melbourne's population in 2013?,"4,347,955",110358,17314,Melbourne,squad_extractive
+432,What are inhabitants of Melbourne called?,Melburnians,110411,17323,Melbourne,squad_extractive
+433,What are the inhabitants of Melbourne called?,Melburnians,110411,17323,Melbourne,squad_extractive
+434,During what decade did Melbourne suffer a sever economic depression?,early 1890s,110502,17337,Melbourne,squad_extractive
+435,What went into liquidation in Melbourne around the 1890's?,"16 small ""land banks"" and building societies collapsed, and 133 limited companies",110648,17361,Melbourne,squad_extractive
+436,How many limited companies went into liquidation during the 1890s depression in Melbourne?,133,110708,17370,Melbourne,squad_extractive
+437,When did Australia have a banking crisis?,1893.,110898,17398,Melbourne,squad_extractive
+438,When did new construction start in Melbourne?,late 1890s,111006,17416,Melbourne,squad_extractive
+439,When did new construction start to reimerge after the early 1890s depression in Melbourne?,late 1890s,111006,17416,Melbourne,squad_extractive
+440,Which ethninticities contributed an influx of interstate and overseas migrants to Melbourne?,"Irish, German and Chinese",111079,17426,Melbourne,squad_extractive
+441,What term is given to the slums established on the souther banks of the Yarra?,tent city,111158,17439,Melbourne,squad_extractive
+442,Which community is the longest continuous Chinese settlement in the Western World?,Melbourne Chinatown,111246,17452,Melbourne,squad_extractive
+443,During the second half of what century did the Burke and Wills expedition give an indication of immigration flows?,second half of the nineteenth century,111733,17524,Melbourne,squad_extractive
+444,When was the first electric light installed in the Eastern Market?,1881,112006,17567,Melbourne,squad_extractive
+445,In what year was the first line of the Melbourne cable tramway system built?,1885,112177,17594,Melbourne,squad_extractive
+446,What weather phrase has become part of local popular culture in Melbourne and concerns the city's rapid change in weather?,four seasons in one day,112859,17710,Melbourne,squad_extractive
+447,What is the lowest temperature on Melbourne's record?,−2.8 °C (27.0 °F),113011,17737,Melbourne,squad_extractive
+448,On what date did the lowest temperature in Melbourne's records occur?,21 July 1869,113033,17742,Melbourne,squad_extractive
+449,What is Melbourne's highest temperature recorded?,46.4 °C (115.5 °F),113102,17753,Melbourne,squad_extractive
+450,On what date was Melbourne's highest temperature recorded?,7 February 2009,113125,17758,Melbourne,squad_extractive
+451,What is the tallest tower in Australia?,Eureka Tower,113531,17823,Melbourne,squad_extractive
+452,Which tower is Melbourne's second tallest?,The Rialto,113668,17846,Melbourne,squad_extractive
+453,What building is the tallest building in the old CBD?,The Rialto tower,113668,17846,Melbourne,squad_extractive
+454,To what areas has Melbourne dedicated substantial international investment?,industries and property market,113972,17889,Melbourne,squad_extractive
+455,In what areas has major inner-city urban renewal occurred?,"Southbank, Port Melbourne, Melbourne Docklands and more recently, South Wharf",114065,17903,Melbourne,squad_extractive
+456,Melbourne has sustained the highest population increase and economic growth rate in any Australian city according to what organization?,Australian Bureau of Statistics,114161,17916,Melbourne,squad_extractive
+457,What is generating high demand for housing in Melbourne?,high population growth,114459,17959,Melbourne,squad_extractive
+458,What types of surburban development did Melbourne policies promote?,medium-density and high-density,114814,18012,Melbourne,squad_extractive
+459,Which of Melbourne's suburbs have seen significant brownfields redevelopment in recent years?,middle and outer-ring,114948,18029,Melbourne,squad_extractive
+460,Who was Melbourne named by?,"the Governor of New South Wales, Sir Richard Bourke",115250,18079,Melbourne,squad_extractive
+461,Who was Melbourne named in honor of?,"the British Prime Minister of the day, William Lamb, 2nd Viscount Melbourne",115316,18091,Melbourne,squad_extractive
+462,What year was Melbourne officially declared a city?,1847,115448,18113,Melbourne,squad_extractive
+463,By what year did Melbourne state it wished to be completely carbon neutral?,2020,115905,18192,Melbourne,squad_extractive
+464,Which city notably opted not to become carbon neutral in 2009?,City of Glen Eira,116043,18211,Melbourne,squad_extractive
+465,Who is responsible for regulating pollution in Melbourne?,EPA Victoria and several local councils,117425,18427,Melbourne,squad_extractive
+466,Who designed the Rialto Building in 1889? ,William Pitt,118007,18523,Melbourne,squad_extractive
+467,Who designed the Winfield Building in 1890?,Charles D'Ebro and Richard Speight,118065,18532,Melbourne,squad_extractive
+468,Which building was listed as the 13th tallest residential building in the world in January 2014?,Eureka Tower,118177,18548,Melbourne,squad_extractive
+469,Current central and northern Melbourne was explored by whom?,John Batman,118377,18583,Melbourne,squad_extractive
+470,Tasmania was formerly known as what?,Van Diemen's Land,118442,18594,Melbourne,squad_extractive
+471,How many acres did John Batman claim to purchase?,"600,000",118530,18609,Melbourne,squad_extractive
+472,On what date did Batman reach Melbourne?,2 September 1835,119221,18722,Melbourne,squad_extractive
+473,What is locally referred to as the Australian Dream?,quarter acre home and garden,119440,18760,Melbourne,squad_extractive
+474,Which year marked the start of the private automobile's popularity increase?,1945,119605,18785,Melbourne,squad_extractive
+475,Is much of Melbourne's metropolitan area characterized as low-density sprawl or high-density sprawl?,low density,119765,18809,Melbourne,squad_extractive
+476,"Do the Docklands, St. Kilda Road, and Southbank areas feature high-density or low-density forms?",high-density,119952,18834,Melbourne,squad_extractive
+477,"When Victoria was established as a seperate colony, the need for what followed?",public buildings,120130,18864,Melbourne,squad_extractive
+478,"During what two decades were the Parliament House, Treasury Building, Victoria Barracks, State Library, and General Post Office commenced?",1850s and 1860s,120202,18875,Melbourne,squad_extractive
+479,Which writer's festival is home to Melbourne?,Melbourne Writers Festival,120963,18988,Melbourne,squad_extractive
+480,"What type of work are The Mystery of a Hansom Cab, Monkey Grip, and The Slap?",novels,121149,19013,Melbourne,squad_extractive
+481,"What do the novels The Mystery of a Hansom Cab, Monkey Grip, and The Slap have in common?",set in Melbourne,121156,19014,Melbourne,squad_extractive
+482,"What occupation to Peter Carey, Germaine Greer, and Thomas Browne hold?",writers and poets,121292,19036,Melbourne,squad_extractive
+483,Which phrase was coined by George Augustus Henry Sala during a visit to Melbourne in 1885?,Marvellous Melbourne,121483,19067,Melbourne,squad_extractive
+484,In what year did the land boom reach its peak of development?,1888,121654,19092,Melbourne,squad_extractive
+485,What did Melbourne's hydraulic facilities help create that spurred high-rise developments?,elevators,121980,19141,Melbourne,squad_extractive
+486,In what year was the APA Building completed?,1889,122150,19164,Melbourne,squad_extractive
+487,For how many years has Melbourne been considered the world's most liveable city?,fifth year in a row,122399,19200,Melbourne,squad_extractive
+488,Melbourne is the world's most liveable city according to whom?,Economist Intelligence Unit,122445,19210,Melbourne,squad_extractive
+489,What is one example of Australian contemporary dance?,Melbourne Shuffle,122838,19268,Melbourne,squad_extractive
+490,Has there been a recent increase or decrease in international students studying in Melbourne?,rapid increase,123422,19362,Melbourne,squad_extractive
+491,In what year were height limits lifted in the Melbourne CBD?,1958,123992,19444,Melbourne,squad_extractive
+492,Which was the first new indoor mall in Melbourne?,Chadstone Shopping Centre,124186,19471,Melbourne,squad_extractive
+493,Which two areas saw a significant renewal after the post-war period and significantly modernised the city?,CBD and St Kilda Road,124265,19484,Melbourne,squad_extractive
+494,What happened to many of the larger suburban mansions from the boom era?,demolished or subdivided,124554,19530,Melbourne,squad_extractive
+495,"Previous to Melbourne, where were all Olympic games held?",Europe and the United States,124755,19563,Melbourne,squad_extractive
+496,"In what three years was Melbourne proclaimed the ""World's Ultimate Sports City""?","2006, 2008 and 2010",125313,19651,Melbourne,squad_extractive
+497,Where did the National Sports Museum reopen in 2008?,Olympic Stand,125500,19684,Melbourne,squad_extractive
+498,What was the first plan for the city in 1837 called?,the Hoddle Grid,125878,19744,Melbourne,squad_extractive
+499,What was the settlement originally named?,Batmania,125929,19753,Melbourne,squad_extractive
+500,On what date did the official general post office open?,13 April 1837,126164,19788,Melbourne,squad_extractive
+501,What is the name given to Melbourne's population strategy that was revised in 2008? ,Melbourne @ Five Million strategy,126502,19843,Melbourne,squad_extractive
+502,Was Melbourne more or less affected by the Late-2000s financial crisis in comparison to other Australian cities?,less affected,126560,19852,Melbourne,squad_extractive
+503,"After Melbourne, which were the next two fastest growing Australian cities in 2009?",Brisbane and Perth,126791,19889,Melbourne,squad_extractive
+504,Which market in Melbourne remained strong during the Late-2000s financial crisis and resulted in historically high property prices and rent increases?,property market,126837,19895,Melbourne,squad_extractive
+505,Which two of the big four banks are headquartered in Melbourne?,NAB and ANZ,127025,19922,Melbourne,squad_extractive
+506,Which south-eastern suburb is home to Nintendo's Australian headquarters?,Scoresby,127914,20053,Melbourne,squad_extractive
+507,Melbourne is home to a research and development hub for which auto manufacturer?,Ford Australia,128026,20070,Melbourne,squad_extractive
+508,In what two decades was the layout of Melbourne's inner suburbs established?,1850s and 1860s,128331,20119,Melbourne,squad_extractive
+509,"In what year did the Melbourne Cricket Club secure possession of its now famous ground, the MCG?",1855,128699,20180,Melbourne,squad_extractive
+510,"Around what year did Yarra rowing clubs and ""regattas"" become popular?",1859,128856,20204,Melbourne,squad_extractive
+511,In what year was the Melbourne Cup first run?,1861,128939,20218,Melbourne,squad_extractive
+512,What was the first public monumnet acquired in Melbourne in 1864?,the Burke and Wills statue,129030,20233,Melbourne,squad_extractive
+513,What percentage of Melburnians speak only English at home?,68.1%,129118,20247,Melbourne,squad_extractive
+514,The Melbourne statistical division population has grown by how many people each year since 2005?,"70,000",129450,20292,Melbourne,squad_extractive
+515,What factors make Melbourne more attractie than Sydney for overseas immigrants?,more affordable housing and cost of living,129738,20332,Melbourne,squad_extractive
+516,What is Melbourne's Koppen climate classification?,Cfb,129856,20348,Melbourne,squad_extractive
+517,Is Melbourne known for changeable or steady weather patterns?,changeable,129887,20355,Melbourne,squad_extractive
+518,What is one cause for Melbourne's fluctuating weather patterns?,Melbourne's location situated on the boundary of the very hot inland areas and the cool southern ocean,129940,20363,Melbourne,squad_extractive
+519,During which seasons are Melbourne's temperature differentials most pronounced?,spring and summer,130100,20388,Melbourne,squad_extractive
+520,"Which type of weather fronts are responsible for severe weather such as gales, thunderstorms, hail, and heavy rain in Melbourne?",cold fronts,130178,20402,Melbourne,squad_extractive
+521,Which government project aimed to deepen Melbourne ports by dredging?,the Port Phillip Channel Deepening Project,130479,20447,Melbourne,squad_extractive
+522,Why was the Port Phillip Channel Deppening Project subject to controversy and strict regulations?,fears that beaches and marine wildlife could be affected,130582,20461,Melbourne,squad_extractive
+523,What causes increased pollution and levels of bacteria such as E. coli to rise in the Yarra River and its tributaries?,"septic systems, as well as litter",130844,20502,Melbourne,squad_extractive
+524,Up to how many cigarette butts enter the storm water runoff every day in Melbourne?,"350,000",130885,20510,Melbourne,squad_extractive
+525,What initiative was launched in Melbourne in February 2010 as an effort to transition human society towards sustainability?,The Transition Decade,131045,20534,Melbourne,squad_extractive
+526,Investment in what greatly accelerated the outward suburban sprawn and declining inner city population?,freeway and highway developments,131562,20608,Melbourne,squad_extractive
+527,Did the rapid rise of motor vehicle ownership and highway developments lead to an increasing or declining inner city population?,declining,131647,20619,Melbourne,squad_extractive
+528,Which government sought to rapidly accelerate the modernisation of Melbourne?,Bolte,131684,20624,Melbourne,squad_extractive
+529,The widening of what street helped to change the face of Melbourne into a car-dominated environment?,Hoddle Street,131846,20647,Melbourne,squad_extractive
+530,Did the 1969 Melbourne Transportation Plan change Melbourne into a more car-dominated or tram-dominated environment?,car-dominated,131954,20665,Melbourne,squad_extractive
+531,During which financial year did the Melbourne rail network record its highest volume of passenger trips?,2013–2014,132722,20782,Melbourne,squad_extractive
+532,How often does the XPT to Sydney depart?,twice a day,133023,20830,Melbourne,squad_extractive
+533,Which university maintains two major campuses in Melbourne and Geelong and is the third largest university in Victoria?,Deakin University,133557,20913,Melbourne,squad_extractive
+534,Who oversees education in Melbourne?,Victorian Department of Education and Early Childhood Development (DEECD),133915,20968,Melbourne,squad_extractive
+535,What is the role of the DEECD?,'provide policy and planning advice for the delivery of education,134007,20981,Melbourne,squad_extractive
+536,Why is urban Melbourne divided into hundreds of suburbs?,addressing and postal purposes,134772,21103,Melbourne,squad_extractive
+537,Is Port Phillip generally warmer or colder than the surrounding oceans and/or the land mass?,warmer,134925,21126,Melbourne,squad_extractive
+538,Which suburbs usually are affected by relatively narrow streams of heavy showers?,eastern suburbs,135240,21178,Melbourne,squad_extractive
+539,Approximately how many sunny days does Melbourne receive annually?,48.6,135656,21243,Melbourne,squad_extractive
+540,What is the range of Melbourne's dewpoint temperatures in the summer?,9.5 °C (49.1 °F) to 11.7 °C (53.1 °F),135729,21254,Melbourne,squad_extractive
+541,Which act sets functions for Melbourne such as urban planning and waste management?,Local Government Act 1989,135847,21276,Melbourne,squad_extractive
+542,From where does the Victorian state government operate?,Parliament House in Spring Street,136029,21303,Melbourne,squad_extractive
+543,What are the dimensions of the Hoddle Grid?,1 by 1⁄2 mile (1.61 by 0.80 km),136517,21369,Melbourne,squad_extractive
+544,What is the name of a popular arcade located within the Hoddle Grid?,Royal Arcade,136950,21440,Melbourne,squad_extractive
+545,What style of architecture is the A.C. Goode House?,Neo Gothic,137438,21513,Melbourne,squad_extractive
+546,On which street is the A.C. Goode House located?,Collins Street,137469,21518,Melbourne,squad_extractive
+547,Who designed the A.C. Goode House?,"Wright, Reed & Beaver",137496,21522,Melbourne,squad_extractive
+548,What are the two most popular sports in Melbourne?,Australian rules football and cricket,137855,21574,Melbourne,squad_extractive
+549,When was the first official Test cricket match played at the Melbourne Cricket Ground?,March 1877,138087,21612,Melbourne,squad_extractive
+550,Where is the Australian Football League headquartered?,Docklands Stadium,138248,21639,Melbourne,squad_extractive
+551,How many of the Australian Football League's teams are based in the Melbourne metropolitan area?,Nine,138267,21641,Melbourne,squad_extractive
+552,Which port is Australia's largest container and general cargo port?,The Port of Melbourne,138690,21703,Melbourne,squad_extractive
+553,Which is Australia's busiest port?,The Port of Melbourne,138690,21703,Melbourne,squad_extractive
+554,"How many shipping containers did the Port of Melbourne handle during a 12-month period in 2007, making it one of the top five ports in the Southern Hemisphere?",two million,138807,21722,Melbourne,squad_extractive
+555,Where is Station Pier located?,Port Phillip Bay,138953,21747,Melbourne,squad_extractive
+556,How far upstream to water taxis run along the Yarra River?,South Yarra,139191,21788,Melbourne,squad_extractive
+557,How many people are employed by the ICT industry in Melbourne?,"60,000",139475,21830,Melbourne,squad_extractive
+558,What percentage of Australia's ICT workforce is imployed in Melbourne's ICT industry?,one third,139490,21833,Melbourne,squad_extractive
+559,How many international visitors did Melbourne have in 2004?,1.88 million,139720,21868,Melbourne,squad_extractive
+560,Domestic visitors spend about how much money in the city of Melbourne annually?,$15.8 billion,139889,21894,Melbourne,squad_extractive
+561,"According to the first scenario projected by the ABS, how soon could Melbourne overtake Sydney's population level?",2037 or 2039,140773,22024,Melbourne,squad_extractive
+562,Melbourne's population could overtake that of Sydney by 2037 or 2039 primarily due to what factor?,larger levels of internal migration losses assumed for Sydney,140858,22039,Melbourne,squad_extractive
+563,Which theatre was Melbourne's first live performance institution?,Pavilion,141109,22076,Melbourne,squad_extractive
+564,In what year did the Pavilion open?,1841,141130,22079,Melbourne,squad_extractive
+565,"The Princess Theatre, Regent Theatre, and Forum Theatre are members of which of Melbourne's theater districts?",East End Theatre District,141147,22082,Melbourne,squad_extractive
+566,How many free-to-air television stations service Greater Melbourne and Geelong?,Six,142006,22213,Melbourne,squad_extractive
+567,From where is C31 broadcast?,transmitters at Mount Dandenong and South Yarra,142348,22260,Melbourne,squad_extractive
+568,What type of companies are Broadsheet and ThreeThousand?,Hybrid digital/print media,142397,22267,Melbourne,squad_extractive
+569,When did Melbourne Heart become known as Melbourne City FC?,June 2014,142826,22326,Melbourne,squad_extractive
+570,Where does the soccer club Melbourne Victory play home games?,Etihad Stadium,142988,22354,Melbourne,squad_extractive
+571,Which basketball club in Melbourne plays in the NBL?,Melbourne United,143324,22401,Melbourne,squad_extractive
+572,What are Melbourne's two ice hockey teams named?,Melbourne Ice and Melbourne Mustangs,143458,22422,Melbourne,squad_extractive
+573,"How many private vehicles travel Melbourne's 13,870 miles of road?",3.6 million,144112,22527,Melbourne,squad_extractive
+574,Which freeway spans the large Bolte Bridge?,CityLink,144895,22654,Melbourne,squad_extractive
+575,Which freeway links Melbourne and Sydney?,Hume Freeway,145039,22675,Melbourne,squad_extractive
+576,What have Postcode 3000 and Melbourne 2030 aimed to do?,curtail urban sprawl,145332,22723,Melbourne,squad_extractive
+577,"According to the Australian Bureau of Statistics as of June 2013, inner city Melbourne had a population density of how many people per km2?","12,400",145481,22746,Melbourne,squad_extractive
+578,How many people did Carlton have per km2 between 2012 and 2013?,"9,000",145613,22766,Melbourne,squad_extractive
+579,How many people did Fitzroy have per km2 between 2012 and 2013?,"7,900",145648,22772,Melbourne,squad_extractive
+580,"Neighbours, Kath & Kim, Winners and Losers, Offspring, and Underbelly are examples of what kind of media produced in Melbourne?",Television shows,145657,22772,Melbourne,squad_extractive
+581,Which national news-based programs are based in Melbourne?,"The Project, Insiders and ABC News Breakfast",145892,22805,Melbourne,squad_extractive
+582,"Where are Dancing with the Stars, MasterChef, and The Block filmed?",in and around Melbourne,146246,22861,Melbourne,squad_extractive
+583,Which airport is the city's main international and domestic gateway?,Melbourne Airport,146301,22869,Melbourne,squad_extractive
+584,Which airport is the second busiest in all of Australia?,Melbourne Airport,146301,22869,Melbourne,squad_extractive
+585,What are the only forms of public transport to and from the city's main airports?,Buses and taxis,146769,22942,Melbourne,squad_extractive
+586,"In the 1940s, what percentage of travellers used public transport?",25%,147537,23058,Melbourne,squad_extractive
+587,"In 2003, what percentage of travellers used public transport?",7.6%,147613,23072,Melbourne,squad_extractive
+588,Who manages the water storage and supply for Melbourne?,Melbourne Water,148195,23164,Melbourne,squad_extractive
+589,Who owns Melbourne Water?,the Victorian Government,148230,23170,Melbourne,squad_extractive
+590,Which is Melbourne's largest dam?,Thomson River Dam,148553,23220,Melbourne,squad_extractive
+591,Where is the Thomson River Dam located?,Victorian Alps,148587,23226,Melbourne,squad_extractive
+592,How much of Melbourne's water capacity is the Thomson River Dam capable of holding?,60%,148632,23233,Melbourne,squad_extractive
+593,How much did Melbourne's population increase within months of the gold rush?,"three-quarters, from 25,000 to 40,000 inhabitants",149043,23299,Melbourne,squad_extractive
+594,By what year had Melbourne overtaken Sydney as Australia's most populous city?,1865,149136,23311,Melbourne,squad_extractive
+595,Melbourne and which other regional cities became the wealthiest cities in the world during the Gold Rush era?,Ballarat and Geelong,149276,23330,Melbourne,squad_extractive
+596,On what date was the first federal parliament convened?,9 May 1901,149527,23371,Melbourne,squad_extractive
+597,Where was the first federal parliament convened in 1901?,Royal Exhibition Building,149545,23376,Melbourne,squad_extractive
+598,Where was the federal parliament moved after 1927?,Canberra,149680,23397,Melbourne,squad_extractive
+599,During which years did Melbourne experience an economic downturn?,1989 to 1992,149962,23436,Melbourne,squad_extractive
+600,Which government in 1992 began a campaign to revive the economy?,Kennett,150066,23452,Melbourne,squad_extractive
+601,The Australian Grand Prix moved to Melbourne from where?,Adelaide,150362,23500,Melbourne,squad_extractive
+602,Which body of water and township of the same name marks the border between Melbourne and Geelong?,Little River,151477,23672,Melbourne,squad_extractive
+603,Has Melbourne's air quality improved or declined since the 1980s?,improved significantly,151643,23698,Melbourne,squad_extractive
+604,What factors deplete Melbourne water supplies?,"Drought in Victoria, low rainfalls and high temperatures",151942,23743,Melbourne,squad_extractive
+605,Which government announced a $3.1 billion Wonthaggi desalination plant in June 2007?,Bracks Government,152474,23822,Melbourne,squad_extractive
+606,How many litres of water will the Wonthaggi desalination plant be capbale of treating per year?,150 billion litres,152618,23842,Melbourne,squad_extractive
+607,Which factors make Melbourne one of the moust vibrant destinations in Australia?,"The climate, waterfront location and nightlife",153299,23945,Melbourne,squad_extractive
+608,What is Australia's largest free community festival?,Moomba,153780,24025,Melbourne,squad_extractive
+609,How many international overnight visitors came to Melbourne during the year ending March 2014?,just under two million,154017,24056,Melbourne,squad_extractive
+610,How many domestic overnight visitors came to Melbourne during the year ending March 2014?,57.7 million,154077,24064,Melbourne,squad_extractive
+611,What was the world's first feature film?,The Story of the Kelly Gang,154153,24075,Melbourne,squad_extractive
+612,Why were films banned by Victorian politicans in 1912?,perceived promotion of crime,154368,24110,Melbourne,squad_extractive
+613,"In what ""lull"" year was On the Beach filmed?",1959,154583,24146,Melbourne,squad_extractive
+614,Is residential architecture in Melbourne defined by a single architectural style or an eclectic mix of buildings?,single architectural style,155316,24251,Melbourne,squad_extractive
+615,"Are townhouses, condominiums, and apartment buildings found more prevalent in the metropolitan area or outside the city?",metropolitan area (particularly in areas of urban sprawl),155439,24268,Melbourne,squad_extractive
+616,What are the most common type of housing outside inner city Melbourne?,Free standing dwellings with relatively large gardens,155498,24276,Melbourne,squad_extractive
+617,In which areas does Melbourne's diversified economy have strengths?,"finance, manufacturing, research, IT, education, logistics, transportation and tourism",155851,24325,Melbourne,squad_extractive
+618,Which company is the world's largest mining company?,BHP Billiton,156170,24370,Melbourne,squad_extractive
+619,How much money in trade does Australia's largest and busiest seaport handle?,$75 billion,156623,24437,Melbourne,squad_extractive
+620,Which city in Greece is Melbourne's sister city?,Thessaloniki,156987,24489,Melbourne,squad_extractive
+621,What is the secondmost common surname in Melbourne's phone book?,Nguyen,157057,24498,Melbourne,squad_extractive
+622,Which Melbourne based university has campuses in Malaysia?,Swinburne University,157455,24553,Melbourne,squad_extractive
+623,Which university is the second oldest in Australia?,The University of Melbourne,157560,24569,Melbourne,squad_extractive
+624,What is the Group of Eight?,a coalition of leading Australian tertiary institutions offering comprehensive and leading education,158011,24639,Melbourne,squad_extractive
+625,What are examples of Youth radio stations?,ABC Triple J and youth run SYN,158551,24721,Melbourne,squad_extractive
+626,Which music stations strive to play under represented music?,"Triple J, and similarly PBS and Triple R",158583,24728,Melbourne,squad_extractive
+627,"Which radio station caters for gay, lesbian, bisexual, and transgender audiences?",JOY 94.9,158665,24742,Melbourne,squad_extractive
+628,Which station caters to sports fans and enthusiasts?,SEN 1116,159009,24797,Melbourne,squad_extractive
+629,What are the origins of Melbourne's tram network?,the city's 1880s land boom,159286,24840,Melbourne,squad_extractive
+630,How many passenger trips were made by tram in Melbourne between 2013-2014?,176.9 million,159328,24847,Melbourne,squad_extractive
+631,How many tram stops are on Melbourne's tram network?,"1,763",159528,24882,Melbourne,squad_extractive
+632,How many routes does Melbourne's bus network consist of?,almost 300,160199,24993,Melbourne,squad_extractive
+633,How many passenger trips were recorded on Melbourne's buses in 2013-2014,127.6 million,160321,25014,Melbourne,squad_extractive
+634,Who are Windows main operating system competitors?,Android and iOS,160661,25065,Windows_8,squad_extractive
+635,What can be found on the Start screen?,displays programs and dynamically updated content on a grid of tiles,160818,25087,Windows_8,squad_extractive
+636,What services does the Windows Store provide?,an online store for downloading and purchasing new software,161082,25127,Windows_8,squad_extractive
+637,What new security features does Windows 8 have?,"built-in antivirus software, integration with Microsoft SmartScreen phishing filtering service and support for UEFI Secure Boot",161311,25160,Windows_8,squad_extractive
+638,What about Windows 8 was well received?,"its performance improvements, security enhancements, and improved support for touchscreen devices",161613,25202,Windows_8,squad_extractive
+639,What were the perceived problems with the new Windows 8 user interface?,being potentially confusing and difficult to learn,161798,25227,Windows_8,squad_extractive
+640,How many Windows 8 licenses were purchased by January 2013?,60 million,161952,25249,Windows_8,squad_extractive
+641,When did Microsoft start creating Windows 8?,before Windows 7 had shipped in 2009,162119,25277,Windows_8,squad_extractive
+642,Where were the Windows 8 plans initially announced?,Consumer Electronics Show,162164,25286,Windows_8,squad_extractive
+643,Who is Windows division president?,Steven Sinofsky,162411,25322,Windows_8,squad_extractive
+644,Who is Microsofts CEO?,Steve Ballmer,162509,25337,Windows_8,squad_extractive
+645,What is jupiter?,new application framework for Windows 8,162665,25362,Windows_8,squad_extractive
+646,When was Milestone 1 divulged?,"April 12, 2011",163029,25418,Windows_8,squad_extractive
+647,What was special about Milestone 1?,It was the first build where the text of a window was written centered,163045,25421,Windows_8,squad_extractive
+648,When was Milestone 2 divulged?,"April 25, 2011",163499,25501,Windows_8,squad_extractive
+649,What does BSoD stand for?,Blue Screen of Death,163531,25506,Windows_8,squad_extractive
+650,When was Build 7959 divulged?,"May 1, 2011",163760,25545,Windows_8,squad_extractive
+651,What 3 versions of the build did Microsoft first release?,"standard 32-bit and 64-bit versions, plus a special 64-bit version which included SDKs and developer tools",164295,25634,Windows_8,squad_extractive
+652,What developer tools did the build have?,Visual Studio Express and Expression Blend,164403,25651,Windows_8,squad_extractive
+653,How many downloads occured in the first 12 hours?,"535,000",164615,25681,Windows_8,squad_extractive
+654,When was the Developer preview initially intended to expire?,"March 11, 2012",164728,25700,Windows_8,squad_extractive
+655,When did the developer preview expire?,"January 15, 2013",164812,25714,Windows_8,squad_extractive
+656,When was the beta version of Windows 8 made available to the public?,"February 29, 2012",164834,25718,Windows_8,squad_extractive
+657,Who is the Windows Manager?,Chaitanya Sareen,165099,25761,Windows_8,squad_extractive
+658,How many things were altered after developer version release?,"100,000",165324,25798,Windows_8,squad_extractive
+659,How many times was the Consumer Preview downloaded in the first 24 hours?,over one million times,165469,25821,Windows_8,squad_extractive
+660,When was the Consumer Preview set to expire?,"January 15, 2013",165553,25834,Windows_8,squad_extractive
+661,What was the build number of the Windows 8 Release Preview?,8400,165718,25858,Windows_8,squad_extractive
+662,When was the Windows 8 Release Preview accidentally revealed?,"May 28, 2012",165776,25869,Windows_8,squad_extractive
+663,When was the Release Preview revealed to consumers?,"May 31, 2012",165963,25896,Windows_8,squad_extractive
+664,What were the main components of the Release preview?,"addition of Sports, Travel, and News apps, along with an integrated version of Adobe Flash Player",166092,25918,Windows_8,squad_extractive
+665,When was the release preview set to expire?,"January 15, 2013",166296,25950,Windows_8,squad_extractive
+666,When did Windows 8 manufacturing begin?,"August 1, 2012",166318,25954,Windows_8,squad_extractive
+667,What was the final build Microsoft decided to manufacture?,9200,166351,25960,Windows_8,squad_extractive
+668,When was Microsoft supposed to officially launch Windows 8?,"October 25, 2012",166470,25979,Windows_8,squad_extractive
+669,What version of Windows 8 is Enterprise N?,a version for European markets lacking bundled media players,166662,26014,Windows_8,squad_extractive
+670,When were Software Assurance consumers allowed access to Windows 8?,"August 16, 2012",167018,26073,Windows_8,squad_extractive
+671,How many things did Microsoft alter after Release Preview?,Relatively few,167162,26095,Windows_8,squad_extractive
+672,What name did Windows Explorer change to?,File Explorer,167334,26122,Windows_8,squad_extractive
+673,When was the General Availablity Cumulative Update provided?,"October 9, 2012",167812,26197,Windows_8,squad_extractive
+674,How are system improvements released through Windows 8?,through Windows Update,167976,26221,Windows_8,squad_extractive
+675,When did Microsoft begin promoting Windows 8?,October 2012,168151,26248,Windows_8,squad_extractive
+676,How much money was allocated to advertise Windows 8?,$1.5–1.8 billion,168282,26266,Windows_8,squad_extractive
+677,How much money was allocated to advertise Windows 95?,$200 million,168335,26273,Windows_8,squad_extractive
+678,What is the name of the character Microsoft used to make Windows 8 seem more personable?,Allison Brown,168812,26346,Windows_8,squad_extractive
+679,Who did Windows 8 mock in their television campaign?,the iPad,169117,26390,Windows_8,squad_extractive
+680,When was the first game of the 2013 Stanley Cup Finals?,"June 12, 2013",169250,26413,Windows_8,squad_extractive
+681,What was the name of the Windows 8 advertising campaign?,Windows Everywhere,169351,26433,Windows_8,squad_extractive
+682,What three things did the Windows Everywhere campaign emphasize on?,"Windows 8, Windows Phone 8, and the company's suite of online services",169396,26437,Windows_8,squad_extractive
+683,What happens during Hybrid Boot mode?,hibernates the Windows kernel on shutdown to speed up the subsequent boot,169631,26474,Windows_8,squad_extractive
+684,What features were added to the lock screen?,clock and notifications,169732,26492,Windows_8,squad_extractive
+685,What is Windows to Go?,live USB versions of Windows,169804,26503,Windows_8,squad_extractive
+686,What are the benefits of USB 3.0?,faster data transfers and improved power management,169931,26526,Windows_8,squad_extractive
+687,What is the point of near field communications?,to facilitate sharing and communication between devices,170099,26551,Windows_8,squad_extractive
+688,What is the new name of Windows Explorer?,File Explorer,170198,26564,Windows_8,squad_extractive
+689,What replaced the Windows Explorer comman bar?,a ribbon,170226,26568,Windows_8,squad_extractive
+690,What did the update of operation dalog boxes help with?,"provide more detailed statistics, the ability to pause file transfers, and improvements in the ability to manage conflicts when copying files",170313,26584,Windows_8,squad_extractive
+691,What does file history make possible?,allows incremental revisions of files to be backed up to and restored from a secondary storage device,170486,26610,Windows_8,squad_extractive
+692,What is the point of using different colors on a heat map?,indicating the level of resource usage,170956,26683,Windows_8,squad_extractive
+693,What are some of the process type groups Windows 8 implemented?,"applications, background processes and Windows processes",171054,26698,Windows_8,squad_extractive
+694,How can users find out more about obscure Windows 8 processes?,search the web,171181,26716,Windows_8,squad_extractive
+695,What changes were made to the BSoD?,a simpler and modern design with less technical information displayed,171302,26735,Windows_8,squad_extractive
+696,What were the new security features in Windows 8 geared at?,touchscreens,171465,26758,Windows_8,squad_extractive
+697,What new security features did Windows 8 provide?,PINs and picture passwords,171479,26760,Windows_8,squad_extractive
+698,What options do Parental controls provide?,allows parents to monitor and manage their children's activities on a device with activity reports and safety controls,171720,26790,Windows_8,squad_extractive
+699,What new recovery options did Windows 8 implement?,"""Refresh"" and ""Reset"" functions, including system recovery from USB drive",171907,26818,Windows_8,squad_extractive
+700,When was the first Windows 8 patch sent out?,"November 13, 2012",172038,26837,Windows_8,squad_extractive
+701,How does secure boot help avert boot process infections?,uses a public-key infrastructure to verify the integrity of the operating system,172206,26864,Windows_8,squad_extractive
+702,What requirements do Microsoft certified devices have?,"must have secure boot enabled by default, and provide ways for users to disable or re-configure the feature",172455,26900,Windows_8,squad_extractive
+703,What service options does Windows online now offer?,can be used to access services and synchronize applications and settings between devices.,172789,26953,Windows_8,squad_extractive
+704,What is SkyDrive?,cloud storage service,172943,26977,Windows_8,squad_extractive
+705,What Xbox apps were bundled together?,"Xbox Music, Xbox Video, and the Xbox SmartGlass",173211,27020,Windows_8,squad_extractive
+706,What features does Xbox Live hub offer?,allows users to view their profile and gamerscore,173361,27047,Windows_8,squad_extractive
+707,When was Facebook support turned off?,"June 8, 2015",173580,27081,Windows_8,squad_extractive
+708,What forms is Internet Exploer 10 available as?,a desktop program and a touch-optimized app,173636,27091,Windows_8,squad_extractive
+709,What improvements were made to Internet Explorer?,"increased support for HTML5, CSS3, and hardware acceleration",173694,27100,Windows_8,squad_extractive
+710,What limitations were put on Adobe flash to begin with?,"a ""Compatibility View"" whitelist",173984,27146,Windows_8,squad_extractive
+711,Where can Adobe Flash now be used?,most sites by default,174241,27185,Windows_8,squad_extractive
+712,What are some connection settings in Windows 8?,APNs and carrier branding,174511,27224,Windows_8,squad_extractive
+713,What does airplone mode do?,disable all wireless connectivity,174689,27252,Windows_8,squad_extractive
+714,Who is Jensen Harris?,Microsoft developer,175020,27302,Windows_8,squad_extractive
+715,What makes Windows Store apps unique?,apps are to be optimized for touchscreen environments and are more specialized than current desktop applications.,175061,27307,Windows_8,squad_extractive
+716,What are contracts?,collection of hooks to provide common functionality that can integrate with other apps,175397,27363,Windows_8,squad_extractive
+717,What apps can one expect the People app to match with?,"Facebook, Skype, and People service",175674,27406,Windows_8,squad_extractive
+718,What apps can one expect the Photos app to match with?,Facebook and Flickr,175776,27422,Windows_8,squad_extractive
+719,What programming languages does Windows Runtime work with?,"C, C++, Visual Basic .NET, C#, along with HTML5 and JavaScript",175917,27445,Windows_8,squad_extractive
+720,What makes Windows apps binary code compatible?,"If written in some ""high-level"" languages",175981,27456,Windows_8,squad_extractive
+721,What does compiling components as Windows Runtime make possible?,permitting consumption by all compatible languages,176225,27493,Windows_8,squad_extractive
+722,What kind of environment provides Windows apps extra security?,sandboxed environment,176329,27508,Windows_8,squad_extractive
+723,How do devices with Windows 8 Enterprise attain apps outside of the Windows Store?,sideload apps,176688,27561,Windows_8,squad_extractive
+724,What other devices can sideload apps?,Windows 8 Pro and Windows RT devices,176806,27580,Windows_8,squad_extractive
+725,What does immersive app stand for?,the apps prior to the first official presentation of Windows 8,177059,27623,Windows_8,squad_extractive
+726,What are apps after the introduction of Windows 8 called?,Metro-style apps,177161,27642,Windows_8,squad_extractive
+727,When did Windows Store apps become the real term for the apps?,"September 12, 2012",177671,27725,Windows_8,squad_extractive
+728,Who is Soma Somasegar?,vice president of Microsoft's development software division,177707,27731,Windows_8,squad_extractive
+729,What different options did the desktop version have?,"able to permanently run in the background, use multiple background processes, and use Windows API code",178232,27814,Windows_8,squad_extractive
+730,What code did Windows 8 change to?,API code instead of WinRT,178326,27828,Windows_8,squad_extractive
+731,What term did Microsoft give to its exception privilige for web browsing?,New experience enabled,178549,27863,Windows_8,squad_extractive
+732,Which two browsers promised to develop Metro-style versions of their browsers?,Chrome and Firefox,178631,27872,Windows_8,squad_extractive
+733,What does Chromes version for Windows 8 do?,uses a full-screen version of the existing desktop interface,178746,27888,Windows_8,squad_extractive
+734,When was Firefox's version of Windows 8 made accesible?,September 2013,178893,27910,Windows_8,squad_extractive
+735,What does Firefox's version for Windows 8 do?,uses a touch-optimized interface,178909,27912,Windows_8,squad_extractive
+736,What is the new System User interface built on?,Microsoft's Metro design language,179427,27995,Windows_8,squad_extractive
+737,What is found on the Start Screen?,a customizable array of tiles linking to various apps and desktop programs,179595,28022,Windows_8,squad_extractive
+738,What do live tiles do?,display constantly updated information and content,179689,28038,Windows_8,squad_extractive
+739,What is the primary function of the PC Settings app? ,used for basic configuration and user settings,179952,28079,Windows_8,squad_extractive
+740,Where can advanced settings options be found?,Control Panel,180082,28100,Windows_8,squad_extractive
+741,What is charms?,A vertical toolbar,180098,28102,Windows_8,squad_extractive
+742,What is the purpose of charms?,"provides access to system and app-related functions, such as search, sharing, device management, settings, and a Start button",180265,28132,Windows_8,squad_extractive
+743,How is the traditional desktop evironment opened?,via a tile on the Start screen,180473,28160,Windows_8,squad_extractive
+744,What does swiping from the left edge of the screen do?,allows one to switch between apps and Desktop,180813,28220,Windows_8,squad_extractive
+745,How is an active list of apps accessed?,Pointing the cursor in the top-left corner of the screen and moving down,180860,28228,Windows_8,squad_extractive
+746,Which main feature was removed in Windows 8?,the traditional Start menu,181243,28294,Windows_8,squad_extractive
+747,Why was the ability to play DVD-Video taken off of Windows Media Player?,the cost of licensing the necessary decoders,181346,28310,Windows_8,squad_extractive
+748,What does the Pro Pack do?,upgrades the system to Windows 8 Pro,181689,28367,Windows_8,squad_extractive
+749,What backup element is still found on Windows 8?,Backup and Restore,181875,28399,Windows_8,squad_extractive
+750,How is Backup and Restore opened?,"through a Control Panel applet called ""Windows 7 File Recovery""",182073,28433,Windows_8,squad_extractive
+751,What does :76 Shadow Copy do?,access previous versions of shared files stored on a Windows Server computer,182294,28468,Windows_8,squad_extractive
+752,What is :74 used for? ,other software,182455,28492,Windows_8,squad_extractive
+753,What is a convertible form factor? ,"a standalone device that combines the PC, display and rechargeable power source with a mechanically attached keyboard and pointing device in a single chassis",182635,28519,Windows_8,squad_extractive
+754,How does a convertible become a tablet?,attached input devices are hidden or removed leaving the display as the only input mechanism,182851,28553,Windows_8,squad_extractive
+755,"What did Microsoft change the tablet resolution requirements on March 12, 2013?",1024×768,183082,28589,Windows_8,squad_extractive
+756,Why did Microsoft decrease the required resoultion for tablets?,"to allow ""greater design flexibility"" for future products",183162,28600,Windows_8,squad_extractive
+757,What extras does Windows 8 Pro have?,"BitLocker, Hyper-V, the ability to join a domain, and the ability to install Windows Media Center as a paid add-on",183623,28674,Windows_8,squad_extractive
+758,What extras do Windows 8 Enterprise have?,features aimed towards business environments,183959,28729,Windows_8,squad_extractive
+759,How would one get Windows RT?,as pre-loaded software on devices specifically developed for it,184169,28763,Windows_8,squad_extractive
+760,During it's launch how much was a Windows 8 upgrade?,"$39.99 online, or $69.99 for retail box",184478,28816,Windows_8,squad_extractive
+761,What is the Windows 8 price?,$119.99,184597,28836,Windows_8,squad_extractive
+762,What is the Windows 8 Pro price?,$199.99,184623,28841,Windows_8,squad_extractive
+763,Which PC owners could purchase a Windows 8 Pro uprgrade for $14.99?,"PCs pre-loaded with Windows 7 Home Basic, Home Premium, Professional, or Ultimate",184656,28846,Windows_8,squad_extractive
+764,What restrictions do Windows upgrade licenses have?,require an existing version of Windows to install,185295,28946,Windows_8,squad_extractive
+765,What did Windows offer in place of a full version of the software?,"specialized ""System Builder"" SKU",185524,28985,Windows_8,squad_extractive
+766,What does OEM stand for?,original equipment manufacturer,185611,28997,Windows_8,squad_extractive
+767,What did the System Builder SKU take the place of?,(OEM) SKU,185643,29000,Windows_8,squad_extractive
+768,What did the Personal Use License allow?,purchase and personal use by users on homebuilt computers,185786,29025,Windows_8,squad_extractive
+769,What is the primary difference in Windows 8.1? ,"8.1 is available as ""full version software""",185942,29050,Windows_8,squad_extractive
+770,What exemption was removed from Windows 8.1?,Personal Use License,186231,29099,Windows_8,squad_extractive
+771,What is Windows 8.1 with Bing?,a special OEM-specific SKU of Windows 8.1 subsidized by Microsoft's Bing search engine,186474,29139,Windows_8,squad_extractive
+772,What architecture types does Windows 8 support?,32-bit and 64-bit,186611,29160,Windows_8,squad_extractive
+773,How does the online Windows installer know which version to install?,automatically installs the version corresponding with the architecture of the system's existing Windows installation,186743,29179,Windows_8,squad_extractive
+774,What is 16-bit support intended for?,CPUs compatible with x86 2nd generation,187098,29229,Windows_8,squad_extractive
+775,When was x86 2nd generation created?,1978,187158,29238,Windows_8,squad_extractive
+776,What apps work on Windows RT?,only supports applications included with the system,187312,29262,Windows_8,squad_extractive
+777,Why does Windows RT only work with apps included with the system?,to ensure that the system only runs applications that are optimized for the architecture,187464,29285,Windows_8,squad_extractive
+778,Who condemned Microsoft for requiring devices to have secure boot enabled by default?,free software supporters,187823,29339,Windows_8,squad_extractive
+779,Who is Tony Mangefeste?,Microsoft developer,188179,29396,Windows_8,squad_extractive
+780,What ideology does Microsoft follow?,"to provide customers with the best experience first, and allow them to make decisions themselves",188387,29429,Windows_8,squad_extractive
+781,What resolution did Microsoft come to in their certificiation guidelines?,vendors would be required to provide means for users to re-configure or disable secure boot,188562,29453,Windows_8,squad_extractive
+782,Who criticized Microsofts closed platform Windows Store?,video game developers,189402,29582,Windows_8,squad_extractive
+783,Who created Minecraft?,"Markus ""Notch"" Persson",189588,29613,Windows_8,squad_extractive
+784,Who developed Steam?,Gabe Newell,189650,29622,Windows_8,squad_extractive
+785,What company is Rob Pardo associated with?,Activision Blizzard,189770,29639,Windows_8,squad_extractive
+786,What was the main reasoning behind the creation of the Windows Store?,"responding to the success of both Apple and Google in pursuing the ""curated application store approach.""",189941,29666,Windows_8,squad_extractive
+787,Who equated windos 8 as the first desktop operating system that understand what a computer is supposed to do?,David Pierce,190419,29744,Windows_8,squad_extractive
+788,Why did Pierce give the Start Screen such glowing reviews?,because it allows users to interact with dynamic information,190851,29809,Windows_8,squad_extractive
+789,Which improvements were most well regarded?,"File History, Storage Spaces, and the updated Task Manager",191287,29876,Windows_8,squad_extractive
+790,What makes the Windows 8 interface difficult to use?,the lack of instructions provided by the operating system on the functions accessed through the user interface,192097,29998,Windows_8,squad_extractive
+791,Who said the Windows 8 interface was clumsy and impractical?,Adrian Kingsley-Hughes,193052,30158,Windows_8,squad_extractive
+792,How much of a decrease in sales have Windows devices experienced?,21 percent,193670,30261,Windows_8,squad_extractive
+793,What is IDC?,market research firm,193840,30291,Windows_8,squad_extractive
+794,What is the decline in PC sales attributed to?,consumers bought more mobile devices,194149,30348,Windows_8,squad_extractive
+795,When did Windows 8 surpass Windows Vistas market share?,July 2013,194309,30374,Windows_8,squad_extractive
+796,What was Androids market share in 2013?,43.4%,194753,30450,Windows_8,squad_extractive
+797,What was teh iOS market share in 2013?,48.2%,194763,30452,Windows_8,squad_extractive
+798,What does Strategy Analytics say Windows tablets are lacking?,top tier apps,194925,30477,Windows_8,squad_extractive
+799,What changes did Microsoft make to its certification requirements in March 2013?,amended its certification requirements to allow tablets to use the 1024×768 resolution as a minimum,195115,30507,Windows_8,squad_extractive
+800,Why did Microsoft change the tablet resolution minimum? ,to allow the production of certified Windows 8 tablets in smaller form factors,195240,30526,Windows_8,squad_extractive
+801,What controlled the small form tablet market at this time?,Android-based tablets,195360,30545,Windows_8,squad_extractive
+802,How many licenses did Microsoft sell in the first six months?,100 million,195463,30559,Windows_8,squad_extractive
+803,When did Windows 8 decrease the price of Windows 8 for devices that cost less than $250?,February 2014,195690,30599,Windows_8,squad_extractive
+804,What was the benefit of Windows 8.1 with Bing?,cheaper Windows 8 licenses to OEMs in exchange for setting Internet Explorer's default search engine to Bing,196317,30700,Windows_8,squad_extractive
+805,When did Microsoft remove license fees on device screens less than 9 inches?,"April 2, 2014",196647,30755,Windows_8,squad_extractive
+806,When did Microsoft make the existence of Windows 8.1 with Bing OEM SKU official?,"May 23, 2014",196861,30789,Windows_8,squad_extractive
+807,When did the Chinese government ban the purchase of Windows 8 products?,May 2014,196879,30793,Windows_8,squad_extractive
+808,Why did the Chinese government ban Windows 8 based products?,in protest of Microsoft's support lifecycle policy and the end of support for Windows XP,197098,30824,Windows_8,squad_extractive
+809,What market share did Windows XP have in Chine?,49%,197237,30849,Windows_8,squad_extractive
+810,Who claimed that the Windows 8 would allow the US Government to spy on its users?,Ni Guangnan,197373,30869,Windows_8,squad_extractive
+811,What does CCTV stand for?,China Central Television,197621,30908,Windows_8,squad_extractive
+812,Who claimed that the Window 8 OS could gather sensitive user information?,Ni Guangnan,197780,30932,Windows_8,squad_extractive
+813,Where did Yang Min practice as a computer scientiest?,Fudan University,198146,30986,Windows_8,squad_extractive
+814,What is the name of the Chinese social network?,Sina Weibo,198464,31038,Windows_8,squad_extractive
+815,When was Windows 8.1 introduced?,"May 14, 2013",198910,31110,Windows_8,squad_extractive
+816,When did Microsoft release the beta version of Windows 8.1?,"June 26, 2013",199040,31133,Windows_8,squad_extractive
+817,When did MSDN and TechNet users gain access to Windows 8.1?,"September 9, 2013",199592,31223,Windows_8,squad_extractive
+818,What main feature was added back to the desktop?,a visible Start button,199773,31251,Windows_8,squad_extractive
+819,How many apps did the WIndows 8.1 update allow to be snapped onto a signular display?,up to four,199832,31262,Windows_8,squad_extractive
+820,How did the Windows 8.1 upgrade enhance desktop startup?,ability to boot to the desktop instead of the Start screen,199877,31272,Windows_8,squad_extractive
+821,What search engine was added in Windows 8.1?,Bing-based unified search system,199985,31292,Windows_8,squad_extractive
+822,For what is Palermo known?,"history, culture, architecture and gastronomy",200565,31382,Palermo,squad_extractive
+823,How old is the city of Palermo?,"2,700 years old",200683,31399,Palermo,squad_extractive
+824,In what year was Palermo founded?,734 BC,200838,31428,Palermo,squad_extractive
+825,What name was Palermo originally founded as?,Ziz,200867,31434,Palermo,squad_extractive
+826,During which years was Palermo ruled by the Arabs?,831 to 1072,201127,31475,Palermo,squad_extractive
+827,What types of churches attract tourists to Palermo?,"Romanesque, Gothic and Baroque",201955,31615,Palermo,squad_extractive
+828,What are Palermo's four main industrial sectors?,"tourism, services, commerce and agriculture",202147,31642,Palermo,squad_extractive
+829,Which is the tallest mountain in Sicily?,La Pizzuta,202917,31762,Palermo,squad_extractive
+830,Where is Monte Pellegrino in relation to other peaks?,geographically separated from the rest of the range by a plain,203039,31781,Palermo,squad_extractive
+831,"Which author desribed Monte Pelegrino as ""The most beautiful promontory in the world?""","Johann Wolfgang von Goethe,",203218,31812,Palermo,squad_extractive
+832,Which two former rivers in Palermo are currently building sites?,Papireto river and the Kemonia,203343,31832,Palermo,squad_extractive
+833,How can former rivers be recognised presently?,the streets that were built on them follow their shapes,203488,31855,Palermo,squad_extractive
+834,What is the only remaining waterway in Palermo?,Oreto river,203592,31874,Palermo,squad_extractive
+835,What did Phoenicans name their settlement in 734BC?,"""Ziz.""",204071,31953,Palermo,squad_extractive
+836,"Besides Ziz, what other two major settlements belonged to the Phoenicians",Motya and Soluntum,204152,31967,Palermo,squad_extractive
+837,Why cant artifacts from the Phoenicians be easily excavated?,remains of the Phoenician presence in the city are few and mostly preserved in the very populated center of the downtown area,204185,31972,Palermo,squad_extractive
+838,What is the current name of the road the Phoenicians used for trading?,Corso Calatifimi,204505,32026,Palermo,squad_extractive
+839,Why was the first settlement named Paleapolis?,"in order to distinguish it from a second settlement built during the 5th century BC, called Neapolis",204745,32062,Palermo,squad_extractive
+840,What were the walls of Neapolis meant to do?,prevent attacks from foreign threats,204990,32102,Palermo,squad_extractive
+841,Which district was named for the walls surrounding it?,Cassaro,205081,32118,Palermo,squad_extractive
+842,In which War did Greeks and Phoenicians fight over control of Sicily?,Sicilian Wars,205892,32248,Palermo,squad_extractive
+843,Why did the Greeks name Palermo Panormos?,"meaning ""all port"" due to the shape of its coast.",206135,32287,Palermo,squad_extractive
+844,Why did the Sicilian Wars end?,Carthage and Syracuse stopped warring and united in order to stop the Romans from gaining full control of the island during the First Punic War,206387,32334,Palermo,squad_extractive
+845,Who conquered Panormos and briefly turned it into a Greek colony?,Pyrrhus of Epirus,206631,32376,Palermo,squad_extractive
+846,How had the Vandals earned their strong reputation?,occupied all the Roman provinces in North Africa by 455,207063,32451,Palermo,squad_extractive
+847,Whom took control of the Vandal's territory after 488?,Ostrogoths,207294,32485,Palermo,squad_extractive
+848,How was Theodoric different than the Germanic Goths?,Theodoric supported Roman culture and government,207371,32496,Palermo,squad_extractive
+849,What name was the Eastern Roman Empire also known by?,Byzantine Empire,207544,32523,Palermo,squad_extractive
+850,How long did Muslim control of Palermo last?,120 years,207910,32584,Palermo,squad_extractive
+851,How were the indigenous Palermo population treated under Muslim rule?,reduced into near slavery,208001,32599,Palermo,squad_extractive
+852,What did the Arabs introduce that continues to be relevant to Palermo's culture today?,agricultural crops,208433,32666,Palermo,squad_extractive
+853,What was the family name who returned Palermo to Christianity after reconquest in 1072?,Hautevilles,208638,32697,Palermo,squad_extractive
+854,Who is considered a hero by natives for ending Muslim control of Palermo?,Robert Guiscard,208661,32699,Palermo,squad_extractive
+855,Where was the Kings Court held in the Kingdom of Sicily?,Palazzo dei Normanni,208980,32757,Palermo,squad_extractive
+856,How did the Kingdom of Sicily compare monetarily with the other European staes?,one of the wealthiest states in Europe,209127,32779,Palermo,squad_extractive
+857,What year did Sicily become ruled by the Holy Roman Empire?,1194,209226,32797,Palermo,squad_extractive
+858,What happened to Muslims during Holy Roman rule?,emigrated or were expelled,209311,32811,Palermo,squad_extractive
+859,What was Palermos population in 1330?,"51,000",209520,32843,Palermo,squad_extractive
+860,During what years did Austria rule Palermo?,1720 and 1734,209773,32889,Palermo,squad_extractive
+861,After what treaty did Savoia gain control of Italy?,Treaty of Utrecht (1713),209799,32894,Palermo,squad_extractive
+862,Whose son died on the way to Palermo and is buried there?,Charles III,209910,32914,Palermo,squad_extractive
+863,For what event did Charles III choose Sicily as the location?,his coronation,209940,32919,Palermo,squad_extractive
+864,Who led the first insurrection in Europe in 1848?,Giuseppe La Masa,210646,33042,Palermo,squad_extractive
+865,Who was the first president of Palermo?,Ruggero Settimo,210735,33055,Palermo,squad_extractive
+866,Who regained control of Palermo in 1849?,The Bourbons,210752,33057,Palermo,squad_extractive
+867,Sicily and Palermo became part of what Kingdom in 1861?,Kingdom of Italy,211047,33106,Palermo,squad_extractive
+868,Who was blamed for the week long rebellion of 1866?,"anarchists and the Church, specifically the Archbishop of Palermo",211300,33144,Palermo,squad_extractive
+869,"Which families help to start cultural, industrial, and economic growth in Palermo?","Florio, the Ducrot, the Rutelli, the Sandron, the Whitaker, the Utveggio",211535,33177,Palermo,squad_extractive
+870,In what style were the villas in the new expanded Palermo?,Art Nouveau,211866,33232,Palermo,squad_extractive
+871,Which theatre was designed by Giovan Battista Filippo Basile ans opened in 1897?,Teatro Massimo,212086,33269,Palermo,squad_extractive
+872,"To what does the term ""Sack of Palermo"" refer?",speculative building practices that have filled the city with poor buildings,212416,33328,Palermo,squad_extractive
+873,Why did Palermo substancially grow in size?,reduced importance of agriculture in the Sicilian economy has led to a massive migration to the cities,212498,33340,Palermo,squad_extractive
+874,What did Palermo expansion lack?,"t parks, schools, public buildings, proper roads and the other amenities that characterise a modern city",212819,33392,Palermo,squad_extractive
+875,What is Palermo's climate classification?,hot-summer Mediterranean climate (Köppen climate classification: Csa).,212948,33410,Palermo,squad_extractive
+876,How do Palermo's temperatures compare to the rest of Europe?,one of the warmest cities in Europe,213139,33438,Palermo,squad_extractive
+877,How much sun does Palermo see each year?,"2,530 hours",213295,33465,Palermo,squad_extractive
+878,How many did snow fall in Palermo between 1940and the 2000s?,eleven,213682,33531,Palermo,squad_extractive
+879,Where does the first of Palermo's circuits suround?,ancient core of the punic City - the so-called Palaeopolis (in the area east of Porta Nuova) and the Neopolis,214331,33652,Palermo,squad_extractive
+880,What was the name of the primary east-west road within the walls of Palaeopolis?,Via Vittorio Emanuele,214442,33672,Palermo,squad_extractive
+881,On what road was the eastern edge of the walled city?,Via Roma,214567,33694,Palermo,squad_extractive
+882,During which historical period was the wall circuit expanded?,medieval,214863,33742,Palermo,squad_extractive
+883,What was the purpose of Castello a Mare?,to protect the port at La Cala,215260,33808,Palermo,squad_extractive
+884,What was used to block passage through the La Cala port?,A huge chain,215292,33815,Palermo,squad_extractive
+885,What is a heliometer?,"solar ""observatory""",215779,33901,Palermo,squad_extractive
+886,What image is projected on the floor of the heliometer?,the sun,215992,33940,Palermo,squad_extractive
+887,What name is given to the bronze line on the floor of a heliometer?,la Meridiana,216089,33959,Palermo,squad_extractive
+888,Which direction does la Meridiana run?,precisely N/S,216124,33965,Palermo,squad_extractive
+889,How many people were living in the Palermo area in 2010?,1.2 million,216309,33998,Palermo,squad_extractive
+890,What percentage of Palermo residents were female in 2010?,52.6%,216441,34021,Palermo,squad_extractive
+891,What is the average age of a Palermo resident?,40.4,216689,34062,Palermo,squad_extractive
+892,Why has Palermo's population declined from 2001 to 2010?,population flight to the suburbs,216914,34103,Palermo,squad_extractive
+893,On what does Palermo's economy rely?,"tourism and services, but also has commerce, shipbuilding and agriculture",217378,34176,Palermo,squad_extractive
+894,What negative qualities does Palermo carry?,"high unemployment levels, high corruption and a significant black market empire",217482,34191,Palermo,squad_extractive
+895,Palermo is the home of what mafia?,the Sicilian Mafia,217589,34207,Palermo,squad_extractive
+896,Has the level of crime in Palermo risen or declined?,gone down dramatically,217754,34231,Palermo,squad_extractive
+897,Which port is Sicily's primary port?,The port of Palermo,217960,34260,Palermo,squad_extractive
+898,What cities do the ferries of Palermo travel to?,"Cagliari, Genoa, Livorno, Naples, Tunis",218128,34290,Palermo,squad_extractive
+899,"For what is the ""tourist marina"" dedicated?",sailing yachts and catamarans,218558,34364,Palermo,squad_extractive
+900,Who is the popular patron saint of Palermo?,Santa Rosalia,218621,34374,Palermo,squad_extractive
+901,When is Palermo's most important religious event of the year held?,14 July,218662,34381,Palermo,squad_extractive
+902,What is The Festino?,procession which goes through the main street of Palermo to commemorate the miracle attributed to Santa Rosalia,218784,34402,Palermo,squad_extractive
+903,Who is said to have ended the Black Death in 1624?,Santa Rosalia,218882,34417,Palermo,squad_extractive
+904,What does RIBA stand for?,Royal Institute of British Architects,219236,34481,Royal_Institute_of_British_Architects,squad_extractive
+905,What is the goal of RIBA?,the advancement of architecture,219390,34503,Royal_Institute_of_British_Architects,squad_extractive
+906,What was Riba's first name?,Institute of British Architects in London,219520,34522,Royal_Institute_of_British_Architects,squad_extractive
+907,In what year was the Institute of British Architects founded?,1834,219580,34532,Royal_Institute_of_British_Architects,squad_extractive
+908,What caused the change of the Institute's name?,the grant of the royal charter,219801,34562,Royal_Institute_of_British_Architects,squad_extractive
+909,What was removed from the Royal Institute's name?,the reference to London,219928,34583,Royal_Institute_of_British_Architects,squad_extractive
+910,When was the mention of London removed from the Royal Institute's name?,1892,219955,34588,Royal_Institute_of_British_Architects,squad_extractive
+911,Who opened the structure in which the Royal Institute is currently housed?,King George V and Queen Mary,220060,34606,Royal_Institute_of_British_Architects,squad_extractive
+912,Who was responsible for giving the charter to the Royal Institute?,King William IV,220138,34621,Royal_Institute_of_British_Architects,squad_extractive
+913,In what years was the Royal Institute issued supplemental charters?,"1887, 1909 and 1925",220180,34627,Royal_Institute_of_British_Architects,squad_extractive
+914,What term characterizes the nature of changes to the charter after 1971?,minor amendments,220263,34643,Royal_Institute_of_British_Architects,squad_extractive
+915,What document set forth the goals of the Royal Institute?,The original Charter of 1837,220293,34647,Royal_Institute_of_British_Architects,squad_extractive
+916,What was the central aim of the Royal Institute?,the general advancement of Civil Architecture,220375,34663,Royal_Institute_of_British_Architects,squad_extractive
+917,What was the Royal Institute responsible for doing with regards to the development of knowledge related to architecture?,promoting and facilitating,220430,34671,Royal_Institute_of_British_Architects,squad_extractive
+918,What sets forth the standards by which the Royal Institute functions?,the Byelaws,220587,34693,Royal_Institute_of_British_Architects,squad_extractive
+919,What guidelines for the Royal Institute are updated most often?,the Byelaws,220587,34693,Royal_Institute_of_British_Architects,squad_extractive
+920,What is necessary to make any changes to either document which governs the operations of the Royal Institute?,the Privy Council's approval,220700,34711,Royal_Institute_of_British_Architects,squad_extractive
+921,Who is responsible for the use of 'usui civium decori urbium'?,Thomas Leverton Donaldson,220849,34734,Royal_Institute_of_British_Architects,squad_extractive
+922,What was Donaldson's role within the Royal Institute?,honorary secretary,220889,34740,Royal_Institute_of_British_Architects,squad_extractive
+923,Who reworked the Royal Institute's medal desgin in 1931?,Eric Gill,221198,34791,Royal_Institute_of_British_Architects,squad_extractive
+924,What was the first Latin phrase used by the Royal Institute?,Usui civium decori urbium,221568,34852,Royal_Institute_of_British_Architects,squad_extractive
+925,What organization was the Royal Institute instrumental in establishing?,the Architects' Registration Council of the United Kingdom,221782,34886,Royal_Institute_of_British_Architects,squad_extractive
+926,Which items of legislation did the Royal Institute play a large role in promoting?,"the Board of Architectural Education under the Architects (Registration) Acts, 1931 to 1938",221853,34896,Royal_Institute_of_British_Architects,squad_extractive
+927,Where did Lional Bailey Budden teach?,the Liverpool University School of Architecture,222018,34921,Royal_Institute_of_British_Architects,squad_extractive
+928,What major compendium did Budden help write an article for?,Encyclopædia Britannica,222165,34941,Royal_Institute_of_British_Architects,squad_extractive
+929,Who was the head of the Registration Committee in 1934?,Harry Barnes,222494,34993,Royal_Institute_of_British_Architects,squad_extractive
+930,Who did Barnes believe was best able to advance the interests of architects?,architectural associations,222863,35050,Royal_Institute_of_British_Architects,squad_extractive
+931,"In 1934, what percentage of architects were members of professional organizations?",80 per cent,222904,35055,Royal_Institute_of_British_Architects,squad_extractive
+932,When does the Royal Institute's Guide indicate the first RIBA Board was established?,1904,223210,35108,Royal_Institute_of_British_Architects,squad_extractive
+933,What school document had to meet the standards of the Board for admittance?,syllabus,223333,35128,Royal_Institute_of_British_Architects,squad_extractive
+934,What was necessary for testing in schools applying to the RIBA Board?,an approved external examiner,223409,35140,Royal_Institute_of_British_Architects,squad_extractive
+935,What body carried out on-site inspection of member schools of the RIBA Board?,Visiting Board,223520,35157,Royal_Institute_of_British_Architects,squad_extractive
+936,What organization's policies regarding acceptance of professional qualifications prompted thoughts of revamping ARCUK?,European Union,224261,35268,Royal_Institute_of_British_Architects,squad_extractive
+937,What was the new name given to ARCUK in the '90s?,Architects Registration Board,224668,35327,Royal_Institute_of_British_Architects,squad_extractive
+938,What was the name of the legistlation leading to the change in ARCUK's name?,"the Housing Grants, Construction and Regeneration Act",224751,35339,Royal_Institute_of_British_Architects,squad_extractive
+939,When did the name of ARCUK change?,1996,224805,35346,Royal_Institute_of_British_Architects,squad_extractive
+940,What was shut down as a result of legislation changing the name of ARCUK?,the ARCUK Board of Architectural Education,224881,35359,Royal_Institute_of_British_Architects,squad_extractive
+941,What is the function of the Royal Institute's Visiting Boards?,to assess courses for exemption from the RIBA's examinations in architecture,224956,35369,Royal_Institute_of_British_Architects,squad_extractive
+942,What does ARB stand for?,Architects Registration Board,225127,35396,Royal_Institute_of_British_Architects,squad_extractive
+943,What is a key difference between the ARB and Royal Institute?,RIBA also validates courses outside the UK,225182,35404,Royal_Institute_of_British_Architects,squad_extractive
+944,How many people have membership in the Royal Institute?,"44,000",225267,35418,Royal_Institute_of_British_Architects,squad_extractive
+945,What type of Royal Institute members are not able to use the organization's acronym after their names?,Student Members,225409,35438,Royal_Institute_of_British_Architects,squad_extractive
+946,What is not provided by the Royal Institute anymore?,fellowships,225463,35447,Royal_Institute_of_British_Architects,squad_extractive
+947,Fellows of the Royal Institute can use what abbreviation with their names?,FRIBA,225576,35465,Royal_Institute_of_British_Architects,squad_extractive
+948,Who designed RIBA's headquarters?,George Grey Wornum,225683,35482,Royal_Institute_of_British_Architects,squad_extractive
+949,What is one room in RIBA's headquarters that can be visited by the public?,the Library,225830,35505,Royal_Institute_of_British_Architects,squad_extractive
+950,How many satellite offices does the Royal Institute run in the UK?,a dozen,225985,35529,Royal_Institute_of_British_Architects,squad_extractive
+951,What territory did RIBA's Cambridge branch office cover?,the East of England,226077,35544,Royal_Institute_of_British_Architects,squad_extractive
+952,In what city was the first RIBA branch office opened?,Cambridge,226100,35549,Royal_Institute_of_British_Architects,squad_extractive
+953,What is the name of the Royal Institute's business operation?,RIBA Enterprises,226120,35552,Royal_Institute_of_British_Architects,squad_extractive
+954,Where does RIBA's business group have its headquarters office?,15 Bonhill Street in London,226227,35571,Royal_Institute_of_British_Architects,squad_extractive
+955,How many people work for RIBA Enterprises?,over 250,226292,35583,Royal_Institute_of_British_Architects,squad_extractive
+956,How many of RIBA Enterprises' staff are located at the Newcastle office?,180,226322,35587,Royal_Institute_of_British_Architects,squad_extractive
+957,What are three divisions of RIBA Enterprises?,"RIBA Insight, RIBA Appointments, and RIBA Publishing",226380,35597,Royal_Institute_of_British_Architects,squad_extractive
+958,What are two publications produced by RIBA Publishing?,RIBA Product Selector and RIBA Journal,226451,35607,Royal_Institute_of_British_Architects,squad_extractive
+959,What does NBS stand for?,National Building Specification,226520,35619,Royal_Institute_of_British_Architects,squad_extractive
+960,What is another name for the Royal Institute Library?,The British Architectural Library,226754,35653,Royal_Institute_of_British_Architects,squad_extractive
+961,When was the RIBA library founded?,1834,226851,35667,Royal_Institute_of_British_Architects,squad_extractive
+962,How many materials are housed in the RIBA library?,over four million,226930,35680,Royal_Institute_of_British_Architects,squad_extractive
+963,In what institution are some materials from the RIBA collection located?,Victoria and Albert Museum,227114,35712,Royal_Institute_of_British_Architects,squad_extractive
+964,What was the RIBA Library's first address?,9 Conduit Street,227388,35757,Royal_Institute_of_British_Architects,squad_extractive
+965,Which architect's work was preserved throughout World War II by the Royal Institute's Library?,Adolf Loos,227565,35787,Royal_Institute_of_British_Architects,squad_extractive
+966,Where are RIBA's Study Rooms located?,the Henry Cole Wing of the V&A,227748,35818,Royal_Institute_of_British_Architects,squad_extractive
+967,What art style was used inthe design of the Reading Room?,Art Deco,227901,35844,Royal_Institute_of_British_Architects,squad_extractive
+968,Who is meant to benefit from teaching provided by the RIBA library?,"students, education groups and families",228197,35893,Royal_Institute_of_British_Architects,squad_extractive
+969,What is the name of the joint venture involving the Victoria and Albert Museum and the Royal Institute of British Architects?,the V&A + RIBA Architecture Partnership,228355,35916,Royal_Institute_of_British_Architects,squad_extractive
+970,What is the main goal of the V&A + RIBA partnership?,to promote the understanding and enjoyment of architecture,228434,35929,Royal_Institute_of_British_Architects,squad_extractive
+971,In what space at the V&A is the Architecture Gallery located?,Room 128,228559,35947,Royal_Institute_of_British_Architects,squad_extractive
+972,What is found at Room 128a of the Victoria & Albert Museum?,Architecture Exhibition Space,228726,35973,Royal_Institute_of_British_Architects,squad_extractive
+973,Who designed rooms 128 and 128a at the V&A Museum?,Gareth Hoskins Architects,228853,35991,Royal_Institute_of_British_Architects,squad_extractive
+974,Where was the Royal Institute's Drawing and Archives Collections located originally?,21 Portman Place,228958,36007,Royal_Institute_of_British_Architects,squad_extractive
+975,What part of the V&A was the Royal Institute's Drawing and Archives collection moved to?,the Henry Cole Wing,228996,36014,Royal_Institute_of_British_Architects,squad_extractive
+976,What does the Royal Institute of British Architects award the Stirling Prize for?,the best new building of the year,229351,36072,Royal_Institute_of_British_Architects,squad_extractive
+977,What was the first year in which RIBA's Royal Gold Medal was given?,1848,229425,36086,Royal_Institute_of_British_Architects,squad_extractive
+978,What is the Royal Gold Medal awarded for?,a distinguished body of work,229446,36089,Royal_Institute_of_British_Architects,squad_extractive
+979,What is the limit of how much can be spent on projects receiving the Stephen Lawrence Prize?,"£500,000",229560,36108,Royal_Institute_of_British_Architects,squad_extractive
+980,What is the name of the RIBA awards given to students of architecture?,the President's Medals,229591,36113,Royal_Institute_of_British_Architects,squad_extractive
+981,What are events that a company can sponsor when it is planning a new construction project or redesigning an existing one?,Architectural design competitions,230187,36203,Royal_Institute_of_British_Architects,squad_extractive
+982,What kind of artistic production can be supported by design competitions?,public realm artworks,230410,36236,Royal_Institute_of_British_Architects,squad_extractive
+983,What is provided to guide entrants in an architectural competition?,Brief,230545,36257,Royal_Institute_of_British_Architects,squad_extractive
+984,What kinds of people generally make up the panels which judge architecture competitions?,design professionals and client representatives,230625,36271,Royal_Institute_of_British_Architects,squad_extractive
+985,What is necessary for the integrity of a design competition?,independence of the jury,230678,36277,Royal_Institute_of_British_Architects,squad_extractive
+986,What process does RIBA use in its accreditation system?,course validation,230875,36309,Royal_Institute_of_British_Architects,squad_extractive
+987,What kinds of courses does RIBA conduct accreditation services for apart from the Architects Registration Board?,international courses,230935,36317,Royal_Institute_of_British_Architects,squad_extractive
+988,What is the first step in the Royal Institute's guidelines for education?,three-year first degree,231065,36339,Royal_Institute_of_British_Architects,squad_extractive
+989,What is required by the second stage in the education provisions set out by RIBA?,a two-year post graduate diploma or masters,231207,36362,Royal_Institute_of_British_Architects,squad_extractive
+990,What occurs between the second and third parts of the education process prescribed by the Royal Institute?,A further year out,231252,36369,Royal_Institute_of_British_Architects,squad_extractive
+991,What does the third part of the Royal Institute's educational process contain?,professional exams,231310,36381,Royal_Institute_of_British_Architects,squad_extractive
+992,"How long does it take, at the least, for a student to be eligible for the title of Chartered?",seven years,231373,36392,Royal_Institute_of_British_Architects,squad_extractive
+993,What did the Royal Institute support in order to keep up with housing in mainland Europe?,minimum space standards,231469,36407,Royal_Institute_of_British_Architects,squad_extractive
+994,What country did Pringle cite as having homes with better proportions than those found in the UK?,Holland,231788,36455,Royal_Institute_of_British_Architects,squad_extractive
+995,Who was the head of the Royal Institute of British Architects in 2007?,Jack Pringle,231941,36480,Royal_Institute_of_British_Architects,squad_extractive
+996,Where do Armenians mostly live besides Armenia?,Nagorno-Karabakh Republic,232042,36495,Armenians,squad_extractive
+997,How many Armenians live outside Armenia and the republic within it?,around 5 million,232105,36503,Armenians,squad_extractive
+998,Where do most emigrant Armenians live?,"Russia, the United States, France, Georgia, Iran, Ukraine, Lebanon, and Syria",232248,36525,Armenians,squad_extractive
+999,Why did many Armenians leave Armenia?,the Armenian Genocide,232452,36557,Armenians,squad_extractive
+1000,How long ago has the term 'Armenia' been used?,around the 6th century BC,232685,36591,Armenians,squad_extractive
+1001,Who wrote the earliest known use of 'Armenians'?,Hecataeus of Miletus,233031,36648,Armenians,squad_extractive
+1002,What is the earliest known use of 'Armenians'?,476 BC,233053,36652,Armenians,squad_extractive
+1003,Who described Armenian life in 401 BC?,Xenophon,233062,36653,Armenians,squad_extractive
+1004,What did Xenophon say Armenian language sounded like?,Persians,233307,36695,Armenians,squad_extractive
+1005,What mountain does Armenia surround?,Mount Ararat,233374,36704,Armenians,squad_extractive
+1006,What era was the Hittite Empire in?,the Bronze Age,233423,36713,Armenians,squad_extractive
+1007,When did the Hayasa-Azzi rule?,1600–1200 BC,233617,36742,Armenians,squad_extractive
+1008,When did the Arme-Shupria rule?,1300s–1190 BC,233674,36749,Armenians,squad_extractive
+1009,When did the Nairi rule?,1400–1000 BC,233701,36753,Armenians,squad_extractive
+1010,What languages does Hamp say are similar to Armenian?,Greek and Ancient Macedonian,234152,36816,Armenians,squad_extractive
+1011,What subgroup does Hamp put the Armenian language in?,Pontic Indo-European,234211,36823,Armenians,squad_extractive
+1012,Where does Hamp say the Pontic Indo-European languages originate?,the northeast coast of the Black Sea and its hinterlands,234321,36838,Armenians,squad_extractive
+1013,What famous inscription mentioned Armenia?,the Achaemenid Behistun Inscription,234695,36897,Armenians,squad_extractive
+1014,When was Armenia established?,in the late 6th century BC,234748,36903,Armenians,squad_extractive
+1015,During which dynasty was Armenia established?,Orontid dynasty,234785,36911,Armenians,squad_extractive
+1016,When was Armenia at its largest?,95–65 BC,234924,36934,Armenians,squad_extractive
+1017,What was the first country to make Christianity its official religion?,The Arsacid Kingdom of Armenia,235182,36977,Armenians,squad_extractive
+1018,What religion was Armenian paganism influenced by?,Zoroastrianism,235400,37013,Armenians,squad_extractive
+1019,When did Armenia make Christianity its official religion?,AD 301,235569,37038,Armenians,squad_extractive
+1020,Why did Armenia make Christianity its official religion?,in defiance of the Sassanids,235584,37041,Armenians,squad_extractive
+1021,Who invented the Armenian alphabet?,Mesrop Mashtots,235887,37082,Armenians,squad_extractive
+1022,When did Armenia become a sovereign kingdom?,885 AD,236281,37144,Armenians,squad_extractive
+1023,Under which ruler did Armenia become a sovereign kingdom?,Ashot I,236374,37158,Armenians,squad_extractive
+1024,What dynasty was Ashot I part of?,the Bagratid Dynasty,236385,37161,Armenians,squad_extractive
+1025,Who invaded Armenia in 1064?,Seljuk Turks,236573,37190,Armenians,squad_extractive
+1026,What Turkic federations ruled Armenia?,the Ak Koyunlu and the Kara Koyunlu,237104,37268,Armenians,squad_extractive
+1027,When was the Peace of Amasya?,mid 16th century,237469,37325,Armenians,squad_extractive
+1028,When did parts of Armenia under Iranian control become part of Russia?,In the late 1820s,237774,37376,Armenians,squad_extractive
+1029,When did the Russo-Persian War begin?,1826,238039,37419,Armenians,squad_extractive
+1030,When did the Russo-Persian War end?,1828,238044,37419,Armenians,squad_extractive
+1031,What treaty ended the Russo-Persian War?,Treaty of Turkmenchay,238068,37422,Armenians,squad_extractive
+1032,"Who says they didn't kill Armenians as genocide, just because they were 'in the way of the war'?",Governments of Republic of Turkey,238144,37432,Armenians,squad_extractive
+1033,Who ruled Turkey when the Armenian genocide happened?,the Ottoman Empire,238435,37479,Armenians,squad_extractive
+1034,What has happened when other countries condemned Armenian genocide?,diplomatic conflict,238582,37500,Armenians,squad_extractive
+1035,What was Armenia's status from 1918 to 1920?,independent republic,238777,37533,Armenians,squad_extractive
+1036,When did communists take over Armenia?,late 1920,238802,37536,Armenians,squad_extractive
+1037,Who invaded Armenia in 1920?,the Red Army,238878,37549,Armenians,squad_extractive
+1038,What part of the USSR did Armenia join?,the Transcaucasian SFSR,238928,37559,Armenians,squad_extractive
+1039,How long have Armenians lived in the highlands?,over four thousand years,239217,37603,Armenians,squad_extractive
+1040,Who founded the first Armenian nation?,Hayk,239263,37611,Armenians,squad_extractive
+1041,Who did Hayk defeat?,Bel of Babylon,239360,37627,Armenians,squad_extractive
+1042,How many native Armenians are in Armenia today?,3.5 million,239404,37635,Armenians,squad_extractive
+1043,What does Hayastantsis mean?,those that are from Armenia,239621,37666,Armenians,squad_extractive
+1044,What is the Armenian Quarter?,one of the four quarters of the walled Old City of Jerusalem,240116,37747,Armenians,squad_extractive
+1045,When was the Italian Armenian monastery founded?,1717,240272,37774,Armenians,squad_extractive
+1046,Where is the Italian Armenian monastery?,on an island near Venice,240284,37776,Armenians,squad_extractive
+1047,What are Parskahay?,Armenians who originate from Iran,240656,37826,Armenians,squad_extractive
+1048,What are Lipananahay?,Armenians from Lebanon,240738,37838,Armenians,squad_extractive
+1049,How similar is Western Armenian to Eastern Armenian dialect?,"considerable differences with Eastern Armenian, but speakers of either of the two variations can usually understand each other",240932,37867,Armenians,squad_extractive
+1050,When did Armenia's church become independent?,451 AD,241561,37963,Armenians,squad_extractive
+1051,What is Armenia's church called?,Armenian Apostolic Church,241664,37983,Armenians,squad_extractive
+1052,What type of Catholicism is Armenia's church part of?,Oriental Orthodox,241714,37992,Armenians,squad_extractive
+1053,Where was the Armenian Catholicosate located at first?,Echmiadzin,241967,38029,Armenians,squad_extractive
+1054,What are Hamshenis?,ethnic Armenian Muslims,242412,38096,Armenians,squad_extractive
+1055,Who became Catholicos in Etchmiadzin in 1441?,Kirakos Virapetsi,242873,38173,Armenians,squad_extractive
+1056,Who remained Catholicos of Cilicia?,Krikor Moussapegiants,242898,38176,Armenians,squad_extractive
+1057,How do the two Catholicosates compare?,equal rights and privileges,243052,38198,Armenians,squad_extractive
+1058,Which Armenian church is the most popular in Armenia?,Armenian Apostolic Church,243250,38227,Armenians,squad_extractive
+1059,Which Armenian church recognizes the Pope?,Armenian Catholic Church,243473,38258,Armenians,squad_extractive
+1060,What broke away from the Armenian Apostolic Church?,Armenian Evangelical Church,243574,38273,Armenians,squad_extractive
+1061,What broke away from the Armenian Evangelical Church?,Armenian Brotherhood Church,243685,38291,Armenians,squad_extractive
+1062,When did Armenian writing begin?,400 AD,243926,38326,Armenians,squad_extractive
+1063,Who came up with the Armenian alphabet?,Mesrop Mashtots,243939,38329,Armenians,squad_extractive
+1064,Who was the 'father of Armenian history'?,Moses of Chorene,244146,38361,Armenians,squad_extractive
+1065,Who wrote 'The History of Armenia'?,Moses of Chorene,244146,38361,Armenians,squad_extractive
+1066,Which European movement were the Revivalist authors similar to?,Romanticists,244600,38432,Armenians,squad_extractive
+1067,When were early Armenian Christian churches built?,between the 4th and 7th century,245186,38519,Armenians,squad_extractive
+1068,In which century did Armenia become Christian?,4th,245198,38521,Armenians,squad_extractive
+1069,When were Armenian churches built with center cupola cones?,fifth century,245397,38553,Armenians,squad_extractive
+1070,When were Armenian churches built with niched buttresses?,seventh century,245480,38568,Armenians,squad_extractive
+1071,What radiating style are some Armenian churches built with?,Hrip'simé,245592,38584,Armenians,squad_extractive
+1072,When was there an Armenian architecture revival?,From the 9th to 11th century,245727,38607,Armenians,squad_extractive
+1073,What dynasty ruled Armenia in the 10th century?,Bagratid Dynasty,245826,38623,Armenians,squad_extractive
+1074,What was ornately carved in the 9th-11th centuries?,Armenian Khachkars,245978,38648,Armenians,squad_extractive
+1075,What Armenian monasteries were built in the 11th century?,Haghpat and Haritchavank,246299,38703,Armenians,squad_extractive
+1076,Who invaded Armenia in the 11th century?,Seljuk,246365,38714,Armenians,squad_extractive
+1077,Who won Armenia's first Olympic medal?,Hrant Shahinyan,246617,38755,Armenians,squad_extractive
+1078,When did Armenia begin winning Olympic medals?,1952,246689,38768,Armenians,squad_extractive
+1079,Where were the 1952 Olympics held?,Helsinki,246713,38772,Armenians,squad_extractive
+1080,Which Armenian football team was the most successful?,Yerevan's FC Ararat,246767,38780,Armenians,squad_extractive
+1081,What pro team has FC Ararat beaten?,FC Bayern Munich,246918,38805,Armenians,squad_extractive
+1082,What instruments are used in Armenian folk music?,"the duduk, the dhol, the zurna and the kanun",246970,38814,Armenians,squad_extractive
+1083,What kind of Armenian religious music is prevalent?,the Armenian chant,247207,38857,Armenians,squad_extractive
+1084,What did Mashtots do besides composing religious chants?,inventor of the Armenian alphabet,247458,38896,Armenians,squad_extractive
+1085,What was Aram Khatchaturian's career?,classical music composer,247528,38906,Armenians,squad_extractive
+1086,What instruments does 'kef' use?,Armenian and Middle Eastern folk instruments (often electrified/amplified) and some western instruments,248037,38982,Armenians,squad_extractive
+1087,What type of music is Richard Hagopian famous for?,"the traditional ""kef"" style",248417,39037,Armenians,squad_extractive
+1088,What type of music does Sirusho perform?,pop music combined with Armenian folk music,248960,39125,Armenians,squad_extractive
+1089,What nationality is Charles Aznavour?,French-Armenian,249146,39151,Armenians,squad_extractive
+1090,What US heavy metal band is comprised of Armenians?,System of a Down,249407,39188,Armenians,squad_extractive
+1091,What job do many Armenian women traditionally do?,Carpet-weaving,249967,39266,Armenians,squad_extractive
+1092,Where is the earliest known Armenian carpet from?,the village of Banants (near Gandzak),250287,39313,Armenians,squad_extractive
+1093,When is the earliest known Armenian carpet from?,early 13th century,250342,39323,Armenians,squad_extractive
+1094,What is 'gorg'?,the Armenian word for carpet,250382,39330,Armenians,squad_extractive
+1095,Where is the earliest known use of 'gorg'?,in a 1242–1243 Armenian inscription on the wall of the Kaptavan Church in Artsakh,250453,39342,Armenians,squad_extractive
+1096,What is Hakobyan's career?,Art historian,250537,39356,Armenians,squad_extractive
+1097,What creatures are often depicted on Armenian carpets?,dragons and eagles,250737,39386,Armenians,squad_extractive
+1098,What are artsvagorgs?,eagle-carpets,250938,39420,Armenians,squad_extractive
+1099,What are vishapagorgs?,dragon-carpets,250968,39422,Armenians,squad_extractive
+1100,What are otsagorgs?,serpent-carpets,250999,39425,Armenians,squad_extractive
+1101,What is khorovats?,an Armenian-styled barbecue,251314,39467,Armenians,squad_extractive
+1102,What is lavash?,Armenian flat bread,251368,39475,Armenians,squad_extractive
+1103,What is paklava?,a popular dessert made from filo dough,251413,39482,Armenians,squad_extractive
+1104,What is a kabob?,a skewer of marinated roasted meat and vegetables,251500,39497,Armenians,squad_extractive
+1105,What is ghapama?,a rice-stuffed pumpkin dish,251721,39531,Armenians,squad_extractive
+1106,Where is the Bronx positioned among NYC boroughs?,northernmost,252264,39615,The_Bronx,squad_extractive
+1107,What is unique about the Bronx's location?,"Of the five boroughs, the Bronx is the only one on the U.S. mainland",252604,39676,The_Bronx,squad_extractive
+1108,How large is the Bronx?,42 square miles (109 km2),252698,39696,The_Bronx,squad_extractive
+1109,What is the Bronx's population?,"1,438,159",252744,39705,The_Bronx,squad_extractive
+1110,Who is the Bronx named for?,Jonas Bronck,252896,39728,The_Bronx,squad_extractive
+1111,What did Bronck do?,created the first settlement as part of the New Netherland colony,252913,39731,The_Bronx,squad_extractive
+1112,When did Bronck settle in the New York area?,1639,252982,39743,The_Bronx,squad_extractive
+1113,What native tribe lived in the New York area?,Lenape,252999,39746,The_Bronx,squad_extractive
+1114,What types of music the Bronx famous for?,Latin music and hip hop,253465,39818,The_Bronx,squad_extractive
+1115,How poor is part of the Bronx?,one of the five poorest Congressional Districts in the United States,253510,39826,The_Bronx,squad_extractive
+1116,What neighborhoods of the Bronx are more affluent?,"Riverdale, Fieldston, Spuyten Duyvil, Schuylerville, Pelham Bay, Pelham Gardens, Morris Park and Country Club",253690,39852,The_Bronx,squad_extractive
+1117,When did the South Bronx lose quality of life?,the late 1960s and the 1970s,253921,39886,The_Bronx,squad_extractive
+1118,When was Jonas Bronck born?,1600,254140,39923,The_Bronx,squad_extractive
+1119,Where did Bronck emigrate from?,"Småland, Sweden",254214,39935,The_Bronx,squad_extractive
+1120,When did Bronck reach the New York area?,spring of 1639,254271,39944,The_Bronx,squad_extractive
+1121,What entity did Bronck get his land from?,the Dutch West India Company,254389,39966,The_Bronx,squad_extractive
+1122,How much land did Bronck eventually own?,500 acres,254599,39999,The_Bronx,squad_extractive
+1123,What is the Bronx's county name?,The County of Bronx,255030,40074,The_Bronx,squad_extractive
+1124,What is the Bronx's borough name?,Borough of the Bronx,255074,40080,The_Bronx,squad_extractive
+1125,When was the Bronx created?,1874,255364,40128,The_Bronx,squad_extractive
+1126,When was the Bronx added to?,1898,255512,40153,The_Bronx,squad_extractive
+1127,What strategic advantage did the Bronx's location have?,between New England and New York,255913,40222,The_Bronx,squad_extractive
+1128,When was Kingsbridge built?,1693,256075,40247,The_Bronx,squad_extractive
+1129,Who owned Kingsbridge?,Frederick Philipse,256149,40259,The_Bronx,squad_extractive
+1130,Why did farmers build a bridge over the Harlem River?,tolls were resented,256197,40266,The_Bronx,squad_extractive
+1131,When did farmers build a bridge over the Harlem River?,1759,256265,40279,The_Bronx,squad_extractive
+1132,Parts of which towns became part of the Bronx?,"Yonkers, Eastchester, and Pelham",256675,40348,The_Bronx,squad_extractive
+1133,When was Morrisania created?,1855,256794,40368,The_Bronx,squad_extractive
+1134,When was the town of Kingsbridge created?,1873,256855,40379,The_Bronx,squad_extractive
+1135,When did New York City annex Kingsbridge?,1873,257116,40418,The_Bronx,squad_extractive
+1136,When did New York City annex West Farms?,1873,257116,40418,The_Bronx,squad_extractive
+1137,When did New York City annex Morrisania?,1873,257116,40418,The_Bronx,squad_extractive
+1138,When did New York City annex part of Pelham?,1895,257273,40443,The_Bronx,squad_extractive
+1139,When did New York City annex part of Eastchester?,1895,257273,40443,The_Bronx,squad_extractive
+1140,When was the Bronx's boom period?,1900–29,257736,40520,The_Bronx,squad_extractive
+1141,What was the Bronx's population in 1900?,"200,000",257794,40531,The_Bronx,squad_extractive
+1142,What was the Bronx's population in 1929?,1.3 million,257813,40535,The_Bronx,squad_extractive
+1143,When did the Bronx's income declined?,1950–85,258004,40570,The_Bronx,squad_extractive
+1144,When did the Bronx's economy regrow?,starting in the late 1980s,258199,40597,The_Bronx,squad_extractive
+1145,What led to the Bronx's population growth?,Extensions of the New York City Subway,258312,40616,The_Bronx,squad_extractive
+1146,What immigrant groups were the most prevalent in the Bronx?,"Irish Americans, Italian Americans and especially Jewish Americans",258519,40649,The_Bronx,squad_extractive
+1147,How many Jews lived in the Bronx in 1937?,"592,185",258788,40686,The_Bronx,squad_extractive
+1148,How much of the Bronx was Jewish in 1937?,43.9%,258821,40693,The_Bronx,squad_extractive
+1149,How many Jews lived in the Bronx in 2011?,"54,000",258868,40699,The_Bronx,squad_extractive
+1150,What is redlining?,a reduction in the real-estate listings and property-related financial services (such as mortgage loans or insurance policies) offered in some areas,259023,40727,The_Bronx,squad_extractive
+1151,What example city service was cut back on in the Bronx?,fire-fighting,259292,40768,The_Bronx,squad_extractive
+1152,What might have encouraged landlords to abandon or destroy buildings?,rent control laws,259348,40777,The_Bronx,squad_extractive
+1153,Why did some landlords burn their own buildings?,it was more lucrative to get insurance money than to refurbish or sell a building in a severely distressed area,259825,40854,The_Bronx,squad_extractive
+1154,What city plan helped redevelop the Bronx?,"""Ten-Year Housing Plan""",260175,40912,The_Bronx,squad_extractive
+1155,Who built the Nehemiah Homes?,Groups affiliated with churches in the South Bronx,260326,40931,The_Bronx,squad_extractive
+1156,How many units are in the Nehemiah Homes?,"about 1,000",260409,40944,The_Bronx,squad_extractive
+1157,Who led the Melrose Commons project?,Nos Quedamos,260457,40951,The_Bronx,squad_extractive
+1158,How many bank branches were in the Bronx by 2007?,149,260781,41010,The_Bronx,squad_extractive
+1159,What award did the Bronx receive in 1997?,All America City,260964,41040,The_Bronx,squad_extractive
+1160,Who gave the Bronx an award in 1997?,the National Civic League,260984,41044,The_Bronx,squad_extractive
+1161,How were window decals used in the Bronx in the 1980s?,pictures of potted plants and drawn curtains were placed in the windows of abandoned buildings,261235,41083,The_Bronx,squad_extractive
+1162,How many housing units were built in the Bronx in 2002-2007?,"33,687",261438,41113,The_Bronx,squad_extractive
+1163,How much was invested in housing in the Bronx in 2002-2007?,$4.8 billion,261499,41125,The_Bronx,squad_extractive
+1164,Where is a La Quinta being built in the Bronx?,the Mott Haven waterfront,261940,41200,The_Bronx,squad_extractive
+1165,What was the largest armory in the world?,Kingsbridge Armory,261971,41205,The_Bronx,squad_extractive
+1166,What is Kingsbridge Armory being turned into?,Kingsbridge National Ice Center,262077,41222,The_Bronx,squad_extractive
+1167,How much development space would a Concourse Yard platform provide?,"2,000,000 square feet",262306,41254,The_Bronx,squad_extractive
+1168,How much would a Concourse Yard platform cost?,US$350–500 million,262371,41264,The_Bronx,squad_extractive
+1169,What's on the other side of the Hudson from the Bronx?,"Alpine, Tenafly and Englewood Cliffs",262516,41287,The_Bronx,squad_extractive
+1170,What county is Tenafly in?,Bergen County,262556,41293,The_Bronx,squad_extractive
+1171,What state is Alpine in?,New Jersey,262571,41295,The_Bronx,squad_extractive
+1172,Where is the Bronx's highest point?,"in the northwest corner, west of Van Cortlandt Park and in the Chapel Farm area near the Riverdale Country School",263295,41416,The_Bronx,squad_extractive
+1173,What part of the Bronx formerly a salt marsh?,southeastern,263424,41439,The_Bronx,squad_extractive
+1174,What are the Bronx's four low peninsulas?,"Hunt's Point, Clason's Point, Screvin's Neck and Throg's Neck",263584,41467,The_Bronx,squad_extractive
+1175,What is Rodman's Neck between?,Pelham Bay Park in the northeast and City Island,263700,41484,The_Bronx,squad_extractive
+1176,How long is the Bronx's shoreline?,75 square miles,263794,41499,The_Bronx,squad_extractive
+1177,What do the NY Botanical Gardens preserve?,the last patch of the original hemlock forest that once covered the entire county,264436,41599,The_Bronx,squad_extractive
+1178,When was the Jerome Park Reservoir built?,in the 1890s,264813,41663,The_Bronx,squad_extractive
+1179,How large is Crotona Park's lake?,3.3-acre,264916,41683,The_Bronx,squad_extractive
+1180,When did NYC buy land for its parks?,1888,265062,41711,The_Bronx,squad_extractive
+1181,What is Screvin's Neck also called?,Castle Hill Point,265422,41770,The_Bronx,squad_extractive
+1182,What is NYC's largest park?,Pelham Bay Park,265637,41803,The_Bronx,squad_extractive
+1183,Where is Pelham Bay Park?,along the Westchester-Bronx border,265653,41806,The_Bronx,squad_extractive
+1184,What parts of West Bronx are more affluent?,Riverdale and Fieldston.,266003,41863,The_Bronx,squad_extractive
+1185,Where is Van Cortlandt Park?,along the Westchester-Bronx border,266096,41877,The_Bronx,squad_extractive
+1186,What is the Grand Concourse?,a wide boulevard,266153,41884,The_Bronx,squad_extractive
+1187,Why has the supposed size of the 'South Bronx' grown?,The name has been used to represent poverty in the Bronx and applied to progressively more northern places,266292,41907,The_Bronx,squad_extractive
+1188,When was Fordham Road being used as the limit of the South Bronx area?,by the 2000s,266407,41927,The_Bronx,squad_extractive
+1189,Which river is the eastern edge of the South Bronx?,The Bronx River,266469,41939,The_Bronx,squad_extractive
+1190,Which direction does the Cross Bronx Expressway run through the South Bronx?,east to west,266816,41991,The_Bronx,squad_extractive
+1191,What is the main retail area of the South Bronx?,The Hub–Third Avenue Business Improvement District,267038,42029,The_Bronx,squad_extractive
+1192,Which streets demarcate The Hub BID?,"East 149th Street, Willis, Melrose and Third Avenues",267186,42052,The_Bronx,squad_extractive
+1193,What is The Hub's nickname?,"""the Broadway of the Bronx""",267373,42083,The_Bronx,squad_extractive
+1194,What shape is The Hub?,bow-tie,267612,42122,The_Bronx,squad_extractive
+1195,How much land was the Gateway Center at Bronx Terminal Market built on?,17 acres,267869,42167,The_Bronx,squad_extractive
+1196,How much did the Gateway Center at Bronx Terminal Market cost?,$500 million,268052,42199,The_Bronx,squad_extractive
+1197,How many cars can the Gateway Center at Bronx Terminal Market's parking garage hold?,"2,600",268333,42247,The_Bronx,squad_extractive
+1198,What part of Manhattan are the West Bronx's streets similar to?,northernmost part of upper Manhattan,268463,42269,The_Bronx,squad_extractive
+1199,What is the lowest street number seen in the Bronx?,132nd,268689,42304,The_Bronx,squad_extractive
+1200,When was the Bronx added to NYC?,the mid-19th century,268762,42317,The_Bronx,squad_extractive
+1201,What was the Bronx called in the mid-19th century?,the Northside,268906,42341,The_Bronx,squad_extractive
+1202,How much of the Bronx's population is Hispanic?,53.5%,268952,42348,The_Bronx,squad_extractive
+1203,How much of the Bronx's population is non-Hispanic Black?,30.1%,269050,42365,The_Bronx,squad_extractive
+1204,How much of the Bronx's population is non-Hispanic White?,10.9%,269096,42371,The_Bronx,squad_extractive
+1205,How much of the Bronx's population is non-Hispanic Asian?,3.4%,269144,42378,The_Bronx,squad_extractive
+1206,How much of the Bronx's population is non-Hispanic multiracial?,1.2%,269214,42388,The_Bronx,squad_extractive
+1207,How much of the Bronx speaks Spanish at home?,46.29%,269464,42433,The_Bronx,squad_extractive
+1208,How much of the Bronx speaks English at home?,44.02%,269549,42447,The_Bronx,squad_extractive
+1209,How much of the Bronx speaks African languages at home?,2.48%,269581,42451,The_Bronx,squad_extractive
+1210,How much of the Bronx speaks French at home?,0.91%,269615,42455,The_Bronx,squad_extractive
+1211,How much of the Bronx speaks Chinese at home?,0.50%,269781,42478,The_Bronx,squad_extractive
+1212,How much of the Bronx is white (including Hispanic) as of 2009?,22.9%,270176,42540,The_Bronx,squad_extractive
+1213,How much of the Bronx was non-Hispanic white as of 1980?,12.1%,270264,42551,The_Bronx,squad_extractive
+1214,How much of the Bronx was non-Hispanic white as of 2009?,34.4%,270300,42556,The_Bronx,squad_extractive
+1215,How many white people live in the Bronx?,"320,640",270408,42575,The_Bronx,squad_extractive
+1216,How many non-Hispanic white people live in the Bronx?,"168,570",270455,42583,The_Bronx,squad_extractive
+1217,How much of the Bronx's population is black (including Hispanic)?,35.4%,271068,42676,The_Bronx,squad_extractive
+1218,How much of the Bronx's population is black (not including Hispanic)?,30.8%,271140,42686,The_Bronx,squad_extractive
+1219,How many people in the Bronx are black (not including Hispanic)?,"430,600",271218,42699,The_Bronx,squad_extractive
+1220,"How many Bronx residents called themselves ""Sub-Saharan African"" in 2009?","Over 61,000",271252,42703,The_Bronx,squad_extractive
+1221,What percent of the Bronx is Hispanic and Latino Americans?,52.0%,271419,42727,The_Bronx,squad_extractive
+1222,What percent of the Bronx is Puerto Rican?,23.2%,271478,42735,The_Bronx,squad_extractive
+1223,What percent of the Bronx is Mexican?,5.2%,271570,42750,The_Bronx,squad_extractive
+1224,What percent of the Bronx is Cuban?,0.7%,271640,42761,The_Bronx,squad_extractive
+1225,How many multiracial people live in the Bronx?,"over 41,800",272326,42868,The_Bronx,squad_extractive
+1226,What percent of the Bronx is multiracial?,3.0%,272364,42873,The_Bronx,squad_extractive
+1227,What percent of the Bronx has mixed Caucasian and African American heritage?,0.5%,272479,42891,The_Bronx,squad_extractive
+1228,What percent of the Bronx has mixed Caucasian and Native American heritage?,0.2%,272593,42909,The_Bronx,squad_extractive
+1229,What percent of the Bronx has mixed Caucasian and Asian heritage?,0.1%,272695,42926,The_Bronx,squad_extractive
+1230,When were Borough Presidents created?,1898,272909,42960,The_Bronx,squad_extractive
+1231,Why was the Board of Estimate found unconstitutional?,"Brooklyn, the most populous borough, had no greater effective representation on the Board than Staten Island, the least populous borough",273297,43022,The_Bronx,squad_extractive
+1232,Which amendment contains the Equal Protection Clause?,Fourteenth,273454,43046,The_Bronx,squad_extractive
+1233,"When was the 'one man, one vote' decision?",1964,273530,43056,The_Bronx,squad_extractive
+1234,When did Carrion Jr. retire as Borough President?,"March 1, 2009",273572,43063,The_Bronx,squad_extractive
+1235,When was Carrion Jr. first elected Borough President?,2001,273671,43081,The_Bronx,squad_extractive
+1236,Who succeeded Carrion Jr.?,"Rubén Díaz, Jr.",273822,43105,The_Bronx,squad_extractive
+1237,When was Diaz Jr. elected?,"April 21, 2009",273869,43114,The_Bronx,squad_extractive
+1238,"In the 2008 primary, how much of the Bronx vote did Clinton get?",61.2%,274149,43161,The_Bronx,squad_extractive
+1239,"In the 2008 primary, how much of the Bronx vote did Obama get?",37.8%,274203,43169,The_Bronx,squad_extractive
+1240,"In the 2008 primary, how much of the Bronx vote did McCain get?",54.4%,274371,43197,The_Bronx,squad_extractive
+1241,"In the 2008 primary, how much of the Bronx vote did Romney get?",20.8%,274430,43206,The_Bronx,squad_extractive
+1242,"In the 2008 primary, how much of the Bronx vote did Huckabee get?",8.2%,274451,43209,The_Bronx,squad_extractive
+1243,Who did the Bronx support for President in 1928?,Al Smith,274721,43252,The_Bronx,squad_extractive
+1244,How much of the Bronx's vote in 1948 did Truman get?,55%,274938,43291,The_Bronx,squad_extractive
+1245,How much of the Bronx's vote in 1916 did Hughes get?,42.6%,275185,43331,The_Bronx,squad_extractive
+1246,How much of the Bronx's vote in 1916 did Wilson get?,42.6%,275185,43331,The_Bronx,squad_extractive
+1247,How much of the Bronx's vote in 1916 did Benson get?,7.3%,275307,43348,The_Bronx,squad_extractive
+1248,Who was the only Republican Mayor candidate to win the Bronx since 1914?,Fiorello La Guardia,275460,43373,The_Bronx,squad_extractive
+1249,Who did the Bronx vote against for mayor in 1997?,Rudolph Giuliani,275746,43422,The_Bronx,squad_extractive
+1250,Who did the Bronx vote against for mayor in 2005?,Michael Bloomberg,275775,43427,The_Bronx,squad_extractive
+1251,How much of the Bronx vote did Hillquit get in 1917?,over 31%,275886,43444,The_Bronx,squad_extractive
+1252,Which entity runs the Bronx's public noncharter schools?,The New York City Department of Education,276272,43511,The_Bronx,squad_extractive
+1253,How many students attended the Bronx public noncharter schools as of 2000?,"nearly 280,000",276397,43530,The_Bronx,squad_extractive
+1254,How many students attended the Bronx public and private schools as of 2000?,"333,100",276462,43542,The_Bronx,squad_extractive
+1255,Which religious organizations run private schools in the Bronx?,the Roman Catholic Archdiocese of New York and Jewish organizations,276649,43568,The_Bronx,squad_extractive
+1256,"What percent of the Bronx population has a high school diploma, as of 2000?",62.3%,276865,43604,The_Bronx,squad_extractive
+1257,"What percent of the Bronx population has a university degree, as of 2000?",14.6%,276906,43611,The_Bronx,squad_extractive
+1258,"What percent of the Brooklyn population has a high school diploma, as of 2000?",68.8%,277045,43633,The_Bronx,squad_extractive
+1259,"What percent of the Staten Island population has a high school diploma, as of 2000?",82.6%,277065,43636,The_Bronx,squad_extractive
+1260,"What percent of the Manhattan population has a university degree, as of 2000?",49.4%,277151,43650,The_Bronx,squad_extractive
+1261,Which of NYC's prestigious nonreligious private schools are in the Bronx?,"Fieldston, Horace Mann, and Riverdale Country School",277997,43781,The_Bronx,squad_extractive
+1262,Which Bronx schools have been closed or made smaller?,"John F. Kennedy, James Monroe, Taft, Theodore Roosevelt, Adlai Stevenson, Evander Childs, Christopher Columbus, Morris, Walton, and South Bronx High Schools",278333,43836,The_Bronx,squad_extractive
+1263,What type of schools is NYC now working on shrinking?,large middle schools,278538,43865,The_Bronx,squad_extractive
+1264,Who produced 'From Mambo To Hip Hop'?,City Lore,278742,43899,The_Bronx,squad_extractive
+1265,What PBS documentary covered the Bronx's music history?,"""From Mambo to Hip Hop: A South Bronx Tale""",278782,43907,The_Bronx,squad_extractive
+1266,Where did DJ Kool Herc hold parties?,1520 Sedgwick Avenue,278922,43934,The_Bronx,squad_extractive
+1267,Where is 1520 Sedgwick?,just north of the Cross Bronx Expressway and hard along the Major Deegan Expressway,278980,43941,The_Bronx,squad_extractive
+1268,What types of music did hip hop emerge from?,"funk, disco and soul",279418,44014,The_Bronx,squad_extractive
+1269,Who were the Herculoids?,"Herc, Coke La Rock, and DJ Clark Kent",279600,44045,The_Bronx,squad_extractive
+1270,Who started BDP?,KRS-One,279799,44082,The_Bronx,squad_extractive
+1271,What league are the NY Yankees in?,Major League Baseball,280119,44138,The_Bronx,squad_extractive
+1272,When did the first Yankee Stadium open?,1923,280180,44147,The_Bronx,squad_extractive
+1273,Where was the first Yankee Stadium?,on 161st Street and River Avenue,280185,44148,The_Bronx,squad_extractive
+1274,Which historic great players have played at Yankee Stadium?,"Babe Ruth, Lou Gehrig, Joe DiMaggio, Whitey Ford, Yogi Berra, Mickey Mantle, Reggie Jackson, Derek Jeter and Mariano Rivera",280453,44193,The_Bronx,squad_extractive
+1275,Where are many of the Bronx's playwrights from?,Latin America and Africa,280688,44228,The_Bronx,squad_extractive
+1276,What does the Pregones specialize in?,Latin American work,280751,44237,The_Bronx,squad_extractive
+1277,Where is the Pregones' new theater?,on Walton Avenue in the South Bronx,280810,44247,The_Bronx,squad_extractive
+1278,What types of art does the Bronx Museum of the Arts focus on?,20th century and contemporary art,281157,44307,The_Bronx,squad_extractive
+1279,How large are the Bronx Museum of the Arts' galleries?,"11,000 square feet",281228,44318,The_Bronx,squad_extractive
+1280,How many works are in the Bronx Museum of the Arts' permanent collection?,more than 800,281378,44342,The_Bronx,squad_extractive
+1281,Who designed the Bronx Museum of the Arts' 2006 expansion?,Arquitectonica,281647,44383,The_Bronx,squad_extractive
+1282,Where was Heinrich Heine born?,Düsseldorf,281886,44421,The_Bronx,squad_extractive
+1283,When was Heine born?,1797,282004,44437,The_Bronx,squad_extractive
+1284,When did Heine die?,1856,282009,44437,The_Bronx,squad_extractive
+1285,What ethnicity is Carl Schurz?,German-American,282029,44439,The_Bronx,squad_extractive
+1286,Where was Herter's Heine memorial placed in 1899?,"164th Street and the Grand Concourse, or Joyce Kilmer Park",282500,44508,The_Bronx,squad_extractive
+1287,Where was Herter's Heine memorial moved in 1999?,161st Street and the Concourse,282614,44528,The_Bronx,squad_extractive
+1288,What was the City Island Historical Society and Nautical Museum's building originally?,a former public school,282996,44582,The_Bronx,squad_extractive
+1289,Who designed the City Island Historical Society and Nautical Museum's building?,C. B. J. Snyder,283107,44597,The_Bronx,squad_extractive
+1290,Where is the NY Maritime College?,Fort Schuyler,283156,44606,The_Bronx,squad_extractive
+1291,What does the Inner City Press now focus on?,national issues,283913,44728,The_Bronx,squad_extractive
+1292,Who is the Riverdale Press's editor?,Bernard Stein,284154,44764,The_Bronx,squad_extractive
+1293,Why did Stein win a Pulitzer?,for his editorials about Bronx and New York City issues,284214,44773,The_Bronx,squad_extractive
+1294,When did Stein win a Pulitzer?,1998,284273,44784,The_Bronx,squad_extractive
+1295,Where did Stein graduate from?,the Bronx High School of Science,284301,44788,The_Bronx,squad_extractive
+1296,Where is the official city TV station broadcast from?,Bronx Community College,284450,44815,The_Bronx,squad_extractive
+1297,What channel in the Bronx does Cablevision run?,News 12 The Bronx,284500,44821,The_Bronx,squad_extractive
+1298,What is the Bronx's only 4-year CUNY college?,Herbert H. Lehman College,284772,44866,The_Bronx,squad_extractive
+1299,When was 'From This Day Forward' released?,1946,285119,44915,The_Bronx,squad_extractive
+1300,Where was 'From This Day Forward' set?,Highbridge,285133,44917,The_Bronx,squad_extractive
+1301,What did 'The Catered Affair' explore?,working class Bronx life,285264,44934,The_Bronx,squad_extractive
+1302,What was 'Summer of Sam' about?,an Italian-American Bronx community,285475,44971,The_Bronx,squad_extractive
+1303,"Who made a documentary called ""The Bronx is burning""?",BBC,286018,45063,The_Bronx,squad_extractive
+1304,Who made a film called 'Bronx Burning'?,Edwin Pagan,286634,45165,The_Bronx,squad_extractive
+1305,When was 'A Bronx Tale' released?,1993,287237,45276,The_Bronx,squad_extractive
+1306,When was 'A Bronx Tale' released?,1993,287237,45276,The_Bronx,squad_extractive
+1307,When was 'Fort Apache' released?,1981,287999,45403,The_Bronx,squad_extractive
+1308,What genre was 'True Love'?,comedy,289420,45648,The_Bronx,squad_extractive
+1309,Who starred in 'True Love'?,Annabella Sciorra and Ron Eldard,289545,45666,The_Bronx,squad_extractive
+1310,What is Sacks' career?,neurologist,290116,45759,The_Bronx,squad_extractive
+1311,Whose real story is 'Awakenings' based on?,Oliver Sacks,290128,45760,The_Bronx,squad_extractive
+1312,When was 'A Kind of Alaska' performed?,1985,290586,45836,The_Bronx,squad_extractive
+1313,Who wrote 'A Kind of Alaska'?,Harold Pinter,290599,45839,The_Bronx,squad_extractive
+1314,Who wrote 'City Boy: The Adventures of Herbie Bookbinder'?,Herman Wouk,290737,45861,The_Bronx,squad_extractive
+1315,When was 'City Boy: The Adventures of Herbie Bookbinder' published?,1948,290798,45871,The_Bronx,squad_extractive
+1316,How much of 'City Boy: The Adventures of Herbie Bookbinder' is set in the Bronx?,about half,290827,45876,The_Bronx,squad_extractive
+1317,Who wrote 'The Grand Concourse'?,Jacob M. Appel,291098,45921,The_Bronx,squad_extractive
+1318,Who wrote 'Bonfire of the Vanities'?,Tom Wolfe,291570,45993,The_Bronx,squad_extractive
+1319,When was 'Bonfire of the Vanities' published?,1987,291607,46000,The_Bronx,squad_extractive
+1320,Who was the main character of 'Bonfire of the Vanities'?,Sherman McCoy,291652,46005,The_Bronx,squad_extractive
+1321,Where did McCoy get lost?,off the Major Deegan Expressway in the South Bronx,291680,46009,The_Bronx,squad_extractive
+1322,Which type of tree is associated with the city Ann Arbor's name?,Bur Oak,292393,46131,"Ann_Arbor,_Michigan",squad_extractive
+1323,"During  the 1960's & 70's, Ann Arbor gained a reputation for what?",center for left-wing politics,292606,46172,"Ann_Arbor,_Michigan",squad_extractive
+1324,What was the profession of the founders of Ann arbor?,land speculators,292844,46211,"Ann_Arbor,_Michigan",squad_extractive
+1325,Who founded Ann Arbor?,John Allen and Elisha Walker Rumsey,292861,46213,"Ann_Arbor,_Michigan",squad_extractive
+1326,For how much money did the founders purchase the land from the federal government?,$800,293188,46274,"Ann_Arbor,_Michigan",squad_extractive
+1327,Which tribe named the settlement as kaw-goosh-kaw-nick?,Ojibwa,293250,46285,"Ann_Arbor,_Michigan",squad_extractive
+1328,"In 1916, what was the name of the Synagogue that was establish?",Beth Israel Congregation,294354,46462,"Ann_Arbor,_Michigan",squad_extractive
+1329,"During the early & mid 70's, which party won the city council seats?",Human Rights Party,295127,46587,"Ann_Arbor,_Michigan",squad_extractive
+1330,What was the Thomas More law group?,a religious-conservative advocacy group,295726,46672,"Ann_Arbor,_Michigan",squad_extractive
+1331,"For the past few years, what effects has the city Ann Arbor grappled with?",sharply rising land values,295840,46689,"Ann_Arbor,_Michigan",squad_extractive
+1332,What plan did the city voters approve in 2003?,greenbelt plan,295977,46708,"Ann_Arbor,_Michigan",squad_extractive
+1333,Which magazine listed Ann Arbor as one of the most liveable cities in the USA?,Forbes,296503,46792,"Ann_Arbor,_Michigan",squad_extractive
+1334,What is the landscape of Ann Arbor like?,hills and valleys,297099,46900,"Ann_Arbor,_Michigan",squad_extractive
+1335,What is the name of the city's airport?,Ann Arbor Municipal Airport,297532,46976,"Ann_Arbor,_Michigan",squad_extractive
+1336,What is the city of Ann arbor nicknamed as?,Tree Town,297715,47006,"Ann_Arbor,_Michigan",squad_extractive
+1337,How many parks are there in the city of Ann Arbor?,157,298015,47055,"Ann_Arbor,_Michigan",squad_extractive
+1338,What is the name of the Arboretum owned by the University of Michigan?,Nichols Arboretum,298326,47101,"Ann_Arbor,_Michigan",squad_extractive
+1339,How big is the Matthaei botanical garden?,300 acres,298669,47154,"Ann_Arbor,_Michigan",squad_extractive
+1340,Which area in the city contains 19th&20th century as well as modern structures?,Downtown,299246,47241,"Ann_Arbor,_Michigan",squad_extractive
+1341,Which district has the farmers market in the city?,Kerrytown district,299377,47261,"Ann_Arbor,_Michigan",squad_extractive
+1342,Which districts compose mostly of 2-4 story structures?,commercial districts,299408,47265,"Ann_Arbor,_Michigan",squad_extractive
+1343,Who primarily occupies the complexes surrounding the University?,student renters,299984,47344,"Ann_Arbor,_Michigan",squad_extractive
+1344,Which is the tallest building in Ann Arbor?,Tower Plaza,300001,47346,"Ann_Arbor,_Michigan",squad_extractive
+1345,When was the city listed on the National Register of historic Places?,1972,300266,47385,"Ann_Arbor,_Michigan",squad_extractive
+1346,What is the average snowfall for the city?,58 inches,301256,47550,"Ann_Arbor,_Michigan",squad_extractive
+1347,What is the population density of the city?,"4,270.33 people per square mile",301576,47606,"Ann_Arbor,_Michigan",squad_extractive
+1348,Which parts of the city of Detroit are densely populated?,Oak Park and Ferndale,301787,47637,"Ann_Arbor,_Michigan",squad_extractive
+1349,What percentage makes up for the whites living in the city?,73.0%,301943,47663,"Ann_Arbor,_Michigan",squad_extractive
+1350,What is the average household size in the city of Ann Arbor?,2.22,302566,47767,"Ann_Arbor,_Michigan",squad_extractive
+1351,What is the average family size in the city of Ann Arbor?,2.90,302603,47774,"Ann_Arbor,_Michigan",squad_extractive
+1352,What is the employee count of the University of Michigan?,"30,000",302969,47842,"Ann_Arbor,_Michigan",squad_extractive
+1353,Nam the major components for the City's growth.,"High tech, health services and biotechnology",303143,47869,"Ann_Arbor,_Michigan",squad_extractive
+1354,Name some automobile manufacturers in the city of Ann Arbor,General Motors and Visteon,303362,47899,"Ann_Arbor,_Michigan",squad_extractive
+1355,International Radio introduced which mass produced product from the city of Ann Arbor?,AC/DC radio,303548,47925,"Ann_Arbor,_Michigan",squad_extractive
+1356,Which company manufactured cameras in Ann Arbor from 1936 to 1960's?,Argus camera company,303649,47944,"Ann_Arbor,_Michigan",squad_extractive
+1357,"Which network company opened up in 2008 providing security, storage & networking?",Barracuda Networks,304227,48022,"Ann_Arbor,_Michigan",squad_extractive
+1358,Name some website or media companies located in Ann Arbor.,"All Media Guide, the Weather Underground, and Zattoo",304594,48078,"Ann_Arbor,_Michigan",squad_extractive
+1359,What company is Merit network?,education computer network,304736,48101,"Ann_Arbor,_Michigan",squad_extractive
+1360,Which company's adwords program is headquartered at Ann Arbor?,Google,304960,48136,"Ann_Arbor,_Michigan",squad_extractive
+1361,Who is the city's 2nd largest employer?,Pfizer,305496,48227,"Ann_Arbor,_Michigan",squad_extractive
+1362,Which non-profit non-governmental organization is located in Ann Arbor?,National Sanitation Foundation International,306393,48363,"Ann_Arbor,_Michigan",squad_extractive
+1363,Who opened the Borders Books store in Ann Arbor?,Tom and Louis Borders,306676,48399,"Ann_Arbor,_Michigan",squad_extractive
+1364,Which pizza chain is headquartered at Ann Arbor?,Domino's Pizza's,306836,48430,"Ann_Arbor,_Michigan",squad_extractive
+1365,Which company was the world's largest privately held ink manufacturer till 2005?,Flint Ink Corp,307294,48497,"Ann_Arbor,_Michigan",squad_extractive
+1366,"Avfuel, a global supplier of what services is headquartered in Ann Arbor?",aviation fuels,307508,48529,"Ann_Arbor,_Michigan",squad_extractive
+1367,How many events does the University Musical Society present in a year?,over 60,307995,48598,"Ann_Arbor,_Michigan",squad_extractive
+1368,Name Michigan's first Civic chartered company.,Ann Arbor Civic Ballet,308403,48663,"Ann_Arbor,_Michigan",squad_extractive
+1369,Which museum is located at Ann Arbors historic downtown fire station?,The Ann Arbor Hands-On Museum,308714,48711,"Ann_Arbor,_Michigan",squad_extractive
+1370,Which presidential library is located in Ann Arbor?,Gerald R. Ford Presidential Library,309272,48804,"Ann_Arbor,_Michigan",squad_extractive
+1371,What type of Art fairs are held at Ann Arbor?,juried fairs,309480,48838,"Ann_Arbor,_Michigan",squad_extractive
+1372,What is the name of the film festival held at Ann Arbor?,Ann Arbor Film Festival,309651,48867,"Ann_Arbor,_Michigan",squad_extractive
+1373,How many submissions does the Ann arbor film festival receive?,"2,500",309738,48882,"Ann_Arbor,_Michigan",squad_extractive
+1374,What medical dispensarys are there in Ann Arbor?,medical marijuana dispensaries,310009,48925,"Ann_Arbor,_Michigan",squad_extractive
+1375,What are the Medical marijuana dispensaries called in the city?,People's Co-op,310076,48934,"Ann_Arbor,_Michigan",squad_extractive
+1376,What annual event is held on the 1st saturday of april?,annual Hash Bash,310252,48963,"Ann_Arbor,_Michigan",squad_extractive
+1377,Which is the largest American football stadium in the world?,Michigan Stadium,310881,49063,"Ann_Arbor,_Michigan",squad_extractive
+1378,What is the Michigan Stadium called colloquially?,The Big House,311133,49104,"Ann_Arbor,_Michigan",squad_extractive
+1379,What is a person from Ann Arbor called?,Ann Arborite,311390,49147,"Ann_Arbor,_Michigan",squad_extractive
+1380,In recent years what has Ann Arbor become?,gentrified,312271,49279,"Ann_Arbor,_Michigan",squad_extractive
+1381,What form of government does Ann Arbor have?,council-manager,312316,49287,"Ann_Arbor,_Michigan",squad_extractive
+1382,How many terms does the mayor of the city serve?,two-year,312472,49312,"Ann_Arbor,_Michigan",squad_extractive
+1383,Who represents the congress in Ann Arbor?,Debbie Dingell,313246,49438,"Ann_Arbor,_Michigan",squad_extractive
+1384,On a state level the city is part of which district number?,18th district,313318,49452,"Ann_Arbor,_Michigan",squad_extractive
+1385,Who represents the city in Michigan senate?,Rebekah Warren,313380,49461,"Ann_Arbor,_Michigan",squad_extractive
+1386,What kind of politics have been strong in the municipal government?,Left-wing politics,313852,49530,"Ann_Arbor,_Michigan",squad_extractive
+1387,Ann Arbor became the 1st city in the US to what type of voting in the Mayoral race?,instant-runoff,314366,49612,"Ann_Arbor,_Michigan",squad_extractive
+1388,Name a private business school located in Ann arbor.,Cleary University,315049,49718,"Ann_Arbor,_Michigan",squad_extractive
+1389,Who founded Domino's pizza?,Tom Monaghan,315273,49752,"Ann_Arbor,_Michigan",squad_extractive
+1390,Which school acquired the former Ave Maria building after a Roman catholic school moved from there?,Thomas M. Cooley Law School,315381,49771,"Ann_Arbor,_Michigan",squad_extractive
+1391,"In 2008, how many were enrolled in public schools?","16,539",315624,49812,"Ann_Arbor,_Michigan",squad_extractive
+1392,What program is open to the residents of Ann arbor?,Ann Arbor Open School,316016,49869,"Ann_Arbor,_Michigan",squad_extractive
+1393,Who owns Ann Arbor news?,Booth Newspapers,316436,49936,"Ann_Arbor,_Michigan",squad_extractive
+1394,What magazine covers Ann Arbor's local businesses?,Ann Arbor Business Review,317366,50082,"Ann_Arbor,_Michigan",squad_extractive
+1395,Which automobile magazines are based from Ann Arbor?,Car and Driver magazine and Automobile Magazine,317427,50092,"Ann_Arbor,_Michigan",squad_extractive
+1396,"Which university magazine reports local, state & regional issues in addition to campus news?",Michigan Daily student newspaper,317597,50118,"Ann_Arbor,_Michigan",squad_extractive
+1397,What is the name of the conservative AM radio channel in Ann arbor?,WAAM 1600,317771,50147,"Ann_Arbor,_Michigan",squad_extractive
+1398,What is the name of the city's FM radio channel?,WUOM 91.7,317988,50183,"Ann_Arbor,_Michigan",squad_extractive
+1399,What is the name of the local free community college radio?,WCBN-FM 88.3,318086,50196,"Ann_Arbor,_Michigan",squad_extractive
+1400,WPXD channel 31 is an affliate of which TV network?,ION,318451,50248,"Ann_Arbor,_Michigan",squad_extractive
+1401,What is the abbreviation of CTN?,Community Television Network,318643,50277,"Ann_Arbor,_Michigan",squad_extractive

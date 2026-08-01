@@ -1,0 +1,1280 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,source_title,type
+1,What is a gramophone or 'vinyl' record?,analogue sound storage medium,113,19,Gramophone_record,squad_extractive
+2,Where does the groove on a vinyl record typically start?,near the periphery,280,44,Gramophone_record,squad_extractive
+3,What are common diameters found in phonograph records?,"12"", 10"", 7""",409,66,Gramophone_record,squad_extractive
+4,What does LP stand for when it comes to time capacity?,long playing,582,97,Gramophone_record,squad_extractive
+5,What was the primary use of a phonographic disc record?,music reproduction,906,150,Gramophone_record,squad_extractive
+6,From the 1990s to 2010s who was the primary consumer of vinyl records?,disc jockeys (DJ)s,1475,245,Gramophone_record,squad_extractive
+7,What is the niche market of phonograph record fans known as?,audiophiles,1568,262,Gramophone_record,squad_extractive
+8,Approximately how many phonograph records were sold in 2014?,9.2 million,1659,277,Gramophone_record,squad_extractive
+9,By whom was the phonautograms patented?,Léon Scott,1840,308,Gramophone_record,squad_extractive
+10,In what year was phonautograms patented?,1857,1854,311,Gramophone_record,squad_extractive
+11,What was the original intent of the phonautograph?,visual analysis,1975,331,Gramophone_record,squad_extractive
+12,In what years where phonautograms converted to audible sound?,2000s,2043,343,Gramophone_record,squad_extractive
+13,What year were the earliest known recordings of sound?,1857,2338,392,Gramophone_record,squad_extractive
+14,In what year did Thomas Edison invent the phonograph?,1877,2398,402,Gramophone_record,squad_extractive
+15,How did the phonograph differ from the phonautograph?,capable of both recording and reproducing sound,2476,413,Gramophone_record,squad_extractive
+16,What was unique about Einsteins invention?,reproducing sound,3473,565,Gramophone_record,squad_extractive
+17,At what era was the recorded sound market introduced?,1880s,4073,662,Gramophone_record,squad_extractive
+18,What was an issue found with Berliner's records initially? ,poor sound quality,4882,785,Gramophone_record,squad_extractive
+19,Where is the museum dedicated to Berliner located?,Montreal,5392,860,Gramophone_record,squad_extractive
+20,What disc format was the least fragile prior to 1919?,Amberol cylinder,5704,909,Gramophone_record,squad_extractive
+21,What was the playing surface of the blue amerbol cylinder discs made of?,celluloid,5877,940,Gramophone_record,squad_extractive
+22,What was the name of the discs Edison introduced in 1909?,Blue Amberol cylinders,6057,967,Gramophone_record,squad_extractive
+23,What format dominated the market in the late 1980s?,digital compact disc,6378,1017,Gramophone_record,squad_extractive
+24,What were two drawback of early recordings?,Sensitivity and frequency range were poor,6687,1065,Gramophone_record,squad_extractive
+25,How was the frequency response in early recordings?,very irregular,6757,1075,Gramophone_record,squad_extractive
+26,How would one make to early recordings?,face in the recording horn,6884,1094,Gramophone_record,squad_extractive
+27,What instruments did not record well?,Lower-pitched orchestral instruments,6912,1099,Gramophone_record,squad_extractive
+28,What types of violins worked best with early recordings?,Stroh violins,7125,1129,Gramophone_record,squad_extractive
+29,Were drums heard on early jazz recordings?,drums could be effectively used,7251,1146,Gramophone_record,squad_extractive
+30,Where were loud instruments best placed for good sound quality?,farthest away from the collecting horn,7424,1174,Gramophone_record,squad_extractive
+31,What was the item called that recorded the sounds?,collecting horn,7447,1178,Gramophone_record,squad_extractive
+32,How far away has a trumpeter been known to stand?,fifteen feet,7741,1226,Gramophone_record,squad_extractive
+33,What tool was used to improve sound quality in early recordings for special effects?,moveable platform,7883,1250,Gramophone_record,squad_extractive
+34,What was an early took used to amplify sounds?,vacuum tubes,8192,1295,Gramophone_record,squad_extractive
+35,How could the sounds produced by Western Electric be described?,"fuller, clearer and more natural",8402,1324,Gramophone_record,squad_extractive
+36,What was a drawback of early home recording systems?,high cost,8997,1413,Gramophone_record,squad_extractive
+37,What was the initial cost range of early recording devices?,US$95 to US$300,9317,1460,Gramophone_record,squad_extractive
+38,What options were available that effected the cost of the Victor Orthophonic Victorla?,cabinetry,9347,1465,Gramophone_record,squad_extractive
+39,What was the typical weekly pay of a worker in 1925?,$20,9484,1488,Gramophone_record,squad_extractive
+40,What materials were discs made of in 1889-1894?,hard rubber,9576,1502,Gramophone_record,squad_extractive
+41,What was the standard material for discs around 1895?,a shellac-based compound,9602,1506,Gramophone_record,squad_extractive
+42,What material is used in order to release the vinyl records from their molds?,lubricant,10133,1590,Gramophone_record,squad_extractive
+43,What was the thin translucent plastic most successfully used to make discs called?,Durium,11760,1846,Gramophone_record,squad_extractive
+44,What was a major downfall of the success of Durium records?,Great Depression,12011,1889,Gramophone_record,squad_extractive
+45,What are most 78 rpm records made of?,shellac compounds,12330,1944,Gramophone_record,squad_extractive
+46,What year was the Victrolac compound released?,1931,12467,1966,Gramophone_record,squad_extractive
+47,What material was used by RCA Victor for special purpose records?,vinyl-based Victrolac compound,12501,1971,Gramophone_record,squad_extractive
+48,What were advantages of vinyl in the 1930's?,"light weight, relative unbreakability and low surface noise",12645,1992,Gramophone_record,squad_extractive
+49,What was a downfall of ordinary 78 rpm vinyls in household house?,higher cost,12866,2026,Gramophone_record,squad_extractive
+50,What was Metrolite and Sav-o-flex materials primarily used for?,children's records,13799,2173,Gramophone_record,squad_extractive
+51,How small were the earliest discs released?,12.5 cm,13963,2199,Gramophone_record,squad_extractive
+52,How long could a recording be on a 10 inch disc in the 1903?,four to five minutes of music per side,14362,2265,Gramophone_record,squad_extractive
+53,What was one requirement issue with discs popular in Britain?,modification of the equipment,14784,2334,Gramophone_record,squad_extractive
+54,What factors would effect playing time of a phonograph?,turntable speed and the groove spacing,14872,2348,Gramophone_record,squad_extractive
+55,What was the playing time common in the early 20th century?,two minutes,14977,2366,Gramophone_record,squad_extractive
+56,What was the recording time available on a 12 inch disc?,three and a half minutes,15104,2387,Gramophone_record,squad_extractive
+57,How many sides of a disc commonly held a recording?,two sides,16306,2582,Gramophone_record,squad_extractive
+58,What was a way musicians got sounds such short recording times?,release a set of records,16402,2600,Gramophone_record,squad_extractive
+59,What was a typical recording time of a song in 1948?,about 3:30,16889,2685,Gramophone_record,squad_extractive
+60,On which label did Frank Sinatra release his recording of Soliloquy?,Columbia's Masterwork label,17215,2741,Gramophone_record,squad_extractive
+61,When were albums said to be pioneered?,1909,17545,2799,Gramophone_record,squad_extractive
+62,What was one of the very first albums released?,Nutcracker Suite by Tchaikovsky,17571,2804,Gramophone_record,squad_extractive
+63,What was unique about Odeon's 1909 release of the Nutcracker Suite?,4 double-sided discs in a specially designed package,17606,2809,Gramophone_record,squad_extractive
+64,What was one of the first releases with a photo on the cover?,The Mikado (Gilbert & Sullivan),18027,2880,Gramophone_record,squad_extractive
+65,What were early record album covers made of?,empty sleeves with a paperboard or leather cover,18105,2892,Gramophone_record,squad_extractive
+66,What sizes were record album covers available in?,10-inch and 12-inch sizes,18341,2932,Gramophone_record,squad_extractive
+67,How were record album covers intended to be stored?,upright,18497,2960,Gramophone_record,squad_extractive
+68,What was the purpose of record album covers?,protecting them,18570,2972,Gramophone_record,squad_extractive
+69,What is typically found on the front cover of an album?,artwork,18750,3001,Gramophone_record,squad_extractive
+70,How may records were commonly found in an album?,three or four,18843,3018,Gramophone_record,squad_extractive
+71,How many songs did most albums contain?,six or eight,18894,3027,Gramophone_record,squad_extractive
+72,What are reasons for recent releases of 78 rpm speed vinyls?,collectable or nostalgia purposes,19112,3070,Gramophone_record,squad_extractive
+73,What is a benefit of newer releases of 78 rpm speed vinyls?,higher-quality audio playback,19169,3079,Gramophone_record,squad_extractive
+74,Who founded Audiophile Records?,Ewing Dunbar Nunn,19451,3126,Gramophone_record,squad_extractive
+75,What benefits to vinyl have been found in the 1950s?,wider range of audio,20014,3217,Gramophone_record,squad_extractive
+76,"Who released 7"" microgrooved records in the 1950s?",Bell Records,20073,3228,Gramophone_record,squad_extractive
+77,Which disc did Reprise release in 78 rpm format?,Think It's Going to Rain Today,20347,3275,Gramophone_record,squad_extractive
+78,Why did Reprise only release one 78 rpm vinyl?,"lack of sales for the single, and a lack of general interest",20519,3306,Gramophone_record,squad_extractive
+79,What two songs were featured on the 1978 release by Leon Redbone in 78 rpm format?,Alabama Jubilee and Please Don't Talk About Me When I'm Gone,20696,3338,Gramophone_record,squad_extractive
+80,What record company released recordings of 'Buena' and 'Tuff Enuff' in 1980?,Stiff Records,20800,3355,Gramophone_record,squad_extractive
+81,For whom was the 1990 release of 78 rpm intended?,owners of vintage jukeboxes,21240,3430,Gramophone_record,squad_extractive
+82,How did the 1990 release of 78 rpm effect Rhino Records?,bad reputation,21564,3488,Gramophone_record,squad_extractive
+83,What was the result of the use of this release of 78 rpm vinyl when used in vintage jukeboxes?,they were destroyed,21600,3492,Gramophone_record,squad_extractive
+84,What was needed to successfully play the newer released 79 rpm vinyl?,lightweight tone arms and jewel needles,21725,3513,Gramophone_record,squad_extractive
+85,When did RCA Victor release long play discs?,1931,21770,3520,Gramophone_record,squad_extractive
+86,What was the playing time of program-transcription discs?,ten minutes playing time per side,22044,3561,Gramophone_record,squad_extractive
+87,How successful was RCA Victor's program-transcription discs?,commercial failure,22137,3577,Gramophone_record,squad_extractive
+88,By when were long play records discontinued?,early 1933,22469,3621,Gramophone_record,squad_extractive
+89,What was a benefit of using vinyl over shellac?,lower surface noise,22490,3624,Gramophone_record,squad_extractive
+90,How long did it take Columbia to produce a consumer friendly long play record?,about eight years,23588,3804,Gramophone_record,squad_extractive
+91,Who released the 12 inch LP?,Columbia Record Company,23772,3837,Gramophone_record,squad_extractive
+92,On what date was the 12 inch LP released?,"June 18, 1948",23830,3847,Gramophone_record,squad_extractive
+93,What was the size of a RCA Victor 45 rpm?,7 inches,24024,3878,Gramophone_record,squad_extractive
+94,What did RCA release to complete against Columbia's LP?,The 45 rpm player,24071,3887,Gramophone_record,squad_extractive
+95,What materials were 45 rpm records made of?,vinyl or polystyrene,24515,3965,Gramophone_record,squad_extractive
+96,What was the play time of a 45 rpm,eight minutes,24564,3974,Gramophone_record,squad_extractive
+97,Who had made an attempt in the 1920s to release a long play time recording?,World Records,24697,3995,Gramophone_record,squad_extractive
+98,What caused the constant linear velocity?,Noel Pemberton Billing's patented add-on governor device,24786,4008,Gramophone_record,squad_extractive
+99,What was a unique feature of World Records records?,played from the outside to the inside,24858,4018,Gramophone_record,squad_extractive
+100,What currently utilized item was World Records CLV similar to?,Philips Laser Disc,25095,4057,Gramophone_record,squad_extractive
+101,How many rpm did the electrically powered synchronous turanable motor run at?,3600 rpm,25265,4084,Gramophone_record,squad_extractive
+102,What gear ration creates 78.26 rpm?,46:1,25287,4089,Gramophone_record,squad_extractive
+103,Why are these records known as '78s'?,to distinguish them from other newer disc record formats,25618,4153,Gramophone_record,squad_extractive
+104,At which time were the 79 rpm no longer mass produced?,about 1960,25895,4197,Gramophone_record,squad_extractive
+105,On which date did Columbia release it's last 78?,"November 1, 1954.",26152,4243,Gramophone_record,squad_extractive
+106,With which crowd did the 45 rpm gain popularity?,teenagers,26453,4301,Gramophone_record,squad_extractive
+107,On which label did Elvis release his early singles?,Sun Records,26535,4312,Gramophone_record,squad_extractive
+108,Why did Elvis sales of 78s perform so well in the Southern States?,45 rpm player was a luxury few could afford at the time,26776,4356,Gramophone_record,squad_extractive
+109,What percentage of Elvis Presley's single sales were of 78s?,less than 10%,26897,4380,Gramophone_record,squad_extractive
+110,What was the last Elvis Presley single released on 78?,I Got Stung/One Night,27085,4412,Gramophone_record,squad_extractive
+111,What was the last 78 released in the UK by RCA?,A Mess Of Blues/Girl Of My Best Friend,27157,4427,Gramophone_record,squad_extractive
+112,What two formats replaced the 78?,"33 1⁄3 rpm (often just referred to as the 33 rpm), and the 45 rpm",27318,4455,Gramophone_record,squad_extractive
+113,When did the 33 1/3 rpm hit the market?,June 1948,27490,4488,Gramophone_record,squad_extractive
+114,When did RCA release their 45 rpm format?,March 1949,27559,4501,Gramophone_record,squad_extractive
+115,When were RIAA standards established?,mid-1950s,27838,4548,Gramophone_record,squad_extractive
+116,Who developed the 33 1/3 rpm speed record?,Peter Goldmark,28355,4626,Gramophone_record,squad_extractive
+117,What record format was created for use in Chrysler automobiles?,Highway Hi-Fi 16 2⁄3 rpm record,28430,4639,Gramophone_record,squad_extractive
+118,Why did Chrysler discontinue use of the Hifi 16 2/3 rpm record?,poor performance,28504,4652,Gramophone_record,squad_extractive
+119,What was 16 2/3 rpm speed used for?,narrated publications,28677,4683,Gramophone_record,squad_extractive
+120,"Which two companies were involved in the ""War of the Speeds""?",RCA Victor and Columbia Records,28924,4722,Gramophone_record,squad_extractive
+121,"Over which years did the ""War of the Speeds"" last? ",1948 to 1950,29105,4755,Gramophone_record,squad_extractive
+122,By 1945 what was the total sale of 45s?,200 million,29508,4828,Gramophone_record,squad_extractive
+123,"What was the significance of October 26th, 1956?",The last Columbia Records reissue of any Frank Sinatra songs on a 10-inch LP,29681,4858,Gramophone_record,squad_extractive
+124,Which format offered up to 1/2 an hour of recordings per side?,12-inch LP,30426,4986,Gramophone_record,squad_extractive
+125,Did the 45 rpm or 12 inch disc offer longer playing time?,12-inch LP,30426,4986,Gramophone_record,squad_extractive
+126,What do the initials EP stand for?,extended play,30564,5011,Gramophone_record,squad_extractive
+127,What was a benefit of EPs over LPs?,EP discs were cheaper,30735,5039,Gramophone_record,squad_extractive
+128,Why were 45s more popular with jukeboxes?,The large center hole,31043,5103,Gramophone_record,squad_extractive
+129,What format was phased out by the end of the 1950s?,EPs,31122,5116,Gramophone_record,squad_extractive
+130,What three speeds were sound on most home stereos in the mid 1950's?,"78, 45, 33 1⁄3",31830,5235,Gramophone_record,squad_extractive
+131,What feature of 45s required an adapter in most home stereos?,larger center hole.,32177,5298,Gramophone_record,squad_extractive
+132,What were the plastic inserts which would adapt 45s to the smaller spindle of an LP player called?,spider,32529,5367,Gramophone_record,squad_extractive
+133,What invention did Thomas Hutchinson introduce?,spider,32529,5367,Gramophone_record,squad_extractive
+134,Whom were the adaptable inserts for 45s to LPs commissioned by?,RCA president David Sarnoff,32569,5371,Gramophone_record,squad_extractive
+135,How many spiders were sold in the 45 rpm heydays?,tens of millions per year,32684,5389,Gramophone_record,squad_extractive
+136,Wy did records outside of the US often have small holes with the ability to punch out the center?,for use in jukeboxes,33057,5455,Gramophone_record,squad_extractive
+137,During what years did the term HiFi take off with engineers?,1930s and 1940s,33362,5501,Gramophone_record,squad_extractive
+138,What happened in 1958 that changed the home music scene?,variety of improvements in recording and playback technologies,33392,5507,Gramophone_record,squad_extractive
+139,What magazines provided reviews for audio equipment?,High Fidelity and Audio,33701,5550,Gramophone_record,squad_extractive
+140,What was the benefit of 45/45 stereo sound?,more natural listening experience,33899,5579,Gramophone_record,squad_extractive
+141,What did Alan Blumlein event?,stereophonic record system,34151,5612,Gramophone_record,squad_extractive
+142,What year was stereo sound patented? ,1931,34218,5623,Gramophone_record,squad_extractive
+143,When did EMI create the first stereo discs?,1933,34307,5640,Gramophone_record,squad_extractive
+144,How was the commercial success of stereo sound in the 1930s?,was not exploited commercially until much later.,34375,5651,Gramophone_record,squad_extractive
+145,What was the newest break through in home sound systems in 1971?,development of quadraphonic records,34429,5659,Gramophone_record,squad_extractive
+146,What did quadraphonic recording feature?,recorded four separate sound signals.,34494,5668,Gramophone_record,squad_extractive
+147,How would the commercial success of quadraphonic records be defined?,commercially unsuccessful,34935,5735,Gramophone_record,squad_extractive
+148,What did developments in quadraphonic recordings inspire?,later surround-sound systems,34997,5743,Gramophone_record,squad_extractive
+149,What format was less successful than quadraphonic?,CD-4,35087,5757,Gramophone_record,squad_extractive
+150,How widespread was the success of CD-4 format? ,even less successful than the two matrixed formats,35338,5793,Gramophone_record,squad_extractive
+151,What was a major issue with CD-4 technology?,no cutting heads were available that could handle the HF information,35418,5806,Gramophone_record,squad_extractive
+152,What were potential benefits of the CD-4 format?,reduced distortion and greater headroom,35671,5846,Gramophone_record,squad_extractive
+153,For which company did C. Robert Fine work for?,Mercury Records,35772,5860,Gramophone_record,squad_extractive
+154,Which microphone hold the most importance in 3 microphone recording?,The center,36259,5933,Gramophone_record,squad_extractive
+155,What benefits were found in using the 35mm magnetic film?,prevented tape layer print-through and pre-echo and gained extended frequency range and transient response,36723,6005,Gramophone_record,squad_extractive
+156,What technique were used to reduce inner-groove distortion?,CBS DisComputer and Teldec Direct Metal Mastering,37224,6080,Gramophone_record,squad_extractive
+157,Why did some music lovers frown upon diaphragming? ,unnatural side effects,37721,6155,Gramophone_record,squad_extractive
+158,What did closer groove spacing result in?,Lower recorded volume,37986,6196,Gramophone_record,squad_extractive
+159,What would be found with higher recorded volumes?,wider spacing,38057,6206,Gramophone_record,squad_extractive
+160,When were 'half speed' and 'digitally remastered' recordings being released?,late 1970s,38297,6243,Gramophone_record,squad_extractive
+161,What were direct to disc recordings expected to product?,"a ""purist"" transcription",38449,6266,Gramophone_record,squad_extractive
+162,When was the Disco Eye-Cued System developed?,late 1970s,38656,6293,Gramophone_record,squad_extractive
+163,How did Disco Eye-Cued system benefit DJs?,visual cue to DJs mixing the records,38886,6328,Gramophone_record,squad_extractive
+164,How did Disco Eye-Cued sysems differ from LPs?,only contain one track each side,38986,6347,Gramophone_record,squad_extractive
+165,When were DBX recordings released?,mid-1970s,39025,6354,Gramophone_record,squad_extractive
+166,How compatible were DBX encoded recordings with prior technologies?,completely incompatible with,39130,6369,Gramophone_record,squad_extractive
+167,What was required for quality playback of DBX recordings?,automatic gain control,39497,6429,Gramophone_record,squad_extractive
+168,What was the intention of DBX encoded recordings?,reduced the effect of surface noise on quiet passages,39552,6437,Gramophone_record,squad_extractive
+169,What did CBS develop in order to reduce outside noise?,"""CX"" noise reduction",39679,6456,Gramophone_record,squad_extractive
+170,What company out of Japan offered laser turntables that read vinyl discs optically?,ELPJ,39727,6461,Gramophone_record,squad_extractive
+171,What was a benedit of laser read discs?,eliminates record wear,39878,6484,Gramophone_record,squad_extractive
+172,What was a drawback of laser read discs?,degrade the sound,39952,6494,Gramophone_record,squad_extractive
+173,What was the primary use of laser read discs?,archiving of analog records,40019,6505,Gramophone_record,squad_extractive
+174,Who is Irene?,scanning machine for disc records,40510,6586,Gramophone_record,squad_extractive
+175,Where was IRENE developed?,Lawrence Berkeley Laboratories,40635,6605,Gramophone_record,squad_extractive
+176,What is the primary use of IRENE?,retrieve the information,40678,6610,Gramophone_record,squad_extractive
+177,Does IRENE require the  ability to touch the media?,without touching the medium,40760,6621,Gramophone_record,squad_extractive
+178,Can IRENE read vertically modulated information?,cannot read vertically modulated information,40800,6627,Gramophone_record,squad_extractive
+179,What terms are used for recording with more than one track?,"long-play"" (LP) and ""extended-play"" (EP",41134,6674,Gramophone_record,squad_extractive
+180,What was a normal play time per side for LPs?,22 minutes,41399,6716,Gramophone_record,squad_extractive
+181,What is a typical max playing time of an LP?,forty-five minutes,41487,6732,Gramophone_record,squad_extractive
+182,Which format held recordings ranging from 10 to 15 minutes?,7-inch EP,41640,6758,Gramophone_record,squad_extractive
+183,When did RCA release the 45?,March 1949,42324,6878,Gramophone_record,squad_extractive
+184,How many colors were 45s available in when first released?,seven colors,42625,6936,Gramophone_record,squad_extractive
+185,Which colors of 45 were available as late as 1952 before being discontinued?,yellow and deep red,42988,6986,Gramophone_record,squad_extractive
+186,PeeWee the Piccolo was what?,The first 45 rpm record created for sale,43041,6995,Gramophone_record,squad_extractive
+187,What significance does Dec 7/ 1948 hold?,The first 45 rpm record created for sale,43041,6995,Gramophone_record,squad_extractive
+188,In which direction does the groove in a normal disc run?,outside edge towards the center,43363,7046,Gramophone_record,squad_extractive
+189,How is sound encoded on a commercial disc?,by fine variations,43485,7069,Gramophone_record,squad_extractive
+190,Does it matter at which speed a disc is spun?,correct speed,43640,7098,Gramophone_record,squad_extractive
+191,Where do you find a lead out?,"Towards the center, at the end of the groove",43774,7120,Gramophone_record,squad_extractive
+192,What is a 'lead out'?,wide-pitched section,43837,7132,Gramophone_record,squad_extractive
+193,What is the center where the data joins to complete a circle?,lock groove,43975,7156,Gramophone_record,squad_extractive
+194,Do turntables play music on lock grooves?,most automatic turntables are incapable,44518,7247,Gramophone_record,squad_extractive
+195,What do most automatic turn tables do when they meet a lock groove?,lift the arm,44615,7263,Gramophone_record,squad_extractive
+196,Do grooves on records touch when stacked?,allowing records to be stacked onto each other without the delicate grooves coming into contact,44801,7292,Gramophone_record,squad_extractive
+197,Where were records made with raised label areas?,reducing the risk of damage,44898,7307,Gramophone_record,squad_extractive
+198,Do records touch when in auto changers?,Auto-changers included a mechanism to support a stack,44927,7312,Gramophone_record,squad_extractive
+199,"Are longer recordings, as found in operas, made for use with auto-changing systems?",interleaved across several 10-inch or 12-inch discs for use with auto-changing mechanisms,45165,7351,Gramophone_record,squad_extractive
+200,What is the most used material for modern audiophile vinyl releases?,"New or ""virgin"" heavy/heavyweight (180–220 g) vinyl",45539,7420,Gramophone_record,squad_extractive
+201,What is the material preference of collectors?,heavyweight vinyl,45691,7443,Gramophone_record,squad_extractive
+202,How does the manufacturing process differ between heavyweight and normal vinyl?,Manufacturing processes are identical,45932,7482,Gramophone_record,squad_extractive
+203,"Which pressing of vinyl require more attention to detail, lightweight or heavyweight?",lightweight records requires more care,46010,7492,Gramophone_record,squad_extractive
+204,Would would a non filled area in a vinyl press cause when listening to a record?,grinding or scratching sound,46322,7542,Gramophone_record,squad_extractive
+205,What is an effect of using worn molds when casting records?,"The ""orange peel"" effect",46375,7550,Gramophone_record,squad_extractive
+206,What is the expected finish of a vinyl record?,mirror-like,46472,7567,Gramophone_record,squad_extractive
+207,On what frequencies is an orange peel effect most noticeable?,lower frequency range,46626,7592,Gramophone_record,squad_extractive
+208,What material is on a direct metal mastering disc?,copper,46712,7607,Gramophone_record,squad_extractive
+209,What is the effect on a copy if a master as an orange peel effect?,there is no ill effect,46900,7638,Gramophone_record,squad_extractive
+210,What is the two step process?,"""father"" is removed of its silver and converted into a stamper",49633,8069,Gramophone_record,squad_extractive
+211,What is the limitation of the two step process?,limited to a few hundred vinyl pressings,49937,8118,Gramophone_record,squad_extractive
+212,What can increase the output of a stamper mold?,quality of the vinyl is high,50044,8137,Gramophone_record,squad_extractive
+213,Which is preferred the two step or three step process?,three-step,50100,8149,Gramophone_record,squad_extractive
+214,What was a known issue of using shellac to make records?,Breakage was very common,50361,8185,Gramophone_record,squad_extractive
+215,"In which novel does 'Whiteman's Lady of the Evening"" record get broken?","John O'Hara novel, Appointment in Samarra",50418,8196,Gramophone_record,squad_extractive
+216,In Blackboard Jungle what record breaking mention is made?,teacher's collection of 78 rpm jazz records is smashed,50846,8272,Gramophone_record,squad_extractive
+217,How easily do vinyl records break?,Vinyl records do not break easily,50983,8296,Gramophone_record,squad_extractive
+218,What is a common damage to vinyl records?,easily scratched.,51043,8307,Gramophone_record,squad_extractive
+219,What causes clicks and pops on vinyl records?,Dust and scratches,51157,8323,Gramophone_record,squad_extractive
+220,What is the cause of lock grooves on vinyl records?,Dust and scratches,51157,8323,Gramophone_record,squad_extractive
+221,"Where does the saying ""Like a broken record"" originate?",locked groove,51345,8358,Gramophone_record,squad_extractive
+222,What causes warping in vinyl records?,"heat, improper storage, exposure to sunlight, or manufacturing defects",51675,8413,Gramophone_record,squad_extractive
+223,What happens if a vinyl comes with a bit of warp?,"A small degree of warp was common,",51811,8432,Gramophone_record,squad_extractive
+224,What is a cause of once per revolution pitch variation?,"warp, or from a spindle hole that was not precisely centered",51981,8460,Gramophone_record,squad_extractive
+225,What method was used to protect a vinyl record?,place the LP in a paper or plastic inner cover,52076,8477,Gramophone_record,squad_extractive
+226,What were often found with a paper outter cover and no inner cover?,Singles,52290,8516,Gramophone_record,squad_extractive
+227,What is a drawback of using gramophones?,fidelity steadily declines as playback progresses,52421,8537,Gramophone_record,squad_extractive
+228,How much vinyl can be found at the start of an LP?,510 mm,52711,8586,Gramophone_record,squad_extractive
+229,Where can you find only 200-210mm of vinyl?,ending of the groove,52774,8598,Gramophone_record,squad_extractive
+230,When is distortion most common on a gramophone record?,Distortion towards the end of the side,52872,8616,Gramophone_record,squad_extractive
+231,What happens as a record wears?,Distortion,52872,8616,Gramophone_record,squad_extractive
+232,What is a sounds commonly heard when listening to a vinyl that is unintentional.,Tonearm skating,52973,8633,Gramophone_record,squad_extractive
+233,Which frequencies are you most likely to hear tonearm skating?,frequencies below about 20 Hz,53236,8678,Gramophone_record,squad_extractive
+234,Are there any visual signs of tracking when listening to a record?,cones can sometimes be seen to vibrate with the subsonic tracking,53566,8732,Gramophone_record,squad_extractive
+235,What would be a cause of low frequency sounds when listening?,warped disk,53853,8785,Gramophone_record,squad_extractive
+236,What is a feature many stereos contain to fight back against unwanted noises?,subsonic filter,54040,8813,Gramophone_record,squad_extractive
+237,What is a limitation of low frequency recordings?,limiting the playing time,54538,8894,Gramophone_record,squad_extractive
+238,What kinds of unwanted sounds are often heard at high frequencies?,"hiss, pops, and ticks",54600,8904,Gramophone_record,squad_extractive
+239,What is a benefit of using equalization devices?,problems can be reduced,54645,8911,Gramophone_record,squad_extractive
+240,What is done during recordings to help reduce unwanted sounds?,amplitude of low frequencies is reduced,54735,8925,Gramophone_record,squad_extractive
+241,What is done to high frequency  sounds to lessen sound issues?,amplitude at high frequencies is increased,54825,8939,Gramophone_record,squad_extractive
+242,When frequency in the treble increases what happens to the recording amplitude?,recording amplitude decreased,55357,9024,Gramophone_record,squad_extractive
+243,What happens when frequency decreases in the bass?,recording amplitude increased,55436,9034,Gramophone_record,squad_extractive
+244,Whom found that they can make musical instruments sound more natural with an amplifier boost at the turnover point?,G. H. Miller,55911,9106,Gramophone_record,squad_extractive
+245,What is found when a complementary boost is used at the bass turnover point?,reproduction was more realistic,56038,9128,Gramophone_record,squad_extractive
+246,Whom found Wente-style condenser microphones helpful?,P. G. A. H. Voigt,56160,9149,Gramophone_record,squad_extractive
+247,How were Wente-Style condenser microphones helpful?,pre-emphasis in the recording,56291,9172,Gramophone_record,squad_extractive
+248,In which Era was this finding most significant?,1925 era,56482,9199,Gramophone_record,squad_extractive
+249,When was a pre-emphasis most useful?,"above 1,000 Hz",56741,9239,Gramophone_record,squad_extractive
+250,On which recording types were pre-emphasis used most in the 1920s?,78 rpm and 33 1⁄3 rpm,56759,9243,Gramophone_record,squad_extractive
+251,What was the industry standard in Europe for record equalization?,there was no industry standard,56861,9261,Gramophone_record,squad_extractive
+252,What was the industry standard on equalization practices?,there was no industry standard,56861,9261,Gramophone_record,squad_extractive
+253,Around what time period was there an attempt made to standardize recordings?,1942–1949,57414,9356,Gramophone_record,squad_extractive
+254,How was standardization prior to 1942?,considered a proprietary art,57596,9379,Gramophone_record,squad_extractive
+255,What was one issue of a lack of industry standards?,Broadcasters were faced with having to adapt daily to the varied recording,57833,9413,Gramophone_record,squad_extractive
+256,Who made the move to standardize recordings?,National Association of Broadcasters,58147,9455,Gramophone_record,squad_extractive
+257,What is the NAB?,National Association of Broadcasters,58147,9455,Gramophone_record,squad_extractive
+258, Which recording types were effected by the imposed industry standards?,"laterally and vertically cut records, principally transcriptions.",58344,9483,Gramophone_record,squad_extractive
+259,How did the NBC Othacoustic curve relate to the NAB curve?,remarkably similar,58562,9518,Gramophone_record,squad_extractive
+260,What bass settings were needed to eliminate hum?,below 100 Hz,58793,9554,Gramophone_record,squad_extractive
+261,What helped cause the most life like sound?,using a complementary inverse curve,59195,9620,Gramophone_record,squad_extractive
+262,What was a benefit to broadcasters of recording standards?,programming sounded more lifelike.,59275,9631,Gramophone_record,squad_extractive
+263,What became the predecessor to the RIAA curve?,New Orthophonic curve,59327,9637,Gramophone_record,squad_extractive
+264,Whom wrote the publication outlining the New Orthophonic curve?,R.C. Moyer,59383,9646,Gramophone_record,squad_extractive
+265,What were the recording standards based off from?,long-held recording practices,59552,9676,Gramophone_record,squad_extractive
+266,What was the cause of delicate and fine sound loss?,took a lot of sound energy,59880,9726,Gramophone_record,squad_extractive
+267,What were issues facing play back and recording mechanics?,acoustic limitations,59981,9743,Gramophone_record,squad_extractive
+268,Why do photos show take on horns?,help mute these resonances,60151,9768,Gramophone_record,squad_extractive
+269,How would a record recorded with a horn sound played through modern equipment?,like it was recorded through a horn,60258,9783,Gramophone_record,squad_extractive
+270,What was the quality of sound recordings made with horns at the end of the acoustic era?,many fine examples,60416,9809,Gramophone_record,squad_extractive
+271,What was a benefit of early radio recordings?,microphones and amplifiers,60582,9834,Gramophone_record,squad_extractive
+272,What type of microphones were losing popularity in the 1920s?,"carbon microphones used,",60845,9876,Gramophone_record,squad_extractive
+273,What technique offered realistic sounds during playback?,Western Electric licensed recording method,61076,9908,Gramophone_record,squad_extractive
+274,What benefit did the use of the Wente style condenser microphone offer?,brilliant midrange,61125,9915,Gramophone_record,squad_extractive
+275,Was it common to hear electric recordings on phonographs?,not unusual,61281,9938,Gramophone_record,squad_extractive
+276,What is one example of an acoustic phonograph on which one would listen to electric recordings?,Victor Orthophonic phonograph,61364,9951,Gramophone_record,squad_extractive
+277,What adjustments were made to the orthophonic  to accommodate electric recordings?,mechanical pickup head was redesigned with lower resonance than the traditional mica type,61513,9972,Gramophone_record,squad_extractive
+278,What allowed better sounds inside the cabinet of the orthoponic phonograph?,folded horn with an exponential taper,61612,9987,Gramophone_record,squad_extractive
+279,How similar was the sound of a orthodontic  record to a radio?,sounded like,61781,10014,Gramophone_record,squad_extractive
+280,In what years would you find electronic recordings played electronically?,1930s and 1940s,61921,10038,Gramophone_record,squad_extractive
+281,What was used to dampen resonances in recordings?,Magnetic pickups,62002,10054,Gramophone_record,squad_extractive
+282,What was a more economical option to magnetic pickups?,Crystal pickups,62146,10077,Gramophone_record,squad_extractive
+283,What are two examples of high quality microphones?,moving coil microphone was introduced around 1930 and the velocity or ribbon microphone,62226,10089,Gramophone_record,squad_extractive
+284,When would you have first found the moving coil microphone?,around 1930,62264,10094,Gramophone_record,squad_extractive
+285,How similar were live and recorded versions?,harder to tell the difference,62531,10135,Gramophone_record,squad_extractive
+286,What was a benefit of the use of magnetic pickup cartridge?,high quality cuts,62764,10172,Gramophone_record,squad_extractive
+287,What was a unique feature of the Capeart radio phonographs?,large diameter electrodynamic loudspeakers,62873,10188,Gramophone_record,squad_extractive
+288,When was the Western Electric System introduced?,early 1930s,63147,10227,Gramophone_record,squad_extractive
+289,What two companies worked together to develop the Western Electric System?,Bell Telephone Laboratories and Western Electric,63159,10229,Gramophone_record,squad_extractive
+290,What system was used by Warner Brothers?,Western Electric system,63348,10258,Gramophone_record,squad_extractive
+291,What was the Western Electric System believed to do?,improve the overall quality,63379,10263,Gramophone_record,squad_extractive
+292,How was the moving coil microphone unique to the Wente type?,didn't require electronics installed in the microphone housing,63797,10330,Gramophone_record,squad_extractive
+293,How was sound improved using the moving coil microphone?,override noise in playback,63942,10352,Gramophone_record,squad_extractive
+294,What was a benefit of vertical groove cuts?,longer playback time,64153,10386,Gramophone_record,squad_extractive
+295,What could be avoided by using vertical groove cuts?,inner groove distortion,64204,10393,Gramophone_record,squad_extractive
+296,How was wax used to improve recordings?,avoiding the microscopic irregularities,64375,10422,Gramophone_record,squad_extractive
+297,What were used to make vinyl pressings?,master cuts,64527,10445,Gramophone_record,squad_extractive
+298,How was gold spluttering used in vinyl creation?,cuts that were electroplated in vacuo by means of gold sputtering,64534,10446,Gramophone_record,squad_extractive
+299,What were the top licensees of the Western Electric system in the 1930s?,World Broadcasting System and Associated Music Publishers,64897,10500,Gramophone_record,squad_extractive
+300,Who was responsible for 2/3 of all recordings in the 1930s?,World Broadcasting System and Associated Music Publishers,64897,10500,Gramophone_record,squad_extractive
+301,What opened doors for long recordings?,"The complete technical disclosure of the Columbia LP by Peter C. Goldmark, Rene' Snepvangers and William S. Bachman",65223,10553,Gramophone_record,squad_extractive
+302,What aided in records sales in the 1950s?,Radio listeners heard recordings broadcast,65769,10641,Gramophone_record,squad_extractive
+303,What is the higher end of typical human hearing?,"20,000 Hz",66571,10782,Gramophone_record,squad_extractive
+304,Does the hearing range of the human vary?,The upper and lower frequency limits of human hearing vary per person,66582,10784,Gramophone_record,squad_extractive
+305,After the 1950s  what was a typical recording process?,"first recorded on audio tape, which could then be processed and/or edited, and then dubbed on to the master disc",66919,10840,Gramophone_record,squad_extractive
+306,Who would engrave the master disc of a vinyl record?,record cutter,67035,10861,Gramophone_record,squad_extractive
+307,What was used in first recordings of vinyl records?,soft wax,67139,10878,Gramophone_record,squad_extractive
+308,What was used in final recordings of vinyl records?,harder lacquer,67161,10883,Gramophone_record,squad_extractive
+309,What is a drawback of gramophone use?,gradual degradation,67431,10930,Gramophone_record,squad_extractive
+310,What is the recommendation of gramophone recordings to preserve integrity?,transferring them onto other media,67496,10940,Gramophone_record,squad_extractive
+311,How are gramophones best stored?,on edge,67601,10958,Gramophone_record,squad_extractive
+312,Should alcohol be used to clean gramophone recordings?,alcohol should only be used on PVC or optical media,67733,10980,Gramophone_record,squad_extractive
+313,Is gramophone equipment readily available?,manufactured only in small quantities,67886,11007,Gramophone_record,squad_extractive
+314,What is one benefit of transferring an older format to a newer format?,manipulated to remove analog flaws,68276,11070,Gramophone_record,squad_extractive
+315,Is an original destroyed when transferred to digital format?,without any further damage to the source recording,68311,11075,Gramophone_record,squad_extractive
+316,Is it difficult to transfer recording from historic interest to newer technologies?,Anyone can do this,68450,11097,Gramophone_record,squad_extractive
+317,What would a hobbiest need to transfer historic recordings to digital formats?,"standard record player with a suitable pickup, a phono-preamp (pre-amplifier) and a typical personal computer",68477,11103,Gramophone_record,squad_extractive
+318,What would offer the highest quality transfers of historic interest?,professional archivists,68620,11122,Gramophone_record,squad_extractive
+319,When were groove recordings developed?,"final quarter of the 19th century,",68861,11151,Gramophone_record,squad_extractive
+320,When did compact disc popularity take hold?,1988,69046,11177,Gramophone_record,squad_extractive
+321,When did vinyl record sales decline?,between 1988 and 1991,69173,11196,Gramophone_record,squad_extractive
+322,What was a major cause of declined vinyl sales?,major label distributors restricted their return policies,69205,11202,Gramophone_record,squad_extractive
+323,"Which allows for more profits, vinyl or compact discs?","CDs, which were more profitable for the record companies",70055,11334,Gramophone_record,squad_extractive
+324,Does vinyl record maintain any popularity?,records still have enthusiastic supporters,70172,11354,Gramophone_record,squad_extractive
+325,Are records generally out of print as of date?,Vinyl records continue to be manufactured and sold today,70216,11359,Gramophone_record,squad_extractive
+326,What types of vinyl hold the most popularity?,Old records and out-of-print recordings,70427,11391,Gramophone_record,squad_extractive
+327,Are albums ever reproduced?,Many popular new albums are given releases,70555,11410,Gramophone_record,squad_extractive
+328,What is commonly preferred by DJs vinyl or CD?,any electronic dance music and hip hop releases today are still preferred on vinyl,70696,11432,Gramophone_record,squad_extractive
+329,What is a reason a DJ would prefer vinyl to CD?,direct manipulation,70910,11466,Gramophone_record,squad_extractive
+330,In what techniques would a DJ require a vinyl record?,"slip-cueing, beatmatching, and scratching",70967,11475,Gramophone_record,squad_extractive
+331,Are all turn tables capable of DJ manipulation of vinyl records?,"provided the stylus, record player, and record itself are built to withstand it",71308,11527,Gramophone_record,squad_extractive
+332,Had vinyl technology ceased expanding?,"However, many CDJ and DJ advances, such as DJ software and time-encoded vinyl, now have these capabilities and more.",71389,11540,Gramophone_record,squad_extractive
+333,Whom set the most recent sales record of vinyl records since 1991?,Jack White,71522,11562,Gramophone_record,squad_extractive
+334,"Who sold 34,000 vinyl records in 1994?",Pearl Jam,71721,11598,Gramophone_record,squad_extractive
+335,What was unique to vinyl sales in 2014?,was the only physical music medium with increasing sales with relation to the previous year,71825,11617,Gramophone_record,squad_extractive
+336,What medium has seen the biggest fall in sales as of late?,compact discs,71997,11643,Gramophone_record,squad_extractive
+337,What is the formal name of Westminster Abbey?,the Collegiate Church of St Peter at Westminster,72116,11659,Westminster_Abbey,squad_extractive
+338,What was Westminster Abbey's original name?,Collegiate Church of St Peter at Westminster,72120,11660,Westminster_Abbey,squad_extractive
+339,In what city is Westminster Abbey located?,"City of Westminster, London",72212,11676,Westminster_Abbey,squad_extractive
+340,Where is Westminster Abbey located?,"City of Westminster, London",72212,11676,Westminster_Abbey,squad_extractive
+341,In what years was the Abbey considered a cathedral?,Between 1540 and 1556,72475,11720,Westminster_Abbey,squad_extractive
+342,When was Westminster Abbey a cathedral?,Between 1540 and 1556,72475,11720,Westminster_Abbey,squad_extractive
+343,What has been the status of Westminster Abbey since 1560?,"Church of England ""Royal Peculiar""",72642,11751,Westminster_Abbey,squad_extractive
+344,What type of building is the Abbey now considered?,Royal Peculiar,72661,11755,Westminster_Abbey,squad_extractive
+345,What was the area previously named?,Thorn Ey (Thorn Island),72890,11791,Westminster_Abbey,squad_extractive
+346,What is the meaning of Thorn Ey?,Thorn Island,72900,11794,Westminster_Abbey,squad_extractive
+347,In what century was the church established at the location?,7th century,72922,11797,Westminster_Abbey,squad_extractive
+348,When was a church first founded at the site?,7th century,72922,11797,Westminster_Abbey,squad_extractive
+349,Who was the Bishop in this time frame?,"Mellitus, a Bishop of London",72950,11803,Westminster_Abbey,squad_extractive
+350,Who was Mellitus?,a Bishop of London,72960,11804,Westminster_Abbey,squad_extractive
+351,What year did the construction of the church begin?,1245,73024,11815,Westminster_Abbey,squad_extractive
+352,When was construction of the present church started?,1245,73024,11815,Westminster_Abbey,squad_extractive
+353,Who commissioned the Abbey to be built?,King Henry III,73047,11820,Westminster_Abbey,squad_extractive
+354,Who ordered the construction of the church?,King Henry III,73047,11820,Westminster_Abbey,squad_extractive
+355,What was the name of the fisherman in lore that saw a vision of Saint Peter near the Abbey?,Aldrich,73164,11841,Westminster_Abbey,squad_extractive
+356,Who supposedly had a vison of Saint Peter on the River Thames?,Aldrich,73164,11841,Westminster_Abbey,squad_extractive
+357,What type of fish did the Abbey receive from Thames fisherman?,salmon,73283,11865,Westminster_Abbey,squad_extractive
+358,Who first gifted salmon to the abbey?,Thames fishermen,73295,11867,Westminster_Abbey,squad_extractive
+359,"Who, till this day still gives the Abbey a fish?",Fishmonger's Company,73376,11881,Westminster_Abbey,squad_extractive
+360,Who still gives salmon to the abbey today?,Fishmonger's Company,73376,11881,Westminster_Abbey,squad_extractive
+361,When was the monk community installed?,960s or early 970s,73465,11896,Westminster_Abbey,squad_extractive
+362,Who along with the King Edgar established the monks at the Abbey?,Saint Dunstan,73485,11900,Westminster_Abbey,squad_extractive
+363,What King restored the Abbey in the years 1042 and 1052?,King Edward the Confessor,73596,11917,Westminster_Abbey,squad_extractive
+364,Who rebuilt the abbey for a burial church?,King Edward the Confessor,73596,11917,Westminster_Abbey,squad_extractive
+365,What architectural design was St Peter's abbey considered?,Romanesque style,73751,11944,Westminster_Abbey,squad_extractive
+366,What style was the church rebuilt in?,Romanesque,73751,11944,Westminster_Abbey,squad_extractive
+367,What year was the building finished?,1090,73813,11953,Westminster_Abbey,squad_extractive
+368,What was the date of the Abbey's coronation? ,28 December 1065,73841,11958,Westminster_Abbey,squad_extractive
+369,When was the building consecrated?,28 December 1065,73841,11958,Westminster_Abbey,squad_extractive
+370,When did King Edward the Confessor die?,5 January 1066,73896,11968,Westminster_Abbey,squad_extractive
+371,Who was the first recorded coronation at the Abbey?,William the Conqueror,74129,12009,Westminster_Abbey,squad_extractive
+372,Who was the first documented coronation?,William the Conqueror,74129,12009,Westminster_Abbey,squad_extractive
+373,Since when have coronations been held at Westminster Abbey?,1066,74179,12017,Westminster_Abbey,squad_extractive
+374,Who were the first monarchs crowned at Westminster Abbey?,Harold Godwinson and William the Conqueror,74190,12019,Westminster_Abbey,squad_extractive
+375,When did royal weddings begin at the church?,1100,74379,12050,Westminster_Abbey,squad_extractive
+376,Which two reigning monarchs had weddings at the abbey?,Henry I and Richard II,74416,12057,Westminster_Abbey,squad_extractive
+377,Where is the only existant depiction of Edward's abbey?,Bayeux Tapestry,74610,12089,Westminster_Abbey,squad_extractive
+378,How was the community able to increase?,endowments,74839,12127,Westminster_Abbey,squad_extractive
+379,What was the original size of Dunstan's original monk community?,a dozen,74887,12133,Westminster_Abbey,squad_extractive
+380,Who became a powerful force after the Norman Conquest?,The abbot and monks,75095,12165,Westminster_Abbey,squad_extractive
+381,Who was employed on royal service?,The abbot,75095,12165,Westminster_Abbey,squad_extractive
+382,To what movement was the task of spiritual leadership passed?,Cluniac,75479,12232,Westminster_Abbey,squad_extractive
+383,What did the abbot remain as a town built around the abbey?,Lord of the Manor of Westminster,76179,12342,Westminster_Abbey,squad_extractive
+384,What did the monastery help fuel?,the town economy,76341,12373,Westminster_Abbey,squad_extractive
+385,What did the abbey build on the west side?,shops and dwellings,76495,12397,Westminster_Abbey,squad_extractive
+386,What encroached upon the sanctuary?,shops and dwellings,76495,12397,Westminster_Abbey,squad_extractive
+387,What was the abbey to Norman kings?,coronation site,76604,12413,Westminster_Abbey,squad_extractive
+388,What played a large role in King Edward the Confessor's canonisation?,The Confessor's shrine,76918,12466,Westminster_Abbey,squad_extractive
+389,What architect continued work on the abbey?,Henry Yevele,77078,12491,Westminster_Abbey,squad_extractive
+390,What kind of pavement was commissioned for in front of the High Altar?,Cosmati,77154,12504,Westminster_Abbey,squad_extractive
+391,Who was the Perpendicular style chapel dedicated to?,Blessed Virgin Mary,77405,12546,Westminster_Abbey,squad_extractive
+392,When was the Lady Chapel added?,1503,77428,12550,Westminster_Abbey,squad_extractive
+393,What part of France did the Caen stone come from?,Caen,77515,12567,Westminster_Abbey,squad_extractive
+394,Where did the Portland stone come from?,Isle of Portland,77549,12573,Westminster_Abbey,squad_extractive
+395,When was the abbey's annual income £2400–2800?,1535,77663,12589,Westminster_Abbey,squad_extractive
+396,What was the abbey's annual income as of 2016?,"£1,310,000 to £1,530,000",77727,12598,Westminster_Abbey,squad_extractive
+397,During what was the abbey made second in wealth?,the assessment attendant on the Dissolution of the Monasteries,77772,12604,Westminster_Abbey,squad_extractive
+398,To which other abbey was Westminster Abbey second in wealth?,Glastonbury Abbey,77872,12620,Westminster_Abbey,squad_extractive
+399,When did Henry VIII take direct royal control?,1539,77935,12629,Westminster_Abbey,squad_extractive
+400,What did changing the status of the abbey create?,the Diocese of Westminster,78059,12648,Westminster_Abbey,squad_extractive
+401,What did the cathedral status save the abbey from?,destruction,78175,12668,Westminster_Abbey,squad_extractive
+402,When was Westminster Diocese dissolved?,1550,78302,12686,Westminster_Abbey,squad_extractive
+403,The abbey was recognised as what until 1556?,a second cathedral of the Diocese of London,78373,12698,Westminster_Abbey,squad_extractive
+404,Who is the abbey dedicated to?,Saint Peter,78578,12735,Westminster_Abbey,squad_extractive
+405,The abbey was regiven to the Benedictines under whom?,Mary I of England,78707,12756,Westminster_Abbey,squad_extractive
+406,What was the new name of the abbey when Elizabeth I reestablished it?,Collegiate Church of St Peter,78975,12803,Westminster_Abbey,squad_extractive
+407,Who was made the first dean of the new church?,The last of Mary's abbots,79093,12823,Westminster_Abbey,squad_extractive
+408,When did the abbey suffer damage?,1640s,79185,12839,Westminster_Abbey,squad_extractive
+409,Who attacked the abbey?,Puritan iconoclasts,79216,12845,Westminster_Abbey,squad_extractive
+410,What protected the abbey?,ties to the state during the Commonwealth,79274,12854,Westminster_Abbey,squad_extractive
+411,Who had a fancy funeral at the abbey in 1658?,Oliver Cromwell,79324,12862,Westminster_Abbey,squad_extractive
+412,When was Oliver Cromwell disinterred?,January 1661,79412,12877,Westminster_Abbey,squad_extractive
+413,When were the western towers built?,between 1722 and 1745,79517,12894,Westminster_Abbey,squad_extractive
+414,Who built the western towers of the abbey?,Nicholas Hawksmoor,79542,12899,Westminster_Abbey,squad_extractive
+415,What were the two western towers built from?,Portland stone,79579,12903,Westminster_Abbey,squad_extractive
+416,What kind of marble was used for the walls and floors of the abbey?,Purbeck,79642,12914,Westminster_Abbey,squad_extractive
+417,Under whom did the 19th century rebulding occur?,Sir George Gilbert Scott,79861,12949,Westminster_Abbey,squad_extractive
+418,What was designed for the west front of the abbey but not built?,A narthex,79888,12953,Westminster_Abbey,squad_extractive
+419,When was the narthex designed?,mid-20th century,79987,12972,Westminster_Abbey,squad_extractive
+420,The abbey was without towers following the renovation by whom?,Yevele,80185,13004,Westminster_Abbey,squad_extractive
+421,Westminster Abbey was the third highest place of learning after which two places?,Oxford and Cambridge,80367,13033,Westminster_Abbey,squad_extractive
+422,The first third of what was translated at the abbey?,King James Bible Old Testament,80429,13045,Westminster_Abbey,squad_extractive
+423,The last half of what was also translated at the abbey?,New Testament,80485,13056,Westminster_Abbey,squad_extractive
+424,Westminster Abbey suffered damage during what on 15 November 1940?,the Blitz,80627,13078,Westminster_Abbey,squad_extractive
+425,Who painted the icons hung in the abbey in the 1990s?,Sergei Fyodorov,80710,13094,Westminster_Abbey,squad_extractive
+426,What was held at the abbey on 6 September 1997?,"funeral of Diana, Princess of Wales",80774,13106,Westminster_Abbey,squad_extractive
+427,On what date did the first pope set foot in the abbey?,17 September 2010,80837,13118,Westminster_Abbey,squad_extractive
+428,Who was the first pope to set foot in the abbey?,Pope Benedict XVI,80855,13121,Westminster_Abbey,squad_extractive
+429,Who had taken control of London when Henry III was to be crowned?,French prince Louis,81167,13178,Westminster_Abbey,squad_extractive
+430,Where was Henry III crowned?,Gloucester Cathedral,81249,13194,Westminster_Abbey,squad_extractive
+431,Who is the usual cleric for coronation ceremonies?,The Archbishop of Canterbury,81389,13219,Westminster_Abbey,squad_extractive
+432,What is the name of the throne used for coronation?,King Edward's Chair,81490,13232,Westminster_Abbey,squad_extractive
+433,What is another name for King Edward's Chair?,St Edward's Chair,81514,13236,Westminster_Abbey,squad_extractive
+434,Who had stolen the Stone of Scone?,Scottish nationalists,81793,13286,Westminster_Abbey,squad_extractive
+435,Upon what are kings of Scots coronated?,the Stone of Scone,81839,13292,Westminster_Abbey,squad_extractive
+436,What kind of church is Westminster Abbey?,collegiate church,82137,13342,Westminster_Abbey,squad_extractive
+437,Who governs the church?,the Dean and Chapter of Westminster,82167,13346,Westminster_Abbey,squad_extractive
+438,Who created Westminster Abbey as the Collegiate Church of St Peter Westminster?,Queen Elizabeth I,82239,13358,Westminster_Abbey,squad_extractive
+439,Who are the members of the chapter of Westminster?,the Dean and four canons residentiary,82434,13391,Westminster_Abbey,squad_extractive
+440,Who assist the chapter of Westminster?,the Receiver General and Chapter Clerk,82485,13399,Westminster_Abbey,squad_extractive
+441,Who was Edward the Confessor?,a royal saint,83353,13550,Westminster_Abbey,squad_extractive
+442,When did George II of Great Britain die?,1760,83616,13596,Westminster_Abbey,squad_extractive
+443,Where was Henry VI buried?,St George's Chapel at Windsor Castle,83764,13623,Westminster_Abbey,squad_extractive
+444,Where was Richard III buried?,Leicester Cathedral,83854,13637,Westminster_Abbey,squad_extractive
+445,Where were aristocrats buried from the Middle Ages?,inside chapels,84177,13693,Westminster_Abbey,squad_extractive
+446,Geoffrey Chaucer was employed as what?,master of the King's Works,84408,13734,Westminster_Abbey,squad_extractive
+447,Oliver Cromwell began buring national figures in the abbey starting with whom?,Admiral Robert Blake,84860,13806,Westminster_Abbey,squad_extractive
+448,Who was buried in the abbey on 4 April 1727?,Isaac Newton,84985,13824,Westminster_Abbey,squad_extractive
+449,Who was buried in the abbey on 26 April 1882?,Charles Darwin,85027,13832,Westminster_Abbey,squad_extractive
+450,Who was buried in the abbey on 3 August 1833?,William Wilberforce,85077,13840,Westminster_Abbey,squad_extractive
+451,Who was buried next to William Wilberforce?,William Pitt,85299,13876,Westminster_Abbey,squad_extractive
+452,In what year was Sir Henry Irving cremated?,1905,85453,13899,Westminster_Abbey,squad_extractive
+453,Who was buried in the south choir aisle in 2014?,Frances Challen,85729,13947,Westminster_Abbey,squad_extractive
+454,What family has the Northumberland Vault?,Percy Family,85885,13973,Westminster_Abbey,squad_extractive
+455,When was The Unknown Warrior buried?,11 November 1920,86221,14032,Westminster_Abbey,squad_extractive
+456,Where is the memorial chapel of the airmen of the RAF?,At the east end of the Lady Chapel,86331,14052,Westminster_Abbey,squad_extractive
+457,The memorial chapel of the airmen of the RAF has a window for what?,the Battle of Britain,86490,14084,Westminster_Abbey,squad_extractive
+458,The window for the Battle of Britain replaced what that was destroyed?,Tudor stained glass window,86539,14092,Westminster_Abbey,squad_extractive
+459,"When was the formal funeral of Diana, Princess of Wales?","Saturday September 6, 1997",86592,14101,Westminster_Abbey,squad_extractive
+460,When was a second public service held for Princess Diana?,Sunday,86823,14138,Westminster_Abbey,squad_extractive
+461,Who designed Diana's dress?,Catherine Walker,87070,14178,Westminster_Abbey,squad_extractive
+462,Who gave Diana the rosary beads?,Mother Teresa,87204,14203,Westminster_Abbey,squad_extractive
+463,What are also in the precincts of Westminster Abbey?,Westminster School and Westminster Abbey Choir School,87317,14221,Westminster_Abbey,squad_extractive
+464,The choirboys of the abbey are trained where?,Westminster Abbey Choir School,87340,14224,Westminster_Abbey,squad_extractive
+465,When were the Benedictine monks required to maintain a charity school?,1179,87573,14264,Westminster_Abbey,squad_extractive
+466,Who built the organ?,Harrison & Harrison,87690,14285,Westminster_Abbey,squad_extractive
+467,When was the organ built? ,1937,87713,14289,Westminster_Abbey,squad_extractive
+468,When was the organ first used?,the coronation of King George VI,87800,14306,Westminster_Abbey,squad_extractive
+469,What was included in the new organ from the previous Hill organ of 1848?,pipework,87839,14313,Westminster_Abbey,squad_extractive
+470,Who designed the two organ cases?,John Loughborough Pearson,87992,14340,Westminster_Abbey,squad_extractive
+471,What part of the organ is not connected or playable?,the Celestial Organ,88519,14428,Westminster_Abbey,squad_extractive
+472,Who cast the abbey bells?,Whitechapel Bell Foundry,88713,14464,Westminster_Abbey,squad_extractive
+473,Who cast the two service bells?,Robert Mot,88935,14513,Westminster_Abbey,squad_extractive
+474,When were the two service bells cast?,1585 and 1598,88950,14516,Westminster_Abbey,squad_extractive
+475,When was the Sanctus bell cast?,1738,89001,14525,Westminster_Abbey,squad_extractive
+476,Who cast the Sanctus bell?,Richard Phelps and Thomas Lester,89009,14527,Westminster_Abbey,squad_extractive
+477,"Where is the ""dish bell"" kept?",in the refectory,89255,14572,Westminster_Abbey,squad_extractive
+478,Who restored the chapter house in 1872?,Sir George Gilbert Scott,89521,14618,Westminster_Abbey,squad_extractive
+479,What style is the octagonal chapter house?,Geometrical Gothic style,89797,14664,Westminster_Abbey,squad_extractive
+480,There is an octagonal what below the chapter house?,crypt,89840,14670,Westminster_Abbey,squad_extractive
+481,What kind of ceiling is in the chapter house?,vaulted,89888,14679,Westminster_Abbey,squad_extractive
+482,What kind of windows are in the chapter house?,4-light quatre-foiled windows,90032,14700,Westminster_Abbey,squad_extractive
+483,The architecture of the chapter house is contemporary with what?,"the Sainte-Chapelle, Paris",90101,14708,Westminster_Abbey,squad_extractive
+484,What kind of tiled pavement is in the chapter house?,mid-13th-century,90164,14717,Westminster_Abbey,squad_extractive
+485,A door in the vestible dates back to when?,1050,90243,14728,Westminster_Abbey,squad_extractive
+486,Who else met in the chapter house?,King's Great Council and the Commons,90581,14785,Westminster_Abbey,squad_extractive
+487,What formed the undercroft of the monks' dormitory?,The Pyx Chamber,90648,14794,Westminster_Abbey,squad_extractive
+488,When does the Pyx Chamber date to?,the late 11th century,90723,14807,Westminster_Abbey,squad_extractive
+489,When were newly minted coins presented to ensure they met standards?,the Trial of the Pyx,91055,14868,Westminster_Abbey,squad_extractive
+490,The Pyx Chamber and chapter house are under guardianship of whom?,English Heritage,91255,14902,Westminster_Abbey,squad_extractive
+491,Who cares for and manages the Pyx Chamber and chapter house?,the Dean and Chapter of Westminster,91310,14911,Westminster_Abbey,squad_extractive
+492,English Heritage has funded what for the chapter house?,repairs,91435,14931,Westminster_Abbey,squad_extractive
+493,What is located in the vaulted undercroft beneath the monks' dormitory?,The Westminster Abbey Museum,91554,14951,Westminster_Abbey,squad_extractive
+494,The area the museum occupies dates back to when?,1065,91815,14994,Westminster_Abbey,squad_extractive
+495,The vaulted undercroft beneath the monks' dormitory has been a museum since when?,1908,91864,15004,Westminster_Abbey,squad_extractive
+496,What belonging to Henry V is in the museum?,"funeral saddle, helm and shield",91942,15017,Westminster_Abbey,squad_extractive
+497,What kind of panels are in the museum?,panels of mediaeval glass,92033,15030,Westminster_Abbey,squad_extractive
+498,What is the effigy of Viscount Nelson wearing?,some of his own clothes,92367,15081,Westminster_Abbey,squad_extractive
+499,Who modelled the effigies in the museum?,sculptor Patience Wright,92482,15100,Westminster_Abbey,squad_extractive
+500,What was recently added to the museum exhibit?,13th-century Westminster Retable,92733,15137,Westminster_Abbey,squad_extractive
+501,What is the Westminster Retable?,England's oldest altarpiece,92767,15140,Westminster_Abbey,squad_extractive
+502,What was damaged but cleaned and then conserved?,altarpiece,92784,15142,Westminster_Abbey,squad_extractive
+503,What was the altarpiece designed for?,high altar of the abbey,92837,15150,Westminster_Abbey,squad_extractive
+504,What was proposed for the abbey in June 2009?,major building work,92985,15176,Westminster_Abbey,squad_extractive
+505,On what date did the Dean and Chapter announce that work would not be continued?,4 August 2010,93318,15230,Westminster_Abbey,squad_extractive
+506,Panter Hudspith refurbished a 14th-century foodstore into what?,a restaurant,93654,15279,Westminster_Abbey,squad_extractive
+507,What kind of furniture is in the restaurant?,English Oak,93672,15282,Westminster_Abbey,squad_extractive
+508,Who supplied the furniture for the restaurant?,Luke Hughes and Company,93734,15290,Westminster_Abbey,squad_extractive
+509,What will be created in the medieval triforium?,The Queen's Diamond Jubilee Galleries,93808,15303,Westminster_Abbey,squad_extractive
+510,What has been designed to help with the gallery?,Gothic access tower with lift,94020,15342,Westminster_Abbey,squad_extractive
+511,When will the new galleries open?,2018,94183,15371,Westminster_Abbey,squad_extractive
+512,Each persons perception of sound is called?,Pitch,94517,15424,Pitch_(music),squad_extractive
+513,The pitch halfway between C (60) and C♯ (61) is labeled what?,60.5,95234,15540,Pitch_(music),squad_extractive
+514,What is the most common method of organization?,twelve-note chromatic scale,95366,15565,Pitch_(music),squad_extractive
+515,The pitch ratio between any two successive notes is?,the twelfth root of two,95594,15603,Pitch_(music),squad_extractive
+516,All these different methods have what in common?,the octave,95828,15642,Pitch_(music),squad_extractive
+517,Low pitch is what type of oscillation?,slower,96462,15757,Pitch_(music),squad_extractive
+518,This produces many modes of vibration that occur simultaneously?,sound generated,96938,15837,Pitch_(music),squad_extractive
+519,Integer multiples are collectively called? ,the partials,97393,15902,Pitch_(music),squad_extractive
+520,The pitch of complex tones can be?,ambiguous,97508,15922,Pitch_(music),squad_extractive
+521, The percept at 200 Hz is commonly referred to as?,the missing fundamental,98192,16036,Pitch_(music),squad_extractive
+522,"the percept at 200 Hz is commonly referred to as the missing fundamental, which is often?",divisor of the frequencies present,98252,16045,Pitch_(music),squad_extractive
+523,"The just-noticeable difference, at which a change is perceived depends on what?",the tone's frequency content,98384,16064,Pitch_(music),squad_extractive
+524,The jnd is typically tested by?,playing two tones in quick succession,98595,16106,Pitch_(music),squad_extractive
+525,What is the range of perceptible pitch steps to human hearing?,"1,400",98909,16160,Pitch_(music),squad_extractive
+526,Which drum has a higher perceived pitch even though they both have indefinite pitch?,snare drum,99122,16199,Pitch_(music),squad_extractive
+527,Repetition pitch is caused by what phenomenon?,the addition of a true repetition of the original sound,99684,16290,Pitch_(music),squad_extractive
+528,The notion of pitch is insensitive to what?,spelling,99931,16336,Pitch_(music),squad_extractive
+529,Human perception of musical intervals is approximately what?,logarithmic,100117,16363,Pitch_(music),squad_extractive
+530,Music theorist represent pitches using what kind of scale?,numerical,100396,16403,Pitch_(music),squad_extractive
+531,The precise way this temporal structure helps code for pitch at higher levels is based on what?,autocorrelation of action potentials in the auditory nerve,100916,16486,Pitch_(music),squad_extractive
+532,Is a temporal delay necessary to produce an autocorrelation model of pitch perception?,unnecessary,101178,16528,Pitch_(music),squad_extractive
+533,Pitch perception  has inherent octave what?,ambiguities,101797,16617,Pitch_(music),squad_extractive
+534,When was John born?,24 December 1166,102095,16669,"John,_King_of_England",squad_extractive
+535,Who did Henry marry?,Eleanor of Aquitaine,102288,16694,"John,_King_of_England",squad_extractive
+536,Who was Henry's ally?,Holy Roman Emperor,103738,16936,"John,_King_of_England",squad_extractive
+537,When did Richard die?,6 April 1199,104707,17091,"John,_King_of_England",squad_extractive
+538,When did Philip summon John to attend court?,1202,106132,17337,"John,_King_of_England",squad_extractive
+539,What was John summoned as?,Count of Poitou,106523,17408,"John,_King_of_England",squad_extractive
+540,What principle did John's predecessors use?,vis et voluntas,106988,17485,"John,_King_of_England",squad_extractive
+541,What quality did Henry II and Richard possess?,divine majesty,107210,17524,"John,_King_of_England",squad_extractive
+542,What did John suffer from?,royal schizophrenia,107876,17636,"John,_King_of_England",squad_extractive
+543,What happened at the start of John's reign?,sudden change in prices,108070,17668,"John,_King_of_England",squad_extractive
+544,When did John address problems with the English currency?,1204 and 1205,109163,17849,"John,_King_of_England",squad_extractive
+545,How did he address the problems with the English currency?,carrying out a radical overhaul of the coinage,109180,17853,"John,_King_of_England",squad_extractive
+546,When was John appointed the Lord of Ireland?,1177,109572,17917,"John,_King_of_England",squad_extractive
+547, Nicholas Vincent was described as what?,downright mean,110729,18115,"John,_King_of_England",squad_extractive
+548,When did John have conjugal relationships with Isabella?,1207 and 1215,111063,18161,"John,_King_of_England",squad_extractive
+549,How many children did John and Isabella have?,five children,111087,18166,"John,_King_of_England",squad_extractive
+550,When did war with France break out?,1202,111313,18203,"John,_King_of_England",squad_extractive
+551,What prevented the departure of the planned 1205 expedition?,Baronial unrest in England,112659,18427,"John,_King_of_England",squad_extractive
+552,When did Poitou depart?,1206,112814,18451,"John,_King_of_England",squad_extractive
+553,Why did John divert south?,to counter a threat to Gascony from Alfonso VIII of Castile,112884,18463,"John,_King_of_England",squad_extractive
+554,Why did Philip move south?,to meet John,113061,18492,"John,_King_of_England",squad_extractive
+555,When was Henry crowned King of England?,1170,113315,18535,"John,_King_of_England",squad_extractive
+556,What was Henry promised as part of his future inheritance?,Normandy and Anjou,113393,18550,"John,_King_of_England",squad_extractive
+557,What was John's nickname?,Lackland,113685,18600,"John,_King_of_England",squad_extractive
+558,How tall was John?,5 ft 5 in,113737,18609,"John,_King_of_England",squad_extractive
+559,What did John build up?,travelling library of books,113959,18647,"John,_King_of_England",squad_extractive
+560,What did John do in fits of rage?,biting and gnawing his fingers,114504,18734,"John,_King_of_England",squad_extractive
+561,When did Hubert Walter die?,13 July 1205,114611,18750,"John,_King_of_England",squad_extractive
+562,What lead to the king's excommunication?,a dispute with Pope Innocent III,114649,18757,"John,_King_of_England",squad_extractive
+563,Who said Pope Innocent was an ambitious and aggressive religious leader?,historian Ralph Turner,115527,18891,"John,_King_of_England",squad_extractive
+564,When did John make his first visit to Ireland?,1185,115667,18910,"John,_King_of_England",squad_extractive
+565,How did John offend the local Irish rulers?,making fun of their unfashionable long beards,116140,18988,"John,_King_of_England",squad_extractive
+566,How did Henry the Young King die?,dysentery,116595,19065,"John,_King_of_England",squad_extractive
+567,When did the war end?,1184,117233,19175,"John,_King_of_England",squad_extractive
+568,When were the papal terms for submission accepted?,May 1213,117433,19205,"John,_King_of_England",squad_extractive
+569,Where was the agreement formalised?,Bulla Aurea,117807,19272,"John,_King_of_England",squad_extractive
+570,Who did John explore an alliance with?,French king Philip II,118682,19411,"John,_King_of_England",squad_extractive
+571,What did John do when Richard did not return from his crusade?,assert that his brother was dead,119306,19511,"John,_King_of_England",squad_extractive
+572,Who captured Richard?,Duke of Austria,119431,19533,"John,_King_of_England",squad_extractive
+573,When was Longchamp isolated in the Tower of London?,October 1191,120719,19747,"John,_King_of_England",squad_extractive
+574,Where did the rebel barons congregate?,Northampton,121379,19855,"John,_King_of_England",squad_extractive
+575,Who was the rebel baron leader?,Robert fitz Walter,121450,19866,"John,_King_of_England",squad_extractive
+576,What did John instruct Langton to do?,organise peace talks with the rebel barons,121809,19922,"John,_King_of_England",squad_extractive
+577,How long did the new peace last?,two years,121888,19936,"John,_King_of_England",squad_extractive
+578,When was John's decision to marry Isabella?,August 1200,121954,19947,"John,_King_of_England",squad_extractive
+579,John acquired key land between Poitou and where?,Gascony,122705,20073,"John,_King_of_England",squad_extractive
+580,Who renewed the anti-French alliances?,Baldwin IX of Flanders and Renaud of Boulogne,123076,20126,"John,_King_of_England",squad_extractive
+581,When was the Treaty of Le Goulet negotiated?,May 1200,123748,20234,"John,_King_of_England",squad_extractive
+582,What nickname did John's policy earn him?,John Softsword,124214,20307,"John,_King_of_England",squad_extractive
+583,The rebel barons invited who to lead them?,French prince Louis,124377,20329,"John,_King_of_England",squad_extractive
+584,Who was Henry II's granddaughter?,Blanche of Castile,124480,20349,"John,_King_of_England",squad_extractive
+585,What did John do once he contained Alexander in Scotland?,he marched south to deal with the challenge of the coming invasion,124908,20418,"John,_King_of_England",squad_extractive
+586,Where was Arthur imprisoned?,Falaise,125445,20505,"John,_King_of_England",squad_extractive
+587,Who deserted John in favor of Philip?,William de Roches,126616,20700,"John,_King_of_England",squad_extractive
+588,How was John's financial situation?,tenuous,126792,20729,"John,_King_of_England",squad_extractive
+589,Until when did Henry III continue his attempts to reclaim Normandy?,1259,127504,20842,"John,_King_of_England",squad_extractive
+590,What was one of John's principal challenges?,acquiring the large sums of money needed,127698,20873,"John,_King_of_England",squad_extractive
+591,Where did John derive income from?,"fines, court fees and the sale of charters and other privileges",128464,20998,"John,_King_of_England",squad_extractive
+592,What was of particular importance to John?,administration of justice,128938,21073,"John,_King_of_England",squad_extractive
+593,Why was John motivated?,potential of the royal legal process to raise fees,129975,21235,"John,_King_of_England",squad_extractive
+594,"Who wrote an essay in 1945 that proposed a ""new approach?""",Vivian Galbraith,130716,21353,"John,_King_of_England",squad_extractive
+595,How many marks did De Braose refuse to pay?,"40,000",132250,21591,"John,_King_of_England",squad_extractive
+596,What was exacerbated by the tradition of Angevin royal ira et malevolentia?,the king to rely on his own men at the expense of the barons,132611,21651,"John,_King_of_England",squad_extractive
+597,Who did Henry II express his fury and ill-will towards?,Thomas Becket,133191,21748,"John,_King_of_England",squad_extractive
+598,John had to additional ability to do what?,cripple his vassals,133290,21764,"John,_King_of_England",squad_extractive
+599,John spent much of 1205 doing what?,securing England,133464,21793,"John,_King_of_England",squad_extractive
+600,When did John recreate a version of Henry II's Assize of Arms?,1181,133600,21815,"John,_King_of_England",squad_extractive
+601,John did not regard the loss of Duchy as a permanent shift in what?,Capetian power,134627,21984,"John,_King_of_England",squad_extractive
+602,What was John's preferred plan?,use Poitou as a base of operations,135007,22043,"John,_King_of_England",squad_extractive
+603,John remained what throughout his reign?,Lord of Ireland,135512,22126,"John,_King_of_England",squad_extractive
+604,"During Richard's rule, what did John successfully do?",increased the size of his lands in Ireland,135862,22181,"John,_King_of_England",squad_extractive
+605,When did the king cross into Ireland with a large army?,1210,135947,22197,"John,_King_of_England",squad_extractive
+606,When was the political relationship between England and Scotland disputed?,late 12th and early 13th centuries,136486,22287,"John,_King_of_England",squad_extractive
+607,What did John force William to sign?,Treaty of Norham,137370,22431,"John,_King_of_England",squad_extractive
+608,John treated the interdict as what?,the equivalent of a papal declaration of war,137847,22507,"John,_King_of_England",squad_extractive
+609,John seized the lands of who?,those clergy unwilling to conduct services,138115,22550,"John,_King_of_England",squad_extractive
+610,When did Innocent excommunicate the king?,November 1209,138834,22665,"John,_King_of_England",squad_extractive
+611,John felt Langton was overly influenced by what?,the Capetian court in Paris,139760,22813,"John,_King_of_England",squad_extractive
+612,when did Innocent place an interdict on England?,March 1208,140078,22869,"John,_King_of_England",squad_extractive
+613,John besieged what castle?,Roche-au-Moine,140432,22927,"John,_King_of_England",squad_extractive
+614,Who refused to advance with the king?,The local Angevin nobles,140523,22940,"John,_King_of_England",squad_extractive
+615,How long was the truce intended to last for?,six years,140968,23014,"John,_King_of_England",squad_extractive
+616,Who did John build alliances with?,"Emperor Otto, Renaud of Boulogne and Count Ferdinand of Flanders",141164,23047,"John,_King_of_England",squad_extractive
+617,When did John leave for Poitou?,February 1214,141404,23086,"John,_King_of_England",squad_extractive
+618,What did the rebels seize?,Rochester Castle,141765,23141,"John,_King_of_England",squad_extractive
+619,What was John's strategy?,isolate the rebel barons in London,142262,23223,"John,_King_of_England",squad_extractive
+620,Who lead the rebellion against the 1211 settlement?,Llywelyn the Great,142551,23271,"John,_King_of_England",squad_extractive
+621,The failure of the agreement lead to what?,First Barons' War,143371,23399,"John,_King_of_England",squad_extractive
+622,What did the king lose on his way to the west?,significant part of his baggage,143441,23413,"John,_King_of_England",squad_extractive
+623,When were the Crown Jewels lost?,as he crossed one of the tidal estuaries,143632,23443,"John,_King_of_England",squad_extractive
+624,When did John face a stalemate?,October 1216,143980,23500,"John,_King_of_England",squad_extractive
+625,"When did John begin a fresh, vigorous attack?",September 1216,144071,23513,"John,_King_of_England",squad_extractive
+626,Where did John march from?,Cotswolds,144143,23525,"John,_King_of_England",squad_extractive
+627,Where did John contract dysentery?,King's Lynn,144494,23580,"John,_King_of_England",squad_extractive
+628,Who invaded northern England?,Alexander II,144581,23591,"John,_King_of_England",squad_extractive
+629,When did political and religious changes alter the attitude of historians towards John?,16th century,145000,23654,"John,_King_of_England",squad_extractive
+630,Which historians were favourably inclined towards the king?,Tudor historians,145094,23667,"John,_King_of_England",squad_extractive
+631,"What praised John's ""great renown"" as a king?",John Speed's Historie of Great Britaine,145454,23724,"John,_King_of_England",squad_extractive
+632,What heavily influenced nineteenth-century fictional depictions of John?,Ivanhoe,145733,23765,"John,_King_of_England",squad_extractive
+633,Who played John in 1938?,Claude Rains,146346,23858,"John,_King_of_England",squad_extractive
+634,Which historians wrote early in John's life?,"Richard of Devizes, William of Newburgh, Roger of Hoveden and Ralph de Diceto",147496,24042,"John,_King_of_England",squad_extractive
+635,How did historians feel about John's behavior under Richard's rule?,unsympathetic,147607,24059,"John,_King_of_England",squad_extractive
+636,John attempted conversion of what in exchange for military aid?,Islam,148163,24144,"John,_King_of_England",squad_extractive
+637,When did popular representations of John begin to emerge?,Tudor period,148370,24178,"John,_King_of_England",squad_extractive
+638,"In The Troublesome Reign of King John, John portrayed the king as what?",proto-Protestant martyr,148512,24202,"John,_King_of_England",squad_extractive
+639,What was Anthony Munday's play?,The Downfall and The Death of Robert Earl of Huntington,148994,24276,"John,_King_of_England",squad_extractive
+640,What historian summarised the contemporary historical opinion of John's positive qualities?,Jim Bradbury,149737,24392,"John,_King_of_England",squad_extractive
+641,Who was Alais?,the daughter and heiress of Humbert III of Savoy,150517,24505,"John,_King_of_England",squad_extractive
+642,What castles did Henry II transfer into John's name?,"Chinon, Loudun and Mirebeau",150794,24550,"John,_King_of_England",squad_extractive
+643,When did John successfully conduct a sudden attack and siege of Evreux castle?,1195,151692,24700,"John,_King_of_England",squad_extractive
+644,Who was Isabella engaged to?,Hugh of Lusignan,152202,24780,"John,_King_of_England",squad_extractive
+645,Hugh of Lusignan was an important member of what?,a key Poitou noble family,152243,24787,"John,_King_of_England",squad_extractive
+646,John treated Hugh with what?,contempt,152664,24853,"John,_King_of_England",squad_extractive
+647,What did John attempt to relieve in late 1203?,Château Gaillard,152839,24881,"John,_King_of_England",squad_extractive
+648,Who blocked John's relief operation?,Philip's forces,153213,24935,"John,_King_of_England",squad_extractive
+649,When did Gaillard fall?,March 1204,154257,25101,"John,_King_of_England",squad_extractive
+650,What was John's only remaining possession on the Continent?,Duchy of Aquitaine,154746,25182,"John,_King_of_England",squad_extractive
+651,How many times did John levi scutage payments?,eleven,154877,25201,"John,_King_of_England",squad_extractive
+652,Who were subject to huge taxes?,The Jews,155922,25365,"John,_King_of_England",squad_extractive
+653,Many of John's mistresses were what?,married noblewomen,156810,25516,"John,_King_of_England",squad_extractive
+654,54 vessels were built between what years?,1209 and 1212,157967,25698,"John,_King_of_England",squad_extractive
+655,"Who was appointed ""keeper of the galleys?""",William of Wrotham,157982,25701,"John,_King_of_England",squad_extractive
+656,Who did John marry Joan to?,Llywelyn the Great,158742,25818,"John,_King_of_England",squad_extractive
+657,What did John use to increase his own territory and power?,marcher lords and the native Welsh,158780,25825,"John,_King_of_England",squad_extractive
+658,What threat was John worried about?,French invasion,159849,25995,"John,_King_of_England",squad_extractive
+659,John announced his intent to become what?,a crusader,160941,26173,"John,_King_of_England",squad_extractive
+660,John sent William Longespee to retake what?,north side of London and East Anglia,161450,26252,"John,_King_of_England",squad_extractive
+661,John marched against who in January 1216?,Alexander II of Scotland,161720,26296,"John,_King_of_England",squad_extractive
+662,When did John die?,18 October,162056,26354,"John,_King_of_England",squad_extractive
+663,Where was John buried?,Worcester Cathedral,162302,26397,"John,_King_of_England",squad_extractive
+664,When was a new sarcophagus made for him?,1232,162413,26418,"John,_King_of_England",squad_extractive
+665,What period in the 19th century were historians more inclined to draw on the judgements of the chroniclers?,Victorian,162458,26427,"John,_King_of_England",squad_extractive
+666,Who blamed John's family background for his cruel personality?,James Ramsay,162773,26479,"John,_King_of_England",squad_extractive
+667,What documents trace a progressive and universalist course of political and economic development in England?,Domesday Book and Magna Carta,162936,26503,"John,_King_of_England",squad_extractive
+668,John lost the duchy of Normandy to who?,King Philip II of France,163726,26636,"John,_King_of_England",squad_extractive
+669,What led to the sealing of the Magna Carta?,baronial revolt,163916,26669,"John,_King_of_England",squad_extractive
+670,Where did Eleanor leave to?,Poitiers,164269,26731,"John,_King_of_England",squad_extractive
+671,John was assigned what whilst he was at Fontevrault?,magister,164682,26799,"John,_King_of_England",squad_extractive
+672,John was taught by who?,Ranulph Glanville,164848,26826,"John,_King_of_England",squad_extractive
+673,When did Henry II appropriate the estates of the late Earl of Cornwall?,1175,165466,26924,"John,_King_of_England",squad_extractive
+674,When did Richard become king?,September 1189,165901,26995,"John,_King_of_England",squad_extractive
+675,Warfare in Normandy was shaped by what?,defensive potential of castles,167434,27249,"John,_King_of_England",squad_extractive
+676,What castle was built at a strategic point?,Château Gaillard,167615,27275,"John,_King_of_England",squad_extractive
+677,What were mercenary forces called?,Brabançons,168122,27355,"John,_King_of_England",squad_extractive
+678,Who accompanied John?,William de Roches,168833,27465,"John,_King_of_England",squad_extractive
+679,Why was Philip forced to withdraw in the east?,southern flank weakening,169048,27501,"John,_King_of_England",squad_extractive
+680,What did John inherit in England?,sophisticated system of administration,169181,27523,"John,_King_of_England",squad_extractive
+681,Who dealt with income and expenditure?,the Treasury and the Exchequer,169349,27547,"John,_King_of_England",squad_extractive
+682,John followed in the tradition of who?,Henry I and Henry II,169911,27637,"John,_King_of_England",squad_extractive
+683,John's royal household was based around what?,several groups of followers,170318,27707,"John,_King_of_England",squad_extractive
+684,Who were the curia regis?,senior officials and agents of the king,170625,27754,"John,_King_of_England",squad_extractive
+685,The mercenary leaders became infamous in England for what?,their uncivilised behaviour,171243,27858,"John,_King_of_England",squad_extractive
+686,Historians suspected that John was at best what?,impious,171676,27923,"John,_King_of_England",squad_extractive
+687,Who was later declared a saint?,Hugh of Lincoln,172485,28040,"John,_King_of_England",squad_extractive
+688,Many records showed what?,John's offerings to the poor,172667,28070,"John,_King_of_England",squad_extractive
+689,What did John do during the truce of 1206-1208?,focused on building up his financial and military resources,173021,28123,"John,_King_of_England",squad_extractive
+690,"By 1212, John had successfully concluded alliances  with who?",Otto IV,173371,28177,"John,_King_of_England",squad_extractive
+691,John launched his new fleet to attach the French where?,the harbour of Damme,173895,28267,"John,_King_of_England",squad_extractive
+692,Who did John want to be appointed Archbishop of Canterbury?,John de Gray,174241,28324,"John,_King_of_England",squad_extractive
+693,Who did John force to change their support to John de Gray?,Canterbury chapter,174830,28416,"John,_King_of_England",squad_extractive
+694,Who did Innocent disavow?,Reginald and John de Gray,174989,28444,"John,_King_of_England",squad_extractive
+695,Where did many of the disaffected barons come from?,north of England,175372,28505,"John,_King_of_England",squad_extractive
+696,Who was appointed justiciar?,Peter des Roches,176058,28613,"John,_King_of_England",squad_extractive
+697,What was the final straw that precipitated the baronial uprising during John's final years as king?,The failure of John's French military campaign,176181,28634,"John,_King_of_England",squad_extractive
+698,When did John meet the rebel leaders at Runnymede?,15 June 1215,176518,28688,"John,_King_of_England",squad_extractive
+699,A council of how many barons was created to monitor John's future adherence to the charter?,twenty-five,177088,28775,"John,_King_of_England",squad_extractive
+700,When did Prince Louis int to land in the south of England?,May 1216,177328,28816,"John,_King_of_England",squad_extractive
+701,Why did John hesitate to attack Louis?,due to the risks of open battle,177554,28853,"John,_King_of_England",squad_extractive
+702,When did the rebels regain the south-east of England?,end of the summer,177895,28910,"John,_King_of_England",squad_extractive
+703,Who did Joan marry to become queen consort?,Alexander II of Scotland,178559,29021,"John,_King_of_England",squad_extractive
+704,What biographers argue that John was an unsuccessful monarch?,Ralph Turner and Lewis Warren,179188,29115,"John,_King_of_England",squad_extractive
+705,John Gillingham considers John what?,a less effective general,179703,29190,"John,_King_of_England",squad_extractive
+706,Modern historians have been over lenient towards what?,John's numerous faults,179936,29229,"John,_King_of_England",squad_extractive
+707,In what years was the Great Famine?,1315–1317,180352,29293,Late_Middle_Ages,squad_extractive
+708,Which two countries experienced peasant uprisings?,France and England,180523,29320,Late_Middle_Ages,squad_extractive
+709,What major conflict occurred in Europe during the Crisis of the Late Middle Ages?,Hundred Years' War,180687,29346,Late_Middle_Ages,squad_extractive
+710,What shattered the unity of the Catholic Church?,the Western Schism,180800,29367,Late_Middle_Ages,squad_extractive
+711,"What are the series of events that ended centuries of prosperity in Europe, starting around 1300, known as?",the Crisis of the Late Middle Ages,180867,29376,Late_Middle_Ages,squad_extractive
+712,An interest in texts from which two ancient civilizations sparked the Italian Renaissance?,Greek and Roman,181043,29407,Late_Middle_Ages,squad_extractive
+713,Which conflicts brought Europeans into contact with Arabs prior to the 12th century?,the Crusades,181255,29442,Late_Middle_Ages,squad_extractive
+714,"Which city was captured by the Ottoman Turks, resulting in the fleeing of scholars to Western Europe?",Constantinople,181347,29456,Late_Middle_Ages,squad_extractive
+715,Who captured Constantinople?,Ottoman Turks,181369,29459,Late_Middle_Ages,squad_extractive
+716,The Protestant Reformation is attributed to what two developments that resulted from the invention of printing?,dissemination of the printed word and democratized learning,181559,29488,Late_Middle_Ages,squad_extractive
+717,In what year did Constantinople fall?,1453,181838,29533,Late_Middle_Ages,squad_extractive
+718,In what year did Vasco da Gama sail around India and Africa?,1498,182115,29579,Late_Middle_Ages,squad_extractive
+719,"Along with the Late Middle Ages, what are the other two period of the Middle Ages?",Early Middle Ages and the High Middle Ages,182294,29609,Late_Middle_Ages,squad_extractive
+720,What is the name for the division of the periods of history introduced by Bruni?,tripartite periodization,182384,29625,Late_Middle_Ages,squad_extractive
+721,"When was Leonardo Bruni's ""History of the Florentine People"" published?",1442,182450,29635,Late_Middle_Ages,squad_extractive
+722,"Who was the author of ""Decades of History from the Deterioration of the Roman Empire",Flavio Biondo,182457,29635,Late_Middle_Ages,squad_extractive
+723,What 1683 work resulted in the standard use of tripartite periodization?,"Universal History Divided into an Ancient, Medieval, and New Period",182672,29664,Late_Middle_Ages,squad_extractive
+724,"What methods, applied to the study of history, led to the perception of the Middle Ages as a time of recession and crisis?",economic and demographic,182752,29676,Late_Middle_Ages,squad_extractive
+725,What was the nationality of historian Henri Pirenne?,Belgian,182915,29704,Late_Middle_Ages,squad_extractive
+726,Which author popularized a pessimistic view of the Late Middle Ages in his 1919 book?,Johan Huizinga,183075,29731,Late_Middle_Ages,squad_extractive
+727,What was the title of Huizinga's 1919 book on the Middle Ages?,The Autumn of the Middle Ages,183198,29750,Late_Middle_Ages,squad_extractive
+728,Which countries were the focus of Huizinga's research?,France and the Low Countries,183275,29763,Late_Middle_Ages,squad_extractive
+729,Which mountain range is seen as a dividing line when considering conditions during the Middle Ages?,the Alps,183582,29811,Late_Middle_Ages,squad_extractive
+730,The Renaissance is generally used to describe developments in what areas of life in the Middle Ages?,"intellectual, cultural, or artistic",183745,29834,Late_Middle_Ages,squad_extractive
+731,Which centuries are considered to be part of the Late Middle Ages?,early 14th century up until – and sometimes including – the 16th century,183887,29855,Late_Middle_Ages,squad_extractive
+732,What was the general effect of the Late Middle Ages on religion?,the end of western religious unity,184065,29883,Late_Middle_Ages,squad_extractive
+733,What geopolitical entity emerged from the Late Middle Ages?,the nation state,184132,29894,Late_Middle_Ages,squad_extractive
+734,When was the Kalmar Union formed?,1397,184329,29926,Late_Middle_Ages,squad_extractive
+735,Which Danish King was responsible for the Stockholm Bloodbath?,King Christian II,184451,29946,Late_Middle_Ages,squad_extractive
+736,In what year did the Stockholm Bloodbath take place?,1520,184562,29964,Late_Middle_Ages,squad_extractive
+737,In what year did Sweden break away from the Kalmar Union?,1523,184652,29980,Late_Middle_Ages,squad_extractive
+738,Denmark and Norway remained in the Kalmar Union until what year?,1814,184762,29999,Late_Middle_Ages,squad_extractive
+739,In what year did a Golden Bull make the king of Bohemia first among the imperial electors?,1356,184831,30011,Late_Middle_Ages,squad_extractive
+740,"In 1438, control of the Holy Roman Empire passed to what dynasty?",the Habsburgs,184986,30037,Late_Middle_Ages,squad_extractive
+741,In what year was the Holy Roman Empire dissolved?,1806,185052,30048,Late_Middle_Ages,squad_extractive
+742,In what year did Louis die?,1382,185438,30111,Late_Middle_Ages,squad_extractive
+743,Who did Louis name as his heir?,Sigismund of Luxemburg,185491,30121,Late_Middle_Ages,squad_extractive
+744,What was the result of the Hungarian nobility's refusal to accept Sigismund claim as Louis' heir?,internal war,185608,30142,Late_Middle_Ages,squad_extractive
+745,Upon taking the throne of Hungary where did Sigismund establish his court?,Buda and Visegrád,185706,30156,Late_Middle_Ages,squad_extractive
+746,What event resulted in the triumph of Serbia over Bulgaria in 1330?,Battle of Velbazhd,186229,30244,Late_Middle_Ages,squad_extractive
+747,Who led led the Serbian Army at the Battle of Kosovo?,Lazar Hrebljevanovic,186392,30271,Late_Middle_Ages,squad_extractive
+748,In what year was the Battle of Kosovo?,1389,186469,30284,Late_Middle_Ages,squad_extractive
+749,Which country was conquered by the Ottomans in 1479?,Albania,186751,30331,Late_Middle_Ages,squad_extractive
+750,In what year did Belgrade fall to the Ottomans?,1521,186945,30365,Late_Middle_Ages,squad_extractive
+751,In what year did the papacy return to Rome?,1378,187159,30406,Late_Middle_Ages,squad_extractive
+752,What 14th century conflict resulted in the division of southern Italy into two kingdoms?,The War of the Sicilian Vespers,187606,30471,Late_Middle_Ages,squad_extractive
+753,What were the names of the two kingdoms into which southern Italy was divided?,Aragon Kingdom of Sicily and an Anjou Kingdom of Naples,187699,30488,Late_Middle_Ages,squad_extractive
+754,In what year were the two southern Italian kingdoms re-united?,1442,187759,30499,Late_Middle_Ages,squad_extractive
+755,In what year were Isabel I and Ferdinand II married?,1469,187836,30510,Late_Middle_Ages,squad_extractive
+756,The capture of which city finalized the Reconquista?,Granada,187992,30540,Late_Middle_Ages,squad_extractive
+757,Which explorer discovered a sea-route to India?,Vasco da Gama,188198,30572,Late_Middle_Ages,squad_extractive
+758,When did the Medieval Warm Period end?,Around 1300–1350,188433,30612,Late_Middle_Ages,squad_extractive
+759,Which climactic epoch followed the Medieval Warm Period?,the Little Ice Age,188487,30621,Late_Middle_Ages,squad_extractive
+760,What was the effect of the Little Ice Age?,agricultural crises,188538,30630,Late_Middle_Ages,squad_extractive
+761,What was the high end of the estimated death rate of the Black Plague?,sixty percent,188862,30685,Late_Middle_Ages,squad_extractive
+762,What major conflict rocked France during the 13th and 14th centuries?,Hundred Years' War,189174,30737,Late_Middle_Ages,squad_extractive
+763,In what year was the Statute of Laborers enacted?,1351,189399,30770,Late_Middle_Ages,squad_extractive
+764,What English law was enacted in order to forcibly reduce wages?,Statute of Laborers,189404,30771,Late_Middle_Ages,squad_extractive
+765,When did the French Jacquerie take place?,1358,189586,30799,Late_Middle_Ages,squad_extractive
+766,In what year did the English Peasants' Revolt occur?,1381,189627,30806,Late_Middle_Ages,squad_extractive
+767,Which economic system was ultimately ended by the upheavals of the 14th century?,serfdom,189677,30815,Late_Middle_Ages,squad_extractive
+768,What event decimated urban populations in the 14th century?,the Black Death,189965,30858,Late_Middle_Ages,squad_extractive
+769,"Which European cities likely had populations greater than 100,000 in 1500?","Venice, Milan, Naples, Paris and Constantinople",190093,30879,Late_Middle_Ages,squad_extractive
+770,"How many other cities had populations larger than 40,000 by 1500?",Twenty-two,190190,30892,Late_Middle_Ages,squad_extractive
+771,The use of paid mercenaries and domestic retinues replaced which method of raising troops?,national or feudal levy,190475,30940,Late_Middle_Ages,squad_extractive
+772,Which English king is associated with the use of mercenaries in the 14th century?,Edward III,190615,30961,Late_Middle_Ages,squad_extractive
+773,Which soldiers were in high demand under the mercenary system?,Swiss,190702,30975,Late_Middle_Ages,squad_extractive
+774,Which conflict in France resulted in the establishment of permanent armies?,Hundred Years' War,190890,31008,Late_Middle_Ages,squad_extractive
+775,What was the code of conduct of the military orders called?,chivalry,191288,31070,Late_Middle_Ages,squad_extractive
+776,Who founded the Order of St. George?,Charles I of Hungary,191429,31094,Late_Middle_Ages,squad_extractive
+777,In what year was the Order of St. George founded?,1325,191453,31099,Late_Middle_Ages,squad_extractive
+778,What was the chivalric order established by Edward III in 1348?,Order of the Garter,191505,31108,Late_Middle_Ages,squad_extractive
+779,In what year was the Order of the Garter established?,1348,191551,31117,Late_Middle_Ages,squad_extractive
+780,In what year did the Pope return to Rome from Avignon?,1377,191715,31145,Late_Middle_Ages,squad_extractive
+781,What was the result of the election of two popes at the same time?,Papal Schism,191803,31161,Late_Middle_Ages,squad_extractive
+782,What was the time frame of the Papal Schism?,1378–1417,191817,31164,Late_Middle_Ages,squad_extractive
+783,Who were the supporters of the Avignon Papacy?,"France, her ally Scotland and the Spanish kingdoms",191884,31172,Late_Middle_Ages,squad_extractive
+784,Which Oxford professor believed that the Bible should be the sole authority in religious questions?,John Wycliffe,192517,31271,Late_Middle_Ages,squad_extractive
+785,Which Catholic practices did Wycliffe speak out against?,"transubstantiation, celibacy and indulgences",192650,31293,Late_Middle_Ages,squad_extractive
+786,Who was one of the English aristocrats who supported the Lollard movement?,John of Gaunt,192770,31308,Late_Middle_Ages,squad_extractive
+787,What were Jon Wycliffe's supporters called?,the Lollards,192887,31326,Late_Middle_Ages,squad_extractive
+788,Who did Richard II of England marry?,Anne of Bohemia,192982,31341,Late_Middle_Ages,squad_extractive
+789,Whose teachings did Jan Hus base his own on?,John Wycliffe,193151,31370,Late_Middle_Ages,squad_extractive
+790,What were the followers of Jan Hus called?,Hussites,193189,31376,Late_Middle_Ages,squad_extractive
+791,In what year was Jan Hus burned at the stake?,1415,193428,31420,Late_Middle_Ages,squad_extractive
+792,What conflict resulted from death of Jan Hus?,Hussite Wars,193498,31432,Late_Middle_Ages,squad_extractive
+793,What did Martin Luther post on the castle church of Wittenberg?,95 theses,193779,31477,Late_Middle_Ages,squad_extractive
+794,In what year did Martin Luther post his 95 theses?,1517,193839,31488,Late_Middle_Ages,squad_extractive
+795,What was Martin Luther's response when challenged to recant his heresy?,he refused,194068,31529,Late_Middle_Ages,squad_extractive
+796,Who acted as protector to Martin Luther when he was under the ban of the Empire?,Frederick the Wise,194164,31547,Late_Middle_Ages,squad_extractive
+797,What was the main benefit of the creation of new forms of partnerships during the commercial revolution?,reducing the risk of commercial ventures,194535,31611,Late_Middle_Ages,squad_extractive
+798,Laws against what lending practice were addressed by the creation of bills of exchange?,usury,194682,31634,Late_Middle_Ages,squad_extractive
+799,What new form of accounting was created during the late 13th and early 14th centuries?,double-entry bookkeeping,194780,31649,Late_Middle_Ages,squad_extractive
+800,What were the benefits of the new system of double-entry bookkeeping?,better oversight and accuracy,194824,31654,Late_Middle_Ages,squad_extractive
+801,Which economic associations gained power in the towns?,guilds,194987,31678,Late_Middle_Ages,squad_extractive
+802,What privilege was granted to companies on a national level?,monopolies,195056,31689,Late_Middle_Ages,squad_extractive
+803,Which families financed the wars of kings?,"the Fuggers in Germany, the Medicis in Italy, the de la Poles in England",195206,31709,Late_Middle_Ages,squad_extractive
+804,What caused the decrease in commerce and production in the 14th century?,demographic crisis,195452,31752,Late_Middle_Ages,squad_extractive
+805,What is posited as the cause of increased artistic output during the Renaissance?,greater opulence,195761,31803,Late_Middle_Ages,squad_extractive
+806,What is the alternative to the theory that the Renaissance was a time of great opulence?,depression of the Renaissance,195854,31818,Late_Middle_Ages,squad_extractive
+807,What type of evidence is too incomplete for a decision to be made between the two theories of the Renaissance?,statistical,195937,31830,Late_Middle_Ages,squad_extractive
+808,Which philosophy attempted to reconcile Aristotelian teachings and Christian theology in the 13th century?,Thomistic,196084,31854,Late_Middle_Ages,squad_extractive
+809,Where was the Condemnation of 1277 enacted?,University of Paris,196205,31871,Late_Middle_Ages,squad_extractive
+810,On what types of ideas did the Condemnation of 1277 place restrictions?,heretical,196284,31883,Late_Middle_Ages,squad_extractive
+811,Which philosopher believed that reason and faith were to be kept separate?,William of Ockham,196387,31896,Late_Middle_Ages,squad_extractive
+812,What is the common name for William of Ockham's principle of parsimony?,Occam's razor,196539,31924,Late_Middle_Ages,squad_extractive
+813,What school of scientific thought was challenged by Jean Buridan and Nicole Oresme?,Aristotelian,196753,31956,Late_Middle_Ages,squad_extractive
+814,Which scholars made great advances in the theories of motion?,"Jean Buridan, Nicole Oresme and the Oxford Calculators",196913,31981,Late_Middle_Ages,squad_extractive
+815,What did Jean Buridan create to explain the motion of projectiles?,the theory of impetus,197020,31996,Late_Middle_Ages,squad_extractive
+816,Buridan's theory of impetus led to what modern concept?,inertia,197143,32018,Late_Middle_Ages,squad_extractive
+817,What scientist is most associated with the heliocentric worldview?,Nicolaus Copernicus,197222,32029,Late_Middle_Ages,squad_extractive
+818,Which invention with military applications helped bring about the nation state?,gunpowder,197509,32071,Late_Middle_Ages,squad_extractive
+819,Who invented the movable printing press?,Gutenberg,197620,32088,Late_Middle_Ages,squad_extractive
+820,What religious movement was spurred by the invention of the printing press?,the Reformation,197683,32097,Late_Middle_Ages,squad_extractive
+821,Advances in what construction trade helped to increase global navigation?,shipbuilding,197903,32130,Late_Middle_Ages,squad_extractive
+822,Which inventions of the period had a great impact on everyday life?,eyeglasses and the weight-driven clock,198062,32155,Late_Middle_Ages,squad_extractive
+823,Which artistic principle was innovated by Brunelleschi?,linear perspective,198181,32171,Late_Middle_Ages,squad_extractive
+824,What was achieved though the use of the scientific study of anatomy in the field of art?,Greater realism,198268,32184,Late_Middle_Ages,squad_extractive
+825,Who championed the scientific study of anatomy for the benefit of art?,Donatello,198370,32199,Late_Middle_Ages,squad_extractive
+826,What did Donatello study that inspired sculptures?,classical models,198460,32214,Late_Middle_Ages,squad_extractive
+827,"Along with da Vinci, who were two other artists regarded as masters of the High Renaissance?",Michelangelo and Raphael,198589,32235,Late_Middle_Ages,squad_extractive
+828,What painter was an early champion of oil as a medium in painting?,Jan van Eyck,198843,32276,Late_Middle_Ages,squad_extractive
+829,Jan van Eyck's paintings are known for what characteristics?,great realism and minute detail,198921,32293,Late_Middle_Ages,squad_extractive
+830,Where was the focus of paintings on textures and surfaces?,the Netherlands,199038,32312,Late_Middle_Ages,squad_extractive
+831,What was the focus of paintings in Italy?,idealized compositions,199110,32323,Late_Middle_Ages,squad_extractive
+832,Who wrote the Divine Comedy?,Dante Alighieri,199144,32327,Late_Middle_Ages,squad_extractive
+833,What is one of Boccaccio's works that helped promote the Italian language?,Decameron,199328,32355,Late_Middle_Ages,squad_extractive
+834,In what languages did Dante and Boccaccio create their works?,Latin as well as Italian,199461,32376,Late_Middle_Ages,squad_extractive
+835,"Whose work, Canzoniere, is considered to be the first example of modern lyric poetry?",Petrarch,199496,32383,Late_Middle_Ages,squad_extractive
+836,Which dialect became the norm for the modern Italian language?,Tuscan,199664,32407,Late_Middle_Ages,squad_extractive
+837,What is the term for the four subjects that comprised the liberal arts in medieval universities?,the quadrivium,199835,32437,Late_Middle_Ages,squad_extractive
+838,What was the dominant sacred musical form in the early 13th century?,the motet,199942,32455,Late_Middle_Ages,squad_extractive
+839,What style of sacred musical form emerged in the 1330s?,polyphonic,200035,32471,Late_Middle_Ages,squad_extractive
+840,Polyphony was common in the secular music of which French region?,Provençal,200162,32492,Late_Middle_Ages,squad_extractive
+841,What was the name of the new musical style introduced in the Late Middle Ages?,ars nova,200379,32525,Late_Middle_Ages,squad_extractive
+842,Which musical style did ars nova replace in the 14th century?,ars antiqua,200406,32531,Late_Middle_Ages,squad_extractive
+843,Who were the leading composers of the trecento period?,"Giovanni da Cascia, Jacopo da Bologna and Francesco Landini",200636,32567,Late_Middle_Ages,squad_extractive
+844,Kukuzelis reformed the music of which religion?,Orthodox Church,200719,32579,Late_Middle_Ages,squad_extractive
+845,Who introduced a system of musical notation used in the Balkans in the 14th century?,John Kukuzelis,200781,32590,Late_Middle_Ages,squad_extractive
+846,Which dramatic form was created around 1400?,Morality plays,200893,32608,Late_Middle_Ages,squad_extractive
+847,Which morality play depicted mankind's progress from birth to death?,The Castle of Perseverance,201021,32628,Late_Middle_Ages,squad_extractive
+848,What is the most famous morality play from the medieval period?,Everyman,201182,32653,Late_Middle_Ages,squad_extractive
+849,What goes to the grave with Everyman in the morality play?,Good Deeds,201360,32680,Late_Middle_Ages,squad_extractive
+850,Which Late Middle Age English kings kept their own troupes of professional actors?,Richard III and Henry VII,201495,32705,Late_Middle_Ages,squad_extractive
+851,In what part of a nobleman's house were plays performed?,the Great Hall,201607,32722,Late_Middle_Ages,squad_extractive
+852,Who performed the seasonal Christmas plays?,Mummers,201770,32752,Late_Middle_Ages,squad_extractive
+853,What did Henry VIII build in 1545 for the benefit of the theatrical arts?,House of Revels,201923,32776,Late_Middle_Ages,squad_extractive
+854,In what year did Henry VIII establish an Office of Revels?,1545,201984,32787,Late_Middle_Ages,squad_extractive
+855,What was banned that led to the demise of medieval drama?,religious plays,202156,32816,Late_Middle_Ages,squad_extractive
+856,In what year did Elizabeth I ban religious plays?,1558,202233,32828,Late_Middle_Ages,squad_extractive
+857,In what year were religious plays banned in the Netherlands?,1539,202357,32849,Late_Middle_Ages,squad_extractive
+858,"Along with the invention of printing, and the associated dissemination of the printed word, what other factor is believed to have led to the Protestant Reformation?",democratized learning,203158,32978,Late_Middle_Ages,squad_extractive
+859,What was discovered as the result of both Columbus' and da Gama's voyages?,new trading routes,203266,32992,Late_Middle_Ages,squad_extractive
+860,Which continents did Vasco da Gama circumnavigate in 1498?,Africa and India,203390,33013,Late_Middle_Ages,squad_extractive
+861,What effect did the discoveries of Columbus and da Gama have on European nations?,strengthened the economy and power,203434,33020,Late_Middle_Ages,squad_extractive
+862,Which Hungarian ruler was killed at the Battle of Varna?,Vladislaus I,203841,33088,Late_Middle_Ages,squad_extractive
+863,In what year did the Battle of Varna take place?,1444,203895,33098,Late_Middle_Ages,squad_extractive
+864,Who was appointed regent-governor of the Kingdom of Hungary in 1446?,count John Hunyadi,203961,33110,Late_Middle_Ages,squad_extractive
+865,Who gave the title of Champion of Christ to John Hyundai?,Pope Pius II,204117,33132,Late_Middle_Ages,squad_extractive
+866,In what year was the Siege of Belgrade fought?,1456,204340,33170,Late_Middle_Ages,squad_extractive
+867,Which Franciscan monk motivated the peasants to fight against Muslims at the Siege of Belgrade?,Saint John of Capistrano,204528,33200,Late_Middle_Ages,squad_extractive
+868,"When John Hunyadi died, which province was left in chaos?",Pannonia,204757,33240,Late_Middle_Ages,squad_extractive
+869,Who did the Hungarian nobility elect as King of Hungary?,Matthias,204858,33256,Late_Middle_Ages,squad_extractive
+870,In what years did Matthias Corvinus reign as King of Hungary?,1458–1490,205050,33290,Late_Middle_Ages,squad_extractive
+871,Who did Matthias defeat to conquer Bohemia?,Hussite Protestants,205216,33317,Late_Middle_Ages,squad_extractive
+872,Who opposed the Hungarian army at the Battle of Mohács?,the forces of the Ottoman Empire,205749,33403,Late_Middle_Ages,squad_extractive
+873,How did Louis II of Hungary die?,drowned in the Csele Creek while trying to escape,205837,33418,Late_Middle_Ages,squad_extractive
+874,Who was the leader of the Hungarian army at the Battle of Mohács?,Pál Tomori,205922,33433,Late_Middle_Ages,squad_extractive
+875,What do many scholars regard the Late Middle Ages as the beginning of?,modern history and early modern Europe,206167,33478,Late_Middle_Ages,squad_extractive
+876,What provided developmental continuity between the ancient and modern ages?,classical antiquity,206401,33512,Late_Middle_Ages,squad_extractive
+877,Whose technology enabled the Space Race between the Soviet Union and the united States?,German rocket technology,206951,33602,Space_Race,squad_extractive
+878,On what date did the Space Race begin?,"August 2, 1955",207345,33660,Space_Race,squad_extractive
+879,Sputnik 1 started orbiting on what date?,"October 4, 1957",207633,33708,Space_Race,squad_extractive
+880,Who was the first human in space?,Yuri Gagarin,207723,33726,Space_Race,squad_extractive
+881,Who was the first person in space?,Yuri Gagarin,207723,33726,Space_Race,squad_extractive
+882,What was the date that the first human reached space?,"April 12, 1961",207740,33729,Space_Race,squad_extractive
+883,When did Apollo 11 land on the moon?,"July 20, 1969",207787,33738,Space_Race,squad_extractive
+884,What were German aerospace engineers experimenting with in the 1930's?,liquid-fueled rockets,208499,33853,Space_Race,squad_extractive
+885,What engineer was recruited by Becker and Dornberger to join their secret program?,Wernher von Braun,208974,33928,Space_Race,squad_extractive
+886,"During WWII, who was in charge of the German army's rocket program?",General Dornberger,209286,33977,Space_Race,squad_extractive
+887,What was von Braun's role in the army's rocket program during during World War II?,technical director of the ballistic missile program,209447,34003,Space_Race,squad_extractive
+888,What was the name of the first vehicle to reach outer space?,the Aggregate-4,209536,34017,Space_Race,squad_extractive
+889,What was the first object to enter space?,Aggregate-4 (A-4) rocket,209540,34018,Space_Race,squad_extractive
+890,When did the Aggregate-4 (A-4) rocket reach space?,1942 and 1943,209652,34036,Space_Race,squad_extractive
+891,"After World War II what did the American, English and Soviet allies want to capture?",Germany's rocket engineers,210334,34143,Space_Race,squad_extractive
+892,"What military operation allowed the US to recruit the German engineer, Von Braun?",Operation Paperclip,210578,34184,Space_Race,squad_extractive
+893,The US had captured what type of missiles during Operation Paperclip?,V2 rockets,210791,34216,Space_Race,squad_extractive
+894,The German rocket center was located in what city?,Peenemünde,210832,34223,Space_Race,squad_extractive
+895,Who led the Soviet rocket engineers,Sergei Korolev,211113,34270,Space_Race,squad_extractive
+896,Who was in charge of the Soviet rocket engineer team that went into Germany?,Sergei Korolev,211113,34270,Space_Race,squad_extractive
+897,What year was Sergei Korolev arrested?,1938,211230,34291,Space_Race,squad_extractive
+898,Where was Sergei Korolev imprisoned for six years?,Siberia,211302,34303,Space_Race,squad_extractive
+899,"After the war, Sergei Korolev was known under what title?",USSR's chief rocket and spacecraft engineer,211340,34310,Space_Race,squad_extractive
+900,"What was his ""secret"" title after World War II?",the Chief Designer,211536,34342,Space_Race,squad_extractive
+901,Sergei Korolev died in what year?,1966,211624,34357,Space_Race,squad_extractive
+902,What professor began working on solid-fuel rockets since 1914?,Robert H. Goddard,212646,34513,Space_Race,squad_extractive
+903,Liquid-fueled rockets were developed in what year?,1921,212919,34557,Space_Race,squad_extractive
+904,The  United States Army's White Sands Proving Ground is located where?,New Mexico,213347,34629,Space_Race,squad_extractive
+905,The Army's new Redstone Arsenal is located in what city and state?,"Huntsville, Alabama",213743,34695,Space_Race,squad_extractive
+906,What type of bomb was first developed during the Cold War?,the hydrogen bomb,214708,34846,Space_Race,squad_extractive
+907,ICBMs is an abbreviation for what?,intercontinental strategic bombers and intercontinental ballistic missiles,214738,34852,Space_Race,squad_extractive
+908,The SAC is an abbreviation for what US force?,Strategic Air Command,215323,34936,Space_Race,squad_extractive
+909,How many casualties did the Soviet Union have during WWII?,27 million,215627,34981,Space_Race,squad_extractive
+910,The Soviet Union was first invaded by Nazi controlled Germany in what year?,1941,215708,34995,Space_Race,squad_extractive
+911,What type of military force did the US possess a much larger fleet than the Soviet Union?,air force,216057,35055,Space_Race,squad_extractive
+912,In what year did Stalin order the development of ICBMs?,1947,216167,35073,Space_Race,squad_extractive
+913,The first satellite launched into space used what rocket?,R-7 Semyorka rocket,216357,35101,Space_Race,squad_extractive
+914, R-7 Semyorka rocket resembled closely to what other missile?,German G-4,216507,35123,Space_Race,squad_extractive
+915,When was the R-7 Semyorka rocket tested successfully?,"August 21, 1957",216641,35145,Space_Race,squad_extractive
+916,What type of rocket was first researched by the Air Force?,MX-774,217087,35216,Space_Race,squad_extractive
+917,The MX-774 was tested in what year?,1947,217193,35231,Space_Race,squad_extractive
+918,The Atlas-A first launched on what date?,"June 11, 1957",217504,35282,Space_Race,squad_extractive
+919,Who was president Dwight D. Eisenhower's press secretary?,James C. Hagerty,218137,35382,Space_Race,squad_extractive
+920,The starting date for the Space Race was which date?,"August 30, 1955",218683,35463,Space_Race,squad_extractive
+921,A Jupiter-C was launched by Von Braum on what date?,"September 20, 1956",220036,35679,Space_Race,squad_extractive
+922,Project Vanguard launch failed on what date?,"December 6, 195",220472,35750,Space_Race,squad_extractive
+923,Cape Canaveral Air Force Station is located in what state?,Florida,220569,35765,Space_Race,squad_extractive
+924,"in response to Project Vanguard's failed launch, what was the rocket the Soviet Union launched?",Jupiter-C rocket,221092,35847,Space_Race,squad_extractive
+925,The first US satellite to launch without failure was on what date?,"January 31, 1958",221390,35895,Space_Race,squad_extractive
+926,The Explorer gathered what 3 measurements?,"cosmic ray and radiation levels, the temperature in the spacecraft, and the frequency of collisions with micrometeorites",222303,36039,Space_Race,squad_extractive
+927,The first US satellite was launched on what date?,"April 2, 1958",222628,36089,Space_Race,squad_extractive
+928,Who was the Senate's Majority Leader in 1958?,Lyndon B. Johnson,222884,36128,Space_Race,squad_extractive
+929,What was NASA called before it became NASA?,National Advisory Committee on Aeronautics,223035,36153,Space_Race,squad_extractive
+930,The Redstone Arsenal became the George C. Marshall Space Flight Center when?,"July 1, 1960",223418,36204,Space_Race,squad_extractive
+931,Which Luna probe successfully photographed the back side of the Moon?,Luna 3,224152,36326,Space_Race,squad_extractive
+932,The Ranger program from 1959 was managed by what organization?,NASA's Jet Propulsion Laboratory,224339,36362,Space_Race,squad_extractive
+933,The first spacecraft to make it to the Moon was what?,Ranger 4,224601,36405,Space_Race,squad_extractive
+934,The first Ranger mission that didn't fail was which one?,Block III Ranger 7,224952,36467,Space_Race,squad_extractive
+935,The Block III Ranger 7 mission successfully reached the moon on what date?,"July 31, 1964",224989,36474,Space_Race,squad_extractive
+936,The first ship to carry a human through space was called what?,Vostok 1,225316,36533,Space_Race,squad_extractive
+937,How long did Yuri Gagarin orbit the earth in the spacecraft?,108 minutes,225817,36623,Space_Race,squad_extractive
+938,"April 12, in the USSR, is what special day?",Cosmonautics Day,227024,36812,Space_Race,squad_extractive
+939,Man in Space Soonest was a program by which organization?,US Air Force,227241,36849,Space_Race,squad_extractive
+940,"Man in Space Soonest was reestablished as what in November 26, 1958?",Project Mercury,227638,36913,Space_Race,squad_extractive
+941,When did Alan Shepard first arrive in space?,"May 5, 1961",228146,36994,Space_Race,squad_extractive
+942,The first American to travel into space was whom?,Alan Shepard,228159,36997,Space_Race,squad_extractive
+943,The first person to have control over driving their spacecraft was whom?,Alan Shepard,228159,36997,Space_Race,squad_extractive
+944,The spaceship that carried Alan Shepard was named what?,Freedom 7,228291,37018,Space_Race,squad_extractive
+945,Which president awarded Alan Shepard the NASA Distinguished Service Medal?,John F. Kennedy,228654,37074,Space_Race,squad_extractive
+946,"President Kennedy sent a letter on April 20, 1961 to who about the US's space program?",Vice President Lyndon B. Johnson,228844,37108,Space_Race,squad_extractive
+947,"The speech by Kennedy, ""Special Message on Urgent National Needs"" was delivered on what date?",May 25,229612,37238,Space_Race,squad_extractive
+948,"""We choose to go to the Moon"" speech was given at what location in Texas?",Rice University Stadium,230044,37313,Space_Race,squad_extractive
+949,The first American to orbit around the planet was whom?,John Glenn,230347,37361,Space_Race,squad_extractive
+950,When did John Glenn orbit the Earth?,"February 20, 1962",230407,37372,Space_Race,squad_extractive
+951,John Glenn's spaceship was named what when he orbited the Earth?,Friendship 7,230484,37384,Space_Race,squad_extractive
+952,Where did John Glenn land on Earth after coming back from orbit?,Atlantic Ocean,230541,37393,Space_Race,squad_extractive
+953,What first person from the USSR controlled their own spacecraft?,Gherman Titov,231461,37546,Space_Race,squad_extractive
+954,Gherman Titov from the USSR drove his own spacecraft on what date?,"August 6, 1961",231561,37563,Space_Race,squad_extractive
+955,"Radio communication was possible between which two spacecrafts in August 11 and 12, 1962?",Vostok 3 and Vostok 4,231690,37582,Space_Race,squad_extractive
+956,"What spacecraft carried  Valentina Tereshkova, the first woman in space?",Vostok 6,232475,37711,Space_Race,squad_extractive
+957,The first woman to launch into space was on what date?,"June 16, 1963",232485,37714,Space_Race,squad_extractive
+958,The first woman that went into space was whom?,Valentina Tereshkova,232568,37727,Space_Race,squad_extractive
+959,At what event was the Vostok spaceship first displayed to the public ?,July 1961 Tushino air show,233263,37838,Space_Race,squad_extractive
+960,"When did US President John F. Kennedy, in a speech, propose to join forces to reach the moon with the USSR?","September 20, 1963",233562,37887,Space_Race,squad_extractive
+961,How did US President Kennedy die?,assassination,233979,37951,Space_Race,squad_extractive
+962,President Kennedy was killed when?,"November 22, 1963",233996,37953,Space_Race,squad_extractive
+963,Which two space programs were heavily worked on by President Johnson?,Gemini and Apollo,234454,38027,Space_Race,squad_extractive
+964,What two locations in Florida were renamed after Kennedy by President Johnson?,Cape Canaveral and Apollo launch facilities,234615,38052,Space_Race,squad_extractive
+965,The first flight in a spacecraft that allowed no suits to be worn inside was was?,Voskhod 1,235437,38178,Space_Race,squad_extractive
+966,On what date was the first successful three man astronaut crew?,"October 12, 1964",235450,38181,Space_Race,squad_extractive
+967,Korolev died on what date?,"January 14, 1966",236777,38377,Space_Race,squad_extractive
+968,The Voskhod 2 carrying two humans was launched on what date?,"March 18, 1965",237237,38446,Space_Race,squad_extractive
+969,Who was the first person to take a spacewalk?,Alexey Leonov,237440,38477,Space_Race,squad_extractive
+970,Which of two Voskhod 2's occupants was almost killed?,Alexey Leonov,237440,38477,Space_Race,squad_extractive
+971,Who created the circumlunar program called Zond?,Vladimir Chelomey,238819,38689,Space_Race,squad_extractive
+972,Which type of craft were two astronauts to fly in during Zond?,Soyuz 7K-L1,238906,38702,Space_Race,squad_extractive
+973,A problem was resolved by whom when both the US and the USSR supported a cooperative space program?,Political Committee of the UN General Assembly,239855,38855,Space_Race,squad_extractive
+974,The cooperative space program was passed on what date?,December 1962,239905,38863,Space_Race,squad_extractive
+975,The Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer Space was signed by three countries on what date?,"January 27, 1967",240437,38945,Space_Race,squad_extractive
+976,Both crews were killed on which spacecraft missions in 1967?,Apollo and Soyuz,240668,38982,Space_Race,squad_extractive
+977,The Outer Space Treaty was signed by the US and the USSR on what date?,"January 27, 1967",240816,39004,Space_Race,squad_extractive
+978,Who were the three people who died on the first Apollo mission before launch?,"Command Pilot Virgil ""Gus"" Grissom, Senior Pilot Edward H. White, and Pilot Roger Chaffee",240939,39027,Space_Race,squad_extractive
+979,What was the cause of the fire that killed everyone on the first Apollo mission before launch?,electrical spark,241242,39077,Space_Race,squad_extractive
+980,When did Vladimir Komarov die on impact from his spacecraft crash?,"April 24, 1967",242244,39229,Space_Race,squad_extractive
+981,Who was the person credited with the first in-flight space death?,Vladimir Komarov,242289,39238,Space_Race,squad_extractive
+982,Who was in charge of the Apollo 7 mission on board?,Walter Schirra,243662,39457,Space_Race,squad_extractive
+983,Apollo 7 launched from Earth on what date?,"October 11, 1968",243702,39464,Space_Race,squad_extractive
+984,The Soyuz 3 began its mission to space on what date?,"October 26, 1968",244033,39518,Space_Race,squad_extractive
+985,When was the first successful docking of a two man space crew?,January 1969,244614,39615,Space_Race,squad_extractive
+986,Which two space missions were the first to successfully dock each other?,Soyuz 4 and Soyuz 5,244634,39619,Space_Race,squad_extractive
+987,Where was the Zond 4 over when it was destroyed by an explosion?,Gulf of Guinea,245345,39738,Space_Race,squad_extractive
+988,The first Lunar Module was delayed to what date?,March 1969,245866,39823,Space_Race,squad_extractive
+989,What animal was carried aboard the  Zond 5?,tortoises,246135,39870,Space_Race,squad_extractive
+990,"What date did Frank Borman, James Lovell, and William Anders leave Earth on the Apollo 8 mission?","December 21, 1968",246900,39998,Space_Race,squad_extractive
+991,Which three people were the first to ride the Saturn V rocket into space?,"Frank Borman, James Lovell, and William Anders",246919,40001,Space_Race,squad_extractive
+992,"During what holiday, was the Apollo 8 mission broadcast from orbit?",Christmas Eve,247283,40065,Space_Race,squad_extractive
+993,Which ocean did the Apolo 8 mission land in?,Pacific,247573,40115,Space_Race,squad_extractive
+994,The Lunar Module completed its first low Earth orbit on what date?,March 1969,247765,40148,Space_Race,squad_extractive
+995,How close to the ground was the Lunar Module in May 1969 during its landing test?,"47,400 feet",247912,40175,Space_Race,squad_extractive
+996,"The Soviet, N1 Rocket exploded and was destroyed on what date?","July 3, 1969",248324,40248,Space_Race,squad_extractive
+997,Apollo 11 mission was to land where on the Moon?,Sea of Tranquility,248641,40307,Space_Race,squad_extractive
+998,When was the crew chosen to participate on the Apollo 11 mission?,January 1969,248683,40314,Space_Race,squad_extractive
+999,When did the Apollo 11 mission launch?,"July 16, 1969",248909,40349,Space_Race,squad_extractive
+1000,What state did the Saturn V rocket launch from?,Florida,249035,40372,Space_Race,squad_extractive
+1001,The Lunar Module of the Apollo 11 was named after what animal?,Eagle,249178,40395,Space_Race,squad_extractive
+1002,At what time on Earth did Armstrong first step onto the Moon?,9:56 pm CDT July 20,249733,40489,Space_Race,squad_extractive
+1003,How many people saw the first step onto the Moon?,723 million,249902,40520,Space_Race,squad_extractive
+1004,When did they launch from the Moon to reattach to the Columbia?,The next day,250193,40569,Space_Race,squad_extractive
+1005,Where did the Apollo 11 mission land back on Earth?,Pacific Ocean,250378,40599,Space_Race,squad_extractive
+1006,When did the Apollo 11 mission land back on Earth?,"July 24, 1969",250395,40602,Space_Race,squad_extractive
+1007,When was the second landing on the Moon successful?,November 1969,250810,40676,Space_Race,squad_extractive
+1008,When did the Apollo 14 mission land successfully?,February 1971,251928,40854,Space_Race,squad_extractive
+1009,Apollo 15 landed on the Moon on what date?,July 1971,251955,40858,Space_Race,squad_extractive
+1010,On what date was the Apollo 16 successful on landing on the Moon?,April 1972,251978,40862,Space_Race,squad_extractive
+1011,Apollo 17 landed on the Moon on which date?,December 1972,252006,40867,Space_Race,squad_extractive
+1012,Which year did the USSR cancel the N1 rocket program after two failures that didn't launch?,1976,252120,40883,Space_Race,squad_extractive
+1013,The USSR launched their first space station on what date?,"April 19, 1971",252436,40937,Space_Race,squad_extractive
+1014,Who made up the crew of the Soyuz 11?,"Vladislav Volkov, Georgi Dobrovolski and Viktor Patsayev",252614,40970,Space_Race,squad_extractive
+1015,"The station, Salyut 1, came back to Earth on which date?",October 11,253330,41084,Space_Race,squad_extractive
+1016,"How long did the station, Salyut 1, stay in orbit?",175 days,253348,41087,Space_Race,squad_extractive
+1017,Why did The Durable Orbital Station-2 not reach orbit?,rocket failure,253495,41111,Space_Race,squad_extractive
+1018,The Skylab 1 was launched on which date?,"May 14, 1973",254032,41195,Space_Race,squad_extractive
+1019,How much did the Skylab 1 weigh?,"169,950 pounds",254057,41200,Space_Race,squad_extractive
+1020,When did the Skylab 1 finally come back to Earth?,"July 11, 1979",254629,41298,Space_Race,squad_extractive
+1021,When did President Nixon and Brezhnev of the USSR end the Cold War?,May 1972,254648,41302,Space_Race,squad_extractive
+1022,Which two world leaders had negotiations that relieved the Cold War?,Richard M. Nixon and Soviet Premier Leonid Brezhnev,254668,41305,Space_Race,squad_extractive
+1023,ASTP stands for what?,Apollo-Soyuz Test Project,255074,41374,Space_Race,squad_extractive
+1024,Soyuz 19 took off from Earth on what date?,"July 15, 1975",255586,41461,Space_Race,squad_extractive
+1025,Which Russian rocket carries passengers to and from the International Space Station?,R-7 rocket,256607,41625,Space_Race,squad_extractive
+1026,How many people inhabit metro Detroit?,5.3 million,257585,41785,Detroit,squad_extractive
+1027,What is the name of the river that runs through Detroit?,Detroit River,257782,41816,Detroit,squad_extractive
+1028,How many square miles is is Detroit's urban area?,"1,337 square miles",258100,41865,Detroit,squad_extractive
+1029,How big is the population of the Detroit-Windsor area?,"5,700,000",258517,41925,Detroit,squad_extractive
+1030,How much of Michigan's population resides in the Detroit metropolitan area? ,one-half,258574,41932,Detroit,squad_extractive
+1031,What is one of the problems that currently effects property values in Detroit?,abandonment of properties,259705,42103,Detroit,squad_extractive
+1032,Who is the Governor in Michigan?,Rick Snyder,259759,42110,Detroit,squad_extractive
+1033,On which date did Detroit file bankruptcy?,"July 18, 2013",259867,42127,Detroit,squad_extractive
+1034,How much debt did Detroit have when they declared bankruptcy?,$18.5 billion,260097,42166,Detroit,squad_extractive
+1035,On which date was Detroit's bankruptcy plan approved?,"November 7, 2014",260199,42181,Detroit,squad_extractive
+1036,What type of bankruptcy did Detroit go through?,Chapter 9,260369,42207,Detroit,squad_extractive
+1037,Which French officer led the 1701 expedition?,Antoine de la Mothe Cadillac,260534,42236,Detroit,squad_extractive
+1038,Who was the French Minister of Marine in 1701?,"Louis Phélypeaux, comte de Pontchartrain",260696,42260,Detroit,squad_extractive
+1039,What was Detroit's population in 1765?,800,260882,42289,Detroit,squad_extractive
+1040,What was Detroit's population in 1773?,"1,400",261022,42313,Detroit,squad_extractive
+1041,What was Detroit's population in 1778?,"2,144",261063,42321,Detroit,squad_extractive
+1042,By which group were the original French and French Canadians replaced?,Anglo-American settlers,261483,42386,Detroit,squad_extractive
+1043,What is the name of the French Canadians in Detroit?,Muskrat French,261685,42420,Detroit,squad_extractive
+1044,In which War was Detroit captured by the British?,War of 1812,261902,42455,Detroit,squad_extractive
+1045,In which battle did American troops suffer the highest casualties?,Battle of Frenchtown,261943,42464,Detroit,squad_extractive
+1046,In which year was Detroit recaptured?,1813,261980,42469,Detroit,squad_extractive
+1047,In which county is the park commemorating the Battle of Frenchtown?,Monroe County,262211,42508,Detroit,squad_extractive
+1048,What Brigade was the 24th Michigan Infantry Regiment a part of?,Iron Brigade,262457,42546,Detroit,squad_extractive
+1049,How many casualties did the 24th Michigan Infantry Regiment have in Gettysburg?,82%,262515,42554,Detroit,squad_extractive
+1050,What year was the Battle of Gettysburg?,1863,262561,42562,Detroit,squad_extractive
+1051,Who led the Wolverine Brigade?,George Armstrong Custer,262717,42585,Detroit,squad_extractive
+1052,What is the most famous mansion in Detroit?,David Whitney House,263064,42641,Detroit,squad_extractive
+1053,What was a nickname for Detroit in the late 19th century?,Paris of the West,263212,42665,Detroit,squad_extractive
+1054,Who electrified Detroit?,Thomas Edison,263340,42685,Detroit,squad_extractive
+1055,Who was the labor leader of the Teamsters?,Jimmy Hoffa,264078,42798,Detroit,squad_extractive
+1056,Who was the labor leader of the Autoworkers?,Walter Reuther,264111,42804,Detroit,squad_extractive
+1057,What is the name of the movement of rural blacks in the early 20th century called?,The Great Migration,264439,42855,Detroit,squad_extractive
+1058,What was the name of a vigilante group in Detroit?,The Black Legion,265013,42951,Detroit,squad_extractive
+1059,How many people came to Detroit between 1941 and 1943?,"400,000",265507,43033,Detroit,squad_extractive
+1060,What care company promoted black workers to work alongside white workers?,Packard,265866,43090,Detroit,squad_extractive
+1061,After which event did the 1943 race riot happen?,Packard plant protest,266039,43121,Detroit,squad_extractive
+1062,What made car travel much easier?,highways,266393,43176,Detroit,squad_extractive
+1063,In which year was the last electric streetcar line removed?,1956,266435,43183,Detroit,squad_extractive
+1064,What is the name of the riot in Detroit in 1967?,Twelfth Street riot,267175,43300,Detroit,squad_extractive
+1065,Who was the Governor of Michigan in 1967?,George W. Romney,267218,43307,Detroit,squad_extractive
+1066,Who was the President of the United States in 1967?,President Johnson,267289,43318,Detroit,squad_extractive
+1067,Who was Governor of Michigan in 1970?,William Milliken,267758,43391,Detroit,squad_extractive
+1068,What is the court case that ruled that schools were subject to local control?,Milliken v. Bradley,268485,43496,Detroit,squad_extractive
+1069,At which school did Myron Orfield teach?,University of Minnesota,268828,43552,Detroit,squad_extractive
+1070,Who was the first black mayor of Detroit?,Coleman Young,269467,43666,Detroit,squad_extractive
+1071,How much did the federal government offer for a rapid transit system?,$600 million,269824,43716,Detroit,squad_extractive
+1072,Who did Detroit argue with when trying to plane a regional transit system?,suburban neighbors,269955,43737,Detroit,squad_extractive
+1073,What did Detroit build after the failure of a larger regional transportation system?,Detroit People Mover,270282,43788,Detroit,squad_extractive
+1074,What hurt the Auto industry?,gasoline crises,270309,43792,Detroit,squad_extractive
+1075,What was one of the effects of having employers cut jobs and closing plants in Detroit?,eroding the tax base,270691,43856,Detroit,squad_extractive
+1076,What did Detroit use to build it's tax base?,eminent domain,270747,43866,Detroit,squad_extractive
+1077,What group of buildings opened in 1977?,The Renaissance Center,270930,43897,Detroit,squad_extractive
+1078,What was Mayor Young criticized for not reducing?,high crime rate,271499,43987,Detroit,squad_extractive
+1079,What was the population of Detroit in 1950?,1.8 million,271815,44034,Detroit,squad_extractive
+1080,What was the population of Detroit in 2010?,"700,000",272012,44065,Detroit,squad_extractive
+1081,In which year was Campus Martius open?,2004,272189,44093,Detroit,squad_extractive
+1082,In which year did Detroit celebrate it's 300th anniversary?,2001,272400,44128,Detroit,squad_extractive
+1083,What opened in 2011?,Port Authority Passenger Terminal,272616,44161,Detroit,squad_extractive
+1084,Which two areas were connected by the Port Authority Passenger Terminal?,Hart Plaza to the Renaissance Center,272688,44171,Detroit,squad_extractive
+1085,How much has been invested in Detroit since 2006?,$9 billion,272739,44179,Detroit,squad_extractive
+1086,How much money has been invested in Detroit in 2013-2014?,$5.2 billion,272811,44189,Detroit,squad_extractive
+1087,Which hotel is set to be renovated?,Strathmore,273308,44265,Detroit,squad_extractive
+1088,What is the term for when a city falls into disrepair? ,urban decay,273396,44275,Detroit,squad_extractive
+1089,How many stray dogs do studies suggest are in Detroit?,"1,000-3,000",273915,44356,Detroit,squad_extractive
+1090,How much in unpaid taxes did Detroit fail to collect in 2011?,$246 million,274042,44376,Detroit,squad_extractive
+1091,What is the prominent topographical feature in Detroit?,Detroit Moraine,274420,44441,Detroit,squad_extractive
+1092,What material is the Detroit Moraine composed of?,clay,274445,44445,Detroit,squad_extractive
+1093,How tall is the tallest point in Detroit?,675 to 680 feet,274758,44500,Detroit,squad_extractive
+1094,What is the lowest point in Detroit along side?,Detroit River,274830,44514,Detroit,squad_extractive
+1095,What is the railway tunnel to Canada called?,Michigan Central Railway Tunnel,275021,44543,Detroit,squad_extractive
+1096,What it the Ferry to Canada called?,Detroit–Windsor Truck Ferry,275133,44560,Detroit,squad_extractive
+1097,How many acres is the Windsor Salt Mine?,"1,500",275282,44585,Detroit,squad_extractive
+1098,What company mines salt in Detroit?,Detroit Salt Company,275362,44600,Detroit,squad_extractive
+1099,How many days a year does the temperature in Detroit drop below 0?,4.4,275879,44687,Detroit,squad_extractive
+1100,When is the warm season in Detroit?,May to September,276000,44711,Detroit,squad_extractive
+1101,What is the average rainfall for summer months?,33.5 inches,276790,44853,Detroit,squad_extractive
+1102,How many inches of snow does Detroit get on average?,42.5,277058,44897,Detroit,squad_extractive
+1103,How many days a year does Detroit get a thick snow pack?,27.5,277245,44932,Detroit,squad_extractive
+1104,When do thunderstorms usually occur in Detroit?,spring and summer,277372,44955,Detroit,squad_extractive
+1105,What architectural style does One Detroit Center boast?,post modern Neo-Gothic spires,277476,44970,Detroit,squad_extractive
+1106,What style does the Guardian building use?,Art Deco,277704,45005,Detroit,squad_extractive
+1107,What is a famous theater in Detroit?,Fox Theatre,277949,45043,Detroit,squad_extractive
+1108,What is a famous opera house in Detroit?,Detroit Opera House,277966,45046,Detroit,squad_extractive
+1109,What areas of Detroit contain high rises?,Downtown and New Center,278033,45057,Detroit,squad_extractive
+1110,What is the neighborhood just west of Woodward?,Palmer Park,278343,45101,Detroit,squad_extractive
+1111,What is the large island park in Detroit?,Belle Isle Park,278867,45169,Detroit,squad_extractive
+1112,What is Michigan's first urban park?,Tri-Centennial State Park,278949,45183,Detroit,squad_extractive
+1113,How long is the second phase of the riverfront?,two-mile,279044,45198,Detroit,squad_extractive
+1114,What is the total length of the Detroit International Riverfront?,five miles,279126,45213,Detroit,squad_extractive
+1115,What district is Lafayette Park a part of?,Ludwig Mies van der Rohe residential district,279409,45255,Detroit,squad_extractive
+1116,How large is Lafayette Park?,78-acre,279460,45263,Detroit,squad_extractive
+1117,Who planned Lafayette Park?,"Mies van der Rohe, Ludwig Hilberseimer and Alfred Caldwell",279539,45275,Detroit,squad_extractive
+1118,In which part of Detroit is Mexicantown International Welcome Center?,Southwest Detroit,279843,45318,Detroit,squad_extractive
+1119,Where are most of the low density area of Detroit located?,northeast and on the city's fringes,280245,45372,Detroit,squad_extractive
+1120,How many of Detroit's residential lots are are underdeveloped?,a quarter,280315,45384,Detroit,squad_extractive
+1121,How many of Detroit's housing is unoccupied?,10%,280396,45399,Detroit,squad_extractive
+1122,How many of Detroit's home are in good condition?,86%,280476,45414,Detroit,squad_extractive
+1123,How many home in Detroit need minor repairs?,9%,280540,45426,Detroit,squad_extractive
+1124,How much in stimulus money was announced in 2008?,$300-million,280730,45454,Detroit,squad_extractive
+1125,How was the 2008 stimulus plan payed for?,earmarking about 15% of the wagering tax,280841,45471,Detroit,squad_extractive
+1126,How many acres of land does the Far Eastside Plan seek to clear?,"1,200",281156,45512,Detroit,squad_extractive
+1127,What is the plan called that seeks to clear land for neighborhood construction?,Far Eastside Plan,281265,45528,Detroit,squad_extractive
+1128,Who was the Mayor of Detroit in 2011?,Mayor Bing,281293,45533,Detroit,squad_extractive
+1129,What was the median household income in 2000?,"$29,526",281625,45585,Detroit,squad_extractive
+1130,What was the median household income in 2009?,"$26,098",281636,45587,Detroit,squad_extractive
+1131,Who said that Detroit is one of the poorest big cities in the country?,Luke Bergmann,281810,45615,Detroit,squad_extractive
+1132,What is Wayne Counties average income?,"$38,000",282505,45734,Detroit,squad_extractive
+1133,What is Oakland Counties average income?,"$62,000",282543,45739,Detroit,squad_extractive
+1134,What percentage of Detroit's residents where white in 1940?,90.4,282820,45780,Detroit,squad_extractive
+1135,How many blacks lived in Detroit in 1930?,"120,000",283002,45814,Detroit,squad_extractive
+1136,What was the movement of blacks to northern cities called?,Great Migration,283107,45832,Detroit,squad_extractive
+1137,Why did Blacks move to Detroit in the middle if the 20th century?,Jim Crow,283305,45867,Detroit,squad_extractive
+1138,What is an example of economic discrimination?,redlining,283480,45894,Detroit,squad_extractive
+1139,What exacerbated segregation in Detroit?,white migration to the suburbs,283635,45915,Detroit,squad_extractive
+1140,What generally declines in places that are segregated by race or class?,health,283776,45936,Detroit,squad_extractive
+1141,How much of Michigan's population is Black?,13 percent,283852,45944,Detroit,squad_extractive
+1142,How much of Detroit's population is Black?,82 percent,283917,45955,Detroit,squad_extractive
+1143,What is the 2009 population of Whites in Detroit?,13.3%,285002,46129,Detroit,squad_extractive
+1144,What was it called when many Mexican's were forcibly repatriated?,Mexican Repatriation of the 1930s,285301,46176,Detroit,squad_extractive
+1145,What was Detroit's 2010 Hispanic population?,"48,679",285593,46221,Detroit,squad_extractive
+1146,What was Detroit's 2010 Mexican population?,"36,452",285621,46224,Detroit,squad_extractive
+1147,Where does most of the Bangladeshi population in Detroit live?,A portion of Detroit next to eastern Hamtramck,285883,46268,Detroit,squad_extractive
+1148,What is a word that could describe a lot of the Asian people who work or live in downtown Detroit?,transient,286350,46341,Detroit,squad_extractive
+1149,What district is Midtown north of?,central business district,286932,46427,Detroit,squad_extractive
+1150,Which company makes timepieces in Midtown?,Shinola,287147,46459,Detroit,squad_extractive
+1151,"Other than Downtown and Midtown, what area boasts a fast growing restaurant scene?",Corktown,287317,46487,Detroit,squad_extractive
+1152,What Tech company is based in Detroit?,Compuware,287599,46528,Detroit,squad_extractive
+1153,What insurance company is located in downtown Detroit?,Blue Cross Blue Shield,287671,46538,Detroit,squad_extractive
+1154,Which company moved it's world headquarters to Detroit in 2010?,Quicken Loans,287940,46579,Detroit,squad_extractive
+1155,What is the name Of the U.S. Patent office in Detroit?,Elijah J. McCoy Satellite Office,288164,46612,Detroit,squad_extractive
+1156,What type of vacant buildings have been spared destruction?,historically significant,288774,46699,Detroit,squad_extractive
+1157,Which building's reconstruction cost $82 million?,David Whitney Building,289608,46824,Detroit,squad_extractive
+1158,Which Downtown tower was converted to residential use?,David Broderick Tower,289759,46846,Detroit,squad_extractive
+1159,What was the former name of the Westin?,Book Cadillac Hotel,289820,46855,Detroit,squad_extractive
+1160,What was the former name of the Doubletree?,Fort Shelby Hotel,289877,46865,Detroit,squad_extractive
+1161,Which bank announced an investment into Detroit in 2014?,JPMorgan Chase,289978,46881,Detroit,squad_extractive
+1162,How much of JPMorgan's investment will go to blight removal?,$25 million,290333,46935,Detroit,squad_extractive
+1163,How much of JPMorgan's investment will go to job training?,$12.5 million,290381,46943,Detroit,squad_extractive
+1164,How much did JPMorgan announce in additional investment into Detroit in 2015?,$32 million,290597,46982,Detroit,squad_extractive
+1165,Which city has a lower than usual drinking age?,"Windsor, Ontario",291058,47053,Detroit,squad_extractive
+1166,Who conducted a study about Detroit's walk-ability?,Walk Score,291175,47072,Detroit,squad_extractive
+1167,"What ""Arsenal"" was Detroit a part of ?",Arsenal of Democracy,291611,47139,Detroit,squad_extractive
+1168,What Kiss song gave Detroit the nickname Rock City?,Detroit Rock City,292063,47214,Detroit,squad_extractive
+1169,What is Detroit's area code?,313,292092,47218,Detroit,squad_extractive
+1170,Which artist resided in Delray?,John Lee Hooker,292159,47229,Detroit,squad_extractive
+1171,Which musician attended Cass Tech?,Donald Byrd,292649,47301,Detroit,squad_extractive
+1172,Which musician accompanied Donald Byrd on several albums?,Pepper Adams,292774,47322,Detroit,squad_extractive
+1173,What is the name of the jazz museum in Detroit?,Graystone International Jazz Museum,292857,47336,Detroit,squad_extractive
+1174,Who was a big influence on Smokey Robinson?,Nolan Strong,292992,47357,Detroit,squad_extractive
+1175,Who was Jack Brown's wife?,Devora Brown,293344,47418,Detroit,squad_extractive
+1176,Who founded Motown records?,"Berry Gordy, Jr.",293516,47443,Detroit,squad_extractive
+1177,Who did a documentary on Motown?,Paul Justman,294016,47525,Detroit,squad_extractive
+1178,Who wrote a book about Motown?,Allan Slutsky,294097,47538,Detroit,squad_extractive
+1179,In which decades did bands like MC5 and Rare Earth become big in Detroit?,1960s and 70s,294187,47554,Detroit,squad_extractive
+1180,What year did the movie about Kiss come out?,1999,294472,47602,Detroit,squad_extractive
+1181,What music genre was big in Detroit in the 1980s?,hardcore punk rock underground,294531,47613,Detroit,squad_extractive
+1182,Which Detroit artist has the highest hip-hop sales?,Eminem,294802,47658,Detroit,squad_extractive
+1183,Which band toured with Kid Rock?,Sponge,295020,47696,Detroit,squad_extractive
+1184,What genre does The White Stripes fit into?,garage rock,295131,47716,Detroit,squad_extractive
+1185,What genre of music featured robotic themes?,Detroit techno,295475,47775,Detroit,squad_extractive
+1186,What is the Detroit Electronic Music Festival known as?,Movement,295801,47821,Detroit,squad_extractive
+1187,"When does ""Movement"" occur?",Memorial Day Weekend,295843,47827,Detroit,squad_extractive
+1188,"Which Detroit theater has 4,404 seats?",Masonic Temple Theatre,296213,47888,Detroit,squad_extractive
+1189,How many seats does the Fisher Theater have?,"2,089",296310,47903,Detroit,squad_extractive
+1190,What building does the Detroit Symphony Orchestra play in?,Orchestra Hall,296407,47916,Detroit,squad_extractive
+1191,In what year was the Detroit Opera House purchased?,1922,296643,47950,Detroit,squad_extractive
+1192,What family purchased the Detroit opera House?,Nederlander,296655,47953,Detroit,squad_extractive
+1193,What is the name of the art museum in Detroit?,Detroit Institute of Arts,296864,47983,Detroit,squad_extractive
+1194,What is the name of the Detroit museum of African American history?,Charles H. Wright Museum of African American History,296922,47991,Detroit,squad_extractive
+1195,Where was the birthplace of the Model T?,Ford Piquette Avenue Plant,297126,48022,Detroit,squad_extractive
+1196,What does MOCAD stand for?,Museum of Contemporary Art Detroit,297371,48062,Detroit,squad_extractive
+1197,What does CAID stand for?,Contemporary Art Institute of Detroit,297419,48069,Detroit,squad_extractive
+1198,What Detroit gallery opened in 2010?,G.R. N'Namdi Gallery,297512,48083,Detroit,squad_extractive
+1199,What is the U.S.'s largest museum complex?,The Henry Ford,297662,48106,Detroit,squad_extractive
+1200,Where is the Detroit Zoo?,Royal Oak,298000,48153,Detroit,squad_extractive
+1201,What museum is in Bloomfield Hills?,Cranbrook Art Museum,298015,48156,Detroit,squad_extractive
+1202,What museum is on Belle Isle?,Anna Scripps Whitcomb Conservatory,298061,48163,Detroit,squad_extractive
+1203,Which market has the largest open air flowerbed in the US?,Eastern Market,298263,48195,Detroit,squad_extractive
+1204,On which day does Eastern Market attract the most visitors?,Saturdays,298426,48220,Detroit,squad_extractive
+1205,Which festival attracts over a quarter million visitors?,Detroit Festival of the Arts,298731,48268,Detroit,squad_extractive
+1206,What is the country music festival in Detroit called?,Hoedown,298962,48301,Detroit,squad_extractive
+1207,Which parks hosts the Winter Bash?,Campus Martius Park,299024,48311,Detroit,squad_extractive
+1208,Which parade started in 1924?,America's Thanksgiving Parade,299228,48341,Detroit,squad_extractive
+1209,Which festival spans five days?,River Days,299290,48350,Detroit,squad_extractive
+1210,Which festival draws up to 3 million people?,Windsor–Detroit International Freedom Festival,299376,48364,Detroit,squad_extractive
+1211,Who sculpted the Spirit of Detroit?,Marshall Fredericks,299600,48395,Detroit,squad_extractive
+1212,When was the Joe Louis memorial dedicated?,"October 16, 1986",299913,48448,Detroit,squad_extractive
+1213,Who commissioned the Joe Luis memorial?,Sports Illustrated,299962,48455,Detroit,squad_extractive
+1214,Who sculpted the Joe Louis memorial?,Robert Graham,299997,48460,Detroit,squad_extractive
+1215,How long is the Joe Louis memorial?,24-foot,300017,48464,Detroit,squad_extractive
+1216,What is the name of Detroit Piston's arena?,The Palace of Auburn Hills,300359,48522,Detroit,squad_extractive
+1217,Where do the Tigers play?,Comerica Park,300448,48537,Detroit,squad_extractive
+1218,Where do the Red Wings play?,Joe Louis Arena,300569,48557,Detroit,squad_extractive
+1219,Which conference has held many of it's championships games in Detroit?,Mid-American Conference,300744,48583,Detroit,squad_extractive
+1220,Which bowl game is held in Detroit?,Little Caesars Pizza Bowl,301202,48656,Detroit,squad_extractive
+1221,What is Detroit's sports related nickname?,City of Champions,301336,48680,Detroit,squad_extractive
+1222,Who won the World Series in 1935?,Tigers,301490,48703,Detroit,squad_extractive
+1223,What is Eddie Tolan's nickname?,The Midnight Express,301654,48734,Detroit,squad_extractive
+1224,Who won the boxing title in 1937?,Joe Louis,301777,48754,Detroit,squad_extractive
+1225,What is Detroit's charter called?,Home Rule Charter,301880,48772,Detroit,squad_extractive
+1226,Who approves Detroit's budgets?,The council,302189,48822,Detroit,squad_extractive
+1227,Where is Wayne County's Probate Court located?,Coleman A. Young Municipal Center,302559,48878,Detroit,squad_extractive
+1228,Where is the Circuit Court located?,Frank Murphy Hall of Justice,302670,48896,Detroit,squad_extractive
+1229,Which District Court is Detroit home to?,Thirty-Sixth,302745,48910,Detroit,squad_extractive
+1230,What was Detroit's murder rate in the mid to late 80s?,"58 per 100,000",303181,48977,Detroit,squad_extractive
+1231,What was Detroit's murder rate in 2014?,"43.4 per 100,000",303257,48991,Detroit,squad_extractive
+1232,What city had a higher murder rate than Detroit in 2014?,St. Louis,303289,48997,Detroit,squad_extractive
+1233,How many murders did Detroit have in 2015?,295,303498,49033,Detroit,squad_extractive
+1234,How many murders did Detroit have in 2014?,299,303541,49039,Detroit,squad_extractive
+1235,What is Detroit's rate of property crime?,"62.18 per 1,000",303899,49101,Detroit,squad_extractive
+1236,What was Detroit's rate of violent crimes in 2008?,"16.73 per 1,000",303950,49109,Detroit,squad_extractive
+1237,What was the national rate of violent crimes in 2008?,"5 per 1,000",304055,49127,Detroit,squad_extractive
+1238,When was Detroit incorporated?,1802,304132,49140,Detroit,squad_extractive
+1239,Who was Detroit's last Republican mayor?,Louis Miriani,304227,49157,Detroit,squad_extractive
+1240,Who was Detroit's first black mayor?,Coleman Young,304321,49174,Detroit,squad_extractive
+1241,What was Dennis Archer's former occupation?,Supreme Court Justice,304506,49202,Detroit,squad_extractive
+1242,Who was Michigan's governor in 2013?,Rick Snyder,304726,49235,Detroit,squad_extractive
+1243,When did Detroit file for bankruptcy?,"July 18, 2013",305584,49378,Detroit,squad_extractive
+1244,What type of bankruptcy did Detroit file?,Chapter 9,305629,49387,Detroit,squad_extractive
+1245,What judge declared Detroit bankrupt?,Stephen Rhodes,305701,49398,Detroit,squad_extractive
+1246,How much did Detroit owe when it was declared bankrupt?,$18.5 billion,305740,49405,Detroit,squad_extractive
+1247,Which Catholic society is Detroit Mercy affiliated with?,Society of Jesus,306282,49485,Detroit,squad_extractive
+1248,What Seminary is located in Detroit?,Sacred Heart Major Seminary,306642,49538,Detroit,squad_extractive
+1249,What University opened a satellite campus in the Detroit Medical Center?,Michigan State,307140,49612,Detroit,squad_extractive
+1250,When was the University of Michigan founded?,1817,307340,49642,Detroit,squad_extractive
+1251,When did the University of Michigan leave Detroit?,1837,307388,49652,Detroit,squad_extractive
+1252,Two of the three Catholic high schools are operated by which religious group?,Society of Jesus,307979,49749,Detroit,squad_extractive
+1253,Under which agreement are Detroit's major newspapers published?,Detroit Newspaper Partnership,308288,49798,Detroit,squad_extractive
+1254,What newspaper was founded in 1935?,Michigan Chronicle,308791,49875,Detroit,squad_extractive
+1255,How often does the Michigan Chronicle publish?,weekly,308867,49886,Detroit,squad_extractive
+1256,How is Detroit's TV market ranked?,11th largest,308997,49903,Detroit,squad_extractive
+1257,How many major hospitals are in Detroit?,over a dozen,309359,49963,Detroit,squad_extractive
+1258,Who is the largest private employer in Detroit?,DMC,309430,49975,Detroit,squad_extractive
+1259,What is the Detroit VA hospital called?,John D. Dingell,309494,49985,Detroit,squad_extractive
+1260,How many beds does the DMC have?,"2,000",309866,50037,Detroit,squad_extractive
+1261,Detroit Medical Center has become a part of what Health System?,Vanguard Health Systems,310241,50095,Detroit,squad_extractive
+1262,How much does Vanguard plan to invest in DMC?,$1.5 B,310353,50113,Detroit,squad_extractive
+1263,How much will Vanguard spend to retire debt for DMC?,$417 M,310417,50124,Detroit,squad_extractive
+1264,How much does Vanguard plan to spend in capital investment?,$500 M,310499,50139,Detroit,squad_extractive
+1265,What is a name of a Catholic hospital in Detroit?,St. Joseph's,310676,50166,Detroit,squad_extractive
+1266,Who is the Transport Minister in Canada?,Lisa Raitt,310784,50181,Detroit,squad_extractive
+1267,How much is the U.S. Customs plaza expected to cost?,$250 million,310862,50196,Detroit,squad_extractive
+1268,How much of the Gordie Howe International Bridge is Canada going to pay for?,95 per cent,311026,50221,Detroit,squad_extractive
+1269,How much is the Gordie Howe International Bridge expected to cost?,$2.1 billion,311069,50230,Detroit,squad_extractive
+1270,When is the Gordie Howe International Bridge expected to open?,2020,311110,50238,Detroit,squad_extractive
+1271,How many major interstates are serve Detroit?,Four,311495,50299,Detroit,squad_extractive
+1272,Which Interstate is the major north-south route?,I-75,311712,50334,Detroit,squad_extractive
+1273,Which of the Great Lakes does I-75 pass next to?,Lake Erie,311951,50370,Detroit,squad_extractive
+1274,What is I-94 called?,Edsel Ford Freeway,311969,50374,Detroit,squad_extractive
+1275,A part of I-94 was an example of what type of highway?,limited-access,312213,50414,Detroit,squad_extractive
+1276,Which highway runs north from I-75 to the junction of I-96 and I-696?,I-275,312565,50468,Detroit,squad_extractive
+1277,Which highway is an extension of the Chrysler Freeway?,I-375,312718,50495,Detroit,squad_extractive
+1278,Which highway runs through the northern suburbs of Detroit?,I-696,312805,50510,Detroit,squad_extractive
+1279,What is I-696 called?,Reuther Freeway,312812,50512,Detroit,squad_extractive
