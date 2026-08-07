@@ -421,9 +421,11 @@ def test_rehearse_elaborative_branches_insert_vs_revise_on_tau(config):
 
 
 def test_retrieval_span_report_flags_a_tau_that_never_revises():
-    """C-DIC App. K's failure mode: too strict a tau means nothing is ever
-    judged on-topic, nothing is revised, and the summary only grows. The
-    aggregate has to make that visible."""
+    """Too strict a tau_write means nothing is ever judged on-topic, nothing is
+    revised, and memory only grows. The aggregate has to make that visible —
+    this is C-DIC App. K Table 16's tau = 0.9 regime (3.5 -> 30.0 slots), and
+    the statistic our own tau is calibrated against, since their band is
+    measured over latent-slot similarities on a different scale."""
     records = [RetrievalRecord(chunk_index=i, pool_size=i) for i in range(1, 6)]
     report = retrieval_span_report(records)
     assert report["insert_share"] == 1.0
@@ -531,7 +533,127 @@ def test_retrieval_span_report_flags_degeneration_to_recency():
     """The failure this report exists to catch: similarity ranking that only
     ever returns the previous chunk means the mechanism bought nothing."""
     records = [RetrievalRecord(chunk_index=i, retrieved_indices=[i - 1], similarities=[0.9],
-                               pool_size=i, write_back_action="revise") for i in range(1, 6)]
+                               thread_spans=[1], pool_size=i, write_back_action="revise")
+               for i in range(1, 6)]
     report = retrieval_span_report(records)
     assert report["mean_span"] == 1.0
     assert report["recency_share"] == 1.0
+    assert report["mean_thread_span"] == 1.0
+
+
+def test_retrieval_span_report_separates_a_maintained_thread_from_recency():
+    """Now that write-back revises in place, a live thread reports a *small*
+    head span (whoever last rewrote it was recent) with a *large* thread span.
+    Reading mean_span alone would call that recency collapse, which is the
+    opposite of what it is."""
+    records = [RetrievalRecord(chunk_index=i, retrieved_indices=[i - 1], similarities=[0.9],
+                               thread_spans=[i], pool_size=i, write_back_action="revise")
+               for i in range(1, 6)]
+    report = retrieval_span_report(records)
+    assert report["mean_span"] == 1.0            # looks like pure recency...
+    assert report["mean_thread_span"] == 3.0     # ...but the threads are old
+    assert report["max_thread_span"] == 5
+
+
+# --------------------------------------------------------------------------
+# Elaborative rehearsal (B) — Eq. 6 write-back inside the rolling loop
+# --------------------------------------------------------------------------
+
+
+def test_rehearse_elaborative_revises_instead_of_growing_memory(config):
+    """The regression this guards: the loop used to append to the pool
+    unconditionally, so Eq. 6's revise arm never ran and memory grew one slot
+    per chunk. Five chunks over four topics must end with four slots."""
+    _, records = rehearse_elaborative(
+        _topic_chunks(), model=_EchoModel(), tokenizer=_TopicTokenizer(),
+        embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
+    )
+    assert [r.memory_size for r in records] == [1, 2, 3, 4, 4]
+    assert retrieval_span_report(records)["memory_growth"] == pytest.approx(0.8)
+
+
+def test_rehearse_elaborative_tracks_provenance_through_a_revision(config):
+    """Chunk 4 revises chunk 0's thread, so that slot's provenance must name
+    both — the audit trail the paper's Limitation 3 says latents cannot give."""
+    _, records = rehearse_elaborative(
+        _topic_chunks(), model=_EchoModel(), tokenizer=_TopicTokenizer(),
+        embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
+    )
+    assert records[4].written_origin_indices == [0, 4]
+    assert records[0].written_origin_indices == [0]
+
+
+def test_rehearse_elaborative_reports_the_thread_span_of_a_revived_topic(config):
+    chunks = _topic_chunks() + [
+        Chunk(text="topic0 the opening scene once more", index=5, paragraph_indices=[5]),
+    ]
+    _, records = rehearse_elaborative(
+        chunks, model=_EchoModel(), tokenizer=_TopicTokenizer(),
+        embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
+    )
+    # Chunk 5 retrieves the slot chunk 4 last rewrote, so the head span is 1 —
+    # but the thread has been alive since chunk 0.
+    assert records[5].retrieved_indices == [4]
+    assert records[5].thread_spans == [5]
+
+
+def test_rehearse_elaborative_bounds_memory_under_repeated_topic_shifts(config):
+    """The paper's Limitation 1, as a run rather than a concession: every chunk
+    opens a new topic, and the capacity has to hold anyway."""
+    chunks = [Chunk(text=f"topic{i} a distinct subject", index=i) for i in range(7)]
+    _, records = rehearse_elaborative(
+        chunks, model=_EchoModel(), tokenizer=_TopicTokenizer(),
+        embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
+        memory_capacity=3, on_overflow="evict",
+    )
+    assert all(r.memory_size <= 3 for r in records)
+    report = retrieval_span_report(records)
+    assert report["memory_size"] == 3
+    assert report["evictions"] == 4
+
+
+def test_rehearse_elaborative_grow_policy_reproduces_the_paper(config):
+    """The unbounded baseline stays runnable, so bounding memory is an ablation
+    row rather than an unmeasured change."""
+    chunks = [Chunk(text=f"topic{i} a distinct subject", index=i) for i in range(7)]
+    _, records = rehearse_elaborative(
+        chunks, model=_EchoModel(), tokenizer=_TopicTokenizer(),
+        embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
+        memory_capacity=3, on_overflow="grow",
+    )
+    assert records[-1].memory_size == 7
+    assert retrieval_span_report(records)["evictions"] == 0
+
+
+def test_rehearse_elaborative_tau_write_can_be_stricter_than_tau_read(config):
+    """Decoupling the thresholds: chunk 4 is on topic enough to read chunk 0's
+    slot, but an unreachable tau_write means it must not overwrite it."""
+    _, records = rehearse_elaborative(
+        _topic_chunks(), model=_EchoModel(), tokenizer=_TopicTokenizer(),
+        embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
+        tau_read=0.35, tau_write=1.5,
+    )
+    assert records[4].retrieved_indices == [0], "still reads the aligned slot"
+    assert all(r.write_back_action == "insert" for r in records)
+    assert records[-1].memory_size == 5
+
+
+def test_rehearse_elaborative_records_context_texts_when_asked(config):
+    """`record_context_texts` needs to expose exactly what the model actually
+    saw, for `build_stage2_pairs_threaded`'s self-conditioning mix — pairing a
+    chunk with what *this* rollout retrieved for it, not the teacher's."""
+    _, records = rehearse_elaborative(
+        _topic_chunks(), model=_EchoModel(), tokenizer=_TopicTokenizer(),
+        embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
+        record_context_texts=True,
+    )
+    assert records[4].retrieved_context_texts == [f"{PASSAGE_FIELD} topic0 the opening scene"]
+    assert records[0].retrieved_context_texts == []
+
+
+def test_rehearse_elaborative_leaves_context_texts_empty_by_default(config):
+    _, records = rehearse_elaborative(
+        _topic_chunks(), model=_EchoModel(), tokenizer=_TopicTokenizer(),
+        embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
+    )
+    assert all(r.retrieved_context_texts == [] for r in records)

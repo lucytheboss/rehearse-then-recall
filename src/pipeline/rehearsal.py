@@ -14,8 +14,10 @@ by post-processing and dependent on the embedding API.
 
 B (`rehearse_elaborative`) is the mirror: a rolling pass that rewrites each
 chunk while conditioned on previously rehearsed material, and deliberately
-does *not* snap to verbatim. See `retrieve_aligned_context` for how that
-prior material is selected.
+does *not* snap to verbatim. It runs C-DIC's full retrieve / revise /
+write-back loop over a `ThreadMemory` (`thread_memory.py`) — see
+`retrieve_aligned_context` for how prior material is selected and
+`ThreadMemory.write_back` for how it is updated in place.
 
 Hard constraints (guide §2, shared by A/B):
 - query-agnostic — no function in this module takes a question/query-like
@@ -38,6 +40,7 @@ import torch
 from src.pipeline.embeddings import cosine_similarity, embed_texts, embed_with_retry
 from src.pipeline.extractive import score_sentences, select_sentences
 from src.pipeline.gisting import split_into_sentences
+from src.pipeline.thread_memory import MemorySlot, ThreadMemory
 from src.pipeline.types import Chunk
 
 
@@ -325,26 +328,60 @@ class RetrievalRecord:
     far back in the document each hit reached. That distance is the whole
     point of the mechanism (see `retrieval_span_report`).
 
-    `write_back_action` is C-DIC Eq. 6 / Algorithm 1 read off the retrieval
-    that already happened. The paper branches on `delta_t = max_i S(q_t, Z_i)`:
-    below `tau` the turn opens a new slot (topic shift), at or above it the
-    best-matching slot is replaced. Since `retrieve_aligned_context` filters at
-    exactly that `tau`, an empty result already *means* `delta_t < tau` — so
-    the branch needs no second similarity pass, and `similarities[0]` is
-    `delta_t` whenever the action is "revise".
+    `write_back_action` is C-DIC Eq. 6 / Algorithm 1: the paper branches on
+    `delta_t = max_i S(q_t, Z_i)` — below `tau_write` the chunk opens a new
+    slot (topic shift), at or above it the best-matching slot is replaced.
+    `ThreadMemory.write_back` now *performs* that branch; this field records
+    which way it went. (It used to be a label only, computed and then ignored
+    while the pool appended unconditionally.)
 
-    This is a signal for the teacher and for auditing, not a control: the
-    curation prompt in `curation.py` asks the teacher to make the same
-    insert/revise call from the text itself. Two independent estimates of the
-    same decision are more useful than one, since disagreement localises
-    whether a bad summary came from a mis-set `tau` or from the teacher
-    ignoring the instruction.
+    Two index series are kept because they answer different questions:
+
+      - `retrieved_indices` — the chunk each retrieved slot's current *text*
+        came from (`MemorySlot.head_index`).
+      - `thread_spans` — `chunk_index - anchor_index`, i.e. how far back the
+        *thread* reaches regardless of who last rewrote it.
+
+    After a revision these diverge, and only the pair distinguishes "retrieval
+    keeps finding recent slots" from "retrieval keeps finding old threads that
+    have been kept current". A single series would make a working memory look
+    like recency degeneration.
+
+    The teacher makes the same insert/revise call independently from the text
+    (see `curation.py`). Two estimates of one decision are more useful than
+    one: disagreement localises whether a bad summary came from a mis-set `tau`
+    or from the teacher ignoring the instruction.
     """
 
     chunk_index: int
     retrieved_indices: list[int] = field(default_factory=list)
     similarities: list[float] = field(default_factory=list)
+    thread_spans: list[int] = field(default_factory=list)
     pool_size: int = 0
+    # Slots held after this chunk's write-back. Flat across the document means
+    # revise is firing and capacity is holding; a line with slope 1 means the
+    # run degenerated to the append-only behaviour this record exists to catch.
+    memory_size: int = 0
+    # Full provenance of the slot this chunk wrote to — the audit trail for the
+    # paper's Limitation 3.
+    written_origin_indices: list[int] = field(default_factory=list)
+    # The merge/eviction this chunk's insert forced, if memory was at capacity.
+    overflow: dict | None = None
+    # Every slot's text after this chunk's write-back, joined. Empty unless
+    # `rehearse_elaborative(record_memory_state=True)` — it is the compressed
+    # state a downstream reader would actually see at this position, which is
+    # what the retention probe has to score against, but keeping it for every
+    # chunk of a 250-chunk corpus costs real memory, so it is opt-in.
+    memory_state: str = ""
+    # The retrieved slot texts actually fed to the model this chunk, in the
+    # exact list form `format_elaborative_input` takes. Empty unless
+    # `rehearse_elaborative(record_context_texts=True)` — needed by
+    # `curation.build_stage2_pairs_threaded`'s self-conditioning mix, which
+    # has to pair a chunk with what *this* model's own rollout retrieved for
+    # it, not with the teacher's retrieval. Distinct from `memory_state`
+    # (every slot, after write-back) — this is only the slots that were
+    # actually retrieved and read, before write-back.
+    retrieved_context_texts: list[str] = field(default_factory=list)
     used_recency_fallback: bool = False
     # This chunk's gist could not be embedded, so it never entered the pool and
     # is invisible to every later chunk. Tracked separately from
@@ -409,13 +446,42 @@ def retrieve_aligned_context(
     connections. Below the floor, B correctly falls back to elaborating the
     chunk on its own.
 
-    The same `tau` decides the write-back branch in Eq. 6 (see
-    `RetrievalRecord.write_back_action`), so one threshold governs both — as in
-    the paper, where the write-back reuses the retrieval score. C-DIC App. K
-    reports the failure mode for setting it too strictly: at `tau = 0.9`
-    nothing ever clears the bar, so nothing is ever revised and slots grow
-    without bound. The text-level analogue is a running summary that only ever
-    gains sentences.
+    ⚠ On the value of `tau`. C-DIC App. K Table 16 sweeps it and finds MSC
+    performance similar for tau in {0.6, 0.7, 0.8} but a sharp failure at
+    tau = 0.9: total slots go 3.5 -> 30.0 and PPL 8.427 -> 12.202, and on
+    LongMemEval slots go 18.8 -> 160.7. Their stated cause is exactly the
+    mechanism here — "overly strict retrieval prevents the model from revising
+    existing memory states and instead encourages adding new ones." The
+    text-level symptom is a running summary that only ever gains sentences.
+
+    That is a real, measured failure mode, so the upper end is bounded by
+    evidence. The lower end is not, and neither is the *scale*: their scores
+    come from ICAE latent slots pooled to a vector, ours from
+    llama-nemotron-embed over natural text, and two similarity distributions on
+    different representations have no reason to share a threshold. So 0.35
+    cannot simply be read across from their 0.6-0.8 band either — `tau` is a
+    quantity to calibrate on this pipeline's own embeddings, with App. K
+    fixing what the high-end failure looks like. Calibrate against
+    `retrieval_span_report`'s `insert_share`: near 1.0 reproduces App. K's
+    tau = 0.9 regime; near 0.0 means everything collapses into one thread.
+    `src/eval/tau_sweep.py` runs that calibration (Ablation A4).
+
+    That calibration has now been run once against real corpora (2026-08-02,
+    stage-1 `07` checkpoint, `news_train`/`wiki_train` corpus_00) and the
+    result is that **0.35 sits inside the append-only regime, not near it**:
+    on news, insert_share is already 0.91 at tau=0.3; on wiki, insert_share
+    hits 1.0 by tau=0.08 and stays there through 0.9. A tau that behaves
+    reasonably would need to sit below ~0.2 for this checkpoint's gists. This
+    is not yet a recommendation to change the default — the checkpoint driving
+    it is the stage-1 one, which every doc in this module already calls an
+    invalid configuration for the rolling loop (C-DIC Table 1's mismatch), so
+    its gists may not resemble what a stage-2 checkpoint produces. Re-run the
+    sweep after `07b` before touching this default.
+
+    Retrieval and write-back share this score, as in the paper, but
+    `rehearse_elaborative` lets them use different thresholds (`tau_read` /
+    `tau_write`) because the two decisions have asymmetric costs — see
+    `ThreadMemory.write_back`.
 
     `fallback_top1` implements the other half of Eq. 3 — "if no slot exceeds
     tau, fall back to the single best match". Note what this separates: the
@@ -430,6 +496,11 @@ def retrieve_aligned_context(
     what to degrade to, matching `_snap_to_verbatim`'s "don't kill the
     pipeline" philosophy. With `fallback_top1`, a returned hit may sit below
     `min_similarity`; read its similarity to tell the cases apart.
+
+    This is the flat-pool entry point, kept for callers that hold their history
+    as three parallel lists. It delegates to `ThreadMemory.retrieve` so there
+    is exactly one implementation of Eq. 3; `rehearse_elaborative` drives the
+    memory object directly because it also needs the write-back half.
     """
     if not pool_texts:
         return []
@@ -438,16 +509,21 @@ def retrieve_aligned_context(
     if query_embedding is None:
         return None
 
-    scored = [
-        (index, text, cosine_similarity(query_embedding[0], embedding))
-        for index, text, embedding in zip(pool_indices, pool_texts, pool_embeddings)
-    ]
-    scored.sort(key=lambda item: item[2], reverse=True)
+    memory = ThreadMemory()
+    for text, index, embedding in zip(pool_texts, pool_indices, pool_embeddings):
+        memory.adopt(MemorySlot(text=text, embedding=embedding, origin_indices=[index]))
 
-    cleared = [item for item in scored if item[2] >= min_similarity][:top_k]
-    if cleared or not fallback_top1:
-        return cleared
-    return scored[:1]
+    # touch=False: a flat pool has no persistent slots for a recency timestamp
+    # to matter to, and mutating a throwaway memory would be misleading.
+    hits, _ = memory.retrieve(
+        query_embedding[0],
+        position=0,
+        top_k=top_k,
+        tau=min_similarity,
+        fallback_top1=fallback_top1,
+        touch=False,
+    )
+    return [(hit.head_index, hit.text, hit.score) for hit in hits]
 
 
 def _fit_context_to_budget(
@@ -483,15 +559,52 @@ def rehearse_elaborative(
     max_new_tokens: int = 64,
     top_k: int = 3,
     min_similarity: float = 0.35,
+    tau_read: float | None = None,
+    tau_write: float | None = None,
+    recency_alpha: float = 0.0,
+    memory_capacity: int | None = None,
+    on_overflow: str = "merge",
+    max_slot_sentences: int = 4,
     carry_previous: bool = False,
+    record_memory_state: bool = False,
+    record_context_texts: bool = False,
 ) -> tuple[list[Chunk], list[RetrievalRecord]]:
     """Rewrites each Chunk conditioned on semantically aligned prior material.
 
-    Runs left to right, and the retrieval pool holds every chunk already
-    rehearsed — so chunk i can be elaborated against chunk 0 just as easily as
-    against chunk i-1. The pool stores the *compressed* texts, not the
-    originals: that is what keeps the accumulated history bounded as the
-    document grows, which is the "incremental compression" half of the idea.
+    Runs left to right over a `ThreadMemory` holding every thread rehearsed so
+    far — so chunk i can be elaborated against chunk 0 just as easily as
+    against chunk i-1. Slots store the *compressed* gists, not the originals:
+    that is what keeps the accumulated history bounded as the document grows,
+    which is the "incremental compression" half of the idea.
+
+    Each chunk runs C-DIC's full retrieve / revise / write-back loop. The
+    write-back is the part that used to be missing: the branch was computed and
+    recorded while the pool appended unconditionally, so the revise arm of
+    Eq. 6 never ran and memory grew one slot per chunk. Now an on-topic chunk
+    *replaces* the slot it matched, and `memory_capacity` bounds the rest.
+
+    Thresholds
+    ----------
+    `tau_read` (default `min_similarity`) is the retrieval floor; `tau_write`
+    (default `tau_read`) is Eq. 6's branch point. Setting `tau_write` higher is
+    the conservative configuration — read generously, overwrite only on a
+    confident match — and costs nothing, since both reuse the same score.
+    `min_similarity` is retained as the single-knob default so existing callers
+    keep working.
+
+    Memory bound
+    ------------
+    `memory_capacity=None` reproduces the paper, including its Limitation 1
+    (slots grow without bound under repeated topic shifts). Setting it caps
+    storage, with `on_overflow` choosing what gives: `"merge"` folds the two
+    most similar slots and keeps both provenances, `"evict"` drops the least
+    useful slot, `"grow"` ignores the cap. Every such event lands in the
+    chunk's `RetrievalRecord.overflow` — an overflow is a deliberate
+    information loss and must not be silent.
+
+    `recency_alpha=0.0` disables Eq. 3's `exp(-alpha * dt)` decay, which is the
+    intended default for documents (see `thread_memory`); raise it to run the
+    paper's decayed retrieval as an ablation.
 
     The topic is re-derived from `C_i` at **every** chunk — there is no
     document-level topic fixed once up front, and never the eval question. So
@@ -505,7 +618,7 @@ def rehearse_elaborative(
     definition of relevance layered on top of the per-chunk one — and on an
     insert (topic shift) it forces together exactly the two unrelated topics
     the curation prompt in `curation.py` forbids blending. Cross-chunk
-    continuity is preserved without it: `retrieve_aligned_context`'s
+    continuity is preserved without it: `ThreadMemory.retrieve`'s
     `fallback_top1` guarantees non-empty context whenever anything has been
     rehearsed, so B never silently degenerates into A's independent per-chunk
     processing. Set `carry_previous=True` to restore the pure recency baseline
@@ -535,43 +648,58 @@ def rehearse_elaborative(
     model.eval()
     device = next(model.parameters()).device
 
-    pool_texts: list[str] = []
-    pool_indices: list[int] = []
-    pool_embeddings: list[list[float]] = []
+    read_threshold = min_similarity if tau_read is None else tau_read
+    write_threshold = read_threshold if tau_write is None else tau_write
+
+    memory = ThreadMemory(
+        capacity=memory_capacity,
+        on_overflow=on_overflow,
+        recency_alpha=recency_alpha,
+        max_slot_sentences=max_slot_sentences,
+    )
+
+    def _embed_slot(text: str) -> list[float] | None:
+        """Single-text passage embedding, for merges inside the memory."""
+        embedded = embed_with_retry([text], "passage", embed_cfg, embed_fn)
+        return None if embedded is None else embedded[0]
 
     result: list[Chunk] = []
     records: list[RetrievalRecord] = []
 
     for position, chunk in enumerate(chunks):
-        record = RetrievalRecord(chunk_index=chunk.index, pool_size=len(pool_texts))
+        record = RetrievalRecord(chunk_index=chunk.index, pool_size=len(memory))
 
-        retrieved = retrieve_aligned_context(
-            chunk.text, pool_texts, pool_indices, pool_embeddings,
-            embed_cfg, embed_fn, top_k=top_k, min_similarity=min_similarity,
-            fallback_top1=True,
-        )
-        if retrieved is None:
+        query_embedding = embed_with_retry([chunk.text], "query", embed_cfg, embed_fn)
+        if query_embedding is None:
             record.used_recency_fallback = True
-            retrieved = []
+            hits, best = [], None
         else:
-            record.retrieved_indices = [index for index, _, _ in retrieved]
-            record.similarities = [round(score, 4) for _, _, score in retrieved]
-            # Eq. 6 branches on delta_t = the best score, which is retrieved[0]
-            # because the list is sorted. Checking the score rather than
-            # emptiness matters now that fallback_top1 can return a below-tau
-            # hit for the model to condition on: that chunk still opens a new
-            # thread, it just is not elaborated against nothing.
+            hits, best = memory.retrieve(
+                query_embedding[0], position, top_k=top_k,
+                tau=read_threshold, fallback_top1=True,
+            )
+            record.retrieved_indices = [hit.head_index for hit in hits]
+            record.similarities = [round(hit.score, 4) for hit in hits]
+            record.thread_spans = [chunk.index - hit.anchor_index for hit in hits]
+            # Eq. 6 branches on delta_t = the best score over the *unfiltered*
+            # ranking, which is what `best` carries. Checking the score rather
+            # than whether anything was returned matters because fallback_top1
+            # also returns a below-tau neighbour for the model to condition on:
+            # that chunk still opens a new thread, it just is not elaborated
+            # against nothing.
             record.write_back_action = (
-                "revise" if retrieved and retrieved[0][2] >= min_similarity else "insert"
+                "revise" if best is not None and best[1] >= write_threshold else "insert"
             )
 
-        context_texts = [text for _, text, _ in retrieved]
+        context_texts = [hit.text for hit in hits]
         if carry_previous and position > 0:
             previous_text = result[-1].text
             if previous_text not in context_texts:
                 context_texts.append(previous_text)
 
         context_texts = _fit_context_to_budget(chunk.text, context_texts, tokenizer, max_input_length)
+        if record_context_texts:
+            record.retrieved_context_texts = list(context_texts)
         model_input = format_elaborative_input(chunk.text, context_texts)
 
         inputs = tokenizer(
@@ -585,21 +713,34 @@ def rehearse_elaborative(
             output_ids = model.generate(**inputs, max_new_tokens=max_new_tokens)
         elaborated = tokenizer.decode(output_ids[0], skip_special_tokens=True).strip()
 
-        # An empty generation would poison the pool for every later chunk, so
-        # keep the source text instead of appending nothing.
+        # An empty generation would poison the memory for every later chunk, so
+        # keep the source text instead of writing back nothing.
         if not elaborated:
             elaborated = chunk.text
 
         result.append(replace(chunk, text=elaborated, original_text=chunk.text))
         records.append(record)
 
-        fresh_embedding = embed_with_retry([elaborated], "passage", embed_cfg, embed_fn)
+        fresh_embedding = _embed_slot(elaborated)
         if fresh_embedding is None:
+            # The gist never enters memory and is invisible to every later
+            # chunk. Tracked separately from `used_recency_fallback` because
+            # the damage lands on *other* chunks.
             record.pool_write_failed = True
         else:
-            pool_texts.append(elaborated)
-            pool_indices.append(chunk.index)
-            pool_embeddings.append(fresh_embedding[0])
+            written = memory.write_back(
+                elaborated, fresh_embedding, chunk.index, position,
+                best=best, tau=write_threshold, embed_slot_fn=_embed_slot,
+            )
+            # write_back re-derives the branch from the same delta_t, so this
+            # only ever confirms the label set above — but it is the executed
+            # decision, so it is the one that gets recorded.
+            record.write_back_action = written["action"]
+            record.written_origin_indices = written["origin_indices"]
+            record.overflow = written["overflow"]
+        record.memory_size = len(memory)
+        if record_memory_state:
+            record.memory_state = " ".join(slot.text for slot in memory.slots)
 
     return result, records
 
@@ -607,7 +748,7 @@ def rehearse_elaborative(
 def retrieval_span_report(records: list[RetrievalRecord]) -> dict:
     """Manipulation check for the retrieval mechanism itself.
 
-    `mean_span` is the average `chunk_index - retrieved_index`. It answers the
+    `mean_span` is the average `chunk_index - head_index`. It answers the
     only question that decides whether this feature earns its place: **is
     retrieval reaching past the previous chunk?** If `mean_span` sits near 1.0
     and `recency_share` near 1.0, similarity ranking has simply rediscovered
@@ -615,8 +756,24 @@ def retrieval_span_report(records: list[RetrievalRecord]) -> dict:
     embedding cost bought nothing. A high `mean_span` with a low `fire_rate`
     is the other failure — the mechanism triggers too rarely to matter.
 
+    ⚠ Read `mean_span` together with `mean_thread_span`, not alone. Now that
+    write-back revises in place, a slot's text carries the index of whoever
+    last rewrote it, so a thread that is being actively maintained reports a
+    *small* span even though it has been alive since chunk 0. `mean_span` near
+    1.0 with `mean_thread_span` large is therefore the healthy case — old
+    threads kept current — and is the opposite of the recency degeneration the
+    same `mean_span` would indicate on its own. Only both being near 1.0 is the
+    failure.
+
+    `memory_growth` is the fix for the paper's Limitation 1, measured. It is
+    final slots / chunks: 1.0 means every chunk opened a new thread and the run
+    degenerated to the append-only behaviour, well below 1.0 means revise is
+    doing work. `merges` and `evictions` count how often the capacity bound had
+    to destroy something to hold that line — a low `memory_growth` bought
+    entirely by evictions is not the same result as one earned by revision.
+
     Read `pool_write_failures` before reading anything else: a nonzero value
-    means chunks are missing from the pool they should have been retrievable
+    means chunks are missing from the memory they should have been retrievable
     from, so a low `eligible` or `fire_rate` is an infrastructure result, not
     a finding about the document.
 
@@ -632,6 +789,8 @@ def retrieval_span_report(records: list[RetrievalRecord]) -> dict:
     fired = [r for r in eligible if r.write_back_action == "revise"]
     used = [r for r in eligible if r.retrieved_indices]
     spans = [r.chunk_index - index for r in used for index in r.retrieved_indices]
+    thread_spans = [span for r in used for span in r.thread_spans]
+    overflows = [r.overflow for r in records if r.overflow]
 
     return {
         "chunks": len(records),
@@ -641,6 +800,16 @@ def retrieval_span_report(records: list[RetrievalRecord]) -> dict:
         "mean_span": sum(spans) / len(spans) if spans else 0.0,
         "max_span": max(spans) if spans else 0,
         "recency_share": sum(s == 1 for s in spans) / len(spans) if spans else 0.0,
+        # How far back the *thread* reaches, independent of who last revised
+        # it. See the docstring — this is the series that keeps a healthy
+        # revising memory from reading as recency collapse.
+        "mean_thread_span": sum(thread_spans) / len(thread_spans) if thread_spans else 0.0,
+        "max_thread_span": max(thread_spans) if thread_spans else 0,
+        # Paper Limitation 1, measured rather than conceded.
+        "memory_size": records[-1].memory_size if records else 0,
+        "memory_growth": (records[-1].memory_size / len(records)) if records else 0.0,
+        "merges": sum(e["kind"] == "merge" for e in overflows),
+        "evictions": sum(e["kind"] == "evict" for e in overflows),
         "mean_similarity": (
             sum(s for r in fired for s in r.similarities) / sum(len(r.similarities) for r in fired)
             if fired else 0.0
@@ -649,8 +818,13 @@ def retrieval_span_report(records: list[RetrievalRecord]) -> dict:
         "pool_write_failures": sum(r.pool_write_failed for r in records),
         # Eq. 6's branch, aggregated — the complement of fire_rate, kept under
         # its own name because it is read for a different question: near 1.0 on
-        # a coherent document means tau is too strict, so nothing is ever
-        # revised and the summary only grows (C-DIC App. K).
+        # a coherent document means tau_write is too strict, so nothing is ever
+        # revised and memory only grows — C-DIC App. K Table 16's tau = 0.9
+        # regime (3.5 -> 30.0 slots, PPL 8.427 -> 12.202). This is the
+        # statistic to calibrate tau against. The paper's own band (0.6-0.8) is
+        # measured over latent-slot similarities, a different scale from this
+        # pipeline's text embeddings, so the value does not transfer even
+        # though the failure mode does.
         "insert_share": (
             sum(r.write_back_action == "insert" for r in eligible) / len(eligible)
             if eligible else 0.0

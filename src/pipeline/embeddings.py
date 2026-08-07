@@ -88,15 +88,23 @@ def last_embedding_error() -> Exception | None:
     return _last_embedding_error
 
 
-def embed_with_retry(texts: list[str], input_type: str, config: dict, embed_fn) -> list[list[float]] | None:
+def embed_with_retry(
+    texts: list[str], input_type: str, config: dict, embed_fn, rate_limiter=None,
+) -> list[list[float]] | None:
     """Retries embed_fn up to config["max_retries"] times. If retries are
     exhausted, logs the cause to stderr and returns None. The cause can also
     be queried via last_embedding_error().
+
+    `rate_limiter`, if given, is a `rate_limit.RateLimiter` whose `.acquire()`
+    is called before every attempt (including retries) — see that module for
+    why this is a separate knob from how many callers run concurrently.
     """
     global _last_embedding_error
     api_key = _resolve_api_key(config)
     last_error: Exception | None = None
     for attempt in range(config["max_retries"] + 1):
+        if rate_limiter is not None:
+            rate_limiter.acquire()
         try:
             result = embed_fn(
                 texts,

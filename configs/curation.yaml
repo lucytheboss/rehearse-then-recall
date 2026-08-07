@@ -1,0 +1,145 @@
+# Stage-2 curation (elaborative rehearsal B) — teacher LLM + document shaping.
+#
+# Everything here runs offline to build training data. The teacher never
+# appears in the inference pipeline; at evaluation time B is a single seq2seq
+# forward pass. See src/pipeline/teacher.py.
+
+# --- teacher API ---------------------------------------------------------
+# meta/llama-3.1-70b-instruct, not meta/llama-3.3-70b-instruct (2026-08-04).
+# Live-diagnosed against the real endpoint: 3.3-70b returned 503
+# "ResourceExhausted: Worker local total request limit reached" on 2 of 2
+# single-call probes (18/16, 32/16 — its worker pool is persistently over its
+# own stated capacity, not an occasional spike), and that congestion is what
+# produced the 42/72 (58%) failure rate on the first pilot. 3.1-70b is a
+# different deployment on the same capability tier — probed at 23.89s/call
+# with no error. Same size teacher, no distillation-quality tradeoff; the
+# problem was the specific deployment, not the model class. If 3.1-70b also
+# degrades under load, meta/llama-3.1-8b-instruct (already validated
+# elsewhere in this project, for the final-QA step) is the fallback — probed
+# at 0.74s/call — but that is a real 70B->8B capability drop for the teacher
+# role and should be a deliberate choice, not a silent substitution.
+model: meta/llama-3.1-70b-instruct
+
+# 0.0 on purpose. The teacher produces *labels*, and a label that changes
+# between runs makes the collapse diagnostic unreadable — a drop at position 6
+# could be sampling noise rather than degradation.
+temperature: 0.0
+
+# A running summary over ~12 chunks, not a per-chunk gist. Roomy enough that
+# the cap never truncates mid-sentence (which would look like a teacher that
+# forgets), tight enough to keep the summary a summary.
+max_tokens: 512
+
+# 120s, not 60s (2026-08-04). A pilot run against the real endpoint measured
+# 42/72 calls (58%) failing, and most were plain ReadTimeout at the old 60s
+# ceiling rather than a rejection — the model was still working, just not
+# within 60s under load. `retry_base_delay`/`retry_max_delay` add exponential
+# backoff between retries (`complete_with_retry`); without it, a 503
+# "Worker local total request limit reached" gets an immediate retry against
+# the same already-overloaded worker, which is not meaningfully different
+# from not retrying at all.
+timeout: 120.0
+# max_retries 2->4, retry_max_delay 30->60 (2026-08-04): the first
+# document-parallel test (06b §4, MAX_WORKERS=4) measured 120/144 teacher
+# calls (83%) failing, escalating monotonically across the batch — 1, then
+# 4/5/6/8/12/12, then every remaining document at 12/12 — never recovering.
+# That shape is a sustained rate limit, not a transient blip: once 4
+# concurrent workers pushed past whatever cap this endpoint/key enforces,
+# 2 retries capped at 30s were not enough to ever get back under it. Raising
+# both gives a stuck run more chances to wait the limit out; if that alone
+# doesn't fix it, the real problem is MAX_WORKERS itself and it needs to come
+# down, not just retry harder.
+max_retries: 4
+retry_base_delay: 2.0
+retry_max_delay: 60.0
+api_key_env: NVIDIA_NIM_API_KEY
+
+# requests_per_second (2026-08-04): shared token-bucket cap across every
+# concurrently-curated document (src/pipeline/rate_limit.py), covering both
+# chat and embedding calls — 06b's MAX_WORKERS=2 test got literal 429 "Too
+# Many Requests" on both, which backoff alone cannot prevent (backoff only
+# reacts after a request is already rejected).
+#
+# 0.12 -> 0.4 (2026-08-04, same day): 0.12 was a deliberate guess with no
+# failures confirmed yet; a full 12-document batch at 0.12 then came back
+# with 0/144 failures (0.0%) but took 95 minutes, far too slow to reach the
+# 234+ remaining documents (let alone narrativeqa/caselaw/wiki, which the
+# queue hasn't even started on) inside the project deadline. 0.4 (~24/min,
+# one call every 2.5s) is still ~3x below the burst rate that originally
+# caused 429s (MAX_WORKERS=4 with no limiter at all, i.e. unbounded), so
+# there's real room before hitting the same wall — but it is a step up from
+# the only actually-confirmed-clean point (0.12), not itself confirmed.
+# Check the next run's failure count before raising further.
+requests_per_second: 0.4
+
+# --- document shaping ----------------------------------------------------
+# The corpora are ~50k words each, which at chunking.yaml's max_words=200 is
+# ~250 chunks — one teacher call per chunk, so curating whole corpora would be
+# ~15,000 sequential calls per genre. Instead each corpus is cut into
+# pseudo-documents of `doc_chunks` consecutive chunks.
+#
+# doc_chunks=12 is set by what the diagnostic needs, not by cost: C-DIC
+# Figure 2(a) puts the static-compressor knee at 3-4 accumulated compressions,
+# so a document has to run well past that to show whether the curve keeps
+# falling or flattens. 12 gives 8 positions beyond the knee.
+doc_chunks: 12
+docs_per_corpus: 6
+
+# Corpus-level split, matching 04b. Chunks from one corpus share articles and
+# entities, so a random split would put near neighbours on both sides.
+n_train_corpora: 14
+n_val_corpora: 3
+n_test_corpora: 3
+
+# caselaw is excluded: CaseHOLD ships multiple-choice holdings with no answer
+# span, so its questions cannot drive the retention probe. Curating text that
+# carries no diagnostic would spend API budget for nothing.
+#
+# narrativeqa added (2026-08-04): 03's real baseline shows narrativeqa
+# (`novel`) with by far the largest relative context-underuse gap of any
+# genre — full_context 0.494 vs chunked_sequential 0.063 (n=79). novel's
+# single-continuous-narrative structure is also a more direct test of what
+# thread-memory rehearsal is actually for (tracking one story across chunks)
+# than an independent-article genre's structure. Train corpora built by
+# `data/scripts/build_narrativeqa_train_corpora.py` — one book per corpus,
+# disjoint from `01_length_stress_prep`'s document set, not news/wiki's
+# multi-article round-robin.
+#
+# caselaw added (2026-08-04), for generalizability: news+narrativeqa alone
+# would only let the paper claim rehearsal works on those two genres. Needed
+# two fixes to be usable: (1) questions_extractive.csv — synthetic verbatim
+# QA generated by data/scripts/generate_caselaw_extractive_probes.py, since
+# CaseHOLD's native multiple-choice questions have no answer span for §5's
+# probe; (2) the corpus text itself had the literal token "<HOLDING>" roughly
+# every 139 words (CaseHOLD masks the actual holding citation as part of its
+# task design) — stripped in place from caselaw_train's corpus.txt files
+# (originals kept as corpus.txt.bak_pre_holding_strip). Without (2), both
+# curation and the synthetic QG step would have been reading text littered
+# with a meaningless placeholder token.
+#
+# wiki briefly dropped, then restored (2026-08-04, same day): wiki's
+# full_context ceiling is already 0.81 (vs chunked_sequential 0.19) — the
+# highest of any genre, so there's less headroom for rehearsal to visibly
+# recover toward it. But a flat/negative result there is still informative
+# (rehearsal matters less once the base task is already near-saturated), not
+# nothing — and testing all 4 genres 03 already established is a stronger
+# generalizability claim than cherry-picking the ones likeliest to improve.
+genres: [news, narrativeqa, caselaw, wiki]
+
+# --- self-conditioned mix (the ra-TBPTT analogue) ------------------------
+# Fraction of eligible pairs whose *conditioning* is the stage-1 model's own
+# previous summary while the target stays the teacher's. See
+# curation.build_stage2_pairs — this is DAgger, not a gradient trick, and must
+# not be reported as an implementation of ra-TBPTT.
+#
+# Kept low: every self-conditioned pair is one not spent on the clean
+# objective. The point is robustness to the model's own states, not training
+# predominantly on them. 0.0 reproduces pure teacher forcing for the ablation.
+self_conditioned_ratio: 0.3
+seed: 20260802
+
+# --- retention probe -----------------------------------------------------
+# Token-F1 above which a question's answer counts as still supported by the
+# running summary. 0.6 tolerates the teacher rephrasing a span without
+# accepting a summary that merely shares stopwords with it.
+probe_f1_threshold: 0.6

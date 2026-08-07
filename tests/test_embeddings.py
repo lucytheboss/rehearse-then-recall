@@ -47,6 +47,34 @@ def test_embed_with_retry_logs_failure_reason_to_stderr(config, capsys):
     assert "EmbeddingAPIError" in captured.err
 
 
+class _CountingRateLimiter:
+    def __init__(self):
+        self.calls = 0
+
+    def acquire(self):
+        self.calls += 1
+
+
+def test_embed_with_retry_acquires_rate_limiter_before_every_attempt(config):
+    config = dict(config)
+    config["max_retries"] = 2
+    limiter = _CountingRateLimiter()
+
+    def always_fails(*args, **kwargs):
+        raise EmbeddingAPIError("simulated failure")
+
+    embed_with_retry(["text"], "passage", config, always_fails, rate_limiter=limiter)
+    assert limiter.calls == 3  # initial attempt + 2 retries
+
+
+def test_embed_with_retry_works_without_rate_limiter(config):
+    """rate_limiter is optional — existing callers must be unaffected."""
+    def always_succeeds(texts, input_type, model, truncate, api_key, timeout=30.0, dimensions=None):
+        return [[0.0] for _ in texts]
+
+    assert embed_with_retry(["text"], "passage", config, always_succeeds) == [[0.0]]
+
+
 def test_last_embedding_error_reflects_most_recent_call(config):
     def always_fails(*args, **kwargs):
         raise EmbeddingAPIError("simulated failure")
