@@ -4,32 +4,42 @@
 
 # Threshold in words (whitespace-delimited tokens).
 #
-# Recalculated 2026-07-16 (based on pko-t5 context length): per the official
-# paust/pko-t5 repo (github.com/paust-team/pko-t5), KLUE evaluation training
-# used input_ids max_length=1300 tokens, stated to cover 98.4% of train /
-# 100% of dev context at that length. The rehearsal model's input is
-# "previous key sentences (accumulated) + new chunk", so a single chunk
-# should not consume the full 1300 tokens — some budget must be left for
-# prior context — so the chunk itself gets a bit over half the budget
-# (~700 tokens).
+# Recalculated 2026-07-30, bounded by RoBERTa's 512-token limit.
 #
-# NOTE: the word->token conversion ratio here is an estimate — this sandbox
-# has HuggingFace model downloads blocked by network policy, so it wasn't
-# possible to measure directly with the pko-t5 tokenizer. Given BBPE
-# characteristics, Korean runs roughly 1.5-2 tokens per word, so working
-# backward (700 / 1.5-2 ~= 350-470 words) gives max_words=350 as a
-# conservative choice. Re-verify with the snippet below on a
-# network-enabled environment (e.g. Colab):
+# The extractive stage (maintenance rehearsal, A) is a RoBERTa sentence
+# scorer, following Sie et al. (NLLP 2024, arXiv:2408.09777), whose grid
+# found RoBERTa + a single dependent-ratio pass to be the best extractive
+# configuration. RoBERTa uses learned position embeddings, so 512 is a hard
+# architectural ceiling, not a config knob: anything past it is silently
+# dropped, and a dropped sentence can never be selected.
 #
-#   from transformers import T5TokenizerFast
-#   tok = T5TokenizerFast.from_pretrained("paust/pko-t5-base")
-#   text = "actual chunk sample text..."
-#   print(len(tok(text).input_ids) / len(text.split()))  # token/word ratio
+# Budget per chunk, BERTSUM-style (one <s>/</s> pair per sentence so each
+# sentence has a token to classify):
+#     content tokens + 2 * n_sentences + 2  <=  512
 #
-# Use this ratio to reconvert the 700-token budget above into a word count
-# and re-tune min/max_words.
-min_words: 150
-max_words: 350
+# Measured with roberta-base over this project's four corpora (novel / news /
+# caselaw / wiki), taking the *maximum* over sliding windows — i.e. assuming
+# every chunk fills the cap:
+#
+#     max_words | novel  news  caselaw  wiki
+#     ----------+---------------------------
+#           200 |   365   319      446   370     <- all fit
+#           250 |   444   389      522!  438
+#           300 |   521!  464      605!  532!
+#           350 |   607!  555!     690!  616!    <- the previous setting
+#
+# caselaw binds: legal citations tokenize densely (1.57 tokens/word vs 1.26
+# for wiki). The previous 350 overflowed on every genre, so max_words=200 is
+# a correction, not a tuning choice.
+#
+# t5-small (elaborative rehearsal, B) was checked at the same time and is
+# looser: 468 tokens worst case at 200 words, against its configured 512.
+#
+# min_words scales with it, keeping roughly the old 0.43 min/max proportion so
+# the seam search still has a usable window to pick a low-similarity boundary
+# in. Re-measure both if the backbone changes.
+min_words: 90
+max_words: 200
 
 # Chunks at the sentence level (not paragraph) by default. Paragraph
 # boundaries are used only as candidate points. Since a paragraph can run

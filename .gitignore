@@ -35,3 +35,10 @@ data/eval_text/*
 
 # Training artifacts (regenerable base-t5 configs/tokenizer; weights already ignored above)
 experiments/*_small/
+
+# Training corpora and derived label sets — needed to reproduce A on another
+# machine (GPU), and small enough to track (~60MB total).
+!data/processed/news_train/
+!data/processed/wiki_train/
+!data/processed/caselaw_train/
+!data/processed/rehearsal_maintenance_evidence/
