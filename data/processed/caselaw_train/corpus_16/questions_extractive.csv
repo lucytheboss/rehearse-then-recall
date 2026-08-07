@@ -1,0 +1,39 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the statute that governs the recovery and distribution of Plan assets on behalf of the Plan?,ERISA,1414,237,caselaw_synthetic_extractive
+2,What is the year of the case?,2000,4995,816,caselaw_synthetic_extractive
+3,What is the date when plaintiff filed her EEOC complaint?,"October 1, 2010",15580,2523,caselaw_synthetic_extractive
+4,What is the date when plaintiff alleges that a gradual process of demotion and withdrawal of her work functions began?,December of 2010,15707,2544,caselaw_synthetic_extractive
+5,What section of the PCRA barred the limitations claim unless the exception applied?,78B-9-106(l)(c),30836,5007,caselaw_synthetic_extractive
+6,What section of the Guidelines was cited in the passage?,1B1.10 cmt. n. 1(A),31320,5081,caselaw_synthetic_extractive
+7,42 U.S.C. § 1983,42 U.S.C. § 1983,43462,7072,caselaw_synthetic_extractive
+8,What is the name of the statute that imposes civil liability upon any person who knowingly presents a false or fraudulent claim for payment or approval?,31 U.S.C. § 3729(a),47516,7746,caselaw_synthetic_extractive
+9,"What is the name of the statute that provides for a maximum recovery of $10,000?",Section 2,50268,8189,caselaw_synthetic_extractive
+10,What is the name of the case that Judge Lefkow in Bolen v. Bass relied on?,Cox,57202,9298,caselaw_synthetic_extractive
+11,What is the case name?,Jones v. State,61426,10004,caselaw_synthetic_extractive
+12,What is the date that RM Kids foreclosed on the subject property?,the date it foreclosed,77167,12508,caselaw_synthetic_extractive
+13,What is the name of the case that discusses Levenstein v. Sapiro?,"Dania Jai-Alai Palace, Inc. v. Sykes",93346,15099,caselaw_synthetic_extractive
+14,What is the name of the statute under which Lauro Lines sought to appeal the District Court’s orders?,28 U. S. C. § 1292(b),98703,15969,caselaw_synthetic_extractive
+15,What is the name of the Eleventh Amendment?,the Eleventh Amendment,119905,19463,caselaw_synthetic_extractive
+16,"What is the date of the BIA's January 17, 2006 denial of Skeete's motion to reopen?","January 17, 2006",123517,20057,caselaw_synthetic_extractive
+17,What is the amount over which Mr. Anderson had the authority to withdraw funds from TCF accounts without obtaining a supervisor's permission?,"$1,000",124135,20155,caselaw_synthetic_extractive
+18,What is the name of the case that held that Hill' failed to preserve error?,"Arctic Exp., Inc. v. Del Monte Fresh Produce",139089,22545,caselaw_synthetic_extractive
+19,What is the date of the decision in the case?,"July 22, 2011",141213,22895,caselaw_synthetic_extractive
+20,What is the name of the case that reaffirmed the Memorial Hospital holding in subsequent cases?,Denver Post of Nat’l Soc’y of Volunteers of Am. v. NLRB,154475,25044,caselaw_synthetic_extractive
+21,What is the name of the statute that the court must consider when determining whether the private employer retains sufficient control over the employment relationship to engage in meaningful collective bargaining?,42 U.S.C. § 405(g),163307,26460,caselaw_synthetic_extractive
+22,What is the purpose of the Declaratory Judgment Act?,to reduce litigation,170966,27727,caselaw_synthetic_extractive
+23,What is the holding of State v. Roswell?,"there is no rational basis to require that some prior convictions be proved to a jury beyond a reasonable doubt as an element of the crime, and to allow others be found by a judge by a preponderance of the evidence, as sentencing factors.",176121,28572,caselaw_synthetic_extractive
+24,What is the name of the statute?,RSA 212:34,200439,32544,caselaw_synthetic_extractive
+25,What is the name of the statute?,RSA 508:14,200454,32547,caselaw_synthetic_extractive
+26,What is the name of the case cited in support of the position that the time spent by the employees of the City and PRHA are recoverable?,"T & E Indus., Inc. v. Safety Light Corp.",216576,35153,caselaw_synthetic_extractive
+27,What is the name of the case that held that the meaning of the word furniture should not be so limited as to exclude 'mechanic devices' when interpreting the exemption statute?,In re Fisher,221829,36027,caselaw_synthetic_extractive
+28,"What is the case cited in See Goolsby v. United States, 21 Cl.Ct. 629, 631 (1990)?",Goolsby v. United States,230969,37507,caselaw_synthetic_extractive
+29,What is the statute cited in § 841(b)(1)(C)?,§ 841(b)(1)(C),235669,38262,caselaw_synthetic_extractive
+30,What is the name of the case that was cited in the passage?,Pennhurst State Sch. & Hosp. v. Halderman,246963,40068,caselaw_synthetic_extractive
+31,What is the name of the case in which the court found that a considerable distance of 30 miles between a residence and a gas station weighed against establishing a likelihood of future harm?,Molski v. Levon Inv.,262777,42642,caselaw_synthetic_extractive
+32,What is the name of the statute that requires all insured benefit plans to purchase specific benefits when purchasing insurance?,Metropolitan Life Ins. Co. v. Massachusetts,270137,43811,caselaw_synthetic_extractive
+33,What is the statute that provides that an arbitration award shall be vacated where there was evident partiality by an arbitrator appointed as a neutral or corruption in any of the arbitrators or misconduct prejudicing the rights of any party?,G.S. § l-567.13(a)(2),280984,45543,caselaw_synthetic_extractive
+34,"What is the value of the property as of January 19, 2010?","$9,160,000",287668,46620,caselaw_synthetic_extractive
+35,What is the name of the case where the court held that a singular stray comment does not a hostile work environment make?,Freedman v. MCI Telecommunications Corp.,294089,47701,caselaw_synthetic_extractive
+36,What is the name of the case where the court held that an agency’s interpretation of its own regulation is controlling unless that interpretation is plainly erroneous or inconsistent with the regulation?,Auer v. Robbins,295583,47948,caselaw_synthetic_extractive
+37,"What is the name of the Arkansas Department of Human Services (DHS) division where Shirley Whitten, Terriel McLaughlin, and Janet Richardson worked?",Division of Children and Family Services (DCFS),308798,50076,caselaw_synthetic_extractive
+38,What is the maximum recovery of the Costs Act?,"$10,000",324384,52610,caselaw_synthetic_extractive

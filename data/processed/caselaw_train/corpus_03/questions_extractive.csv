@@ -1,0 +1,41 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the date of the Superior Court Rules?,"Aug. 23, 2010",0,1,caselaw_synthetic_extractive
+2,Tex.R. Civ. P. 286,See,160,29,caselaw_synthetic_extractive
+3,What is the name of the case that discusses the distinction between original tortfeasor's liability and treating physician's liability?,Keeton et al.,2780,421,caselaw_synthetic_extractive
+4,"What is the date of the May 17, 1993 Agreement among Fiat Auto, American Finance S.p.A., and OAM?","May 17, 1993",16458,2608,caselaw_synthetic_extractive
+5,"What is the citation for the case Ladjevardian v. Laidlaw-Coggeshall, Inc.?",431 F.Supp. 834,16878,2678,caselaw_synthetic_extractive
+6,Cal. Ct. App.,Cal.,21964,3498,caselaw_synthetic_extractive
+7,What is the name of the statute that prohibits the use or carrying of a firearm during and in relation to a crime of violence?,18 U.S.C. § 924(c),30603,4891,caselaw_synthetic_extractive
+8,240 R 529,240 R 529,31339,5007,caselaw_synthetic_extractive
+9,"240 R 529, 532","240 R 529, 532",31339,5007,caselaw_synthetic_extractive
+10,28 U.S.C. § 2254(d)(2),28 U.S.C. § 2254(d)(2),33709,5394,caselaw_synthetic_extractive
+11,ORS 136.643,statutory right,36718,5887,caselaw_synthetic_extractive
+12,What is the name of the court that observed that '[a]n explanation for a particular challenge need not necessarily be pigeon-holed as wholly acceptable or wholly unacceptable.',The Second Circuit,47341,7581,caselaw_synthetic_extractive
+13,What is the name of the case cited in the passage?,Illinois Farmers Ins. Co. v. Coppa,63271,10123,caselaw_synthetic_extractive
+14,USSG § 1B1.10(b)(1) states:,only the retroactive amendment is to be considered at a resentencing under § 3582,78227,12535,caselaw_synthetic_extractive
+15,What is the date of the BIA’s issuance of its final decision?,March 2005,93401,15009,caselaw_synthetic_extractive
+16,What is the statute that defines the fiduciary relationship?,65 Pa.C.S. § 1102,96458,15498,caselaw_synthetic_extractive
+17,"What is the name of the case that formulated an appropriate rule by adjusting the standard of care, not by finding “assumption of risk”?",Crawn v. Campo,124182,20034,caselaw_synthetic_extractive
+18,What is the name of the case that held that because the entire process of magistrate adjudication “takes place under the district court’s total control and jurisdiction”?,Peretz,124816,20134,caselaw_synthetic_extractive
+19,What is the name of the statute that deals with the perfection or discharge of a security interest in property for which a certificate of title is required?,KRS Chapter 186A,140872,22681,caselaw_synthetic_extractive
+20,What is the name of the formula mentioned in the passage?,Woodward,155620,25059,caselaw_synthetic_extractive
+21,What is the name of the statute mentioned in the passage?,18 U.S.C. § 472,163523,26342,caselaw_synthetic_extractive
+22,What is the definition of 'State' in the Georgia statute?,"the State of Georgia and any of its offices, agencies, authorities, departments, commissions, boards, divisions, instrumentalities, and institutions, but does not include counties, municipalities, school districts, other units of local government, hospital authorities, or housing and other local authorities.",174107,28047,caselaw_synthetic_extractive
+23,What is the standard of review for an adverse credibility determination?,"the Immigration Judge (“IJ”) or BIA “must identify specific, cogent reasons for an adverse credibility finding” and the reasons must “strike at the heart of the claim.”",184319,29713,caselaw_synthetic_extractive
+24,"192 F.3d 1353, 1358 (Fed.Cir.1999)",Tec Air Inc. v. Denso Mfg. Mich. Inc.,186558,30082,caselaw_synthetic_extractive
+25,What is the amount of damages authorized by the Act?,"$10,000, plus reasonable attorney’s fees, or actual damages, whichever is greater.",201995,32594,caselaw_synthetic_extractive
+26,What percentage of cases should be adjudicated within 90 days from the date of arraignment?,90%,209483,33768,caselaw_synthetic_extractive
+27,What is the underlying purpose of the special relationship exception?,to define particular “circumstances in which a party has a duty of care to avoid imposing economic losses on third parties.”,232695,37544,caselaw_synthetic_extractive
+28,What is the relevant inquiry for determining whether a plaintiff must point to a controlling case?,fact specific,237236,38279,caselaw_synthetic_extractive
+29,What is the statute that provides the juvenile delinquency certification requirements?,18 U.S.C. § 5032,248579,40088,caselaw_synthetic_extractive
+30,What is the name of the case that held that a police officer may conduct a brief investigatory stop without running afoul of the Fourth Amendment?,Terry,250059,40339,caselaw_synthetic_extractive
+31,What is the name of the statute?,§ 1983,257941,41623,caselaw_synthetic_extractive
+32,What is the name of the case?,"See Masaka, 4 So.3d at 1286;",263458,42523,caselaw_synthetic_extractive
+33,What is the name of the case cited in the passage?,Rhode Island v. Innis,279257,45059,caselaw_synthetic_extractive
+34,What is the name of the statute mentioned in the passage?,18 U.S.C. § 2510(5),285342,46027,caselaw_synthetic_extractive
+35,What is the name of the case that held that CITA’s substantive decision to impose import restrictions pursuant to an appropriate exercise of validly delegated authority is nonjusticiable?,AAEI-TAG II,295363,47660,caselaw_synthetic_extractive
+36,What is the name of the statute that expressly limits the amount distributable to § 507(a) claimants to the “amount of such allowed tax claim that is secured by such tax lien”?,§ 724(b)(2),296292,47827,caselaw_synthetic_extractive
+37,What is the name of the case that makes no mention of consequential damages?,Hill case,309328,50023,caselaw_synthetic_extractive
+38,What is the name of the statute that sets forth objective criteria in the form of aggravating circumstances that are completely unrelated to the socioeconomic status of the defendant?,42 Pa.C.S. § 9711(d),311847,50441,caselaw_synthetic_extractive
+39,What is the name of the case in which the court found that a billboard was not a “structure” pursuant to language which expressly defined both “structure” and “sign”?,Galligon,329368,53289,caselaw_synthetic_extractive
+40,What is the name of the statute that covers injuries that arise out of and in the course of the injured claimant’s employment?,NRS 616C. 150(1),330399,53462,caselaw_synthetic_extractive

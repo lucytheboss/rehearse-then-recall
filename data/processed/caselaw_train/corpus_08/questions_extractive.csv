@@ -1,0 +1,43 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the definition of express consent?,permission given directly either by voice or in writing,275,42,caselaw_synthetic_extractive
+2,What is the term for a sentence imposed prior to sentencing on the instant offense?,prior sentence,2882,476,caselaw_synthetic_extractive
+3,What is the name of the court that affirmed the trial court's decision granting Father's motion to modify custody?,The trial court,4434,734,caselaw_synthetic_extractive
+4,What is the name of the corporation that receives no federal or state funding?,NASD,15342,2510,caselaw_synthetic_extractive
+5,"What is the name of the case that concluded that the act of inserting an adult’s tongue into a child’s mouth constituted an “immoral, improper, or indecent” act?",State v. Hammett,18796,3066,caselaw_synthetic_extractive
+6,What is the name of the case where the court held that the affirmative defense now found in section 18-1-508.5(1) applied to an offense in a different part of the Criminal Code?,Gorman v. People,36976,5970,caselaw_synthetic_extractive
+7,What is the name of the case where the court held that the officers' use of the thermal imager constituted a search under the Fourth Amendment?,Kyllo v. U.S.,42156,6802,caselaw_synthetic_extractive
+8,What is the name of the case cited in the passage?,Young v. Latta,47105,7623,caselaw_synthetic_extractive
+9,What is the name of the statute mentioned in the passage?,ORS 743.612,55566,8995,caselaw_synthetic_extractive
+10,In what year was the case Park Knoll Assoc. v. Schmidt decided?,1983,55977,9064,caselaw_synthetic_extractive
+11,What is the name of the case cited in the passage?,"Orion Tech., Inc. v. United States",61632,10009,caselaw_synthetic_extractive
+12,What is the name of the case?,Pearlman,83413,13543,caselaw_synthetic_extractive
+13,What is the name of the regulation?,RESPA,84702,13757,caselaw_synthetic_extractive
+14,This officer didn’t commit perjury.,He came in here and told you the truth about what happened.,92484,15006,caselaw_synthetic_extractive
+15,Whether an emergency actually existed is immaterial,so long as the officer reasonably believes it to exist because of objectively reasonable facts.,94367,15307,caselaw_synthetic_extractive
+16,What is the date when the salary review should have been completed?,September,98589,15979,caselaw_synthetic_extractive
+17,What statute is cited in 42 U.S.C. § 407(a)?,9 U.S. 413,109902,17833,caselaw_synthetic_extractive
+18,What is the name of the case cited in 28 U.S.C. § 1491 (amended)?,Regional Rail Reorganization Act Cases,110250,17899,caselaw_synthetic_extractive
+19,What is the name of the case cited in the passage?,Gupta v. Fla. Bd. of Regents,123437,20032,caselaw_synthetic_extractive
+20,What is the name of the statute that Singer cites?,§ 523(a)(4),139989,22685,caselaw_synthetic_extractive
+21,What is the name of the case that held that liability for unpaid wages under the FLSA may be offset by the paid time off?,Roman,140870,22828,caselaw_synthetic_extractive
+22,What is the name of the case cited in support of the proposition that a time charterer generally has no liability for injuries to persons unloading a ship?,"Turner v. Japan Lines, Ltd.",158886,25807,caselaw_synthetic_extractive
+23,What is the name of the case cited in the passage?,Beathard Joint Venture v. W. Houston Airport Corp.,184918,30048,caselaw_synthetic_extractive
+24,What is the name of the statute cited in the passage?,18 U.S.C. § 2327(b)(3),186811,30363,caselaw_synthetic_extractive
+25,What is the name of the case that held that seizure under the Fourth Amendment requires either physical force applied by the police on the suspect; or submission by the suspect to the officer’s authority?,California v. Hodari D.,200765,32602,caselaw_synthetic_extractive
+26,What is the amount of money that Harmon was paying each month?,"$1,000",205548,33407,caselaw_synthetic_extractive
+27,"What is the case citation for In re Stratford of Tex., Inc.?",635 F.2d at 368,215427,35031,caselaw_synthetic_extractive
+28,What is the case citation for United States v. ITT Continental Baking Co.?,"420 U.S. 223, 236-37, 95 S.Ct. 926, 934, 43 L.Ed.2d 148 (1975)",215498,35044,caselaw_synthetic_extractive
+29,What is the statute cited in the passage?,42 U.S.C. § 1988(b),230993,37582,caselaw_synthetic_extractive
+30,What is the case cited in the passage?,Baker Botts LLP v. ASARCO LLC,231297,37639,caselaw_synthetic_extractive
+31,What is the percentage increase awarded to Ms. Thomas?,4%,246154,40039,caselaw_synthetic_extractive
+32,What was Crotts’s original sentence for?,sixty-six months’ prison followed by eighteen months’ probation,261517,42517,caselaw_synthetic_extractive
+33,What was the amount of the security release under ORS 135.240(5)?,"$50,000",266853,43388,caselaw_synthetic_extractive
+34,What is the name of the case Najafi v. INS?,Najafi v. INS,276671,45015,caselaw_synthetic_extractive
+35,What is the name of the statute N.Y. Penal Law § 220.39?,N.Y. Penal Law § 220.39,280329,45601,caselaw_synthetic_extractive
+36,What is the name of the statute?,OCGA § 16-6-11,292330,47539,caselaw_synthetic_extractive
+37,What is the name of the case?,Phillips v. State,293058,47667,caselaw_synthetic_extractive
+38,What is the name of the amendment to the U.S. Constitution that guarantees a criminal defendant the right to be represented by the retained counsel he prefers?,the Sixth Amendment,293178,47691,caselaw_synthetic_extractive
+39,"See Bottomley v. Bottomley, 82 N.C. App. 231, 234-35, 346 S.E.2d 317, 320 (1986).","See Bottomley v. Bottomley, 82 N.C. App. 231, 234-35, 346 S.E.2d 317, 320 (1986).",307373,50009,caselaw_synthetic_extractive
+40,29 U.S.C. § 185(a),29 U.S.C. § 185(a),308554,50201,caselaw_synthetic_extractive
+41,What is the citation for the case Wilson-Jones?,115 F.3d 813,323442,52626,caselaw_synthetic_extractive
+42,What is the holding of the case Seagrave v. Price?,"Because the differences in the circumstances between married and divorced parents established the necessity to discriminate between the classes, the [grandparent visitation] statute at issue would not be found unconstitutional.",324030,52712,caselaw_synthetic_extractive

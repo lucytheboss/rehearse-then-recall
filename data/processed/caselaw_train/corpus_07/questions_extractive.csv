@@ -1,0 +1,43 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the section of the U.S. Code that states no person is entitled to any such right or equivalent right in any such work under the common law or statutes of any State?,17 U.S.C. § 301(a),124,25,caselaw_synthetic_extractive
+2,"See, e.g., Brown, 265 Fed.Appx. at 110",***,845,141,caselaw_synthetic_extractive
+3,What is the name of the case cited in the passage that discusses the issue of first impression?,McHaffie,2251,363,caselaw_synthetic_extractive
+4,"What is the year of the case Tatum v. Legg Mason Wood Walker, Inc.?",83,7666,1266,caselaw_synthetic_extractive
+5,Iowa Code § 719.1(1) defines,interference with official acts,15461,2518,caselaw_synthetic_extractive
+6,Iowa Code § 903.1(2) states,a two-year prison sentence,15736,2559,caselaw_synthetic_extractive
+7,"See Fremont Indemnity Co. v. Corbett, 66 Or App 668, 672, 675 P2d 1097, rev den 297 Or 340 (1984).",1984,28618,4681,caselaw_synthetic_extractive
+8,What is the case number of the JAC's petition for certiorari?,2D09-98,34338,5614,caselaw_synthetic_extractive
+9,What is the definition of 'pending'?,not yet decided,45763,7445,caselaw_synthetic_extractive
+10,What is the definition of a 'qualified individual with a disability'?,"who, with or without reasonable accommodation, can perform the essential functions of the employment position that such individual holds or desires.",46381,7549,caselaw_synthetic_extractive
+11,42 U.S.C. § 12111(8).,42 U.S.C. § 12111(8),46531,7570,caselaw_synthetic_extractive
+12,What is the definition of INSURED in the Policy?,the NAMED INSURED,63292,10249,caselaw_synthetic_extractive
+13,What is the state of incorporation of GPH?,Delaware,65924,10671,caselaw_synthetic_extractive
+14,What is the name of the case cited in the passage?,United States v. Thomas,77407,12533,caselaw_synthetic_extractive
+15,What is the name of the statute cited in the passage?,N.Y. G.O.L. § 5-401,87941,14268,caselaw_synthetic_extractive
+16,What is the name of the case cited in Heritage Org.?,In re ARN LTD. Ltd. P’ship,92472,15014,caselaw_synthetic_extractive
+17,What is the name of the case cited in In re ARN LTD. Ltd. P’ship?,In re Ho-lywell Corp.,92542,15026,caselaw_synthetic_extractive
+18,What is the name of the case cited in the passage?,"CBS Outdoor, Inc. v. Potter",108244,17558,caselaw_synthetic_extractive
+19,What is the name of the statute cited in the passage?,8 U.S.C. § 1326(a),108872,17662,caselaw_synthetic_extractive
+20,What is the citation for the case that quotes Graham?,"490 U.S. at 396-97, 109 S.Ct. 1865",123152,20009,caselaw_synthetic_extractive
+21,What is the name of the statute that deals with the imposition of punitive damages in Pennsylvania?,Restatement (2d) of Torts § 908(2),127404,20708,caselaw_synthetic_extractive
+22,"What is the name of the expert who testified on piloting and accident reconstruction, including engine failure analysis?",Donald Sommer,138506,22521,caselaw_synthetic_extractive
+23,What is the name of the case that states a party may not speculate on the result of a verdict and then for the first time complain of jury misconduct?,Alamo Carriage,140288,22814,caselaw_synthetic_extractive
+24,"See Harlan Sprague Dawley, Inc. v. S.E. Lab Group, Inc.,","644 N.E.2d 615, 622 (Ind.Ct.App.1994), reh'g denied, trans. denied.",169266,27545,caselaw_synthetic_extractive
+25,What is the name of the statute?,mail fraud statute,184701,30037,caselaw_synthetic_extractive
+26,What is the name of the case?,"Public Citizen Health Research Group v. Dep’t of Health, Educ. & Welfare",186787,30384,caselaw_synthetic_extractive
+27,What is the dollar amount of the Tenant Improvement Allowance?,"$10,820,800",212402,34566,caselaw_synthetic_extractive
+28,What is the statute that was amended in 1992 to clarify the jurisdiction of the United States Court of Federal Claims?,28 U.S.C. § 1491(a)(2),212984,34663,caselaw_synthetic_extractive
+29,What is the definition of a company being in business?,a company is considered to be in business if it either conducts a business activity or “derives revenue from” a business activity.,225221,36641,caselaw_synthetic_extractive
+30,What is the amount Otay Mesa is entitled to reimbursement for its reasonable attorneys’ fees and expenses incurred in securing just compensation for the Government’s taking?,"Cloverport Sand & Gravel Co., Inc. v. United States, 10 Cl.Ct. 121, 127 (1986).",229868,37397,caselaw_synthetic_extractive
+31,"See Aldeen, 792 F.3d at 251",requiring calculation of Guidelines range,230724,37538,caselaw_synthetic_extractive
+32,"See Van Alstine v. State, 263 Ga. 1, 2-3 (426 SE2d 360) (1993)",noting that the decision over “what trial motions should be made[ ] and all other strategic and tactical decisions are the exclusive province of the lawyer after consultation with his client”,230924,37572,caselaw_synthetic_extractive
+33,What is the statute that provides that no will of a testator who died while a resident of this state shall be effectual to pass property unless a petition is filed for the probate of such will within six months after the death of the testator?,K.S.A. 59-617,251339,40942,caselaw_synthetic_extractive
+34,"What is the statute that establishes the general rule that all meetings of the governing body of an agency are public meetings, open to the public at all times, except as otherwise provided?",Wyo. Stat. Ann. § 16-4-401,251992,41059,caselaw_synthetic_extractive
+35,What is the case name of the 7th Cir. case from 1995?,Cunningham v. Waters Tan & Co.,261087,42506,caselaw_synthetic_extractive
+36,What is the statute that the Hawaii legislature passed?,HWPA,282204,45967,caselaw_synthetic_extractive
+37,What is the name of the case where the Tenth Circuit held that Congress did not intend to negate the exercise of jurisdiction over non-Title VII claims when it enacted Title VII?,Jones v. Intermountain Power Projects,282602,46030,caselaw_synthetic_extractive
+38,What is the name of the case cited in the passage?,Harlan v. Valley Ins. Co.,291390,47503,caselaw_synthetic_extractive
+39,What is the name of the statute cited in the passage?,21 U.S.C.A. § 360h(d),296707,48362,caselaw_synthetic_extractive
+40,What year did property damage occur upon initial exposure?,1960,306790,49993,caselaw_synthetic_extractive
+41,"What is the case cited in Healy, 491 U.S. at 336, 109 S.Ct. 2491?","Wabash, St. L. & P. Ry. Co. v. Illinois",322555,52574,caselaw_synthetic_extractive
+42,What is the section of the U.S. Code cited in 8 U.S.C. § 1226(a)?,1226(a),324594,52910,caselaw_synthetic_extractive

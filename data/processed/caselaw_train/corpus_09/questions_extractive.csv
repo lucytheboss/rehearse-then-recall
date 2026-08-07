@@ -1,0 +1,39 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the statute cited in Wilkinson v. Austin?,125 S.Ct. 2384,1100,175,caselaw_synthetic_extractive
+2,"What is the case cited in Bank IV, Olathe v. Capitol Fed. Sav. & Loan Ass’n?",250 Kan. 541,3518,580,caselaw_synthetic_extractive
+3,Year,2014,4293,700,caselaw_synthetic_extractive
+4,What is the name of the court that reversed the district court in Chabad-Lubavitch v. Miller?,11th Cir.,11713,1912,caselaw_synthetic_extractive
+5,What is the year of the decision in Gomez v. Chater?,1996,11998,1958,caselaw_synthetic_extractive
+6,What is the date mentioned in the passage?,1994,14535,2380,caselaw_synthetic_extractive
+7,"See State v. Steffes, 269 Mont. 214, 887 P.2d 1196, 1210 (1994).","See State v. Steffes, 269 Mont. 214, 887 P.2d 1196, 1210 (1994).",30488,5012,caselaw_synthetic_extractive
+8,"See, e.g., DM. v. State, 681 So.2d 797 (Fla. 2d DCA 1996); S.G.K. v. State, 657 So.2d 1246 (Fla. 1st DCA","See, e.g., DM. v. State, 681 So.2d 797 (Fla. 2d DCA 1996); S.G.K. v. State, 657 So.2d 1246 (Fla. 1st DCA",31329,5152,caselaw_synthetic_extractive
+9,What is the year of the case United States v. Township of Muskeg?,1977,57948,9524,caselaw_synthetic_extractive
+10,What statute provides jurisdiction for fair representation suits?,§ 1337,61798,10143,caselaw_synthetic_extractive
+11,What is the name of the Act of Congress regulating commerce?,National Labor Relations Act,61931,10162,caselaw_synthetic_extractive
+12,Court,Ga. App.,68594,11227,caselaw_synthetic_extractive
+13,What case did the court cite for the proposition that the loss of some job duties is not an ultimate employment decision?,Mota v. Univ. of Tex. Hous. Health Sci. Ctr.,77536,12669,caselaw_synthetic_extractive
+14,"What is the name of the statute that governs administrative claims, including attorney's fees, in Chapter 13 plans?",§ 507(a)(2),84599,13829,caselaw_synthetic_extractive
+15,"What is the name of the case where the court held that Johnson was properly applied retroactively to the defendant’s original conviction, which occurred in 1992?",United States v. Seals,92177,15042,caselaw_synthetic_extractive
+16,What is the name of the dictionary used to define the words 'review' and 'monitor'?,Merriam-Webster’s Collegiate Dictionary,100107,16369,caselaw_synthetic_extractive
+17,"See Nichols v. Westfield Indus., Ltd., 380 N.W.2d 392, 401 (Iowa 1985);","Ky. Utils. Co. v. Auto Crane Co., 674 S.W.2d",107249,17530,caselaw_synthetic_extractive
+18,"See Gerling Global Reinsurance Corp., 302 A.D.2d at 126, 752 N.Y.S.2d 611.","Where the arbitration clause is narrow, a collateral matter will generally be ruled beyond its purview.",108339,17704,caselaw_synthetic_extractive
+19,What is the name of the statute that provides an adequate judicial forum for noncriminal deportees to file a petition for review in the appropriate court of appeals?,8 U.S.C. § 1252,133634,21757,caselaw_synthetic_extractive
+20,What is the statute that defines the Americans With Disabilities Act?,42 U.S.C.,134772,21930,caselaw_synthetic_extractive
+21,What is the definition of a 'covered entity'?,"an employer, employment agency, labor organization, or joint labor-management committee",134828,21941,caselaw_synthetic_extractive
+22,What is the name of the case cited in the passage?,Tinning,138421,22522,caselaw_synthetic_extractive
+23,What is the percentage of United States seafood production accounted for by Alaska?,55%,149450,24305,caselaw_synthetic_extractive
+24,"What is the name of the rule that provides that no error in the admission or exclusion of evidence and no error or defect in any ruling is ground for disturbing a judgment or order, unless refusal to take such action appears to the court inconsistent with substantial justice?",Fed.R.Civ.P. 61,169556,27586,caselaw_synthetic_extractive
+25,What is the name of the case that grants constitutional protections to permanent residents or those with substantial connections to the United States?,United States v. Verdugo-Urquidez,177331,28802,caselaw_synthetic_extractive
+26,What is the name of the case cited in footnote 8?,"Wheatley v. Commonwealth, Department of Transportation",185566,30118,caselaw_synthetic_extractive
+27,What is the name of the statute that gives the right of collective bargaining?,section 100(a),203660,33056,caselaw_synthetic_extractive
+28,"What is the name of the case cited at 424 U.S. at 454-55, 96 S.Ct. 965-66?",Firestone,213717,34719,caselaw_synthetic_extractive
+29,What is the name of the case that holds that the cancellation-of-removal hardship determination is discretionary?,De La Vega,215763,35038,caselaw_synthetic_extractive
+30,What is the statute that allows a plan to treat claims for a consumer debt differently than other unsecured claims?,11 U.S.C. § 1322(b)(1),231143,37540,caselaw_synthetic_extractive
+31,What is the name of the case cited in the passage?,United States v. Honeywell Int’l Inc.,246660,40049,caselaw_synthetic_extractive
+32,What is the name of the statute that excepts calls to a residential line when made pursuant to an established business relationship?,47 C.F.R. § 64.1200(a)(2),247205,40137,caselaw_synthetic_extractive
+33,What is the statute that the Court stated is relevant to the IEP team?,20 U.S.C. § 1414(d)(l)(B)(vi),263844,42862,caselaw_synthetic_extractive
+34,What is the name of the statute cited at § 1962(c)?,§ 1962(c),279071,45353,caselaw_synthetic_extractive
+35,What is the dollar amount of the mortgage that was denied to the plaintiff?,"$756,800.00",305464,49605,caselaw_synthetic_extractive
+36,What is the name of the case in which the court stated that section,v. Libbey-Owens-Ford Glass Co.,307943,49988,caselaw_synthetic_extractive
+37,What statute is cited in the passage?,710 ILCS 5/2(d),308269,50040,caselaw_synthetic_extractive
+38,What is the case name cited in the passage?,Gomez v. Chater,323872,52521,caselaw_synthetic_extractive

@@ -1,0 +1,41 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the case?,Schafer,80,14,caselaw_synthetic_extractive
+2,What is the citation for the case?,598 N.E.2d at 553,89,15,caselaw_synthetic_extractive
+3,What is the year of the case In re Guardianship of Hampton?,1984,3933,618,caselaw_synthetic_extractive
+4,What is the year of the United States Sentencing Guidelines that were in effect when Andrews's criminal conduct took place?,2000,7514,1188,caselaw_synthetic_extractive
+5,When did Petitioner's conviction become final?,"September 21, 1995",22852,3692,caselaw_synthetic_extractive
+6,What is the purpose of ERISA?,to provide a uniform regulatory regime over employee benefit plans,29945,4853,caselaw_synthetic_extractive
+7,What is the name of the case cited in the passage?,Cornelius,31105,5041,caselaw_synthetic_extractive
+8,What is the year in which the Texas franchise tax is imposed upon all domestic and foreign corporations doing business in Texas?,1969,33899,5482,caselaw_synthetic_extractive
+9,What is the statute cited in the passage?,28 U.S.C. § 2254(a),34945,5649,caselaw_synthetic_extractive
+10,What is the year in which United States v. Hollimon was decided?,1983,43281,6997,caselaw_synthetic_extractive
+11,What is the name of the case that does not affect the outcome here?,Carpenter v. Shaw,46827,7578,caselaw_synthetic_extractive
+12,What is the name of the rule that provides that an attorney must refund unearned fees upon termination of representation?,Rule 1.16(d),48877,7896,caselaw_synthetic_extractive
+13,What is the case cited in Ellis v. Jacob?,26 M.J. 90,62062,10026,caselaw_synthetic_extractive
+14,What is the citation for the case Cinque v. Asare?,585 A.2d 490,77361,12516,caselaw_synthetic_extractive
+15,What is the statute that the Court will treat the plaintiff as having a constitutionally protected property interest in his position?,42 U.S.C. § 1983,94085,15261,caselaw_synthetic_extractive
+16,What is the date of the hearing on the motion?,"May 19, 2011",100315,16268,caselaw_synthetic_extractive
+17,What is the name of the case?,Amending Protective Order in the Dairyland litigation,107898,17501,caselaw_synthetic_extractive
+18,What is the name of the statute?,Tennessee Code Annotated section 21 — 1— 103,115309,18705,caselaw_synthetic_extractive
+19,What is the state in which the debtor is domiciled?,Michigan,125876,20469,caselaw_synthetic_extractive
+20,"What is the statute that provides no private right of action against the Tribe, the State, the federal government or any official or agency thereof?",25 U.S.C. § 2710(d)(7)(A),127785,20783,caselaw_synthetic_extractive
+21,What is the year of the G.M. Leasing Corp. v. United States case?,1977,136484,22202,caselaw_synthetic_extractive
+22,What is the name of the case that the court cites in support of the proposition that an assessment is not 'naked' simply because the administrative file supporting its entry is lost?,Estate of Magnin v. Commissioner,139278,22665,caselaw_synthetic_extractive
+23,What is the name of the federal statute that deals with homeowners' associations?,"Chapter 720, Florida Statutes",147508,23981,caselaw_synthetic_extractive
+24,What is the name of the case cited in the passage?,G.M. Leasing Corp. v. United States,153869,25004,caselaw_synthetic_extractive
+25,What is the name of the case that the Second Circuit noted that the Appellate Division in Kimmell implicitly found that future prediction/projections could qualify as the basis for a negligent misrepresentation claim?,Kimmell,175994,28552,caselaw_synthetic_extractive
+26,What is the ruling that an attorney shall not record the conversation of any person without the prior knowledge and consent of all parties to the conversation?,that an attorney shall not record the conversation of any person without the prior knowledge and consent of all parties to the conversation,185040,30016,caselaw_synthetic_extractive
+27,What is the name of the section of the Bankruptcy Code that authorizes administrative expense priority payments to professionals?,Section 503(b)(2),208095,33791,caselaw_synthetic_extractive
+28,What is the citation for the case In re Guardianship of Hampton?,359 N.W.2d 740,215743,35034,caselaw_synthetic_extractive
+29,What is the name of the judge in the case?,Judge Anderson-Trahan,230951,37480,caselaw_synthetic_extractive
+30,What is the name of the city in the case?,Syracuse,231802,37610,caselaw_synthetic_extractive
+31,What is the case citation?,"Peters v. Narick, 165 W.Va. 622, 628 n. 13, 270 S.E.2d 760, 768 n. 13 (1980)",246872,40081,caselaw_synthetic_extractive
+32,What is the name of the case cited in the passage?,Mohammad,261935,42510,caselaw_synthetic_extractive
+33,What is the name of the statute cited in the passage?,31 U.S.C. § 3729,264677,42988,caselaw_synthetic_extractive
+34,What is the name of the Act?,the Wiretap Act,282801,45982,caselaw_synthetic_extractive
+35,What is the name of the case?,Commonwealth v. Proetto,283004,46015,caselaw_synthetic_extractive
+36,What is the name of the case that Zeedyk styled as a Federal Rule of Civil Procedure 60(b) motion?,Wolff v. McDonnell,292296,47503,caselaw_synthetic_extractive
+37,What is the effective date of section 6?,"September 2, 1987",307689,50007,caselaw_synthetic_extractive
+38,What is the ceiling on the amount of fees and expenses recoverable under the statute?,"$10,000",313563,50934,caselaw_synthetic_extractive
+39,What is the name of the case where the First Circuit held that a court clerk’s unilateral action to deny the jury’s request to make transcripts of witnesses available to them was not prejudicial?,United States v. Patterson,323840,52601,caselaw_synthetic_extractive
+40,What is the annual rate of interest under  Wis. Stat. § 807.01(4m)(a)?,12%,333854,54262,caselaw_synthetic_extractive

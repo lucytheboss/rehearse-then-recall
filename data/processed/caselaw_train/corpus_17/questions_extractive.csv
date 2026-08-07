@@ -1,0 +1,38 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the date of the D.D.C. case?,2001,7,2,caselaw_synthetic_extractive
+2,What is the amount of UCS's attorney's fees?,"$1,937.50",2650,434,caselaw_synthetic_extractive
+3,What is the name of the statute mentioned in the passage?,§ 523,3144,521,caselaw_synthetic_extractive
+4,Tex. Fam.Code Ann. § 161.001(1)(N),the statute,4439,732,caselaw_synthetic_extractive
+5,What is the year of the case?,1994,8698,1432,caselaw_synthetic_extractive
+6,What is the name of the case that refers to the applicable positive law that establishes a right to counsel?,Johnson,15062,2459,caselaw_synthetic_extractive
+7,What is the case number for Pearce v. Labella?,473 Fed.Appx. 16,15778,2575,caselaw_synthetic_extractive
+8,What is the year of the edition of the Alabama Property Rights and Remedies section that is cited?,2004,17640,2881,caselaw_synthetic_extractive
+9,What is the statute for the Contract Work Hours and Safety Standards Act?,40 U.S.C. §§ 327 & 330,20621,3354,caselaw_synthetic_extractive
+10,What is the name of the case?,Bureau,29035,4701,caselaw_synthetic_extractive
+11,See 2 McCarthy § 11:91,[T]he corporate owners of trademarks have a duty to protect and preserve the corporation’s trademark assets though vigilant policing and appropriate acts of enforcement.”,46936,7594,caselaw_synthetic_extractive
+12,What is the citation for the case Kaffenberger v. United States?,314 F.3d 944,61738,10040,caselaw_synthetic_extractive
+13,What is the section of the Treasury regulations that specifies what is required of a taxpayer to file a valid claim for refund or credit of taxes previously paid?,26 C.F.R. § 301.6402 — 2(b)(1); § 301.6402-3(a),61906,10069,caselaw_synthetic_extractive
+14,What is the name of the case cited in the passage?,Fields v. Brown,76640,12509,caselaw_synthetic_extractive
+15,What is the definition of persecution?,"a threat to the life or freedom of, or the infliction of suffering or harm upon, those who differ in a way regarded as offensive,",92137,15022,caselaw_synthetic_extractive
+16,What is the maximum penalty for a crime to be considered serious?,more than six months imprisonment,94209,15367,caselaw_synthetic_extractive
+17,What is the name of the Texas constitutional provision that limits the power of the Texas government?,"article I, section 29",107398,17535,caselaw_synthetic_extractive
+18,What is the name of the case that considered whether a telephonic communication constituted a tortious act in Florida?,Hou v. United Airlines Corp.,139777,22776,caselaw_synthetic_extractive
+19,What is the name of the case that held that the driver was seized only when he was struck by the bullet?,Brower,163466,26605,caselaw_synthetic_extractive
+20,What is the name of the standard that is designed to avoid requiring specific evidence for apportionment?,Restatement § 433A,168763,27479,caselaw_synthetic_extractive
+21,What is the objective of the statute of limitations under 28 U.S.C. § 2255(f)?,to bring a motion to determine the defendant’s competency and when and if a court must grant the motion for incompetency,176209,28699,caselaw_synthetic_extractive
+22,"What is the name of the statute that provides that a health benefit plan must cover all medical services, including rehabilitation services, that are medically necessary and otherwise covered?",Or.Rev.Stat. § 743A.190,204154,33226,caselaw_synthetic_extractive
+23,The statute must be ‘so vague and indefinite as really to be no rule or standard at all.’,To find a civil statute void for vagueness,216009,35166,caselaw_synthetic_extractive
+24,the statute must be ‘so vague and indefinite as really to be no rule or standard at all.’,To find a civil statute void for vagueness,216009,35166,caselaw_synthetic_extractive
+25,"What is the amount of money that waives the Board’s governmental immunity, including its Eleventh Amendment immunity?","$100,000 or less",230829,37567,caselaw_synthetic_extractive
+26,What is the name of the case that is cited for the proposition that the Perlman exception is not applicable in this case?,Cronin v. Strayer,231759,37721,caselaw_synthetic_extractive
+27,"See State v. Boehl, 726 N.W.2d 831, 842 (Minn.Ct.App.2007).","See State v. Boehl, 726 N.W.2d 831, 842 (Minn.Ct.App.2007)",246108,40032,caselaw_synthetic_extractive
+28,"See Clark v. J.M. Benson Co., 789 F.2d 282, 286 (4th Cir.1986);","See Clark v. J.M. Benson Co., 789 F.2d 282, 286 (4th Cir.1986);",246950,40162,caselaw_synthetic_extractive
+29,What is the name of the case where the court held that a motion to recall an appellate mandate is not analogous to a motion or independent action brought under Rule 60(b)?,None of the motions or independent actions authorized by Rule 60(b) should assert that the petitioner’s underlying criminal conviction or sentence is infirm on the basis of a constitutional claim that was or was not included in the habeas petition the petitioner litigated to final judgment in the district court.,268386,43588,caselaw_synthetic_extractive
+30,What is the name of the case where the court held that a deed or other conveyance has been delivered is a question of fact to be ascertained from the circumstances?,West v. Founders Life Assurance Co. of Florida,276754,44963,caselaw_synthetic_extractive
+31,What is the name of the Alabama Property Rights and Remedies section that is cited?,Alabama Property Rights and Remedies § 4.3[p],277040,45009,caselaw_synthetic_extractive
+32,"What is the name of the case that explains the differences between criminal procedure rights associated with trial, and criminal procedure rights associated with search?",Schneckloth,291980,47455,caselaw_synthetic_extractive
+33,What is the name of the statute that the government suggests has virtually unbounded authority to use administrative subpoenas post-indictment?,§ 876,292836,47588,caselaw_synthetic_extractive
+34,What is the standard of review for a law that does not burden a protected class?,a lower standard of review,308692,50156,caselaw_synthetic_extractive
+35,What is the standard applied in High Tech Gays v. Def. Indus. Sec. Clearance Office?,the rational basis standard,309070,50221,caselaw_synthetic_extractive
+36,What is the amount of prejudgment interest granted to the plaintiff?,"$14,706.00",327479,53209,caselaw_synthetic_extractive
+37,"What is the name of the statute that provides: ‘Notwithstanding any other provision of law, a cause of action with respect to a fraudulent transfer or obligation is extinguished if no action is brought or levy made within seven years after the transfer was made or the obligation was incurred’?",Section 3439.09(c),328851,53437,caselaw_synthetic_extractive

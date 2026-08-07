@@ -1,0 +1,42 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the case where the crime of attempted rape does not require evidence of attempted penetration?,State v. Gonzales,194,33,caselaw_synthetic_extractive
+2,"What is the amount in controversy that Plaintiff seeks in the form of compensatory, special and general damages?","not less than $1,000,000",4509,757,caselaw_synthetic_extractive
+3,What is the date of the EAJA as originally enacted?,1981,10063,1654,caselaw_synthetic_extractive
+4,The year in which the Fair Pay Act was passed.,2009,10996,1796,caselaw_synthetic_extractive
+5,The statute that creates the employer's right to repudiate is a federal statute.,a federal statute,30877,5014,caselaw_synthetic_extractive
+6,The choice of law clause in the settlement document is governed by the laws of the United States and the substantive law of the Commonwealth of Virginia.,"the laws of the United States and, to the extent not preempted, the substantive law of the Commonwealth of Virginia",31623,5140,caselaw_synthetic_extractive
+7,What is the name of the case that criticizes Martinez for being speculative about whether the fleeing driver would have returned to normal driving practices if Deputy Johnson had discontinued pursuit?,Chambers,47870,7769,caselaw_synthetic_extractive
+8,The amount of the premium for force-placed insurance coverage.,"$8,845.20",52747,8571,caselaw_synthetic_extractive
+9,What is the name of the case cited in the passage?,Melina v. Melina,62186,10104,caselaw_synthetic_extractive
+10,What is the name of the court that ruled on the motions for litigation expenses?,probate court,63408,10290,caselaw_synthetic_extractive
+11,What is the year the Fourteenth Amendment was enacted?,1868,75651,12303,caselaw_synthetic_extractive
+12,What is the name of the case where the court found adverse inference and other penalties appropriate where plaintiff invokes privilege?,SEC v. Colello,76845,12503,caselaw_synthetic_extractive
+13,What is the name of the rule that provides: (d) Service and Filing. A proposal shall be served on the party or parties to whom it is made but shall not be filed unless necessary to enforce the provisions of this rule?,Fla. R. Civ. P. 1.442(d),79337,12893,caselaw_synthetic_extractive
+14,What is the date the BIA properly noted that it previously issued the final removal order?,February 2004,92734,15061,caselaw_synthetic_extractive
+15,What is the 90-day filing deadline?,8 C.F.R § 1003.2(c)(2),92854,15082,caselaw_synthetic_extractive
+16,What is the citation for Gabler v. Fedoruk?,756 N.W.2d 725,107721,17512,caselaw_synthetic_extractive
+17,What is the date of the order granting respondent’s petition?,"April 19, 2017",108245,17602,caselaw_synthetic_extractive
+18,What is the name of the case cited in the passage?,In re Morris,123686,20079,caselaw_synthetic_extractive
+19,What is the name of the statute cited in the passage?,13 C.F.R. § 125.1(g),126353,20515,caselaw_synthetic_extractive
+20,"See Groseclose v. State, 440 So.2d 297, 300 (Miss.1983);","Williams v. State, 512 So.2d 666, 670",138907,22582,caselaw_synthetic_extractive
+21,"See, e.g., Browder v. Director, Illinois-Dept. of Corrections, 434 U.S. 257, 269, 98 S.Ct. 556, 563, 54 L.Ed.2d 521 (1978);","Ex parte Tom Tong, 108 U.S. 556, 559-60, 2 S.Ct. 871, 872-73, 27 L.Ed. 826 (1883)",143449,23311,caselaw_synthetic_extractive
+22,What is the estimated amount of the Board as a priority creditor in the bankruptcy petition?,"$10,000",155520,25288,caselaw_synthetic_extractive
+23,What is the amount of counsel fees in pursuing its breach of contract and collection action against Dr. Rozentsvit that DLL claimed it had incurred?,"$6,898.00",156344,25426,caselaw_synthetic_extractive
+24,What is the citation for the case State v. Lumarque?,990 So.2d 1241,169267,27511,caselaw_synthetic_extractive
+25,What is the burden of proof for section 523(a)(15)?,initially with the non-debtor spouse,170721,27753,caselaw_synthetic_extractive
+26,What is the name of the case cited in the passage?,Thompson,184829,30024,caselaw_synthetic_extractive
+27,What is the name of the rule that states the record extract shall contain all parts of the record that are reasonably necessary for the determination of the questions presented by the appeal and any cross-appeal?,Maryland Rule 8-501(c),184919,30041,caselaw_synthetic_extractive
+28,What is the name of the statute that prohibits 'actions to recover damages based upon or arising out of the defective or unsafe condition of an improvement to real property' that arise more than eight years after substantial completion of the improvement?,S.C.Code Ann. § 15-3-640,211138,34275,caselaw_synthetic_extractive
+29,What is the name of the case where the court held that a defendant's right to fundamental fairness must be supplemented with ordinary contract principles?,State ex rel. Brewer v. Starcher,215689,35033,caselaw_synthetic_extractive
+30,What is the rate of interest per day?,.03288%,229999,37345,caselaw_synthetic_extractive
+31,"See State v. Campbell, 260 Neb. 1021, 620 N.W.2d 750, 757 (2001).",State v. Campbell,231549,37599,caselaw_synthetic_extractive
+32,"See, e.g., Buenaventura v. Champion Drywall, Inc., 803 F.Supp.2d 1215, 1219 (D.Nev.2011) (allowing unjust enrichment claim based on failure to provide adequate compensation);","Buenaventura v. Champion Drywall, Inc.",232068,37685,caselaw_synthetic_extractive
+33,What is the citation for the case U.S. v. Munoz-Flores?,495 U.S. 385,246277,40008,caselaw_synthetic_extractive
+34,What is the name of the statute?,28 U.S.C. § 1406(a),265386,43081,caselaw_synthetic_extractive
+35,What is the name of the case?,Zale-Las Vegas v. Bulova Watch,271203,44024,caselaw_synthetic_extractive
+36,"What is the name of the case cited in Daubert v. Merrell Dow Pharmaceuticals, Inc.?",Fed.R.Evid. 702,277886,45099,caselaw_synthetic_extractive
+37,What is the name of the case cited in the passage?,Sottile v. Gains Constr. Co.,281115,45631,caselaw_synthetic_extractive
+38,What is the name of the case where the court held that the recognition of a right to a jury trial in FAA § 4 did not preempt California’s use of a summary procedure to decide a motion to compel arbitration?,Rosenthal v. Great Western Fin. Sec. Corp.,311926,50676,caselaw_synthetic_extractive
+39,"What is the name of the regulation cited in Sutton v. United Air Lines, Inc., 130 F.3d 893, 904 (10th Cir.1997)?",29 C.F.R. § 1630.2(j)(3)(i),319765,51955,caselaw_synthetic_extractive
+40,What is the name of the case where the court held that the involvement of a state environmental agency can fulfill the NCP’s public participation requirement?,Sherwin-Williams,328862,53403,caselaw_synthetic_extractive
+41,What is the name of the statute that allows the Department to make monetary deductions from inmate personal accounts for the purpose of collecting restitution or any other court-ordered obligation?,42 Pa.C.S. § 9728(b)(5),334613,54317,caselaw_synthetic_extractive

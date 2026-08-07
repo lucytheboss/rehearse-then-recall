@@ -1,0 +1,39 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the court that decided the case Singh v. Holder?,5th,1626,243,caselaw_synthetic_extractive
+2,Court,See,2401,361,caselaw_synthetic_extractive
+3,What is the year of the decision in the case of Adams v. Union Carbide Corp.?,1984,5000,774,caselaw_synthetic_extractive
+4,What is the name of the case that held that pension payments are predominantly rewards for continuous employment with the same employer?,Alabama Power,10431,1628,caselaw_synthetic_extractive
+5,What is the name of the case that stands for the proposition that statutes governing multi-jurisdictional agreements must be strictly complied with to ensure the validity of the agreement?,Boswell,12295,1926,caselaw_synthetic_extractive
+6,What is the year in which the case Gen. Motors Corp. v. Romein was decided?,1992,14729,2319,caselaw_synthetic_extractive
+7,"See United States v. Frady, 456 U.S. 152, 170, 102 S.Ct. 1584, 71 L.Ed.2d 816 (1982) (emphasis in original).","456 U.S. 152, 170, 102 S.Ct. 1584, 71 L.Ed.2d 816 (1982) (emphasis in original)",15906,2510,caselaw_synthetic_extractive
+8,"See United States v. Burke, 633 F.3d 984, 987 (10th Cir.2011).","633 F.3d 984, 987 (10th Cir.2011)",16771,2636,caselaw_synthetic_extractive
+9,15 U.S.C. § 78u-4(b)(2) is cited for the requirement of,scienter,31403,5011,caselaw_synthetic_extractive
+10,The required state of mind is either that the defendant acted intentionally or with,deliberate recklessness,31613,5048,caselaw_synthetic_extractive
+11,"See Bradley, 65 N.C. App. at 363, 309 S.E.2d at 513.",...,34121,5458,caselaw_synthetic_extractive
+12,Fed. R.Evid. 801(d)(2)(D),...,34121,5458,caselaw_synthetic_extractive
+13,What is the citation for the case In re Parkwood Realty Corp.?,"157 B.R. 687, 689 (Bankr.W.D.Wash.1993)",47045,7543,caselaw_synthetic_extractive
+14,How much money had Charles spent on necessities to 'get back to where [he] could just exist' in the marital home?,"$3,700",47401,7599,caselaw_synthetic_extractive
+15,"What is the name of the case where the court held that ""[a]s to the proof of value, there is no better way of showing the market value of any article than the price at which it and others of its class are being offered and sold on the market.""",Robinson v. State,62606,10077,caselaw_synthetic_extractive
+16,"What is the name of the rule that states: ""Upon written demand of the attorney for the government stating the time, date, and place at which the alleged offense was committed, the defendant shall serve within ten days, or at such different time as the court may direct, upon the attorney for the government a written notice of the defendant's intention to offer a defense of alibi.""",Fed.R.Crim.P. 12.1(a),64213,10366,caselaw_synthetic_extractive
+17,City of Los Angeles v. David,"538 U.S. 715, 123 S.Ct. 1895, 155 L.Ed.2d 946 (2003)",77393,12533,caselaw_synthetic_extractive
+18,What is the name of the case cited in the passage?,Cavanaugh v. deBaudiniere,123770,20054,caselaw_synthetic_extractive
+19,What is the name of the statute cited in the passage?,42 U.S.C. § 1981,125123,20267,caselaw_synthetic_extractive
+20,Gattis v. Murrells Inlet VFW # £10420,353 S.C. 100,139383,22534,caselaw_synthetic_extractive
+21,8 U.S.C. § 1252,We have jurisdiction under,140032,22634,caselaw_synthetic_extractive
+22,"What is the amount of damages in a specific amount less than $75,000?","$75,000",169822,27481,caselaw_synthetic_extractive
+23,What is the date when Rule 11(a) of the Rules Governing Section 2254 Cases in United States District Courts requires this Court to issue or deny a CoA?,"December 1, 2009",172087,27857,caselaw_synthetic_extractive
+24,What is the name of the case cited in the passage?,Mejia Rodriguez v. U.S. DHS,185307,30011,caselaw_synthetic_extractive
+25,What is the name of the case cited in Hodges v. Rainey?,Gen. Motors Corp. v. Romein,216031,35028,caselaw_synthetic_extractive
+26,What is the name of the case cited in the passage?,Green v. Carlstrom,232492,37658,caselaw_synthetic_extractive
+27,What is the name of the case?,Rugiero v. U.S. Dep’t of Justice,247126,40015,caselaw_synthetic_extractive
+28,What is the name of the statute?,18 U.S.C. § 3583(e),251905,40805,caselaw_synthetic_extractive
+29,"See, e.g., Colo. Bldg. Constr. Trades Council v. B.B. Andersen Constr. Co., Inc.,","879 F.2d 809, 811 (10th Cir. 1989)",262824,42542,caselaw_synthetic_extractive
+30,"See State v. Anderton, 668 P.2d 1258, 1264 (Utah 1983) (Durham, J., concurring) (citation and internal quotation marks omitted);","see also Fox, 709 P.2d at 320",263666,42676,caselaw_synthetic_extractive
+31,What is the amount awarded to McCulley and TBW Development in damages along with attorneys’ fees for unsuccessful appeals and appellate motions?,"$5,153.62",279027,45166,caselaw_synthetic_extractive
+32,"What is the statute that provides that attorneys’ fees paid in a suit to quiet title to lands are not deductible; but if the suit is also to collect accrued rents thereon, that portion of such fees is deductible which is properly allocable to the services rendered in collecting such rents?",Treas. Reg. § 1.212-l(k),280218,45353,caselaw_synthetic_extractive
+33,"See Act of July 14, 1917, No. 319, P.L. 840, § 1396 (codified at 53 P.S. § 18462 (repealed 1931))","Act of July 14, 1917, No. 319, P.L. 840, § 1396 (codified at 53 P.S. § 18462 (repealed 1931))",293471,47516,caselaw_synthetic_extractive
+34,"See Borough of Wind Gap v. Teamsters Local 773 of the Int’l Bhd. of Teamsters, 759 A.2d 949, 953","Borough of Wind Gap v. Teamsters Local 773 of the Int’l Bhd. of Teamsters, 759 A.2d 949, 953",293975,47604,caselaw_synthetic_extractive
+35,"What is the name of the statute requiring, subject to specific exceptions, that an individual arrested for a misdemeanor violation of the Motor Vehicle Code be cited and released?","NMSA 1978, § 66-8-123",311105,50392,caselaw_synthetic_extractive
+36,What is the name of the case cited in support of the argument that a statute that Congress would otherwise have authority to enact may still run up against some independent restriction on its power?,Reno v. ACLU,312492,50598,caselaw_synthetic_extractive
+37,"What is the name of the regulation that provides that where a kidnapping occurs in more than one county, the jurisdiction shall be in the county in which the kidnapping, seizing, or confining was committed, or in any county in which it was continued?",Ark. Code Ann. § 16-88-110(a),326163,52834,caselaw_synthetic_extractive
+38,What is the name of the case where the Supreme Court held that 42 U.S.C. § 6010 created no substantive rights in the mentally retarded and therefore could not form the basis for a section 1983 action?,Pennhurst,329609,53402,caselaw_synthetic_extractive

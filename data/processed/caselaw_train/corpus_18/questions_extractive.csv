@@ -1,0 +1,40 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the statute that entitles her to court leave?,the statute,231,37,caselaw_synthetic_extractive
+2,What year was the case decided?,1987,790,131,caselaw_synthetic_extractive
+3,What court did Ms. Hall serve as a grand juror pursuant to a valid court summons?,a court,2947,482,caselaw_synthetic_extractive
+4,What is the name of the case?,case,5565,899,caselaw_synthetic_extractive
+5,What is the name of the case?,United States v. Scott,15591,2506,caselaw_synthetic_extractive
+6,What is the name of the statute?,20 U.S.C. § 1415(e)(2),17594,2818,caselaw_synthetic_extractive
+7,What is the year of the case?,1990,17963,2875,caselaw_synthetic_extractive
+8,What is the essence of legislative authority?,the making of law,31083,5033,caselaw_synthetic_extractive
+9,What is the statute’s ‘Omnibus Clause’?,a catchall provision,40180,6511,caselaw_synthetic_extractive
+10,What are the three components of a Brady claim?,"(1) the evidence at issue must be favorable to the accused, either because it is exculpatory or because it is impeaching; (2) the evidence must have been suppressed by the State, either willfully or inadvertently; and (3) prejudice must have ensued.",46273,7526,caselaw_synthetic_extractive
+11,What is the governing body of a type B general-law municipality?,five aldermen,58979,9597,caselaw_synthetic_extractive
+12,What is the case name?,"Drugs, Inc. v. Metropolitan Life Insurance Co.",61588,10001,caselaw_synthetic_extractive
+13,What are the Florida Statutes sections mentioned in the passage?,"sections 847.0135(2), (4), Florida Statutes (2011), or section 934.215, Florida Statutes (2011)",91894,15014,caselaw_synthetic_extractive
+14,What is the case cited in Shelley v. State?,"Shelley v. State, 134 So.3d 1138, 1140 (Fla. 2d DCA 2014)",91995,15027,caselaw_synthetic_extractive
+15,What is the name of the case where the court held that a trial court may impose consecutive sentences after vacating concurrent sentences in response to a motion to correct illegal sentence?,Kennedy v. Monroe,107593,17615,caselaw_synthetic_extractive
+16,What is the name of the case where the Court held unconstitutional a California statute that targeted anyone who 'loiters or wanders upon the streets or from place to place without apparent reason or business'?,Papachristou v. City of Jacksonville,123243,20133,caselaw_synthetic_extractive
+17,What is the name of the case where the Court invalidated a Florida vagrancy statute that criminalized the practice of 'wandering or strolling around from place to place without any lawful purpose or object'?,Papachristou v. City of Jacksonville,123243,20133,caselaw_synthetic_extractive
+18,What is the name of the court that heard the appeal in United States v. Walsh?,federal courts,131692,21532,caselaw_synthetic_extractive
+19,Section 41-4-3(F)(2) defines ‘public employee’ to include law enforcement officers.,law enforcement officers,153524,25039,caselaw_synthetic_extractive
+20,"Section 41-4-3(D) defines a ‘law enforcement officer’ as a full-time salaried public employee of a governmental entity, or a certified part-time salaried police officer employed by a governmental entity, whose principal duties under law are to hold in custody any person accused of a criminal offense, to maintain public order or to make arrests for crimes.","a full-time salaried public employee of a governmental entity, or a certified part-time salaried police officer employed by a governmental entity, whose principal duties under law are to hold in custody any person accused of a criminal offense, to maintain public order or to make arrests for crimes",153664,25059,caselaw_synthetic_extractive
+21,What is the name of the case?,Alfonso v. District of Columbia,168460,27505,caselaw_synthetic_extractive
+22,What is the date of the administrative hearing?,"August 18, 2008",169165,27609,caselaw_synthetic_extractive
+23,What is the burden of the government to prove that Mr. Mundy knowingly possessed the controlled substance with the intent to distribute?,It is the government’s burden to prove that Mr. Mundy knowingly pos- sessed the controlled substance with the intent to distribute.,184647,30131,caselaw_synthetic_extractive
+24,"What is the standard of substantial, not literal, accuracy in New York and Michigan?","a standard of substantial, not literal, accuracy",195844,31941,caselaw_synthetic_extractive
+25,See 749 S.W.2d at 188,See 749 S.W.2d at 188,199479,32528,caselaw_synthetic_extractive
+26,"See Tex. Const, art. V, § 8","See Tex. Const, art. V, § 8",203912,33284,caselaw_synthetic_extractive
+27,What is the date when Gonzalez was served with a Notice to Appear?,"December 8, 1997",214643,35020,caselaw_synthetic_extractive
+28,What is the name of the administrator who wrote a letter nine years before the version of FMVSS 208 at issue here?,NHTSA,219353,35773,caselaw_synthetic_extractive
+29,What is the statute?,Ind.Code § 31-19-9-8(a)(2)(A),231627,37768,caselaw_synthetic_extractive
+30,"What is the date of the decision in the case of Howard v. Fulton County, Ga.?","March 31, 2008",245291,40001,caselaw_synthetic_extractive
+31,What is the name of the case cited in Hernandez v. New York?,Batson v. Kentucky,245726,40071,caselaw_synthetic_extractive
+32,What is the amount of punitive damages against Defendant Fell?,"$110,393.40",287640,46973,caselaw_synthetic_extractive
+33,What does STRE stand for?,Strength,288078,47040,caselaw_synthetic_extractive
+34,What is the citation for the case that affirms a “found in” conviction where law enforcement observed the defendant cross the border but lost sight of him for two significant periods of time before his apprehension?,"United States v. Hernandez-Herrera, 273 F.3d 1213, 1219 (9th Cir.2001)",291665,47629,caselaw_synthetic_extractive
+35,What is the amount of the retroactive fine that the Court finds was a criminal contempt sanction?,"$105,000",294028,48013,caselaw_synthetic_extractive
+36,What is the name of the statute that the Seventh Circuit and the Fifth Circuit have suggested may allow a convicted felon to devise an arrangement in which he recovers the value of the seized firearms without contravening Section 922(g)(1)?,Section 922(g)(1),306754,50104,caselaw_synthetic_extractive
+37,What is the name of the case that the Seventh Circuit relied upon in suggesting that a convicted felon may devise an arrangement in which he recovers the value of the seized firearms without contravening Section 922(g)(1)?,United States v. Miller,306773,50106,caselaw_synthetic_extractive
+38,What is the name of the case in which the court found no error in admitting mtDNA evidence?,United States v. Jones,324309,52975,caselaw_synthetic_extractive
+39,"What is the name of the section that requires the County Commissioners to make findings of fact involving, inter alia, the following matters?",§ 27.3,326498,53330,caselaw_synthetic_extractive

@@ -1,0 +1,40 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the case where a trial court has jurisdiction to render an erroneous decision?,Closed Basin Landowners Ass’n v. Rio Grande Water Conservation Dist.,401,63,caselaw_synthetic_extractive
+2,What is the year of the case?,1993,3200,514,caselaw_synthetic_extractive
+3,What is the name of the statute under which an employer is prohibited from discriminating against an employee who has opposed an unlawful employment practice?,42 U.S.C. § 2000e-3(a),5231,858,caselaw_synthetic_extractive
+4,What year was the case Thing v. La Chusa decided?,1989,22833,3715,caselaw_synthetic_extractive
+5,What is the name of the case?,Greenwood Trust,32066,5250,caselaw_synthetic_extractive
+6,What is the name of the statute?,15 U.S.C. § 1635(f),38209,6218,caselaw_synthetic_extractive
+7,What is the name of the case?,State v. Hernandez,46279,7515,caselaw_synthetic_extractive
+8,What is the definition of a 'waiver'?,the intentional relinquishment or abandonment of,62190,10080,caselaw_synthetic_extractive
+9,What is the name of the case in which the United States Supreme Court distinguished between structural errors and 'trial errors'?,Arizona v. Fulminante,63283,10252,caselaw_synthetic_extractive
+10,What is the name of the case?,City of Bremerton,76946,12501,caselaw_synthetic_extractive
+11,What is the name of the statute?,8 U.S.C. § 1101(a)(42)(A),86113,13981,caselaw_synthetic_extractive
+12,What is the name of the statute mentioned in the passage?,Texas Civ. Prac. & Rem.Code § 16.002,95922,15620,caselaw_synthetic_extractive
+13,Kenneth-Smith v. State,838 S.W.2d 113,107677,17514,caselaw_synthetic_extractive
+14,United States v. Black,609 F.2d 1330,107741,17524,caselaw_synthetic_extractive
+15,"See Williams, 166 F.Supp.2d at 305","finding that where each of the claims raised in the defendant’s § 2255 motion was meritless, appellate counsel was not deficient for failing to raise them on direct appeal",123399,20047,caselaw_synthetic_extractive
+16,The lack of significant employment experiences was the basis for striking Patterson.,prospective juror’s lack of significant employment experiences,138757,22507,caselaw_synthetic_extractive
+17,The Supreme Court resulted in the exoneration of David Vasquez.,David Vasquez,139621,22643,caselaw_synthetic_extractive
+18,What is the name of the case cited in the passage?,Chesapeake & O. Ry. Co. v. Martin,154054,25024,caselaw_synthetic_extractive
+19,What is the name of the statute that defines unborn child?,N.D.C.C. § 12.1-17.1-01(3),155562,25274,caselaw_synthetic_extractive
+20,"See McKay v. Triborough Bridge and Tunnel Auth., No. 05 Civ. 8936, 2007 WL 3275918, at *2 (S.D.N.Y. Nov. 5, 2007)","McKay v. Triborough Bridge and Tunnel Auth., No. 05 Civ. 8936, 2007 WL 3275918, at *2 (S.D.N.Y. Nov. 5, 2007)",169320,27516,caselaw_synthetic_extractive
+21,"See Dodson v. CBS Broadcasting, Inc., No. 02 Civ. 9270, 2005 WL 3177723 (S.D.N.Y. Nov.29, 2005)","Dodson v. CBS Broadcasting, Inc., No. 02 Civ. 9270, 2005 WL 3177723 (S.D.N.Y. Nov.29, 2005)",169552,27556,caselaw_synthetic_extractive
+22,What is the name of the case cited in the passage?,Biscoe v. Arlington Cty.,184802,30036,caselaw_synthetic_extractive
+23,What is the name of the statute of limitations period found in section 2 of the Act?,two-year statute of limitations period,186216,30258,caselaw_synthetic_extractive
+24,"What is the name of the case that White points out as a United States citizen, he is entitled to protection of the federal bankruptcy laws?",bankruptcy case,200338,32541,caselaw_synthetic_extractive
+25,"What is the name of the statute that one court with Public Law 280 jurisdiction has suggested that it, too, must determine whether state exercise of jurisdiction infringes the Indian right to self-government?",Williams v. Lee,207546,33732,caselaw_synthetic_extractive
+26,What case was cited for the proposition that prospective jurors should be stricken for cause if their responses create a reasonable doubt as to their impartiality?,Somerville v. Ahuja,216184,35146,caselaw_synthetic_extractive
+27,What is the name of the statute that governs the appointment of guardians under the TAA?,TAA,217626,35384,caselaw_synthetic_extractive
+28,What is the case citation for the Fifth Circuit’s decision in 2012?,F.3d 262,230524,37501,caselaw_synthetic_extractive
+29,What is the Virginia statute on joining lienholders?,Va.Code § 8.01-539,231149,37602,caselaw_synthetic_extractive
+30,What is the name of the case?,"& Dev., Inc. v. Lisa Daly Lady",245881,40001,caselaw_synthetic_extractive
+31,What is the name of the circuit court case McKinnon v. Kwong Wah Restaurant?,83 F.3d 498,246376,40083,caselaw_synthetic_extractive
+32,What is the name of the case cited in the passage?,Iannelli v. United States,261719,42559,caselaw_synthetic_extractive
+33,What is the name of the statute that provides that an appeal may be taken from an order refusing a stay of any action under section 3 of the FAA?,section 16(a)(1)(A) of the FAA,262147,42633,caselaw_synthetic_extractive
+34,What is the rate of interest accruing per day?,"$283,528",278099,45283,caselaw_synthetic_extractive
+35,What is the name of the substance commonly used as a controlled substance additive?,Nicotinamide,293006,47716,caselaw_synthetic_extractive
+36,What is the name of the case where the court held that the State is no longer required to show what amount of a controlled substance and what amount of an adulterant or dilutant make up a mixture for purposes of possession of a controlled substance?,Melton v. State,293301,47767,caselaw_synthetic_extractive
+37,What is the case number of the document where Mr. Black concedes that his defamation claim fails?,Docket No. 15,311087,50657,caselaw_synthetic_extractive
+38,What is the name of the case where the court held that ballot-access restrictions are subject to a general balancing test?,Clements,320789,52257,caselaw_synthetic_extractive
+39,What is the primary purpose of the 1986 amendment?,to give guarantors and similar parties standing to seek legal remedies when a violation occurs under § 202.7(d),322461,52529,caselaw_synthetic_extractive

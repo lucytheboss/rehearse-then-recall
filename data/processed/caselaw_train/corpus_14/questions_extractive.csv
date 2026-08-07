@@ -1,0 +1,44 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the case?,Mantua Town v. Carr,191,31,caselaw_synthetic_extractive
+2,What is the year of the case Mantua Town v. Carr?,1978,236,40,caselaw_synthetic_extractive
+3,What is the year of the decision in the case cited in the passage?,2012,3843,620,caselaw_synthetic_extractive
+4,What is the name of the court that heard the case?,11th Cir.,9149,1479,caselaw_synthetic_extractive
+5,"What is the year of the PTO Office Action dated Apr. 29, 2005?",2005,9158,1480,caselaw_synthetic_extractive
+6,"In re Whatley, 16 B.R. 394, 398 (Bankr.N.D.Ohio 1982)",In re Whatley,15558,2502,caselaw_synthetic_extractive
+7,"Erie R.R. v. Tompkins, 304 U.S. 64, 58 S.Ct. 817, 82 L.Ed. 1188 (1938)",Erie R.R. v. Tompkins,15772,2537,caselaw_synthetic_extractive
+8,"What is the name of the case cited in Powell, 541 F.3d at 1302?",Turner,31653,5090,caselaw_synthetic_extractive
+9,What is the term 'exaction'?,the dedication of property to public use,31819,5122,caselaw_synthetic_extractive
+10,What is the amount that triggers the bidding requirement for a school board?,"$10,000",40161,6493,caselaw_synthetic_extractive
+11,What is the phrase 'take over control' as it pertains to the common areas and collecting assessments and expenditures?,undefined and overbroad,46279,7519,caselaw_synthetic_extractive
+12,What is the standard of review that tolerates laws that are somewhat overinclusive?,Intermediate scrutiny,49983,8123,caselaw_synthetic_extractive
+13,What is the year of the case Bank & Trust Co. v. Kunes?,1973,61205,10016,caselaw_synthetic_extractive
+14,What is the name of the statute cited in footnote 3?,W. Va.Code § 61-6-16,61855,10125,caselaw_synthetic_extractive
+15,What is the name of the statute that is a remedial statute enacted to protect consumers from unwanted telephone calls?,TCPA,75930,12429,caselaw_synthetic_extractive
+16,"What is the name of the case cited in Honeywell, Inc. v. Victor Co. of Japan?","Honeywell, Inc. v. Victor Co. of Japan",77181,12631,caselaw_synthetic_extractive
+17,What is the year of the case?,1964,80371,13149,caselaw_synthetic_extractive
+18,What is the case name?,v. Ohio,91504,15001,caselaw_synthetic_extractive
+19,What is the name of the statute that divests federal courts from jurisdiction over private suits against unconsenting states?,Eleventh Amendment,98906,16175,caselaw_synthetic_extractive
+20,What is the name of the case cited for the proposition that a claim accruing after the filing of a class action but before denial of class certification is subject to tolling?,"Crown, Cork & Seal Co. v. Parker",108804,17806,caselaw_synthetic_extractive
+21,What is the percentage of the plaintiffs’ work that was not rendered to aid the operation of the vessel as a means of transportation?,20%,136711,22354,caselaw_synthetic_extractive
+22,What is the name of the case that provides that no damage was suffered until a creditor objected to an exemption after debtor filed for bankruptcy?,In re Swift,139431,22779,caselaw_synthetic_extractive
+23,What is the case name?,"v. Smith S. Equip., Inc.",153113,25001,caselaw_synthetic_extractive
+24,"What is the name of the case that quotes Ex parte Turner, 545 S.W.2d 470 (Tex.Cr.App.1977) for the proposition that the law is well settled that if an informant is acting as a state agent, then the informant’s claim of privilege under the Fifth Amendment is spurious?",Norman,162063,26474,caselaw_synthetic_extractive
+25,What is the statute that a plaintiff must plead to state a claim under?,42 USC § 1985(3),168477,27507,caselaw_synthetic_extractive
+26,What is the name of the case that held that net worth includes capital stock and goodwill?,Wisneski v. Nationwide Collections,179534,29343,caselaw_synthetic_extractive
+27,What is the name of the statute that provides that “this act does not apply to ... a transaction or conduct specifically authorized under laws administered by a regulatory board or officer acting under statutory authority of this state or the United States.”,MCPA,190359,31093,caselaw_synthetic_extractive
+28,What is the name of the case cited in the passage?,State v. Pearce,199473,32576,caselaw_synthetic_extractive
+29,What is the name of the statute cited in the passage?,18 U.S.C. § 1001,200896,32792,caselaw_synthetic_extractive
+30,What determines our standard of review is the nature of the claims raised and,the time [the petitioner] filed his petition,215253,35092,caselaw_synthetic_extractive
+31,Courts may not permit the positing of transactions which are unlikely and plainly contrary to the economic interest of a hypothetical buyer,Courts may not permit the positing of transactions which are unlikely and plainly contrary to the economic interest of a hypothetical buyer.,215647,35156,caselaw_synthetic_extractive
+32,"What is the date when the *** found that plaintiff failed, in his request and in his letter of deficiency, to adequately explain why the requested documents, assuming they existed, were relevant?","November 24, 2015",230759,37587,caselaw_synthetic_extractive
+33,What is the citation for the case Canseco v. Construction Laborers Pension Trust for Southern California?,93 F.3d 600,246571,40098,caselaw_synthetic_extractive
+34,What is the statute that defines the scope of the agency or employment?,"N.Y.Town Law §§ 60, 63 (McKinney 1987)",248311,40376,caselaw_synthetic_extractive
+35,What is the amount allegedly paid to the director or his firm?,"$33,440",261499,42538,caselaw_synthetic_extractive
+36,What is the name of the case where the Supreme Court concluded the death penalty cannot be imposed for rape?,Kennedy v. Louisiana,262288,42665,caselaw_synthetic_extractive
+37,What is the name of the case cited in the passage?,United States v. Bistline,276765,45048,caselaw_synthetic_extractive
+38,What is the name of the case cited in the passage?,Puckett v. United States,292007,47511,caselaw_synthetic_extractive
+39,What is the name of the statute referenced in the passage?,RSMo Cum. Supp. 2013,293768,47807,caselaw_synthetic_extractive
+40,What is the name of the statute that imposes a duty on a hospital to charge patients with insurance and government benefits the same price as those without?,the PIP statute,313946,51081,caselaw_synthetic_extractive
+41,What is the name of the case that held that a defendant's firearm purchase and domestic violence conviction occurred prior to the enactment of 18 U.S.C. § 922(g)(9)?,United States v. Boyd,314349,51145,caselaw_synthetic_extractive
+42,What is the name of the statute?,ORS 161.610(2),328095,53411,caselaw_synthetic_extractive
+43,What is the name of the case?,Ex parte Bole,331007,53855,caselaw_synthetic_extractive

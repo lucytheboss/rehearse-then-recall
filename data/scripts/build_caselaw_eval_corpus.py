@@ -30,7 +30,11 @@ root = Path(__file__).resolve().parent
 while not (root / "src").exists() and root != root.parent:
     root = root.parent
 
-N_EXAMPLES = 100
+# ~135 words per excerpt, so ~400 reaches the 50,000-word ladder top that the
+# novel books support. Questions are subsampled below — one item per excerpt
+# would otherwise give 400 questions and a needlessly long run.
+N_EXAMPLES = 400
+MAX_QUESTIONS = 200
 SEPARATOR = "\n\n***\n\n"  # matches chuncking.py's structural-break detection
 
 
@@ -73,6 +77,13 @@ def main() -> None:
         assert full_text[q["evidence_char_pos"] : q["evidence_char_pos"] + 20].strip(), (
             f"empty context at question {q['question_id']}"
         )
+
+    if len(questions) > MAX_QUESTIONS:
+        # Even stride keeps the sample spread across the whole document rather
+        # than clustered at the front, so every ladder rung gets a cohort.
+        step = len(questions) / MAX_QUESTIONS
+        questions = [questions[int(i * step)] for i in range(MAX_QUESTIONS)]
+        print(f"subsampled to {len(questions)} questions (evenly spread)")
 
     print(f"\ncorpus: {len(full_text)} chars, {len(full_text.split())} words, {len(questions)} questions")
 

@@ -1,0 +1,40 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What does § 337(a) state?,"all such proceedings for the enforcement, or to restrain violations, of this Act shall be by and in the name of the United States",176,30,caselaw_synthetic_extractive
+2,"What was sued in Exhibitors Poster Exch., Inc. v. Nat’l Screen",***,839,144,caselaw_synthetic_extractive
+3,What is the year of the case?,1988,5862,964,caselaw_synthetic_extractive
+4,What is the name of the statute that the BIA's interpretation of § 1252b(e)(3)(B) is based on?,8 U.S.C.,7863,1290,caselaw_synthetic_extractive
+5,What is the year of the case Barnes v. Gorman?,2002,8053,1327,caselaw_synthetic_extractive
+6,What is the year in which Burdine’s petition was filed?,1996,8943,1481,caselaw_synthetic_extractive
+7,What is the year of the case?,1999,12792,2118,caselaw_synthetic_extractive
+8,What is the name of the Act that the Good Samaritan Act was not in force at the time of Mr. Tobin's death?,Automated External Defibrillator Act,13550,2240,caselaw_synthetic_extractive
+9,What is the name of the case that provides a narrow exception to the rule?,Stickney v. Stickney,15144,2501,caselaw_synthetic_extractive
+10,What is the name of the state where the case presents an issue of first impression?,New Mexico,21077,3479,caselaw_synthetic_extractive
+11,What is the name of the case where the court held that spendthrift provisions are limited to protection of the benefits from the annuitant’s creditors and assignees,Irving,32884,5441,caselaw_synthetic_extractive
+12,What is the appropriate standard of review in In re S. Peru Copper Corp. S’holder Litig.?,entire fairness,49125,8118,caselaw_synthetic_extractive
+13,What is the name of the case that noted that New Mexico has not dispensed with the need for individualized suspicion?,State v. Jason L.,60927,10024,caselaw_synthetic_extractive
+14,What is the name of the statute that provides a substantive right to money damages?,Tucker Act,65913,10840,caselaw_synthetic_extractive
+15,What is the name of the statute?,18 U.S.C. § 13(a),80160,13155,caselaw_synthetic_extractive
+16,What is the name of the case?,Rehberg v. Paulk,91206,14961,caselaw_synthetic_extractive
+17,What is the name of the statute that imposes absolute liability on a sea vessel for the carriage of cargo and seamen’s injuries?,the warranty of seaworthiness,93107,15267,caselaw_synthetic_extractive
+18,What is the name of the case that was cited in support of the argument that the public interest analysis does not depend on the Bayridge II discussion of ORS 308.205(2)(d)?,Willamette Factors,96672,15839,caselaw_synthetic_extractive
+19,What is the citation for the case White v. State?,"281 Ga. 276, 280 (3)",106857,17515,caselaw_synthetic_extractive
+20,What is the year of the case United States v. Corallo?,1969,114150,18693,caselaw_synthetic_extractive
+21,What is the name of the statute that does not contain any mention of a culpable state of mind or culpable degree of conduct?,Section 30-2-3(B),123337,20164,caselaw_synthetic_extractive
+22,What is the name of the case that found that a strict reading of the “any felony” language of that statute is inappropriate?,State v. Ortega,123626,20205,caselaw_synthetic_extractive
+23,What is the citation for the case Varity Corp. v. Howe?,516 U.S. 489,138013,22515,caselaw_synthetic_extractive
+24,What is the date of the Labor & Indus. Relations Comm’n decision?,"June 16, 2009",153253,25008,caselaw_synthetic_extractive
+25,"What is the name of the case in 151 Fla. 406, 10 So.2d 554?","Surf Club v. Tatem Surf Club, Inc.",153367,25029,caselaw_synthetic_extractive
+26,"Idaho Const, art. V, § 18 (1896)","Idaho Const, art. V, § 18 (1896)",169065,27570,caselaw_synthetic_extractive
+27,Tex. Fam.Code Ann. § 157.167 (West 2008),Tex. Fam.Code Ann. § 157.167 (West 2008),178726,29167,caselaw_synthetic_extractive
+28,What is the case citation?,F.3d 1448 (5th Cir.1995),214830,35001,caselaw_synthetic_extractive
+29,What is the statute of limitations set forth in Cal.Code Civ. Proc. § 335.1?,two-year,217978,35507,caselaw_synthetic_extractive
+30,What is the name of the case where the Fourth Circuit has adopted a position consistent with that reflected in the cases cited?,"Nizam’s Inst. of Med. Sciences v. Exchange Techs., Inc.",231588,37740,caselaw_synthetic_extractive
+31,What is the name of the policy of the United States that loans made by the Bank in all its programs shall bear interest?,"at rates and on terms and conditions which are fully competitive with -exports of other countries, and consistent with international agreements.",231841,37785,caselaw_synthetic_extractive
+32,What is the name of the case cited in Fidelity & Deposit Co. of Md. v. Gill?,Gill,245547,40023,caselaw_synthetic_extractive
+33,What is the name of the statute cited in § 15.2-1248?,§ 15.2-1248,245767,40062,caselaw_synthetic_extractive
+34,What is the statute that the district court did not err in dismissing Gupta’s complaint for lack of subject matter jurisdiction?,the APA or the Mandamus Act,263927,43025,caselaw_synthetic_extractive
+35,What is the name of the case that was cited in the passage?,Hadley v. Dept. of Corrections,276195,45054,caselaw_synthetic_extractive
+36,What is the name of the statute that requires an itemized statement from any attorney?,28 U.S.C. § 2412(d)(1)(B),276905,45167,caselaw_synthetic_extractive
+37,What is the name of the witness who was listed as a “may call” witness in pretrial order?,Officer Tripp,293174,47832,caselaw_synthetic_extractive
+38,What is the case name?,State Dep’t of Highways v. Denver and Rio Grande Western R.R. Co.,306449,50001,caselaw_synthetic_extractive
+39,What is the name of the statute?,Va.Code § 53.1-229,325470,53109,caselaw_synthetic_extractive

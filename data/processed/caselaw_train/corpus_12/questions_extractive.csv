@@ -1,0 +1,43 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the case cited in the passage?,"Banco Continental, S.A. v. Transcom Bank (Barbados) Ltd.",701,113,caselaw_synthetic_extractive
+2,What is the date when notice of the order denying the petition is given?,Id.,1203,198,caselaw_synthetic_extractive
+3,What is the name of the statute cited in the passage?,29 U.S.C. §185,1450,240,caselaw_synthetic_extractive
+4,"What is the date of the decision in Burlington Ins. Co. v. Tex. Krishnas, Inc.?",2004,3318,543,caselaw_synthetic_extractive
+5,What is the base offense level for quantities of at least five but less than fifteen kilograms of cocaine?,32,5752,942,caselaw_synthetic_extractive
+6,Year of In re Freeman,2001,10910,1752,caselaw_synthetic_extractive
+7,"In Fund for Animals, Inc. v. Bureau of Land Management, what was held to be moot?",the gathers had already occurred and could not be undone,15771,2552,caselaw_synthetic_extractive
+8,What is the holding of 49 U.S.C. § 11707(3)?,a statutory determination of what is a reasonable period of time for a carrier to impose for filing a claim,21689,3505,caselaw_synthetic_extractive
+9,What is the name of the case cited in the passage?,Detweiler v. J.C. Penney Cas. Ins. Co.,31021,5041,caselaw_synthetic_extractive
+10,What is the amount of money that Defendants apparently sought at trial?,$1.3 million,35346,5758,caselaw_synthetic_extractive
+11,What is the citation for the case?,949 F.2d 114,46005,7501,caselaw_synthetic_extractive
+12,What is the statute mentioned in the passage?,28 U.S.C. § 1927,46331,7554,caselaw_synthetic_extractive
+13,What is the name of the case where the court stated that an employee ***,Mercado,61322,10009,caselaw_synthetic_extractive
+14,What is the amount of money that a bank can exercise its common-law right of setoff when a customer has deposited into a general account,730,61502,10039,caselaw_synthetic_extractive
+15,What is the name of the case in which the court held that the definition of “take” in the Migratory Bird Treaty Act was restricted to the sort of conduct engaged in by hunters and poachers?,Am. Party of Tex.,76658,12527,caselaw_synthetic_extractive
+16,What is the name of the case in which the court held that a technical entitlement of zero should be counted as zero when computing family máximums?,Parisi,79341,12974,caselaw_synthetic_extractive
+17,What is the date of William Rosenburg's death?,"May 28, 1996",94588,15438,caselaw_synthetic_extractive
+18,How much gross profit did Hodges earn for Defendant in 1999?,"$600,000",98001,16015,caselaw_synthetic_extractive
+19,What is the citation for the case Fleming?,837 F.2d,107013,17508,caselaw_synthetic_extractive
+20,What is the date when the period for filing an NOA expired?,April 27,139505,22804,caselaw_synthetic_extractive
+21,What is the rule under the Guidelines and I believe that’s the rule in the Eleventh Circuit?,that’s the rule under the Guidelines and I believe that’s the rule in the Eleventh Circuit.,140756,23000,caselaw_synthetic_extractive
+22,What is the date when Steudtner had already tendered his resignation?,October 2005,153737,25119,caselaw_synthetic_extractive
+23,What is the statute cited in the passage?,28 U.S.C. § 2254(d),167694,27367,caselaw_synthetic_extractive
+24,In re Higgins citation,"201 B.R. 965, 967 (9th Cir. BAP 1996)",168678,27529,caselaw_synthetic_extractive
+25,What is the name of the case cited in the passage?,Clallam County v. Pub. Emp’t Relations Comm’n,184225,30083,caselaw_synthetic_extractive
+26,What is the amount concealed from the bankruptcy trustee by Brennan?,$22 million,192240,31376,caselaw_synthetic_extractive
+27,What is the minimum amount in controversy for district courts to have jurisdiction?,$500.00,207157,33759,caselaw_synthetic_extractive
+28,What is the date of the Act?,the effective date of the Act,215202,35064,caselaw_synthetic_extractive
+29,What is the statute of limitations for 42 U.S.C. § 1983 claims?,a two-year statute of limitations,228893,37284,caselaw_synthetic_extractive
+30,What is the name of the case that makes clear that the Bostic rule applies to post-Booker procedural reasonableness challenges?,United States v. Vonner,230456,37537,caselaw_synthetic_extractive
+31,What is the amount of money stolen from JPMorgan that Dobruna may be jointly and severally liable for?,$14 million,230739,37584,caselaw_synthetic_extractive
+32,"See Shaw v. Hunt, 517 U.S. 899, 904, 116 S.Ct. 1894, 135 L.Ed.2d 207 (1996);","See Shaw v. Hunt, 517 U.S. 899, 904, 116 S.Ct. 1894, 135 L.Ed.2d 207 (1996);",245629,40004,caselaw_synthetic_extractive
+33,"See Gonzalez v. State, 939 So.2d 224 (Fla. 2d DCA 2006).","See Gonzalez v. State, 939 So.2d 224 (Fla. 2d DCA 2006).",247343,40281,caselaw_synthetic_extractive
+34,What is the type of assistance to a gunman in a robbery that we have previously found sufficient for an aiding and abetting conviction under § 924(c)?,the type of assistance to a gunman in a robbery that we have previously found sufficient for an aiding and abetting conviction under § 924(c),261525,42584,caselaw_synthetic_extractive
+35,What is the discount at which the holder can buy an acquirer's stock under certain specified conditions?,a 50% discount,262794,42795,caselaw_synthetic_extractive
+36,What is the case cited in the passage?,Lorillard Tobacco Co. v. Reilly,277699,45220,caselaw_synthetic_extractive
+37,What is the statute that finding “there is no resource that is more vital to the continued existence and integrity of Indian tribes than their children”?,25 U.S.C. § 1901(3) (1988),292273,47582,caselaw_synthetic_extractive
+38,What is the case that upheld contempt sanctions against foreign sovereign for failing to comply with general asset discovery order?,"FG Hemisphere Assocs., LLC v. Democratic Republic of Congo, 637 F.3d 373, 380 (D.C.Cir.2011)",305327,49689,caselaw_synthetic_extractive
+39,What is the name of the case?,"See generally David H. Kaye & David A. Freedman, Reference Guide on Statistics, Reference Manual on Scientific Evidence 217-19 (3rd ed.2011); cf. Hall v. Baxter Healthcare Corp., 947 F.Supp. 1387, 1411 (D.Or.1996) (“[C]ase reports and case studies are universally regarded as an insufficient basis for a conclusion regarding causation because case reports lack controls.”).",308382,50168,caselaw_synthetic_extractive
+40,What is the name of the statute?,U.S. Const. amend. VI.,311434,50653,caselaw_synthetic_extractive
+41,What is the statute that defines the term 'disability'?,the ADA and KAAD,324483,52787,caselaw_synthetic_extractive
+42,What is the court's jurisdiction for this case?,28 U.S.C. § 1291 and 18 U.S.C. § 3731,330399,53740,caselaw_synthetic_extractive

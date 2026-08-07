@@ -1,0 +1,46 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the case cited in the passage?,Faragher,410,67,caselaw_synthetic_extractive
+2,What is the year of the decision in City of Cedar Falls v. Cedar Falls Community Sch. Dist.?,2000,2571,405,caselaw_synthetic_extractive
+3,What is the year of the case?,2004,4176,655,caselaw_synthetic_extractive
+4,What is the name of the statute cited in the passage?,18-7-406(1)(a),7314,1129,caselaw_synthetic_extractive
+5,What is the year of the Supreme Court decision in City of Rancho Palos Verdes v. Abrams?,2005,12595,1971,caselaw_synthetic_extractive
+6,What is the name of the state where the neighbors alleged standing under section 163.3215?,Florida,12629,1976,caselaw_synthetic_extractive
+7,What is the name of the case?,State ex rel Twiehaus v. Adolf,16583,2619,caselaw_synthetic_extractive
+8,What is the name of the Florida Statutes section?,Section 61.08,17999,2843,caselaw_synthetic_extractive
+9,What is the year of the case?,1996,19748,3118,caselaw_synthetic_extractive
+10,What is the name of the case that overruled on other grounds the case of Hiatt’s motions for new trial?,Davis v. State,31654,5046,caselaw_synthetic_extractive
+11,What is the name of the state where the Department of Veteran Affairs is located?,Alaska,34867,5547,caselaw_synthetic_extractive
+12,"What is the name of the statute that requires proof that Hill, a felon, possessed a gun ‘in or affecting commerce’?",18 U.S.C. § 922(g),36536,5812,caselaw_synthetic_extractive
+13,"What is the name of the state where the Gadbois' residence was identified as Tulsa, Oklahoma?",Colorado,41161,6564,caselaw_synthetic_extractive
+14,What is the name of the case?,Mustang Pipeline Co. v. Driver Pipeline Co.,47002,7513,caselaw_synthetic_extractive
+15,What is the name of the case where the court found that the granting of credit for pretrial confinement is not necessarily limited to the situations discussed in Anglin?,Anglin,63889,10221,caselaw_synthetic_extractive
+16,What is the name of the case that concerned the expansion of “the judicially created right to maintain a loss of consortium claim....”,Mueller,77283,12442,caselaw_synthetic_extractive
+17,What is the name of the statute that is not a dormant law?,"§ 211B.15, subd. 2",78322,12611,caselaw_synthetic_extractive
+18,What is the name of the case where the Court of Federal Claims placed substantive significance on the citation to I.R. 195716?,Weiner v. United States,94050,15159,caselaw_synthetic_extractive
+19,What is the case number of Cohen?,Case No. 05-38135-JAD,110614,17869,caselaw_synthetic_extractive
+20,What is the name of the statute that authorizes Customs to revisit a liquidation within 90 days of the notice?,§ 1501,127528,20580,caselaw_synthetic_extractive
+21,What is the citation for the case Ramirez?,967 S.W.2d at 922,139411,22512,caselaw_synthetic_extractive
+22,What is the statute that the plaintiffs rely on in Lopez v. First Union Nat’l Bank of Florida?,§ 3403(c),151199,24450,caselaw_synthetic_extractive
+23,What is the name of the statute?,§ 53a-46b,156276,25280,caselaw_synthetic_extractive
+24,What is the amount of the judgment awarded to the plaintiff against the defendant?,"$250,000",157141,25426,caselaw_synthetic_extractive
+25,What is the name of the statute?,42 U.S.C. § 12102(2)(a),176508,28612,caselaw_synthetic_extractive
+26,What is the name of the section of the statute?,Section 453.090,184839,29947,caselaw_synthetic_extractive
+27,What is the citation for the case?,931 S.W.2d 218,185182,30001,caselaw_synthetic_extractive
+28,I.C. § 34-4-37-8,I.C. § 34-4-37-8,200792,32516,caselaw_synthetic_extractive
+29,590 N.E.2d 154,590 N.E.2d 154,201370,32611,caselaw_synthetic_extractive
+30,"See Baca, 115 N.M. at 540, 854 P.2d at 367.",Baca,216521,35018,caselaw_synthetic_extractive
+31,O.C.G.A. § 48-2-35(a)-(d),the laws of this state,232158,37511,caselaw_synthetic_extractive
+32,42 U.S.C. § 1983,clearly incorrect,232484,37561,caselaw_synthetic_extractive
+33,What is the name of the case cited in the passage?,"Fuselier, Ott & McKee v. Moeller",247690,40099,caselaw_synthetic_extractive
+34,"See Randolph, 126 S.Ct. at 1522 (noting, for example, that, “when it comes to searching through bureau drawers, there will be instances in wMch even a person clearly belonging on the premises as an occupant may lack any perceived authority to consent”);","when it comes to searching through bureau drawers, there will be instances in wMch even a person clearly belonging on the premises as an occupant may lack any perceived authority to consent",262670,42543,caselaw_synthetic_extractive
+35,"See Reiss v. Reiss, 118 S.W.3d 439, 441-42 (Tex.2003); Gulf Ins. Co. v. Burns Motors, Inc., 22 S.W.3d 417, 422 (Tex.2000).","See Reiss v. Reiss, 118 S.W.3d 439, 441-42 (Tex.2003); Gulf Ins. Co. v. Burns Motors, Inc., 22 S.W.3d 417, 422 (Tex.2000)",263356,42662,caselaw_synthetic_extractive
+36,42 U.S.C. § 233(g) statute,42 U.S.C. § 233(g),277999,45004,caselaw_synthetic_extractive
+37,42 U.S.C. § 233(f) statute,42 U.S.C. § 233(f),278240,45047,caselaw_synthetic_extractive
+38,Allen v. Chris-tenberry case citation,"327 F.3d 1290, 1294-95 (11th Cir. 2003)",278297,45056,caselaw_synthetic_extractive
+39,Florida v. Nixon case citation,"543 U.S. 175, 190-91, 125 S.Ct. 551, 160 L.Ed.2d 565 (2004)",279059,45174,caselaw_synthetic_extractive
+40,Lingar v. Bowersox case citation,"176 F.3d 453, 458-59 (8th Cir.1999)",279140,45188,caselaw_synthetic_extractive
+41,ORS 30.260(8) statute,ORS 30.260(8),280371,45405,caselaw_synthetic_extractive
+42,Or.Rev.Stat. § position,Or.Rev.Stat. §,280899,45493,caselaw_synthetic_extractive
+43,"What is the name of the statute that provides that in any civil action, the court may award fees to the prevailing party?",Mississippi Code,296037,47959,caselaw_synthetic_extractive
+44,What is the name of the case cited in the passage?,In re H.R.,308611,50021,caselaw_synthetic_extractive
+45,What is the case name in National Railroad Passenger Corp. v. Morgan?,National Railroad Passenger Corp. v. Morgan,324098,52505,caselaw_synthetic_extractive

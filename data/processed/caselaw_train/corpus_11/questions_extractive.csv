@@ -1,0 +1,44 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the statute that defines the offenses?,the statute defining the offenses,418,69,caselaw_synthetic_extractive
+2,The date a petition for modification is filed,2005,1792,289,caselaw_synthetic_extractive
+3,What is the name of the case cited with approval in R 3 (Fla. 4th DCA 2006)?,Chastain,1899,306,caselaw_synthetic_extractive
+4,"What is the year of the case Greenberg v. BellSouth Telecomms., Inc.?",2007,6494,1074,caselaw_synthetic_extractive
+5,What year did Zevallos ask the agency to answer in?,2009,9450,1573,caselaw_synthetic_extractive
+6,What is the date when the HOPE Act ended the regulatory process that began the temporary taking?,1996,10718,1779,caselaw_synthetic_extractive
+7,What is the year of the decision in the case In re Welfare of K.M.?,1996,10718,1779,caselaw_synthetic_extractive
+8,What is the name of the Act that the remaining provisions of must be applied if necessary?,Custody and Domestic or Family Abuse Act,15268,2526,caselaw_synthetic_extractive
+9,What is the name of the Circuit that found an insufficient nexus between the defendants and the State?,Eleventh Circuit,17223,2859,caselaw_synthetic_extractive
+10,What year did Treasury make its decision?,2013,19711,3254,caselaw_synthetic_extractive
+11,What is the statute that provides the objective in the Clean Water Act?,33 U.S.C. § 1251(a),33024,5379,caselaw_synthetic_extractive
+12,The amount the husband was to pay the wife as equitable distribution,"$18,000",46446,7546,caselaw_synthetic_extractive
+13,"What is the net worth of Cheek & Zeehandelar as of August 24, 2006?","$283,900.17",63416,10282,caselaw_synthetic_extractive
+14,What is the amount of statutory damages equal to under the FDCPA?,"$500,000 or one percent of the debt collector’s net worth",63507,10294,caselaw_synthetic_extractive
+15,"What is the name of the court that decided the case of Brock v. Local 630, Int’l Brotherhood of ***?",N.D.Cal.,63881,10354,caselaw_synthetic_extractive
+16,What is the name of the case cited in the passage?,Sperle v. Mich. Dep’t of Corr.,77307,12551,caselaw_synthetic_extractive
+17,What is the name of the statute cited in the passage?,Tex.Code Crim. Proc. Ann. art. 21.09,77582,12597,caselaw_synthetic_extractive
+18,"What is the citation for the case Greenberg v. BellSouth Telecomms., Inc.?",498 F.3d 1258,92797,15030,caselaw_synthetic_extractive
+19,What is the name of the case where the court held that only an unusual prisoner could be expected to think that he was not suffering a penalty when he was denied eligibility for parole?,Warden,113119,18319,caselaw_synthetic_extractive
+20,What is the name of the case that the appellant submitted a list that was technically deficient in that it is not clear that it is “from any attorney.”,Bazalo v. West,123680,20033,caselaw_synthetic_extractive
+21,"What is the name of the case that the Supreme Court stated an ex post facto violation does not rest on an inmate’s lost opportunity to reduce prison time but, rather, only upon a finding that legislation retroactively modified the definition of or increased the penalty for an inmate’s crime:",Collins,129229,20948,caselaw_synthetic_extractive
+22,What is the name of the case cited in the passage?,In re Welfare of K.M.,138862,22503,caselaw_synthetic_extractive
+23,What is the maximum fine that can be imposed under the statute?,"$10,000",151853,24596,caselaw_synthetic_extractive
+24,What is the name of the case in Burton?,Burton,154448,25018,caselaw_synthetic_extractive
+25,What is the name of the rule that requires a party alleging fraud or mistake to state with particularity the circumstances constituting a fraud or mistake?,Rule 9(b) of the Federal Rules of Civil Procedure,156317,25324,caselaw_synthetic_extractive
+26,What is the value of the motorcycle?,"$7,999",170516,27581,caselaw_synthetic_extractive
+27,What is the date of Mr. Manning's sentence?,"March 31, 2008",171269,27697,caselaw_synthetic_extractive
+28,What is the definition of a position of trust according to Application note 1 accompanying § 3B1.3?,"professional or managerial discretion (i.e., substantial discretionary judgment that is ordinarily given considerable deference)",191674,30958,caselaw_synthetic_extractive
+29,"What is the name of the case where the court considered the reasonableness of allowing cross-claims, based on in personam jurisdiction, to be asserted along with civil forfeiture claims?","United States v. All Right, Title and Interest in the Contents of the Following Accounts at Morgan Guaranty Trust Co. of New York",201576,32560,caselaw_synthetic_extractive
+30,What is the name of the statute that prohibits spurious transactions which ultimately fail to result in reimbursement at the dealer’s retail rate?,NJFPA,212604,34336,caselaw_synthetic_extractive
+31,What is the name of the statute?,§ 3583(d),216724,35007,caselaw_synthetic_extractive
+32,What is the name of the case?,Pennsylvania v. Wheeling & Belmont Bridge Co.,230999,37308,caselaw_synthetic_extractive
+33,What is the name of the case that Worker argues is relevant to the issue of commercial off-reservation activity by a tribal entity?,Padilla v. Pueblo of Acoma,232415,37531,caselaw_synthetic_extractive
+34,What is the name of the federal statute at issue in the case?,18 U.S.C.A. § 922(g)(8),233204,37651,caselaw_synthetic_extractive
+35,What is the name of the case cited in Embry v. State?,Embry v. State,247963,40043,caselaw_synthetic_extractive
+36,What is the name of the statute cited in 28 U.S.C.?,"28 U.S.C. §§ 1331, 1441",251598,40646,caselaw_synthetic_extractive
+37,What is the amount of disgorgement damages?,"$540,000",263248,42528,caselaw_synthetic_extractive
+38,What is the amount of compensatory damages awarded by this Court to make B beneficiaries whole?,"$849,000",263276,42533,caselaw_synthetic_extractive
+39,What is the date of the Nalley decision?,"May 17, 1995",301032,48634,caselaw_synthetic_extractive
+40,What is the statute that provides that an assistant judge or a candidate for the office of assistant judge may also seek election to the office of probate judge?,4 V.S.A. § 278,305121,49298,caselaw_synthetic_extractive
+41,What is the date of the enactment of the REAL ID Act?,"May 11, 2005",309611,50054,caselaw_synthetic_extractive
+42,What is the statute of limitations for IDEA claims in Connecticut?,two years,312209,50478,caselaw_synthetic_extractive
+43,What is the name of the case where the court held that a party is precluded from raising for the first time on appeal the trial court's failure to make findings when specifically required to do so by Arizona Rule of Civil Procedure 52(a)?,Trantor,336351,54430,caselaw_synthetic_extractive

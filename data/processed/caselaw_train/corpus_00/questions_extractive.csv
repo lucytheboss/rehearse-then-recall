@@ -1,0 +1,33 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the date of the U.S. Supreme Court case?,1993,62,13,caselaw_synthetic_extractive
+2,What is the name of the statute?,N.C. Gen. Stat. § 113A-57(1),7709,1242,caselaw_synthetic_extractive
+3,What is the name of the case where the Supreme Court held that a bankruptcy court “lacked the constitutional authority to enter a final judgment on a state law counterclaim that is not resolved in the process of ruling on a creditor’s proof of claim.”,Stern,10338,1687,caselaw_synthetic_extractive
+4,See id. (punctuation omitted).,id.,12372,2018,caselaw_synthetic_extractive
+5,What is the name of the statute?,11 U.S.C. § 544(b),46586,7555,caselaw_synthetic_extractive
+6,"See Carr, 80 F.3d at 420 (reasoning that a three-month delay in filing a motion to withdraw a plea weighs against the defendant);",three-month delay,61589,10016,caselaw_synthetic_extractive
+7,What is the name of the statute under which the passage discusses a constitutional violation?,42 U.S.C. § 1983,74630,12108,caselaw_synthetic_extractive
+8,What is the name of the case that overruled the Dallas court's opinion?,Apex Towing Co.,77679,12602,caselaw_synthetic_extractive
+9,What is the name of the statute that was clarified to extend to false claims made to states and other grantees of federal funds?,S.Rep. No. 99-345,82576,13394,caselaw_synthetic_extractive
+10,Year of Kahane v. Carlson,1975,92757,15048,caselaw_synthetic_extractive
+11,What is the name of the case where the court found that Section 1325(a)(5) has no applicability to unsecured claims?,In re Frazier,93678,15195,caselaw_synthetic_extractive
+12,What is the amount of money in the Residence Trust that may be used to fund this litigation?,"$72,741",93739,15208,caselaw_synthetic_extractive
+13,"What this Court has called “strict scrutiny” — with its strong presumption against constitutionality — is normally out of place where, as here, important competing constitutional interests are implicated.",important competing constitutional interests,107940,17529,caselaw_synthetic_extractive
+14,"See Garrett v. C.A. Stratmen [Stratman], M.D., 254 F.3d at 953.",254 F.3d at 953,110515,17936,caselaw_synthetic_extractive
+15,What is the name of the case in which the Court reiterated that medical evidence of nexus to service was generally required in order to well ground a service-connection claim?,Caluza,124388,20200,caselaw_synthetic_extractive
+16,What is the name of the statute that the Court notes is not listed as an allowable expense in either the Local Rules or 28 U.S.C. § 1920?,16 U.S.C. § 1540(g)(2)(A)(i),132810,21581,caselaw_synthetic_extractive
+17,What is the name of the case that the passage quotes?,"M.S. v. Dinkytown Day Care Center, Inc.",138820,22576,caselaw_synthetic_extractive
+18,Kahane v. Carlson citation,527 F.2d 492,153868,25011,caselaw_synthetic_extractive
+19,What is the amount of the settlement proceeds that the Debtor may exempt under the homestead exemption?,"$73,000.00",197792,32144,caselaw_synthetic_extractive
+20,What is the name of the statute that defines a sex offender?,SORNA,200453,32566,caselaw_synthetic_extractive
+21,What is the name of the case that considered a challenge to the constitutionality of a Los Angeles sign ordinance?,Taxpayers for Vincent,207717,33744,caselaw_synthetic_extractive
+22,"The parties concede and the record supports a conclusion that this dispute was based on Res. Corp., No. 03-13-00533-CV, 2014 WL 4058727, at *3 (Tex. App.—Austin Aug. 14, 2014, no pet.) (mem. op.).","b Res. Corp., No. 03-13-00533-CV, 2014 WL 4058727, at *3 (Tex. App.—Austin Aug. 14, 2014, no pet.) (mem. op.).",215803,35040,caselaw_synthetic_extractive
+23,The policy’s one year limitation period ‘runs from the date of the occurrence of the destructive event or casualty insured against.’,the date of the occurrence of the destructive event or casualty insured against.,219395,35619,caselaw_synthetic_extractive
+24,What is the name of the case cited in support of the position that the denial of procedural due process is actionable for nominal damages without proof of actual injury?,Carey v. Piphus,244107,39711,caselaw_synthetic_extractive
+25,What is the name of the case in Ziegler v. Nickel?,64 Cal.App.4th 545,246220,40060,caselaw_synthetic_extractive
+26,What is the name of the case in Union Carbide Corp. v. Am. Can Co.?,724 F.2d 1567,246552,40110,caselaw_synthetic_extractive
+27,What is the amount of money Mirk misappropriated from client funds?,"$31,487.50",262634,42674,caselaw_synthetic_extractive
+28,What is the standard for determining whether an employer has honestly believed its reasons for disciplining an employee?,whether [the employer] honestly believed those reasons and acted in good faith upon those beliefs.,265476,43146,caselaw_synthetic_extractive
+29,What is the rule number mentioned in the written order excluding the victim’s statements to Marvin Bynum?,Rule 804(B)(4),277702,45131,caselaw_synthetic_extractive
+30,What is the standard of care that may be established in a medical malpractice case in Arizona?,the defendant doctor’s own testimony,281464,45764,caselaw_synthetic_extractive
+31,What federal statute establishes a 30-day time period for filing a petition for review?,8 U.S.C. § 1252(b)(1),294139,47830,caselaw_synthetic_extractive
+32,What U.S. Supreme Court case held that the Brady holding does not require police officers or prosecutors to explore multiple potential inferences to discern whether evidence that is not favorable to a defendant could become favorable?,Harris v. Kuba,297376,48361,caselaw_synthetic_extractive

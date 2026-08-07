@@ -1,0 +1,39 @@
+﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type
+1,What is the name of the case that the Ohio Supreme Court cited in a similar case?,Caruso v. Aluminum Co. of Am.,713,109,caselaw_synthetic_extractive
+2,What is the year of the stolen vehicle report?,1997,1627,241,caselaw_synthetic_extractive
+3,What is the name of the statute that governs Vermont's vanity-plate regime?,"Vt. Ann. Stat. tit. 23, § 304(d)",2872,426,caselaw_synthetic_extractive
+4,"Thomas v. State, 286 S.W.3d 109, 116 (Tex.App.-Houston [14th Dist.] 2009, pet. ref'd) (citing Stokes, 277 S.W.3d at 22, 24 and Carranza, 960 S.W.2d at 79).",However,6114,961,caselaw_synthetic_extractive
+5,What is the year of the BiOp that is arbitrary and capricious?,2003,7515,1197,caselaw_synthetic_extractive
+6,"The court in Utah v. Baker, 229 P.3d 650, 664 (Utah 2010), cautioned that if the case law had been ambiguous prior to the time the officers conducted a search later definitively declared unconstitutional, the good-faith exception would not apply and the evidence would be excluded.","If the case law had been ambiguous prior to the time the officers conducted a search later definitively declared unconstitutional, the good-faith exception would not apply and the evidence would be excluded.",16107,2583,caselaw_synthetic_extractive
+7,"The statute, however, requires an inmate to exhaust only “such administrative remedies as are available” before filing suit.",such administrative remedies as are available,18761,3016,caselaw_synthetic_extractive
+8,What is the name of the case cited in the passage?,Allen v. City of Portland,31926,5118,caselaw_synthetic_extractive
+9,What is the name of the case?,United States v. Moffett,46717,7521,caselaw_synthetic_extractive
+10,What is the name of the statute?,§ 876,46895,7551,caselaw_synthetic_extractive
+11,What is the name of the insurance company that administers an employee benefit plan governed by ERISA?,Metropolitan Life Insurance Company,62494,10036,caselaw_synthetic_extractive
+12,What is the name of the statute that includes the elements of 26 U.S.C. § 7203?,26 U.S.C. § 7203,68268,10974,caselaw_synthetic_extractive
+13,What is the statute cited in the passage?,Fla. Stat. (2011),77749,12555,caselaw_synthetic_extractive
+14,What is the name of the case cited in the passage?,United States v. Veteto,93101,15035,caselaw_synthetic_extractive
+15,What is the date when Petitioner's conviction became final?,"March 24, 2003",94338,15237,caselaw_synthetic_extractive
+16,Court of Appeals,Court of Appeals,99860,16163,caselaw_synthetic_extractive
+17,What is the name of the case cited in the passage?,"United Steel, Paper & Forestry, Rubber, Mfg. Energy, Allied Indus. & Service Workers Int’l Union, AFL-CIO v. ConocoPhillips Co.",123317,20021,caselaw_synthetic_extractive
+18,What is the name of the statute cited in the passage?,Ark.Code Ann. § 16 — 111— 104,124557,20215,caselaw_synthetic_extractive
+19,What is the name of the doctor?,Dr. Rushing,142958,23229,caselaw_synthetic_extractive
+20,What is the time period allowed by law to review an entire ERISA appeal?,much less a single seven-page SSDI document,154272,25046,caselaw_synthetic_extractive
+21,What is the standard for determining weekly gross income for child support purposes?,the Internal Revenue Code is not the standard,154661,25106,caselaw_synthetic_extractive
+22,the job duties did not facilitate or enable Al-Hellou to commit the rape,"when the victim, who did not live at the apartment building, happened to meet Al-Hellou there",169626,27579,caselaw_synthetic_extractive
+23,the statute does not make any specific reference to the possession of a firearm outside of the United States,"there is no ‘clear, affirmative indication’ that Congress intended the statute to apply extraterritorially",172512,28048,caselaw_synthetic_extractive
+24,What is the name of the statute?,Tex. Health & Safety Code Ann. § 574.106,200117,32505,caselaw_synthetic_extractive
+25,What is the name of the case?,U.S. Fid. & Guar. Co.,202555,32888,caselaw_synthetic_extractive
+26,"See Bearnth, 361 S.W.3d at 145; see also Burrus v. State, 266 S.W.3d 107, 115 (Tex.App.-Fort Worth 2008, no pet.).",Presentment,215491,34989,caselaw_synthetic_extractive
+27,What is the name of the statute?,Custody Act,231096,37560,caselaw_synthetic_extractive
+28,What is the name of the case?,M.P.,231192,37578,caselaw_synthetic_extractive
+29,"What is the test for when the period, under which an appeal must be taken or a petition for certiorari filed, begins to run anew?","whether the lower court, in its second order, has disturbed or revised legal rights and obligations which, by its prior judgment, had been plainly and properly settled with finality",246629,40103,caselaw_synthetic_extractive
+30,What is the purpose behind the Act,to provide quick and certain benefits to employees of the Commonwealth who suffer from work-related injuries,248390,40394,caselaw_synthetic_extractive
+31,Tex.Civ.PRAC. & Rem.Code Ann. § 15.063 (Vernon 1986) states:,The court ... shall transfer an action to another county of proper venue if ... the county in which the action is pending is not a proper county.,262224,42632,caselaw_synthetic_extractive
+32,10 Del. C. § 5703(b) provides:,"Subject to subsection (c) of this section, a party who has not participated in the arbitration and who has not been made or served with an application to compel arbitration may file its complaint with the Court seeking to enjoin arbitration on the ground that a valid agreement was not made or has not been complied with or that the claim sought to be arbitrated is barred by limitation of § 5702(c).",266113,43283,caselaw_synthetic_extractive
+33,What does 'substantially justified' mean under the EAJA?,justified to a degree that could satisfy a reasonable person.,292696,47519,caselaw_synthetic_extractive
+34,What is the proper measure of damages in a wrongful death action?,the deprivation of a reasonable expectation of a pecuniary advantage that would have resulted by a continuance of the life of the deceased.,295684,48019,caselaw_synthetic_extractive
+35,"What is the statute of limitations set forth in section 95.11(3)(f), Florida Statutes (1993)?",bars this action,312651,50789,caselaw_synthetic_extractive
+36,What is the name of the case that held that a constructive discharge of a public employee without procedural due process constitutes an unconstitutional deprivation of property?,Wasson,319245,51891,caselaw_synthetic_extractive
+37,What is the length of delay necessary to warrant an application of the other factors in the balancing test?,not defined by the Constitution,323147,52546,caselaw_synthetic_extractive
+38,What is the period of legally relevant delay in this case?,ninety-two days,323569,52621,caselaw_synthetic_extractive
