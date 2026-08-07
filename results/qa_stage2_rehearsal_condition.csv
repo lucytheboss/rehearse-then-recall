@@ -1,0 +1,580 @@
+genre,question_id,condition,correct,prediction,api_calls,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,3,chunked_sequential_rehearsal,True,1624,3,0.7,1106,9,1115
+wiki,7,chunked_sequential_rehearsal,True,The Dutch East India Company.,4,1.2,1779,16,1795
+wiki,8,chunked_sequential_rehearsal,False,Hans,3,1.2,1109,9,1118
+wiki,2,chunked_sequential_rehearsal,False,8.4 million,4,1.4,1807,14,1821
+wiki,1,chunked_sequential_rehearsal,True,1898,4,1.4,1803,12,1815
+wiki,6,chunked_sequential_rehearsal,True,Portuguese.,4,1.6,1799,14,1813
+wiki,4,chunked_sequential_rehearsal,False,Pleistocene,4,60.3,1851,14,1865
+wiki,5,chunked_sequential_rehearsal,True,France,4,60.4,1795,11,1806
+wiki,9,chunked_sequential_rehearsal,False,1626,3,59.7,1115,9,1124
+wiki,10,chunked_sequential_rehearsal,True,Peter Stuyvesant,3,59.6,1115,12,1127
+wiki,11,chunked_sequential_rehearsal,False,New Amsterdam,3,59.8,1121,9,1130
+wiki,15,chunked_sequential_rehearsal,False,9/11,3,0.7,1115,10,1125
+wiki,13,chunked_sequential_rehearsal,False,1712,4,60.1,1791,12,1803
+wiki,17,chunked_sequential_rehearsal,True,1827,4,59.9,1799,12,1811
+wiki,12,chunked_sequential_rehearsal,False,Anglo-Dutch War,4,119.0,1819,15,1834
+wiki,14,chunked_sequential_rehearsal,True,August 1776,4,119.0,1803,14,1817
+wiki,18,chunked_sequential_rehearsal,True,1825,4,59.9,1795,12,1807
+wiki,22,chunked_sequential_rehearsal,True,Megacity,1,0.4,257,3,260
+wiki,20,chunked_sequential_rehearsal,False,1624,3,59.9,1121,9,1130
+wiki,16,chunked_sequential_rehearsal,True,Philadelphia,4,60.5,1811,11,1822
+wiki,21,chunked_sequential_rehearsal,False,No answer found,4,59.7,1803,13,1816
+wiki,19,chunked_sequential_rehearsal,False,No information about German immigrants in 1860.,4,60.5,1819,20,1839
+wiki,23,chunked_sequential_rehearsal,True,Abstract Expressionism,4,60.3,1815,13,1828
+wiki,27,chunked_sequential_rehearsal,False,"Manhattan, Staten, Liberty",3,59.9,1124,13,1137
+wiki,25,chunked_sequential_rehearsal,False,,4,60.5,1803,12,1815
+wiki,24,chunked_sequential_rehearsal,True,American Airlines Flight 11,4,60.6,1855,15,1870
+wiki,26,chunked_sequential_rehearsal,True,Donald Trump,4,60.7,1799,12,1811
+wiki,28,chunked_sequential_rehearsal,False,Hudson River,4,60.5,1795,13,1808
+wiki,29,chunked_sequential_rehearsal,False,Approximately 14%,4,60.6,1787,15,1802
+wiki,30,chunked_sequential_rehearsal,False,1624,4,60.5,1831,12,1843
+wiki,32,chunked_sequential_rehearsal,False,Art Deco lions,4,59.8,1795,14,1809
+wiki,31,chunked_sequential_rehearsal,False,Over 300,4,59.9,1811,13,1824
+wiki,33,chunked_sequential_rehearsal,False,Water towers.,4,59.9,1831,13,1844
+wiki,34,chunked_sequential_rehearsal,False,CONTINENTAL COLONY,4,60.4,1819,16,1835
+wiki,35,chunked_sequential_rehearsal,False,July 22,4,60.2,1799,13,1812
+wiki,36,chunked_sequential_rehearsal,False,45-55,4,60.6,1799,13,1812
+wiki,37,chunked_sequential_rehearsal,True,Minneapolis,4,60.5,1839,12,1851
+wiki,38,chunked_sequential_rehearsal,False,,4,60.2,1795,12,1807
+wiki,39,chunked_sequential_rehearsal,False,Tomb of Grant,4,59.8,1803,14,1817
+wiki,40,chunked_sequential_rehearsal,False,"Pelham Bay Park is 2,764 acres.",4,60.5,1791,21,1812
+wiki,46,chunked_sequential_rehearsal,False,Unknown,4,58.8,1795,11,1806
+wiki,41,chunked_sequential_rehearsal,False,82nd Airborne,4,60.4,1783,14,1797
+wiki,42,chunked_sequential_rehearsal,False,around 13%,4,60.0,1823,14,1837
+wiki,43,chunked_sequential_rehearsal,False,Hispanic,4,60.2,1795,12,1807
+wiki,44,chunked_sequential_rehearsal,True,12 million,4,59.9,1815,12,1827
+wiki,45,chunked_sequential_rehearsal,False,No information about immigrants from Bangladesh.,4,118.2,1811,17,1828
+wiki,47,chunked_sequential_rehearsal,False,Jamaica,4,60.2,1811,13,1824
+wiki,48,chunked_sequential_rehearsal,False,No data.,4,59.7,1795,13,1808
+wiki,50,chunked_sequential_rehearsal,False,"$1,048",4,59.8,1815,14,1829
+wiki,51,chunked_sequential_rehearsal,False,There is no mention of 660 Madison Avenue or its price per square meter in the provided text.,4,60.0,1823,30,1853
+wiki,52,chunked_sequential_rehearsal,False,"300,000",4,60.0,1787,13,1800
+wiki,49,chunked_sequential_rehearsal,False,Catholicism,4,60.8,1795,13,1808
+wiki,56,chunked_sequential_rehearsal,False,Manhattan,4,1.4,1783,12,1795
+wiki,54,chunked_sequential_rehearsal,False,$25 billion,4,60.1,1819,13,1832
+wiki,57,chunked_sequential_rehearsal,False,No answer found.,4,59.5,1815,14,1829
+wiki,53,chunked_sequential_rehearsal,False,Bagels,4,119.3,1795,12,1807
+wiki,58,chunked_sequential_rehearsal,False,Yankee Doodle,4,60.0,1787,15,1802
+wiki,60,chunked_sequential_rehearsal,False,Anbang,4,60.1,1811,12,1823
+wiki,55,chunked_sequential_rehearsal,False,No answer found,4,61.5,1807,13,1820
+wiki,59,chunked_sequential_rehearsal,False,Central Park,4,60.3,1795,12,1807
+wiki,62,chunked_sequential_rehearsal,False,The New York Times and The Wall Street Journal.,4,1.9,1791,20,1811
+wiki,61,chunked_sequential_rehearsal,False,Unknown,4,118.7,1795,11,1806
+wiki,64,chunked_sequential_rehearsal,True,WNYC,4,60.2,1803,13,1816
+wiki,67,chunked_sequential_rehearsal,False,Unknown,4,59.3,1791,11,1802
+wiki,65,chunked_sequential_rehearsal,False,I couldn't find the information about the number of high schools specialized in NYC.,4,60.4,1787,26,1813
+wiki,68,chunked_sequential_rehearsal,False,None,4,59.9,1779,11,1790
+wiki,69,chunked_sequential_rehearsal,False,"20,000",4,59.7,1787,13,1800
+wiki,63,chunked_sequential_rehearsal,False,Cablevision's channel 21 was the first public-access TV channel in the country.,4,61.7,1811,28,1839
+wiki,66,chunked_sequential_rehearsal,False,Library of Congress,4,118.9,1791,13,1804
+wiki,71,chunked_sequential_rehearsal,False,FDNY,4,59.7,1799,12,1811
+wiki,70,chunked_sequential_rehearsal,False,,4,60.4,1831,12,1843
+wiki,75,chunked_sequential_rehearsal,False,"Over 1,000",4,59.7,1803,15,1818
+wiki,72,chunked_sequential_rehearsal,False,Subway system.,4,60.5,1803,14,1817
+wiki,73,chunked_sequential_rehearsal,False,,4,60.1,1815,12,1827
+wiki,74,chunked_sequential_rehearsal,False,Action Painting,4,60.1,1791,12,1803
+wiki,77,chunked_sequential_rehearsal,False,None,4,59.7,1807,11,1818
+wiki,78,chunked_sequential_rehearsal,True,MetLife Stadium,4,59.9,1815,13,1828
+wiki,79,chunked_sequential_rehearsal,True,Hockey,4,59.9,1787,12,1799
+wiki,76,chunked_sequential_rehearsal,False,,4,119.0,1819,12,1831
+wiki,83,chunked_sequential_rehearsal,False,No answer found.,4,59.9,1827,14,1841
+wiki,81,chunked_sequential_rehearsal,False,US Open,4,60.5,1803,12,1815
+wiki,84,chunked_sequential_rehearsal,True,"Over 7,000.",4,1.9,1799,16,1815
+wiki,85,chunked_sequential_rehearsal,False,,4,59.5,1819,12,1831
+wiki,82,chunked_sequential_rehearsal,False,Shanghai,4,118.6,1795,12,1807
+wiki,80,chunked_sequential_rehearsal,False,NCAA Final Four,4,119.0,1815,14,1829
+wiki,86,chunked_sequential_rehearsal,False,George Washington Bridge,4,60.1,1799,13,1812
+wiki,87,chunked_sequential_rehearsal,False,Lincoln,4,59.9,1811,12,1823
+wiki,90,chunked_sequential_rehearsal,False,13,4,59.6,1791,11,1802
+wiki,89,chunked_sequential_rehearsal,True,The Catskill Mountains,4,60.3,1803,14,1817
+wiki,88,chunked_sequential_rehearsal,False,No data.,4,118.3,1791,13,1804
+wiki,92,chunked_sequential_rehearsal,False,HHC,4,59.8,1795,12,1807
+wiki,93,chunked_sequential_rehearsal,False,Museum of Modern Art,4,60.1,1847,15,1862
+wiki,95,chunked_sequential_rehearsal,True,New York City FC,4,60.0,1795,14,1809
+wiki,91,chunked_sequential_rehearsal,False,No answer found,4,61.1,1811,13,1824
+wiki,94,chunked_sequential_rehearsal,True,Fifth Avenue,4,60.3,1795,13,1808
+wiki,97,chunked_sequential_rehearsal,False,Entertainment,4,59.3,1779,12,1791
+wiki,96,chunked_sequential_rehearsal,False,JFK,4,60.0,1791,12,1803
+wiki,98,chunked_sequential_rehearsal,False,Nassau County.,4,2.1,1791,15,1806
+wiki,100,chunked_sequential_rehearsal,False,Eastern District,4,1.6,1795,12,1807
+wiki,99,chunked_sequential_rehearsal,False,Massachusetts v. EPA,4,2.3,1811,15,1826
+news,1,chunked_sequential_rehearsal,False,Civilians.,1,0.4,249,5,254
+news,2,chunked_sequential_rehearsal,False,An Australian soldier,1,58.9,248,4,252
+news,4,chunked_sequential_rehearsal,False,No,4,60.1,2198,11,2209
+news,8,chunked_sequential_rehearsal,False,There is no mention of a Heineken sponsorship.,4,60.1,2198,21,2219
+news,11,chunked_sequential_rehearsal,False,Afghanistan,1,0.4,246,4,250
+news,9,chunked_sequential_rehearsal,False,There is no mention of the President's powers being transferred to the vice president.,4,60.2,2234,26,2260
+news,3,chunked_sequential_rehearsal,False,The Australian soldier on a flight from Japan to the U.S.,4,60.7,2218,23,2241
+news,14,chunked_sequential_rehearsal,False,Taliban,1,56.9,251,4,255
+news,5,chunked_sequential_rehearsal,False,AC Milan,4,117.8,2198,12,2210
+news,6,chunked_sequential_rehearsal,False,Lionel Messi,4,117.8,2190,14,2204
+news,13,chunked_sequential_rehearsal,False,Friday,1,57.3,249,2,251
+news,7,chunked_sequential_rehearsal,False,Guinness,4,117.9,2210,12,2222
+news,12,chunked_sequential_rehearsal,False,Taliban,4,58.5,2182,13,2195
+news,21,chunked_sequential_rehearsal,False,Tarin Kowt,1,0.5,250,6,256
+news,10,chunked_sequential_rehearsal,False,There is no information.,4,60.5,2206,15,2221
+news,16,chunked_sequential_rehearsal,False,The leaders are not specified.,4,2.6,2186,16,2202
+news,23,chunked_sequential_rehearsal,False,Tarin Kowt,1,58.2,248,6,254
+news,20,chunked_sequential_rehearsal,False,None,4,59.8,2206,11,2217
+news,15,chunked_sequential_rehearsal,False,No answer found.,4,117.1,2238,14,2252
+news,17,chunked_sequential_rehearsal,False,There is no mention of protests or the UK government in the text.,4,60.2,2206,24,2230
+news,19,chunked_sequential_rehearsal,False,No answer,4,60.2,2206,12,2218
+news,24,chunked_sequential_rehearsal,False,Bryant Purvis charges reduced to manslaughter.,4,58.5,2206,20,2226
+news,27,chunked_sequential_rehearsal,False,No answer found.,4,2.5,2210,14,2224
+news,22,chunked_sequential_rehearsal,False,No answer found.,4,61.1,2222,14,2236
+news,18,chunked_sequential_rehearsal,False,No,4,62.7,2182,11,2193
+news,29,chunked_sequential_rehearsal,False,1st Commando Regiment,4,59.8,2194,15,2209
+news,25,chunked_sequential_rehearsal,False,Tarin Kowt,4,60.2,2214,15,2229
+news,26,chunked_sequential_rehearsal,False,Uribite is not mentioned.,4,60.4,2202,17,2219
+news,28,chunked_sequential_rehearsal,False,No information about Carlos.,4,61.5,2218,15,2233
+news,30,chunked_sequential_rehearsal,False,Afghanistan,4,60.9,2198,13,2211
+news,31,chunked_sequential_rehearsal,False,Birmingham,4,60.0,2234,12,2246
+news,32,chunked_sequential_rehearsal,False,No answer found.,4,60.1,2202,14,2216
+news,33,chunked_sequential_rehearsal,False,NATO,4,59.8,2198,12,2210
+news,37,chunked_sequential_rehearsal,False,Australian,1,1.6,246,2,248
+news,38,chunked_sequential_rehearsal,False,Australian soldier,1,1.6,249,3,252
+news,42,chunked_sequential_rehearsal,False,Tarin Kowt,1,56.5,250,6,256
+news,41,chunked_sequential_rehearsal,False,Taliban,1,57.4,254,4,258
+news,36,chunked_sequential_rehearsal,False,None,4,60.2,2206,11,2217
+news,34,chunked_sequential_rehearsal,False,An Australian soldier.,4,60.7,2210,14,2224
+news,35,chunked_sequential_rehearsal,False,Ray Gravell,4,60.8,2226,14,2240
+news,40,chunked_sequential_rehearsal,False,Savers hid.,4,59.0,2190,14,2204
+news,39,chunked_sequential_rehearsal,False,No answer.,4,118.5,2190,13,2203
+news,43,chunked_sequential_rehearsal,True,Genocide,4,117.6,2210,12,2222
+news,45,chunked_sequential_rehearsal,False,No mention.,4,60.9,2194,13,2207
+news,44,chunked_sequential_rehearsal,False,Heavy fighting.,4,61.1,2202,13,2215
+news,47,chunked_sequential_rehearsal,False,No mention,4,60.5,2190,12,2202
+news,48,chunked_sequential_rehearsal,False,ml5 said nothing.,4,60.4,2186,15,2201
+news,46,chunked_sequential_rehearsal,False,NATO,4,60.8,2198,12,2210
+news,55,chunked_sequential_rehearsal,False,Taliban militants,1,1.0,253,5,258
+news,49,chunked_sequential_rehearsal,False,Additional forces for protection.,4,60.8,2194,15,2209
+news,58,chunked_sequential_rehearsal,False,The Taliban.,1,0.4,248,4,252
+news,54,chunked_sequential_rehearsal,False,Nothing is mentioned about a probation.,4,58.6,2198,17,2215
+news,50,chunked_sequential_rehearsal,False,BUPA,4,59.2,2226,13,2239
+news,52,chunked_sequential_rehearsal,False,No information about arsons in Coatseville.,4,60.0,2218,20,2238
+news,62,chunked_sequential_rehearsal,False,Tarin Kowt,1,0.2,249,6,255
+news,53,chunked_sequential_rehearsal,False,No teacher mentioned.,4,60.4,2210,14,2224
+news,57,chunked_sequential_rehearsal,False,Bush wasn't mentioned.,4,59.2,2201,20,2221
+news,56,chunked_sequential_rehearsal,False,No score given.,4,60.2,2190,14,2204
+news,51,chunked_sequential_rehearsal,False,Taliban,4,60.7,2186,13,2199
+news,66,chunked_sequential_rehearsal,False,NHC,1,1.2,248,3,251
+news,60,chunked_sequential_rehearsal,False,Las Vegas Sands,4,60.1,2194,13,2207
+news,59,chunked_sequential_rehearsal,False,There is no information about female only buses.,4,117.2,2222,19,2241
+news,63,chunked_sequential_rehearsal,False,No answer.,4,60.0,2198,13,2211
+news,61,chunked_sequential_rehearsal,False,Raising the flag on Iwo Jima was not mentioned in the text.,4,61.2,2222,26,2248
+news,64,chunked_sequential_rehearsal,False,Australian soldiers and civilians.,4,60.0,2190,15,2205
+news,65,chunked_sequential_rehearsal,False,Anne,4,60.1,2226,11,2237
+news,67,chunked_sequential_rehearsal,False,Petition for withdrawal.,4,60.0,2186,15,2201
+news,72,chunked_sequential_rehearsal,False,Australian soldier,1,0.4,251,3,254
+news,69,chunked_sequential_rehearsal,False,None,4,2.7,2194,11,2205
+news,71,chunked_sequential_rehearsal,False,,4,58.5,2214,12,2226
+news,68,chunked_sequential_rehearsal,False,None,4,117.3,2202,11,2213
+news,75,chunked_sequential_rehearsal,False,Nothing,4,58.6,2214,11,2225
+news,70,chunked_sequential_rehearsal,False,Michael Vick,4,61.5,2186,12,2198
+news,76,chunked_sequential_rehearsal,False,Boy George,4,59.8,2194,12,2206
+news,74,chunked_sequential_rehearsal,False,The Australian soldier.,4,60.9,2202,14,2216
+news,73,chunked_sequential_rehearsal,False,No mention.,4,61.2,2194,13,2207
+news,78,chunked_sequential_rehearsal,False,An Australian soldier.,4,60.5,2194,14,2208
+news,79,chunked_sequential_rehearsal,False,No answer.,4,60.4,2194,13,2207
+news,80,chunked_sequential_rehearsal,False,University of New South Wales,4,60.4,2202,15,2217
+news,87,chunked_sequential_rehearsal,False,Yes,1,0.6,247,2,249
+news,86,chunked_sequential_rehearsal,False,Australian soldier.,1,0.8,248,4,252
+news,81,chunked_sequential_rehearsal,False,No one.,4,59.8,2210,13,2223
+news,77,chunked_sequential_rehearsal,False,Causes of deaths in Afghanistan.,4,118.8,2222,17,2239
+news,83,chunked_sequential_rehearsal,False,Air combat.,4,59.2,2202,13,2215
+news,82,chunked_sequential_rehearsal,False,Black Hawk.,4,60.2,2210,13,2223
+news,91,chunked_sequential_rehearsal,False,Firefighters.,4,58.9,2202,13,2215
+news,85,chunked_sequential_rehearsal,False,Roma,4,60.9,2198,12,2210
+news,93,chunked_sequential_rehearsal,False,None,4,59.5,2194,11,2205
+news,90,chunked_sequential_rehearsal,False,Detailed,4,60.0,2210,11,2221
+news,84,chunked_sequential_rehearsal,False,Singapore is not mentioned in this text.,4,118.8,2214,18,2232
+news,88,chunked_sequential_rehearsal,False,No answer found.,4,60.3,2218,14,2232
+news,98,chunked_sequential_rehearsal,False,Tarin Kowt,1,0.2,248,6,254
+news,96,chunked_sequential_rehearsal,False,Heavy fighting,1,0.5,246,3,249
+news,94,chunked_sequential_rehearsal,False,No answer found.,4,1.5,2218,14,2232
+news,92,chunked_sequential_rehearsal,False,Pictet assets in 2007 were not mentioned.,4,61.1,2206,22,2228
+news,97,chunked_sequential_rehearsal,False,No answer,4,59.3,2210,12,2222
+news,104,chunked_sequential_rehearsal,False,Fighting,1,1.0,247,3,250
+news,95,chunked_sequential_rehearsal,False,None,4,60.5,2190,11,2201
+news,89,chunked_sequential_rehearsal,False,Heavy fighting,4,120.4,2186,12,2198
+news,99,chunked_sequential_rehearsal,False,No answer found.,4,60.1,2206,14,2220
+news,102,chunked_sequential_rehearsal,False,5,4,59.9,2186,11,2197
+news,106,chunked_sequential_rehearsal,False,Tarin Kowt,1,0.3,249,6,255
+news,107,chunked_sequential_rehearsal,False,Tarin Kowt,1,0.3,249,6,255
+news,101,chunked_sequential_rehearsal,False,A gun.,3,60.3,1284,10,1294
+news,100,chunked_sequential_rehearsal,False,No information about a pair divorcing.,4,60.7,2182,18,2200
+news,103,chunked_sequential_rehearsal,False,Roads,4,117.6,2198,12,2210
+news,111,chunked_sequential_rehearsal,False,5,4,58.5,2198,11,2209
+news,108,chunked_sequential_rehearsal,False,Heavy fighting,4,59.8,2186,12,2198
+news,105,chunked_sequential_rehearsal,False,We don't know.,4,59.9,2194,15,2209
+news,114,chunked_sequential_rehearsal,False,Afghanistan,1,1.3,249,4,253
+news,110,chunked_sequential_rehearsal,False,Paul Keating,4,59.8,2226,13,2239
+news,115,chunked_sequential_rehearsal,False,Heavy fighting,1,1.3,250,3,253
+news,112,chunked_sequential_rehearsal,False,Australian,4,60.8,2206,11,2217
+news,109,chunked_sequential_rehearsal,False,No answer given.,4,61.3,2190,14,2204
+news,113,chunked_sequential_rehearsal,False,At least 4,4,117.7,2198,14,2212
+news,117,chunked_sequential_rehearsal,True,Garbage,4,59.7,2210,12,2222
+news,116,chunked_sequential_rehearsal,False,No answer.,4,59.9,2194,13,2207
+news,118,chunked_sequential_rehearsal,False,$4,4,60.3,2206,12,2218
+news,122,chunked_sequential_rehearsal,False,State police say nothing.,4,59.1,2198,15,2213
+news,120,chunked_sequential_rehearsal,False,Barack Obama,4,61.0,2230,13,2243
+news,119,chunked_sequential_rehearsal,False,Atlanta,4,61.0,2190,11,2201
+news,126,chunked_sequential_rehearsal,False,Tarin Kowt,1,0.7,250,6,256
+news,123,chunked_sequential_rehearsal,False,There is no mention of Youssif or Lassie.,4,2.9,2206,23,2229
+news,121,chunked_sequential_rehearsal,False,Boy George,4,60.3,2190,12,2202
+news,124,chunked_sequential_rehearsal,False,There is no mention of the dad's happiest day.,4,60.9,2198,21,2219
+news,125,chunked_sequential_rehearsal,False,None,4,61.1,2198,11,2209
+news,132,chunked_sequential_rehearsal,False,No information about Tony Snow or Bush.,4,59.2,2202,18,2220
+news,128,chunked_sequential_rehearsal,False,Amy Winehouse,4,59.9,2206,13,2219
+news,130,chunked_sequential_rehearsal,False,None,4,60.0,2194,11,2205
+news,127,chunked_sequential_rehearsal,False,No one was acquitted.,4,60.7,2178,15,2193
+news,131,chunked_sequential_rehearsal,False,Snow is not mentioned.,4,60.3,2186,15,2201
+news,139,chunked_sequential_rehearsal,False,Tarin Kowt,1,57.1,247,6,253
+news,129,chunked_sequential_rehearsal,False,No one.,4,117.6,2186,13,2199
+news,134,chunked_sequential_rehearsal,False,No answer.,4,59.3,2198,13,2211
+news,137,chunked_sequential_rehearsal,False,Mail was not mentioned.,2,59.2,656,9,665
+news,135,chunked_sequential_rehearsal,False,Chavez' other plans are not mentioned.,4,59.6,2190,19,2209
+news,138,chunked_sequential_rehearsal,False,Nothing,4,59.3,2206,11,2217
+news,142,chunked_sequential_rehearsal,False,Tarin Kowt,1,0.5,248,6,254
+news,136,chunked_sequential_rehearsal,False,Bush wasn't mentioned.,4,59.9,2182,15,2197
+news,133,chunked_sequential_rehearsal,False,Hornets,4,60.8,2194,13,2207
+news,141,chunked_sequential_rehearsal,False,There is no mention of Burk's car.,4,60.7,2194,19,2213
+news,140,chunked_sequential_rehearsal,False,An Australian soldier.,4,61.2,2186,14,2200
+news,146,chunked_sequential_rehearsal,False,No answer.,4,59.6,2206,13,2219
+news,147,chunked_sequential_rehearsal,False,Heavy fighting,4,59.5,2206,12,2218
+news,144,chunked_sequential_rehearsal,False,The Australian soldier.,4,60.3,2190,14,2204
+news,143,chunked_sequential_rehearsal,False,Dubai,4,60.8,2222,12,2234
+news,148,chunked_sequential_rehearsal,False,L. Ron Hubbard had a stroke.,4,60.3,2194,18,2212
+news,149,chunked_sequential_rehearsal,False,No answer found.,4,59.3,2206,14,2220
+news,145,chunked_sequential_rehearsal,False,Kerry Thomas was charged with murder.,4,119.4,2194,18,2212
+news,150,chunked_sequential_rehearsal,False,Tarin Kowt,4,60.5,2190,15,2205
+news,156,chunked_sequential_rehearsal,False,Fighting.,1,1.6,250,4,254
+news,153,chunked_sequential_rehearsal,False,Nothing,4,59.7,2186,11,2197
+news,152,chunked_sequential_rehearsal,False,Australian Defence Force,4,60.1,2202,13,2215
+news,151,chunked_sequential_rehearsal,False,No answer is provided in the text.,4,60.6,2190,18,2208
+news,162,chunked_sequential_rehearsal,False,Heavy fighting,1,0.3,247,3,250
+news,154,chunked_sequential_rehearsal,False,No one,4,60.2,2186,12,2198
+news,158,chunked_sequential_rehearsal,False,No mention.,4,58.0,2202,13,2215
+news,155,chunked_sequential_rehearsal,False,,4,116.8,2218,12,2230
+news,166,chunked_sequential_rehearsal,False,Fighting.,1,1.5,250,4,254
+news,159,chunked_sequential_rehearsal,False,No mention.,4,59.8,2198,13,2211
+news,157,chunked_sequential_rehearsal,False,Gaining more seats in parliament.,4,60.4,2198,17,2215
+news,168,chunked_sequential_rehearsal,False,Taliban,1,0.5,249,4,253
+news,161,chunked_sequential_rehearsal,False,No answer found,4,60.4,2194,13,2207
+news,167,chunked_sequential_rehearsal,False,None mentioned,4,1.3,2190,12,2202
+news,165,chunked_sequential_rehearsal,False,Daryl Houghley,4,60.5,2194,15,2209
+news,164,chunked_sequential_rehearsal,False,Channel 9,4,117.6,2202,13,2215
+news,163,chunked_sequential_rehearsal,False,NATO,4,117.9,2190,12,2202
+news,160,chunked_sequential_rehearsal,False,Afghanistan,4,118.7,2210,13,2223
+news,169,chunked_sequential_rehearsal,False,Sevilla not mentioned.,4,59.5,2194,15,2209
+news,170,chunked_sequential_rehearsal,False,Prosecutors didn't reveal anything.,4,60.8,2194,17,2211
+news,172,chunked_sequential_rehearsal,False,Afghanistan,4,117.2,2182,13,2195
+news,171,chunked_sequential_rehearsal,False,Pakistan government not mentioned.,4,117.5,2194,15,2209
+news,176,chunked_sequential_rehearsal,False,No answer found.,4,59.5,2210,14,2224
+news,173,chunked_sequential_rehearsal,False,Heavy fighting,4,60.0,2186,12,2198
+news,175,chunked_sequential_rehearsal,False,Winkler,4,59.8,2198,13,2211
+news,174,chunked_sequential_rehearsal,False,The Governor.,4,60.2,2198,13,2211
+news,177,chunked_sequential_rehearsal,False,Hallelujah,4,60.3,2218,14,2232
+news,181,chunked_sequential_rehearsal,False,Tarin Kowt,1,1.6,248,6,254
+news,178,chunked_sequential_rehearsal,False,No one.,4,117.0,2182,13,2195
+news,184,chunked_sequential_rehearsal,False,Post-WWII,4,59.8,2190,14,2204
+news,182,chunked_sequential_rehearsal,False,Taliban,4,60.1,2210,13,2223
+news,179,chunked_sequential_rehearsal,False,Mable Randon,4,60.4,2206,14,2220
+news,180,chunked_sequential_rehearsal,False,Mable Randon,4,60.7,2202,14,2216
+news,185,chunked_sequential_rehearsal,False,Airports,4,59.5,2202,12,2214
+news,191,chunked_sequential_rehearsal,False,Heavy fighting,1,0.9,249,3,252
+news,183,chunked_sequential_rehearsal,False,No answer given.,4,61.3,2206,14,2220
+news,186,chunked_sequential_rehearsal,False,No answer,4,60.0,2206,12,2218
+news,194,chunked_sequential_rehearsal,False,Australian soldier,1,0.5,249,3,252
+news,190,chunked_sequential_rehearsal,False,Gunfight,4,59.7,2194,12,2206
+news,187,chunked_sequential_rehearsal,False,Marketplaces.,4,60.6,2190,13,2203
+news,189,chunked_sequential_rehearsal,False,,4,60.8,2238,12,2250
+news,195,chunked_sequential_rehearsal,False,None,4,59.3,2198,11,2209
+news,188,chunked_sequential_rehearsal,False,Australian troops.,4,60.9,2206,13,2219
+news,193,chunked_sequential_rehearsal,False,None,4,59.9,2206,11,2217
+news,192,chunked_sequential_rehearsal,False,Yu Sheng products are not mentioned in the text.,4,60.8,2206,21,2227
+news,196,chunked_sequential_rehearsal,False,No,4,60.0,2198,11,2209
+news,197,chunked_sequential_rehearsal,False,None,4,2.9,2194,11,2205
+news,200,chunked_sequential_rehearsal,False,No answer.,4,2.0,2202,13,2215
+news,199,chunked_sequential_rehearsal,False,Full Metal Jacket,4,2.1,2198,13,2211
+news,198,chunked_sequential_rehearsal,False,Gunfire and explosions.,4,59.4,2198,15,2213
+novel,00950a36_5,chunked_sequential_rehearsal,False,Koray,4,2.3,1845,13,1858
+novel,00950a36_0,chunked_sequential_rehearsal,False,Vandrys,4,2.3,1869,13,1882
+novel,00950a36_7,chunked_sequential_rehearsal,False,Olivia's husband,4,2.7,1873,14,1887
+novel,00950a36_1,chunked_sequential_rehearsal,True,Olivia,4,2.8,1853,12,1865
+novel,00950a36_2,chunked_sequential_rehearsal,False,New York,4,3.1,1857,12,1869
+novel,00950a36_9,chunked_sequential_rehearsal,False,Egypt,4,60.0,1837,11,1848
+novel,00950a36_6,chunked_sequential_rehearsal,True,Olivia Marne,4,61.4,1849,14,1863
+novel,00950a36_8,chunked_sequential_rehearsal,True,Olivia,4,61.6,1837,12,1849
+novel,00950a36_13,chunked_sequential_rehearsal,False,The Shadow,3,59.2,1093,9,1102
+novel,00950a36_11,chunked_sequential_rehearsal,False,Robert E. Howard,4,60.0,1833,14,1847
+novel,00950a36_12,chunked_sequential_rehearsal,False,New York,4,59.6,1837,12,1849
+novel,00950a36_10,chunked_sequential_rehearsal,False,Korak,4,60.1,1849,13,1862
+novel,00950a36_14,chunked_sequential_rehearsal,False,A body,2,60.0,575,6,581
+novel,3e966645_2,chunked_sequential_rehearsal,False,The monk.,4,58.8,1837,13,1850
+novel,00950a36_15,chunked_sequential_rehearsal,False,Olivia,4,60.6,1845,12,1857
+novel,3e966645_7,chunked_sequential_rehearsal,False,Captain Hastings.,4,59.5,1869,13,1882
+novel,3e966645_4,chunked_sequential_rehearsal,False,Rum,4,59.8,1849,12,1861
+novel,3e966645_5,chunked_sequential_rehearsal,False,Plague,4,59.6,1845,12,1857
+novel,3e966645_6,chunked_sequential_rehearsal,False,Ramsay,4,59.7,1837,13,1850
+novel,3e966645_10,chunked_sequential_rehearsal,False,Horses,3,2.8,1105,9,1114
+novel,3e966645_8,chunked_sequential_rehearsal,False,New York,4,117.4,1853,12,1865
+novel,3e966645_1,chunked_sequential_rehearsal,False,England,4,119.1,1857,11,1868
+novel,3e966645_9,chunked_sequential_rehearsal,True,Tahiti,4,60.8,1841,13,1854
+novel,3e966645_16,chunked_sequential_rehearsal,False,Gold.,4,59.6,1845,12,1857
+novel,3e966645_19,chunked_sequential_rehearsal,False,The beggar,4,59.0,1913,13,1926
+novel,3e966645_11,chunked_sequential_rehearsal,False,The Caribbean.,4,60.5,1837,13,1850
+novel,3e966645_17,chunked_sequential_rehearsal,False,The Mediterranean.,4,61.4,1853,13,1866
+novel,3e966645_21,chunked_sequential_rehearsal,False,A sailor.,4,2.9,1893,13,1906
+novel,3e966645_20,chunked_sequential_rehearsal,False,The Flying Dutchman,4,59.3,1889,14,1903
+novel,3e966645_12,chunked_sequential_rehearsal,False,Snakes,4,118.4,1853,12,1865
+novel,3e966645_23,chunked_sequential_rehearsal,False,The Englishman.,4,59.1,1909,14,1923
+novel,6a659de3_3,chunked_sequential_rehearsal,False,Olivia,4,59.1,1829,12,1841
+novel,6a659de3_7,chunked_sequential_rehearsal,False,Ancient Egypt,2,2.2,577,7,584
+novel,3e966645_22,chunked_sequential_rehearsal,False,Hong Kong,4,61.5,1873,12,1885
+novel,6a659de3_2,chunked_sequential_rehearsal,False,Wizards,4,60.5,1861,12,1873
+novel,6a659de3_8,chunked_sequential_rehearsal,False,A stranger,4,2.5,1841,12,1853
+novel,6a659de3_4,chunked_sequential_rehearsal,False,Ayesha,4,117.1,1881,13,1894
+novel,6a659de3_5,chunked_sequential_rehearsal,False,Olivia,4,117.1,1861,12,1873
+novel,6a659de3_6,chunked_sequential_rehearsal,False,Olivia,4,60.7,1829,12,1841
+novel,6a659de3_11,chunked_sequential_rehearsal,False,Leo's father is not specified.,4,60.0,1837,17,1854
+novel,6a659de3_12,chunked_sequential_rehearsal,False,Von Horn,4,60.6,1861,13,1874
+novel,9561a72a_1,chunked_sequential_rehearsal,False,The Scarecrow,4,2.6,1861,14,1875
+novel,9561a72a_5,chunked_sequential_rehearsal,False,Aunt Olivia,4,60.1,1841,13,1854
+novel,9561a72a_0,chunked_sequential_rehearsal,False,Uncle Henry,4,117.5,1845,13,1858
+novel,6a659de3_17,chunked_sequential_rehearsal,False,Olivia,4,117.7,1845,12,1857
+novel,9561a72a_7,chunked_sequential_rehearsal,False,Scandinavia,4,59.4,1837,13,1850
+novel,bf55d1c1_0,chunked_sequential_rehearsal,False,Snake oil,3,1.7,1102,9,1111
+novel,6a659de3_14,chunked_sequential_rehearsal,False,No answer found.,4,119.6,1833,14,1847
+novel,9561a72a_11,chunked_sequential_rehearsal,False,King Kala,4,2.2,1865,13,1878
+novel,9561a72a_3,chunked_sequential_rehearsal,False,Near water.,4,62.3,1849,13,1862
+novel,bf55d1c1_1,chunked_sequential_rehearsal,False,Olivia,4,2.2,1833,12,1845
+novel,9561a72a_12,chunked_sequential_rehearsal,False,Korak,4,2.6,1861,13,1874
+novel,bf55d1c1_3,chunked_sequential_rehearsal,False,Arabella's father.,4,58.8,1873,15,1888
+novel,bf55d1c1_9,chunked_sequential_rehearsal,False,1934,2,58.3,567,6,573
+novel,bf55d1c1_2,chunked_sequential_rehearsal,False,Olivia,4,59.3,1845,12,1857
+novel,bf55d1c1_4,chunked_sequential_rehearsal,False,Evelyn,4,59.3,1829,13,1842
+novel,9561a72a_9,chunked_sequential_rehearsal,False,Dorothy,4,119.4,1865,13,1878
+novel,ca4b98f5_0,chunked_sequential_rehearsal,False,Shadows in the Moonlight.,1,0.6,222,8,230
+novel,bf55d1c1_5,chunked_sequential_rehearsal,False,The villain.,4,60.0,1841,13,1854
+novel,9561a72a_10,chunked_sequential_rehearsal,False,Magic carpet,4,120.0,1857,12,1869
+novel,bf55d1c1_10,chunked_sequential_rehearsal,False,Harrison,4,1.9,1877,12,1889
+novel,bf55d1c1_6,chunked_sequential_rehearsal,False,A mole.,4,117.6,1853,13,1866
+novel,bf55d1c1_11,chunked_sequential_rehearsal,False,Olivia's brother,4,60.5,1865,14,1879
+novel,bf55d1c1_12,chunked_sequential_rehearsal,False,India,4,60.6,1861,11,1872
+novel,ca4b98f5_2,chunked_sequential_rehearsal,False,Hogwarts,4,59.8,1869,13,1882
+novel,ca4b98f5_1,chunked_sequential_rehearsal,False,Godfrey,4,60.4,1869,12,1881
+novel,ca4b98f5_4,chunked_sequential_rehearsal,False,No answer found.,4,60.0,1837,14,1851
+novel,ca4b98f5_3,chunked_sequential_rehearsal,False,India,4,117.7,1865,11,1876
+novel,ca4b98f5_6,chunked_sequential_rehearsal,False,Romilly,4,118.1,1873,12,1885
+novel,ca4b98f5_8,chunked_sequential_rehearsal,False,Olivia,4,60.6,1861,12,1873
+novel,ca4b98f5_10,chunked_sequential_rehearsal,False,Narcisse,4,59.3,1845,13,1858
+novel,ca4b98f5_12,chunked_sequential_rehearsal,False,Olivia's brother,4,59.6,1841,14,1855
+novel,ca4b98f5_13,chunked_sequential_rehearsal,False,Olivia,4,59.7,1849,12,1861
+novel,ca4b98f5_11,chunked_sequential_rehearsal,False,Lord Dunsany,4,60.4,1869,14,1883
+novel,ca4b98f5_14,chunked_sequential_rehearsal,False,Law,4,60.4,1865,11,1876
+novel,ca4b98f5_16,chunked_sequential_rehearsal,False,Olivia's brother,4,59.2,1849,14,1863
+novel,ca4b98f5_17,chunked_sequential_rehearsal,False,Olivia,4,59.1,1845,12,1857
+novel,ca4b98f5_18,chunked_sequential_rehearsal,False,Olivia,4,59.1,1849,12,1861
+novel,ca4b98f5_15,chunked_sequential_rehearsal,False,Harry's second fiancee is Olivia.,4,60.2,1853,18,1871
+caselaw,1,chunked_sequential_rehearsal,False,4,1,0.2,415,2,417
+caselaw,7,chunked_sequential_rehearsal,False,1,1,0.4,353,2,355
+caselaw,13,chunked_sequential_rehearsal,False,5,4,2.2,2768,11,2779
+caselaw,9,chunked_sequential_rehearsal,True,5,4,2.6,2664,11,2675
+caselaw,19,chunked_sequential_rehearsal,False,5,4,2.4,2648,11,2659
+caselaw,15,chunked_sequential_rehearsal,False,2,4,60.0,2392,11,2403
+caselaw,3,chunked_sequential_rehearsal,True,5,4,60.3,2444,11,2455
+caselaw,11,chunked_sequential_rehearsal,False,4,4,60.3,2628,11,2639
+caselaw,21,chunked_sequential_rehearsal,False,3,4,59.1,2500,11,2511
+caselaw,5,chunked_sequential_rehearsal,False,3,4,61.4,3100,11,3111
+caselaw,25,chunked_sequential_rehearsal,False,3,4,59.3,2436,11,2447
+caselaw,17,chunked_sequential_rehearsal,False,4,4,61.9,2852,11,2863
+caselaw,33,chunked_sequential_rehearsal,False,4,4,59.2,2640,11,2651
+caselaw,23,chunked_sequential_rehearsal,False,4,4,121.4,2920,11,2931
+caselaw,29,chunked_sequential_rehearsal,False,4,4,63.7,2860,11,2871
+caselaw,37,chunked_sequential_rehearsal,True,5,1,62.0,352,2,354
+caselaw,31,chunked_sequential_rehearsal,True,5,4,64.2,2680,11,2691
+caselaw,27,chunked_sequential_rehearsal,True,2,4,64.5,2572,11,2583
+caselaw,35,chunked_sequential_rehearsal,False,4,4,63.6,2904,11,2915
+caselaw,39,chunked_sequential_rehearsal,False,5,4,62.9,2508,11,2519
+caselaw,43,chunked_sequential_rehearsal,True,4,4,55.3,2728,11,2739
+caselaw,45,chunked_sequential_rehearsal,False,5,4,55.7,2672,11,2683
+caselaw,41,chunked_sequential_rehearsal,False,3,4,59.3,2524,11,2535
+caselaw,61,chunked_sequential_rehearsal,False,4,1,1.1,341,2,343
+caselaw,47,chunked_sequential_rehearsal,False,5,4,60.2,2636,11,2647
+caselaw,51,chunked_sequential_rehearsal,False,1,4,60.0,2600,11,2611
+caselaw,55,chunked_sequential_rehearsal,True,2,4,59.7,2880,11,2891
+caselaw,59,chunked_sequential_rehearsal,False,4,4,5.3,2928,11,2939
+caselaw,49,chunked_sequential_rehearsal,False,3,4,60.5,2616,11,2627
+caselaw,65,chunked_sequential_rehearsal,False,1,4,55.4,2688,11,2699
+caselaw,57,chunked_sequential_rehearsal,False,4,4,61.4,2804,11,2815
+caselaw,77,chunked_sequential_rehearsal,False,1,1,3.6,375,2,377
+caselaw,71,chunked_sequential_rehearsal,False,4,4,59.6,2696,11,2707
+caselaw,53,chunked_sequential_rehearsal,False,5,4,119.7,2592,11,2603
+caselaw,67,chunked_sequential_rehearsal,False,3,4,60.0,2552,11,2563
+caselaw,63,chunked_sequential_rehearsal,False,4,3,63.9,1777,8,1785
+caselaw,73,chunked_sequential_rehearsal,False,3,4,59.9,2532,11,2543
+caselaw,69,chunked_sequential_rehearsal,False,3,4,60.2,2448,11,2459
+caselaw,89,chunked_sequential_rehearsal,False,1,1,54.9,365,2,367
+caselaw,79,chunked_sequential_rehearsal,False,4,4,56.0,2780,11,2791
+caselaw,75,chunked_sequential_rehearsal,False,5,4,64.8,2520,11,2531
+caselaw,87,chunked_sequential_rehearsal,True,4,4,59.7,2636,11,2647
+caselaw,91,chunked_sequential_rehearsal,False,4,4,59.6,2644,11,2655
+caselaw,97,chunked_sequential_rehearsal,False,1,1,0.3,370,2,372
+caselaw,95,chunked_sequential_rehearsal,False,5,4,4.6,2604,11,2615
+caselaw,99,chunked_sequential_rehearsal,False,1,1,0.5,408,2,410
+caselaw,103,chunked_sequential_rehearsal,False,1,1,0.3,380,2,382
+caselaw,81,chunked_sequential_rehearsal,False,4,4,60.5,2768,11,2779
+caselaw,85,chunked_sequential_rehearsal,False,4,4,60.5,2584,11,2595
+caselaw,105,chunked_sequential_rehearsal,False,1,1,54.4,453,2,455
+caselaw,93,chunked_sequential_rehearsal,False,3,4,59.8,2784,11,2795
+caselaw,101,chunked_sequential_rehearsal,False,5,4,55.8,2512,11,2523
+caselaw,111,chunked_sequential_rehearsal,False,3,1,55.3,395,2,397
+caselaw,83,chunked_sequential_rehearsal,False,5,4,119.8,2432,11,2443
+caselaw,109,chunked_sequential_rehearsal,False,1,3,59.7,1750,8,1758
+caselaw,123,chunked_sequential_rehearsal,False,1,1,0.5,377,2,379
+caselaw,115,chunked_sequential_rehearsal,False,3,4,5.7,2972,11,2983
+caselaw,113,chunked_sequential_rehearsal,False,4,4,60.0,2596,11,2607
+caselaw,117,chunked_sequential_rehearsal,False,4,4,59.8,3088,11,3099
+caselaw,131,chunked_sequential_rehearsal,False,1,1,55.2,401,2,403
+caselaw,119,chunked_sequential_rehearsal,True,3,4,64.0,2664,11,2675
+caselaw,125,chunked_sequential_rehearsal,False,1,4,59.9,2600,11,2611
+caselaw,107,chunked_sequential_rehearsal,True,5,4,119.6,2548,11,2559
+caselaw,137,chunked_sequential_rehearsal,False,1,1,0.3,549,2,551
+caselaw,129,chunked_sequential_rehearsal,False,1,4,59.7,3076,11,3087
+caselaw,121,chunked_sequential_rehearsal,False,3,4,64.4,2636,11,2647
+caselaw,135,chunked_sequential_rehearsal,False,3,4,4.7,3812,11,3823
+caselaw,133,chunked_sequential_rehearsal,False,4,4,5.8,2560,11,2571
+caselaw,127,chunked_sequential_rehearsal,False,3,4,114.3,2540,11,2551
+caselaw,139,chunked_sequential_rehearsal,False,1,1,56.0,396,2,398
+caselaw,151,chunked_sequential_rehearsal,False,1,1,57.2,380,2,382
+caselaw,141,chunked_sequential_rehearsal,True,5,4,59.6,2660,11,2671
+caselaw,145,chunked_sequential_rehearsal,False,5,4,59.8,2720,11,2731
+caselaw,143,chunked_sequential_rehearsal,False,4,4,60.1,3112,11,3123
+caselaw,147,chunked_sequential_rehearsal,True,2,4,60.3,3000,11,3011
+caselaw,165,chunked_sequential_rehearsal,True,1,1,0.4,468,2,470
+caselaw,153,chunked_sequential_rehearsal,False,3,4,60.4,2920,11,2931
+caselaw,149,chunked_sequential_rehearsal,False,5,4,115.3,2792,11,2803
+caselaw,157,chunked_sequential_rehearsal,False,5,4,58.4,2704,11,2715
+caselaw,159,chunked_sequential_rehearsal,True,5,4,60.2,2728,11,2739
+caselaw,161,chunked_sequential_rehearsal,False,2,4,60.0,2732,11,2743
+caselaw,167,chunked_sequential_rehearsal,False,4,4,59.5,2688,11,2699
+caselaw,171,chunked_sequential_rehearsal,False,1,4,4.9,2728,11,2739
+caselaw,163,chunked_sequential_rehearsal,False,3,4,60.6,2460,11,2471
+caselaw,169,chunked_sequential_rehearsal,False,4,4,60.0,2620,11,2631
+caselaw,155,chunked_sequential_rehearsal,True,3,4,119.2,2828,11,2839
+caselaw,173,chunked_sequential_rehearsal,False,3,4,60.1,2764,11,2775
+caselaw,177,chunked_sequential_rehearsal,False,5,4,60.2,2508,11,2519
+caselaw,185,chunked_sequential_rehearsal,False,1,4,5.4,2620,11,2631
+caselaw,179,chunked_sequential_rehearsal,True,3,4,60.3,2660,11,2671
+caselaw,181,chunked_sequential_rehearsal,False,3,4,60.2,2580,11,2591
+caselaw,187,chunked_sequential_rehearsal,False,3,4,6.0,2592,11,2603
+caselaw,183,chunked_sequential_rehearsal,False,5,4,113.7,2812,11,2823
+caselaw,195,chunked_sequential_rehearsal,False,1,1,54.6,385,2,387
+caselaw,189,chunked_sequential_rehearsal,True,5,4,59.6,2568,11,2579
+caselaw,175,chunked_sequential_rehearsal,False,5,4,116.5,2520,11,2531
+caselaw,207,chunked_sequential_rehearsal,False,1,1,1.3,374,2,376
+caselaw,209,chunked_sequential_rehearsal,False,4,1,2.2,383,2,385
+caselaw,191,chunked_sequential_rehearsal,False,5,4,59.8,2800,11,2811
+caselaw,205,chunked_sequential_rehearsal,False,1,1,4.5,384,2,386
+caselaw,203,chunked_sequential_rehearsal,False,4,4,5.8,2560,11,2571
+caselaw,193,chunked_sequential_rehearsal,False,4,4,60.6,2972,11,2983
+caselaw,199,chunked_sequential_rehearsal,False,4,4,114.1,3256,11,3267
+caselaw,197,chunked_sequential_rehearsal,False,4,4,115.4,2720,11,2731
+caselaw,213,chunked_sequential_rehearsal,False,4,4,57.9,2756,11,2767
+caselaw,211,chunked_sequential_rehearsal,True,4,4,60.2,3016,11,3027
+caselaw,201,chunked_sequential_rehearsal,False,5,4,65.6,2736,11,2747
+caselaw,219,chunked_sequential_rehearsal,False,4,3,59.7,1618,8,1626
+caselaw,215,chunked_sequential_rehearsal,False,4,4,60.6,2836,11,2847
+caselaw,221,chunked_sequential_rehearsal,False,5,4,5.9,2748,11,2759
+caselaw,217,chunked_sequential_rehearsal,False,5,4,114.7,2612,11,2623
+caselaw,225,chunked_sequential_rehearsal,False,3,4,62.0,2872,11,2883
+caselaw,223,chunked_sequential_rehearsal,True,4,4,63.7,2828,11,2839
+caselaw,229,chunked_sequential_rehearsal,False,5,4,60.0,2420,11,2431
+caselaw,231,chunked_sequential_rehearsal,False,1,4,59.7,3156,11,3167
+caselaw,235,chunked_sequential_rehearsal,True,5,4,59.8,2780,11,2791
+caselaw,237,chunked_sequential_rehearsal,False,5,4,59.5,2776,11,2787
+caselaw,227,chunked_sequential_rehearsal,False,4,4,115.2,2908,11,2919
+caselaw,241,chunked_sequential_rehearsal,False,5,4,55.5,2736,11,2747
+caselaw,253,chunked_sequential_rehearsal,False,3,1,0.7,328,2,330
+caselaw,239,chunked_sequential_rehearsal,False,3,4,56.5,2672,11,2683
+caselaw,245,chunked_sequential_rehearsal,False,4,4,59.6,2684,11,2695
+caselaw,233,chunked_sequential_rehearsal,True,3,4,119.1,2456,11,2467
+caselaw,251,chunked_sequential_rehearsal,False,2,4,5.1,2380,11,2391
+caselaw,243,chunked_sequential_rehearsal,False,5,4,60.5,2692,11,2703
+caselaw,249,chunked_sequential_rehearsal,False,3,4,5.9,2592,11,2603
+caselaw,247,chunked_sequential_rehearsal,False,5,4,115.5,2792,11,2803
+caselaw,263,chunked_sequential_rehearsal,False,3,4,59.7,2540,11,2551
+caselaw,257,chunked_sequential_rehearsal,False,5,4,63.7,2636,11,2647
+caselaw,255,chunked_sequential_rehearsal,False,1,4,64.1,2664,11,2675
+caselaw,265,chunked_sequential_rehearsal,False,3,4,60.2,2684,11,2695
+caselaw,261,chunked_sequential_rehearsal,True,5,4,60.7,3220,11,3231
+caselaw,267,chunked_sequential_rehearsal,False,4,4,60.0,3044,11,3055
+caselaw,259,chunked_sequential_rehearsal,True,3,4,60.9,2816,11,2827
+caselaw,271,chunked_sequential_rehearsal,False,2,4,55.2,2748,11,2759
+caselaw,269,chunked_sequential_rehearsal,False,3,4,59.5,2452,11,2463
+caselaw,275,chunked_sequential_rehearsal,False,4,4,55.9,2588,11,2599
+caselaw,277,chunked_sequential_rehearsal,False,1,4,59.9,2608,11,2619
+caselaw,273,chunked_sequential_rehearsal,False,4,4,60.9,2664,11,2675
+caselaw,281,chunked_sequential_rehearsal,False,1,4,59.9,2836,11,2847
+caselaw,279,chunked_sequential_rehearsal,False,5,4,60.3,2880,11,2891
+caselaw,287,chunked_sequential_rehearsal,True,5,4,59.0,2696,11,2707
+caselaw,283,chunked_sequential_rehearsal,False,4,4,115.0,2864,11,2875
+caselaw,291,chunked_sequential_rehearsal,False,5,4,59.3,2472,11,2483
+caselaw,289,chunked_sequential_rehearsal,False,3,4,64.1,2984,11,2995
+caselaw,285,chunked_sequential_rehearsal,False,1,4,65.6,2656,11,2667
+caselaw,295,chunked_sequential_rehearsal,True,3,4,60.1,2596,11,2607
+caselaw,293,chunked_sequential_rehearsal,True,5,4,60.3,2692,11,2703
+caselaw,299,chunked_sequential_rehearsal,False,3,4,60.4,2952,11,2963
+caselaw,297,chunked_sequential_rehearsal,False,5,4,114.5,2772,11,2783
+caselaw,301,chunked_sequential_rehearsal,False,3,4,59.9,2808,11,2819
+caselaw,307,chunked_sequential_rehearsal,False,4,4,59.2,2844,11,2855
+caselaw,303,chunked_sequential_rehearsal,False,4,3,60.1,1735,8,1743
+caselaw,309,chunked_sequential_rehearsal,False,3,4,59.4,2708,11,2719
+caselaw,311,chunked_sequential_rehearsal,False,4,4,59.4,2556,11,2567
+caselaw,319,chunked_sequential_rehearsal,False,1,1,0.9,424,2,426
+caselaw,305,chunked_sequential_rehearsal,True,4,4,114.9,2700,11,2711
+caselaw,317,chunked_sequential_rehearsal,False,5,4,59.4,2492,11,2503
+caselaw,315,chunked_sequential_rehearsal,False,1,4,60.4,2612,11,2623
+caselaw,313,chunked_sequential_rehearsal,False,5,4,61.0,2688,11,2699
+caselaw,325,chunked_sequential_rehearsal,True,5,4,59.2,2784,11,2795
+caselaw,321,chunked_sequential_rehearsal,False,5,4,60.0,2864,11,2875
+caselaw,327,chunked_sequential_rehearsal,False,5,4,60.0,2464,11,2475
+caselaw,329,chunked_sequential_rehearsal,False,5,4,6.0,3028,11,3039
+caselaw,335,chunked_sequential_rehearsal,False,5,4,59.0,2512,11,2523
+caselaw,331,chunked_sequential_rehearsal,False,3,4,60.3,2740,11,2751
+caselaw,339,chunked_sequential_rehearsal,False,1,4,59.5,2772,11,2783
+caselaw,323,chunked_sequential_rehearsal,True,5,4,119.4,2916,11,2927
+caselaw,337,chunked_sequential_rehearsal,False,4,4,60.3,2764,11,2775
+caselaw,343,chunked_sequential_rehearsal,False,5,4,59.0,2524,11,2535
+caselaw,333,chunked_sequential_rehearsal,False,4,4,64.2,2980,11,2991
+caselaw,349,chunked_sequential_rehearsal,True,1,1,1.6,403,2,405
+caselaw,341,chunked_sequential_rehearsal,True,2,4,61.5,2548,11,2559
+caselaw,351,chunked_sequential_rehearsal,False,5,4,56.1,2576,11,2587
+caselaw,347,chunked_sequential_rehearsal,False,4,4,62.1,2424,11,2435
+caselaw,345,chunked_sequential_rehearsal,False,2,4,64.6,2564,11,2575
+caselaw,353,chunked_sequential_rehearsal,False,1,4,59.8,2948,11,2959
+caselaw,355,chunked_sequential_rehearsal,False,4,4,60.4,2600,11,2611
+caselaw,359,chunked_sequential_rehearsal,False,3,2,59.2,779,5,784
+caselaw,357,chunked_sequential_rehearsal,False,3,4,60.7,2780,11,2791
+caselaw,365,chunked_sequential_rehearsal,False,3,4,57.5,2544,11,2555
+caselaw,361,chunked_sequential_rehearsal,False,2,4,113.3,2808,11,2819
+caselaw,371,chunked_sequential_rehearsal,False,4,4,55.4,2820,11,2831
+caselaw,369,chunked_sequential_rehearsal,False,4,4,59.8,2440,11,2451
+caselaw,383,chunked_sequential_rehearsal,False,1,1,0.3,357,2,359
+caselaw,373,chunked_sequential_rehearsal,False,3,4,59.4,2472,11,2483
+caselaw,363,chunked_sequential_rehearsal,True,3,4,64.5,2368,11,2379
+caselaw,367,chunked_sequential_rehearsal,False,3,4,61.0,2604,11,2615
+caselaw,375,chunked_sequential_rehearsal,True,5,4,114.1,2524,11,2535
+caselaw,381,chunked_sequential_rehearsal,False,3,4,59.4,2744,11,2755
+caselaw,395,chunked_sequential_rehearsal,True,1,1,0.4,382,2,384
+caselaw,387,chunked_sequential_rehearsal,False,3,4,55.9,2584,11,2595
+caselaw,377,chunked_sequential_rehearsal,False,5,4,60.9,2640,11,2651
+caselaw,389,chunked_sequential_rehearsal,False,4,4,59.6,2468,11,2479
+caselaw,393,chunked_sequential_rehearsal,False,3,4,5.3,2700,11,2711
+caselaw,391,chunked_sequential_rehearsal,False,4,4,60.1,2652,11,2663
+caselaw,379,chunked_sequential_rehearsal,True,4,4,65.5,3356,11,3367
+caselaw,397,chunked_sequential_rehearsal,True,3,4,5.5,2596,11,2607
+caselaw,399,chunked_sequential_rehearsal,False,3,4,5.9,2656,11,2667
+caselaw,385,chunked_sequential_rehearsal,True,4,4,114.7,2492,11,2503
