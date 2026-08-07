@@ -1,4 +1,22 @@
-"""Builds the legal-statute-genre evaluation corpus — the English
+"""RETIRED (2026-07-29) — statute is no longer part of the evaluation suite.
+
+Kept as a record of the fetch/QA-generation approach, and because the Cornell
+LII scraping logic below is the non-obvious part. Not run by any notebook.
+
+Why it was dropped: this is the only genre whose questions are written by an
+LLM rather than taken from a human-authored dataset (narrativeqa, NewsQA,
+SQuAD) or derived from real documents (CaseHOLD). No statute-QA dataset
+exists, so there was no alternative. That asymmetry would need a caveat on
+every genre comparison, and the yield was thin regardless — Chapter 1 gives
+14,000 words and 11 usable questions, of which only 1 has its evidence inside
+the first 3,000 words, so it could not carry a length ladder at all.
+
+An expansion was attempted (6 chapters, ~59,000 words, 6 QA per section,
+generation moved to a larger model so the model under test would not be
+setting its own exam). It is reverted here so these settings match the data
+actually on disk. The section-fetch cache from that attempt was deleted.
+
+Builds the legal-statute-genre evaluation corpus — the English
 replacement for the Korean National Law Information Center approach: fetch real statute text,
 then use an LLM to generate QA pairs grounded in it (there's no existing
 statute-QA dataset the way SQuAD/NewsQA exist for wiki/news, so this mirrors
@@ -34,7 +52,7 @@ root = Path(__file__).resolve().parent
 while not (root / "src").exists() and root != root.parent:
     root = root.parent
 
-CHAPTER_URL = "https://www.law.cornell.edu/uscode/text/17/chapter-1"
+CHAPTER_URLS = ["https://www.law.cornell.edu/uscode/text/17/chapter-1"]
 BASE_URL = "https://www.law.cornell.edu"
 _HEADERS = {"User-Agent": "Mozilla/5.0 (research corpus build; contact: n/a)"}
 
@@ -49,7 +67,16 @@ QC_MAX_OCCURRENCE = 1  # answer must appear exactly once in the final corpus
 _QA_LINE_PATTERN = re.compile(r"Q:\s*(.+?)\s*\n\s*A:\s*(.+?)(?:\n|$)", re.IGNORECASE)
 
 
-def call_chat(messages: list[dict], api_key: str, timeout: float = 90.0, max_retries: int = 3) -> str:
+# The free NIM endpoints are shared, so 503 "ResourceExhausted: Worker local
+# total request limit reached (N/M)" means *other people's* requests have filled
+# the worker queue — nothing we can send more slowly fixes it, we just have to
+# wait for the queue to drain. A few seconds is never enough; these are the
+# waits between retries, in seconds.
+_CONGESTION_BACKOFF = [15.0, 30.0, 60.0, 90.0, 120.0]
+
+
+def call_chat(messages: list[dict], api_key: str, timeout: float = 90.0,
+              max_retries: int = len(_CONGESTION_BACKOFF)) -> str:
     last_error: Exception | None = None
     for attempt in range(max_retries + 1):
         try:
@@ -62,14 +89,18 @@ def call_chat(messages: list[dict], api_key: str, timeout: float = 90.0, max_ret
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
             last_error = e
             if attempt < max_retries:
-                time.sleep(3.0)
+                wait = _CONGESTION_BACKOFF[min(attempt, len(_CONGESTION_BACKOFF) - 1)]
+                print(f"    {type(e).__name__} — retrying in {wait:.0f}s ({attempt + 1}/{max_retries})")
+                time.sleep(wait)
                 continue
             raise RuntimeError(f"NIM chat API call failed (retries exhausted): {e}") from e
 
         if response.status_code == 200:
             return response.json()["choices"][0]["message"]["content"]
         if response.status_code in _RETRYABLE_STATUS and attempt < max_retries:
-            time.sleep(3.0)
+            wait = _CONGESTION_BACKOFF[min(attempt, len(_CONGESTION_BACKOFF) - 1)]
+            print(f"    HTTP {response.status_code} — retrying in {wait:.0f}s ({attempt + 1}/{max_retries})")
+            time.sleep(wait)
             continue
         raise RuntimeError(f"NIM chat API failed ({response.status_code}): {response.text}")
 
@@ -77,20 +108,33 @@ def call_chat(messages: list[dict], api_key: str, timeout: float = 90.0, max_ret
 
 
 def fetch_section_links() -> list[tuple[str, str]]:
-    """Returns [(url, heading), ...] for each real (non-renumbered/repealed) section."""
-    r = requests.get(CHAPTER_URL, timeout=20, headers=_HEADERS)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "lxml")
+    """Returns [(url, heading), ...] for each real (non-renumbered/repealed)
+    section across every chapter in CHAPTER_URLS, in order, de-duplicated
+    (chapter index pages can cross-link to sections in other chapters)."""
+    links: list[tuple[str, str]] = []
+    seen: set[str] = set()
 
-    links = []
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if not re.match(r"^/uscode/text/17/\d+[A-Za-z]?$", href):
-            continue
-        heading = a.get_text(strip=True)
-        if heading.startswith("["):  # e.g. "[§ 116A. Renumbered § 116]" — not real content
-            continue
-        links.append((BASE_URL + href, heading))
+    for chapter_url in CHAPTER_URLS:
+        r = requests.get(chapter_url, timeout=20, headers=_HEADERS)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "lxml")
+
+        before = len(links)
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if not re.match(r"^/uscode/text/17/\d+[A-Za-z]?$", href):
+                continue
+            heading = a.get_text(strip=True)
+            if heading.startswith("["):  # e.g. "[§ 116A. Renumbered § 116]" — not real content
+                continue
+            url = BASE_URL + href
+            if url in seen:
+                continue
+            seen.add(url)
+            links.append((url, heading))
+        print(f"  {chapter_url.rsplit('/', 1)[-1]}: +{len(links) - before} sections")
+        time.sleep(0.3)  # be polite to the source site
+
     return links
 
 
@@ -142,12 +186,36 @@ def generate_qa_for_section(heading: str, section_text: str, api_key: str) -> li
     return [{"question": q.strip(), "answer": a.strip()} for q, a in pairs]
 
 
+CACHE_DIR = root / "data" / "processed" / "statute_eval"
+SECTION_CACHE = CACHE_DIR / "_cache_sections.json"
+QA_CACHE = CACHE_DIR / "_cache_qa.json"
+
+
+def _load_cache(path: Path) -> dict:
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    return {}
+
+
+def _save_cache(path: Path, data: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+
+
 def main() -> None:
     api_key = os.environ.get("NVIDIA_NIM_API_KEY")
     if not api_key:
         raise SystemExit("NVIDIA_NIM_API_KEY is not set.")
 
-    print(f"Fetching section list from {CHAPTER_URL}...")
+    # Crawling 21 pages and regenerating QA is expensive, and the shared NIM
+    # endpoint fails often enough that a run rarely finishes first try. Both
+    # stages cache to disk so a re-run picks up where it stopped.
+    section_cache = _load_cache(SECTION_CACHE)
+    qa_cache = _load_cache(QA_CACHE)
+    if section_cache or qa_cache:
+        print(f"cache: {len(section_cache)} sections fetched, {len(qa_cache)} sections with QA")
+
+    print(f"Fetching section lists from {len(CHAPTER_URLS)} chapters...")
     links = fetch_section_links()
     print(f"sections found: {len(links)}")
 
@@ -156,7 +224,12 @@ def main() -> None:
     cumulative_chars = 0
 
     for url, heading in links:
-        section_text = fetch_section_text(url)
+        if url in section_cache:
+            section_text = section_cache[url]
+        else:
+            section_text = fetch_section_text(url)
+            section_cache[url] = section_text
+            _save_cache(SECTION_CACHE, section_cache)
         if not section_text or len(section_text.split()) < 30:
             continue
 
@@ -178,11 +251,18 @@ def main() -> None:
     print("\nGenerating QA per section via NIM...")
     questions = []
     for heading, section_text, start, end in section_bounds:
-        try:
-            qa_items = generate_qa_for_section(heading, section_text, api_key)
-        except RuntimeError as e:
-            print(f"  [{heading[:40]}] QA generation failed: {e} — skipped")
-            continue
+        if heading in qa_cache:
+            qa_items = qa_cache[heading]
+            print(f"  [{heading[:40]}] {len(qa_items)} from cache")
+        else:
+            try:
+                qa_items = generate_qa_for_section(heading, section_text, api_key)
+            except RuntimeError as e:
+                print(f"  [{heading[:40]}] QA generation failed: {e} — skipped (re-run to retry)")
+                continue
+            qa_cache[heading] = qa_items
+            _save_cache(QA_CACHE, qa_cache)
+            time.sleep(1.0)  # gentle spacing between generation calls
 
         for item in qa_items:
             answer = item["answer"]
@@ -228,7 +308,8 @@ def main() -> None:
     manifest_path = out_dir / "statute_eval_manifest.json"
     manifest_path.write_text(
         json.dumps(
-            {"source": CHAPTER_URL, "n_sections": len(section_bounds), "n_questions": len(questions)}, indent=2
+            {"source": CHAPTER_URLS, "gen_model": GEN_MODEL,
+             "n_sections": len(section_bounds), "n_questions": len(questions)}, indent=2
         ),
         encoding="utf-8",
     )

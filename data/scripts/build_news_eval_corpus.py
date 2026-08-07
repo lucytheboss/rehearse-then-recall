@@ -24,11 +24,13 @@ root = Path(__file__).resolve().parent
 while not (root / "src").exists() and root != root.parent:
     root = root.parent
 
-N_CANDIDATE_ROWS = 8000  # rows scanned to build the candidate article pool
-TARGET_MIN_WORDS = 12_000
-TARGET_MAX_WORDS = 16_000
+N_CANDIDATE_ROWS = 30_000  # rows scanned to build the candidate article pool
+# Sized to match the longest novel rung (50,000 words) so every genre can be
+# tested on the same ladder rather than topping out at one context window.
+TARGET_MIN_WORDS = 50_000
+TARGET_MAX_WORDS = 55_000
 QC_MAX_OCCURRENCE = 3
-MAX_QUESTIONS = 100  # far more pass QC than an eval set needs; subsample, spread across the document
+MAX_QUESTIONS = 200  # far more pass QC than an eval set needs; subsample, spread across the document
 SCENE_BREAK_SEPARATOR = "\n\n***\n\n"  # matches chuncking.py's structural-break detection
 
 
