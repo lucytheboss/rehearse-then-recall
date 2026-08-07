@@ -1,0 +1,80 @@
+﻿question_id,doc_slug,question,answer,evidence_char_pos,type,evidence_word_pos
+00950a36_0,00950a36,What was the name of Olivia's former master that she was escaping from?,Shah Amurath,3263,narrativeqa_extractive_subset,566
+00950a36_1,00950a36,Who frees Conan from the pirates who knocked him unconscious?,Olivia,1414,narrativeqa_extractive_subset,233
+00950a36_2,00950a36,What is the name of the city Olivia is escaping from?,Akif,2333,narrativeqa_extractive_subset,404
+00950a36_5,00950a36,Who Fled the city of Akif?,Olivia,1414,narrativeqa_extractive_subset,233
+00950a36_6,00950a36,"Who was made ""Queen of the Blue Sea""?",Olivia,1414,narrativeqa_extractive_subset,233
+00950a36_7,00950a36,Who does the mad man who defeats Olivia's pursuer turn out to be? ,Conan,8648,narrativeqa_extractive_subset,1523
+00950a36_8,00950a36,Who frees Conan from the pirates?,Olivia.,2121,narrativeqa_extractive_subset,362
+00950a36_9,00950a36,Where was Olivia held captive at?,Akif,2333,narrativeqa_extractive_subset,404
+00950a36_10,00950a36,What is the newcomers' name that Olivia meets?,Conan,8648,narrativeqa_extractive_subset,1523
+00950a36_11,00950a36,Who made Conan a captain?,Pirates,12518,narrativeqa_extractive_subset,2232
+00950a36_12,00950a36,What city has Olivia fled from?,Akif,2333,narrativeqa_extractive_subset,404
+00950a36_13,00950a36,Who is chasing and pursuing olivia?,Shah,1235,narrativeqa_extractive_subset,199
+00950a36_14,00950a36,What is being lobbed at Olivia from the jungle?,boulders,25618,narrativeqa_extractive_subset,4518
+00950a36_15,00950a36,Who kills the captain of the pirate ship?,Conan,8648,narrativeqa_extractive_subset,1523
+3e966645_1,3e966645,What country were the men planning on sailing the ship to?,Peru,66902,narrativeqa_extractive_subset,11770
+3e966645_2,3e966645,Who is the very religious man?,Davis,95386,narrativeqa_extractive_subset,17053
+3e966645_4,3e966645,What did the men start drinking on the ship?,Champagne,108160,narrativeqa_extractive_subset,19370
+3e966645_5,3e966645,What illness did the former officers die from?,smallpox,104902,narrativeqa_extractive_subset,18773
+3e966645_6,3e966645,Which man tried to drown himself?,Herrick,59284,narrativeqa_extractive_subset,10419
+3e966645_7,3e966645,Who did the U.S. Consul employ to take over the ship?,Davis,95386,narrativeqa_extractive_subset,17053
+3e966645_8,3e966645,What port to the 3 beggers operate in?,Papeete,57275,narrativeqa_extractive_subset,10057
+3e966645_9,3e966645,What country is Papeete in?,Tahiti,58794,narrativeqa_extractive_subset,10327
+3e966645_10,3e966645,What was the schooner that landed in the port carrying?,champagne,77077,narrativeqa_extractive_subset,13676
+3e966645_11,3e966645,Where was the schooner going?,Sydney,104825,narrativeqa_extractive_subset,18760
+3e966645_12,3e966645,What were the schooners officer's killed by?,smallpox,104902,narrativeqa_extractive_subset,18773
+3e966645_16,3e966645,What does Davis think the ship is carrying?,Champagne,108160,narrativeqa_extractive_subset,19370
+3e966645_17,3e966645,Where do the three men plan to sail the ship?,Peru,66902,narrativeqa_extractive_subset,11770
+3e966645_19,3e966645,Which of the 3 beggars operating out of the Tahitian port of Papeete was formerly an American sea captian? ,Davis,95386,narrativeqa_extractive_subset,17053
+3e966645_20,3e966645,What was the schooner that went off course when sailing from from San Francisco to Sydney supposedly carrying?,Champagne,108160,narrativeqa_extractive_subset,19370
+3e966645_21,3e966645,Who does the US Counsel hire to take over the schooner carrying champagne that has veered off course?,Davis,95386,narrativeqa_extractive_subset,17053
+3e966645_22,3e966645,"Where does Davis and the others plan to take the ship, instead of Sydney?  ",Peru,66902,narrativeqa_extractive_subset,11770
+3e966645_23,3e966645,Which of the 3 beggars operating out of the Tahitian port of Papeete was once a failed English businessman? ,Herrick,59284,narrativeqa_extractive_subset,10419
+6a659de3_2,6a659de3,Who may have some degree of power to reanimate the dead?,Ayesha,120605,narrativeqa_extractive_subset,21628
+6a659de3_3,6a659de3,Who has supernatural powers?,Ayesha,120605,narrativeqa_extractive_subset,21628
+6a659de3_4,6a659de3,Who is Ayesha confident of becomming the reincarnation of her former lover?,Leo,115408,narrativeqa_extractive_subset,20684
+6a659de3_5,6a659de3,Who does Vincey put in charge of raising his son Leo?,Holly,113741,narrativeqa_extractive_subset,20376
+6a659de3_6,6a659de3,Who is the queen?,Ayesha,120605,narrativeqa_extractive_subset,21628
+6a659de3_7,6a659de3,Where does the box take them when they finally open it?,Africa,115584,narrativeqa_extractive_subset,20717
+6a659de3_8,6a659de3,Who saves Leo after he is injured?,Ayesha,120605,narrativeqa_extractive_subset,21628
+6a659de3_11,6a659de3,Who is Leo's biological father?,Vincey,112367,narrativeqa_extractive_subset,20131
+6a659de3_12,6a659de3,Who did Vincey want to raise his son once he died?,Horace Holly,115049,narrativeqa_extractive_subset,20618
+6a659de3_14,6a659de3,Who is the young professor?,Horace Holly,115049,narrativeqa_extractive_subset,20618
+6a659de3_17,6a659de3,Who decided leo should die in the fire?,Ayesha,120605,narrativeqa_extractive_subset,21628
+9561a72a_0,9561a72a,Who are Dorothy Gale's only living relatives?,Aunt Em and Uncle Henry,165280,narrativeqa_extractive_subset,29850
+9561a72a_1,9561a72a,Who does Dorothy make an arrangement with to keep her family safe?,Princess Ozma,173828,narrativeqa_extractive_subset,31288
+9561a72a_3,9561a72a,Where does the climax of the story take place?,The Emerald City,186455,narrativeqa_extractive_subset,33648
+9561a72a_5,9561a72a,Who are Dorothy's only living relatives?,Aunt Em and Uncle Henry,165280,narrativeqa_extractive_subset,29850
+9561a72a_7,9561a72a,Where is the Nome kingdom located?,underground,171957,narrativeqa_extractive_subset,30949
+9561a72a_9,9561a72a,"At the beginning, which two people find Dorothy to be a dream?",Aunt Em and Uncle Henry,165280,narrativeqa_extractive_subset,29850
+9561a72a_10,9561a72a,How does Princess Ozma transport Dorothy's guardians to Oz?,Magic Belt,168804,narrativeqa_extractive_subset,30366
+9561a72a_11,9561a72a,Who from the Nome Kingdom is plotting to take back the magic belt?,Roquat,176219,narrativeqa_extractive_subset,31725
+9561a72a_12,9561a72a,Which veteran soldier sets out to recruit allies for the Nome Kingdom?,Guph,201855,narrativeqa_extractive_subset,36443
+bf55d1c1_0,bf55d1c1,What does Adam purchase to kill snakes on his property?,A mongoose,259600,narrativeqa_extractive_subset,46843
+bf55d1c1_1,bf55d1c1,Who does Arabella murder?,Oolanga,257898,narrativeqa_extractive_subset,46534
+bf55d1c1_2,bf55d1c1,Who witnesses the murder of Oolanga?,Adam,219809,narrativeqa_extractive_subset,39681
+bf55d1c1_3,bf55d1c1,"Who do Adam, Richard, and Nathaniel suspect Arabella wants to kill?",Mimi Watford,265799,narrativeqa_extractive_subset,47972
+bf55d1c1_4,bf55d1c1,Who does Adam marry?,Mimi Watford,265799,narrativeqa_extractive_subset,47972
+bf55d1c1_5,bf55d1c1,Who is the antagonist in the story?,Arabella,252807,narrativeqa_extractive_subset,45618
+bf55d1c1_6,bf55d1c1,What lives in a hole at Arabella's house?,the White Worm,219053,narrativeqa_extractive_subset,39562
+bf55d1c1_9,bf55d1c1,When does the story take place?,1860,220777,narrativeqa_extractive_subset,39854
+bf55d1c1_10,bf55d1c1,Who is the friend of Richard Salton who Adam worked with to stop Arabella?,Sir Nathaniel de Salis,221635,narrativeqa_extractive_subset,40027
+bf55d1c1_11,bf55d1c1,Who teams up with Adam to hunt down Arabella to stop her?,Sir Nathaniel de Salis,221635,narrativeqa_extractive_subset,40027
+bf55d1c1_12,bf55d1c1,"Before visiting his uncle, where was Adam Salton originally from?",Australia,222372,narrativeqa_extractive_subset,40163
+ca4b98f5_0,ca4b98f5,What is the title of this story?,The Claverings,272081,narrativeqa_extractive_subset,49103
+ca4b98f5_1,ca4b98f5,What is the name of Reverend Henry Clavering's only son?,Harry Clavering ,289370,narrativeqa_extractive_subset,52088
+ca4b98f5_2,ca4b98f5,"What firm does Harry become a pupil at, against his father's wishes?",Beilby and Burton,294762,narrativeqa_extractive_subset,53051
+ca4b98f5_3,ca4b98f5,"Where does his widow return to, after Lord Ongar dies?",England,284770,narrativeqa_extractive_subset,51191
+ca4b98f5_4,ca4b98f5,Who is Florence Burton engaged to?,Harry Clavering,289370,narrativeqa_extractive_subset,52088
+ca4b98f5_6,ca4b98f5,"Who does Harry choose to pursue, after the two women learn about eachother?",Florence Burton,326143,narrativeqa_extractive_subset,58932
+ca4b98f5_8,ca4b98f5,Who convinces Harry that Florence is the better woman for him?,His mother,323001,narrativeqa_extractive_subset,58355
+ca4b98f5_10,ca4b98f5,Who does Harry's fiancee ultimately marry? ,Lord Ongar,279247,narrativeqa_extractive_subset,50101
+ca4b98f5_11,ca4b98f5,Who asks Harry to assist his former fiancee when she returns to England?,Lady Clavering,292028,narrativeqa_extractive_subset,52562
+ca4b98f5_12,ca4b98f5,Who encourages Harry to marry Florence Burton? ,His mother,323001,narrativeqa_extractive_subset,58355
+ca4b98f5_13,ca4b98f5,Who wrote a letter offering to end their engagement? ,Florence Burton,326143,narrativeqa_extractive_subset,58932
+ca4b98f5_14,ca4b98f5,What type of career does Harry's father want him to take up?,church,284920,narrativeqa_extractive_subset,51223
+ca4b98f5_15,ca4b98f5,What is the name of Harry's second fiancee?,Florence Burton,326143,narrativeqa_extractive_subset,58932
+ca4b98f5_16,ca4b98f5,Who helps Harry realize Florence is the better woman?,His mother,323001,narrativeqa_extractive_subset,58355
+ca4b98f5_17,ca4b98f5,Who becomes unfaithful to their fiance?,Harry Clavering.,291591,narrativeqa_extractive_subset,52483
+ca4b98f5_18,ca4b98f5,Who does Harry reaffirnm his love too?,Florence Burton,326143,narrativeqa_extractive_subset,58932

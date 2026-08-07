@@ -1,22 +1,108 @@
-﻿question_id,question,answer,evidence_char_pos,evidence_word_pos,type,answerable_v1000,answerable_v2000,answerable_v3000,answerable_v6000,answerable_v10000
-0,What kind of crime do Raffle and Bunnys commit?,Burglary,186004,34765,narrativeqa_extractive_subset,False,False,False,False,False
-1,What was Raffles famous for?,cricket,6770,1270,narrativeqa_extractive_subset,False,True,True,True,True
-2,What does Raffles say he was asked about for?,cricket,6770,1270,narrativeqa_extractive_subset,False,True,True,True,True
-4,Raffles jumps overboard on the ocean voyage heist. He is presumed what?,drowned,337721,63080,narrativeqa_extractive_subset,False,False,False,False,False
-5,Where was Bunny before being summoned to the house of a rich invalid?,prison,39010,7405,narrativeqa_extractive_subset,False,False,False,False,True
-6,Who is the rich invalid?,Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
-7,Where was Bunny when he summoned Raffles?,England,11514,2170,narrativeqa_extractive_subset,False,False,True,True,True
-9,Who dies in battle?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
-11,Who summoned Bunny after he was released from prison?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
-13,Which character is wounded in the war?,Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
-14,Which character dies in the war?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
-15,How many phases do these stories have?,Two,304500,56774,narrativeqa_extractive_subset,False,False,False,False,False
-16,Which character is presumed drowned in the first story?,Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
-19,What is the profession of the two main characters?,Thieves,252567,47221,narrativeqa_extractive_subset,False,False,False,False,False
-21,Which character dives overboard while on an ocean voyage and is presumed dead?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
-22,Who is summoned to the house of a rich invalid?,Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
-23,Who does the rich invalid turn out to be?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
-25,Which main character dies in battle?,Raffles,33,9,narrativeqa_extractive_subset,True,True,True,True,True
-26,"Which character is wounded, but does not die, in the Boen War?",Bunny,3088,590,narrativeqa_extractive_subset,True,True,True,True,True
-28,What crime do Bunny and Raffles commit at the beginning of the story?,Burglary ,186004,34765,narrativeqa_extractive_subset,False,False,False,False,False
-29,Which character serves a prison sentence?,Bunny?,36077,6854,narrativeqa_extractive_subset,False,False,False,False,True
+﻿question_id,doc_id,doc_slug,question,answer,evidence_char_pos,evidence_word_pos,type,answerable_v1000,answerable_v2000,answerable_v3000,answerable_v6000,answerable_v10000,answerable_v20000,answerable_v30000,answerable_v50000
+00950a36_0,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,What was the name of Olivia's former master that she was escaping from?,Shah Amurath,3263,566,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_1,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,Who frees Conan from the pirates who knocked him unconscious?,Olivia,1414,233,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_2,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,What is the name of the city Olivia is escaping from?,Akif,2333,404,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_3,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,"As they leave the island, what does Conan say he will make Olivia?",Queen of the Blue Sea,68920,12117,narrativeqa_extractive_subset,False,False,False,False,False,False,False,False
+00950a36_4,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,What was the title of the story?,Shadows in the Moonlight,69050,12138,narrativeqa_extractive_subset,False,False,False,False,False,False,False,False
+00950a36_5,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,Who Fled the city of Akif?,Olivia,1414,233,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_6,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,"Who was made ""Queen of the Blue Sea""?",Olivia,1414,233,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_7,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,Who does the mad man who defeats Olivia's pursuer turn out to be? ,Conan,8648,1523,narrativeqa_extractive_subset,False,True,True,True,True,False,False,False
+00950a36_8,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,Who frees Conan from the pirates?,Olivia.,2121,362,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_9,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,Where was Olivia held captive at?,Akif,2333,404,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_10,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,What is the newcomers' name that Olivia meets?,Conan,8648,1523,narrativeqa_extractive_subset,False,True,True,True,True,False,False,False
+00950a36_11,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,Who made Conan a captain?,Pirates,12518,2232,narrativeqa_extractive_subset,False,False,True,True,True,False,False,False
+00950a36_12,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,What city has Olivia fled from?,Akif,2333,404,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_13,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,Who is chasing and pursuing olivia?,Shah,1235,199,narrativeqa_extractive_subset,True,True,True,True,True,False,False,False
+00950a36_14,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,What is being lobbed at Olivia from the jungle?,boulders,25618,4518,narrativeqa_extractive_subset,False,False,False,True,True,False,False,False
+00950a36_15,00950a3641e6a28b04a6fabf6334140e2deaa9fd,00950a36,Who kills the captain of the pirate ship?,Conan,8648,1523,narrativeqa_extractive_subset,False,True,True,True,True,False,False,False
+3e966645_0,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What were Attwater and the native workers harvesting?,Pearls,147042,26768,narrativeqa_extractive_subset,False,False,False,False,False,False,True,False
+3e966645_1,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What country were the men planning on sailing the ship to?,Peru,10676,1883,narrativeqa_extractive_subset,False,False,True,True,True,True,True,False
+3e966645_2,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Who is the very religious man?,Davis,39160,7166,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_3,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Which man harvests pearls?,Attwater,140959,25696,narrativeqa_extractive_subset,False,False,False,False,False,False,True,False
+3e966645_4,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What did the men start drinking on the ship?,Champagne,51934,9483,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_5,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What illness did the former officers die from?,smallpox,48676,8886,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_6,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Which man tried to drown himself?,Herrick,3058,532,narrativeqa_extractive_subset,True,True,True,True,True,True,True,False
+3e966645_7,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Who did the U.S. Consul employ to take over the ship?,Davis,39160,7166,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_8,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What port to the 3 beggers operate in?,Papeete,1049,170,narrativeqa_extractive_subset,True,True,True,True,True,True,True,False
+3e966645_9,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What country is Papeete in?,Tahiti,2568,440,narrativeqa_extractive_subset,True,True,True,True,True,True,True,False
+3e966645_10,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What was the schooner that landed in the port carrying?,champagne,20851,3789,narrativeqa_extractive_subset,False,False,False,True,True,True,True,False
+3e966645_11,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Where was the schooner going?,Sydney,48599,8873,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_12,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What were the schooners officer's killed by?,smallpox,48676,8886,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_13,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What did Davis and Huish do with the cargo?,drank it,177961,32397,narrativeqa_extractive_subset,False,False,False,False,False,False,False,False
+3e966645_14,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What was Attwater harvesting on the island?,pearls,127245,23234,narrativeqa_extractive_subset,False,False,False,False,False,False,True,False
+3e966645_15,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What does Attwater harvest on the island?,Pearls,147042,26768,narrativeqa_extractive_subset,False,False,False,False,False,False,True,False
+3e966645_16,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What does Davis think the ship is carrying?,Champagne,51934,9483,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_17,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Where do the three men plan to sail the ship?,Peru,10676,1883,narrativeqa_extractive_subset,False,False,True,True,True,True,True,False
+3e966645_18,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,"Who says ""Go, and sin no more""?",Attwater,140959,25696,narrativeqa_extractive_subset,False,False,False,False,False,False,True,False
+3e966645_19,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Which of the 3 beggars operating out of the Tahitian port of Papeete was formerly an American sea captian? ,Davis,39160,7166,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_20,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,What was the schooner that went off course when sailing from from San Francisco to Sydney supposedly carrying?,Champagne,51934,9483,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_21,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Who does the US Counsel hire to take over the schooner carrying champagne that has veered off course?,Davis,39160,7166,narrativeqa_extractive_subset,False,False,False,False,True,True,True,False
+3e966645_22,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,"Where does Davis and the others plan to take the ship, instead of Sydney?  ",Peru,10676,1883,narrativeqa_extractive_subset,False,False,True,True,True,True,True,False
+3e966645_23,3e9666459feb414586d9d23b51c8a020bacc150a,3e966645,Which of the 3 beggars operating out of the Tahitian port of Papeete was once a failed English businessman? ,Herrick,3058,532,narrativeqa_extractive_subset,True,True,True,True,True,True,True,False
+6a659de3_0,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,"Where did Holly, Leo and Job travel to and become shipwrecked at?",East Africa,90150,15926,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
+6a659de3_1,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who is chief elder of one of the Amahagger tribes?,Billali,147539,26528,narrativeqa_extractive_subset,False,False,False,False,False,False,True,True
+6a659de3_2,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who may have some degree of power to reanimate the dead?,Ayesha,10767,1937,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+6a659de3_3,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who has supernatural powers?,Ayesha,10767,1937,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+6a659de3_4,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who is Ayesha confident of becomming the reincarnation of her former lover?,Leo,5570,993,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+6a659de3_5,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who does Vincey put in charge of raising his son Leo?,Holly,3903,685,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+6a659de3_6,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who is the queen?,Ayesha,10767,1937,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+6a659de3_7,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Where does the box take them when they finally open it?,Africa,5746,1026,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+6a659de3_8,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who saves Leo after he is injured?,Ayesha,10767,1937,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+6a659de3_9,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Where does Ayesha and her people live?,Africa.,88784,15676,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
+6a659de3_10,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,How did Ayesha kill Ustane?,magic,58273,10750,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
+6a659de3_11,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who is Leo's biological father?,Vincey,2529,440,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+6a659de3_12,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who did Vincey want to raise his son once he died?,Horace Holly,5211,927,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+6a659de3_13,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who is the chief elder of the Amahagger tribes?,Billali,147539,26528,narrativeqa_extractive_subset,False,False,False,False,False,False,True,True
+6a659de3_14,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who is the young professor?,Horace Holly,5211,927,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+6a659de3_15,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who is ruled by the white queen?,the natives,253671,46186,narrativeqa_extractive_subset,False,False,False,False,False,False,False,True
+6a659de3_16,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,What  did Ayesha take the two men to go and see? ,pillar of fire,552543,101764,narrativeqa_extractive_subset,False,False,False,False,False,False,False,False
+6a659de3_17,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who decided leo should die in the fire?,Ayesha,10767,1937,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+6a659de3_18,6a659de3aa344680261aaf152a26bf7a20fe22f2,6a659de3,Who is vincey?,Leo's father,92365,16353,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
+9561a72a_0,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Who are Dorothy Gale's only living relatives?,Aunt Em and Uncle Henry,1829,287,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+9561a72a_1,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Who does Dorothy make an arrangement with to keep her family safe?,Princess Ozma,10377,1725,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+9561a72a_2,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,What nation decides to help the Nome army?,Whimsies ,56963,10256,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
+9561a72a_3,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Where does the climax of the story take place?,The Emerald City,23004,4085,narrativeqa_extractive_subset,False,False,False,True,True,True,True,True
+9561a72a_4,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,What kind of animal does the zebra have a dispute with?,Crab,160072,28839,narrativeqa_extractive_subset,False,False,False,False,False,False,True,True
+9561a72a_5,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Who are Dorothy's only living relatives?,Aunt Em and Uncle Henry,1829,287,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+9561a72a_6,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Who is Roquat?,King of the Nomes,82698,14930,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
+9561a72a_7,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Where is the Nome kingdom located?,underground,8506,1386,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+9561a72a_8,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,What creatures resemble men with carnivorous animal heads?,Phanfasms,112565,20292,narrativeqa_extractive_subset,False,False,False,False,False,False,True,True
+9561a72a_9,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,"At the beginning, which two people find Dorothy to be a dream?",Aunt Em and Uncle Henry,1829,287,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+9561a72a_10,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,How does Princess Ozma transport Dorothy's guardians to Oz?,Magic Belt,5353,803,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+9561a72a_11,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Who from the Nome Kingdom is plotting to take back the magic belt?,Roquat,12768,2162,narrativeqa_extractive_subset,False,False,True,True,True,True,True,True
+9561a72a_12,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Which veteran soldier sets out to recruit allies for the Nome Kingdom?,Guph,38404,6880,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+9561a72a_13,9561a72a7b909a62c43b5ff74e26103f7a03c4bc,9561a72a,Who quarrels with a crab about a geographical location?,The zebra,158479,28539,narrativeqa_extractive_subset,False,False,False,False,False,False,True,True
+bf55d1c1_0,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,What does Adam purchase to kill snakes on his property?,A mongoose,40591,7289,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+bf55d1c1_1,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,Who does Arabella murder?,Oolanga,38889,6980,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+bf55d1c1_2,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,Who witnesses the murder of Oolanga?,Adam,800,127,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+bf55d1c1_3,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,"Who do Adam, Richard, and Nathaniel suspect Arabella wants to kill?",Mimi Watford,46790,8418,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+bf55d1c1_4,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,Who does Adam marry?,Mimi Watford,46790,8418,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+bf55d1c1_5,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,Who is the antagonist in the story?,Arabella,33798,6064,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+bf55d1c1_6,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,What lives in a hole at Arabella's house?,the White Worm,44,8,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+bf55d1c1_7,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,What does Adam buy to get rid of the black snakes he found?,a mongoose,59470,10680,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
+bf55d1c1_8,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,Who is killed by Arabella when she drags him into the pit?,Oolanga.,181318,32589,narrativeqa_extractive_subset,False,False,False,False,False,False,False,True
+bf55d1c1_9,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,When does the story take place?,1860,1768,300,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+bf55d1c1_10,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,Who is the friend of Richard Salton who Adam worked with to stop Arabella?,Sir Nathaniel de Salis,2626,473,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+bf55d1c1_11,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,Who teams up with Adam to hunt down Arabella to stop her?,Sir Nathaniel de Salis,2626,473,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+bf55d1c1_12,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,"Before visiting his uncle, where was Adam Salton originally from?",Australia,3363,609,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+bf55d1c1_13,bf55d1c14536c04c4b8f8cb18ea8dd490e986066,bf55d1c1,Who does Adam and Sir Nathaniel suspect that Arabella wants to murder next?, Mimi Watford.,132035,23718,narrativeqa_extractive_subset,False,False,False,False,False,False,True,True
+ca4b98f5_0,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,What is the title of this story?,The Claverings,32,5,narrativeqa_extractive_subset,True,True,True,True,True,True,True,True
+ca4b98f5_1,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,What is the name of Reverend Henry Clavering's only son?,Harry Clavering ,17321,2990,narrativeqa_extractive_subset,False,False,True,True,True,True,True,True
+ca4b98f5_2,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,"What firm does Harry become a pupil at, against his father's wishes?",Beilby and Burton,22713,3953,narrativeqa_extractive_subset,False,False,False,True,True,True,True,True
+ca4b98f5_3,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,"Where does his widow return to, after Lord Ongar dies?",England,12721,2093,narrativeqa_extractive_subset,False,False,True,True,True,True,True,True
+ca4b98f5_4,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who is Florence Burton engaged to?,Harry Clavering,17321,2990,narrativeqa_extractive_subset,False,False,True,True,True,True,True,True
+ca4b98f5_5,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,"Who does Harry kiss, while still engaged to Florence Burton?",Lady Ongar ,63958,11635,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
+ca4b98f5_6,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,"Who does Harry choose to pursue, after the two women learn about eachother?",Florence Burton,54094,9834,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+ca4b98f5_7,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,How are Harry Clavering and Reverend Henry Clavering related?,father and son,1100110,205676,narrativeqa_extractive_subset,False,False,False,False,False,False,False,False
+ca4b98f5_8,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who convinces Harry that Florence is the better woman for him?,His mother,50952,9257,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+ca4b98f5_9,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,How did Sir Hugh and Archie Clavering die?,drowned,1041090,194700,narrativeqa_extractive_subset,False,False,False,False,False,False,False,False
+ca4b98f5_10,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who does Harry's fiancee ultimately marry? ,Lord Ongar,7198,1003,narrativeqa_extractive_subset,False,True,True,True,True,True,True,True
+ca4b98f5_11,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who asks Harry to assist his former fiancee when she returns to England?,Lady Clavering,19979,3464,narrativeqa_extractive_subset,False,False,False,True,True,True,True,True
+ca4b98f5_12,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who encourages Harry to marry Florence Burton? ,His mother,50952,9257,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+ca4b98f5_13,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who wrote a letter offering to end their engagement? ,Florence Burton,54094,9834,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+ca4b98f5_14,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,What type of career does Harry's father want him to take up?,church,12871,2125,narrativeqa_extractive_subset,False,False,True,True,True,True,True,True
+ca4b98f5_15,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,What is the name of Harry's second fiancee?,Florence Burton,54094,9834,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+ca4b98f5_16,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who helps Harry realize Florence is the better woman?,His mother,50952,9257,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+ca4b98f5_17,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who becomes unfaithful to their fiance?,Harry Clavering.,19542,3385,narrativeqa_extractive_subset,False,False,False,True,True,True,True,True
+ca4b98f5_18,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Who does Harry reaffirnm his love too?,Florence Burton,54094,9834,narrativeqa_extractive_subset,False,False,False,False,True,True,True,True
+ca4b98f5_19,ca4b98f54a313ac59b7da739f8a3d7454c271193,ca4b98f5,Where does Lady Onger go after he husband dies?,England.,78154,14294,narrativeqa_extractive_subset,False,False,False,False,False,True,True,True
