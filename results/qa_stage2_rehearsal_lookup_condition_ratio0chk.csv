@@ -1,0 +1,241 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,1,full_context_rehearsal_lookup,False,No information provided.,2,True,1.2,8309,11,8320
+wiki,2,full_context_rehearsal_lookup,False,No information is available.,2,True,1.3,8232,12,8244
+wiki,4,full_context_rehearsal_lookup,False,Wisconsinan glaciation.,2,True,1.5,8848,16,8864
+wiki,5,full_context_rehearsal_lookup,True,France,1,False,0.4,7175,2,7177
+wiki,6,full_context_rehearsal_lookup,True,Portuguese,2,True,1.2,8285,10,8295
+wiki,7,full_context_rehearsal_lookup,True,The Dutch East India Company.,2,True,1.3,8275,13,8288
+wiki,3,full_context_rehearsal_lookup,True,1624.,2,True,3.2,10933,67,11000
+wiki,8,full_context_rehearsal_lookup,True,Jan Rodrigues.,2,True,1.6,8277,11,8288
+wiki,9,full_context_rehearsal_lookup,True,1625,2,True,1.0,8281,9,8290
+wiki,10,full_context_rehearsal_lookup,True,Peter Stuyvesant,2,True,1.0,8281,12,8293
+wiki,13,full_context_rehearsal_lookup,True,1735,1,False,0.4,7174,3,7177
+wiki,11,full_context_rehearsal_lookup,True,New Orange.,2,True,1.0,8285,10,8295
+wiki,12,full_context_rehearsal_lookup,False,No information.,2,True,1.0,8295,10,8305
+wiki,14,full_context_rehearsal_lookup,True,August 1776.,2,True,1.1,8309,12,8321
+wiki,15,full_context_rehearsal_lookup,True,The Great Fire of New York.,2,True,1.4,9152,17,9169
+wiki,16,full_context_rehearsal_lookup,True,Philadelphia.,2,True,56.2,8313,9,8322
+wiki,17,full_context_rehearsal_lookup,True,1827,2,True,56.1,8307,9,8316
+wiki,18,full_context_rehearsal_lookup,False,There is no information about the Erie Canal in the passage.,2,True,56.2,9154,22,9176
+wiki,19,full_context_rehearsal_lookup,True,25%,2,True,56.0,9013,12,9025
+wiki,20,full_context_rehearsal_lookup,True,1898.,2,True,1.3,9950,16,9966
+news,2,full_context_rehearsal_lookup,False,An Australian soldier.,1,False,1.0,24455,5,24460
+news,4,full_context_rehearsal_lookup,False,Yes.,1,False,1.0,24457,3,24460
+news,6,full_context_rehearsal_lookup,False,73rd,1,False,0.3,24455,3,24458
+news,5,full_context_rehearsal_lookup,False,AC Milan,1,False,0.3,24457,3,24460
+news,3,full_context_rehearsal_lookup,False,No information is given about a flight from Japan to the U.S.,2,True,1.9,25482,24,25506
+news,9,full_context_rehearsal_lookup,False,There is no mention of this in the passage.,2,True,1.1,25433,17,25450
+news,7,full_context_rehearsal_lookup,False,I don't have that information.,2,True,1.7,25138,14,25152
+news,8,full_context_rehearsal_lookup,False,No information is given about Heineken sponsoring a program.,2,True,2.0,25562,19,25581
+news,11,full_context_rehearsal_lookup,False,Afghanistan,1,False,0.5,24453,4,24457
+news,10,full_context_rehearsal_lookup,False,Saturday,1,False,0.9,24459,2,24461
+news,12,full_context_rehearsal_lookup,False,Palestinian militants,2,True,0.9,25268,10,25278
+news,14,full_context_rehearsal_lookup,True,Three Chinese nationals.,1,False,0.6,24458,5,24463
+news,15,full_context_rehearsal_lookup,True,Assistant Attorney General Alice Fisher.,2,True,1.2,25420,13,25433
+news,13,full_context_rehearsal_lookup,False,Friday.,2,True,55.2,27766,1176,28942
+news,16,full_context_rehearsal_lookup,False,"Kaka, Musharraf, Bush, Cheney.",2,True,54.3,27762,1185,28947
+news,1,full_context_rehearsal_lookup,False,"Civilians, 60 wounded.",2,True,59.0,27766,1182,28948
+news,17,full_context_rehearsal_lookup,False,Restore democracy in Pakistan.,1,False,53.6,24459,6,24465
+news,19,full_context_rehearsal_lookup,True,Julio Cruz.,2,True,1.6,25438,11,25449
+news,18,full_context_rehearsal_lookup,False,Yes.,2,True,2.8,27503,216,27719
+news,20,full_context_rehearsal_lookup,False,Patrick Vieira.,2,True,10.3,27772,1178,28950
+novel,00950a36_2,full_context_rehearsal_lookup,False,The text does not mention the name of the city Olivia is escaping from.,1,False,1.4,30313,16,30329
+novel,00950a36_0,full_context_rehearsal_lookup,True,Shah Amurath,1,False,1.4,30316,6,30322
+novel,00950a36_5,full_context_rehearsal_lookup,False,No one mentioned.,2,True,1.8,31316,11,31327
+novel,00950a36_1,full_context_rehearsal_lookup,False,Fahfrd.,1,False,1.9,30312,6,30318
+novel,00950a36_7,full_context_rehearsal_lookup,False,Robert Herrick,1,False,1.4,30317,4,30321
+novel,00950a36_8,full_context_rehearsal_lookup,False,No one is mentioned as freeing Conan from the pirates in the given passage.,2,True,1.1,31312,22,31334
+novel,00950a36_6,full_context_rehearsal_lookup,False,No one.,2,True,1.7,31318,10,31328
+novel,00950a36_9,full_context_rehearsal_lookup,False,The ruins.,1,False,1.5,30308,4,30312
+novel,00950a36_11,full_context_rehearsal_lookup,False,There is no information about Conan being made a captain in the passage.,2,True,0.8,31243,21,31264
+novel,00950a36_13,full_context_rehearsal_lookup,True,Shah Amurath,1,False,0.6,30309,6,30315
+novel,00950a36_10,full_context_rehearsal_lookup,False,Shah Amurath,1,False,1.8,30311,6,30317
+novel,00950a36_14,full_context_rehearsal_lookup,False,A girdled loincloth.,1,False,1.5,30312,9,30321
+novel,00950a36_15,full_context_rehearsal_lookup,False,There is no mention of a pirate ship or its captain being killed in the provided passage.,2,True,1.4,34167,76,34243
+novel,3e966645_1,full_context_rehearsal_lookup,False,There is no mention of a ship or a country to sail to.,2,True,44.8,34173,534,34707
+novel,00950a36_12,full_context_rehearsal_lookup,True,Akif.,2,True,46.4,33668,1201,34869
+novel,3e966645_2,full_context_rehearsal_lookup,False,Mr. Saul,1,False,44.3,30308,4,30312
+novel,3e966645_4,full_context_rehearsal_lookup,False,Rum.,1,False,45.0,30311,4,30315
+novel,3e966645_6,full_context_rehearsal_lookup,False,Mr. Clavering,1,False,1.9,30308,6,30314
+novel,3e966645_7,full_context_rehearsal_lookup,False,There is no mention of a ship or a U.S. Consul in the passage.,2,True,2.0,30987,25,31012
+novel,3e966645_5,full_context_rehearsal_lookup,False,There is no mention of the former officers dying from an illness.,2,True,24.3,34060,1508,35568
+caselaw,5,full_context_rehearsal_lookup,False,5,1,False,1.1,24817,2,24819
+caselaw,9,full_context_rehearsal_lookup,True,5,1,False,0.4,24708,2,24710
+caselaw,7,full_context_rehearsal_lookup,False,4,2,True,1.5,26476,17,26493
+caselaw,1,full_context_rehearsal_lookup,True,1,2,True,2.0,26886,20,26906
+caselaw,13,full_context_rehearsal_lookup,False,5,1,False,1.0,24734,2,24736
+caselaw,3,full_context_rehearsal_lookup,True,5,2,True,2.5,26734,20,26754
+caselaw,11,full_context_rehearsal_lookup,True,5,2,True,1.4,26826,14,26840
+caselaw,17,full_context_rehearsal_lookup,False,4,1,False,0.6,24755,2,24757
+caselaw,23,full_context_rehearsal_lookup,False,1,1,False,0.5,24772,2,24774
+caselaw,19,full_context_rehearsal_lookup,False,4,2,True,1.8,26836,20,26856
+caselaw,21,full_context_rehearsal_lookup,False,5,2,True,1.6,26762,20,26782
+caselaw,27,full_context_rehearsal_lookup,True,2,1,False,0.5,24685,2,24687
+caselaw,25,full_context_rehearsal_lookup,False,3,2,True,32.1,26730,20,26750
+caselaw,33,full_context_rehearsal_lookup,False,2,1,False,0.7,24702,2,24704
+caselaw,29,full_context_rehearsal_lookup,True,5,2,True,31.9,26942,20,26962
+caselaw,31,full_context_rehearsal_lookup,True,5,1,False,31.6,24712,2,24714
+caselaw,35,full_context_rehearsal_lookup,False,5,1,False,0.3,24768,2,24770
+caselaw,39,full_context_rehearsal_lookup,False,5,2,True,0.8,26766,14,26780
+caselaw,37,full_context_rehearsal_lookup,True,5,2,True,23.2,26760,20,26780
+caselaw,15,full_context_rehearsal_lookup,False,4,2,True,58.5,29165,1205,30370
+wiki,22,full_context_rehearsal_lookup,True,Megacity,1,False,0.6,7180,3,7183
+wiki,21,full_context_rehearsal_lookup,False,There is no information about the Triangle Shirtwaist Factory fire in the provided passage.,2,True,1.3,8309,24,8333
+wiki,25,full_context_rehearsal_lookup,False,No information is provided about a plane crashing into the World Trade Center.,2,True,1.4,8824,24,8848
+wiki,26,full_context_rehearsal_lookup,False,No answer available.,2,True,1.2,8321,11,8332
+wiki,23,full_context_rehearsal_lookup,True,Abstract expressionism.,2,True,2.7,10892,155,11047
+wiki,24,full_context_rehearsal_lookup,False,There is no information about the question in the passage.,2,True,2.9,11001,336,11337
+wiki,27,full_context_rehearsal_lookup,False,"Manhattan, Staten Island, and Long Island.",2,True,1.1,8152,17,8169
+wiki,30,full_context_rehearsal_lookup,False,1645,2,True,0.8,8838,12,8850
+wiki,31,full_context_rehearsal_lookup,False,Over 300.,2,True,0.8,9277,14,9291
+wiki,28,full_context_rehearsal_lookup,False,Harlem River.,2,True,2.3,10804,194,10998
+wiki,33,full_context_rehearsal_lookup,False,Elevators,2,True,1.0,8295,10,8305
+wiki,29,full_context_rehearsal_lookup,False,Not specified.,2,True,2.4,10897,220,11117
+wiki,34,full_context_rehearsal_lookup,True,Humid continental.,1,False,0.5,7181,5,7186
+wiki,35,full_context_rehearsal_lookup,True,"July 9, 1936.",2,True,0.9,8122,15,8137
+wiki,36,full_context_rehearsal_lookup,True,49.9 inches.,2,True,55.1,8122,12,8134
+wiki,38,full_context_rehearsal_lookup,False,"26,000",2,True,54.5,8072,10,8082
+wiki,37,full_context_rehearsal_lookup,True,Minneapolis.,2,True,55.2,11051,220,11271
+wiki,32,full_context_rehearsal_lookup,False,No answer available.,2,True,56.8,10971,329,11300
+wiki,39,full_context_rehearsal_lookup,True,Grant's Tomb,1,False,0.9,7177,4,7181
+wiki,40,full_context_rehearsal_lookup,True,"1,093",2,True,1.5,8070,10,8080
+news,21,full_context_rehearsal_lookup,False,"Cape Town, South Africa.",1,False,1.3,24457,8,24465
+news,24,full_context_rehearsal_lookup,False,No information.,2,True,1.8,25549,10,25559
+news,22,full_context_rehearsal_lookup,False,No information is available.,2,True,1.8,25194,12,25206
+news,25,full_context_rehearsal_lookup,False,Finch and canary fighting,1,False,0.5,24461,7,24468
+news,23,full_context_rehearsal_lookup,False,Louisiana.,2,True,1.9,25331,10,25341
+news,27,full_context_rehearsal_lookup,False,Colombian President Evo Morales,1,False,0.5,24460,7,24467
+news,26,full_context_rehearsal_lookup,False,Withdrew support,1,False,0.5,24458,5,24463
+news,29,full_context_rehearsal_lookup,False,Surrey,1,False,1.1,24456,4,24460
+news,28,full_context_rehearsal_lookup,False,No.,2,True,1.5,25465,9,25474
+news,33,full_context_rehearsal_lookup,False,Heidi Tagliavini,1,False,0.7,24457,7,24464
+news,34,full_context_rehearsal_lookup,False,No one.,1,False,0.5,24460,4,24464
+news,35,full_context_rehearsal_lookup,False,No information is available about Ray Gravell.,2,True,1.3,25146,17,25163
+news,36,full_context_rehearsal_lookup,False,No information.,2,True,1.3,27245,16,27261
+news,37,full_context_rehearsal_lookup,False,Pelser,1,False,0.5,24453,3,24456
+news,32,full_context_rehearsal_lookup,False,No information is available.,2,True,55.6,27770,1176,28946
+news,30,full_context_rehearsal_lookup,False,No mention.,2,True,56.4,27931,565,28496
+news,31,full_context_rehearsal_lookup,False,There is no information about the Commonwealth Games in the passage.,2,True,56.6,27786,1186,28972
+news,38,full_context_rehearsal_lookup,False,Two people.,2,True,52.7,26308,13,26321
+news,39,full_context_rehearsal_lookup,False,Dida,2,True,1.8,25320,9,25329
+news,40,full_context_rehearsal_lookup,False,Withdraw cash.,2,True,3.6,27919,64,27983
+novel,3e966645_8,full_context_rehearsal_lookup,False,London,1,False,1.3,30312,2,30314
+novel,3e966645_12,full_context_rehearsal_lookup,False,The evil powers.,1,False,0.5,30312,5,30317
+novel,3e966645_9,full_context_rehearsal_lookup,False,I don't have the information to answer your question.,2,True,2.1,31314,18,31332
+novel,3e966645_10,full_context_rehearsal_lookup,False,Merchandise.,2,True,2.3,33081,23,33104
+novel,3e966645_17,full_context_rehearsal_lookup,False,The South Seas.,1,False,0.8,30312,5,30317
+novel,3e966645_16,full_context_rehearsal_lookup,False,No mention of Davis.,2,True,1.2,31316,12,31328
+novel,3e966645_21,full_context_rehearsal_lookup,False,Guph,1,False,1.3,30322,4,30326
+novel,3e966645_19,full_context_rehearsal_lookup,False,There is no information about 3 beggars operating out of the Tahitian port of Papeete who were formerly an American sea captain.,2,True,2.1,33020,62,33082
+novel,3e966645_22,full_context_rehearsal_lookup,False,Melbourne,1,False,0.6,30317,3,30320
+novel,6a659de3_2,full_context_rehearsal_lookup,False,Evil powers,1,False,0.7,30314,4,30318
+novel,6a659de3_3,full_context_rehearsal_lookup,False,Guph,1,False,0.5,30306,4,30310
+novel,6a659de3_4,full_context_rehearsal_lookup,False,Shah Amurath,1,False,1.5,30319,6,30325
+novel,6a659de3_5,full_context_rehearsal_lookup,False,Guph,1,False,0.4,30314,4,30318
+novel,3e966645_20,full_context_rehearsal_lookup,False,I don't have that information.,2,True,53.4,34082,1502,35584
+novel,3e966645_11,full_context_rehearsal_lookup,False,The steppes.,2,True,56.3,34056,1500,35556
+novel,6a659de3_6,full_context_rehearsal_lookup,False,There is no queen mentioned in the passage.,2,True,48.4,34052,1507,35559
+novel,3e966645_23,full_context_rehearsal_lookup,False,There is no information about 3 beggars operating out of the Tahitian port of Papeete or a failed English businessman.,2,True,52.5,34092,1521,35613
+novel,6a659de3_7,full_context_rehearsal_lookup,False,There is no mention of a box.,2,True,1.7,31322,15,31337
+novel,6a659de3_8,full_context_rehearsal_lookup,False,No one mentioned in the passage.,2,True,3.6,31314,14,31328
+novel,6a659de3_11,full_context_rehearsal_lookup,False,There is no mention of a character named Leo in the provided passage.,2,True,40.9,34056,1509,35565
+caselaw,43,full_context_rehearsal_lookup,False,5,1,False,1.2,24724,2,24726
+caselaw,45,full_context_rehearsal_lookup,False,2,2,True,1.7,26848,20,26868
+caselaw,47,full_context_rehearsal_lookup,False,5,2,True,1.7,26830,20,26850
+caselaw,41,full_context_rehearsal_lookup,False,3,2,True,1.9,26774,14,26788
+caselaw,49,full_context_rehearsal_lookup,True,5,1,False,1.1,24696,2,24698
+caselaw,55,full_context_rehearsal_lookup,True,2,1,False,0.5,24762,2,24764
+caselaw,51,full_context_rehearsal_lookup,True,5,1,False,1.1,24692,2,24694
+caselaw,59,full_context_rehearsal_lookup,False,4,1,False,0.7,24774,2,24776
+caselaw,57,full_context_rehearsal_lookup,False,4,1,False,1.1,24743,2,24745
+caselaw,53,full_context_rehearsal_lookup,False,5,2,True,1.9,26522,17,26539
+caselaw,61,full_context_rehearsal_lookup,False,1,2,True,1.4,26452,17,26469
+caselaw,63,full_context_rehearsal_lookup,False,5,2,True,1.6,26626,17,26643
+caselaw,65,full_context_rehearsal_lookup,True,5,2,True,15.6,26856,20,26876
+caselaw,67,full_context_rehearsal_lookup,False,3,2,True,15.3,26788,17,26805
+caselaw,75,full_context_rehearsal_lookup,True,2,2,True,1.5,26772,11,26783
+caselaw,69,full_context_rehearsal_lookup,False,3,2,True,18.1,25891,8,25899
+caselaw,71,full_context_rehearsal_lookup,False,5,2,True,54.9,26574,11,26585
+caselaw,77,full_context_rehearsal_lookup,False,1,2,True,40.0,26314,14,26328
+caselaw,73,full_context_rehearsal_lookup,True,2,2,True,41.5,26778,20,26798
+caselaw,79,full_context_rehearsal_lookup,False,5,2,True,39.3,26902,20,26922
+wiki,43,full_context_rehearsal_lookup,False,Bangladeshi.,2,True,0.8,8359,15,8374
+wiki,44,full_context_rehearsal_lookup,False,I don't have that information.,2,True,1.0,9308,17,9325
+wiki,45,full_context_rehearsal_lookup,True,"74,000.",2,True,0.5,8234,11,8245
+wiki,46,full_context_rehearsal_lookup,True,"65,000.",2,True,0.5,8359,14,8373
+wiki,42,full_context_rehearsal_lookup,False,20.1%,2,True,1.6,10587,125,10712
+wiki,48,full_context_rehearsal_lookup,True,"568,903",1,False,0.3,7175,4,7179
+wiki,47,full_context_rehearsal_lookup,False,England,2,True,0.6,8313,8,8321
+wiki,49,full_context_rehearsal_lookup,True,Judaism.,2,True,0.8,8612,14,8626
+wiki,50,full_context_rehearsal_lookup,False,No information provided.,2,True,0.6,7828,11,7839
+wiki,51,full_context_rehearsal_lookup,True,"$15,887/m²",2,True,0.6,8253,13,8266
+wiki,52,full_context_rehearsal_lookup,False,No information.,2,True,0.6,8316,10,8326
+wiki,54,full_context_rehearsal_lookup,False,No information available.,2,True,0.7,8241,11,8252
+wiki,41,full_context_rehearsal_lookup,False,No information.,2,True,3.3,10965,328,11293
+wiki,56,full_context_rehearsal_lookup,False,Roosevelt,1,False,0.3,7172,4,7176
+wiki,55,full_context_rehearsal_lookup,False,No information.,2,True,0.9,8245,10,8255
+wiki,57,full_context_rehearsal_lookup,True,56.4 million.,2,True,59.2,8379,12,8391
+wiki,53,full_context_rehearsal_lookup,False,Bagels.,2,True,60.1,10899,88,10987
+wiki,59,full_context_rehearsal_lookup,False,No information.,2,True,59.0,8257,10,8267
+wiki,58,full_context_rehearsal_lookup,False,I Didn't Know,2,True,59.2,8301,11,8312
+wiki,60,full_context_rehearsal_lookup,False,I don't have that information.,2,True,0.6,7826,14,7840
+news,42,full_context_rehearsal_lookup,False,Guam,1,False,1.1,24457,3,24460
+news,44,full_context_rehearsal_lookup,False,Veterans' care programs.,1,False,1.1,24458,7,24465
+news,43,full_context_rehearsal_lookup,True,Genocide,1,False,1.1,24460,3,24463
+news,41,full_context_rehearsal_lookup,False,The disabled young son of UK opposition leader David Cameron.,1,False,1.1,24461,12,24473
+news,47,full_context_rehearsal_lookup,False,6,1,False,1.5,24455,2,24457
+news,46,full_context_rehearsal_lookup,False,CNN,2,True,2.1,25412,8,25420
+news,45,full_context_rehearsal_lookup,False,Nothing.,2,True,2.1,25514,9,25523
+news,49,full_context_rehearsal_lookup,False,Terrorists and narcotraffickers.,2,True,1.0,25290,17,25307
+news,48,full_context_rehearsal_lookup,False,"There is no mention of ""ml5"" in the passage.",2,True,3.7,27434,239,27673
+news,52,full_context_rehearsal_lookup,False,No information is given about Coatseville.,2,True,8.2,27933,781,28714
+news,54,full_context_rehearsal_lookup,False,Smuggling drugs,1,False,0.4,24457,4,24461
+news,55,full_context_rehearsal_lookup,False,Alvaro Uribe,1,False,0.4,24460,6,24466
+news,51,full_context_rehearsal_lookup,False,Private Worsley.,2,True,9.5,27762,1176,28938
+news,50,full_context_rehearsal_lookup,False,No information.,2,True,9.6,27782,1171,28953
+news,53,full_context_rehearsal_lookup,False,There is no mention of a teacher in the passage.,2,True,55.3,27774,1182,28956
+news,56,full_context_rehearsal_lookup,False,No score mentioned.,2,True,48.2,25346,11,25357
+news,58,full_context_rehearsal_lookup,False,None mentioned.,2,True,48.3,25442,10,25452
+news,57,full_context_rehearsal_lookup,False,Polyps removed.,1,False,48.5,24454,5,24459
+news,60,full_context_rehearsal_lookup,False,No information available.,2,True,0.8,25130,11,25141
+news,59,full_context_rehearsal_lookup,False,There is no information about female only buses in the passage.,2,True,1.7,25194,19,25213
+novel,6a659de3_14,full_context_rehearsal_lookup,False,Robert Herrick,1,False,2.3,30307,4,30311
+novel,9561a72a_1,full_context_rehearsal_lookup,False,Guph,1,False,0.4,30314,4,30318
+novel,9561a72a_0,full_context_rehearsal_lookup,False,There is no information about Dorothy Gale in the passage.,2,True,2.7,30975,18,30993
+novel,6a659de3_12,full_context_rehearsal_lookup,False,There is no mention of Vincey in the passage.,2,True,3.1,30983,18,31001
+novel,9561a72a_3,full_context_rehearsal_lookup,False,Clavering Park.,1,False,1.3,30311,6,30317
+novel,9561a72a_9,full_context_rehearsal_lookup,False,"Greg Weeks, Mary Meehan",1,False,0.5,30315,8,30323
+novel,9561a72a_5,full_context_rehearsal_lookup,False,There is no mention of Dorothy in the passage.,2,True,1.7,30973,17,30990
+novel,9561a72a_10,full_context_rehearsal_lookup,False,By magic wand.,2,True,0.6,31322,11,31333
+novel,9561a72a_11,full_context_rehearsal_lookup,True,King Roquat,1,False,2.1,30315,4,30319
+novel,9561a72a_7,full_context_rehearsal_lookup,False,Not specified.,2,True,7.6,34163,523,34686
+novel,6a659de3_17,full_context_rehearsal_lookup,False,There is no mention of a character named Leo in the provided passage.,2,True,10.8,34167,534,34701
+novel,9561a72a_12,full_context_rehearsal_lookup,True,Guph,1,False,6.1,30314,4,30318
+novel,bf55d1c1_2,full_context_rehearsal_lookup,False,Olivia,1,False,47.9,30310,3,30313
+novel,bf55d1c1_0,full_context_rehearsal_lookup,False,There is no mention of Adam or a snake purchase in the passage.,2,True,53.2,30979,21,31000
+novel,bf55d1c1_1,full_context_rehearsal_lookup,False,There is no mention of Arabella in the passage.,2,True,53.1,32727,42,32769
+novel,bf55d1c1_5,full_context_rehearsal_lookup,False,Shah Amurath.,2,True,8.5,33871,313,34184
+novel,bf55d1c1_4,full_context_rehearsal_lookup,False,There is no mention of Adam marrying in the passage.,2,True,16.3,34052,1506,35558
+novel,bf55d1c1_6,full_context_rehearsal_lookup,False,I don't see any mention of Arabella or a hole in the passage.,2,True,16.4,34064,1511,35575
+novel,bf55d1c1_9,full_context_rehearsal_lookup,False,No specific date mentioned.,2,True,15.4,34056,1500,35556
+novel,bf55d1c1_3,full_context_rehearsal_lookup,False,"There is no mention of Adam, Richard, Nathaniel, or Arabella in the passage.",2,True,436.4,31610,32,31642
+caselaw,87,full_context_rehearsal_lookup,False,3,1,False,1.2,24701,2,24703
+caselaw,81,full_context_rehearsal_lookup,False,3,1,False,1.2,24734,2,24736
+caselaw,83,full_context_rehearsal_lookup,False,5,1,False,1.2,24650,2,24652
+caselaw,85,full_context_rehearsal_lookup,True,2,2,True,1.5,26804,20,26824
+caselaw,91,full_context_rehearsal_lookup,False,5,2,True,0.8,26342,14,26356
+caselaw,89,full_context_rehearsal_lookup,False,5,2,True,1.1,26786,20,26806
+caselaw,97,full_context_rehearsal_lookup,False,5,1,False,0.6,24684,2,24686
+caselaw,93,full_context_rehearsal_lookup,False,5,2,True,1.5,26904,20,26924
+caselaw,99,full_context_rehearsal_lookup,False,4,1,False,0.6,24722,2,24724
+caselaw,95,full_context_rehearsal_lookup,False,4,2,True,1.5,26814,20,26834
+caselaw,101,full_context_rehearsal_lookup,False,4,1,False,0.5,24670,2,24672
+caselaw,103,full_context_rehearsal_lookup,False,5,2,True,0.9,26816,20,26836
+caselaw,109,full_context_rehearsal_lookup,False,3,2,True,0.9,26402,12,26414
+caselaw,107,full_context_rehearsal_lookup,False,4,2,True,1.3,26786,20,26806
+caselaw,113,full_context_rehearsal_lookup,False,2,1,False,0.4,24691,2,24693
+caselaw,111,full_context_rehearsal_lookup,False,3,1,False,1.1,24709,2,24711
+caselaw,105,full_context_rehearsal_lookup,False,4,2,True,1.9,26676,17,26693
+caselaw,117,full_context_rehearsal_lookup,False,3,1,False,1.1,24814,2,24816
+caselaw,119,full_context_rehearsal_lookup,True,3,1,False,44.0,24708,2,24710
+caselaw,115,full_context_rehearsal_lookup,True,4,2,True,55.9,29527,884,30411

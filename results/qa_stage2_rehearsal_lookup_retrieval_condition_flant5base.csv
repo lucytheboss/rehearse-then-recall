@@ -1,0 +1,81 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,2,full_context_rehearsal_lookup_retrieval,True,"8,491,079.",2,True,25.1,8989,13,9002
+wiki,3,full_context_rehearsal_lookup_retrieval,True,1624.,2,True,25.3,10189,10,10199
+wiki,1,full_context_rehearsal_lookup_retrieval,True,1898.,2,True,25.7,10684,10,10694
+wiki,5,full_context_rehearsal_lookup_retrieval,True,France.,2,True,3.0,10358,9,10367
+wiki,6,full_context_rehearsal_lookup_retrieval,True,Portuguese.,2,True,3.5,11113,11,11124
+wiki,7,full_context_rehearsal_lookup_retrieval,True,The Dutch East India Company.,2,True,5.1,10350,13,10363
+wiki,9,full_context_rehearsal_lookup_retrieval,True,1625.,2,True,2.1,10444,10,10454
+wiki,8,full_context_rehearsal_lookup_retrieval,True,Jan Rodrigues.,2,True,2.7,10352,11,10363
+wiki,4,full_context_rehearsal_lookup_retrieval,False,Wisconsinan glaciation.,2,True,33.6,10526,13,10539
+wiki,12,full_context_rehearsal_lookup_retrieval,True,The Second Anglo-Dutch War.,2,True,3.8,10619,14,10633
+wiki,11,full_context_rehearsal_lookup_retrieval,True,New Orange.,2,True,4.6,10609,10,10619
+wiki,13,full_context_rehearsal_lookup_retrieval,True,1735.,2,True,3.9,11170,10,11180
+wiki,14,full_context_rehearsal_lookup_retrieval,True,August 1776.,2,True,2.6,10530,12,10542
+wiki,10,full_context_rehearsal_lookup_retrieval,True,Peter Stuyvesant.,2,True,10.2,10444,13,10457
+wiki,15,full_context_rehearsal_lookup_retrieval,True,The Great Fire of New York.,2,True,22.6,10465,14,10479
+wiki,17,full_context_rehearsal_lookup_retrieval,True,1827,2,True,42.8,10990,9,10999
+wiki,16,full_context_rehearsal_lookup_retrieval,True,Philadelphia.,2,True,45.8,11015,9,11024
+wiki,18,full_context_rehearsal_lookup_retrieval,True,1825,2,True,42.3,10739,9,10748
+wiki,19,full_context_rehearsal_lookup_retrieval,True,25%,2,True,25.3,10209,9,10218
+wiki,20,full_context_rehearsal_lookup_retrieval,True,1898.,2,True,2.0,10013,10,10023
+news,3,full_context_rehearsal_lookup_retrieval,False,Michio Kanda.,2,True,1.4,27448,12,27460
+news,4,full_context_rehearsal_lookup_retrieval,False,Yes.,2,True,1.5,27786,12,27798
+news,2,full_context_rehearsal_lookup_retrieval,False,"An Australian soldier, three civilians, and Taliban militants.",2,True,1.5,27570,27,27597
+news,6,full_context_rehearsal_lookup_retrieval,False,Left-hander,1,False,0.3,24870,4,24874
+news,5,full_context_rehearsal_lookup_retrieval,False,AC Milan,1,False,1.0,24872,3,24875
+news,7,full_context_rehearsal_lookup_retrieval,False,Guinness,1,False,1.0,24875,3,24878
+news,9,full_context_rehearsal_lookup_retrieval,False,Colonoscopy.,1,False,0.3,24881,5,24886
+news,8,full_context_rehearsal_lookup_retrieval,False,television survival show,1,False,1.0,24872,5,24877
+news,10,full_context_rehearsal_lookup_retrieval,False,September 13,1,False,0.3,24874,4,24878
+news,13,full_context_rehearsal_lookup_retrieval,False,1970s-present.,2,True,0.7,27882,12,27894
+news,12,full_context_rehearsal_lookup_retrieval,False,Al Qaeda.,2,True,1.7,28256,16,28272
+news,15,full_context_rehearsal_lookup_retrieval,True,Assistant Attorney General Alice Fisher.,2,True,19.7,27620,13,27633
+news,14,full_context_rehearsal_lookup_retrieval,True,Three Chinese nationals.,2,True,21.4,27729,14,27743
+news,11,full_context_rehearsal_lookup_retrieval,False,"Uruzgan province, Afghanistan.",2,True,24.9,28175,1178,29353
+news,1,full_context_rehearsal_lookup_retrieval,False,"Civilians, Taliban militants, and 60 others wounded.",2,True,31.5,28181,1184,29365
+news,17,full_context_rehearsal_lookup_retrieval,False,Demand full democracy in Pakistan.,2,True,28.9,28265,13,28278
+news,19,full_context_rehearsal_lookup_retrieval,True,Julio Cruz.,2,True,6.0,28159,11,28170
+news,20,full_context_rehearsal_lookup_retrieval,False,None mentioned.,2,True,2.5,27859,10,27869
+news,18,full_context_rehearsal_lookup_retrieval,False,Yes.,2,True,8.2,28156,420,28576
+news,16,full_context_rehearsal_lookup_retrieval,False,"Kaka, Musharraf, Bush, Cheney.",2,True,14.8,28251,576,28827
+novel,00950a36_5,full_context_rehearsal_lookup_retrieval,True,Olivia.,2,True,5.2,32990,22,33012
+novel,00950a36_6,full_context_rehearsal_lookup_retrieval,False,Dorothy.,1,False,8.0,29183,5,29188
+novel,00950a36_7,full_context_rehearsal_lookup_retrieval,True,"Conan, of Cimmeria.",2,True,4.6,32190,21,32211
+novel,00950a36_8,full_context_rehearsal_lookup_retrieval,True,Olivia.,2,True,7.7,33242,10,33252
+novel,00950a36_9,full_context_rehearsal_lookup_retrieval,True,Akif.,2,True,12.2,33114,304,33418
+novel,00950a36_2,full_context_rehearsal_lookup_retrieval,True,Akif.,2,True,13.3,32938,1504,34442
+novel,00950a36_10,full_context_rehearsal_lookup_retrieval,True,Conan.,2,True,5.5,32941,220,33161
+novel,00950a36_0,full_context_rehearsal_lookup_retrieval,True,Shah Amurath.,2,True,20.6,33130,1495,34625
+novel,00950a36_1,full_context_rehearsal_lookup_retrieval,False,No one.,2,True,29.9,32837,1147,33984
+novel,00950a36_11,full_context_rehearsal_lookup_retrieval,False,No one.,2,True,15.2,33231,1168,34399
+novel,00950a36_12,full_context_rehearsal_lookup_retrieval,True,Akif.,2,True,18.4,33114,1492,34606
+novel,00950a36_13,full_context_rehearsal_lookup_retrieval,False,Hyrkanians.,2,True,16.9,33116,1482,34598
+novel,00950a36_14,full_context_rehearsal_lookup_retrieval,False,A broadsword.,2,True,18.3,32936,1502,34438
+novel,3e966645_4,full_context_rehearsal_lookup_retrieval,False,Cough mixture.,1,False,2.5,29183,5,29188
+novel,00950a36_15,full_context_rehearsal_lookup_retrieval,False,No one.,2,True,11.0,32833,1147,33980
+novel,3e966645_6,full_context_rehearsal_lookup_retrieval,True,Herrick.,1,False,3.0,29180,4,29184
+novel,3e966645_7,full_context_rehearsal_lookup_retrieval,False,Brown.,2,True,10.6,32509,9,32518
+novel,3e966645_1,full_context_rehearsal_lookup_retrieval,False,There is no information about men planning to sail a ship.,2,True,16.4,29678,376,30054
+novel,3e966645_5,full_context_rehearsal_lookup_retrieval,False,None mentioned.,2,True,17.8,32932,1498,34430
+novel,3e966645_2,full_context_rehearsal_lookup_retrieval,False,Mitra.,2,True,39.2,32928,1498,34426
+caselaw,5,full_context_rehearsal_lookup_retrieval,False,5,1,False,3.0,24419,2,24421
+caselaw,7,full_context_rehearsal_lookup_retrieval,False,4,1,False,3.2,24269,2,24271
+caselaw,3,full_context_rehearsal_lookup_retrieval,True,5,1,False,3.4,24255,2,24257
+caselaw,1,full_context_rehearsal_lookup_retrieval,False,5,1,False,3.7,24331,2,24333
+caselaw,9,full_context_rehearsal_lookup_retrieval,True,5,1,False,1.9,24310,2,24312
+caselaw,13,full_context_rehearsal_lookup_retrieval,False,5,1,False,2.7,24336,2,24338
+caselaw,17,full_context_rehearsal_lookup_retrieval,False,4,1,False,2.0,24357,2,24359
+caselaw,21,full_context_rehearsal_lookup_retrieval,False,5,1,False,1.6,24269,2,24271
+caselaw,19,full_context_rehearsal_lookup_retrieval,False,5,1,False,4.1,24306,2,24308
+caselaw,15,full_context_rehearsal_lookup_retrieval,False,4,2,True,3.6,28628,20,28648
+caselaw,23,full_context_rehearsal_lookup_retrieval,True,3,1,False,3.4,24374,2,24376
+caselaw,25,full_context_rehearsal_lookup_retrieval,False,3,1,False,2.1,24253,2,24255
+caselaw,27,full_context_rehearsal_lookup_retrieval,True,2,1,False,0.7,24287,2,24289
+caselaw,11,full_context_rehearsal_lookup_retrieval,False,3,2,True,4.7,28746,20,28766
+caselaw,33,full_context_rehearsal_lookup_retrieval,False,2,1,False,0.6,24304,2,24306
+caselaw,31,full_context_rehearsal_lookup_retrieval,True,5,1,False,2.1,24314,2,24316
+caselaw,29,full_context_rehearsal_lookup_retrieval,True,5,1,False,2.4,24359,2,24361
+caselaw,35,full_context_rehearsal_lookup_retrieval,False,5,1,False,3.0,24370,2,24372
+caselaw,37,full_context_rehearsal_lookup_retrieval,True,5,1,False,4.7,24268,2,24270
+caselaw,39,full_context_rehearsal_lookup_retrieval,False,1,1,False,4.2,24271,2,24273

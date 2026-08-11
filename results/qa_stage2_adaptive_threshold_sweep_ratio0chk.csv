@@ -1,0 +1,201 @@
+﻿threshold,genre,question_id,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+0.75,wiki,1,True,1898.,2,True,3.8,8177,10,8187
+0.75,wiki,5,True,France,1,False,3.5,7175,2,7177
+0.75,wiki,3,True,1624,2,True,8.4,10640,18,10658
+0.75,wiki,2,True,"8,491,079.",2,True,9.0,14710,142,14852
+0.75,wiki,6,True,Portuguese,1,False,3.6,7176,4,7180
+0.75,wiki,4,False,Wisconsinan glaciation.,2,True,11.0,8281,16,8297
+0.75,wiki,8,True,Jan Rodrigues.,2,True,6.3,8098,11,8109
+0.75,wiki,9,True,1625,2,True,4.7,8456,9,8465
+0.75,wiki,7,True,The Dutch East India Company.,2,True,8.1,7834,13,7847
+0.75,news,2,False,An Australian soldier.,1,False,3.4,24455,5,24460
+0.75,wiki,10,True,Peter Stuyvesant.,2,True,11.8,8068,13,8081
+0.75,news,5,False,AC Milan.,2,True,4.4,31572,211,31783
+0.75,news,6,False,73rd,1,False,2.4,24455,3,24458
+0.75,news,1,False,"Civilians, 2 women and a child, and 7 U.S. military personnel.",2,True,14.2,31752,594,32346
+0.75,news,4,False,Yes.,1,False,11.8,24457,3,24460
+0.75,news,3,False,Michio Kanda.,2,True,19.4,25706,12,25718
+0.75,news,9,False,Colonoscopy.,2,True,29.7,26435,20,26455
+0.75,news,10,False,Saturday,1,False,25.1,24459,2,24461
+0.75,news,7,False,Heineken.,2,True,30.1,25154,11,25165
+0.75,novel,00950a36_0,True,Shah Amurath,1,False,3.3,30316,6,30322
+0.75,novel,00950a36_2,False,SHAH AMURATH,1,False,8.4,30313,6,30319
+0.75,novel,00950a36_5,False,She.,2,True,5.9,31323,9,31332
+0.75,news,8,True,Gulder Ultimate Search.,2,True,42.8,25419,13,25432
+0.75,novel,00950a36_7,False,Robert Herrick,1,False,3.7,30317,4,30321
+0.75,novel,00950a36_9,False,The ruins.,1,False,3.0,30308,4,30312
+0.75,novel,00950a36_6,False,No one.,2,True,7.6,31333,10,31343
+0.75,novel,00950a36_10,False,Shah Amurath,1,False,5.2,30311,6,30317
+0.75,novel,00950a36_11,False,No one.,2,True,5.4,33492,10,33502
+0.75,caselaw,1,True,1,1,False,3.2,24729,2,24731
+0.75,caselaw,3,True,5,1,False,2.9,24653,2,24655
+0.75,caselaw,5,False,5,1,False,4.1,24817,2,24819
+0.75,novel,00950a36_8,True,Olivia.,2,True,17.3,37322,523,37845
+0.75,caselaw,9,True,5,1,False,4.7,24708,2,24710
+0.75,caselaw,13,False,5,1,False,2.3,24734,2,24736
+0.75,caselaw,11,False,3,2,True,5.0,34108,21,34129
+0.75,caselaw,7,False,5,2,True,12.0,34044,20,34064
+0.75,caselaw,15,False,5,2,True,19.9,33990,20,34010
+0.75,caselaw,17,True,1,1,False,21.5,24755,2,24757
+0.75,caselaw,19,False,4,2,True,28.3,34118,20,34138
+0.75,novel,00950a36_1,False,Fahnenz.,1,False,128.1,30312,6,30318
+0.85,wiki,1,True,1898.,2,True,2.5,8177,10,8187
+0.85,wiki,5,True,France,1,False,1.6,7175,2,7177
+0.85,wiki,4,False,Wisconsinan glaciation.,2,True,4.0,14350,76,14426
+0.85,wiki,3,True,1624.,2,True,3.5,9708,19,9727
+0.85,wiki,2,True,"8,491,079.",2,True,4.6,14852,235,15087
+0.85,wiki,6,True,Portuguese,1,False,1.4,7176,4,7180
+0.85,wiki,8,True,Jan Rodrigues.,2,True,1.9,8098,11,8109
+0.85,wiki,9,True,1625,2,True,1.4,8102,9,8111
+0.85,wiki,7,True,The Dutch East India Company.,2,True,3.1,7834,13,7847
+0.85,wiki,10,True,Peter Stuyvesant.,2,True,3.1,8068,13,8081
+0.85,news,2,False,An Australian soldier.,1,False,3.3,24455,5,24460
+0.85,news,3,False,Michio Kanda.,2,True,3.6,25454,15,25469
+0.85,news,4,False,Yes.,1,False,4.9,24457,3,24460
+0.85,news,6,False,73rd,1,False,2.8,24455,3,24458
+0.85,news,1,False,"Civilians, bus riders, and truck driver.",2,True,10.3,31646,1179,32825
+0.85,news,7,False,Heineken.,2,True,46.3,25154,11,25165
+0.85,news,8,True,Gulder Ultimate Search.,2,True,45.4,25419,13,25432
+0.85,news,5,False,AC Milan.,2,True,50.2,31888,1105,32993
+0.85,news,10,False,Saturday,1,False,1.3,24459,2,24461
+0.85,novel,00950a36_0,True,Shah Amurath,1,False,2.4,30316,6,30322
+0.85,news,9,False,Colonoscopy.,2,True,45.2,25921,20,25941
+0.85,novel,00950a36_2,False,SHAH AMURATH,1,False,2.3,30313,6,30319
+0.85,novel,00950a36_6,True,Olivia,1,False,1.6,30311,3,30314
+0.85,novel,00950a36_7,False,Robert Herrick,1,False,2.1,30317,4,30321
+0.85,novel,00950a36_1,True,Olivia.,2,True,5.2,31732,10,31742
+0.85,novel,00950a36_8,True,Olivia.,2,True,2.9,31964,16,31980
+0.85,novel,00950a36_9,False,The ruins.,1,False,2.4,30308,4,30312
+0.85,novel,00950a36_10,False,Shah Amurath,1,False,2.5,30311,6,30317
+0.85,novel,00950a36_11,False,No one.,2,True,2.6,31931,10,31941
+0.85,caselaw,1,True,1,1,False,3.8,24729,2,24731
+0.85,caselaw,3,True,5,1,False,3.9,24653,2,24655
+0.85,caselaw,5,False,5,1,False,2.1,24817,2,24819
+0.85,novel,00950a36_5,False,She.,2,True,10.6,31323,9,31332
+0.85,caselaw,11,False,3,2,True,2.1,34405,20,34425
+0.85,caselaw,7,False,5,2,True,4.4,34341,20,34361
+0.85,caselaw,13,False,5,1,False,5.9,24734,2,24736
+0.85,caselaw,9,True,5,1,False,8.8,24708,2,24710
+0.85,caselaw,15,False,5,2,True,40.2,34287,20,34307
+0.85,caselaw,17,True,1,1,False,42.4,24755,2,24757
+0.85,caselaw,19,False,4,2,True,40.2,34415,20,34435
+0.9,wiki,1,True,1898,1,False,0.5,7177,3,7180
+0.9,wiki,5,True,France,1,False,1.2,7175,2,7177
+0.9,wiki,4,False,Wisconsinan glaciation.,2,True,1.9,8281,16,8297
+0.9,wiki,3,True,1624.,2,True,2.4,10753,25,10778
+0.9,wiki,8,True,Jan Rodrigues.,2,True,2.4,8098,11,8109
+0.9,wiki,6,True,Portuguese,2,True,5.8,7844,10,7854
+0.9,wiki,10,True,Peter Stuyvesant.,2,True,2.7,8068,13,8081
+0.9,news,1,False,Civilians and Taliban militants.,1,False,1.1,24456,8,24464
+0.9,wiki,2,True,"8,491,079.",2,True,12.1,14852,235,15087
+0.9,wiki,9,True,1625,2,True,5.6,8102,9,8111
+0.9,news,2,False,An Australian soldier.,1,False,0.6,24455,5,24460
+0.9,wiki,7,True,The Dutch East India Company.,2,True,10.4,7834,13,7847
+0.9,news,4,False,Yes.,1,False,1.2,24457,3,24460
+0.9,news,3,False,Michio Kanda.,2,True,2.7,25454,15,25469
+0.9,news,7,False,Guinness,1,False,3.0,24460,3,24463
+0.9,news,6,False,73rd,1,False,9.3,24455,3,24458
+0.9,news,10,False,Saturday,1,False,37.0,24459,2,24461
+0.9,novel,00950a36_0,True,Shah Amurath,1,False,2.9,30316,6,30322
+0.9,news,8,True,Gulder Ultimate Search.,2,True,46.8,25419,13,25432
+0.9,news,9,False,Colonoscopy.,2,True,47.6,25776,20,25796
+0.9,news,5,False,AC Milan.,2,True,51.5,25294,10,25304
+0.9,novel,00950a36_1,False,Fahnenzadeh,1,False,4.0,30312,7,30319
+0.9,novel,00950a36_6,False,No one.,2,True,5.4,31333,10,31343
+0.9,novel,00950a36_5,False,She.,2,True,6.6,31323,9,31332
+0.9,novel,00950a36_2,True,Akif.,2,True,8.5,37937,247,38184
+0.9,novel,00950a36_9,False,The ruins.,1,False,2.1,30308,4,30312
+0.9,novel,00950a36_10,False,Shah Amurath,1,False,2.1,30311,6,30317
+0.9,novel,00950a36_8,True,Olivia.,2,True,3.4,34299,61,34360
+0.9,caselaw,1,True,1,1,False,1.4,24729,2,24731
+0.9,novel,00950a36_7,True,Conan.,2,True,9.6,37203,523,37726
+0.9,caselaw,3,True,5,1,False,2.1,24653,2,24655
+0.9,novel,00950a36_11,False,The consul.,2,True,6.5,31311,10,31321
+0.9,caselaw,5,False,5,1,False,5.8,24817,2,24819
+0.9,caselaw,9,True,5,1,False,5.1,24708,2,24710
+0.9,caselaw,7,False,5,2,True,5.5,30035,20,30055
+0.9,caselaw,13,False,5,1,False,3.3,24734,2,24736
+0.9,caselaw,11,False,3,2,True,38.3,30099,20,30119
+0.9,caselaw,15,True,1,2,True,38.5,29981,20,30001
+0.9,caselaw,19,False,4,2,True,36.1,30109,20,30129
+0.9,caselaw,17,False,4,1,False,40.6,24755,2,24757
+0.95,wiki,3,True,1624.,2,True,3.9,8584,13,8597
+0.95,wiki,1,True,1898.,2,True,5.1,8177,10,8187
+0.95,wiki,5,True,France,1,False,2.4,7175,2,7177
+0.95,wiki,4,False,Wisconsinan glaciation.,2,True,7.4,14350,76,14426
+0.95,wiki,2,True,"8,491,079.",2,True,8.6,14852,235,15087
+0.95,wiki,7,True,The Dutch East India Company.,2,True,4.4,7834,13,7847
+0.95,wiki,8,True,Jan Rodrigues.,2,True,6.1,8098,11,8109
+0.95,wiki,9,True,1625,2,True,7.4,8102,9,8111
+0.95,wiki,10,True,Peter Stuyvesant.,2,True,5.2,8068,13,8081
+0.95,news,2,False,An Australian soldier,1,False,2.6,24455,4,24459
+0.95,wiki,6,True,Portuguese,2,True,13.4,7844,10,7854
+0.95,news,4,False,Yes.,1,False,1.8,24457,3,24460
+0.95,news,6,False,73rd,1,False,32.2,24455,3,24458
+0.95,news,5,False,AC Milan.,2,True,26.1,25294,10,25304
+0.95,news,1,False,"Civilians, bus passengers, and truck driver.",2,True,40.9,31646,1122,32768
+0.95,news,3,False,Michio Kanda.,2,True,39.1,25242,12,25254
+0.95,news,8,True,Gulder Ultimate Search.,2,True,4.7,25405,13,25418
+0.95,news,7,False,Heineken.,2,True,8.3,25154,11,25165
+0.95,news,10,False,Saturday,1,False,7.2,24459,2,24461
+0.95,novel,00950a36_1,False,Valeria.,1,False,3.8,30312,4,30316
+0.95,novel,00950a36_0,True,Shah Amurath,1,False,5.7,30316,6,30322
+0.95,novel,00950a36_2,False,SHAH AMURATH,1,False,3.2,30313,6,30319
+0.95,novel,00950a36_7,False,Robert Herrick,1,False,1.3,30317,4,30321
+0.95,news,9,False,Colonoscopy.,2,True,12.5,25776,20,25796
+0.95,novel,00950a36_9,False,The ruins.,1,False,2.1,30308,4,30312
+0.95,novel,00950a36_5,False,A wretched fugitive.,2,True,4.3,31113,13,31126
+0.95,novel,00950a36_10,False,Shah Amurath,1,False,1.2,30311,6,30317
+0.95,novel,00950a36_6,False,No one.,2,True,6.8,31163,10,31173
+0.95,caselaw,1,True,1,1,False,3.0,24729,2,24731
+0.95,novel,00950a36_8,True,Olivia.,2,True,7.7,31118,10,31128
+0.95,caselaw,5,False,5,1,False,2.9,24817,2,24819
+0.95,novel,00950a36_11,False,The consul.,2,True,6.7,31124,10,31134
+0.95,caselaw,3,True,5,1,False,5.0,24653,2,24655
+0.95,caselaw,9,True,5,1,False,3.3,24708,2,24710
+0.95,caselaw,7,False,5,2,True,36.6,26475,17,26492
+0.95,caselaw,13,False,5,1,False,37.3,24734,2,24736
+0.95,caselaw,15,False,5,2,True,35.2,26627,20,26647
+0.95,caselaw,17,False,4,1,False,3.9,24755,2,24757
+0.95,caselaw,11,True,5,2,True,39.9,26745,20,26765
+0.95,caselaw,19,False,5,2,True,10.9,26755,20,26775
+0.98,wiki,1,True,1898.,2,True,5.3,8177,10,8187
+0.98,wiki,4,False,Wisconsinan glaciation.,2,True,6.1,8281,16,8297
+0.98,wiki,2,True,"8,491,079",2,True,6.8,14959,228,15187
+0.98,wiki,3,True,1624.,2,True,9.0,7960,10,7970
+0.98,wiki,5,True,France,1,False,5.1,7175,2,7177
+0.98,wiki,6,True,Portuguese,2,True,3.9,7844,10,7854
+0.98,wiki,7,True,The Dutch East India Company.,2,True,8.0,7834,13,7847
+0.98,wiki,10,True,Peter Stuyvesant.,2,True,3.3,8068,13,8081
+0.98,news,2,False,An Australian soldier.,1,False,1.0,24455,5,24460
+0.98,wiki,8,True,Jan Rodrigues.,2,True,6.5,8098,11,8109
+0.98,news,1,False,Civilians and Taliban militants.,1,False,1.9,24456,8,24464
+0.98,wiki,9,True,1625,2,True,7.6,14607,159,14766
+0.98,news,6,False,73rd,1,False,26.7,24455,3,24458
+0.98,news,4,False,Yes.,1,False,30.0,24457,3,24460
+0.98,news,3,False,Michio Kanda.,2,True,36.4,25242,12,25254
+0.98,news,7,False,Heineken.,2,True,9.9,25154,11,25165
+0.98,news,5,False,AC Milan.,2,True,38.3,31648,1174,32822
+0.98,news,10,False,Saturday,1,False,5.5,24459,2,24461
+0.98,news,8,True,Gulder Ultimate Search.,2,True,14.4,25419,13,25432
+0.98,novel,00950a36_0,True,Shah Amurath,1,False,6.5,30316,6,30322
+0.98,novel,00950a36_2,False,SHAH AMURATH,1,False,3.2,30313,6,30319
+0.98,novel,00950a36_1,False,Fahfraxa.,1,False,4.1,30312,7,30319
+0.98,novel,00950a36_5,False,A wretched fugitive.,2,True,5.1,31113,13,31126
+0.98,novel,00950a36_7,False,Robert Herrick,1,False,4.1,30317,4,30321
+0.98,news,9,False,Colonoscopy.,2,True,15.2,25776,20,25796
+0.98,novel,00950a36_6,True,Olivia,1,False,5.4,30311,3,30314
+0.98,novel,00950a36_9,False,The ruins.,1,False,2.7,30308,4,30312
+0.98,novel,00950a36_10,False,Shah Amurath,1,False,3.1,30311,6,30317
+0.98,caselaw,1,True,1,1,False,2.2,24729,2,24731
+0.98,novel,00950a36_11,False,The consul.,2,True,7.5,31124,10,31134
+0.98,novel,00950a36_8,True,Olivia.,2,True,8.9,31087,10,31097
+0.98,caselaw,5,False,5,1,False,4.8,24817,2,24819
+0.98,caselaw,3,True,5,1,False,7.3,24653,2,24655
+0.98,caselaw,13,False,5,1,False,28.0,24734,2,24736
+0.98,caselaw,9,True,5,1,False,31.2,24708,2,24710
+0.98,caselaw,7,True,2,2,True,30.6,26681,20,26701
+0.98,caselaw,17,False,4,1,False,3.6,24755,2,24757
+0.98,caselaw,19,False,5,2,True,5.0,26755,20,26775
+0.98,caselaw,15,False,5,2,True,13.6,26627,20,26647
+0.98,caselaw,11,True,5,2,True,50.9,26745,20,26765

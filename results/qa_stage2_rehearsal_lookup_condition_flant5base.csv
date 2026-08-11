@@ -1,0 +1,81 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,4,full_context_rehearsal_lookup,False,No information.,2,True,2.7,7917,10,7927
+wiki,1,full_context_rehearsal_lookup,True,1898.,2,True,3.3,7893,10,7903
+wiki,3,full_context_rehearsal_lookup,True,1624.,2,True,6.4,7881,10,7891
+wiki,2,full_context_rehearsal_lookup,True,"8,491,079.",2,True,6.4,7895,13,7908
+wiki,6,full_context_rehearsal_lookup,False,I don't have that information.,2,True,3.9,7891,14,7905
+wiki,5,full_context_rehearsal_lookup,False,I don't have information about that.,2,True,6.6,7889,15,7904
+wiki,9,full_context_rehearsal_lookup,False,1624,2,True,3.4,7887,9,7896
+wiki,8,full_context_rehearsal_lookup,False,No information.,2,True,4.8,7883,10,7893
+wiki,7,full_context_rehearsal_lookup,False,I don't have that information.,2,True,5.1,7881,14,7895
+wiki,10,full_context_rehearsal_lookup,True,Peter Stuyvesant.,2,True,3.1,7887,13,7900
+wiki,11,full_context_rehearsal_lookup,False,New Amsterdam.,2,True,2.3,7891,10,7901
+wiki,12,full_context_rehearsal_lookup,False,No information is provided about England gaining New York in exchange for an Indonesian island.,2,True,3.7,7901,23,7924
+wiki,15,full_context_rehearsal_lookup,False,No answer available.,2,True,4.0,7887,11,7898
+wiki,14,full_context_rehearsal_lookup,False,I don't have information about the Battle of Long Island in the passage.,2,True,5.1,7893,22,7915
+wiki,16,full_context_rehearsal_lookup,True,Philadelphia.,2,True,45.3,7897,9,7906
+wiki,13,full_context_rehearsal_lookup,False,I don't have information about that.,2,True,48.9,7887,15,7902
+wiki,18,full_context_rehearsal_lookup,False,There is no information about the Erie Canal in the passage.,2,True,44.4,7889,19,7908
+wiki,17,full_context_rehearsal_lookup,False,No information is provided about the state of New York eliminating slavery.,2,True,45.3,7891,20,7911
+wiki,20,full_context_rehearsal_lookup,False,1624,2,True,3.1,7891,9,7900
+wiki,19,full_context_rehearsal_lookup,False,No information available.,2,True,4.6,7901,11,7912
+news,2,full_context_rehearsal_lookup,False,"One Australian soldier, three civilians and Taliban militants.",1,False,3.0,24870,11,24881
+news,4,full_context_rehearsal_lookup,False,Yes.,2,True,3.3,25829,12,25841
+news,5,full_context_rehearsal_lookup,False,AC Milan,1,False,0.3,24872,3,24875
+news,6,full_context_rehearsal_lookup,False,6th,1,False,0.7,24870,3,24873
+news,3,full_context_rehearsal_lookup,False,Four airmen.,2,True,4.0,25704,12,25716
+news,7,full_context_rehearsal_lookup,False,Heineken,1,False,1.6,24875,4,24879
+news,10,full_context_rehearsal_lookup,False,"September 13, 2007.",1,False,2.0,24874,9,24883
+news,8,full_context_rehearsal_lookup,False,television survival show,1,False,3.1,24872,5,24877
+news,9,full_context_rehearsal_lookup,False,Colonoscopy.,1,False,3.4,24881,5,24886
+news,13,full_context_rehearsal_lookup,False,December 27,1,False,0.9,24871,4,24875
+news,12,full_context_rehearsal_lookup,False,As-Sahab Media.,2,True,1.4,25760,12,25772
+news,14,full_context_rehearsal_lookup,True,Three Chinese nationals.,2,True,1.8,25901,14,25915
+news,11,full_context_rehearsal_lookup,False,"Uruzgan province, Afghanistan.",2,True,48.7,28175,1178,29353
+news,15,full_context_rehearsal_lookup,True,Assistant Attorney General Alice Fisher.,2,True,47.1,25835,13,25848
+news,1,full_context_rehearsal_lookup,False,"Civilians, 60 wounded.",2,True,55.9,28181,1179,29360
+news,17,full_context_rehearsal_lookup,False,Cut taxes.,1,False,1.0,24874,4,24878
+news,20,full_context_rehearsal_lookup,False,David Nalbandian,1,False,1.1,24874,6,24880
+news,19,full_context_rehearsal_lookup,False,No information about Inter is given in the passage.,2,True,2.4,26015,17,26032
+news,18,full_context_rehearsal_lookup,False,Yes.,2,True,9.3,28175,1119,29294
+news,16,full_context_rehearsal_lookup,True,"Chong Lam, Joyce Chan, Eric Yuen.",2,True,129.7,28003,198,28201
+novel,00950a36_5,full_context_rehearsal_lookup,False,No one.,2,True,5.8,30050,10,30060
+novel,00950a36_6,full_context_rehearsal_lookup,False,Dorothy.,1,False,3.7,29183,5,29188
+novel,00950a36_1,full_context_rehearsal_lookup,False,No one.,2,True,11.5,30395,10,30405
+novel,00950a36_8,full_context_rehearsal_lookup,False,No one.,2,True,7.1,30387,10,30397
+novel,00950a36_7,full_context_rehearsal_lookup,False,"The clerk, Huish.",2,True,10.6,32763,1141,33904
+novel,00950a36_10,full_context_rehearsal_lookup,False,Shah Amurath.,2,True,4.5,30157,13,30170
+novel,00950a36_0,full_context_rehearsal_lookup,True,Shah Amurath.,2,True,28.9,33130,1495,34625
+novel,00950a36_9,full_context_rehearsal_lookup,True,Akif.,2,True,18.1,33114,1477,34591
+novel,00950a36_11,full_context_rehearsal_lookup,False,No one.,2,True,17.9,33231,1168,34399
+novel,00950a36_13,full_context_rehearsal_lookup,False,Hyrkanians.,2,True,18.2,33116,1491,34607
+novel,00950a36_14,full_context_rehearsal_lookup,False,A sword.,2,True,21.9,32936,1504,34440
+novel,3e966645_1,full_context_rehearsal_lookup,False,Southampton,1,False,1.5,29185,3,29188
+novel,00950a36_15,full_context_rehearsal_lookup,False,No one.,2,True,16.1,32833,1147,33980
+novel,3e966645_4,full_context_rehearsal_lookup,False,Beer and Skittles.,2,True,4.0,30231,13,30244
+novel,3e966645_2,full_context_rehearsal_lookup,False,Mitra.,2,True,17.9,32928,1498,34426
+novel,3e966645_6,full_context_rehearsal_lookup,True,Herrick.,1,False,1.1,29180,4,29184
+novel,3e966645_7,full_context_rehearsal_lookup,False,Hay.,2,True,3.6,30116,9,30125
+novel,3e966645_5,full_context_rehearsal_lookup,False,None mentioned.,2,True,15.0,32932,1498,34430
+novel,00950a36_12,full_context_rehearsal_lookup,True,Akif.,2,True,142.6,32928,1501,34429
+novel,00950a36_2,full_context_rehearsal_lookup,True,Akif.,2,True,221.7,32938,1501,34439
+caselaw,1,full_context_rehearsal_lookup,False,5,1,False,1.3,24331,2,24333
+caselaw,7,full_context_rehearsal_lookup,False,4,1,False,2.4,24269,2,24271
+caselaw,5,full_context_rehearsal_lookup,False,5,1,False,2.4,24419,2,24421
+caselaw,3,full_context_rehearsal_lookup,True,5,1,False,2.4,24255,2,24257
+caselaw,9,full_context_rehearsal_lookup,True,5,1,False,2.6,24310,2,24312
+caselaw,11,full_context_rehearsal_lookup,False,4,2,True,2.3,26429,20,26449
+caselaw,17,full_context_rehearsal_lookup,False,4,1,False,2.0,24357,2,24359
+caselaw,13,full_context_rehearsal_lookup,False,5,1,False,5.5,24336,2,24338
+caselaw,19,full_context_rehearsal_lookup,False,4,2,True,3.3,26439,20,26459
+caselaw,21,full_context_rehearsal_lookup,False,5,1,False,2.6,24269,2,24271
+caselaw,15,full_context_rehearsal_lookup,False,5,2,True,6.3,26311,20,26331
+caselaw,29,full_context_rehearsal_lookup,False,4,1,False,0.8,24359,2,24361
+caselaw,27,full_context_rehearsal_lookup,False,5,1,False,1.3,24287,2,24289
+caselaw,31,full_context_rehearsal_lookup,True,5,1,False,0.5,24314,2,24316
+caselaw,25,full_context_rehearsal_lookup,False,5,2,True,2.2,25616,8,25624
+caselaw,35,full_context_rehearsal_lookup,False,5,1,False,0.5,24370,2,24372
+caselaw,23,full_context_rehearsal_lookup,True,3,1,False,3.0,24374,2,24376
+caselaw,33,full_context_rehearsal_lookup,False,2,1,False,1.2,24304,2,24306
+caselaw,37,full_context_rehearsal_lookup,True,5,2,True,2.0,26363,20,26383
+caselaw,39,full_context_rehearsal_lookup,False,5,2,True,3.1,26369,20,26389
