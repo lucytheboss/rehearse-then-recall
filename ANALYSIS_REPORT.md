@@ -1,6 +1,6 @@
 # Rehearse, Then Recall — Progress Report
 
-_Last updated: 2026-08-07_
+_Last updated: 2026-08-11_
 
 ## 1. What this project is testing
 
@@ -38,18 +38,45 @@ reading strategy match or beat giving the model the full raw document
 
 ## 3. Stage-2 checkpoint quality (`07b`)
 
-| | early (age 0-2) | late (age 9-11) | drop |
+`early`/`late` are probe accuracy pooled over ages 0-2 / ages 3+ respectively
+(the split the collapse diagnostic actually uses — see
+`probe_accuracy_by_position`, `collapse_after=3`); `drop` is early minus late,
+so positive means collapse.
+
+| stage-2 checkpoint | early | late | drop |
 |---|---|---|---|
-| stage 1 (one-shot, driven incrementally) | 0.055 | 0.070 | -0.015 |
-| **stage 2 (rolling, threaded)** | **0.355** | **0.244** | **+0.111** |
-| teacher (upper bound) | 0.383 | 0.417 | -0.034 |
+| t5-small, self_conditioned_ratio=0.3 (original) | 0.355 | 0.244 | +0.111 |
+| t5-small, self_conditioned_ratio=0.0 (ablation) | 0.312 | 0.263 | +0.050 |
+| **flan-t5-base, self_conditioned_ratio=0.0** | **0.395** | **0.308** | **+0.088** |
+| *(for reference)* stage 1, one-shot driven incrementally | 0.065 | 0.087 | -0.022 |
+| *(for reference)* teacher, upper bound | 0.383 | 0.417 | -0.034 |
 
 ![Figure 4 — Stage-2 checkpoint retention vs. teacher](docs/report_assets/fig4_retention_curve.png)
 
-Stage 2 is 5-6x better than stage 1 at every age, but still has a real,
-positive collapse signature the teacher doesn't — a quality ceiling every
-downstream condition below inherits, since none of them retrain the
-compressor itself.
+*(Figure is from the original t5-small run — regenerate from
+`results/elaborative_stage2_retention_by_age_flant5base_ratio0.csv` before
+using this version in the writeup.)*
+
+Two separate levers were tried, and neither one fully closes the gap to the
+teacher on its own:
+
+- **Removing self-conditioning** (`ratio=0.0`) is the more effective lever
+  for the *drop* metric specifically — it roughly halves it (+0.111 →
+  +0.050), the intended effect of guarding against exposure bias.
+- **Scaling the base model** (t5-small → flan-t5-base, still at
+  `ratio=0.0`) raises retention at essentially every age in absolute terms
+  (early 0.312 → 0.395, late 0.263 → 0.308 — closer to the teacher's 0.383 /
+  0.417 than either t5-small config gets) but does **not** stack additively
+  with the ratio fix on the drop metric itself (+0.088, worse than +0.050).
+  Bigger model, higher ceiling, same-shaped curve.
+
+Every downstream condition in §4 was evaluated against the **t5-small,
+ratio=0.0** checkpoint, not the flan-t5-base one — `10`'s
+`STAGE2_CHECKPOINT_RATIO0` toggle hasn't been extended to point at the new
+checkpoint yet, so §4's numbers still carry that smaller compressor's
+ceiling. Whether the flan-t5-base checkpoint's higher absolute retention
+translates into higher downstream QA accuracy is an open, unanswered
+question, not yet tested.
 
 ## 4. Evaluation results
 
@@ -132,14 +159,22 @@ base lookup condition, and this one) that caselaw specifically does worse
 with more retrieved context. Worth prioritizing for full-scale
 confirmation over the other pending cells.
 
-**Adaptive-k does not yet match the per-genre cap on caselaw specifically**
-(0.300 vs 0.450, same n=20) — the one genre the whole per-genre-vs-adaptive
-question was actually about. Elsewhere the two are identical, which makes
-sense: `ADAPTIVE_RELATIVE_THRESHOLD` hasn't been tuned at all yet (first
-value tried), while the per-genre cap came from three rounds of evidence.
-This is not a reason to prefer the per-genre table — it's a reason to tune
-Adaptive-k's one threshold before concluding it can't reach the same
-result generalizably. See §7.
+**Adaptive-k does not match the per-genre cap on caselaw specifically**
+(0.300 vs 0.450 at n=20), the one genre the whole per-genre-vs-adaptive
+question was actually about. `ADAPTIVE_RELATIVE_THRESHOLD` was swept over
+{0.75, 0.85, 0.90, 0.95, 0.98} (n=10/genre/value, 2026-08-11) to check
+whether this was simply an untuned default rather than a real mechanism
+gap — it wasn't a tuning problem: caselaw stayed at 0.4 across every value
+except 0.98 (0.5, on a 1-question swing at n=10 — not distinguishable from
+noise), while wiki (0.9) and news (0.1) showed *zero* sensitivity to the
+threshold at all. Token cost fell slightly as the threshold tightened
+(23,857 → 22,778, mechanical — fewer chunks pass a stricter cutoff), with
+no accompanying accuracy gain. Read together with the flat per-genre
+numbers, this points at a **targeting-quality gap, not a chunk-count
+gap** — the per-genre cap's caselaw advantage likely isn't "fewer chunks,"
+it's *which* chunks, something a relative-score-margin rule over the same
+similarity ranking can't fix by moving its one threshold. Concluding this
+line of tuning here; see §7.
 
 ## 5. Methodology notes worth keeping
 
@@ -182,18 +217,22 @@ be strategy-agnostic (`_lookup_window_indices` / the adaptive selection
 don't assume B specifically), so extending to A/A->B should mean feeding a
 different chunk representation in, not rebuilding the mechanism.
 
-## 7. Next steps, in priority order
+## 7. Status: experimentation concluded (2026-08-11)
 
-1. Confirm `full_context_rehearsal_lookup_retrieval_pergenre` and
-   `_adaptive`'s caselaw result at full scale (200 questions) — the single
-   most promising unconfirmed number in this report.
-2. If Adaptive-k holds up, retire the per-genre-cap condition from any
-   paper claim (kept only as a "this doesn't generalize, here's what does"
-   contrast) and adopt adaptive selection as the default mechanism.
-3. Consider using teacher-generated gists (`curate_document_threaded`,
-   already built, never repurposed for this) in place of the collapse-prone
-   stage-2 checkpoint's gists for the map/lookup layer specifically — a
-   one-time precompute cost that could raise every condition's ceiling at
-   once, since none of the tuning done so far touches gist quality itself.
-4. Fix the caselaw eval corpus's `<HOLDING>` artifact before any final
-   reported caselaw number.
+Closed out rather than pursued further, given the deadline — recorded here
+so the paper's scope is a documented decision, not a silent stop:
+
+- **Adaptive-k vs. per-genre cap on caselaw**: tuning `ADAPTIVE_RELATIVE_THRESHOLD`
+  (§4.2) did not close the gap — read as a targeting-quality limitation,
+  not a chunk-count one. Reporting both numbers honestly (adaptive-k
+  generalizes, per-genre cap doesn't but scores higher on this one genre)
+  rather than picking a winner.
+- **Bigger compressor (flan-t5-base)**: tried as a second lever on the
+  stage-2 collapse problem (§3) — raised absolute retention but not
+  downstream QA accuracy in a pilot (§3's checkpoint table). Kept as a
+  reported negative result, not pursued to full scale.
+- **Not pursued, out of scope for the writeup**: full-scale confirmation of
+  the pilot-only rows in §4.2, the `<HOLDING>` eval-corpus artifact, A
+  (maintenance)/A→B/C (testing-effect) per §6's grid, and using
+  teacher-generated gists in place of the stage-2 checkpoint's. Each is a
+  legitimate follow-up, none is a blocker for writing up what's here.
