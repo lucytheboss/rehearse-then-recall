@@ -28,7 +28,10 @@ from src.pipeline.curation import (
     answer_supported,
     build_teacher_messages,
     build_teacher_messages_threaded,
+    build_teacher_messages_threaded_anticollapse,
+    build_teacher_messages_threaded_anticollapse_corrective,
     build_teacher_messages_threaded_corrective,
+    collapse_score,
 )
 from src.pipeline.embeddings import embed_texts, embed_with_retry
 from src.pipeline.thread_memory import ThreadMemory
@@ -574,6 +577,149 @@ def curate_document_threaded_with_testing(
         result.probe_passed.append(probe_passed)
         result.retry_counts.append(retries)
         result.fell_back_to_verbatim.append(fell_back)
+
+        if on_chunk_done is not None:
+            on_chunk_done(position, len(chunk_texts))
+
+    return result
+
+
+@dataclass
+class AntiCollapseCurationResult(ThreadedCurationResult):
+    """Extends `ThreadedCurationResult` with the collapse-retry outcome per
+    position (2026-08-13) — see `curation.py`'s "Anti-collapse retry" module
+    note for what collapse is and why it needed a retry loop rather than a
+    one-time stronger prompt.
+
+    `collapse_scores[i]` — `collapse_score(context_texts[i], gists[i])`
+    *after* whatever retries happened (0.0 if there was no context to
+    collapse into). `retry_counts[i]` — how many corrective regenerations
+    position i needed. `fell_back_to_no_context[i]` — `True` if retries were
+    exhausted still collapsed, and the slot was regenerated once more with
+    an empty context (i.e., treated as opening a fresh thread) rather than
+    kept collapsed — a real fact from the current chunk beats a technically
+    on-topic but content-free copy of the thread it was supposed to revise.
+    """
+
+    collapse_scores: list[float] = field(default_factory=list)
+    retry_counts: list[int] = field(default_factory=list)
+    fell_back_to_no_context: list[bool] = field(default_factory=list)
+
+
+def curate_document_threaded_anticollapse(
+    chunk_texts: list[str],
+    embed_cfg: dict,
+    config: dict,
+    embed_fn=embed_texts,
+    chat_fn=chat_completion,
+    top_k: int = 3,
+    tau_read: float = 0.35,
+    tau_write: float | None = None,
+    memory_capacity: int | None = None,
+    on_overflow: str = "grow",
+    max_retries: int = 2,
+    collapse_threshold: float = 0.75,
+    on_chunk_done=None,
+    rate_limiter=None,
+) -> AntiCollapseCurationResult:
+    """`curate_document_threaded`, with a collapse check after every
+    generation instead of the answer-span probe `..._with_testing` runs.
+
+    Same retrieve/generate/write-back loop, same cost per chunk when nothing
+    is wrong (one query embedding, one teacher call, one store embedding).
+    When context was given, checks `collapse_score(context_texts, gist)` —
+    high means the gist mostly just reproduces the given thread(s) instead
+    of revising them with the current chunk's own content (see `curation.py`
+    module note: confirmed with both the teacher and the trained student,
+    with the thread/chunk fields swapped, so it is not a positional
+    artifact). Above `collapse_threshold`, retries up to `max_retries` times
+    with `build_teacher_messages_threaded_anticollapse_corrective`, which is
+    told the previous (collapsed) attempt directly. Exhausting retries still
+    collapsed falls back to generating this slot with *no* context at all
+    (`build_teacher_messages_threaded_anticollapse([], chunk_text)`) — this
+    guarantees the current chunk's own content survives somewhere, even if
+    the thread it should have merged into does not get updated this round.
+
+    Cost: +1 corrective teacher call per retry actually needed (0 to
+    `max_retries`), +1 more on the final no-context fallback if retries
+    were exhausted — no extra embedding calls until a slot's text actually
+    changes, exactly as in `..._with_testing`.
+    """
+    memory = ThreadMemory(capacity=memory_capacity, on_overflow=on_overflow)
+    write_threshold = tau_read if tau_write is None else tau_write
+
+    def _embed_slot(text: str) -> list[float] | None:
+        embedded = embed_with_retry([text], "passage", embed_cfg, embed_fn, rate_limiter=rate_limiter)
+        return None if embedded is None else embedded[0]
+
+    result = AntiCollapseCurationResult()
+
+    for position, chunk_text in enumerate(chunk_texts):
+        query_embedding = embed_with_retry([chunk_text], "query", embed_cfg, embed_fn, rate_limiter=rate_limiter)
+        if query_embedding is None:
+            result.retrieval_failed_positions.append(position)
+            hits, best = [], None
+        else:
+            hits, best = memory.retrieve(
+                query_embedding[0], position, top_k=top_k, tau=tau_read, fallback_top1=True,
+            )
+
+        context_texts = [hit.text for hit in hits]
+        messages = build_teacher_messages_threaded_anticollapse(context_texts, chunk_text)
+        completion = complete_with_retry(messages, config, chat_fn, rate_limiter=rate_limiter)
+
+        if completion is None:
+            result.failed_positions.append(position)
+            gist = chunk_text
+        else:
+            gist = completion.strip() or chunk_text
+
+        result.context_texts.append(context_texts)
+
+        # -- collapse check + corrective retry --
+        retries = 0
+        fell_back = False
+        if context_texts and completion is not None:
+            score = collapse_score(context_texts, gist)
+            while score >= collapse_threshold and retries < max_retries:
+                corrective_messages = build_teacher_messages_threaded_anticollapse_corrective(
+                    context_texts, chunk_text, gist,
+                )
+                corrective_completion = complete_with_retry(
+                    corrective_messages, config, chat_fn, rate_limiter=rate_limiter,
+                )
+                retries += 1
+                if corrective_completion is None:
+                    break
+                gist = corrective_completion.strip() or gist
+                score = collapse_score(context_texts, gist)
+
+            if score >= collapse_threshold:
+                fresh_messages = build_teacher_messages_threaded_anticollapse([], chunk_text)
+                fresh_completion = complete_with_retry(fresh_messages, config, chat_fn, rate_limiter=rate_limiter)
+                if fresh_completion is not None:
+                    gist = fresh_completion.strip() or gist
+                    fell_back = True
+                    score = 0.0  # no context this slot could have collapsed into
+        else:
+            score = 0.0
+
+        fresh_embedding = _embed_slot(gist)
+        if fresh_embedding is None:
+            result.store_failed_positions.append(position)
+            result.write_back_actions.append("insert")
+        else:
+            written = memory.write_back(
+                gist, fresh_embedding, position, position,
+                best=best, tau=write_threshold, embed_slot_fn=_embed_slot,
+            )
+            result.write_back_actions.append(written["action"])
+
+        result.gists.append(gist)
+        result.memory_states.append(" ".join(slot.text for slot in memory.slots))
+        result.collapse_scores.append(score)
+        result.retry_counts.append(retries)
+        result.fell_back_to_no_context.append(fell_back)
 
         if on_chunk_done is not None:
             on_chunk_done(position, len(chunk_texts))

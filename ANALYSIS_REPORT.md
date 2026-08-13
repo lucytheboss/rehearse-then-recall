@@ -1,6 +1,6 @@
 # Rehearse, Then Recall — Progress Report
 
-_Last updated: 2026-08-13 (pure RAG confirmed at full scale and beats rehearsal on every genre — §4.3 rewritten; gist-retrieval investigation trilogy, teacher-gist ceiling test, literature grounding, extractive query-aware pruning, length-stress test)_
+_Last updated: 2026-08-13 (root cause found: thread-memory collapse explains the rehearsal-vs-RAG gap, confirmed independent of model scale via a controlled minimal test; mnt128 compression-cap relaxation confirmed not to help; anti-collapse corrective-retry mechanism partially works, validation in progress)_
 
 ## 1. What this project is testing
 
@@ -263,7 +263,7 @@ source:
 Loses to RAG on **both** accuracy and tokens — gist embeddings are a worse
 retriever than raw-text embeddings, not a better one.
 
-#### 4.3.3 Teacher-gist ceiling test — is this a model-size problem?
+#### 4.3.3 Teacher-gist ceiling test → thread-memory collapse, confirmed root cause
 
 To test whether t5-small's compressor quality (not compression as such) is
 the bottleneck, `meta/llama-3.1-70b-instruct` was run through the identical
@@ -277,18 +277,66 @@ every gist above, on a 30-chunks-per-genre prefix pilot:
 | news | 3,829 → 2,597 (68%) | 0/30 |
 | caselaw | 4,172 → 2,871 (69%) | 0/30 |
 
-Wiki and novel *expanded* rather than compressed. A manual check of one
-wiki chunk (source: glacial geology — "ice sheet", "bedrock", "Long
-Island") found the teacher's "gist" for it was an unrelated passage about
-New York City's economy — the retrieved "related" thread (matched on the
-shared entity "New York") appears to have dominated the output rather than
-being revised with the new chunk's content, per the retrieve-and-replace
-mechanism's own instructions to the model. A 70B model shows the same
-category of failure (no compression, off-topic content) under this
-architecture that t5-small does — evidence the bottleneck may be the
-retrieve-replace mechanism itself, not compressor model size. Not yet run
-at full scale (real API cost; ~1,395 chunks, ~2.9h at the configured rate
-limit).
+Wiki and novel *expanded* rather than compressed. Inspecting all 6 gists
+for wiki side by side (not just one, as the initial spot-check did) showed
+they were **near-identical** — chunks covering boroughs, founding history,
+tourism, Wall Street, and glacial geology all produced essentially the same
+sentence as chunk 0's intro. This is not "topic drift" on one example; it
+is total collapse. The same pattern was independently confirmed in the
+*student*'s own output: `full_gists_by_genre_flant5base.json` (the
+precomputed, already-on-disk gists used throughout this project's earlier
+evaluation) shows the identical pattern for wiki, news, novel, and case
+law alike — every chunk's gist beyond position 0 reproduces position 0's
+content almost verbatim, regardless of genre.
+
+**Controlled minimal test isolates the cause.** Calling the student
+(t5-small) and the teacher (70B) directly with two topically distinct
+sentences alternately placed in the "current chunk" and "related thread"
+slots of their respective prompts: both models reproduced whichever
+content sat in the "related thread" slot near-verbatim and ignored
+"current chunk" entirely — regardless of which actual content occupied
+which slot (confirmed by swapping them). This rules out both a code bug
+(the prompt-building and write-back logic in `rehearsal.py`/
+`thread_memory.py` were independently inspected and are correct — they
+faithfully pass whatever text the model returns into memory) and a
+positional artifact (the student's prompt puts "current chunk" first,
+the teacher's puts "related thread" first, yet both collapse toward the
+"related thread" slot specifically).
+
+**Root cause: the student learned this from the teacher.** The Stage-2
+training target ($S_i$ in Eq. 3, §2.2.2 methodology) *is* the teacher's
+`curate_document_threaded` output — and that output was already collapsed,
+per the finding above. The student was never trained on clean rolling
+summaries; it was trained on a large volume of examples whose "correct"
+answer, whenever a related thread existed, was essentially "reproduce the
+thread." Supervised training on that signal produces exactly what was
+observed. **Retraining the student would not fix this** — the flaw is
+upstream, in what `curate_document_threaded` produces, which flows into
+`06b`'s corpus of training pairs. This also revises §3's earlier
+"compressor scale / training data volume" explanation for Table 2's
+residual gap (§3): scaling the compressor (flan-t5-base, §3) raised
+absolute retention without improving the age-related *decay* itself,
+which is now legible as the same collapse pattern degrading a bigger
+model too, not a capacity-gap symptom curable by more parameters or more
+documents.
+
+**Mitigation attempt (2026-08-13, in progress).** A collapse check
+(`collapse_score` — token-F1 overlap between a regenerated gist and its
+given context) plus corrective retry was added
+(`curate_document_threaded_anticollapse`, `src/pipeline/teacher.py`): on
+detecting collapse, retry up to twice with explicit corrective feedback,
+then regenerate with no context at all (treating the chunk as opening a
+fresh thread) if still collapsed. A 6-chunk sequential trial found the
+corrective retries **never succeeded** (0/10 across 5 context-bearing
+chunks) — every case that resolved did so via the no-context fallback,
+meaning the final gists are now accurate per-chunk but the mechanism is
+functionally closer to independent per-chunk summarization than genuine
+cross-chunk thread integration. A 20-chunk, retry-skipped re-run
+(`max_retries=0`, since retries never helped) is in progress to confirm
+this holds at slightly larger scale before deciding whether to pursue a
+full corpus re-curation. Full-scale teacher re-curation (real API cost;
+~1,395 chunks, ~2.9h at the configured rate limit even before any retry
+overhead) has not been run.
 
 #### 4.3.4 Why: literature grounding (2026-08-13)
 
@@ -365,7 +413,7 @@ containing the evidence) degrades sharply with length (0.6 at 1K words →
 that compression fixes it (accuracy at length was not measured for either
 approach — only token/size proxies).
 
-#### 4.3.7 Open, in progress: does less-aggressive compression recover accuracy?
+#### 4.3.7 Does less-aggressive compression recover accuracy? No — confirmed, rejected
 
 `gist_retrieval_adaptive_mnt128` (`10` §13h) tests a narrower question than
 §4.3.6: at nb10's actual eval scale (not the length-stress ladder's single
@@ -373,8 +421,25 @@ long documents), does regenerating the gist with `max_new_tokens=128`
 instead of 64 (the student's inference cap vs. the 512 its teacher targets
 were built with — a real train/inference mismatch, not evidence 64 is
 optimal) recover some of §4.3.2's accuracy loss without costing much more
-than its 1,105 avg tokens? **Pilot in progress at time of writing — no
-result yet.**
+than its 1,105 avg tokens?
+
+**No — it makes both axes worse.** Pilot (n=20/genre, same slice as
+`gist_retrieval_adaptive`'s mnt=64 baseline for a matched comparison):
+
+| genre | mnt=64 | mnt=128 |
+|---|---|---|
+| caselaw | 0.35 | 0.30 |
+| news | 0.05 | 0.05 |
+| novel | 0.15 | 0.10 |
+| wiki | 0.30 | **0.00** |
+| overall | 0.212 | 0.112 |
+| avg tokens | 902 | 1,539 |
+
+Accuracy nearly halves and tokens grow 1.7x. Consistent with §4.3.3: the
+problem is not that 64 tokens is too little room to fit the *right*
+content — it's that the collapse mechanism produces the *wrong* content
+regardless of how much room it's given, so a bigger budget only lets it
+reproduce more of the wrong (collapsed) thing.
 
 #### Summary
 
@@ -386,14 +451,17 @@ result yet.**
 | `gist_retrieval_gistembed` | 0.119 | ~1,100 | confirms selection wasn't the issue |
 | `hybrid_gistselect_rawanswer` | 0.266 | 5,364 | loses accuracy *and* tokens |
 | `extractive_query_aware_adaptive` | 0.366 | **680** | close accuracy (3/4 genres), 5.3x fewer tokens |
-| `gist_retrieval_adaptive_mnt128` | *pending* | *pending* | *pending* |
+| `gist_retrieval_adaptive_mnt128` | 0.112 (pilot) | 1,539 (pilot) | worse on both axes |
 
 **Current honest read**: no condition built on compressed (gisted) content
 beats RAG on accuracy, at any tested compression aggressiveness, model
-size, or selection mechanism. The one condition with a genuine,
+size, or selection mechanism — and §4.3.3 now explains why with a
+specific, identified mechanism (thread-memory collapse) rather than a
+general "compression is hard" appeal. The one condition with a genuine,
 defensible advantage keeps RAG's raw-text answer source and prunes it
 *extractively* and *query-aware*, not by compressing it in advance — this
-narrows what "rehearsal" can honestly claim credit for in this project.
+narrows what "rehearsal" can honestly claim credit for in this project to
+a cost/latency argument, not an accuracy one.
 
 ## 5. Methodology notes worth keeping
 
@@ -497,15 +565,23 @@ scale.
   every rehearsal-family condition on every genre**, confirmed at full
   scale (n=579) — 0.439 overall accuracy vs. 0.339 for the best gist-based
   condition, at 7x fewer tokens. See §4.3.1.
-- **The loss is content, not architecture, not selection, and probably not
-  model size** — isolated across four further full-scale conditions
-  (§4.3.2-3): swapping only the content shown (gist vs. raw) at RAG's own
-  single-call architecture loses on every genre; reselecting via gist
-  embeddings instead of raw-text embeddings changes almost nothing;
-  answering from raw text after selecting via gist embeddings loses on
-  both accuracy and tokens; a 70B teacher run through the same
-  thread-retrieve-replace mechanism shows the same category of failure
-  (no compression, off-topic content) as the trained t5-small.
+- **The loss is content, not architecture, not selection, and confirmed not
+  model size — root cause identified: thread-memory collapse** (§4.3.2-3):
+  swapping only the content shown (gist vs. raw) at RAG's own single-call
+  architecture loses on every genre; reselecting via gist embeddings
+  instead of raw-text embeddings changes almost nothing; answering from
+  raw text after selecting via gist embeddings loses on both accuracy and
+  tokens. A 70B teacher run through the identical thread-retrieve-replace
+  mechanism collapses the same way the student does — not on one
+  cherry-picked example but systematically (all 6 chunks checked side by
+  side for one genre converge on near-identical text). A controlled
+  minimal test with the "current chunk"/"related thread" fields swapped
+  confirms both model sizes reproduce whichever content sits in "related
+  thread" and ignore "current chunk," regardless of which actual content
+  occupies which slot. Since the student's training target *is* the
+  teacher's (already-collapsed) output, the student learned this failure
+  faithfully from its training data — retraining it will not fix this;
+  the flaw is upstream, in teacher curation.
 - **2025 literature (RAPTOR, EXIT, LongLLMLingua) explains why** (§4.3.4):
   this project's B is abstractive and query-agnostic by design — both
   properties the literature already documents as disadvantaged relative to
@@ -522,11 +598,20 @@ scale.
   which stays roughly flat regardless of corpus size. The hypothesized
   advantage for compression at longer documents did not appear at
   1,000-10,000 words; if anything it reverses.
-- **Open**: `gist_retrieval_adaptive_mnt128` (§4.3.7, in progress) — does
-  relaxing the student's inference-time compression cap (64→128 tokens)
-  recover any of the accuracy lost in §4.3.2, at nb10's actual eval scale
-  (distinct from the length-stress question, which this cap change does
-  *not* help — §4.3.6). Pilot running at time of writing.
+- **Relaxing the compression cap does not recover accuracy — confirmed,
+  rejected** (§4.3.7): `gist_retrieval_adaptive_mnt128` (64→128 tokens)
+  scored *worse* on both accuracy (0.212→0.112) and tokens (902→1,539) at
+  nb10's actual eval scale. Consistent with the collapse diagnosis above —
+  more budget just lets the mechanism reproduce more of the wrong content.
+- **Anti-collapse mitigation: partial, still being validated**
+  (`curate_document_threaded_anticollapse`, §4.3.3) — a collapse-detection
+  + corrective-retry loop was built; in a 6-chunk trial, the corrective
+  retries themselves never succeeded (0/10), but a final no-context
+  fallback did recover accurate per-chunk content every time. This fixes
+  *correctness* but likely gives up genuine cross-chunk integration in the
+  process. A 20-chunk, retry-skipped re-run is in progress to confirm this
+  holds before deciding whether a full corpus re-curation is worth the
+  cost.
 - **Adaptive-k vs. per-genre cap on caselaw** (§4.2): tuning
   `ADAPTIVE_RELATIVE_THRESHOLD` did not close the gap — a targeting-quality
   limitation, not a chunk-count one.
@@ -541,7 +626,8 @@ scale.
   three lookup conditions re-evaluated post-fix, accuracy moved <0.03
   everywhere — the artifact does not explain caselaw's "more context
   hurts" pattern.
-- **Not yet run to full scale**: the teacher-gist ceiling test (§4.3.3,
-  real API cost, ~2.9h estimated) and testing-effect's full 336-document
-  curation (§6) — both legitimate follow-ups, deprioritized behind the
-  RAG-vs-rehearsal investigation above.
+- **Not yet run to full scale**: the anti-collapse mechanism's full-corpus
+  validation (§4.3.3, pending the 20-chunk check above), the teacher-gist
+  ceiling test with a *working* (non-collapsing) curation mechanism (real
+  API cost, ~2.9h+ estimated, more with retry overhead), and testing-effect's
+  full 336-document curation (§6) — all legitimate follow-ups.

@@ -237,6 +237,96 @@ def build_teacher_messages_threaded(context_texts: list[str], chunk_text: str) -
 
 
 # --------------------------------------------------------------------------
+# Anti-collapse retry (2026-08-13) — TEACHER_SYSTEM_PROMPT_THREADED's revise
+# branch was found to systematically collapse: given a related thread, both
+# the teacher (70B) and the trained student reproduce the thread near-
+# verbatim and drop the current chunk's own content, regardless of which
+# text sits in which field (confirmed with the fields swapped). Since the
+# student's stage-2 targets are literally this function's output
+# (`build_stage2_pairs_threaded`), the student learned the collapse
+# faithfully from the teacher's own collapsed labels — retraining the
+# student cannot fix this; the teacher-side generation has to stop
+# collapsing first. A stronger system prompt alone (below) fixes some
+# positions but not all in a 6-chunk trial (2/5 non-failed positions still
+# collapsed) — this pairs it with the same probe-and-retry shape
+# `curate_document_threaded_with_testing` already uses, but probing for
+# collapse (token_f1 against the given context) instead of missing answer
+# spans.
+# --------------------------------------------------------------------------
+
+TEACHER_SYSTEM_PROMPT_THREADED_ANTICOLLAPSE = """You are shortening a long document as it is read chunk by chunk, keeping separate topics as separate threads rather than folding everything into one continuous summary.
+
+You will be given the current chunk and, if any exist, the thread(s) already shortened from earlier in the document that a retrieval step — not you — judged most related to it.
+
+If related thread(s) are given: they cover the same topic, entity, or event as this chunk. Produce ONE shortened passage that folds the current chunk's new information into them — revise whatever they said that is now incomplete, outdated, or contradicted, and keep whatever they said that this chunk does not touch. Your output REPLACES the thread(s) you were shown; nothing survives from them except what you carry into your output.
+
+CRITICAL: your output must contain specific wording drawn from the CURRENT CHUNK, not only from the related thread(s). A shortened passage that is the related thread(s) unchanged -- with nothing added from the current chunk -- is WRONG, even if the current chunk's topic overlaps the thread. The current chunk always has at least one fact not already in the thread(s); find it and include it. Never output the related thread(s) verbatim or near-verbatim.
+
+If no related thread is given: this chunk opens a new thread. Shorten it on its own — do not invent a connection to anything unrelated just because none was given.
+
+Shorten — do not summarize. Give back less of the passage's own wording, in the same order, rather than a restructured synopsis, so that pieces of the same thread read as one continuous passage when placed next to each other.
+
+Give me only the shortened passage for this thread. DO NOT explain your reason, no labels."""
+
+TEACHER_USER_TEMPLATE_THREADED_ANTICOLLAPSE_CORRECTIVE = """Related thread(s) (chosen by retrieval, not by you):
+{context}
+
+Current chunk:
+{chunk_text}
+
+Your previous shortened passage (this is WRONG — it is nearly identical to the related thread(s) above and contains nothing from the current chunk):
+{previous_attempt}
+
+Try again. Your revised passage MUST include specific wording that appears in the current chunk but not in the related thread(s) above.
+
+Revised shortened passage:"""
+
+
+def build_teacher_messages_threaded_anticollapse(context_texts: list[str], chunk_text: str) -> list[dict]:
+    """Same shape as `build_teacher_messages_threaded`, with
+    `TEACHER_SYSTEM_PROMPT_THREADED_ANTICOLLAPSE`'s explicit constraint
+    against reproducing the given thread(s) unchanged."""
+    rendered_context = "\n\n".join(context_texts) if context_texts else EMPTY_CONTEXT_PLACEHOLDER
+    return [
+        {"role": "system", "content": TEACHER_SYSTEM_PROMPT_THREADED_ANTICOLLAPSE},
+        {
+            "role": "user",
+            "content": TEACHER_USER_TEMPLATE_THREADED.format(context=rendered_context, chunk_text=chunk_text),
+        },
+    ]
+
+
+def build_teacher_messages_threaded_anticollapse_corrective(
+    context_texts: list[str], chunk_text: str, previous_attempt: str,
+) -> list[dict]:
+    """Corrective retry for a detected collapse (see module note above) —
+    same shape as `build_teacher_messages_threaded_corrective`, but the
+    "what's wrong" signal is collapse (output ~= context), not a missing
+    answer span."""
+    rendered_context = "\n\n".join(context_texts) if context_texts else EMPTY_CONTEXT_PLACEHOLDER
+    return [
+        {"role": "system", "content": TEACHER_SYSTEM_PROMPT_THREADED_ANTICOLLAPSE},
+        {
+            "role": "user",
+            "content": TEACHER_USER_TEMPLATE_THREADED_ANTICOLLAPSE_CORRECTIVE.format(
+                context=rendered_context, chunk_text=chunk_text, previous_attempt=previous_attempt,
+            ),
+        },
+    ]
+
+
+def collapse_score(context_texts: list[str], gist: str) -> float:
+    """How much of `gist` is just the given context, token-F1 style (reuses
+    `token_f1`'s normalize+overlap, with context as the "answer" being
+    checked for survival in `gist`). High score = gist mostly reproduces
+    context; the collapse this module's retry loop exists to catch. Empty
+    context always scores 0.0 -- there is nothing to have collapsed into."""
+    if not context_texts:
+        return 0.0
+    return token_f1(" ".join(context_texts), gist)
+
+
+# --------------------------------------------------------------------------
 # Self-conditioned pairs — the text-level stand-in for C-DIC's ra-TBPTT.
 # --------------------------------------------------------------------------
 

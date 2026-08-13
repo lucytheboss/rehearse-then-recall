@@ -29,9 +29,18 @@ baseline with no rehearsal, no compression, and no teacher model anywhere
 genre, at a fraction of the token cost. A follow-up investigation
 (9 further conditions, isolating architecture/content/selection/model size,
 plus 2025 literature on extractive vs. abstractive and query-aware vs.
-query-agnostic compression) narrows down why, and identifies one condition
-— extractive, query-aware sentence pruning over RAG's own retrieved chunks
-— with a genuine, defensible accuracy-for-tokens trade-off. See
+query-agnostic compression) traced the root cause to a **thread-memory
+collapse**: given a retrieved "related" thread, both the trained student
+(t5-small) and a 70B teacher reproduce that thread near-verbatim and
+ignore the new chunk's own content — confirmed with a controlled test that
+rules out a code bug or positional artifact, and independent of model
+size. Since the student's training target *is* the teacher's own
+(already-collapsed) output, retraining the student cannot fix this — the
+flaw is upstream, in teacher curation itself. A corrective-retry mitigation
+is partially working (validation in progress), and one alternative
+condition — extractive, query-aware sentence pruning over RAG's own
+retrieved chunks, sidestepping compression entirely — has a genuine,
+defensible accuracy-for-tokens trade-off. See
 **[ANALYSIS_REPORT.md](ANALYSIS_REPORT.md) §4.3** for the full account.
 
 ## Paper / presentation links

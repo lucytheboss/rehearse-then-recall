@@ -1,0 +1,81 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,4,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.3,253,5,258
+wiki,2,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.3,367,5,372
+wiki,1,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.2,241,5,246
+wiki,3,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.2,235,5,240
+wiki,6,gist_retrieval_adaptive_mnt128,False,I don't have information about Estêvão Gomes.,1,,0.3,240,14,254
+wiki,7,gist_retrieval_adaptive_mnt128,False,I don't have information about that.,1,,0.2,235,9,244
+wiki,5,gist_retrieval_adaptive_mnt128,False,I don't have that information.,1,,0.3,239,8,247
+wiki,8,gist_retrieval_adaptive_mnt128,False,I don't have that information.,1,,0.2,236,8,244
+wiki,10,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.2,238,5,243
+wiki,9,gist_retrieval_adaptive_mnt128,False,I don't have information on that.,1,,0.2,238,9,247
+wiki,11,gist_retrieval_adaptive_mnt128,False,I don't have that information.,1,,0.2,240,8,248
+wiki,12,gist_retrieval_adaptive_mnt128,False,There is no information about this in the passage summaries.,1,,0.3,245,12,257
+wiki,16,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.2,369,5,374
+wiki,13,gist_retrieval_adaptive_mnt128,False,I don't have information about that.,1,,0.2,238,9,247
+wiki,15,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.4,238,5,243
+wiki,14,gist_retrieval_adaptive_mnt128,False,I don't have that information.,1,,0.4,241,8,249
+wiki,20,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.2,366,5,371
+wiki,17,gist_retrieval_adaptive_mnt128,False,I don't have information on that.,1,,0.3,240,9,249
+wiki,19,gist_retrieval_adaptive_mnt128,False,No information available.,1,,0.2,245,5,250
+wiki,18,gist_retrieval_adaptive_mnt128,False,I don't have information about the Erie Canal in the passage summaries provided.,1,,0.3,239,16,255
+news,4,gist_retrieval_adaptive_mnt128,False,No.,1,,0.3,239,3,242
+news,3,gist_retrieval_adaptive_mnt128,False,There is no information about a missing person on a flight from Japan to the U.S. in the passage summaries provided.,1,,0.5,244,25,269
+news,2,gist_retrieval_adaptive_mnt128,True,An Australian commando.,1,,0.3,753,6,759
+news,1,gist_retrieval_adaptive_mnt128,False,Three civilians.,1,,0.3,749,4,753
+news,5,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.2,239,5,244
+news,7,gist_retrieval_adaptive_mnt128,False,I don't have that information.,1,,0.3,242,8,250
+news,8,gist_retrieval_adaptive_mnt128,False,I don't have information about Heineken sponsoring a specific program.,1,,0.3,239,15,254
+news,6,gist_retrieval_adaptive_mnt128,False,Goal scorer.,1,,0.2,343,4,347
+news,9,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.3,366,5,371
+news,11,gist_retrieval_adaptive_mnt128,False,Southern Afghanistan.,1,,0.3,1243,4,1247
+news,14,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,52.3,240,5,245
+news,12,gist_retrieval_adaptive_mnt128,False,Taliban militants.,1,,53.0,235,6,241
+news,13,gist_retrieval_adaptive_mnt128,False,Early Friday.,1,,53.5,353,4,357
+news,10,gist_retrieval_adaptive_mnt128,False,No information.,1,,54.2,488,4,492
+news,16,gist_retrieval_adaptive_mnt128,False,"Hugo Chavez, Alvaro Uribe.",1,,0.4,985,11,996
+news,17,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.3,370,5,375
+news,15,gist_retrieval_adaptive_mnt128,False,No such statement is mentioned in the passage summaries.,1,,1.0,249,11,260
+news,18,gist_retrieval_adaptive_mnt128,False,No.,1,,0.3,469,3,472
+news,19,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.9,241,5,246
+news,20,gist_retrieval_adaptive_mnt128,False,Lionel Messi,1,,2.9,636,5,641
+novel,00950a36_5,gist_retrieval_adaptive_mnt128,False,Shah Amurath.,1,,0.4,267,7,274
+novel,00950a36_0,gist_retrieval_adaptive_mnt128,True,Shah Amurath.,1,,0.5,1217,7,1224
+novel,00950a36_2,gist_retrieval_adaptive_mnt128,False,No city name mentioned.,1,,0.3,1096,6,1102
+novel,00950a36_1,gist_retrieval_adaptive_mnt128,False,There is no information about Conan in the passage summaries.,1,,1.4,585,12,597
+novel,00950a36_7,gist_retrieval_adaptive_mnt128,False,No answer available.,1,,0.3,590,5,595
+novel,00950a36_9,gist_retrieval_adaptive_mnt128,False,Ground.,1,,0.4,345,3,348
+novel,00950a36_8,gist_retrieval_adaptive_mnt128,False,There is no information about Conan being freed by anyone.,1,,0.9,581,12,593
+novel,00950a36_6,gist_retrieval_adaptive_mnt128,False,"There is no information about someone being made ""Queen of the Blue Sea"".",1,,1.5,351,16,367
+novel,00950a36_12,gist_retrieval_adaptive_mnt128,False,No city mentioned.,1,,0.3,1053,5,1058
+novel,00950a36_11,gist_retrieval_adaptive_mnt128,False,There is no information about Conan being made a captain.,1,,0.9,707,12,719
+novel,00950a36_13,gist_retrieval_adaptive_mnt128,True,Shah Amurath.,1,,1.2,776,7,783
+novel,00950a36_15,gist_retrieval_adaptive_mnt128,False,No information.,1,,0.2,575,4,579
+novel,3e966645_1,gist_retrieval_adaptive_mnt128,False,No information provided.,1,,0.3,686,5,691
+novel,00950a36_10,gist_retrieval_adaptive_mnt128,False,Shah Amurath,1,,3.6,1174,6,1180
+novel,3e966645_4,gist_retrieval_adaptive_mnt128,False,No mention.,1,,0.2,563,4,567
+novel,3e966645_2,gist_retrieval_adaptive_mnt128,False,There is no information about a very religious man in the passage summaries.,1,,1.4,1002,15,1017
+novel,00950a36_14,gist_retrieval_adaptive_mnt128,False,A man.,1,,3.0,703,4,707
+novel,3e966645_6,gist_retrieval_adaptive_mnt128,False,Conan.,1,,0.3,1137,4,1141
+novel,3e966645_7,gist_retrieval_adaptive_mnt128,False,There is no information about the U.S. Consul or the ship in the passage summaries.,1,,1.5,348,20,368
+novel,3e966645_5,gist_retrieval_adaptive_mnt128,False,There is no information about former officers dying from an illness.,1,,1.8,457,13,470
+caselaw,3,gist_retrieval_adaptive_mnt128,True,5,1,,44.0,4662,2,4664
+caselaw,7,gist_retrieval_adaptive_mnt128,False,5,1,,44.5,4676,2,4678
+caselaw,1,gist_retrieval_adaptive_mnt128,True,1,1,,44.2,4738,2,4740
+caselaw,5,gist_retrieval_adaptive_mnt128,False,5,1,,44.4,4826,2,4828
+caselaw,13,gist_retrieval_adaptive_mnt128,False,5,1,,0.2,4743,2,4745
+caselaw,11,gist_retrieval_adaptive_mnt128,False,1,1,,0.5,4708,2,4710
+caselaw,9,gist_retrieval_adaptive_mnt128,True,5,1,,1.0,4717,2,4719
+caselaw,15,gist_retrieval_adaptive_mnt128,True,1,1,,1.0,4649,2,4651
+caselaw,19,gist_retrieval_adaptive_mnt128,False,5,1,,0.5,4713,3,4716
+caselaw,21,gist_retrieval_adaptive_mnt128,False,3,1,,0.6,4676,3,4679
+caselaw,17,gist_retrieval_adaptive_mnt128,False,4,1,,4.0,4764,2,4766
+caselaw,25,gist_retrieval_adaptive_mnt128,False,5,1,,3.2,4660,2,4662
+caselaw,27,gist_retrieval_adaptive_mnt128,False,5,1,,3.0,4694,2,4696
+caselaw,23,gist_retrieval_adaptive_mnt128,False,5,1,,4.0,4781,2,4783
+caselaw,29,gist_retrieval_adaptive_mnt128,True,5,1,,1.0,4766,2,4768
+caselaw,31,gist_retrieval_adaptive_mnt128,False,1,1,,0.7,4721,2,4723
+caselaw,33,gist_retrieval_adaptive_mnt128,False,2,1,,1.0,4711,2,4713
+caselaw,35,gist_retrieval_adaptive_mnt128,False,5,1,,1.3,4777,2,4779
+caselaw,37,gist_retrieval_adaptive_mnt128,True,5,1,,0.3,4675,2,4677
+caselaw,39,gist_retrieval_adaptive_mnt128,False,5,1,,0.5,4678,2,4680
