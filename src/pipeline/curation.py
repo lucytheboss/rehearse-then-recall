@@ -168,6 +168,52 @@ Shortened passage:"""
 EMPTY_CONTEXT_PLACEHOLDER = "(none — this chunk starts a new thread)"
 
 
+TEACHER_SYSTEM_PROMPT_THREADED_CORRECTIVE = """You are shortening a long document as it is read chunk by chunk, keeping separate topics as separate threads rather than folding everything into one continuous summary.
+
+You already produced a shortened passage for this chunk, but it lost information: it no longer supports answering a question whose evidence is in this chunk. Revise your shortened passage so it explicitly preserves the fact(s) listed below, using the same "shorten, don't summarize" style as before — give back less of the passage's own wording, in the same order, not a restructured synopsis.
+
+Do not add anything not supported by the current chunk or the related thread(s) below. Do not simply append the missing fact as an extra clause; integrate it naturally.
+
+Give me only the revised shortened passage. DO NOT explain your reason, no labels."""
+
+TEACHER_USER_TEMPLATE_THREADED_CORRECTIVE = """Related thread(s) (chosen by retrieval, not by you):
+{context}
+
+Current chunk:
+{chunk_text}
+
+Your previous shortened passage (lost information):
+{previous_attempt}
+
+Fact(s) it must still support (each is an answer span from a real question about this chunk):
+{missing_facts}
+
+Revised shortened passage:"""
+
+
+def build_teacher_messages_threaded_corrective(
+    context_texts: list[str], chunk_text: str, previous_attempt: str, missing_facts: list[str],
+) -> list[dict]:
+    """Chat messages for a corrective retry — same shape as
+    `build_teacher_messages_threaded`, plus the failed attempt and the answer
+    span(s) that must survive the revision. See
+    `curate_document_threaded_with_testing`'s docstring for why this exists
+    and what "missing_facts" actually are (answer strings, not questions)."""
+    rendered_context = "\n\n".join(context_texts) if context_texts else EMPTY_CONTEXT_PLACEHOLDER
+    return [
+        {"role": "system", "content": TEACHER_SYSTEM_PROMPT_THREADED_CORRECTIVE},
+        {
+            "role": "user",
+            "content": TEACHER_USER_TEMPLATE_THREADED_CORRECTIVE.format(
+                context=rendered_context,
+                chunk_text=chunk_text,
+                previous_attempt=previous_attempt,
+                missing_facts="\n".join(f"- {fact}" for fact in missing_facts),
+            ),
+        },
+    ]
+
+
 def build_teacher_messages_threaded(context_texts: list[str], chunk_text: str) -> list[dict]:
     """Chat messages for one *threaded* curation step.
 

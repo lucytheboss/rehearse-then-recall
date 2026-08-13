@@ -1,0 +1,2317 @@
+window,cap,genre,question_id,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+2,5,wiki,3,True,1624,1.0,False,0.5,7159.0,3.0,7162.0
+2,5,wiki,1,True,1898,1.0,False,0.7,7165.0,3.0,7168.0
+2,5,wiki,2,False,No information is available.,2.0,True,0.8,8220.0,15.0,8235.0
+2,5,wiki,4,False,No information.,2.0,True,0.8,8155.0,10.0,8165.0
+2,5,wiki,8,False,Juan Rodriguez,1.0,False,0.5,7160.0,3.0,7163.0
+2,5,wiki,7,False,No information.,2.0,True,0.8,8119.0,10.0,8129.0
+2,5,wiki,5,False,There is no information about Giovanni da Verrazzano in the passage.,2.0,True,1.2,8127.0,22.0,8149.0
+2,5,wiki,6,False,I don't have information about Estêvão Gomes.,2.0,True,1.4,8129.0,20.0,8149.0
+2,5,wiki,10,True,Peter Stuyvesant,1.0,False,0.5,7162.0,6.0,7168.0
+2,5,wiki,9,False,I don't have information about the construction of Fort Amsterdam.,2.0,True,0.9,8125.0,19.0,8144.0
+2,5,news,2,False,An Australian soldier.,1.0,False,1.1,25072.0,5.0,25077.0
+2,5,news,4,False,Yes.,2.0,True,1.5,25896.0,9.0,25905.0
+2,5,news,3,False,No information is given about a flight from Japan to the U.S.,2.0,True,1.7,26025.0,21.0,26046.0
+2,5,news,7,False,Guinness,1.0,False,1.4,25077.0,3.0,25080.0
+2,5,news,6,False,There is no information about Messi in the passage.,2.0,True,1.9,25795.0,17.0,25812.0
+2,5,news,8,False,No information.,2.0,True,0.8,25799.0,10.0,25809.0
+2,5,news,9,False,Tony Snow's resignation.,2.0,True,0.8,26241.0,12.0,26253.0
+2,5,news,5,False,No information.,2.0,True,64.9,26055.0,10.0,26065.0
+2,5,news,10,False,Saturday,1.0,False,62.3,25076.0,2.0,25078.0
+2,5,news,1,False,"Taliban militants, 2 women, 1 child.",2.0,True,67.3,25992.0,1187.0,27179.0
+2,5,novel,00950a36_0,True,Shah Amurath,1.0,False,62.6,30311.0,6.0,30317.0
+2,5,novel,00950a36_1,True,Olivia.,1.0,False,1.3,30307.0,4.0,30311.0
+2,5,novel,00950a36_2,True,Akif,2.0,True,2.1,31154.0,21.0,31175.0
+2,5,novel,00950a36_6,False,Dorothy,1.0,False,1.5,30306.0,4.0,30310.0
+2,5,novel,00950a36_7,True,Conan.,1.0,False,1.2,30312.0,4.0,30316.0
+2,5,novel,00950a36_10,True,Conan,1.0,False,0.6,30306.0,3.0,30309.0
+2,5,novel,00950a36_9,False,Shah Amurath's harem.,1.0,False,0.9,30303.0,10.0,30313.0
+2,5,novel,00950a36_8,True,Olivia,1.0,False,1.4,30303.0,3.0,30306.0
+2,5,caselaw,1,False,5,1.0,False,1.1,24721.0,2.0,24723.0
+2,5,novel,00950a36_11,False,No one.,2.0,True,1.5,31528.0,10.0,31538.0
+2,5,caselaw,3,True,5,2.0,True,1.9,25979.0,20.0,25999.0
+2,5,caselaw,5,False,5,1.0,False,1.2,24809.0,2.0,24811.0
+2,5,caselaw,7,False,5,2.0,True,1.3,26007.0,20.0,26027.0
+2,5,caselaw,9,True,5,1.0,False,1.0,24700.0,2.0,24702.0
+2,5,caselaw,13,False,5,1.0,False,1.0,24726.0,2.0,24728.0
+2,5,caselaw,17,False,4,1.0,False,0.5,24747.0,2.0,24749.0
+2,5,caselaw,15,False,5,2.0,True,0.7,25953.0,20.0,25973.0
+2,5,caselaw,11,True,5,2.0,True,1.8,26071.0,20.0,26091.0
+2,5,caselaw,19,False,5,1.0,False,0.6,24696.0,2.0,24698.0
+2,5,novel,00950a36_5,False,,,,,,,
+2,10,wiki,3,True,1624,1.0,False,0.6,7159.0,3.0,7162.0
+2,10,wiki,1,True,1898,1.0,False,0.6,7165.0,3.0,7168.0
+2,10,wiki,2,False,No information is available.,2.0,True,0.8,8220.0,12.0,8232.0
+2,10,wiki,4,False,No information.,2.0,True,1.1,8155.0,10.0,8165.0
+2,10,wiki,8,False,Juan Rodriguez,1.0,False,0.2,7160.0,3.0,7163.0
+2,10,wiki,5,False,There is no information about Giovanni da Verrazzano in the passage.,2.0,True,0.7,8127.0,22.0,8149.0
+2,10,wiki,6,False,I don't have information about Estêvão Gomes.,2.0,True,0.8,8129.0,20.0,8149.0
+2,10,wiki,10,True,Peter Stuyvesant,1.0,False,0.4,7162.0,6.0,7168.0
+2,10,wiki,9,False,1624,2.0,True,0.7,8125.0,9.0,8134.0
+2,10,wiki,7,False,No information.,2.0,True,1.8,8119.0,10.0,8129.0
+2,10,news,2,False,An Australian soldier.,1.0,False,1.1,25072.0,5.0,25077.0
+2,10,news,4,False,Yes.,2.0,True,0.7,25896.0,9.0,25905.0
+2,10,news,3,False,Michio Kanda.,2.0,True,1.7,25809.0,12.0,25821.0
+2,10,news,5,False,No information.,2.0,True,1.2,26055.0,10.0,26065.0
+2,10,news,6,False,There is no information about Messi in the passage.,2.0,True,0.7,25795.0,17.0,25812.0
+2,10,news,7,False,Guinness,1.0,False,0.4,25077.0,3.0,25080.0
+2,10,news,10,False,Saturday,1.0,False,1.2,25076.0,2.0,25078.0
+2,10,news,9,False,Tony Snow's resignation.,2.0,True,56.2,26241.0,12.0,26253.0
+2,10,news,1,False,"Civilians, Taliban militants.",2.0,True,59.0,26704.0,1181.0,27885.0
+2,10,news,8,False,No information provided.,2.0,True,56.4,25799.0,11.0,25810.0
+2,10,novel,00950a36_0,True,Shah Amurath,1.0,False,56.2,30311.0,6.0,30317.0
+2,10,novel,00950a36_1,True,Olivia.,1.0,False,1.5,30307.0,4.0,30311.0
+2,10,novel,00950a36_6,False,Dorothy,1.0,False,1.3,30306.0,4.0,30310.0
+2,10,novel,00950a36_8,True,Olivia.,1.0,False,0.3,30303.0,4.0,30307.0
+2,10,novel,00950a36_7,True,Conan.,1.0,False,1.3,30312.0,4.0,30316.0
+2,10,novel,00950a36_10,True,Conan,1.0,False,1.6,30306.0,3.0,30309.0
+2,10,novel,00950a36_9,False,Shah Amurath's harem.,1.0,False,1.7,30303.0,10.0,30313.0
+2,10,novel,00950a36_11,False,No one.,2.0,True,0.9,31247.0,10.0,31257.0
+2,10,caselaw,1,False,5,1.0,False,1.1,24721.0,2.0,24723.0
+2,10,caselaw,5,False,5,1.0,False,1.3,24809.0,2.0,24811.0
+2,10,caselaw,3,False,2,2.0,True,2.0,26726.0,20.0,26746.0
+2,10,caselaw,9,True,5,1.0,False,1.0,24700.0,2.0,24702.0
+2,10,caselaw,7,False,1,2.0,True,2.3,26754.0,20.0,26774.0
+2,10,caselaw,13,False,5,1.0,False,0.3,24726.0,2.0,24728.0
+2,10,caselaw,11,True,5,2.0,True,1.9,26818.0,20.0,26838.0
+2,10,caselaw,15,False,5,2.0,True,0.7,26700.0,20.0,26720.0
+2,10,caselaw,17,False,4,1.0,False,0.4,24747.0,2.0,24749.0
+2,10,caselaw,19,False,5,2.0,True,0.8,26828.0,20.0,26848.0
+2,10,novel,00950a36_5,True,Olivia.,2.0,True,20.9,32213.0,1498.0,33711.0
+2,10,novel,00950a36_2,False,SHAH AMURATH,1.0,False,250.2,30308.0,6.0,30314.0
+2,20,wiki,3,True,1624,1.0,False,0.4,7159.0,3.0,7162.0
+2,20,wiki,1,True,1898,1.0,False,0.5,7165.0,3.0,7168.0
+2,20,wiki,4,False,No information.,2.0,True,0.6,8155.0,10.0,8165.0
+2,20,wiki,5,False,I don't have information about that.,2.0,True,0.5,8127.0,15.0,8142.0
+2,20,wiki,2,False,No information is available.,2.0,True,1.0,8220.0,12.0,8232.0
+2,20,wiki,8,False,Juan Rodriguez,1.0,False,0.3,7160.0,3.0,7163.0
+2,20,wiki,9,False,1624,1.0,False,0.3,7162.0,3.0,7165.0
+2,20,wiki,7,False,No information.,2.0,True,0.6,8119.0,10.0,8129.0
+2,20,wiki,10,True,Peter Stuyvesant,1.0,False,0.2,7162.0,6.0,7168.0
+2,20,news,2,False,An Australian soldier,1.0,False,1.3,25072.0,4.0,25076.0
+2,20,wiki,6,False,I don't have information about Estêvão Gomes.,2.0,True,2.3,8129.0,20.0,8149.0
+2,20,news,3,False,Michio Kanda.,2.0,True,1.4,27307.0,39.0,27346.0
+2,20,news,6,False,There is no information about Messi in the passage.,2.0,True,0.9,25795.0,17.0,25812.0
+2,20,news,4,False,Yes.,2.0,True,1.3,25896.0,9.0,25905.0
+2,20,news,5,False,No information.,2.0,True,1.1,26055.0,10.0,26065.0
+2,20,news,7,False,Guinness,1.0,False,1.0,25077.0,3.0,25080.0
+2,20,news,9,False,Resignation,1.0,False,1.1,25083.0,4.0,25087.0
+2,20,news,10,False,Saturday,1.0,False,0.4,25076.0,2.0,25078.0
+2,20,news,1,False,"Civilians, Taliban militants, and 60 others wounded.",2.0,True,58.4,28383.0,1187.0,29570.0
+2,20,news,8,True,Gulder Ultimate Search.,2.0,True,56.5,28385.0,1165.0,29550.0
+2,20,novel,00950a36_0,True,Shah Amurath,1.0,False,55.4,30311.0,6.0,30317.0
+2,20,novel,00950a36_6,False,Dorothy,1.0,False,0.3,30306.0,4.0,30310.0
+2,20,novel,00950a36_1,True,Olivia.,1.0,False,56.1,30307.0,4.0,30311.0
+2,20,novel,00950a36_7,True,Conan.,1.0,False,0.6,30312.0,4.0,30316.0
+2,20,novel,00950a36_8,True,Olivia.,1.0,False,0.3,30303.0,4.0,30307.0
+2,20,novel,00950a36_2,True,Akif.,2.0,True,1.9,31780.0,22.0,31802.0
+2,20,novel,00950a36_9,False,Shah Amurath's harem.,1.0,False,0.3,30303.0,10.0,30313.0
+2,20,novel,00950a36_10,True,Conan,1.0,False,0.4,30306.0,3.0,30309.0
+2,20,novel,00950a36_11,False,No one.,2.0,True,0.6,31600.0,10.0,31610.0
+2,20,caselaw,5,False,5,1.0,False,1.0,24809.0,2.0,24811.0
+2,20,caselaw,1,True,1,2.0,True,1.7,26878.0,20.0,26898.0
+2,20,caselaw,3,False,2,2.0,True,1.4,26726.0,20.0,26746.0
+2,20,caselaw,9,True,5,1.0,False,1.1,24700.0,2.0,24702.0
+2,20,caselaw,7,False,1,2.0,True,1.5,26754.0,20.0,26774.0
+2,20,caselaw,13,False,5,1.0,False,0.3,24726.0,2.0,24728.0
+2,20,caselaw,11,True,5,2.0,True,1.8,26818.0,20.0,26838.0
+2,20,caselaw,15,False,5,2.0,True,0.6,26700.0,20.0,26720.0
+2,20,caselaw,19,False,5,1.0,False,0.3,24696.0,2.0,24698.0
+2,20,caselaw,17,False,4,1.0,False,1.0,24747.0,2.0,24749.0
+2,20,novel,00950a36_5,True,Olivia.,2.0,True,267.0,34055.0,1498.0,35553.0
+2,40,wiki,3,True,1624,1.0,False,0.5,7159.0,3.0,7162.0
+2,40,wiki,1,True,1898,1.0,False,0.5,7165.0,3.0,7168.0
+2,40,wiki,4,False,No information.,2.0,True,0.7,8155.0,10.0,8165.0
+2,40,wiki,2,False,No information provided.,2.0,True,1.0,8220.0,11.0,8231.0
+2,40,wiki,6,False,I don't have information about Estêvão Gomes.,2.0,True,0.8,8129.0,20.0,8149.0
+2,40,wiki,5,False,There is no information about Giovanni da Verrazzano in the passage.,2.0,True,0.8,8127.0,22.0,8149.0
+2,40,wiki,7,False,No information provided.,2.0,True,0.6,8119.0,11.0,8130.0
+2,40,wiki,9,False,1624,1.0,False,0.2,7162.0,3.0,7165.0
+2,40,wiki,10,True,Peter Stuyvesant,1.0,False,0.3,7162.0,6.0,7168.0
+2,40,wiki,8,False,Juan Rodriguez,1.0,False,0.5,7160.0,3.0,7163.0
+2,40,news,2,False,An Australian soldier.,1.0,False,1.0,25072.0,5.0,25077.0
+2,40,news,3,False,Michio Kanda.,2.0,True,1.7,27307.0,39.0,27346.0
+2,40,news,4,False,Yes.,2.0,True,2.0,25896.0,9.0,25905.0
+2,40,news,7,False,Gulder,1.0,False,0.3,25077.0,4.0,25081.0
+2,40,news,5,False,No information.,2.0,True,1.4,26055.0,10.0,26065.0
+2,40,news,6,False,There is no information about Messi in the passage.,2.0,True,0.7,25795.0,17.0,25812.0
+2,40,news,1,False,Multiple people.,2.0,True,41.3,32263.0,1168.0,33431.0
+2,40,news,8,True,Gulder Ultimate Search.,2.0,True,56.2,32265.0,1168.0,33433.0
+2,40,news,9,False,No information.,2.0,True,56.4,26191.0,10.0,26201.0
+2,40,news,10,False,Saturday,1.0,False,57.3,25076.0,2.0,25078.0
+2,40,novel,00950a36_1,True,Olivia.,1.0,False,1.1,30307.0,4.0,30311.0
+2,40,novel,00950a36_0,True,Shah Amurath,1.0,False,18.6,30311.0,6.0,30317.0
+2,40,novel,00950a36_7,True,Conan.,1.0,False,0.4,30312.0,4.0,30316.0
+2,40,novel,00950a36_6,False,Dorothy,1.0,False,0.4,30306.0,4.0,30310.0
+2,40,novel,00950a36_2,True,Akif.,2.0,True,1.8,31780.0,22.0,31802.0
+2,40,novel,00950a36_8,True,Olivia,1.0,False,0.4,30303.0,3.0,30306.0
+2,40,novel,00950a36_10,True,Conan,1.0,False,0.5,30306.0,3.0,30309.0
+2,40,novel,00950a36_11,False,No one.,2.0,True,0.7,31247.0,10.0,31257.0
+2,40,caselaw,1,False,5,1.0,False,1.1,24721.0,2.0,24723.0
+2,40,caselaw,3,False,2,2.0,True,1.3,26726.0,20.0,26746.0
+2,40,caselaw,5,False,5,1.0,False,1.0,24809.0,2.0,24811.0
+2,40,caselaw,9,True,5,1.0,False,0.3,24700.0,2.0,24702.0
+2,40,caselaw,7,False,1,2.0,True,1.4,26754.0,20.0,26774.0
+2,40,caselaw,13,False,5,1.0,False,0.3,24726.0,2.0,24728.0
+2,40,caselaw,11,True,5,2.0,True,1.2,26818.0,20.0,26838.0
+2,40,caselaw,17,False,4,1.0,False,0.3,24747.0,2.0,24749.0
+2,40,caselaw,15,False,5,2.0,True,1.2,26700.0,20.0,26720.0
+2,40,novel,00950a36_9,False,Shah Amurath's harem.,1.0,False,8.6,30303.0,10.0,30313.0
+2,40,caselaw,19,False,5,2.0,True,36.2,26828.0,20.0,26848.0
+2,40,novel,00950a36_5,True,Olivia.,2.0,True,59.1,37911.0,1498.0,39409.0
+2,5,wiki,13,True,1735,1.0,False,0.4,7174.0,3.0,7177.0
+2,5,wiki,12,False,No information.,2.0,True,0.7,8295.0,10.0,8305.0
+2,5,wiki,14,True,August 1776.,2.0,True,0.7,8309.0,12.0,8321.0
+2,5,wiki,11,False,New Amsterdam.,2.0,True,0.7,8285.0,10.0,8295.0
+2,5,wiki,15,False,The Great Irish Famine,1.0,False,0.4,7174.0,6.0,7180.0
+2,5,wiki,17,True,1827,2.0,True,0.6,8141.0,9.0,8150.0
+2,5,wiki,19,True,25%,2.0,True,0.7,8116.0,15.0,8131.0
+2,5,wiki,16,True,Philadelphia.,2.0,True,0.8,8313.0,12.0,8325.0
+2,5,wiki,18,False,There is no information about the Erie Canal in the provided passage.,2.0,True,0.9,8305.0,20.0,8325.0
+2,5,wiki,20,False,1664.,2.0,True,0.6,8307.0,13.0,8320.0
+2,5,wiki,22,True,Megacity,1.0,False,0.5,7180.0,3.0,7183.0
+2,5,wiki,23,False,No information.,2.0,True,0.7,8315.0,16.0,8331.0
+2,5,wiki,21,False,I don't have that information.,2.0,True,0.8,8309.0,14.0,8323.0
+2,5,wiki,26,False,No information.,2.0,True,23.6,8141.0,328.0,8469.0
+2,5,wiki,25,False,There is no mention of a plane crash in the provided passage.,2.0,True,24.0,7831.0,23.0,7854.0
+2,5,wiki,27,False,"Manhattan, Staten, and Roosevelt.",2.0,True,57.3,8247.0,21.0,8268.0
+2,5,wiki,24,False,There is no information about the question in the passage.,2.0,True,58.5,8169.0,48.0,8217.0
+2,5,wiki,28,True,The Harlem River.,2.0,True,35.3,8169.0,74.0,8243.0
+2,5,wiki,31,False,Over 300.,2.0,True,0.9,8247.0,14.0,8261.0
+2,5,wiki,30,False,I don't have information about the construction of the Pieter Claesen Wyckoff House.,2.0,True,2.2,7845.0,32.0,7877.0
+2,5,wiki,33,False,Water towers.,2.0,True,0.7,8159.0,10.0,8169.0
+2,5,wiki,29,True,164.1,2.0,True,36.3,8165.0,253.0,8418.0
+2,5,wiki,35,True,"July 9, 1936.",2.0,True,0.7,8122.0,15.0,8137.0
+2,5,wiki,36,True,49.9 inches.,2.0,True,0.6,8122.0,12.0,8134.0
+2,5,wiki,37,True,Minneapolis.,2.0,True,0.7,8094.0,19.0,8113.0
+2,5,wiki,34,True,humid continental,2.0,True,1.5,8132.0,229.0,8361.0
+2,5,wiki,38,False,"26,000",2.0,True,0.7,8072.0,16.0,8088.0
+2,5,wiki,32,False,I don't have the information.,2.0,True,2.6,8139.0,332.0,8471.0
+2,5,wiki,41,False,I don't have that information.,2.0,True,22.3,8133.0,332.0,8465.0
+2,5,wiki,40,True,"1,093",2.0,True,22.7,8070.0,16.0,8086.0
+2,5,wiki,39,False,The Tomb of Grant.,2.0,True,56.5,8143.0,330.0,8473.0
+2,5,wiki,42,False,20.1 million residents.,2.0,True,56.6,8153.0,163.0,8316.0
+2,5,wiki,43,False,Bangladeshi.,2.0,True,35.0,8226.0,15.0,8241.0
+2,5,wiki,44,False,No information.,2.0,True,35.2,8293.0,13.0,8306.0
+2,5,wiki,45,True,"74,000.",2.0,True,1.5,8234.0,11.0,8245.0
+2,5,wiki,48,True,"568,903",1.0,False,0.8,7175.0,4.0,7179.0
+2,5,wiki,49,True,Judaism.,2.0,True,0.9,8270.0,11.0,8281.0
+2,5,wiki,47,False,No information is provided about the Caribbean.,2.0,True,1.6,8147.0,45.0,8192.0
+2,5,wiki,46,False,No information.,2.0,True,3.6,8094.0,316.0,8410.0
+2,5,wiki,50,False,Not mentioned.,2.0,True,2.9,8149.0,328.0,8477.0
+2,5,wiki,54,True,$40 billion,2.0,True,0.6,8251.0,13.0,8264.0
+2,5,wiki,55,False,No information.,2.0,True,0.6,8245.0,10.0,8255.0
+2,5,wiki,53,False,No information.,2.0,True,2.5,8139.0,286.0,8425.0
+2,5,wiki,56,False,I don't have information about Cornell Tech's location.,2.0,True,0.6,8213.0,18.0,8231.0
+2,5,wiki,57,True,56.4 million.,2.0,True,19.5,8379.0,90.0,8469.0
+2,5,wiki,52,False,"25,000.",2.0,True,57.8,8316.0,11.0,8327.0
+2,5,wiki,58,False,No information provided.,2.0,True,53.7,8135.0,329.0,8464.0
+2,5,wiki,51,True,"$15,887",2.0,True,58.3,8253.0,11.0,8264.0
+2,5,wiki,59,False,I cannot answer that question as it does not exist in the provided text.,2.0,True,34.5,8250.0,22.0,8272.0
+2,5,wiki,62,True,The Wall Street Journal and The New York Times.,1.0,False,0.8,7174.0,11.0,7185.0
+2,5,wiki,60,False,No information is provided about the sale of the Waldorf Astoria hotel.,2.0,True,1.0,8247.0,22.0,8269.0
+2,5,wiki,61,True,"25,000.",2.0,True,1.5,8257.0,11.0,8268.0
+2,5,wiki,63,True,Manhattan Neighborhood Network.,2.0,True,1.8,8282.0,12.0,8294.0
+2,5,wiki,65,False,None mentioned.,2.0,True,1.5,8135.0,10.0,8145.0
+2,5,wiki,66,False,No information provided.,2.0,True,2.3,8137.0,329.0,8466.0
+2,5,wiki,64,False,No answer available.,2.0,True,3.8,8143.0,329.0,8472.0
+2,5,wiki,67,True,1.4 million.,2.0,True,2.9,8382.0,15.0,8397.0
+2,5,wiki,68,True,"Ramanathan Raju, MD.",2.0,True,3.6,8336.0,15.0,8351.0
+2,5,wiki,69,False,No information.,2.0,True,2.5,8315.0,10.0,8325.0
+2,5,wiki,70,False,No information available.,2.0,True,1.8,8337.0,11.0,8348.0
+2,5,wiki,71,False,Tokyo Fire Department.,2.0,True,20.8,8386.0,12.0,8398.0
+2,5,wiki,73,False,I don't have that information.,2.0,True,53.6,8149.0,332.0,8481.0
+2,5,wiki,72,False,Commuter rail network.,2.0,True,53.8,8237.0,16.0,8253.0
+2,5,wiki,74,False,Action painting.,2.0,True,53.7,8139.0,10.0,8149.0
+2,5,wiki,75,False,None mentioned.,2.0,True,35.2,8261.0,10.0,8271.0
+2,5,wiki,77,False,There is no answer.,2.0,True,1.3,8245.0,30.0,8275.0
+2,5,wiki,76,False,No information.,2.0,True,1.3,8269.0,10.0,8279.0
+2,5,wiki,79,True,Hockey,1.0,False,0.8,7173.0,3.0,7176.0
+2,5,wiki,78,True,MetLife Stadium,2.0,True,1.8,8235.0,10.0,8245.0
+2,5,wiki,82,False,New York City Subway.,2.0,True,0.9,8233.0,15.0,8248.0
+2,5,wiki,84,False,No information.,2.0,True,2.0,8227.0,10.0,8237.0
+2,5,wiki,80,False,There is no answer to this question in the passage.,2.0,True,3.6,8149.0,336.0,8485.0
+2,5,wiki,81,False,I don't have the information to answer that question.,2.0,True,4.1,8143.0,336.0,8479.0
+2,5,wiki,83,False,No information provided.,2.0,True,4.1,8249.0,11.0,8260.0
+2,5,wiki,85,False,No information provided.,2.0,True,1.7,7972.0,17.0,7989.0
+2,5,wiki,87,False,None mentioned.,2.0,True,20.1,8233.0,10.0,8243.0
+2,5,wiki,88,False,No information.,2.0,True,53.4,8137.0,310.0,8447.0
+2,5,wiki,89,False,I don't have that information.,2.0,True,53.7,8143.0,44.0,8187.0
+2,5,wiki,86,False,No answer available.,2.0,True,55.2,8141.0,329.0,8470.0
+2,5,wiki,92,False,1.4 million.,2.0,True,0.9,8344.0,15.0,8359.0
+2,5,wiki,93,False,"No information is provided about the book ""New York, culture capital of the world, 1940–1965"" or its location.",2.0,True,1.0,8283.0,35.0,8318.0
+2,5,wiki,94,True,Fifth Avenue,1.0,False,0.4,7175.0,4.0,7179.0
+2,5,wiki,96,True,JFK International Airport.,2.0,True,0.8,8223.0,12.0,8235.0
+2,5,wiki,97,False,Theater.,1.0,False,0.3,7171.0,4.0,7175.0
+2,5,wiki,91,False,No information provided.,2.0,True,3.0,8147.0,329.0,8476.0
+2,5,wiki,98,False,Geographically,1.0,False,0.6,7174.0,3.0,7177.0
+2,5,wiki,90,False,No information is given about the number of councilors on the City Council.,2.0,True,38.0,8137.0,340.0,8477.0
+2,5,wiki,95,False,No answer available.,2.0,True,3.7,8139.0,272.0,8411.0
+2,5,wiki,100,False,Eastern District of New York.,2.0,True,2.5,8305.0,16.0,8321.0
+2,5,news,12,False,None.,2.0,True,1.5,25347.0,9.0,25356.0
+2,5,wiki,99,False,I don't have the information.,2.0,True,4.3,8147.0,332.0,8479.0
+2,5,news,15,True,Assistant Attorney General Alice Fisher.,2.0,True,18.9,25376.0,16.0,25392.0
+2,5,news,13,False,Early Friday.,2.0,True,20.2,25130.0,268.0,25398.0
+2,5,news,14,False,Three Chinese citizens.,2.0,True,53.8,25402.0,347.0,25749.0
+2,5,news,17,True,Demand full democracy be restored in Pakistan.,1.0,False,35.2,24459.0,9.0,24468.0
+2,5,news,18,False,Yes.,2.0,True,2.9,25392.0,222.0,25614.0
+2,5,news,20,False,Lionel Messi,2.0,True,1.0,25381.0,53.0,25434.0
+2,5,news,21,False,"Cape Town, South Africa.",1.0,False,0.4,24457.0,8.0,24465.0
+2,5,news,22,False,No information is provided about a yacht.,2.0,True,1.4,25194.0,15.0,25209.0
+2,5,news,23,False,Andersen Air Force Base.,2.0,True,0.7,25331.0,13.0,25344.0
+2,5,news,24,False,Misdemeanor.,1.0,False,0.4,24459.0,6.0,24465.0
+2,5,news,16,False,"Air Chief Marshal Angus Houston, Gen. Carlos Branco.",2.0,True,41.6,25371.0,1183.0,26554.0
+2,5,news,25,False,Finch and Canary Fighting Case.,2.0,True,0.8,25420.0,20.0,25440.0
+2,5,news,27,False,Colombian President Evo Morales,1.0,False,0.4,24460.0,7.0,24467.0
+2,5,news,28,False,Not mentioned.,2.0,True,0.7,25568.0,10.0,25578.0
+2,5,news,29,False,Surrey,1.0,False,0.4,24456.0,4.0,24460.0
+2,5,news,26,False,Withdrew support,1.0,False,1.7,24458.0,5.0,24463.0
+2,5,news,30,False,Nowhere (mentioned),2.0,True,3.5,25383.0,531.0,25914.0
+2,5,news,11,False,Afghanistan.,2.0,True,77.6,25369.0,1178.0,26547.0
+2,5,news,19,True,Julio Cruz.,2.0,True,22.4,25438.0,11.0,25449.0
+2,5,news,33,False,Heidi Tagliavini,1.0,False,4.6,24457.0,7.0,24464.0
+2,5,news,34,False,No one.,2.0,True,36.1,25406.0,10.0,25416.0
+2,5,news,31,False,No information is given about the Commonwealth Games.,2.0,True,51.1,25395.0,1183.0,26578.0
+2,5,news,32,False,No information.,2.0,True,47.8,25379.0,1174.0,26553.0
+2,5,news,35,False,There is no information about Ray Gravell in the passage.,2.0,True,37.0,25297.0,20.0,25317.0
+2,5,news,38,False,No one.,2.0,True,2.9,25533.0,13.0,25546.0
+2,5,news,39,False,Augustin Binya,1.0,False,1.4,24455.0,5.0,24460.0
+2,5,news,41,False,The helicopter.,1.0,False,0.4,24461.0,4.0,24465.0
+2,5,news,42,False,Cape Town,1.0,False,1.0,24457.0,4.0,24461.0
+2,5,news,43,True,Genocide,1.0,False,0.4,24460.0,3.0,24463.0
+2,5,news,44,False,Veterans' care programs,1.0,False,0.5,24458.0,6.0,24464.0
+2,5,news,36,False,No information.,2.0,True,7.9,25302.0,1168.0,26470.0
+2,5,news,45,False,"Key to this dialogue, however, is some willingness on your part to actually find common ground.",2.0,True,0.8,25499.0,26.0,25525.0
+2,5,news,47,False,6,1.0,False,0.3,24455.0,2.0,24457.0
+2,5,news,48,False,Nothing.,2.0,True,0.9,25439.0,36.0,25475.0
+2,5,news,37,False,Chief of the Defence Force Air Chief Marshal Angus Houston.,2.0,True,9.6,25369.0,1185.0,26554.0
+2,5,news,49,False,Terrorists and narcotraffickers.,2.0,True,1.3,25290.0,17.0,25307.0
+2,5,news,51,False,Taliban militants.,2.0,True,3.4,25371.0,54.0,25425.0
+2,5,news,46,False,CNN,2.0,True,18.3,25412.0,8.0,25420.0
+2,5,news,52,False,No information.,2.0,True,46.1,25532.0,10.0,25542.0
+2,5,news,50,False,No information is given about BUPA.,2.0,True,50.6,25391.0,1183.0,26574.0
+2,5,news,55,False,Alvaro Uribe,1.0,False,0.4,24460.0,6.0,24466.0
+2,5,news,54,False,No information.,2.0,True,1.7,25525.0,16.0,25541.0
+2,5,news,57,False,Polyps removed.,1.0,False,0.5,24454.0,5.0,24459.0
+2,5,news,58,False,Putin.,2.0,True,1.5,25442.0,9.0,25451.0
+2,5,news,59,False,There is no information about female-only buses in the passage.,2.0,True,1.4,25144.0,19.0,25163.0
+2,5,news,56,False,No score mentioned.,2.0,True,5.3,25346.0,11.0,25357.0
+2,5,news,61,False,There is no mention of Iwo Jima in the passage.,2.0,True,1.0,25144.0,20.0,25164.0
+2,5,news,62,False,No information about a person named Strank.,2.0,True,1.2,25375.0,73.0,25448.0
+2,5,news,63,False,34,1.0,False,0.4,24457.0,2.0,24459.0
+2,5,news,64,False,Indian citizens.,2.0,True,0.9,25314.0,22.0,25336.0
+2,5,news,65,True,Princess Eugenie,1.0,False,0.3,24464.0,5.0,24469.0
+2,5,news,66,True,National Hurricane Center,1.0,False,0.3,24455.0,4.0,24459.0
+2,5,news,67,False,Full democracy be restored in Pakistan.,1.0,False,0.5,24454.0,8.0,24462.0
+2,5,news,53,False,There is no mention of a teacher in the passage.,2.0,True,49.2,25383.0,1185.0,26568.0
+2,5,news,69,False,Six-match ban,1.0,False,0.3,24456.0,4.0,24460.0
+2,5,news,68,False,No one.,2.0,True,14.9,25379.0,1174.0,26553.0
+2,5,news,70,False,No information is provided about Michael Vick.,2.0,True,10.5,25371.0,57.0,25428.0
+2,5,news,71,False,No information is available in the passage.,2.0,True,34.6,25140.0,15.0,25155.0
+2,5,news,72,False,Opposition legislators.,2.0,True,35.1,25324.0,11.0,25335.0
+2,5,news,73,False,None.,2.0,True,0.9,25423.0,9.0,25432.0
+2,5,news,75,False,No information is provided about SP shareholders.,2.0,True,2.1,25445.0,21.0,25466.0
+2,5,news,76,False,Assault.,1.0,False,0.8,24456.0,4.0,24460.0
+2,5,news,77,True,The August war between Georgia and Russia.,1.0,False,0.4,24463.0,9.0,24472.0
+2,5,news,78,False,No one.,2.0,True,1.2,25423.0,10.0,25433.0
+2,5,news,79,False,None.,2.0,True,0.7,25358.0,9.0,25367.0
+2,5,news,80,False,None mentioned.,2.0,True,2.0,25355.0,10.0,25365.0
+2,5,news,81,False,No one.,2.0,True,0.8,25282.0,10.0,25292.0
+2,5,news,40,False,Lined up to empty their accounts.,2.0,True,126.4,25592.0,228.0,25820.0
+2,5,news,74,False,No one.,2.0,True,9.1,25184.0,1171.0,26355.0
+2,5,news,84,False,Nowhere mentioned.,2.0,True,4.9,25433.0,14.0,25447.0
+2,5,news,82,False,No information.,2.0,True,5.8,25541.0,10.0,25551.0
+2,5,news,85,False,No information.,2.0,True,11.0,25377.0,1177.0,26554.0
+2,5,news,83,False,No information.,2.0,True,49.9,25379.0,1177.0,26556.0
+2,5,news,86,False,Engine fell off.,2.0,True,45.5,25531.0,17.0,25548.0
+2,5,news,88,False,No information.,2.0,True,1.2,25353.0,10.0,25363.0
+2,5,news,87,False,No.,2.0,True,35.6,25237.0,15.0,25252.0
+2,5,news,90,False,Engulfed,1.0,False,2.7,24460.0,4.0,24464.0
+2,5,news,89,False,Restore democracy.,2.0,True,3.4,25350.0,226.0,25576.0
+2,5,news,93,False,Scoliosis,1.0,False,0.9,24456.0,4.0,24460.0
+2,5,news,92,False,£125 million,2.0,True,2.2,25562.0,10.0,25572.0
+2,5,news,94,True,Human shields.,1.0,False,1.2,24462.0,4.0,24466.0
+2,5,news,91,False,Battling.,2.0,True,6.0,25517.0,791.0,26308.0
+2,5,news,97,False,No information.,2.0,True,1.3,25138.0,10.0,25148.0
+2,5,news,60,False,No information provided.,2.0,True,124.9,25398.0,11.0,25409.0
+2,5,news,95,False,Three Chinese citizens.,2.0,True,4.3,25352.0,326.0,25678.0
+2,5,news,96,False,Civilian deaths.,2.0,True,4.0,25174.0,584.0,25758.0
+2,5,news,98,False,"Cape Town, South Africa.",1.0,False,6.3,24455.0,8.0,24463.0
+2,5,news,101,False,Blood was drawn.,2.0,True,5.0,25421.0,11.0,25432.0
+2,5,news,100,False,Not mentioned.,2.0,True,15.9,25333.0,13.0,25346.0
+2,5,news,99,False,No information.,2.0,True,49.8,25381.0,1177.0,26558.0
+2,5,news,102,False,None.,2.0,True,45.5,25126.0,9.0,25135.0
+2,5,news,104,False,Trend.,2.0,True,34.9,25440.0,10.0,25450.0
+2,5,news,106,False,"Cape Town, South Africa",1.0,False,1.1,24456.0,7.0,24463.0
+2,5,news,107,False,No information provided.,2.0,True,3.4,25469.0,11.0,25480.0
+2,5,news,109,False,38 years old.,1.0,False,0.3,24455.0,5.0,24460.0
+2,5,news,110,False,Chris Lewis,1.0,False,0.5,24464.0,3.0,24467.0
+2,5,news,108,False,Birds.,2.0,True,4.5,25406.0,394.0,25800.0
+2,5,news,103,False,Classes,2.0,True,52.1,25537.0,839.0,26376.0
+2,5,news,105,False,I didn't want to die.,2.0,True,8.2,25550.0,713.0,26263.0
+2,5,news,113,False,62,2.0,True,1.5,25522.0,8.0,25530.0
+2,5,news,115,False,mud-slinging,1.0,False,1.0,24457.0,6.0,24463.0
+2,5,news,114,False,Algeria,2.0,True,3.4,25298.0,223.0,25521.0
+2,5,news,117,True,Garbage.,1.0,False,0.4,24460.0,4.0,24464.0
+2,5,news,112,False,No answer available.,2.0,True,8.8,25449.0,1163.0,26612.0
+2,5,news,116,False,53,2.0,True,16.0,25398.0,8.0,25406.0
+2,5,news,118,False,None.,2.0,True,14.4,25449.0,1164.0,26613.0
+2,5,news,119,False,There is no information about Coca-Cola in the passage.,2.0,True,44.6,25128.0,18.0,25146.0
+2,5,news,111,False,None (the passage does not mention Hamas),2.0,True,55.3,25377.0,1081.0,26458.0
+2,5,news,121,False,No information is given about Boy George.,2.0,True,35.9,25128.0,15.0,25143.0
+2,5,news,120,False,No one.,2.0,True,36.8,25599.0,16.0,25615.0
+2,5,news,125,True,Andrea Bocelli,1.0,False,1.7,24457.0,6.0,24463.0
+2,5,news,124,False,Kirstie Alley's weight loss.,2.0,True,3.8,25456.0,15.0,25471.0
+2,5,news,123,False,There is no mention of Youssif or Lassie in the passage.,2.0,True,6.3,25136.0,23.0,25159.0
+2,5,news,127,False,No one.,2.0,True,2.1,25604.0,10.0,25614.0
+2,5,news,129,False,Princess Eugenie,1.0,False,0.8,24454.0,5.0,24459.0
+2,5,news,128,False,No information is provided about Winehouse.,2.0,True,2.4,25404.0,15.0,25419.0
+2,5,news,130,False,No information is given about Pakistan.,2.0,True,1.6,25351.0,14.0,25365.0
+2,5,news,131,False,No information is given about someone named Snow.,2.0,True,1.9,25126.0,16.0,25142.0
+2,5,news,132,False,No.,2.0,True,5.0,25571.0,9.0,25580.0
+2,5,news,122,False,No one was injured.,2.0,True,21.9,25535.0,12.0,25547.0
+2,5,news,134,False,No information is given about a price increase in alcohol.,2.0,True,10.8,25377.0,1182.0,26559.0
+2,5,news,135,False,There is no mention of Chavez.,2.0,True,4.3,25318.0,20.0,25338.0
+2,5,news,133,False,Finch and canary fighting.,1.0,False,26.6,24456.0,8.0,24464.0
+2,5,news,126,False,No information.,2.0,True,55.9,25377.0,1174.0,26551.0
+2,5,news,136,False,Colon cancer screening.,2.0,True,34.4,25561.0,17.0,25578.0
+2,5,news,139,False,No explosion mentioned.,2.0,True,1.4,25516.0,11.0,25527.0
+2,5,news,137,False,Nothing is mentioned about mail.,2.0,True,39.1,25396.0,334.0,25730.0
+2,5,news,142,False,"Nowhere, they were arrested.",2.0,True,0.7,25408.0,14.0,25422.0
+2,5,news,143,False,Hong Kong street.,1.0,False,0.3,24463.0,5.0,24468.0
+2,5,news,144,True,David Cameron's,1.0,False,0.5,24455.0,4.0,24459.0
+2,5,news,145,False,There is no information about Kerry Thomas being charged with anything in the passage.,2.0,True,0.9,25383.0,22.0,25405.0
+2,5,news,146,False,There is no information about a collision in the provided passage.,2.0,True,1.1,25539.0,19.0,25558.0
+2,5,news,147,False,Engine falling off a plane.,1.0,False,0.5,24459.0,7.0,24466.0
+2,5,news,138,False,Clothes.,2.0,True,32.2,25449.0,1165.0,26614.0
+2,5,news,149,False,"Fair play, respect, and solidarity.",1.0,False,0.5,24459.0,9.0,24468.0
+2,5,news,140,False,Private Luke Worsley.,2.0,True,10.7,25371.0,1180.0,26551.0
+2,5,news,148,False,None (Hubbard is not mentioned in the passage),2.0,True,2.5,25420.0,246.0,25666.0
+2,5,news,141,False,No information.,2.0,True,20.2,25375.0,1174.0,26549.0
+2,5,news,150,False,New York.,2.0,True,15.6,25396.0,1135.0,26531.0
+2,5,news,151,False,There is no information about the Secretary of State in the passage.,2.0,True,15.2,25373.0,1187.0,26560.0
+2,5,news,152,False,Navy.,2.0,True,48.8,25348.0,10.0,25358.0
+2,5,news,155,False,No information is provided about a movie.,2.0,True,34.8,25387.0,57.0,25444.0
+2,5,news,157,False,Indigenous majority.,2.0,True,1.8,25357.0,14.0,25371.0
+2,5,news,153,False,Nothing is mentioned.,2.0,True,41.5,25347.0,11.0,25358.0
+2,5,news,159,True,Holding veterans care funding hostage.,1.0,False,1.9,24457.0,8.0,24465.0
+2,5,news,160,False,Veterans' care funding.,1.0,False,0.6,24460.0,7.0,24467.0
+2,5,news,161,False,No information.,2.0,True,1.2,25375.0,52.0,25427.0
+2,5,news,154,False,No one died of an overdose in the given passage.,2.0,True,41.3,25608.0,897.0,26505.0
+2,5,news,156,False,The Afghan conflict.,2.0,True,8.1,25377.0,1178.0,26555.0
+2,5,news,163,False,No answer available.,2.0,True,2.2,25445.0,11.0,25456.0
+2,5,news,158,False,There is no mention of Donna Greenwell.,2.0,True,7.4,25402.0,568.0,25970.0
+2,5,news,165,False,No information.,2.0,True,1.7,25375.0,52.0,25427.0
+2,5,news,166,False,Fear on their faces.,1.0,False,1.4,24457.0,6.0,24463.0
+2,5,news,167,True,David Beckham,1.0,False,0.8,24455.0,3.0,24458.0
+2,5,news,169,False,Lost their fourth league game.,2.0,True,3.6,25472.0,13.0,25485.0
+2,5,news,168,False,Sevilla.,2.0,True,14.5,25472.0,10.0,25482.0
+2,5,news,164,False,No information.,2.0,True,17.7,25379.0,1177.0,26556.0
+2,5,news,172,False,Not mentioned.,2.0,True,34.2,25124.0,10.0,25134.0
+2,5,news,171,False,Lack of democracy,1.0,False,34.3,24456.0,5.0,24461.0
+2,5,news,173,False,"Beauty, voice, inner being",1.0,False,0.6,24454.0,7.0,24461.0
+2,5,news,174,False,Alvaro Uribe,1.0,False,1.2,24457.0,6.0,24463.0
+2,5,news,170,False,No information.,2.0,True,46.3,25612.0,10.0,25622.0
+2,5,news,176,False,There is no information about Mary Winkler in the passage.,2.0,True,3.6,25406.0,20.0,25426.0
+2,5,news,162,False,Heavy fighting.,2.0,True,58.1,25176.0,1159.0,26335.0
+2,5,news,178,False,No one.,2.0,True,1.9,25284.0,10.0,25294.0
+2,5,news,177,True,"""Until the Day Is Done""",2.0,True,5.9,25572.0,14.0,25586.0
+2,5,news,179,False,No information is given about Mable Randon.,2.0,True,2.6,25381.0,59.0,25440.0
+2,5,news,181,False,London.,2.0,True,2.1,25435.0,9.0,25444.0
+2,5,news,183,False,There is no information about an extinct sea creature fossil sale.,2.0,True,1.4,25136.0,19.0,25155.0
+2,5,news,182,False,There is no information about a London bus bombing in the passage.,2.0,True,3.6,25306.0,20.0,25326.0
+2,5,news,185,False,US Embassy in Baku,1.0,False,4.0,24458.0,6.0,24464.0
+2,5,news,184,False,1961.,2.0,True,4.3,25464.0,10.0,25474.0
+2,5,news,186,False,7.5 percent,1.0,False,6.6,24459.0,5.0,24464.0
+2,5,news,180,False,No information is available about Mable Randon.,2.0,True,18.8,25184.0,1148.0,26332.0
+2,5,news,188,False,Bouteflika made his visit to Batna as planned.,2.0,True,38.4,25387.0,573.0,25960.0
+2,5,news,175,False,There is no mention of Winkler in the passage.,2.0,True,59.5,25614.0,19.0,25633.0
+2,5,news,187,False,Satellite maps.,2.0,True,45.2,25321.0,11.0,25332.0
+2,5,news,189,True,Yuvraj Singh.,1.0,False,35.0,24467.0,6.0,24473.0
+2,5,news,191,False,None appeared worrisome.,1.0,False,2.4,24456.0,7.0,24463.0
+2,5,news,194,False,19 Ethiopians,1.0,False,0.8,24456.0,5.0,24461.0
+2,5,news,195,False,"Bridgeport, Alabama.",1.0,False,1.8,24457.0,6.0,24463.0
+2,5,news,193,True,24 years.,2.0,True,4.9,25404.0,10.0,25414.0
+2,5,news,197,False,None.,2.0,True,1.7,25130.0,9.0,25139.0
+2,5,news,198,False,None mentioned.,2.0,True,0.9,25377.0,52.0,25429.0
+2,5,news,192,False,There is no information about Yu Sheng products.,2.0,True,8.0,25186.0,1163.0,26349.0
+2,5,news,190,False,None mentioned.,2.0,True,8.8,25180.0,1168.0,26348.0
+2,5,news,200,True,Augustin Binya,1.0,False,1.3,24458.0,5.0,24463.0
+2,5,novel,00950a36_13,True,Shah Amurath,1.0,False,2.1,30309.0,6.0,30315.0
+2,5,novel,00950a36_14,False,A savage or a madman.,1.0,False,0.5,30312.0,8.0,30320.0
+2,5,news,196,False,No mention.,2.0,True,9.6,25377.0,1174.0,26551.0
+2,5,novel,00950a36_12,True,Akif.,2.0,True,12.6,31363.0,616.0,31979.0
+2,5,novel,00950a36_15,False,No one is mentioned in the passage.,2.0,True,13.6,31178.0,42.0,31220.0
+2,5,novel,3e966645_2,False,Mr. Saul,1.0,False,5.0,30308.0,4.0,30312.0
+2,5,novel,3e966645_1,False,Oz,2.0,True,44.7,31322.0,60.0,31382.0
+2,5,novel,3e966645_4,False,Nothing.,2.0,True,34.7,31293.0,15.0,31308.0
+2,5,news,199,False,None mentioned.,2.0,True,53.3,25377.0,1177.0,26554.0
+2,5,novel,3e966645_6,False,Mr. Salton,1.0,False,2.5,30308.0,5.0,30313.0
+2,5,novel,3e966645_8,False,London,1.0,False,1.0,30312.0,2.0,30314.0
+2,5,novel,3e966645_5,False,There is no mention of former officers dying from an illness.,2.0,True,38.2,31328.0,514.0,31842.0
+2,5,novel,3e966645_9,False,I don't have the information to answer your question.,2.0,True,4.0,31314.0,18.0,31332.0
+2,5,novel,3e966645_12,False,None mentioned.,2.0,True,2.3,31181.0,22.0,31203.0
+2,5,novel,3e966645_16,False,There is no Davis mentioned in the passage.,2.0,True,0.8,31178.0,16.0,31194.0
+2,5,novel,3e966645_17,False,The South Seas.,1.0,False,0.3,30312.0,5.0,30317.0
+2,5,novel,3e966645_10,False,the City of Papeete.,2.0,True,8.8,31183.0,1259.0,32442.0
+2,5,novel,3e966645_19,False,There is no information about 3 beggars operating out of the Tahitian port of Papeete or any former American sea captain.,2.0,True,2.0,31212.0,40.0,31252.0
+2,5,novel,3e966645_7,False,There is no mention of a ship or a U.S. Consul in the passage.,2.0,True,11.0,31295.0,1507.0,32802.0
+2,5,novel,3e966645_22,False,Melbourne.,1.0,False,1.1,30317.0,4.0,30321.0
+2,5,novel,3e966645_11,False,Tahiti.,2.0,True,10.4,31173.0,1256.0,32429.0
+2,5,novel,6a659de3_2,False,Evil powers,1.0,False,6.6,30314.0,4.0,30318.0
+2,5,novel,3e966645_21,False,There is no mention of this in the passage.,2.0,True,14.1,31273.0,515.0,31788.0
+2,5,novel,3e966645_20,False,The City of Papeete.,2.0,True,14.4,31199.0,635.0,31834.0
+2,5,novel,6a659de3_4,False,Kallikrates,1.0,False,34.0,30319.0,5.0,30324.0
+2,5,novel,3e966645_23,False,There is no mention of a failed English businessman or 3 beggars operating out of the Tahitian port of Papeete.,2.0,True,47.5,31185.0,1521.0,32706.0
+2,5,novel,6a659de3_3,False,"The Princess, Dorothy, Glinda, the Wizard, and the evil creatures.",2.0,True,39.8,31308.0,35.0,31343.0
+2,5,novel,6a659de3_7,False,The passage does not mention a box.,2.0,True,2.3,31322.0,24.0,31346.0
+2,5,novel,6a659de3_8,False,No one mentioned in the passage.,2.0,True,3.5,31176.0,14.0,31190.0
+2,5,novel,6a659de3_5,False,There is no mention of Vincey or Leo in the passage.,2.0,True,42.4,31185.0,1265.0,32450.0
+2,5,novel,6a659de3_14,False,Robert Herrick,1.0,False,0.5,30307.0,4.0,30311.0
+2,5,novel,6a659de3_6,False,Olivia.,2.0,True,9.5,31145.0,1498.0,32643.0
+2,5,novel,6a659de3_17,False,No one.,2.0,True,0.7,31178.0,10.0,31188.0
+2,5,novel,9561a72a_1,False,Ozma.,2.0,True,2.0,31432.0,11.0,31443.0
+2,5,novel,9561a72a_0,False,There is no information about Dorothy Gale in the passage.,2.0,True,2.2,30975.0,18.0,30993.0
+2,5,novel,9561a72a_3,False,The gardens of Clavering Park.,1.0,False,0.6,30311.0,9.0,30320.0
+2,5,novel,9561a72a_5,False,There is no mention of Dorothy in the passage.,2.0,True,1.3,30973.0,17.0,30990.0
+2,5,novel,9561a72a_9,False,"None, there is no mention of Dorothy.",2.0,True,2.5,31163.0,19.0,31182.0
+2,5,novel,6a659de3_11,False,There is no mention of a character named Leo in the passage.,2.0,True,19.5,31353.0,1211.0,32564.0
+2,5,novel,6a659de3_12,False,No information is given about a person named Vincey.,2.0,True,20.6,31161.0,1506.0,32667.0
+2,5,novel,9561a72a_10,False,She doesn't.,2.0,True,45.0,31322.0,11.0,31333.0
+2,5,novel,9561a72a_12,True,Guph,1.0,False,34.7,30314.0,4.0,30318.0
+2,5,novel,9561a72a_7,False,No location given.,2.0,True,48.6,31312.0,59.0,31371.0
+2,5,novel,bf55d1c1_2,False,Olivia,1.0,False,1.6,30310.0,3.0,30313.0
+2,5,novel,bf55d1c1_1,False,There is no mention of Arabella or murder in the passage.,2.0,True,2.3,31172.0,20.0,31192.0
+2,5,novel,bf55d1c1_3,False,Shah Amurath,1.0,False,1.2,30317.0,6.0,30323.0
+2,5,novel,bf55d1c1_5,False,Shah Amurath.,2.0,True,4.2,30973.0,313.0,31286.0
+2,5,novel,bf55d1c1_0,False,There is no mention of Adam or a snake problem in the passage.,2.0,True,8.7,31157.0,1509.0,32666.0
+2,5,novel,9561a72a_11,True,King Roquat,1.0,False,49.8,30315.0,4.0,30319.0
+2,5,novel,bf55d1c1_10,False,There is no mention of this in the passage.,2.0,True,0.7,31308.0,17.0,31325.0
+2,5,novel,bf55d1c1_11,False,No one mentioned Adam or Arabella in the passage.,2.0,True,0.8,31259.0,24.0,31283.0
+2,5,novel,bf55d1c1_12,False,London,1.0,False,0.4,30314.0,2.0,30316.0
+2,5,novel,ca4b98f5_0,False,SHADOWS IN THE MOONLIGHT.,1.0,False,0.5,30309.0,10.0,30319.0
+2,5,novel,ca4b98f5_1,False,Captain Clavering,1.0,False,0.3,30316.0,5.0,30321.0
+2,5,novel,ca4b98f5_2,False,Law,1.0,False,0.4,30316.0,2.0,30318.0
+2,5,novel,ca4b98f5_3,False,Clavering Park,1.0,False,0.4,30315.0,5.0,30320.0
+2,5,novel,ca4b98f5_4,False,There is no mention of Florence Burton in the passage.,2.0,True,0.8,31149.0,30.0,31179.0
+2,5,novel,bf55d1c1_6,False,No mention of Arabella or a hole.,2.0,True,14.0,31157.0,1504.0,32661.0
+2,5,novel,bf55d1c1_9,False,April 1934.,2.0,True,16.9,31149.0,1500.0,32649.0
+2,5,novel,ca4b98f5_8,False,There is no mention of Harry or Florence in the passage.,2.0,True,37.9,31161.0,1507.0,32668.0
+2,5,novel,ca4b98f5_6,False,There is no character named Harry in the passage.,2.0,True,44.2,30989.0,1496.0,32485.0
+2,5,novel,bf55d1c1_4,False,There is no mention of Adam marrying anyone in the passage.,2.0,True,58.1,31145.0,1507.0,32652.0
+2,5,novel,ca4b98f5_12,False,Lady Clavering,1.0,False,0.8,30309.0,5.0,30314.0
+2,5,novel,ca4b98f5_13,False,Lady Clavering,1.0,False,0.9,30311.0,5.0,30316.0
+2,5,novel,ca4b98f5_11,False,There is no mention of Harry in the passage.,2.0,True,5.2,31179.0,518.0,31697.0
+2,5,novel,ca4b98f5_16,False,Lady Clavering,1.0,False,1.1,30311.0,5.0,30316.0
+2,5,novel,ca4b98f5_17,False,Julia Brabazon,1.0,False,1.9,30310.0,6.0,30316.0
+2,5,novel,ca4b98f5_18,False,Julia Brabazon.,2.0,True,1.9,31202.0,154.0,31356.0
+2,5,novel,ca4b98f5_14,False,Merchant.,2.0,True,11.0,31187.0,1251.0,32438.0
+2,5,novel,ca4b98f5_10,False,This passage does not mention a character named Harry or his fiancée.,2.0,True,47.1,31153.0,1510.0,32663.0
+2,5,caselaw,21,False,5,2.0,True,3.3,25696.0,20.0,25716.0
+2,5,caselaw,23,True,3,1.0,False,2.0,24480.0,2.0,24482.0
+2,5,caselaw,27,False,5,1.0,False,1.6,24393.0,2.0,24395.0
+2,5,novel,ca4b98f5_15,False,There is no mention of a person named Harry or his second fiancee in the passage.,2.0,True,13.3,31157.0,1513.0,32670.0
+2,5,caselaw,25,False,5,2.0,True,2.6,25664.0,20.0,25684.0
+2,5,caselaw,29,False,4,1.0,False,1.5,24465.0,2.0,24467.0
+2,5,caselaw,33,True,5,1.0,False,1.3,24410.0,2.0,24412.0
+2,5,caselaw,35,False,5,1.0,False,1.3,24476.0,2.0,24478.0
+2,5,caselaw,31,True,5,2.0,True,7.2,25819.0,8.0,25827.0
+2,5,caselaw,41,False,3,1.0,False,9.3,24381.0,2.0,24383.0
+2,5,caselaw,39,False,5,2.0,True,43.2,25700.0,17.0,25717.0
+2,5,caselaw,43,False,5,1.0,False,38.7,24432.0,2.0,24434.0
+2,5,caselaw,47,False,5,2.0,True,1.7,25764.0,20.0,25784.0
+2,5,caselaw,45,False,2,2.0,True,35.7,25782.0,14.0,25796.0
+2,5,caselaw,51,True,5,1.0,False,1.9,24400.0,2.0,24402.0
+2,5,caselaw,53,False,5,2.0,True,3.8,25742.0,17.0,25759.0
+2,5,caselaw,57,False,4,1.0,False,2.4,24451.0,2.0,24453.0
+2,5,caselaw,37,True,5,2.0,True,52.7,25675.0,842.0,26517.0
+2,5,caselaw,55,False,3,1.0,False,6.7,24470.0,2.0,24472.0
+2,5,caselaw,59,False,5,1.0,False,2.2,24482.0,2.0,24484.0
+2,5,caselaw,49,False,3,2.0,True,12.5,25754.0,14.0,25768.0
+2,5,caselaw,61,False,5,2.0,True,5.7,25672.0,17.0,25689.0
+2,5,caselaw,65,True,5,2.0,True,4.9,25790.0,20.0,25810.0
+2,5,caselaw,63,False,5,2.0,True,6.0,25887.0,8.0,25895.0
+2,5,caselaw,67,True,5,2.0,True,3.3,25514.0,14.0,25528.0
+2,5,caselaw,75,True,2,1.0,False,0.4,24380.0,2.0,24382.0
+2,5,caselaw,77,False,3,1.0,False,5.2,24397.0,2.0,24399.0
+2,5,caselaw,71,False,5,2.0,True,10.7,25794.0,17.0,25811.0
+2,5,caselaw,69,False,3,2.0,True,46.2,25575.0,1016.0,26591.0
+2,5,caselaw,73,False,3,2.0,True,44.5,25712.0,14.0,25726.0
+2,5,caselaw,81,False,3,1.0,False,35.1,24442.0,2.0,24444.0
+2,5,caselaw,85,False,5,1.0,False,1.1,24396.0,2.0,24398.0
+2,5,caselaw,87,False,5,1.0,False,0.9,24409.0,2.0,24411.0
+2,5,caselaw,91,False,5,2.0,True,1.6,25768.0,20.0,25788.0
+2,5,caselaw,93,False,5,1.0,False,1.6,24446.0,2.0,24448.0
+2,5,caselaw,83,False,5,2.0,True,4.8,25662.0,17.0,25679.0
+2,5,caselaw,79,False,5,2.0,True,45.8,25817.0,842.0,26659.0
+2,5,caselaw,95,False,5,1.0,False,7.4,24401.0,2.0,24403.0
+2,5,caselaw,97,False,5,2.0,True,7.6,25771.0,8.0,25779.0
+2,5,caselaw,101,False,5,2.0,True,1.3,25702.0,17.0,25719.0
+2,5,caselaw,89,False,5,2.0,True,12.2,25720.0,17.0,25737.0
+2,5,caselaw,103,False,4,1.0,False,1.7,24402.0,2.0,24404.0
+2,5,caselaw,107,False,4,2.0,True,1.7,25761.0,8.0,25769.0
+2,5,caselaw,99,False,4,2.0,True,8.2,25806.0,17.0,25823.0
+2,5,caselaw,111,False,5,1.0,False,0.9,24417.0,2.0,24419.0
+2,5,caselaw,113,False,5,1.0,False,1.0,24399.0,2.0,24401.0
+2,5,caselaw,117,False,3,1.0,False,9.1,24522.0,2.0,24524.0
+2,5,caselaw,105,False,4,2.0,True,46.1,25896.0,20.0,25916.0
+2,5,caselaw,115,False,5,2.0,True,44.0,25913.0,890.0,26803.0
+2,5,caselaw,119,True,3,1.0,False,34.6,24416.0,2.0,24418.0
+2,5,caselaw,109,False,3,2.0,True,47.2,25620.0,11.0,25631.0
+2,5,caselaw,123,True,5,2.0,True,2.2,25744.0,20.0,25764.0
+2,5,caselaw,129,True,2,2.0,True,2.4,25984.0,20.0,26004.0
+2,5,caselaw,121,False,5,2.0,True,5.5,25764.0,17.0,25781.0
+2,5,caselaw,133,False,4,1.0,False,2.7,24390.0,2.0,24392.0
+2,5,caselaw,135,False,2,1.0,False,4.8,24703.0,2.0,24705.0
+2,5,caselaw,127,False,5,2.0,True,11.1,25716.0,17.0,25733.0
+2,5,caselaw,131,False,5,2.0,True,8.1,25792.0,20.0,25812.0
+2,5,caselaw,125,True,5,2.0,True,13.1,25746.0,17.0,25763.0
+2,5,caselaw,143,False,3,1.0,False,0.8,24528.0,2.0,24530.0
+2,5,caselaw,137,False,4,1.0,False,1.8,24571.0,2.0,24573.0
+2,5,caselaw,139,False,5,2.0,True,1.9,25574.0,14.0,25588.0
+2,5,caselaw,145,False,5,1.0,False,0.7,24430.0,2.0,24432.0
+2,5,caselaw,147,False,3,1.0,False,1.0,24500.0,2.0,24502.0
+2,5,caselaw,149,True,1,1.0,False,1.4,24448.0,2.0,24450.0
+2,5,caselaw,141,False,2,1.0,False,4.0,24415.0,2.0,24417.0
+2,5,caselaw,155,False,2,1.0,False,1.1,24457.0,2.0,24459.0
+2,5,caselaw,153,False,2,1.0,False,6.4,24480.0,2.0,24482.0
+2,5,caselaw,151,True,5,1.0,False,11.0,24402.0,2.0,24404.0
+2,5,caselaw,157,False,5,1.0,False,9.1,24426.0,2.0,24428.0
+2,5,caselaw,165,False,5,1.0,False,34.2,24490.0,2.0,24492.0
+2,5,caselaw,161,False,5,1.0,False,38.4,24433.0,2.0,24435.0
+2,5,caselaw,163,False,5,2.0,True,35.5,25676.0,20.0,25696.0
+2,5,caselaw,169,True,5,2.0,True,3.2,25756.0,17.0,25773.0
+2,5,caselaw,159,True,5,2.0,True,47.7,25602.0,14.0,25616.0
+2,5,caselaw,171,False,5,2.0,True,6.1,25810.0,14.0,25824.0
+2,5,caselaw,173,False,5,2.0,True,4.7,25828.0,17.0,25845.0
+2,5,caselaw,179,False,5,1.0,False,1.9,24415.0,2.0,24417.0
+2,5,caselaw,177,False,5,2.0,True,5.0,25700.0,20.0,25720.0
+2,5,caselaw,167,False,5,2.0,True,13.3,25790.0,20.0,25810.0
+2,5,caselaw,175,False,4,1.0,False,9.2,24380.0,2.0,24382.0
+2,5,caselaw,181,False,5,2.0,True,4.5,25528.0,14.0,25542.0
+2,5,caselaw,183,False,5,2.0,True,2.7,25852.0,20.0,25872.0
+2,5,caselaw,191,True,3,1.0,False,0.5,24450.0,2.0,24452.0
+2,5,caselaw,193,False,5,1.0,False,0.5,24493.0,2.0,24495.0
+2,5,caselaw,187,False,3,2.0,True,7.8,25534.0,14.0,25548.0
+2,5,caselaw,197,False,4,1.0,False,4.0,24430.0,2.0,24432.0
+2,5,caselaw,189,True,5,2.0,True,11.4,25768.0,14.0,25782.0
+2,5,caselaw,199,False,4,1.0,False,33.9,24564.0,2.0,24566.0
+2,5,caselaw,185,False,5,2.0,True,46.6,25756.0,20.0,25776.0
+2,5,caselaw,201,True,3,1.0,False,34.3,24434.0,2.0,24436.0
+2,5,caselaw,203,False,4,1.0,False,0.9,24390.0,2.0,24392.0
+2,5,caselaw,195,False,5,1.0,False,44.6,24407.0,2.0,24409.0
+2,5,caselaw,207,True,5,1.0,False,1.0,24396.0,2.0,24398.0
+2,5,caselaw,213,False,3,1.0,False,1.7,24439.0,2.0,24441.0
+2,5,caselaw,211,True,4,1.0,False,3.9,24504.0,2.0,24506.0
+2,5,caselaw,209,True,5,2.0,True,4.6,25548.0,11.0,25559.0
+2,5,caselaw,217,False,5,1.0,False,3.8,24403.0,2.0,24405.0
+2,5,caselaw,215,False,5,2.0,True,6.6,25656.0,11.0,25667.0
+2,5,caselaw,221,False,3,1.0,False,1.4,24437.0,3.0,24440.0
+2,5,caselaw,225,False,1,1.0,False,2.2,24468.0,2.0,24470.0
+2,5,caselaw,219,False,4,1.0,False,7.5,24397.0,2.0,24399.0
+2,5,caselaw,205,False,5,2.0,True,12.7,25758.0,20.0,25778.0
+2,5,caselaw,231,False,1,1.0,False,1.1,24539.0,2.0,24541.0
+2,5,caselaw,223,True,4,1.0,False,4.7,24457.0,2.0,24459.0
+2,5,caselaw,227,True,5,1.0,False,2.5,24477.0,2.0,24479.0
+2,5,caselaw,233,True,3,1.0,False,1.1,24364.0,2.0,24366.0
+2,5,caselaw,229,False,,2.0,True,2.6,25448.0,23.0,25471.0
+2,5,caselaw,241,False,5,1.0,False,0.7,24434.0,2.0,24436.0
+2,5,caselaw,239,False,5,1.0,False,1.3,24418.0,2.0,24420.0
+2,5,caselaw,245,False,3,1.0,False,9.5,24421.0,2.0,24423.0
+2,5,caselaw,243,False,5,2.0,True,9.8,25792.0,14.0,25806.0
+2,5,caselaw,247,False,4,1.0,False,33.8,24448.0,2.0,24450.0
+2,5,caselaw,237,True,4,1.0,False,45.5,24444.0,2.0,24446.0
+2,5,caselaw,235,False,2,2.0,True,46.2,25836.0,20.0,25856.0
+2,5,caselaw,251,False,5,2.0,True,1.0,25428.0,8.0,25436.0
+2,5,caselaw,249,False,3,1.0,False,35.8,24398.0,2.0,24400.0
+2,5,caselaw,257,True,3,1.0,False,1.9,24409.0,2.0,24411.0
+2,5,caselaw,255,False,5,2.0,True,2.9,25778.0,14.0,25792.0
+2,5,caselaw,261,True,5,1.0,False,2.4,24555.0,2.0,24557.0
+2,5,caselaw,259,True,3,1.0,False,6.6,24454.0,2.0,24456.0
+2,5,caselaw,263,True,5,2.0,True,6.2,25716.0,14.0,25730.0
+2,5,caselaw,253,False,5,2.0,True,11.9,25646.0,20.0,25666.0
+2,5,caselaw,265,False,3,1.0,False,7.7,24421.0,2.0,24423.0
+2,5,caselaw,267,False,4,1.0,False,4.7,24511.0,2.0,24513.0
+2,5,caselaw,275,False,4,1.0,False,0.9,24397.0,2.0,24399.0
+2,5,caselaw,271,False,2,2.0,True,2.0,25820.0,8.0,25828.0
+2,5,caselaw,277,False,5,2.0,True,2.4,25542.0,14.0,25556.0
+2,5,caselaw,269,False,5,2.0,True,7.3,25653.0,797.0,26450.0
+2,5,caselaw,283,False,3,1.0,False,4.9,24466.0,2.0,24468.0
+2,5,caselaw,279,False,5,2.0,True,11.6,25886.0,17.0,25903.0
+2,5,caselaw,273,True,5,2.0,True,17.3,25810.0,8.0,25818.0
+2,5,caselaw,281,False,4,1.0,False,43.4,24459.0,2.0,24461.0
+2,5,caselaw,285,False,5,2.0,True,38.2,25774.0,17.0,25791.0
+2,5,caselaw,289,False,5,1.0,False,30.4,24496.0,2.0,24498.0
+2,5,caselaw,287,True,5,1.0,False,34.8,24424.0,2.0,24426.0
+2,5,caselaw,295,False,5,2.0,True,2.2,25776.0,14.0,25790.0
+2,5,caselaw,291,False,5,2.0,True,3.8,25663.0,8.0,25671.0
+2,5,caselaw,297,False,5,2.0,True,4.2,25832.0,20.0,25852.0
+2,5,caselaw,301,False,3,1.0,False,2.0,24452.0,2.0,24454.0
+2,5,caselaw,299,False,5,1.0,False,5.9,24488.0,2.0,24490.0
+2,5,caselaw,307,False,3,1.0,False,1.3,24461.0,2.0,24463.0
+2,5,caselaw,303,False,5,1.0,False,5.1,24436.0,2.0,24438.0
+2,5,caselaw,293,True,5,2.0,True,12.3,25830.0,8.0,25838.0
+2,5,caselaw,311,False,4,1.0,False,2.8,24389.0,2.0,24391.0
+2,5,caselaw,313,False,5,1.0,False,2.0,24422.0,2.0,24424.0
+2,5,caselaw,309,True,5,2.0,True,4.9,25800.0,17.0,25817.0
+2,5,caselaw,315,True,5,2.0,True,3.0,25752.0,20.0,25772.0
+2,5,caselaw,319,False,2,2.0,True,1.7,25838.0,20.0,25858.0
+2,5,caselaw,317,False,5,2.0,True,2.3,25692.0,20.0,25712.0
+2,5,caselaw,321,False,5,1.0,False,6.1,24466.0,2.0,24468.0
+2,5,caselaw,323,True,5,1.0,False,9.5,24479.0,2.0,24481.0
+2,5,caselaw,325,True,5,1.0,False,9.2,24446.0,2.0,24448.0
+2,5,caselaw,329,False,5,1.0,False,33.9,24507.0,2.0,24509.0
+2,5,caselaw,331,False,2,1.0,False,34.3,24435.0,2.0,24437.0
+2,5,caselaw,305,False,5,2.0,True,55.5,25735.0,896.0,26631.0
+2,5,caselaw,337,False,5,1.0,False,0.8,24441.0,2.0,24443.0
+2,5,caselaw,327,False,5,2.0,True,41.4,25768.0,8.0,25776.0
+2,5,caselaw,333,False,5,2.0,True,5.4,25728.0,11.0,25739.0
+2,5,caselaw,335,False,5,2.0,True,7.4,25683.0,818.0,26501.0
+2,5,caselaw,339,True,5,2.0,True,6.6,25832.0,17.0,25849.0
+2,5,caselaw,347,False,5,2.0,True,4.0,25658.0,11.0,25669.0
+2,5,caselaw,349,False,5,1.0,False,0.5,24425.0,2.0,24427.0
+2,5,caselaw,345,False,5,2.0,True,5.2,25520.0,14.0,25534.0
+2,5,caselaw,341,False,5,2.0,True,11.4,25720.0,14.0,25734.0
+2,5,caselaw,353,False,5,2.0,True,2.1,25712.0,14.0,25726.0
+2,5,caselaw,357,False,3,1.0,False,0.5,24445.0,3.0,24448.0
+2,5,caselaw,343,False,3,2.0,True,10.5,25500.0,11.0,25511.0
+2,5,caselaw,361,False,4,1.0,False,1.0,24452.0,2.0,24454.0
+2,5,caselaw,351,False,5,2.0,True,9.0,25734.0,20.0,25754.0
+2,5,caselaw,355,False,4,2.0,True,44.8,25746.0,14.0,25760.0
+2,5,caselaw,367,False,3,1.0,False,0.9,24401.0,2.0,24403.0
+2,5,caselaw,365,True,5,2.0,True,38.7,25510.0,14.0,25524.0
+2,5,caselaw,359,False,3,2.0,True,45.3,25622.0,20.0,25642.0
+2,5,caselaw,363,False,5,2.0,True,44.7,25630.0,14.0,25644.0
+2,5,caselaw,369,False,5,2.0,True,4.5,25458.0,11.0,25469.0
+2,5,caselaw,371,False,2,1.0,False,4.7,24455.0,2.0,24457.0
+2,5,caselaw,379,True,4,1.0,False,3.0,24589.0,2.0,24591.0
+2,5,caselaw,373,False,5,2.0,True,8.9,25587.0,1007.0,26594.0
+2,5,caselaw,377,False,5,2.0,True,7.7,25558.0,14.0,25572.0
+2,5,caselaw,381,False,5,2.0,True,5.6,25851.0,8.0,25859.0
+2,5,caselaw,387,False,5,2.0,True,0.8,25738.0,14.0,25752.0
+2,5,caselaw,385,False,5,2.0,True,2.5,25673.0,95.0,25768.0
+2,5,caselaw,375,False,3,2.0,True,14.2,25746.0,11.0,25757.0
+2,5,caselaw,393,False,3,1.0,False,0.7,24425.0,2.0,24427.0
+2,5,caselaw,391,False,5,2.0,True,1.5,25564.0,11.0,25575.0
+2,5,caselaw,383,False,1,1.0,False,11.1,24379.0,2.0,24381.0
+2,5,caselaw,397,False,5,2.0,True,9.3,25744.0,14.0,25758.0
+2,5,caselaw,399,False,5,1.0,False,5.1,24414.0,2.0,24416.0
+2,5,caselaw,389,False,4,2.0,True,45.2,25717.0,305.0,26022.0
+2,5,caselaw,395,False,4,1.0,False,44.3,24404.0,2.0,24406.0
+2,10,wiki,13,True,1735,1.0,False,0.6,7174.0,3.0,7177.0
+2,10,wiki,11,True,New Orange.,2.0,True,0.9,8285.0,10.0,8295.0
+2,10,wiki,12,True,The Second Anglo-Dutch War.,2.0,True,2.1,9147.0,26.0,9173.0
+2,10,wiki,15,False,The Great Irish Famine,1.0,False,2.3,7174.0,6.0,7180.0
+2,10,wiki,14,True,August 1776.,2.0,True,4.6,8309.0,12.0,8321.0
+2,10,wiki,17,True,1827,2.0,True,5.0,8141.0,9.0,8150.0
+2,10,wiki,19,True,25%,2.0,True,4.8,8288.0,12.0,8300.0
+2,10,wiki,16,True,Philadelphia.,2.0,True,11.4,8313.0,9.0,8322.0
+2,10,wiki,22,True,Megacity,1.0,False,1.3,7180.0,3.0,7183.0
+2,10,wiki,21,False,No information is available in the passage.,2.0,True,4.7,8309.0,15.0,8324.0
+2,10,wiki,23,False,No answer available.,2.0,True,1.5,8330.0,11.0,8341.0
+2,10,wiki,20,True,1898.,2.0,True,14.0,9156.0,13.0,9169.0
+2,10,wiki,18,False,There is no information about the Erie Canal in the provided passage.,2.0,True,23.1,8305.0,20.0,8325.0
+2,10,wiki,24,False,There is no information about the question in the provided passage.,2.0,True,45.2,9211.0,337.0,9548.0
+2,10,wiki,27,False,"No answer, as the passage does not mention three islands.",2.0,True,34.5,9098.0,58.0,9156.0
+2,10,wiki,26,False,No answer available.,2.0,True,39.4,8321.0,11.0,8332.0
+2,10,wiki,25,False,There is no mention of a plane crash in the provided passage.,2.0,True,45.9,9206.0,35.0,9241.0
+2,10,wiki,28,False,Harlem River.,2.0,True,3.4,8369.0,200.0,8569.0
+2,10,wiki,29,True,164.1,2.0,True,4.3,8590.0,229.0,8819.0
+2,10,wiki,30,False,I don't have the information.,2.0,True,4.2,8323.0,14.0,8337.0
+2,10,wiki,34,True,humid continental,1.0,False,3.2,7181.0,4.0,7185.0
+2,10,wiki,33,False,Sewer systems.,1.0,False,7.1,7184.0,6.0,7190.0
+2,10,wiki,31,False,Over 300.,2.0,True,10.9,8247.0,11.0,8258.0
+2,10,wiki,35,True,"July 9, 1936.",2.0,True,4.4,8998.0,234.0,9232.0
+2,10,wiki,32,False,No answer available.,2.0,True,11.5,9181.0,329.0,9510.0
+2,10,wiki,38,False,"26,000",2.0,True,2.0,8072.0,10.0,8082.0
+2,10,wiki,37,True,Minneapolis.,2.0,True,2.8,9078.0,19.0,9097.0
+2,10,wiki,40,True,"1,093",2.0,True,2.2,8506.0,16.0,8522.0
+2,10,wiki,41,False,No information is provided about a brigade being headquartered at Fort Hamilton.,2.0,True,7.0,9175.0,338.0,9513.0
+2,10,wiki,39,True,Grant's Tomb.,2.0,True,45.0,8824.0,14.0,8838.0
+2,10,wiki,42,False,20.1 million residents.,2.0,True,43.9,8705.0,211.0,8916.0
+2,10,wiki,43,False,Bangladeshi.,2.0,True,38.7,8359.0,15.0,8374.0
+2,10,wiki,36,True,49.9 inches.,2.0,True,48.9,8265.0,15.0,8280.0
+2,10,wiki,47,False,England.,2.0,True,1.8,8313.0,9.0,8322.0
+2,10,wiki,46,False,No information.,2.0,True,4.0,9173.0,316.0,9489.0
+2,10,wiki,45,True,"74,000.",2.0,True,6.7,8234.0,11.0,8245.0
+2,10,wiki,48,True,"568,903",1.0,False,5.1,7175.0,4.0,7179.0
+2,10,wiki,44,False,No information provided.,2.0,True,10.2,9308.0,115.0,9423.0
+2,10,wiki,51,True,"$15,887",2.0,True,4.5,8253.0,11.0,8264.0
+2,10,wiki,49,True,Judaism.,2.0,True,8.7,8270.0,11.0,8281.0
+2,10,wiki,52,False,"25,000.",2.0,True,5.0,8316.0,11.0,8327.0
+2,10,wiki,50,True,"$2,749.",2.0,True,7.8,9273.0,201.0,9474.0
+2,10,wiki,53,False,No information.,2.0,True,3.4,9181.0,328.0,9509.0
+2,10,wiki,54,True,$40 billion.,2.0,True,8.0,9248.0,14.0,9262.0
+2,10,wiki,56,False,I don't have information about Cornell Tech's location.,2.0,True,44.0,8213.0,18.0,8231.0
+2,10,wiki,55,False,No information.,2.0,True,45.1,8245.0,10.0,8255.0
+2,10,wiki,58,False,"""Yankee Doodle""",2.0,True,39.2,9150.0,68.0,9218.0
+2,10,wiki,57,True,56.4 million.,2.0,True,44.8,9147.0,69.0,9216.0
+2,10,wiki,61,True,"25,000",1.0,False,0.9,7175.0,4.0,7179.0
+2,10,wiki,60,False,I don't have that information.,2.0,True,2.7,9271.0,185.0,9456.0
+2,10,wiki,64,True,WNYC.,2.0,True,2.1,8220.0,11.0,8231.0
+2,10,wiki,59,False,No information.,2.0,True,5.6,8227.0,10.0,8237.0
+2,10,wiki,62,True,The Wall Street Journal and The New York Times.,2.0,True,9.1,8255.0,17.0,8272.0
+2,10,wiki,66,False,There is no answer in the passage.,2.0,True,7.0,9179.0,333.0,9512.0
+2,10,wiki,65,False,No information.,2.0,True,8.2,7823.0,10.0,7833.0
+2,10,wiki,67,True,1.4 million.,2.0,True,3.8,8382.0,12.0,8394.0
+2,10,wiki,69,False,No information.,2.0,True,1.7,8315.0,10.0,8325.0
+2,10,wiki,63,True,Manhattan Neighborhood Network.,2.0,True,13.6,8282.0,12.0,8294.0
+2,10,wiki,70,False,No information is available.,2.0,True,2.9,8337.0,12.0,8349.0
+2,10,wiki,72,False,Commuter rail network.,2.0,True,10.5,8402.0,16.0,8418.0
+2,10,wiki,71,False,No information is provided about the second largest fire department force in the world.,2.0,True,44.9,9183.0,340.0,9523.0
+2,10,wiki,68,True,"Ramanathan Raju, MD.",2.0,True,48.0,8336.0,15.0,8351.0
+2,10,wiki,73,False,No information.,2.0,True,44.3,9191.0,328.0,9519.0
+2,10,wiki,74,False,Action painting.,2.0,True,36.7,8139.0,10.0,8149.0
+2,10,wiki,77,False,There is no information about the world's most expensive stadiums being located in NYC.,2.0,True,3.8,8752.0,32.0,8784.0
+2,10,wiki,76,False,No information.,2.0,True,4.9,8269.0,10.0,8279.0
+2,10,wiki,79,True,Hockey,1.0,False,3.3,7173.0,3.0,7176.0
+2,10,wiki,78,True,MetLife Stadium,2.0,True,7.1,8235.0,10.0,8245.0
+2,10,wiki,75,False,None mentioned.,2.0,True,12.8,8261.0,10.0,8271.0
+2,10,wiki,81,False,No information.,2.0,True,4.5,9185.0,328.0,9513.0
+2,10,wiki,80,False,There is no information about a collegiate basketball championship in the passage.,2.0,True,9.3,9191.0,338.0,9529.0
+2,10,wiki,82,False,New York City Subway.,2.0,True,5.1,8398.0,15.0,8413.0
+2,10,wiki,83,False,No information provided.,2.0,True,3.0,8249.0,11.0,8260.0
+2,10,wiki,85,False,No information is available in the passage.,2.0,True,2.0,8517.0,21.0,8538.0
+2,10,wiki,86,False,No answer.,2.0,True,1.7,8143.0,10.0,8153.0
+2,10,wiki,88,False,No information.,2.0,True,9.5,8571.0,13.0,8584.0
+2,10,wiki,84,False,No information.,2.0,True,13.0,9183.0,319.0,9502.0
+2,10,wiki,89,False,There is no answer to this question in the passage.,2.0,True,44.5,9185.0,48.0,9233.0
+2,10,wiki,87,False,None mentioned.,2.0,True,45.8,8233.0,10.0,8243.0
+2,10,wiki,92,False,1.4 million.,2.0,True,2.2,8384.0,12.0,8396.0
+2,10,wiki,93,False,No information.,2.0,True,3.9,8717.0,25.0,8742.0
+2,10,wiki,90,False,No information is available.,2.0,True,39.5,7825.0,12.0,7837.0
+2,10,wiki,91,False,No information.,2.0,True,41.9,9189.0,310.0,9499.0
+2,10,wiki,94,True,Fifth Avenue.,2.0,True,6.3,8257.0,11.0,8268.0
+2,10,wiki,95,True,New York City FC.,2.0,True,7.2,8691.0,288.0,8979.0
+2,10,wiki,98,False,Geographically on Long Island.,1.0,False,3.3,7174.0,7.0,7181.0
+2,10,wiki,97,False,Theater,1.0,False,5.9,7171.0,3.0,7174.0
+2,10,wiki,99,False,There is no information about this in the passage.,2.0,True,2.5,9189.0,47.0,9236.0
+2,10,wiki,96,False,JFK,1.0,False,9.8,7174.0,3.0,7177.0
+2,10,wiki,100,False,Eastern District of New York.,2.0,True,2.9,9154.0,16.0,9170.0
+2,10,news,11,False,Southern Afghanistan.,2.0,True,8.0,26081.0,1177.0,27258.0
+2,10,news,12,False,An al Qaeda-affiliated group.,2.0,True,11.0,25752.0,158.0,25910.0
+2,10,news,14,False,Three Chinese citizens.,2.0,True,43.7,25486.0,692.0,26178.0
+2,10,news,13,False,Early Friday.,2.0,True,46.1,26087.0,1093.0,27180.0
+2,10,news,17,True,Demand full democracy be restored in Pakistan.,1.0,False,1.5,24459.0,9.0,24468.0
+2,10,news,15,True,Assistant Attorney General Alice Fisher.,2.0,True,39.5,26216.0,172.0,26388.0
+2,10,news,19,False,Mauro Camoranesi,1.0,False,1.6,24459.0,7.0,24466.0
+2,10,news,21,False,"Cape Town, South Africa.",1.0,False,0.7,24457.0,8.0,24465.0
+2,10,news,18,False,Yes.,2.0,True,3.7,25656.0,237.0,25893.0
+2,10,news,16,False,"Angus Houston, Carlos Branco, Dick Cheney, Tony Snow.",2.0,True,42.0,26083.0,594.0,26677.0
+2,10,news,22,False,No information is provided about a yacht.,2.0,True,4.9,25194.0,15.0,25209.0
+2,10,news,20,False,Lionel Messi,2.0,True,8.4,26093.0,1178.0,27271.0
+2,10,news,26,False,Withdrew support,1.0,False,0.5,24458.0,5.0,24463.0
+2,10,news,24,False,Manslaughter,1.0,False,5.1,24459.0,4.0,24463.0
+2,10,news,27,False,Hugo Chavez,1.0,False,3.5,24460.0,4.0,24464.0
+2,10,news,25,False,Finch and Canary Fighting Case.,2.0,True,5.9,25420.0,14.0,25434.0
+2,10,news,23,False,New Jersey.,2.0,True,9.4,25434.0,10.0,25444.0
+2,10,news,29,False,Surrey,1.0,False,1.5,24456.0,4.0,24460.0
+2,10,news,28,False,No.,2.0,True,3.4,25465.0,9.0,25474.0
+2,10,news,32,False,No information is given about Commonwealth Games.,2.0,True,1.6,25184.0,17.0,25201.0
+2,10,news,30,True,Baku,1.0,False,8.3,24457.0,3.0,24460.0
+2,10,news,35,False,No information provided.,2.0,True,37.8,25492.0,11.0,25503.0
+2,10,news,31,False,There is no information about the Commonwealth Games in the passage.,2.0,True,46.8,26107.0,1186.0,27293.0
+2,10,news,34,False,No one.,2.0,True,44.4,25306.0,10.0,25316.0
+2,10,news,36,False,Lobbying.,2.0,True,1.5,25618.0,11.0,25629.0
+2,10,news,39,False,Dida,2.0,True,3.1,25320.0,9.0,25329.0
+2,10,news,38,False,Two people.,2.0,True,4.2,26308.0,13.0,26321.0
+2,10,news,41,False,The helicopter.,1.0,False,3.0,24461.0,4.0,24465.0
+2,10,news,42,False,Guam,1.0,False,1.4,24457.0,3.0,24460.0
+2,10,news,43,True,Genocide,1.0,False,0.6,24460.0,3.0,24463.0
+2,10,news,37,False,Gen. Carlos Branco.,2.0,True,11.3,26081.0,1180.0,27261.0
+2,10,news,44,False,Veterans' care programs,1.0,False,2.5,24458.0,6.0,24464.0
+2,10,news,45,False,No information.,2.0,True,1.4,25570.0,10.0,25580.0
+2,10,news,46,False,Liberty Helicopter Sightseeing Tours,2.0,True,1.8,25438.0,14.0,25452.0
+2,10,news,47,False,6 years old,1.0,False,1.1,24455.0,4.0,24459.0
+2,10,news,49,False,Terrorists and narcotraffickers.,2.0,True,1.1,25290.0,17.0,25307.0
+2,10,news,33,False,Immigration and Customs Enforcement agents.,2.0,True,64.4,25760.0,488.0,26248.0
+2,10,news,50,False,No information.,2.0,True,9.9,26103.0,1177.0,27280.0
+2,10,news,48,False,"There is no mention of ""ml5"" in the passage.",2.0,True,11.3,25586.0,956.0,26542.0
+2,10,news,51,False,Taliban militants.,2.0,True,39.7,26083.0,1179.0,27262.0
+2,10,news,52,False,No information is given about arsons in Coatseville.,2.0,True,35.3,25795.0,22.0,25817.0
+2,10,news,55,False,Alvaro Uribe,1.0,False,0.5,24460.0,6.0,24466.0
+2,10,news,54,False,No information is given about a female probation.,2.0,True,1.5,25871.0,22.0,25893.0
+2,10,news,56,False,2-0.,2.0,True,2.0,25445.0,11.0,25456.0
+2,10,news,57,False,Polyps were removed.,1.0,False,3.3,24454.0,6.0,24460.0
+2,10,news,58,False,No one mentioned.,2.0,True,4.7,25371.0,11.0,25382.0
+2,10,news,53,False,There is no mention of a teacher in the passage.,2.0,True,44.2,26095.0,1185.0,27280.0
+2,10,news,60,False,No information provided.,2.0,True,4.1,25180.0,11.0,25191.0
+2,10,news,59,False,There is no information about female only buses in the passage.,2.0,True,15.1,26101.0,1186.0,27287.0
+2,10,news,63,False,34,1.0,False,0.4,24457.0,2.0,24459.0
+2,10,news,61,False,No information.,2.0,True,11.2,26101.0,1177.0,27278.0
+2,10,news,64,False,No one mentioned voting in the passage.,2.0,True,1.0,25430.0,15.0,25445.0
+2,10,news,65,True,Princess Eugenie,1.0,False,0.4,24464.0,5.0,24469.0
+2,10,news,66,True,National Hurricane Center,1.0,False,0.4,24455.0,4.0,24459.0
+2,10,news,67,False,Full democracy in Pakistan.,1.0,False,0.6,24454.0,6.0,24460.0
+2,10,news,62,False,No information.,2.0,True,13.0,25344.0,10.0,25354.0
+2,10,news,70,False,No information is provided about Michael Vick.,2.0,True,34.4,25608.0,15.0,25623.0
+2,10,news,69,False,Bail until sentencing.,2.0,True,38.9,26250.0,477.0,26727.0
+2,10,news,71,False,No information is available in the passage.,2.0,True,2.2,25408.0,15.0,25423.0
+2,10,news,72,False,Opposition legislators.,2.0,True,0.9,25324.0,11.0,25335.0
+2,10,news,73,False,None.,2.0,True,1.7,25423.0,9.0,25432.0
+2,10,news,68,False,No one.,2.0,True,46.6,26091.0,1153.0,27244.0
+2,10,news,76,False,I don't have the information.,1.0,False,1.2,24456.0,8.0,24464.0
+2,10,news,77,True,The August war between Georgia and Russia.,1.0,False,0.6,24463.0,9.0,24472.0
+2,10,news,78,False,No one.,2.0,True,2.7,25423.0,10.0,25433.0
+2,10,news,79,False,Elizabeth Taylor,1.0,False,0.7,24456.0,3.0,24459.0
+2,10,news,74,False,No one.,2.0,True,13.8,25378.0,10.0,25388.0
+2,10,news,75,False,No information is provided about SP shareholders.,2.0,True,12.8,25445.0,15.0,25460.0
+2,10,news,80,False,No mention.,2.0,True,7.5,25410.0,10.0,25420.0
+2,10,news,81,False,No one.,2.0,True,5.7,25282.0,10.0,25292.0
+2,10,news,40,False,Lined up to withdraw cash.,2.0,True,136.7,25642.0,743.0,26385.0
+2,10,news,84,False,Nowhere mentioned.,2.0,True,4.2,25654.0,350.0,26004.0
+2,10,news,83,False,No mention of the F-15.,2.0,True,38.4,26091.0,1179.0,27270.0
+2,10,news,82,False,No answer available.,2.0,True,43.8,25188.0,11.0,25199.0
+2,10,news,86,False,Cracks found.,2.0,True,35.4,25339.0,11.0,25350.0
+2,10,news,88,False,No information is given about Russian planes.,2.0,True,1.9,25482.0,18.0,25500.0
+2,10,news,90,False,Engulfed in flames.,1.0,False,0.9,24460.0,7.0,24467.0
+2,10,news,89,False,There is no plan mentioned.,2.0,True,2.2,26356.0,229.0,26585.0
+2,10,news,92,False,£40 million,1.0,False,1.8,24459.0,4.0,24463.0
+2,10,news,93,False,scoliosis,1.0,False,2.6,24456.0,4.0,24460.0
+2,10,news,94,True,Human shields.,1.0,False,0.6,24462.0,4.0,24466.0
+2,10,news,91,False,Battling the blaze.,2.0,True,7.6,26388.0,796.0,27184.0
+2,10,news,95,False,None mentioned.,2.0,True,5.6,25660.0,769.0,26429.0
+2,10,news,87,False,No.,2.0,True,16.3,26072.0,663.0,26735.0
+2,10,news,98,False,"Cape Town, South Africa.",1.0,False,4.1,24455.0,8.0,24463.0
+2,10,news,97,False,No information is given about Anbar.,2.0,True,7.6,26095.0,1179.0,27274.0
+2,10,news,100,False,No information.,2.0,True,0.9,25744.0,13.0,25757.0
+2,10,news,101,False,Blood was drawn.,2.0,True,0.7,25421.0,11.0,25432.0
+2,10,news,96,False,A contestant's death.,2.0,True,13.1,26081.0,1170.0,27251.0
+2,10,news,102,False,None.,2.0,True,2.9,25126.0,9.0,25135.0
+2,10,news,104,False,Profit forecasts.,1.0,False,33.6,24454.0,4.0,24458.0
+2,10,news,99,False,No information is provided about Britney Spears' kids.,2.0,True,40.1,26093.0,1185.0,27278.0
+2,10,news,106,False,"Cape Town, South Africa",1.0,False,1.0,24456.0,7.0,24463.0
+2,10,news,107,False,Afghanistan.,2.0,True,0.5,25495.0,14.0,25509.0
+2,10,news,108,False,A tanker truck and a 1961 fire truck.,1.0,False,0.9,24454.0,12.0,24466.0
+2,10,news,109,False,38,1.0,False,0.3,24455.0,2.0,24457.0
+2,10,news,110,False,Chris Lewis,1.0,False,0.5,24464.0,3.0,24467.0
+2,10,news,111,False,None (Hamas not mentioned),2.0,True,1.8,25132.0,14.0,25146.0
+2,10,news,105,False,No answer available.,2.0,True,8.0,26412.0,707.0,27119.0
+2,10,news,113,False,"60 wounded, 14 killed.",2.0,True,2.8,26119.0,22.0,26141.0
+2,10,news,112,False,No answer available.,2.0,True,12.6,26093.0,1175.0,27268.0
+2,10,news,115,False,Concerns over the nuclear deal.,2.0,True,0.6,25871.0,20.0,25891.0
+2,10,news,116,False,53.,2.0,True,2.0,25368.0,9.0,25377.0
+2,10,news,114,False,No information is given about a person named Bout.,2.0,True,11.4,26087.0,1178.0,27265.0
+2,10,news,117,True,Garbage.,1.0,False,1.8,24460.0,4.0,24464.0
+2,10,news,119,False,No information is provided about Coca-Cola.,2.0,True,0.9,25128.0,15.0,25143.0
+2,10,news,120,False,No one.,2.0,True,0.8,25913.0,16.0,25929.0
+2,10,news,118,False,"$39,000",2.0,True,37.7,25786.0,1151.0,26937.0
+2,10,news,85,False,Roma,2.0,True,158.6,25502.0,9.0,25511.0
+2,10,news,121,False,No information is given about Boy George.,2.0,True,37.0,25128.0,15.0,25143.0
+2,10,news,124,False,Elizabeth Taylor's night out.,1.0,False,0.6,24457.0,7.0,24464.0
+2,10,news,125,True,Andrea Bocelli's,1.0,False,0.6,24457.0,7.0,24464.0
+2,10,news,122,False,No one was injured.,2.0,True,3.4,25535.0,12.0,25547.0
+2,10,news,127,False,No one.,2.0,True,2.4,25604.0,10.0,25614.0
+2,10,news,128,False,No information.,1.0,False,2.5,24459.0,4.0,24463.0
+2,10,news,123,False,There is no information about Youssif meeting Lassie.,2.0,True,8.3,26093.0,1184.0,27277.0
+2,10,news,130,False,No information is given about Pakistan.,2.0,True,2.1,25351.0,14.0,25365.0
+2,10,news,126,False,There is no information about a 1985 quake in the passage.,2.0,True,10.1,26089.0,1185.0,27274.0
+2,10,news,129,False,Princess Eugenie,1.0,False,10.2,24454.0,5.0,24459.0
+2,10,news,133,False,Nothing.,2.0,True,2.0,25410.0,9.0,25419.0
+2,10,news,132,False,No.,2.0,True,9.3,25571.0,9.0,25580.0
+2,10,news,135,False,No information.,2.0,True,1.1,25501.0,13.0,25514.0
+2,10,news,131,False,Not mentioned.,2.0,True,12.7,25552.0,10.0,25562.0
+2,10,news,136,False,surveillance,2.0,True,1.2,25889.0,15.0,25904.0
+2,10,news,138,False,A $20 bill.,2.0,True,35.6,25136.0,12.0,25148.0
+2,10,news,134,False,There is no mention of a price increase in alcohol.,2.0,True,40.2,26089.0,1182.0,27271.0
+2,10,news,137,False,E-mail.,2.0,True,37.7,25752.0,97.0,25849.0
+2,10,news,139,False,"Jacksonville, Florida.",2.0,True,7.0,26423.0,816.0,27239.0
+2,10,news,142,False,"Nowhere, they were Italian tourists.",2.0,True,0.6,25408.0,15.0,25423.0
+2,10,news,143,False,Hong Kong street.,1.0,False,0.3,24463.0,5.0,24468.0
+2,10,news,144,True,David Cameron's,1.0,False,0.3,24455.0,4.0,24459.0
+2,10,news,145,False,There is no information about Kerry Thomas being charged with anything.,2.0,True,1.9,25798.0,22.0,25820.0
+2,10,news,140,False,No one.,2.0,True,10.5,25754.0,1117.0,26871.0
+2,10,news,141,False,There is no information about Burk's car in the passage.,2.0,True,11.4,26087.0,1183.0,27270.0
+2,10,news,147,False,Engine failure.,1.0,False,7.5,24459.0,4.0,24463.0
+2,10,news,148,False,Polyps.,2.0,True,6.1,25851.0,16.0,25867.0
+2,10,news,149,False,"Fair play, respect, and solidarity.",1.0,False,1.9,24459.0,9.0,24468.0
+2,10,news,150,False,Hong Kong street.,1.0,False,3.2,24455.0,5.0,24460.0
+2,10,news,146,False,There is no information about a collision in the provided passage.,2.0,True,13.1,25539.0,19.0,25558.0
+2,10,news,152,False,Navy.,2.0,True,1.9,25348.0,10.0,25358.0
+2,10,news,154,False,None.,2.0,True,2.2,25539.0,9.0,25548.0
+2,10,news,153,False,Nothing is mentioned.,2.0,True,3.5,25347.0,11.0,25358.0
+2,10,news,151,False,Not mentioned.,2.0,True,39.4,26085.0,1177.0,27262.0
+2,10,news,157,False,indigenous majority,2.0,True,2.0,26164.0,13.0,26177.0
+2,10,news,155,False,No information provided.,2.0,True,36.1,26099.0,53.0,26152.0
+2,10,news,159,True,Holding veterans care funding hostage.,1.0,False,4.9,24457.0,8.0,24465.0
+2,10,news,160,False,Veterans' care funding.,1.0,False,0.4,24460.0,7.0,24467.0
+2,10,news,156,False,Colon.,2.0,True,43.1,26089.0,1176.0,27265.0
+2,10,news,161,False,No information provided.,2.0,True,9.0,26087.0,1178.0,27265.0
+2,10,news,163,False,Primera Liga,2.0,True,0.5,25470.0,10.0,25480.0
+2,10,news,162,False,Drowning.,2.0,True,8.5,25776.0,1072.0,26848.0
+2,10,news,165,False,There is no information about Hughley in the passage.,2.0,True,0.9,26087.0,60.0,26147.0
+2,10,news,166,False,An engine.,1.0,False,1.3,24457.0,4.0,24461.0
+2,10,news,167,True,David Beckham,1.0,False,0.4,24455.0,3.0,24458.0
+2,10,news,168,False,Sevilla.,2.0,True,1.9,25821.0,16.0,25837.0
+2,10,news,169,False,Lost their fourth league game.,2.0,True,0.8,25472.0,13.0,25485.0
+2,10,news,164,False,No information.,2.0,True,7.0,26091.0,1177.0,27268.0
+2,10,news,171,False,Lack of democracy,1.0,False,0.5,24456.0,5.0,24461.0
+2,10,news,170,False,Nothing.,2.0,True,2.5,25612.0,9.0,25621.0
+2,10,news,173,False,scoliosis,1.0,False,33.9,24454.0,4.0,24458.0
+2,10,news,174,False,Alvaro Uribe,1.0,False,0.6,24457.0,6.0,24463.0
+2,10,news,172,False,No location mentioned.,2.0,True,36.8,26081.0,1178.0,27259.0
+2,10,news,175,False,There is no mention of Winkler in the passage.,2.0,True,1.6,25614.0,19.0,25633.0
+2,10,news,176,False,There is no information about Mary Winkler in the passage.,2.0,True,5.6,26095.0,62.0,26157.0
+2,10,news,177,True,"""Until the Day Is Done""",2.0,True,5.3,25572.0,14.0,25586.0
+2,10,news,179,False,There is no mention of Mable Randon in the passage.,2.0,True,9.0,26093.0,62.0,26155.0
+2,10,news,178,False,No one.,2.0,True,9.8,25284.0,10.0,25294.0
+2,10,news,180,False,There is no information about Mable Randon in the passage.,2.0,True,1.8,26091.0,62.0,26153.0
+2,10,news,181,False,There is no mention of cars being abandoned.,2.0,True,4.7,26085.0,589.0,26674.0
+2,10,news,182,False,There is no mention of the London bus bombing in the provided passage.,2.0,True,8.2,26095.0,1188.0,27283.0
+2,10,news,184,False,1961.,2.0,True,0.7,25464.0,10.0,25474.0
+2,10,news,185,False,US Embassy in Baku,1.0,False,0.3,24458.0,6.0,24464.0
+2,10,news,186,False,7.5 percent.,1.0,False,0.3,24459.0,6.0,24465.0
+2,10,news,187,False,There is no information about markets in the given passage.,2.0,True,0.8,25448.0,18.0,25466.0
+2,10,news,183,False,There is no information about an extinct sea creature fossil sale in the passage.,2.0,True,8.9,26093.0,1189.0,27282.0
+2,10,news,189,True,Yuvraj Singh,1.0,False,0.3,24467.0,5.0,24472.0
+2,10,news,188,False,Searching.,2.0,True,31.8,25491.0,540.0,26031.0
+2,10,news,190,False,There is no mention of a storm.,2.0,True,30.8,25615.0,15.0,25630.0
+2,10,news,191,False,None,1.0,False,0.9,24456.0,2.0,24458.0
+2,10,news,193,True,24 years.,2.0,True,1.5,25404.0,10.0,25414.0
+2,10,news,194,False,Tomas Medina Caracas.,2.0,True,5.6,26015.0,259.0,26274.0
+2,10,news,195,False,"Bridgeport, Alabama.",1.0,False,1.2,24457.0,6.0,24463.0
+2,10,news,158,False,There is no mention of Donna Greenwell in the passage.,2.0,True,134.7,26072.0,571.0,26643.0
+2,10,news,197,False,None.,2.0,True,0.8,25130.0,9.0,25139.0
+2,10,news,196,False,No information.,2.0,True,9.8,26089.0,1177.0,27266.0
+2,10,news,198,False,"None, the name Thomas is not mentioned in the passage.",2.0,True,9.8,26089.0,1180.0,27269.0
+2,10,news,200,True,Augustin Binya,1.0,False,0.3,24458.0,5.0,24463.0
+2,10,news,199,False,None mentioned.,2.0,True,10.2,26089.0,1177.0,27266.0
+2,10,novel,00950a36_13,True,Shah Amurath,1.0,False,1.3,30309.0,6.0,30315.0
+2,10,novel,00950a36_14,False,A savage or a madman.,1.0,False,1.4,30312.0,8.0,30320.0
+2,10,novel,00950a36_15,False,No one is mentioned as killing the captain of a pirate ship in the passage.,2.0,True,1.2,32083.0,50.0,32133.0
+2,10,novel,3e966645_1,False,The Land of Oz.,2.0,True,1.1,32148.0,63.0,32211.0
+2,10,novel,3e966645_2,False,Mr. Saul,1.0,False,1.2,30308.0,4.0,30312.0
+2,10,novel,00950a36_12,True,Akif.,2.0,True,32.5,32047.0,1231.0,33278.0
+2,10,novel,3e966645_4,False,Nothing is mentioned.,2.0,True,24.6,31616.0,17.0,31633.0
+2,10,novel,3e966645_6,False,Mr. Salton,1.0,False,1.9,30308.0,5.0,30313.0
+2,10,novel,3e966645_5,False,There is no mention of former officers dying from an illness in the passage.,2.0,True,6.9,32490.0,517.0,33007.0
+2,10,novel,3e966645_8,False,London,1.0,False,0.4,30312.0,2.0,30314.0
+2,10,novel,3e966645_9,False,French Polynesia,1.0,False,1.2,30309.0,5.0,30314.0
+2,10,novel,3e966645_7,False,No one is mentioned.,2.0,True,9.6,32037.0,1257.0,33294.0
+2,10,novel,3e966645_11,False,The South Seas.,2.0,True,1.6,31807.0,23.0,31830.0
+2,10,novel,3e966645_12,False,No mention.,2.0,True,3.8,31815.0,22.0,31837.0
+2,10,novel,3e966645_10,False,No information is given about a schooner landing in the port.,2.0,True,12.0,32224.0,1499.0,33723.0
+2,10,novel,3e966645_17,False,The South Seas.,1.0,False,0.4,30312.0,5.0,30317.0
+2,10,news,103,False,No answer found.,2.0,True,423.1,26089.0,1175.0,27264.0
+2,10,novel,3e966645_16,False,There is no mention of Davis in the passage.,2.0,True,9.9,32142.0,530.0,32672.0
+2,10,novel,3e966645_19,False,There is no information about 3 beggars operating out of the Tahitian port of Papeete.,2.0,True,10.7,31582.0,34.0,31616.0
+2,10,novel,3e966645_21,False,There is no mention of a US Counsel or a schooner carrying champagne.,2.0,True,6.2,31728.0,28.0,31756.0
+2,10,novel,3e966645_22,False,There is no mention of Davis and the others planning to take a ship.,2.0,True,2.5,31445.0,25.0,31470.0
+2,10,novel,3e966645_20,False,The City of Papeete.,2.0,True,9.2,31833.0,635.0,32468.0
+2,10,novel,6a659de3_2,False,Evil powers,1.0,False,9.0,30314.0,4.0,30318.0
+2,10,novel,3e966645_23,False,There is no mention of beggars or a Tahitian port in the passage.,2.0,True,26.4,32250.0,1511.0,33761.0
+2,10,novel,6a659de3_3,False,Guph,1.0,False,24.3,30306.0,4.0,30310.0
+2,10,novel,6a659de3_4,False,Shah Amurath,1.0,False,18.7,30319.0,6.0,30325.0
+2,10,novel,6a659de3_5,False,There is no mention of Vincey or Leo in the passage.,2.0,True,6.8,31185.0,20.0,31205.0
+2,10,news,192,False,There is no information about Yu Sheng products.,2.0,True,127.3,25404.0,17.0,25421.0
+2,10,novel,6a659de3_6,False,There is no queen mentioned.,2.0,True,11.7,32210.0,1501.0,33711.0
+2,10,novel,6a659de3_8,False,No one is mentioned as saving Leo.,2.0,True,6.8,31176.0,15.0,31191.0
+2,10,novel,6a659de3_14,False,Robert Herrick,1.0,False,3.0,30307.0,4.0,30311.0
+2,10,novel,6a659de3_7,False,There is no box mentioned in the passage.,2.0,True,15.8,32148.0,529.0,32677.0
+2,10,novel,9561a72a_0,False,There is no information about Dorothy Gale in the passage.,2.0,True,3.1,30975.0,18.0,30993.0
+2,10,novel,6a659de3_12,False,There is no mention of Vincey in the passage.,2.0,True,15.5,31906.0,1266.0,33172.0
+2,10,novel,6a659de3_17,False,No one.,2.0,True,13.4,31178.0,10.0,31188.0
+2,10,novel,9561a72a_1,False,Guph.,2.0,True,10.7,32187.0,17.0,32204.0
+2,10,novel,9561a72a_3,False,A little clearing in the jungle of reeds.,2.0,True,6.5,32001.0,317.0,32318.0
+2,10,novel,9561a72a_7,False,No specific location is mentioned.,2.0,True,3.6,32138.0,64.0,32202.0
+2,10,novel,9561a72a_9,False,There is no mention of Dorothy in the passage.,2.0,True,2.0,30985.0,20.0,31005.0
+2,10,novel,9561a72a_11,True,King Roquat,1.0,False,23.8,30315.0,4.0,30319.0
+2,10,novel,6a659de3_11,False,There is no mention of a character named Leo.,2.0,True,51.9,31725.0,1259.0,32984.0
+2,10,novel,9561a72a_12,True,Guph,1.0,False,1.3,30314.0,4.0,30318.0
+2,10,novel,bf55d1c1_1,False,There is no mention of Arabella or her committing murder in the passage.,2.0,True,5.3,32077.0,49.0,32126.0
+2,10,novel,bf55d1c1_2,False,Olivia,1.0,False,1.0,30310.0,3.0,30313.0
+2,10,novel,9561a72a_10,False,Magic wand.,2.0,True,33.7,31322.0,10.0,31332.0
+2,10,novel,bf55d1c1_0,False,There is no mention of Adam in the passage.,2.0,True,11.6,32222.0,1505.0,33727.0
+2,10,novel,bf55d1c1_3,False,Shah Amurath,1.0,False,9.0,30317.0,6.0,30323.0
+2,10,novel,bf55d1c1_5,False,Shah Amurath.,2.0,True,4.8,31959.0,310.0,32269.0
+2,10,novel,bf55d1c1_6,False,No information is given about Arabella's house.,2.0,True,3.7,30979.0,17.0,30996.0
+2,10,novel,bf55d1c1_10,False,There is no mention of a friend of Richard Salton who Adam worked with to stop Arabella.,1.0,False,0.6,30318.0,21.0,30339.0
+2,10,novel,bf55d1c1_4,False,There is no mention of Adam marrying anyone in the passage.,2.0,True,18.6,32210.0,1507.0,33717.0
+2,10,novel,bf55d1c1_12,False,India,1.0,False,0.6,30314.0,2.0,30316.0
+2,10,novel,ca4b98f5_0,False,SHADOWS IN THE MOONLIGHT.,1.0,False,2.2,30309.0,10.0,30319.0
+2,10,novel,bf55d1c1_11,False,There is no mention of Adam or Arabella in the passage.,2.0,True,9.3,31177.0,20.0,31197.0
+2,10,novel,ca4b98f5_2,False,Saul's,1.0,False,1.5,30316.0,4.0,30320.0
+2,10,novel,ca4b98f5_1,False,Captain Clavering,1.0,False,3.2,30316.0,5.0,30321.0
+2,10,novel,ca4b98f5_3,False,Clavering Park,1.0,False,1.9,30315.0,5.0,30320.0
+2,10,novel,ca4b98f5_4,False,There is no mention of Florence Burton in the passage.,2.0,True,2.2,31775.0,30.0,31805.0
+2,10,novel,ca4b98f5_6,False,Olivia.,2.0,True,26.3,32232.0,1489.0,33721.0
+2,10,novel,ca4b98f5_8,False,No one is mentioned in the passage.,2.0,True,25.2,30983.0,15.0,30998.0
+2,10,novel,bf55d1c1_9,False,April 1934.,2.0,True,44.4,32214.0,1500.0,33714.0
+2,10,novel,ca4b98f5_11,False,King Roquat,1.0,False,1.0,30316.0,4.0,30320.0
+2,10,novel,ca4b98f5_12,False,No one.,2.0,True,5.8,31198.0,10.0,31208.0
+2,10,novel,ca4b98f5_13,False,Lady Clavering,1.0,False,6.1,30311.0,5.0,30316.0
+2,10,novel,ca4b98f5_10,False,This passage does not mention a character named Harry or his fiancée.,2.0,True,12.5,32218.0,1513.0,33731.0
+2,10,novel,ca4b98f5_16,False,Lady Clavering,1.0,False,1.5,30311.0,5.0,30316.0
+2,10,novel,ca4b98f5_17,False,Julia Brabazon,1.0,False,2.8,30310.0,6.0,30316.0
+2,10,novel,ca4b98f5_15,False,There is no mention of a person named Harry or his second fiancee in the passage.,2.0,True,11.2,32222.0,1513.0,33735.0
+2,10,caselaw,21,False,3,2.0,True,1.4,26427.0,20.0,26447.0
+2,10,caselaw,23,False,2,1.0,False,1.1,24480.0,2.0,24482.0
+2,10,novel,ca4b98f5_18,False,Julia,2.0,True,10.8,32430.0,207.0,32637.0
+2,10,caselaw,27,False,5,1.0,False,1.1,24393.0,2.0,24395.0
+2,10,caselaw,25,False,5,2.0,True,8.8,26395.0,20.0,26415.0
+2,10,caselaw,29,False,1,1.0,False,2.0,24465.0,2.0,24467.0
+2,10,caselaw,33,True,5,1.0,False,1.0,24410.0,2.0,24412.0
+2,10,caselaw,31,True,5,2.0,True,3.8,25819.0,8.0,25827.0
+2,10,caselaw,35,False,5,1.0,False,2.7,24476.0,2.0,24478.0
+2,10,caselaw,37,True,5,2.0,True,2.3,26425.0,20.0,26445.0
+2,10,caselaw,41,False,3,1.0,False,24.9,24381.0,2.0,24383.0
+2,10,caselaw,39,False,5,2.0,True,27.2,26431.0,17.0,26448.0
+2,10,caselaw,43,False,5,1.0,False,0.3,24432.0,2.0,24434.0
+2,10,caselaw,47,False,5,2.0,True,5.2,26495.0,20.0,26515.0
+2,10,caselaw,49,False,3,1.0,False,0.9,24404.0,2.0,24406.0
+2,10,caselaw,45,False,5,2.0,True,7.3,26032.0,14.0,26046.0
+2,10,caselaw,51,True,5,1.0,False,4.5,24400.0,2.0,24402.0
+2,10,novel,9561a72a_5,False,There is no mention of Dorothy in the passage.,2.0,True,163.7,32216.0,1505.0,33721.0
+2,10,caselaw,53,False,5,2.0,True,7.9,25992.0,14.0,26006.0
+2,10,caselaw,59,False,4,1.0,False,0.5,24482.0,2.0,24484.0
+2,10,caselaw,57,False,1,1.0,False,5.4,24451.0,2.0,24453.0
+2,10,caselaw,55,True,2,1.0,False,8.6,24470.0,2.0,24472.0
+2,10,caselaw,61,False,1,2.0,True,10.1,26122.0,17.0,26139.0
+2,10,caselaw,65,True,5,2.0,True,7.1,26240.0,17.0,26257.0
+2,10,caselaw,63,False,5,2.0,True,10.9,26296.0,17.0,26313.0
+2,10,caselaw,67,False,3,2.0,True,5.6,26453.0,17.0,26470.0
+2,10,caselaw,69,False,3,2.0,True,5.6,25575.0,8.0,25583.0
+2,10,caselaw,73,False,3,2.0,True,2.6,25962.0,15.0,25977.0
+2,10,caselaw,77,False,3,1.0,False,1.0,24397.0,2.0,24399.0
+2,10,caselaw,75,True,2,1.0,False,27.2,24380.0,2.0,24382.0
+2,10,caselaw,71,False,5,2.0,True,31.2,26244.0,17.0,26261.0
+2,10,caselaw,81,False,3,1.0,False,0.9,24442.0,2.0,24444.0
+2,10,caselaw,79,False,5,2.0,True,30.4,26894.0,875.0,27769.0
+2,10,caselaw,85,False,5,2.0,True,6.0,26188.0,17.0,26205.0
+2,10,caselaw,83,False,5,2.0,True,7.3,26112.0,17.0,26129.0
+2,10,caselaw,91,False,5,2.0,True,4.9,26499.0,20.0,26519.0
+2,10,novel,ca4b98f5_14,False,Law,1.0,False,129.6,30315.0,2.0,30317.0
+2,10,caselaw,89,False,5,2.0,True,9.4,26170.0,14.0,26184.0
+2,10,caselaw,95,False,5,1.0,False,2.5,24401.0,2.0,24403.0
+2,10,caselaw,93,False,5,1.0,False,6.8,24446.0,2.0,24448.0
+2,10,caselaw,97,False,5,2.0,True,10.5,25771.0,8.0,25779.0
+2,10,caselaw,99,False,5,1.0,False,8.8,24430.0,2.0,24432.0
+2,10,caselaw,101,False,5,2.0,True,9.4,26433.0,20.0,26453.0
+2,10,caselaw,87,False,5,2.0,True,23.4,26495.0,14.0,26509.0
+2,10,caselaw,105,True,2,1.0,False,5.0,24475.0,2.0,24477.0
+2,10,caselaw,103,False,4,1.0,False,6.2,24402.0,2.0,24404.0
+2,10,caselaw,113,True,1,1.0,False,0.5,24399.0,2.0,24401.0
+2,10,caselaw,107,False,3,2.0,True,5.0,26288.0,14.0,26302.0
+2,10,caselaw,111,False,5,1.0,False,4.1,24417.0,2.0,24419.0
+2,10,caselaw,115,False,5,2.0,True,25.9,26022.0,8.0,26030.0
+2,10,caselaw,117,False,3,1.0,False,26.6,24522.0,2.0,24524.0
+2,10,caselaw,109,False,3,1.0,False,31.5,24441.0,2.0,24443.0
+2,10,caselaw,119,True,3,1.0,False,25.7,24416.0,2.0,24418.0
+2,10,caselaw,121,False,5,2.0,True,7.1,25797.0,8.0,25805.0
+2,10,caselaw,123,True,5,2.0,True,7.2,26475.0,20.0,26495.0
+2,10,caselaw,127,False,5,2.0,True,10.9,26166.0,17.0,26183.0
+2,10,caselaw,129,True,2,2.0,True,9.5,26715.0,14.0,26729.0
+2,10,caselaw,135,False,3,1.0,False,2.4,24703.0,2.0,24705.0
+2,10,caselaw,125,False,1,2.0,True,17.6,26477.0,20.0,26497.0
+2,10,caselaw,131,False,5,2.0,True,18.5,26242.0,17.0,26259.0
+2,10,caselaw,141,False,2,1.0,False,0.5,24415.0,2.0,24417.0
+2,10,caselaw,139,False,5,2.0,True,8.6,26232.0,14.0,26246.0
+2,10,caselaw,133,False,2,2.0,True,16.2,26812.0,818.0,27630.0
+2,10,caselaw,137,False,4,1.0,False,11.7,24571.0,2.0,24573.0
+2,10,caselaw,149,True,1,1.0,False,0.8,24448.0,2.0,24450.0
+2,10,caselaw,147,False,3,1.0,False,3.0,24500.0,2.0,24502.0
+2,10,caselaw,143,False,3,1.0,False,5.9,24528.0,2.0,24530.0
+2,10,caselaw,153,False,2,1.0,False,1.2,24480.0,2.0,24482.0
+2,10,caselaw,151,True,5,2.0,True,3.9,25731.0,8.0,25739.0
+2,10,caselaw,157,False,5,2.0,True,26.0,25996.0,872.0,26868.0
+2,10,caselaw,159,False,3,1.0,False,25.2,24432.0,2.0,24434.0
+2,10,caselaw,161,False,5,1.0,False,1.4,24433.0,2.0,24435.0
+2,10,caselaw,165,False,3,1.0,False,1.3,24490.0,2.0,24492.0
+2,10,caselaw,163,False,3,2.0,True,6.1,26126.0,17.0,26143.0
+2,10,caselaw,145,False,5,1.0,False,39.8,24430.0,2.0,24432.0
+2,10,caselaw,155,False,2,1.0,False,35.1,24457.0,2.0,24459.0
+2,10,caselaw,169,True,5,2.0,True,5.7,26487.0,20.0,26507.0
+2,10,caselaw,175,False,4,1.0,False,1.3,24380.0,2.0,24382.0
+2,10,caselaw,177,False,5,2.0,True,5.1,26150.0,14.0,26164.0
+2,10,caselaw,173,False,5,2.0,True,10.4,26559.0,20.0,26579.0
+2,10,caselaw,179,False,5,1.0,False,1.9,24415.0,2.0,24417.0
+2,10,caselaw,171,False,5,2.0,True,19.6,26260.0,17.0,26277.0
+2,10,caselaw,185,False,5,1.0,False,2.6,24405.0,2.0,24407.0
+2,10,caselaw,183,False,5,2.0,True,9.3,26583.0,20.0,26603.0
+2,10,caselaw,187,False,3,1.0,False,1.6,24398.0,2.0,24400.0
+2,10,caselaw,167,False,5,2.0,True,30.0,26521.0,20.0,26541.0
+2,10,caselaw,191,True,3,1.0,False,2.7,24450.0,2.0,24452.0
+2,10,caselaw,181,False,5,2.0,True,15.7,26186.0,14.0,26200.0
+2,10,caselaw,193,False,5,1.0,False,2.7,24493.0,2.0,24495.0
+2,10,caselaw,199,False,4,1.0,False,0.9,24564.0,2.0,24566.0
+2,10,caselaw,189,True,5,2.0,True,29.8,26747.0,1016.0,27763.0
+2,10,caselaw,201,True,3,1.0,False,24.3,24434.0,2.0,24436.0
+2,10,caselaw,195,False,5,1.0,False,27.3,24407.0,2.0,24409.0
+2,10,caselaw,203,False,4,1.0,False,1.6,24390.0,2.0,24392.0
+2,10,caselaw,197,False,4,1.0,False,31.8,24430.0,2.0,24432.0
+2,10,caselaw,209,True,5,1.0,False,5.6,24405.0,2.0,24407.0
+2,10,caselaw,211,True,4,1.0,False,0.8,24504.0,2.0,24506.0
+2,10,caselaw,207,False,4,1.0,False,7.3,24396.0,2.0,24398.0
+2,10,caselaw,213,False,3,1.0,False,5.3,24439.0,2.0,24441.0
+2,10,caselaw,217,False,5,1.0,False,5.1,24403.0,2.0,24405.0
+2,10,caselaw,215,False,4,2.0,True,9.1,26114.0,11.0,26125.0
+2,10,caselaw,205,False,5,2.0,True,18.3,26489.0,20.0,26509.0
+2,10,caselaw,221,False,5,2.0,True,5.4,26551.0,20.0,26571.0
+2,10,caselaw,227,True,5,1.0,False,1.2,24477.0,2.0,24479.0
+2,10,caselaw,219,True,3,1.0,False,8.3,24397.0,2.0,24399.0
+2,10,caselaw,231,False,5,1.0,False,6.5,24539.0,2.0,24541.0
+2,10,caselaw,225,False,5,1.0,False,9.1,24468.0,2.0,24470.0
+2,10,caselaw,229,False,5,2.0,True,9.4,26387.0,20.0,26407.0
+2,10,caselaw,235,False,1,1.0,False,2.2,24445.0,2.0,24447.0
+2,10,caselaw,237,True,4,1.0,False,1.7,24444.0,2.0,24446.0
+2,10,caselaw,233,True,3,1.0,False,5.7,24364.0,2.0,24366.0
+2,10,caselaw,223,True,4,1.0,False,17.4,24457.0,2.0,24459.0
+2,10,caselaw,243,False,5,2.0,True,1.9,26042.0,14.0,26056.0
+2,10,caselaw,239,False,5,1.0,False,6.3,24418.0,2.0,24420.0
+2,10,caselaw,245,False,3,2.0,True,25.9,25769.0,8.0,25777.0
+2,10,caselaw,247,False,4,1.0,False,25.8,24448.0,2.0,24450.0
+2,10,caselaw,253,False,3,1.0,False,0.8,24350.0,2.0,24352.0
+2,10,caselaw,241,False,5,1.0,False,31.3,24434.0,2.0,24436.0
+2,10,caselaw,251,False,5,2.0,True,7.6,25172.0,8.0,25180.0
+2,10,caselaw,257,False,5,2.0,True,9.3,25669.0,8.0,25677.0
+2,10,caselaw,259,True,3,1.0,False,5.0,24454.0,2.0,24456.0
+2,10,caselaw,255,False,5,2.0,True,12.3,25851.0,8.0,25859.0
+2,10,caselaw,265,False,3,1.0,False,3.0,24421.0,2.0,24423.0
+2,10,caselaw,261,True,5,1.0,False,5.0,24555.0,2.0,24557.0
+2,10,caselaw,249,False,3,2.0,True,42.4,25940.0,872.0,26812.0
+2,10,caselaw,267,False,4,1.0,False,2.7,24511.0,2.0,24513.0
+2,10,caselaw,273,True,5,2.0,True,7.9,25810.0,8.0,25818.0
+2,10,caselaw,275,False,4,1.0,False,0.7,24397.0,2.0,24399.0
+2,10,caselaw,271,False,2,2.0,True,11.2,25820.0,8.0,25828.0
+2,10,caselaw,269,False,5,2.0,True,16.4,25653.0,8.0,25661.0
+2,10,caselaw,263,True,5,2.0,True,21.5,26447.0,17.0,26464.0
+2,10,caselaw,281,False,4,1.0,False,1.6,24459.0,2.0,24461.0
+2,10,caselaw,279,False,5,2.0,True,6.2,26336.0,14.0,26350.0
+2,10,caselaw,283,True,5,1.0,False,26.0,24466.0,2.0,24468.0
+2,10,caselaw,289,False,5,1.0,False,0.6,24496.0,2.0,24498.0
+2,10,caselaw,285,False,5,2.0,True,26.3,26224.0,17.0,26241.0
+2,10,caselaw,277,False,5,2.0,True,33.5,26200.0,17.0,26217.0
+2,10,caselaw,287,True,5,1.0,False,30.9,24424.0,2.0,24426.0
+2,10,caselaw,293,True,5,2.0,True,7.3,26523.0,14.0,26537.0
+2,10,caselaw,299,False,5,1.0,False,3.6,24488.0,2.0,24490.0
+2,10,caselaw,291,False,5,2.0,True,11.9,25663.0,8.0,25671.0
+2,10,caselaw,303,False,5,1.0,False,4.2,24436.0,2.0,24438.0
+2,10,caselaw,295,False,5,2.0,True,15.5,26194.0,17.0,26211.0
+2,10,caselaw,297,False,5,2.0,True,13.1,26282.0,17.0,26299.0
+2,10,caselaw,307,False,3,1.0,False,3.9,24461.0,2.0,24463.0
+2,10,caselaw,311,False,4,1.0,False,6.5,24389.0,2.0,24391.0
+2,10,caselaw,305,False,5,2.0,True,10.8,26118.0,11.0,26129.0
+2,10,caselaw,301,False,2,2.0,True,18.0,26860.0,857.0,27717.0
+2,10,caselaw,315,True,5,2.0,True,4.0,26483.0,20.0,26503.0
+2,10,caselaw,309,True,5,2.0,True,12.5,26250.0,17.0,26267.0
+2,10,caselaw,313,False,5,1.0,False,6.3,24422.0,2.0,24424.0
+2,10,caselaw,321,False,5,1.0,False,1.3,24466.0,2.0,24468.0
+2,10,caselaw,323,True,5,1.0,False,1.4,24479.0,2.0,24481.0
+2,10,caselaw,319,True,5,2.0,True,28.5,26569.0,20.0,26589.0
+2,10,caselaw,327,False,5,1.0,False,25.7,24366.0,2.0,24368.0
+2,10,caselaw,329,False,5,1.0,False,1.5,24507.0,2.0,24509.0
+2,10,caselaw,331,False,2,1.0,False,2.1,24435.0,2.0,24437.0
+2,10,caselaw,317,False,5,2.0,True,36.9,26423.0,20.0,26443.0
+2,10,caselaw,337,False,5,1.0,False,1.6,24441.0,2.0,24443.0
+2,10,caselaw,325,True,5,2.0,True,38.4,26896.0,182.0,27078.0
+2,10,caselaw,339,True,5,2.0,True,5.0,26282.0,17.0,26299.0
+2,10,caselaw,343,False,5,2.0,True,5.3,26439.0,20.0,26459.0
+2,10,caselaw,335,False,5,2.0,True,16.4,26152.0,11.0,26163.0
+2,10,caselaw,347,False,5,1.0,False,1.2,24356.0,2.0,24358.0
+2,10,caselaw,349,False,5,1.0,False,6.9,24425.0,2.0,24427.0
+2,10,caselaw,333,False,5,2.0,True,26.0,26386.0,14.0,26400.0
+2,10,caselaw,351,False,5,2.0,True,2.6,25639.0,8.0,25647.0
+2,10,caselaw,345,False,2,2.0,True,11.1,26459.0,20.0,26479.0
+2,10,caselaw,341,False,4,2.0,True,20.4,26451.0,14.0,26465.0
+2,10,caselaw,357,False,3,1.0,False,3.9,24445.0,3.0,24448.0
+2,10,caselaw,353,False,5,2.0,True,7.4,26370.0,14.0,26384.0
+2,10,caselaw,355,False,4,2.0,True,30.3,26763.0,1016.0,27779.0
+2,10,caselaw,359,False,3,2.0,True,27.8,26353.0,20.0,26373.0
+2,10,caselaw,363,False,5,2.0,True,26.6,26080.0,14.0,26094.0
+2,10,caselaw,361,False,4,1.0,False,27.6,24452.0,2.0,24454.0
+2,10,caselaw,367,False,3,1.0,False,6.3,24401.0,2.0,24403.0
+2,10,caselaw,371,True,3,1.0,False,6.0,24455.0,2.0,24457.0
+2,10,caselaw,373,False,3,2.0,True,5.2,26413.0,20.0,26433.0
+2,10,caselaw,377,False,4,2.0,True,1.8,26497.0,20.0,26517.0
+2,10,caselaw,365,True,5,2.0,True,16.7,26449.0,14.0,26463.0
+2,10,caselaw,375,False,3,1.0,False,9.7,24381.0,2.0,24383.0
+2,10,caselaw,369,False,4,2.0,True,17.9,26116.0,14.0,26130.0
+2,10,caselaw,385,False,5,2.0,True,7.8,26142.0,18.0,26160.0
+2,10,caselaw,379,True,4,1.0,False,13.7,24589.0,2.0,24591.0
+2,10,caselaw,381,False,5,2.0,True,11.1,25851.0,8.0,25859.0
+2,10,caselaw,383,False,5,2.0,True,12.8,26435.0,11.0,26446.0
+2,10,caselaw,393,False,3,1.0,False,2.9,24425.0,2.0,24427.0
+2,10,caselaw,395,False,4,1.0,False,0.6,24404.0,2.0,24406.0
+2,10,caselaw,387,False,5,2.0,True,8.3,26469.0,20.0,26489.0
+2,10,caselaw,389,False,4,2.0,True,8.8,26898.0,299.0,27197.0
+2,10,caselaw,399,False,5,1.0,False,24.9,24414.0,2.0,24416.0
+2,10,caselaw,391,False,5,2.0,True,32.7,26222.0,11.0,26233.0
+2,10,caselaw,397,False,2,2.0,True,27.8,26475.0,14.0,26489.0
+2,20,wiki,14,True,August 1776.,2.0,True,5.5,8309.0,12.0,8321.0
+2,20,wiki,11,False,New Amsterdam.,2.0,True,5.8,8285.0,10.0,8295.0
+2,20,wiki,12,False,There is no information about this in the passage.,2.0,True,10.7,8295.0,17.0,8312.0
+2,20,wiki,13,True,1735,1.0,False,11.3,7174.0,3.0,7177.0
+2,20,wiki,16,True,Philadelphia.,2.0,True,9.4,8313.0,9.0,8322.0
+2,20,wiki,17,False,No information provided.,2.0,True,7.1,8141.0,11.0,8152.0
+2,20,wiki,15,True,The Great Fire of New York.,2.0,True,20.4,9152.0,17.0,9169.0
+2,20,wiki,18,False,There is no information about the Erie Canal in the provided passage.,2.0,True,14.8,8305.0,20.0,8325.0
+2,20,wiki,20,True,1898.,2.0,True,8.7,8141.0,10.0,8151.0
+2,20,wiki,19,True,25%,2.0,True,13.6,9578.0,21.0,9599.0
+2,20,wiki,23,True,Abstract expressionism.,2.0,True,5.0,10194.0,17.0,10211.0
+2,20,wiki,21,False,There is no information about the Triangle Shirtwaist Factory fire in the passage.,2.0,True,6.3,8309.0,23.0,8332.0
+2,20,wiki,22,True,Megacity,1.0,False,8.0,7180.0,3.0,7183.0
+2,20,wiki,25,False,No information is provided about a plane crashing into the World Trade Center.,2.0,True,27.1,8287.0,21.0,8308.0
+2,20,wiki,26,False,No answer available.,2.0,True,27.8,8321.0,11.0,8332.0
+2,20,wiki,28,False,No answer.,2.0,True,1.7,8119.0,10.0,8129.0
+2,20,wiki,24,False,There is no information about an aircraft crashing into the World Trade Center in the provided passage.,2.0,True,32.7,7857.0,25.0,7882.0
+2,20,wiki,27,False,"Manhattan, Staten, and Long.",2.0,True,32.3,10490.0,54.0,10544.0
+2,20,wiki,32,False,No answer available.,2.0,True,4.9,10971.0,329.0,11300.0
+2,20,wiki,33,False,Water towers,1.0,False,1.2,7184.0,3.0,7187.0
+2,20,wiki,30,False,I don't have information about the construction of the Pieter Claesen Wyckoff House.,2.0,True,15.0,8323.0,26.0,8349.0
+2,20,wiki,29,True,164.1,2.0,True,17.7,10683.0,31.0,10714.0
+2,20,wiki,31,False,Over 300.,2.0,True,18.7,8247.0,11.0,8258.0
+2,20,wiki,34,True,humid continental,2.0,True,14.2,8132.0,10.0,8142.0
+2,20,wiki,37,True,Minneapolis.,2.0,True,8.2,9732.0,19.0,9751.0
+2,20,wiki,36,True,49.9 inches.,2.0,True,11.2,8122.0,12.0,8134.0
+2,20,wiki,35,True,"July 9, 1936.",2.0,True,16.3,10971.0,234.0,11205.0
+2,20,wiki,40,True,"1,093",2.0,True,3.4,8070.0,10.0,8080.0
+2,20,wiki,38,False,"26,000",2.0,True,32.1,8072.0,10.0,8082.0
+2,20,wiki,41,False,The 85th U.S. Army Reserve Support Command.,2.0,True,27.8,10965.0,337.0,11302.0
+2,20,wiki,39,True,Grant's Tomb.,2.0,True,31.6,10688.0,68.0,10756.0
+2,20,wiki,44,False,No information.,2.0,True,2.1,9308.0,13.0,9321.0
+2,20,wiki,42,True,40%,2.0,True,33.2,11010.0,60.0,11070.0
+2,20,wiki,46,True,"65,000.",2.0,True,4.8,8226.0,11.0,8237.0
+2,20,wiki,48,True,"568,903",1.0,False,1.2,7175.0,4.0,7179.0
+2,20,wiki,43,False,Bangladeshi.,2.0,True,14.8,8359.0,15.0,8374.0
+2,20,wiki,47,False,England.,2.0,True,9.9,8313.0,9.0,8322.0
+2,20,wiki,50,False,No information provided.,2.0,True,4.4,8470.0,14.0,8484.0
+2,20,wiki,51,True,"$15,887",2.0,True,4.2,8253.0,11.0,8264.0
+2,20,wiki,49,True,Judaism.,2.0,True,18.7,8270.0,11.0,8281.0
+2,20,wiki,52,False,"25,000.",2.0,True,12.3,8316.0,11.0,8327.0
+2,20,wiki,45,True,"74,000.",2.0,True,32.0,8367.0,14.0,8381.0
+2,20,wiki,53,False,None.,2.0,True,13.4,10865.0,270.0,11135.0
+2,20,wiki,55,False,No information.,2.0,True,3.5,8245.0,10.0,8255.0
+2,20,wiki,57,True,56.4 million.,2.0,True,26.0,8379.0,12.0,8391.0
+2,20,wiki,56,False,I don't have information about Cornell Tech's location.,2.0,True,27.2,8213.0,18.0,8231.0
+2,20,wiki,54,True,$40 billion.,2.0,True,35.6,10247.0,17.0,10264.0
+2,20,wiki,61,True,"25,000",1.0,False,4.4,7175.0,4.0,7179.0
+2,20,wiki,60,False,No information provided.,2.0,True,7.2,10979.0,329.0,11308.0
+2,20,wiki,59,False,No information.,2.0,True,8.7,8227.0,10.0,8237.0
+2,20,wiki,58,False,"""Yankee Doodle""",2.0,True,37.9,10967.0,332.0,11299.0
+2,20,wiki,62,True,The Wall Street Journal and The New York Times.,1.0,False,5.7,7174.0,11.0,7185.0
+2,20,wiki,65,False,No information.,2.0,True,6.3,8135.0,10.0,8145.0
+2,20,wiki,63,True,Manhattan Neighborhood Network.,2.0,True,11.4,8282.0,12.0,8294.0
+2,20,wiki,66,False,There is no information about the largest library in the United States in the given passage.,2.0,True,14.4,10969.0,342.0,11311.0
+2,20,wiki,67,True,1.4 million.,2.0,True,8.5,8382.0,12.0,8394.0
+2,20,wiki,64,True,WNYC.,2.0,True,21.4,8749.0,17.0,8766.0
+2,20,wiki,68,True,"Ramanathan Raju, MD.",2.0,True,13.6,8336.0,15.0,8351.0
+2,20,wiki,69,False,No information.,2.0,True,6.5,8315.0,10.0,8325.0
+2,20,wiki,70,False,No information.,2.0,True,8.7,8337.0,10.0,8347.0
+2,20,wiki,73,False,I don't have that information.,2.0,True,26.2,10981.0,332.0,11313.0
+2,20,wiki,71,False,Tokyo Fire Department.,2.0,True,31.1,8386.0,12.0,8398.0
+2,20,wiki,74,False,Action painting.,2.0,True,25.3,8139.0,10.0,8149.0
+2,20,wiki,72,False,Commuter rail network.,2.0,True,29.9,8237.0,13.0,8250.0
+2,20,wiki,78,True,MetLife Stadium,1.0,False,4.8,7180.0,4.0,7184.0
+2,20,wiki,76,False,No information.,2.0,True,7.3,8269.0,10.0,8279.0
+2,20,wiki,77,False,There is no answer.,2.0,True,12.3,9409.0,30.0,9439.0
+2,20,wiki,75,False,None mentioned.,2.0,True,16.5,8261.0,10.0,8271.0
+2,20,wiki,80,False,There is no information about a collegiate basketball championship in the passage.,2.0,True,8.4,10981.0,338.0,11319.0
+2,20,wiki,79,True,Hockey,1.0,False,13.1,7173.0,3.0,7176.0
+2,20,wiki,82,False,New York City Subway.,2.0,True,4.2,8398.0,15.0,8413.0
+2,20,wiki,81,False,I couldn't find any information about a tennis Grand Slam event being held at the National Tennis Center.,2.0,True,14.2,10975.0,345.0,11320.0
+2,20,wiki,84,False,No information.,2.0,True,9.6,8227.0,10.0,8237.0
+2,20,wiki,85,False,No information provided.,2.0,True,10.7,8965.0,17.0,8982.0
+2,20,wiki,83,False,No information provided.,2.0,True,16.6,8249.0,11.0,8260.0
+2,20,wiki,87,False,No answer available.,2.0,True,3.7,8233.0,11.0,8244.0
+2,20,wiki,88,False,No information.,2.0,True,4.8,10815.0,214.0,11029.0
+2,20,wiki,86,False,No answer available.,2.0,True,31.7,8143.0,11.0,8154.0
+2,20,wiki,90,False,No information is available.,2.0,True,27.7,7825.0,12.0,7837.0
+2,20,wiki,91,False,No information available.,2.0,True,30.4,10825.0,122.0,10947.0
+2,20,wiki,89,False,There is no information about the mountain range of New York's drinking water in the passage.,2.0,True,33.9,9809.0,55.0,9864.0
+2,20,wiki,94,True,Fifth Avenue,1.0,False,5.8,7175.0,4.0,7179.0
+2,20,wiki,93,False,No information.,2.0,True,14.9,8717.0,25.0,8742.0
+2,20,wiki,92,False,1.4 million.,2.0,True,17.0,8384.0,12.0,8396.0
+2,20,wiki,98,False,Geographically,1.0,False,2.1,7174.0,3.0,7177.0
+2,20,wiki,95,True,New York City FC,2.0,True,12.8,10865.0,281.0,11146.0
+2,20,wiki,97,False,Theater,1.0,False,10.6,7171.0,3.0,7174.0
+2,20,wiki,96,True,JFK International Airport,2.0,True,15.0,8223.0,11.0,8234.0
+2,20,wiki,99,False,There is no information about this case in the passage.,2.0,True,8.9,9813.0,48.0,9861.0
+2,20,news,11,False,Afghanistan,1.0,False,4.9,24453.0,4.0,24457.0
+2,20,news,12,False,None.,2.0,True,6.5,25347.0,9.0,25356.0
+2,20,news,14,True,Three Chinese nationals.,1.0,False,2.1,24458.0,5.0,24463.0
+2,20,wiki,100,False,Eastern District of New York.,2.0,True,14.5,11095.0,22.0,11117.0
+2,20,news,17,True,Demand full democracy be restored in Pakistan.,1.0,False,2.3,24459.0,9.0,24468.0
+2,20,news,15,True,Assistant Attorney General Alice Fisher.,2.0,True,26.0,25261.0,13.0,25274.0
+2,20,news,13,False,Friday.,2.0,True,33.7,27766.0,1176.0,28942.0
+2,20,news,19,True,Julio Cruz.,2.0,True,6.8,25438.0,11.0,25449.0
+2,20,news,21,False,"Cape Town, South Africa.",1.0,False,0.6,24457.0,8.0,24465.0
+2,20,news,22,False,No information is available.,2.0,True,4.9,25194.0,12.0,25206.0
+2,20,news,20,False,Julio Cruz,2.0,True,10.9,27772.0,1177.0,28949.0
+2,20,news,24,False,Misdemeanor.,1.0,False,1.3,24459.0,6.0,24465.0
+2,20,news,23,False,New Jersey.,2.0,True,6.9,25434.0,10.0,25444.0
+2,20,news,25,False,Finch fighting case.,2.0,True,5.5,25813.0,18.0,25831.0
+2,20,news,27,False,Colombian President Evo Morales,1.0,False,1.1,24460.0,7.0,24467.0
+2,20,news,26,False,There is no mention of Uribite in the passage.,2.0,True,8.1,27560.0,25.0,27585.0
+2,20,news,16,False,Kaka,2.0,True,53.8,27762.0,1173.0,28935.0
+2,20,news,29,False,Surrey,1.0,False,2.9,24456.0,4.0,24460.0
+2,20,news,18,False,Yes.,2.0,True,53.0,28156.0,795.0,28951.0
+2,20,news,28,False,£7 billion,2.0,True,12.5,25465.0,10.0,25475.0
+2,20,news,33,False,Immigration and Customs Enforcement agents.,2.0,True,2.1,26716.0,20.0,26736.0
+2,20,news,32,False,No information is available.,2.0,True,6.1,25184.0,14.0,25198.0
+2,20,news,30,False,No mention.,2.0,True,32.2,27970.0,994.0,28964.0
+2,20,news,31,False,No information.,2.0,True,31.3,27786.0,1177.0,28963.0
+2,20,news,34,False,No one.,2.0,True,27.7,25406.0,10.0,25416.0
+2,20,news,35,False,No information.,2.0,True,30.4,25196.0,13.0,25209.0
+2,20,news,39,False,Dida,2.0,True,5.8,25143.0,9.0,25152.0
+2,20,news,36,False,No information provided.,2.0,True,13.6,28008.0,62.0,28070.0
+2,20,news,38,False,No one.,2.0,True,14.1,26646.0,19.0,26665.0
+2,20,news,37,False,Chief of the Defence Force Air Chief Marshal Angus Houston.,2.0,True,15.7,27260.0,1101.0,28361.0
+2,20,news,41,False,Ethiopian troops.,1.0,False,5.4,24461.0,6.0,24467.0
+2,20,news,44,False,Veterans' care programs.,1.0,False,8.2,24458.0,7.0,24465.0
+2,20,news,40,False,Withdraw cash.,2.0,True,15.9,27208.0,196.0,27404.0
+2,20,news,43,False,I don't see any information about a House resolution in the provided passage.,2.0,True,13.1,27274.0,64.0,27338.0
+2,20,news,42,False,Guam,1.0,False,13.7,24457.0,3.0,24460.0
+2,20,news,47,False,6,1.0,False,1.4,24455.0,2.0,24457.0
+2,20,news,49,False,Terrorists and narcotraffickers.,2.0,True,1.9,25290.0,17.0,25307.0
+2,20,news,46,False,CNN,2.0,True,5.6,25412.0,8.0,25420.0
+2,20,news,51,False,Taliban militants.,2.0,True,26.0,27762.0,1179.0,28941.0
+2,20,news,50,False,There is no mention of BUPA in the passage.,2.0,True,27.1,27782.0,1186.0,28968.0
+2,20,news,48,False,No mention.,2.0,True,32.4,28145.0,895.0,29040.0
+2,20,news,45,False,Nothing.,2.0,True,39.7,25514.0,9.0,25523.0
+2,20,news,52,False,No information.,2.0,True,7.6,28296.0,808.0,29104.0
+2,20,news,55,False,Alvaro Uribe,1.0,False,1.7,24460.0,6.0,24466.0
+2,20,news,54,False,There is no information about a woman on probation.,2.0,True,9.9,25740.0,20.0,25760.0
+2,20,news,57,False,Polyps removed.,1.0,False,5.1,24454.0,5.0,24459.0
+2,20,news,56,False,1-1.,2.0,True,9.1,25430.0,11.0,25441.0
+2,20,news,58,False,No one mentioned.,2.0,True,6.5,25371.0,11.0,25382.0
+2,20,news,60,False,No information available.,2.0,True,4.0,25961.0,14.0,25975.0
+2,20,news,53,False,There is no mention of a teacher in the passage.,2.0,True,26.7,27774.0,1185.0,28959.0
+2,20,news,63,False,34,1.0,False,0.8,24457.0,2.0,24459.0
+2,20,news,61,False,No information provided.,2.0,True,10.7,27780.0,1178.0,28958.0
+2,20,news,65,True,Princess Eugenie,1.0,False,1.7,24464.0,5.0,24469.0
+2,20,news,59,False,There is no information about female-only buses in the passage.,2.0,True,19.8,25457.0,19.0,25476.0
+2,20,news,67,False,Full democracy be restored in Pakistan.,1.0,False,0.4,24454.0,8.0,24462.0
+2,20,news,64,False,Citizens.,2.0,True,7.0,27873.0,631.0,28504.0
+2,20,news,62,False,The Red Sea.,2.0,True,14.6,25341.0,11.0,25352.0
+2,20,news,69,False,Six-match European ban.,1.0,False,24.9,24456.0,6.0,24462.0
+2,20,news,66,True,National Hurricane Center,1.0,False,29.9,24455.0,4.0,24459.0
+2,20,news,68,False,Three Chinese nationals.,2.0,True,27.5,27770.0,1175.0,28945.0
+2,20,news,71,False,There is no information about a health care adviser on Obama's transition team in the passage.,2.0,True,2.8,25140.0,25.0,25165.0
+2,20,news,73,False,None.,2.0,True,7.1,25423.0,9.0,25432.0
+2,20,news,70,False,No information is provided about Michael Vick.,2.0,True,37.2,25539.0,15.0,25554.0
+2,20,news,72,False,Akio Toyoda,1.0,False,12.3,24458.0,5.0,24463.0
+2,20,news,75,False,No information provided.,2.0,True,8.0,25566.0,11.0,25577.0
+2,20,news,74,False,No one.,2.0,True,14.1,27770.0,1177.0,28947.0
+2,20,news,79,False,None.,2.0,True,2.2,25358.0,9.0,25367.0
+2,20,news,77,True,The August war between Georgia and Russia.,1.0,False,13.5,24463.0,9.0,24472.0
+2,20,news,76,False,There is no information about Boy George in the passage.,2.0,True,15.0,25612.0,18.0,25630.0
+2,20,news,80,False,None mentioned.,2.0,True,8.7,25355.0,10.0,25365.0
+2,20,news,82,False,No answer available.,2.0,True,5.9,25188.0,11.0,25199.0
+2,20,news,78,False,No one.,2.0,True,17.4,25423.0,10.0,25433.0
+2,20,news,81,False,There is no information about someone jumping into a canal to escape.,2.0,True,7.7,25451.0,20.0,25471.0
+2,20,news,83,False,No information provided.,2.0,True,32.7,27770.0,1178.0,28948.0
+2,20,news,86,False,Cracks found.,2.0,True,26.4,25493.0,14.0,25507.0
+2,20,news,84,False,Northern Rock branch in southeast London.,2.0,True,33.4,27537.0,353.0,27890.0
+2,20,news,85,False,Roma.,2.0,True,33.2,25502.0,10.0,25512.0
+2,20,news,87,False,Yes.,2.0,True,7.1,26162.0,15.0,26177.0
+2,20,news,89,False,Referendum.,2.0,True,5.3,25316.0,10.0,25326.0
+2,20,news,88,False,No information provided.,2.0,True,11.1,25353.0,11.0,25364.0
+2,20,news,93,False,scoliosis,1.0,False,1.3,24456.0,4.0,24460.0
+2,20,news,92,False,£125 million,1.0,False,4.6,24459.0,4.0,24463.0
+2,20,news,94,True,Human shields.,1.0,False,3.2,24462.0,4.0,24466.0
+2,20,news,90,False,Engulfed in flames,1.0,False,13.2,24460.0,6.0,24466.0
+2,20,news,95,False,No information about a drug ring.,2.0,True,4.1,25237.0,14.0,25251.0
+2,20,news,98,False,"Cape Town, South Africa",1.0,False,6.6,24455.0,7.0,24462.0
+2,20,news,91,True,Battling hot spots.,2.0,True,19.7,27654.0,781.0,28435.0
+2,20,news,100,False,No information.,2.0,True,2.8,25466.0,10.0,25476.0
+2,20,news,101,False,"Cash, canaries, finches and bird cages.",1.0,False,3.5,24455.0,12.0,24467.0
+2,20,news,102,False,None.,2.0,True,1.3,25126.0,9.0,25135.0
+2,20,news,96,False,TV survival show.,2.0,True,19.9,27760.0,584.0,28344.0
+2,20,news,99,False,There is no mention of Britney Spears or her children in the provided passage.,2.0,True,32.7,27772.0,1190.0,28962.0
+2,20,news,97,False,No information is given about Anbar.,2.0,True,40.2,27774.0,1182.0,28956.0
+2,20,news,106,False,"Cape Town, South Africa",1.0,False,1.1,24456.0,7.0,24463.0
+2,20,news,105,False,No information.,2.0,True,2.6,25503.0,10.0,25513.0
+2,20,news,103,False,No answer found in the passage.,2.0,True,31.9,27768.0,1178.0,28946.0
+2,20,news,109,False,38 years old.,1.0,False,1.0,24455.0,5.0,24460.0
+2,20,news,104,False,Profit forecasts.,1.0,False,31.9,24454.0,4.0,24458.0
+2,20,news,110,False,Chris Lewis,1.0,False,4.5,24464.0,3.0,24467.0
+2,20,news,107,False,United Arab Emirates.,2.0,True,12.0,25341.0,11.0,25352.0
+2,20,news,111,False,None (Hamas not mentioned),2.0,True,10.1,25132.0,14.0,25146.0
+2,20,news,108,False,Water-saving devices.,2.0,True,18.0,25487.0,11.0,25498.0
+2,20,news,114,False,Algeria.,2.0,True,8.6,27766.0,1178.0,28944.0
+2,20,news,115,False,Concerns over the nuclear deal.,2.0,True,7.3,25871.0,20.0,25891.0
+2,20,news,117,True,Garbage.,1.0,False,2.1,24460.0,4.0,24464.0
+2,20,news,112,False,No answer found.,2.0,True,17.9,27772.0,1178.0,28950.0
+2,20,news,119,False,No information is provided about Coca-Cola.,2.0,True,3.2,25128.0,15.0,25143.0
+2,20,news,120,False,There is no information about a White House visit in the passage.,2.0,True,1.5,25481.0,23.0,25504.0
+2,20,news,116,False,53.,2.0,True,9.2,25368.0,9.0,25377.0
+2,20,news,118,False,"$39,000.",2.0,True,30.8,27830.0,1167.0,28997.0
+2,20,news,121,False,No information is given about Boy George.,2.0,True,26.7,25178.0,18.0,25196.0
+2,20,news,122,False,No one was injured.,2.0,True,30.3,25535.0,12.0,25547.0
+2,20,news,125,True,Andrea Bocelli's,1.0,False,0.7,24457.0,7.0,24464.0
+2,20,news,124,False,No information.,2.0,True,10.5,25603.0,10.0,25613.0
+2,20,news,127,False,No one.,2.0,True,1.5,25604.0,10.0,25614.0
+2,20,news,128,False,No information is available.,2.0,True,12.0,27772.0,1176.0,28948.0
+2,20,news,129,False,Princess Eugenie,1.0,False,0.5,24454.0,5.0,24459.0
+2,20,news,130,False,No information is given about Pakistan.,2.0,True,0.8,25351.0,14.0,25365.0
+2,20,news,131,False,Tony Snow's successor is not mentioned in the passage.,2.0,True,8.0,27762.0,1185.0,28947.0
+2,20,news,132,False,No.,2.0,True,0.7,25571.0,9.0,25580.0
+2,20,news,133,False,Nothing mentioned.,2.0,True,0.6,25803.0,16.0,25819.0
+2,20,news,134,False,There is no mention of a price increase in alcohol.,2.0,True,7.2,27768.0,1182.0,28950.0
+2,20,news,135,False,There is no mention of Chavez in the passage.,2.0,True,0.8,25501.0,20.0,25521.0
+2,20,news,136,False,surveillance,2.0,True,0.6,25860.0,15.0,25875.0
+2,20,news,137,False,Nothing mentioned.,2.0,True,15.2,27420.0,361.0,27781.0
+2,20,news,138,False,Clothes.,2.0,True,6.0,27772.0,595.0,28367.0
+2,20,news,139,False,"Jacksonville, Florida.",2.0,True,9.7,28274.0,816.0,29090.0
+2,20,news,113,False,62,2.0,True,129.6,26669.0,14.0,26683.0
+2,20,news,140,False,Private Luke Worsley.,2.0,True,16.5,27262.0,1165.0,28427.0
+2,20,news,142,False,"Nowhere, they were arrested.",2.0,True,1.4,25408.0,14.0,25422.0
+2,20,news,143,False,Hong Kong street.,1.0,False,0.6,24463.0,5.0,24468.0
+2,20,news,144,True,David Cameron's,1.0,False,0.7,24455.0,4.0,24459.0
+2,20,news,145,False,No information.,2.0,True,1.4,25410.0,10.0,25420.0
+2,20,news,146,False,There is no information about a collision in the passage.,2.0,True,1.1,25539.0,18.0,25557.0
+2,20,news,147,False,Engine falling off a plane.,1.0,False,0.7,24459.0,7.0,24466.0
+2,20,news,148,False,Cancer.,2.0,True,1.1,25604.0,10.0,25614.0
+2,20,news,149,False,"Teamwork, Fair Play, Respect",1.0,False,0.7,24459.0,8.0,24467.0
+2,20,news,150,False,Hong Kong street.,1.0,False,0.6,24455.0,5.0,24460.0
+2,20,news,151,False,Not mentioned.,2.0,True,8.6,27764.0,1177.0,28941.0
+2,20,news,152,False,Navy.,2.0,True,1.3,25348.0,10.0,25358.0
+2,20,news,153,False,Nothing is mentioned.,2.0,True,1.1,25347.0,11.0,25358.0
+2,20,news,154,False,No one in the passage died of an overdose.,2.0,True,8.2,25608.0,17.0,25625.0
+2,20,news,155,False,There is no mention of a movie in the passage.,2.0,True,6.5,27278.0,60.0,27338.0
+2,20,news,123,False,There is no information about Youssif meeting Lassie in the passage.,2.0,True,135.4,25136.0,23.0,25159.0
+2,20,news,157,False,Indigenous majority.,2.0,True,7.0,25357.0,11.0,25368.0
+2,20,news,141,False,No information.,2.0,True,60.4,27766.0,1174.0,28940.0
+2,20,news,156,False,Colonoscopy.,2.0,True,25.6,27768.0,1178.0,28946.0
+2,20,news,160,False,Veterans' care funding.,1.0,False,1.4,24460.0,7.0,24467.0
+2,20,news,158,False,There is no mention of Donna Greenwell.,2.0,True,10.9,25402.0,16.0,25418.0
+2,20,news,161,False,No information.,2.0,True,4.8,27766.0,100.0,27866.0
+2,20,news,163,False,Serie A,1.0,False,0.4,24455.0,4.0,24459.0
+2,20,news,159,True,Holding veterans care funding hostage.,1.0,False,18.6,24457.0,8.0,24465.0
+2,20,news,162,False,Colon cancer.,2.0,True,8.4,27762.0,1171.0,28933.0
+2,20,news,166,False,An engine.,1.0,False,0.8,24457.0,4.0,24461.0
+2,20,news,167,True,David Beckham,1.0,False,0.4,24455.0,3.0,24458.0
+2,20,news,126,False,There is no information about a 1985 quake in the passage.,2.0,True,161.6,27768.0,1185.0,28953.0
+2,20,news,165,False,No information.,2.0,True,8.0,27266.0,52.0,27318.0
+2,20,news,168,False,Sevilla.,2.0,True,8.2,25447.0,10.0,25457.0
+2,20,news,169,False,Lost their fourth league game.,2.0,True,3.2,25472.0,13.0,25485.0
+2,20,news,170,False,They considered seeking the death penalty.,2.0,True,15.4,27769.0,35.0,27804.0
+2,20,news,173,False,"Beauty, voice, inner being",1.0,False,0.9,24454.0,7.0,24461.0
+2,20,news,172,False,There is no mention of Philadelphia in the passage.,2.0,True,22.9,25174.0,20.0,25194.0
+2,20,news,164,False,No information.,2.0,True,37.6,27770.0,1177.0,28947.0
+2,20,news,176,False,There is no information about Mary Winkler in the passage.,2.0,True,7.0,25406.0,20.0,25426.0
+2,20,news,174,False,Alvaro Uribe,1.0,False,25.5,24457.0,6.0,24463.0
+2,20,news,171,False,Lack of democracy.,1.0,False,42.3,24456.0,6.0,24462.0
+2,20,news,177,True,"""Until the Day Is Done""",2.0,True,12.3,25572.0,14.0,25586.0
+2,20,news,175,False,There is no mention of Winkler.,2.0,True,25.4,25412.0,16.0,25428.0
+2,20,news,178,False,No answer found.,2.0,True,9.3,27760.0,1175.0,28935.0
+2,20,news,181,False,There is no mention of cars being abandoned.,2.0,True,0.8,25329.0,16.0,25345.0
+2,20,news,179,False,There is no information about Mable Randon in the passage.,2.0,True,8.2,27772.0,1184.0,28956.0
+2,20,news,183,False,There is no information about an extinct sea creature fossil sale.,2.0,True,2.0,25136.0,19.0,25155.0
+2,20,news,185,False,The US Embassy in Baku.,1.0,False,6.1,24458.0,8.0,24466.0
+2,20,news,184,False,Not mentioned.,2.0,True,7.9,25366.0,10.0,25376.0
+2,20,news,182,False,There is no mention of a London bus bombing in the provided text.,2.0,True,9.6,27774.0,1185.0,28959.0
+2,20,news,186,False,7.5 percent,1.0,False,10.5,24459.0,5.0,24464.0
+2,20,news,188,False,Training auto-rickshaw drivers.,2.0,True,10.1,27803.0,227.0,28030.0
+2,20,news,187,False,There is no information about markets in the passage.,2.0,True,15.3,25448.0,17.0,25465.0
+2,20,news,191,False,None,1.0,False,0.9,24456.0,2.0,24458.0
+2,20,news,189,True,Yuvraj Singh,1.0,False,15.3,24467.0,5.0,24472.0
+2,20,news,193,False,Grandson,1.0,False,0.6,24459.0,3.0,24462.0
+2,20,news,192,False,There is no information about Yu Sheng products.,2.0,True,25.9,25404.0,17.0,25421.0
+2,20,news,194,False,14 rebels.,2.0,True,16.7,28181.0,259.0,28440.0
+2,20,news,195,False,"Bridgeport, Alabama",1.0,False,1.3,24457.0,5.0,24462.0
+2,20,news,190,False,None mentioned.,2.0,True,34.3,27766.0,1168.0,28934.0
+2,20,news,197,False,None.,2.0,True,2.6,25130.0,9.0,25139.0
+2,20,news,196,False,No.,2.0,True,9.0,27768.0,1173.0,28941.0
+2,20,news,200,True,Augustin Binya,1.0,False,0.5,24458.0,5.0,24463.0
+2,20,news,198,False,None (Tony Snow's name is not Thomas),2.0,True,11.1,27768.0,1178.0,28946.0
+2,20,novel,00950a36_13,True,Shah Amurath,1.0,False,1.2,30309.0,6.0,30315.0
+2,20,novel,00950a36_14,False,A girdled loincloth.,1.0,False,1.2,30312.0,9.0,30321.0
+2,20,novel,00950a36_15,False,There is no mention of a pirate ship or its captain in the provided passage.,2.0,True,2.9,34167.0,74.0,34241.0
+2,20,novel,00950a36_12,True,Akif.,2.0,True,10.9,34346.0,1486.0,35832.0
+2,20,novel,3e966645_2,False,Mr. Saul,1.0,False,1.1,30308.0,4.0,30312.0
+2,20,novel,3e966645_1,False,There is no mention of a ship or a country to sail to in the provided passage.,2.0,True,8.8,34173.0,76.0,34249.0
+2,20,news,199,False,None mentioned.,2.0,True,31.2,27768.0,1177.0,28945.0
+2,20,novel,3e966645_6,False,Mr. Clavering,1.0,False,1.7,30308.0,6.0,30314.0
+2,20,novel,3e966645_4,False,Nothing.,2.0,True,21.9,34248.0,1491.0,35739.0
+2,20,novel,3e966645_5,False,None mentioned.,2.0,True,22.5,34060.0,1498.0,35558.0
+2,20,novel,3e966645_8,False,London,1.0,False,7.1,30312.0,2.0,30314.0
+2,20,novel,3e966645_9,False,I don't have the information to answer your question.,2.0,True,8.8,31314.0,18.0,31332.0
+2,20,novel,3e966645_7,False,There is no mention of this in the provided passage.,2.0,True,23.4,33839.0,1251.0,35090.0
+2,20,novel,3e966645_11,False,The City of Papeete.,2.0,True,3.5,31807.0,26.0,31833.0
+2,20,novel,3e966645_12,False,There is no mention of a schooner's officer.,2.0,True,8.3,31332.0,18.0,31350.0
+2,20,novel,3e966645_10,False,Merchandise.,2.0,True,18.7,32822.0,1235.0,34057.0
+2,20,novel,3e966645_16,False,There is no mention of Davis in the passage.,2.0,True,7.3,34167.0,530.0,34697.0
+2,20,novel,3e966645_17,False,There is no mention of three men planning to sail a ship.,2.0,True,7.2,34171.0,71.0,34242.0
+2,20,novel,3e966645_19,False,There is no information about 3 beggars operating out of the Tahitian port of Papeete or an American sea captain.,2.0,True,7.4,31582.0,39.0,31621.0
+2,20,news,180,False,There is no mention of Mable Randon in the passage.,2.0,True,136.4,27270.0,62.0,27332.0
+2,20,novel,3e966645_21,False,There is no mention of the US Counsel hiring someone to take over a schooner carrying champagne that has veered off course in the provided passage.,2.0,True,6.9,33780.0,534.0,34314.0
+2,20,novel,3e966645_22,False,Melbourne.,1.0,False,7.1,30317.0,4.0,30321.0
+2,20,novel,6a659de3_2,False,Evil powers,1.0,False,5.1,30314.0,4.0,30318.0
+2,20,novel,6a659de3_3,False,Guph,1.0,False,4.7,30306.0,4.0,30310.0
+2,20,novel,3e966645_23,False,There is no mention of this in the passage.,2.0,True,14.0,34092.0,1505.0,35597.0
+2,20,novel,6a659de3_4,False,Shah Amurath,1.0,False,16.0,30319.0,6.0,30325.0
+2,20,novel,6a659de3_6,False,Ozma.,2.0,True,16.5,31308.0,11.0,31319.0
+2,20,novel,6a659de3_7,False,The Land of Oz.,2.0,True,16.0,34173.0,525.0,34698.0
+2,20,novel,6a659de3_5,False,There is no Vincey or Leo in the passage.,2.0,True,32.4,33662.0,1260.0,34922.0
+2,20,novel,6a659de3_8,False,No information about Leo or his injury is present in the passage.,2.0,True,12.1,34165.0,533.0,34698.0
+2,20,novel,6a659de3_14,False,Robert Herrick,1.0,False,1.3,30307.0,4.0,30311.0
+2,20,novel,6a659de3_17,False,No one.,2.0,True,5.1,31178.0,10.0,31188.0
+2,20,novel,6a659de3_11,False,There is no mention of a character named Leo in the passage.,2.0,True,9.1,33650.0,1262.0,34912.0
+2,20,novel,9561a72a_1,False,Guph,1.0,False,1.1,30314.0,4.0,30318.0
+2,20,novel,9561a72a_0,False,There is no information about Dorothy Gale in the passage.,2.0,True,1.9,30975.0,18.0,30993.0
+2,20,novel,6a659de3_12,False,There is no Vincey in the passage.,2.0,True,13.0,33662.0,1264.0,34926.0
+2,20,novel,9561a72a_3,False,The gardens of Clavering Park.,1.0,False,5.9,30311.0,9.0,30320.0
+2,20,novel,9561a72a_9,False,"Olivia, Shah Amurath",1.0,False,4.3,30315.0,8.0,30323.0
+2,20,novel,9561a72a_10,False,She welcomes them.,2.0,True,1.2,31322.0,11.0,31333.0
+2,20,novel,9561a72a_11,True,King Roquat,1.0,False,6.3,30315.0,4.0,30319.0
+2,20,novel,9561a72a_12,True,Guph,1.0,False,0.6,30314.0,4.0,30318.0
+2,20,novel,bf55d1c1_0,False,Rope.,1.0,False,5.1,30312.0,4.0,30316.0
+2,20,novel,bf55d1c1_1,False,There is no mention of Arabella in the passage.,2.0,True,9.6,31172.0,18.0,31190.0
+2,20,novel,bf55d1c1_2,False,Olivia,1.0,False,0.8,30310.0,3.0,30313.0
+2,20,novel,9561a72a_5,False,There is no mention of Dorothy in the passage.,2.0,True,34.0,30973.0,17.0,30990.0
+2,20,novel,9561a72a_7,False,Oz.,2.0,True,32.7,34163.0,61.0,34224.0
+2,20,novel,bf55d1c1_3,False,Shah Amurath,1.0,False,6.2,30317.0,6.0,30323.0
+2,20,novel,bf55d1c1_6,False,There is no mention of Arabella or a hole at her house in the passage.,2.0,True,9.8,30979.0,24.0,31003.0
+2,20,novel,bf55d1c1_5,False,Shah Amurath.,2.0,True,15.0,34244.0,1495.0,35739.0
+2,20,novel,bf55d1c1_10,False,There is no mention of a friend of Richard Salton who Adam worked with to stop Arabella.,1.0,False,1.4,30318.0,21.0,30339.0
+2,20,novel,bf55d1c1_11,False,No information is provided about Adam hunting down Arabella.,2.0,True,5.1,33765.0,519.0,34284.0
+2,20,novel,bf55d1c1_4,False,There is no mention of an Adam in the passage.,2.0,True,24.2,34052.0,1506.0,35558.0
+2,20,novel,bf55d1c1_12,False,India,1.0,False,0.4,30314.0,2.0,30316.0
+2,20,novel,ca4b98f5_1,False,Captain Clavering,1.0,False,0.7,30316.0,5.0,30321.0
+2,20,novel,ca4b98f5_0,False,SHADOWS IN THE MOONLIGHT.,1.0,False,1.4,30309.0,10.0,30319.0
+2,20,novel,ca4b98f5_2,False,Law,1.0,False,0.8,30316.0,2.0,30318.0
+2,20,novel,ca4b98f5_3,False,Clavering Park.,1.0,False,4.8,30315.0,6.0,30321.0
+2,20,novel,bf55d1c1_9,False,No specific date is mentioned.,2.0,True,15.9,34056.0,1501.0,35557.0
+2,20,novel,ca4b98f5_4,False,There is no mention of Florence Burton in the passage.,2.0,True,9.1,30971.0,18.0,30989.0
+2,20,novel,3e966645_20,False,The City of Papeete.,2.0,True,134.8,33650.0,635.0,34285.0
+2,20,novel,ca4b98f5_8,False,There is no Harry or Florence in the passage.,2.0,True,11.9,34068.0,1505.0,35573.0
+2,20,novel,ca4b98f5_12,False,Lady Clavering,1.0,False,0.9,30309.0,5.0,30314.0
+2,20,novel,ca4b98f5_6,False,No one.,2.0,True,20.9,34074.0,1489.0,35563.0
+2,20,novel,ca4b98f5_13,False,Julia Brabazon,1.0,False,14.7,30311.0,6.0,30317.0
+2,20,novel,ca4b98f5_10,False,Not mentioned.,2.0,True,31.3,34060.0,1498.0,35558.0
+2,20,novel,ca4b98f5_11,False,No one in the passage.,2.0,True,26.0,33013.0,22.0,33035.0
+2,20,novel,ca4b98f5_16,False,Lady Clavering,1.0,False,9.0,30311.0,5.0,30316.0
+2,20,novel,ca4b98f5_15,False,There is no information about a character named Harry or his second fiancee in the provided passage.,2.0,True,17.2,34064.0,1514.0,35578.0
+2,20,novel,ca4b98f5_14,False,Merchant.,2.0,True,25.5,33786.0,1251.0,35037.0
+2,20,caselaw,23,False,2,1.0,False,1.4,24480.0,2.0,24482.0
+2,20,novel,ca4b98f5_17,False,Julia Brabazon,1.0,False,12.9,30310.0,6.0,30316.0
+2,20,caselaw,25,False,3,1.0,False,6.6,24359.0,2.0,24361.0
+2,20,caselaw,27,True,2,1.0,False,5.0,24393.0,2.0,24395.0
+2,20,novel,ca4b98f5_18,False,Julia Brabazon,2.0,True,9.7,34102.0,120.0,34222.0
+2,20,caselaw,21,False,3,2.0,True,9.9,26427.0,20.0,26447.0
+2,20,caselaw,29,False,4,1.0,False,1.7,24465.0,2.0,24467.0
+2,20,caselaw,33,False,2,1.0,False,7.1,24410.0,2.0,24412.0
+2,20,caselaw,31,True,5,2.0,True,7.7,25819.0,8.0,25827.0
+2,20,caselaw,41,False,3,1.0,False,2.8,24381.0,2.0,24383.0
+2,20,caselaw,39,False,5,2.0,True,4.3,26431.0,17.0,26448.0
+2,20,caselaw,43,False,3,1.0,False,5.8,24432.0,2.0,24434.0
+2,20,caselaw,35,True,2,2.0,True,17.3,25835.0,8.0,25843.0
+2,20,caselaw,47,False,5,2.0,True,10.0,26495.0,20.0,26515.0
+2,20,caselaw,37,True,5,2.0,True,32.3,25694.0,8.0,25702.0
+2,20,caselaw,51,True,5,1.0,False,14.5,24400.0,2.0,24402.0
+2,20,caselaw,53,False,5,2.0,True,7.7,25992.0,14.0,26006.0
+2,20,caselaw,45,False,5,2.0,True,30.4,25782.0,8.0,25790.0
+2,20,caselaw,55,True,2,1.0,False,10.3,24470.0,2.0,24472.0
+2,20,caselaw,49,False,3,1.0,False,32.8,24404.0,2.0,24406.0
+2,20,caselaw,57,False,4,1.0,False,10.9,24451.0,2.0,24453.0
+2,20,caselaw,59,False,4,1.0,False,10.4,24482.0,2.0,24484.0
+2,20,caselaw,67,False,3,2.0,True,7.0,26453.0,18.0,26471.0
+2,20,caselaw,63,False,5,2.0,True,9.0,26296.0,17.0,26313.0
+2,20,caselaw,61,False,1,2.0,True,9.8,26122.0,17.0,26139.0
+2,20,caselaw,73,False,5,2.0,True,5.7,26443.0,20.0,26463.0
+2,20,caselaw,71,False,1,2.0,True,7.5,26244.0,11.0,26255.0
+2,20,caselaw,69,False,3,2.0,True,8.9,28849.0,963.0,29812.0
+2,20,caselaw,77,False,2,2.0,True,3.9,25645.0,8.0,25653.0
+2,20,caselaw,75,True,2,1.0,False,9.5,24380.0,2.0,24382.0
+2,20,caselaw,81,False,3,1.0,False,6.9,24442.0,2.0,24444.0
+2,20,caselaw,65,True,5,2.0,True,31.3,26521.0,20.0,26541.0
+2,20,caselaw,79,True,3,2.0,True,17.9,29015.0,1011.0,30026.0
+2,20,caselaw,89,False,5,2.0,True,15.2,26170.0,17.0,26187.0
+2,20,caselaw,85,False,5,2.0,True,32.2,26188.0,17.0,26205.0
+2,20,caselaw,91,False,5,2.0,True,9.7,26018.0,14.0,26032.0
+2,20,caselaw,95,False,5,1.0,False,0.8,24401.0,2.0,24403.0
+2,20,caselaw,83,False,5,2.0,True,36.4,26112.0,17.0,26129.0
+2,20,caselaw,99,False,5,1.0,False,1.0,24430.0,2.0,24432.0
+2,20,caselaw,87,False,3,2.0,True,30.9,29012.0,794.0,29806.0
+2,20,caselaw,103,False,4,1.0,False,4.7,24402.0,2.0,24404.0
+2,20,caselaw,93,False,5,1.0,False,9.1,24446.0,2.0,24448.0
+2,20,caselaw,105,False,4,1.0,False,0.9,24475.0,2.0,24477.0
+2,20,caselaw,101,False,5,2.0,True,7.4,26152.0,17.0,26169.0
+2,20,caselaw,109,False,3,1.0,False,4.7,24441.0,2.0,24443.0
+2,20,caselaw,111,False,5,1.0,False,4.7,24417.0,2.0,24419.0
+2,20,caselaw,113,True,1,1.0,False,2.7,24399.0,2.0,24401.0
+2,20,caselaw,107,False,4,2.0,True,8.4,25793.0,8.0,25801.0
+2,20,caselaw,117,False,3,1.0,False,2.6,24522.0,2.0,24524.0
+2,20,caselaw,97,False,5,2.0,True,18.8,25771.0,8.0,25779.0
+2,20,caselaw,115,True,4,2.0,True,18.3,26663.0,20.0,26683.0
+2,20,caselaw,119,True,3,2.0,True,18.2,25816.0,8.0,25824.0
+2,20,caselaw,121,False,5,2.0,True,24.2,26214.0,17.0,26231.0
+2,20,caselaw,125,True,5,2.0,True,16.8,26477.0,20.0,26497.0
+2,20,caselaw,123,True,5,2.0,True,30.9,26475.0,20.0,26495.0
+2,20,caselaw,127,False,5,2.0,True,24.1,26166.0,17.0,26183.0
+2,20,caselaw,135,False,3,1.0,False,0.7,24703.0,2.0,24705.0
+2,20,caselaw,137,False,4,1.0,False,1.5,24571.0,2.0,24573.0
+2,20,caselaw,131,False,5,2.0,True,12.5,26523.0,20.0,26543.0
+2,20,caselaw,129,True,2,2.0,True,25.0,26715.0,14.0,26729.0
+2,20,caselaw,141,False,2,1.0,False,6.4,24415.0,2.0,24417.0
+2,20,caselaw,145,False,5,1.0,False,0.7,24430.0,2.0,24432.0
+2,20,caselaw,139,False,5,2.0,True,7.8,26232.0,11.0,26243.0
+2,20,caselaw,147,False,3,1.0,False,0.8,24500.0,2.0,24502.0
+2,20,caselaw,143,False,3,1.0,False,5.7,24528.0,2.0,24530.0
+2,20,caselaw,149,True,1,1.0,False,5.0,24448.0,2.0,24450.0
+2,20,caselaw,153,False,2,1.0,False,3.1,24480.0,2.0,24482.0
+2,20,caselaw,157,False,5,1.0,False,2.0,24426.0,2.0,24428.0
+2,20,caselaw,133,False,2,2.0,True,29.0,26176.0,11.0,26187.0
+2,20,caselaw,155,False,2,1.0,False,6.3,24457.0,2.0,24459.0
+2,20,caselaw,161,False,5,1.0,False,5.4,24433.0,2.0,24435.0
+2,20,caselaw,165,False,5,1.0,False,2.5,24490.0,2.0,24492.0
+2,20,caselaw,151,True,5,2.0,True,17.9,25731.0,8.0,25739.0
+2,20,caselaw,159,False,4,1.0,False,16.1,24432.0,2.0,24434.0
+2,20,caselaw,167,False,5,2.0,True,15.9,26521.0,20.0,26541.0
+2,20,caselaw,169,True,5,2.0,True,21.6,26206.0,11.0,26217.0
+2,20,caselaw,175,True,2,1.0,False,1.4,24380.0,2.0,24382.0
+2,20,caselaw,171,False,5,2.0,True,24.7,26260.0,14.0,26274.0
+2,20,caselaw,177,False,5,2.0,True,10.3,26150.0,17.0,26167.0
+2,20,caselaw,173,False,5,2.0,True,18.6,26278.0,17.0,26295.0
+2,20,caselaw,179,False,5,1.0,False,8.6,24415.0,2.0,24417.0
+2,20,caselaw,163,False,3,2.0,True,48.5,26407.0,21.0,26428.0
+2,20,caselaw,181,False,5,2.0,True,8.0,26186.0,14.0,26200.0
+2,20,caselaw,183,False,5,2.0,True,8.0,26583.0,20.0,26603.0
+2,20,caselaw,187,False,5,1.0,False,4.7,24398.0,2.0,24400.0
+2,20,caselaw,193,False,4,1.0,False,0.3,24493.0,2.0,24495.0
+2,20,caselaw,195,False,5,1.0,False,1.4,24407.0,2.0,24409.0
+2,20,caselaw,197,False,4,1.0,False,1.3,24430.0,2.0,24432.0
+2,20,caselaw,191,True,3,1.0,False,9.2,24450.0,2.0,24452.0
+2,20,caselaw,199,False,4,1.0,False,2.8,24564.0,2.0,24566.0
+2,20,caselaw,185,False,5,2.0,True,16.3,26487.0,20.0,26507.0
+2,20,caselaw,203,False,4,1.0,False,7.7,24390.0,2.0,24392.0
+2,20,caselaw,189,True,5,2.0,True,18.6,28909.0,1016.0,29925.0
+2,20,caselaw,207,False,4,1.0,False,5.5,24396.0,2.0,24398.0
+2,20,caselaw,211,False,1,1.0,False,2.4,24504.0,2.0,24506.0
+2,20,caselaw,209,True,5,1.0,False,14.8,24405.0,2.0,24407.0
+2,20,caselaw,213,False,3,1.0,False,8.2,24439.0,2.0,24441.0
+2,20,caselaw,215,False,1,2.0,True,16.6,26595.0,20.0,26615.0
+2,20,caselaw,201,True,3,1.0,False,40.9,24434.0,2.0,24436.0
+2,20,caselaw,219,False,4,1.0,False,2.3,24397.0,2.0,24399.0
+2,20,caselaw,217,False,5,2.0,True,18.6,26202.0,14.0,26216.0
+2,20,caselaw,223,True,4,1.0,False,1.8,24457.0,2.0,24459.0
+2,20,caselaw,227,True,5,1.0,False,4.7,24477.0,2.0,24479.0
+2,20,caselaw,205,False,5,2.0,True,43.4,26489.0,20.0,26509.0
+2,20,caselaw,225,False,5,1.0,False,6.6,24468.0,2.0,24470.0
+2,20,caselaw,233,True,3,1.0,False,0.8,24364.0,2.0,24366.0
+2,20,caselaw,231,False,5,1.0,False,1.8,24539.0,2.0,24541.0
+2,20,caselaw,235,False,4,1.0,False,4.4,24445.0,2.0,24447.0
+2,20,caselaw,221,False,5,2.0,True,14.1,25893.0,8.0,25901.0
+2,20,caselaw,241,False,5,1.0,False,1.3,24434.0,2.0,24436.0
+2,20,caselaw,237,True,4,1.0,False,6.7,24444.0,2.0,24446.0
+2,20,caselaw,229,False,5,2.0,True,8.8,26387.0,20.0,26407.0
+2,20,caselaw,239,False,5,1.0,False,5.3,24418.0,2.0,24420.0
+2,20,caselaw,247,False,4,1.0,False,8.1,24448.0,2.0,24450.0
+2,20,caselaw,245,False,3,2.0,True,10.6,25769.0,8.0,25777.0
+2,20,caselaw,243,False,5,2.0,True,17.4,26523.0,20.0,26543.0
+2,20,caselaw,249,False,3,1.0,False,16.3,24398.0,2.0,24400.0
+2,20,caselaw,251,False,5,2.0,True,18.4,26367.0,23.0,26390.0
+2,20,caselaw,253,False,3,1.0,False,22.6,24350.0,2.0,24352.0
+2,20,caselaw,261,True,5,1.0,False,0.7,24555.0,2.0,24557.0
+2,20,caselaw,259,True,3,1.0,False,7.5,24454.0,2.0,24456.0
+2,20,caselaw,255,False,5,2.0,True,26.5,26228.0,14.0,26242.0
+2,20,caselaw,257,True,3,1.0,False,24.5,24409.0,2.0,24411.0
+2,20,caselaw,265,False,3,1.0,False,10.5,24421.0,2.0,24423.0
+2,20,caselaw,267,False,4,1.0,False,3.0,24511.0,2.0,24513.0
+2,20,caselaw,273,False,3,2.0,True,6.2,26509.0,21.0,26530.0
+2,20,caselaw,263,True,5,2.0,True,18.0,26166.0,14.0,26180.0
+2,20,caselaw,271,False,2,2.0,True,7.9,26551.0,20.0,26571.0
+2,20,caselaw,269,False,5,2.0,True,14.0,25653.0,8.0,25661.0
+2,20,caselaw,279,False,5,2.0,True,6.1,26336.0,17.0,26353.0
+2,20,caselaw,277,False,5,2.0,True,8.0,26200.0,17.0,26217.0
+2,20,caselaw,275,False,4,1.0,False,8.8,24397.0,2.0,24399.0
+2,20,caselaw,281,False,4,1.0,False,5.4,24459.0,2.0,24461.0
+2,20,caselaw,283,True,5,1.0,False,4.2,24466.0,2.0,24468.0
+2,20,caselaw,287,True,5,2.0,True,7.7,26525.0,20.0,26545.0
+2,20,caselaw,285,False,5,2.0,True,16.4,26224.0,17.0,26241.0
+2,20,caselaw,291,False,5,2.0,True,23.0,25663.0,8.0,25671.0
+2,20,caselaw,289,False,5,2.0,True,24.0,26669.0,14.0,26683.0
+2,20,caselaw,299,False,5,1.0,False,7.2,24488.0,2.0,24490.0
+2,20,caselaw,297,False,2,2.0,True,8.3,26563.0,20.0,26583.0
+2,20,caselaw,303,False,5,1.0,False,8.8,24436.0,2.0,24438.0
+2,20,caselaw,295,False,5,2.0,True,28.5,25719.0,8.0,25727.0
+2,20,caselaw,307,False,3,1.0,False,2.1,24461.0,2.0,24463.0
+2,20,caselaw,293,True,5,2.0,True,43.5,28974.0,866.0,29840.0
+2,20,caselaw,305,False,5,2.0,True,9.4,26527.0,20.0,26547.0
+2,20,caselaw,309,True,5,2.0,True,6.2,26250.0,17.0,26267.0
+2,20,caselaw,301,False,2,2.0,True,23.4,29037.0,858.0,29895.0
+2,20,caselaw,311,False,4,1.0,False,5.7,24389.0,2.0,24391.0
+2,20,caselaw,315,True,5,2.0,True,9.4,26483.0,20.0,26503.0
+2,20,caselaw,313,False,5,2.0,True,10.3,26521.0,14.0,26535.0
+2,20,caselaw,317,False,5,2.0,True,6.7,26423.0,20.0,26443.0
+2,20,caselaw,321,False,5,1.0,False,5.6,24466.0,2.0,24468.0
+2,20,caselaw,327,False,5,1.0,False,2.5,24366.0,2.0,24368.0
+2,20,caselaw,319,False,3,2.0,True,13.8,29036.0,878.0,29914.0
+2,20,caselaw,331,False,2,1.0,False,5.0,24435.0,2.0,24437.0
+2,20,caselaw,323,True,5,1.0,False,15.9,24479.0,2.0,24481.0
+2,20,caselaw,333,False,5,2.0,True,10.5,26386.0,17.0,26403.0
+2,20,caselaw,329,False,5,1.0,False,22.3,24507.0,2.0,24509.0
+2,20,caselaw,337,False,5,1.0,False,7.6,24441.0,2.0,24443.0
+2,20,caselaw,325,True,5,1.0,False,38.8,24446.0,2.0,24448.0
+2,20,caselaw,339,True,5,2.0,True,10.9,26563.0,20.0,26583.0
+2,20,caselaw,345,False,3,1.0,False,0.8,24391.0,2.0,24393.0
+2,20,caselaw,341,False,4,2.0,True,17.1,26451.0,14.0,26465.0
+2,20,caselaw,343,False,5,2.0,True,8.8,26439.0,20.0,26459.0
+2,20,caselaw,335,True,4,2.0,True,33.2,28900.0,158.0,29058.0
+2,20,caselaw,351,False,3,2.0,True,1.7,26465.0,20.0,26485.0
+2,20,caselaw,347,False,5,2.0,True,12.7,26108.0,11.0,26119.0
+2,20,caselaw,357,False,3,1.0,False,1.3,24445.0,2.0,24447.0
+2,20,caselaw,349,False,5,1.0,False,8.9,24425.0,2.0,24427.0
+2,20,caselaw,361,False,4,1.0,False,2.1,24452.0,2.0,24454.0
+2,20,caselaw,355,False,4,2.0,True,9.6,25996.0,14.0,26010.0
+2,20,caselaw,359,False,2,2.0,True,11.9,26353.0,20.0,26373.0
+2,20,caselaw,365,True,5,2.0,True,13.3,26449.0,14.0,26463.0
+2,20,caselaw,353,False,5,2.0,True,34.0,26370.0,14.0,26384.0
+2,20,caselaw,371,False,2,1.0,False,0.9,24455.0,2.0,24457.0
+2,20,caselaw,373,False,3,1.0,False,6.1,24368.0,2.0,24370.0
+2,20,caselaw,363,False,5,2.0,True,31.7,26080.0,14.0,26094.0
+2,20,caselaw,367,False,4,2.0,True,32.0,26198.0,14.0,26212.0
+2,20,caselaw,379,True,4,1.0,False,1.4,24589.0,2.0,24591.0
+2,20,caselaw,375,False,3,2.0,True,11.7,25746.0,8.0,25754.0
+2,20,caselaw,383,False,5,1.0,False,0.8,24379.0,2.0,24381.0
+2,20,caselaw,385,False,5,2.0,True,6.3,26142.0,14.0,26156.0
+2,20,caselaw,369,False,4,2.0,True,36.4,26116.0,14.0,26130.0
+2,20,caselaw,377,False,5,2.0,True,18.6,26497.0,20.0,26517.0
+2,20,caselaw,389,False,4,1.0,False,4.8,24367.0,2.0,24369.0
+2,20,caselaw,393,False,3,1.0,False,1.5,24425.0,3.0,24428.0
+2,20,caselaw,387,False,5,2.0,True,8.1,26469.0,17.0,26486.0
+2,20,caselaw,391,False,5,2.0,True,7.6,26222.0,11.0,26233.0
+2,20,caselaw,395,False,4,1.0,False,3.7,24404.0,2.0,24406.0
+2,20,caselaw,399,False,5,1.0,False,2.6,24414.0,2.0,24416.0
+2,20,caselaw,381,False,5,2.0,True,19.8,25851.0,8.0,25859.0
+2,20,caselaw,397,False,5,2.0,True,10.8,26194.0,17.0,26211.0
+2,40,wiki,13,True,1735,1.0,False,0.7,7174.0,3.0,7177.0
+2,40,wiki,12,True,The Second Anglo-Dutch War.,2.0,True,22.3,9147.0,26.0,9173.0
+2,40,wiki,14,True,August 1776.,2.0,True,23.1,8309.0,12.0,8321.0
+2,40,wiki,17,True,1827,2.0,True,10.2,9156.0,12.0,9168.0
+2,40,wiki,16,True,Philadelphia.,2.0,True,11.8,8313.0,9.0,8322.0
+2,40,wiki,15,True,The Great Fire of New York.,2.0,True,39.7,9152.0,17.0,9169.0
+2,40,wiki,11,False,New Amsterdam.,2.0,True,40.8,8285.0,10.0,8295.0
+2,40,wiki,18,False,There is no information about the Erie Canal in the passage.,2.0,True,7.5,9154.0,22.0,9176.0
+2,40,wiki,19,True,25%,2.0,True,7.7,8098.0,9.0,8107.0
+2,40,wiki,20,True,1898.,2.0,True,6.4,8141.0,10.0,8151.0
+2,40,wiki,22,True,Megacity.,2.0,True,7.3,14964.0,196.0,15160.0
+2,40,wiki,21,False,I don't have that information.,2.0,True,8.4,8309.0,14.0,8323.0
+2,40,wiki,23,True,Abstract expressionism.,2.0,True,10.4,10579.0,20.0,10599.0
+2,40,wiki,24,True,American Airlines Flight 11.,2.0,True,6.5,14406.0,244.0,14650.0
+2,40,wiki,28,False,Harlem River.,2.0,True,7.5,14536.0,89.0,14625.0
+2,40,wiki,26,True,Donald Trump.,2.0,True,16.4,14348.0,328.0,14676.0
+2,40,wiki,30,False,I don't have the information.,2.0,True,10.4,8323.0,14.0,8337.0
+2,40,wiki,29,True,164.1,2.0,True,21.7,14458.0,85.0,14543.0
+2,40,wiki,27,False,"Manhattan, Staten, and Long.",2.0,True,39.8,10490.0,54.0,10544.0
+2,40,wiki,25,False,There is no information about a plane crashing into the World Trade Center in the given passage.,2.0,True,44.4,8824.0,28.0,8852.0
+2,40,wiki,31,False,Over 300.,2.0,True,17.3,8247.0,11.0,8258.0
+2,40,wiki,34,True,humid continental,2.0,True,2.1,8132.0,10.0,8142.0
+2,40,wiki,33,False,Sewer systems.,1.0,False,8.9,7184.0,6.0,7190.0
+2,40,wiki,32,True,Eagles.,2.0,True,19.1,14346.0,329.0,14675.0
+2,40,wiki,35,True,"July 9, 1936.",2.0,True,13.3,8122.0,15.0,8137.0
+2,40,wiki,37,True,Minneapolis.,2.0,True,5.9,9549.0,19.0,9568.0
+2,40,wiki,38,False,"26,000",2.0,True,6.5,8072.0,10.0,8082.0
+2,40,wiki,36,True,49.9 inches.,2.0,True,15.0,8122.0,12.0,8134.0
+2,40,wiki,39,True,Grant's Tomb.,2.0,True,6.7,14350.0,329.0,14679.0
+2,40,wiki,41,True,1179th Transportation Brigade.,2.0,True,9.7,14370.0,235.0,14605.0
+2,40,wiki,42,True,40%,2.0,True,15.9,14519.0,78.0,14597.0
+2,40,wiki,40,True,"1,093",2.0,True,21.0,9124.0,13.0,9137.0
+2,40,wiki,45,True,"74,000.",2.0,True,10.4,8367.0,14.0,8381.0
+2,40,wiki,47,False,United States,2.0,True,7.1,9813.0,39.0,9852.0
+2,40,wiki,43,False,Bangladeshi.,2.0,True,30.3,8359.0,15.0,8374.0
+2,40,wiki,49,True,Judaism.,2.0,True,9.0,8270.0,11.0,8281.0
+2,40,wiki,48,True,"568,903",1.0,False,10.9,7175.0,4.0,7179.0
+2,40,wiki,44,True,12 million.,2.0,True,37.1,14182.0,158.0,14340.0
+2,40,wiki,51,True,"$15,887/m²",2.0,True,7.7,8253.0,13.0,8266.0
+2,40,wiki,52,False,No information.,2.0,True,7.2,8316.0,10.0,8326.0
+2,40,wiki,54,True,$40 billion.,2.0,True,4.5,10247.0,17.0,10264.0
+2,40,wiki,46,False,Not mentioned.,2.0,True,39.3,14452.0,316.0,14768.0
+2,40,wiki,50,False,"$1,046",2.0,True,17.4,14356.0,329.0,14685.0
+2,40,wiki,55,False,No information.,2.0,True,5.6,8245.0,10.0,8255.0
+2,40,wiki,53,False,Bagels.,2.0,True,15.8,14346.0,328.0,14674.0
+2,40,wiki,57,True,56.4 million.,2.0,True,10.2,15120.0,144.0,15264.0
+2,40,wiki,58,False,I couldn't find any information about the state song of New York in the given passage.,2.0,True,23.2,8687.0,40.0,8727.0
+2,40,wiki,56,False,I don't have information about Cornell Tech's location.,2.0,True,35.1,8213.0,18.0,8231.0
+2,40,wiki,60,True,Anbang Insurance Group,2.0,True,23.1,14354.0,311.0,14665.0
+2,40,wiki,59,False,No information.,2.0,True,26.0,8115.0,10.0,8125.0
+2,40,wiki,63,True,Manhattan Neighborhood Network.,2.0,True,10.1,8282.0,12.0,8294.0
+2,40,wiki,62,True,The Wall Street Journal and The New York Times.,1.0,False,11.8,7174.0,11.0,7185.0
+2,40,wiki,64,True,WNYC,2.0,True,17.3,14350.0,325.0,14675.0
+2,40,wiki,66,False,New York Public Library,2.0,True,6.8,14344.0,329.0,14673.0
+2,40,wiki,65,False,Over 200.,2.0,True,7.9,14518.0,284.0,14802.0
+2,40,wiki,61,True,"25,000.",2.0,True,26.7,8257.0,11.0,8268.0
+2,40,wiki,69,False,No information.,2.0,True,5.6,8315.0,10.0,8325.0
+2,40,wiki,67,True,1.4 million.,2.0,True,8.4,8342.0,12.0,8354.0
+2,40,wiki,70,False,No information available.,2.0,True,10.1,8337.0,11.0,8348.0
+2,40,wiki,73,False,I couldn't find any information about the Bureau of Fire Communications alarm office in Brooklyn.,2.0,True,5.5,14356.0,342.0,14698.0
+2,40,wiki,72,False,Commuter rail network.,2.0,True,10.7,8402.0,16.0,8418.0
+2,40,wiki,71,False,New York City Fire Department.,2.0,True,14.0,14348.0,331.0,14679.0
+2,40,wiki,76,False,No information.,2.0,True,7.1,8269.0,10.0,8279.0
+2,40,wiki,68,True,"Ramanathan Raju, MD.",2.0,True,35.2,8336.0,15.0,8351.0
+2,40,wiki,77,False,There is no information about the world's most expensive stadiums being located in NYC.,2.0,True,14.6,10032.0,32.0,10064.0
+2,40,wiki,79,True,Hockey.,1.0,False,0.7,7173.0,4.0,7177.0
+2,40,wiki,80,False,There is no information about a collegiate basketball championship taking place in New York in the provided passage.,2.0,True,9.1,14486.0,302.0,14788.0
+2,40,wiki,75,False,None mentioned.,2.0,True,36.0,8261.0,10.0,8271.0
+2,40,wiki,78,True,MetLife Stadium,2.0,True,24.7,8235.0,10.0,8245.0
+2,40,wiki,74,False,Action painting.,2.0,True,43.5,14344.0,328.0,14672.0
+2,40,wiki,81,False,US Open,2.0,True,9.5,14523.0,264.0,14787.0
+2,40,wiki,82,False,New York City Subway.,2.0,True,6.1,8233.0,12.0,8245.0
+2,40,wiki,85,False,No information is available.,2.0,True,6.3,9095.0,18.0,9113.0
+2,40,wiki,84,False,No information.,2.0,True,8.5,8227.0,10.0,8237.0
+2,40,wiki,86,False,No answer available.,2.0,True,9.7,8693.0,26.0,8719.0
+2,40,wiki,83,False,No data available.,2.0,True,11.6,14362.0,311.0,14673.0
+2,40,wiki,87,False,No answer available.,2.0,True,11.9,8233.0,11.0,8244.0
+2,40,wiki,88,False,No data.,2.0,True,10.9,14344.0,310.0,14654.0
+2,40,wiki,89,False,Adirondacks.,2.0,True,23.7,14350.0,330.0,14680.0
+2,40,wiki,91,False,Not specified.,2.0,True,22.3,14354.0,310.0,14664.0
+2,40,wiki,93,False,"No information is given about the book ""New York, culture capital of the world, 1940–1965"" in the passage.",2.0,True,16.7,7853.0,35.0,7888.0
+2,40,wiki,92,False,1.4 million.,2.0,True,32.0,8384.0,12.0,8396.0
+2,40,wiki,94,True,Fifth Avenue.,1.0,False,11.0,7175.0,5.0,7180.0
+2,40,wiki,90,False,No information is given about the number of councilors on the City Council.,2.0,True,41.8,7825.0,22.0,7847.0
+2,40,wiki,96,False,JFK,1.0,False,2.2,7174.0,3.0,7177.0
+2,40,wiki,97,False,Theater.,1.0,False,2.7,7171.0,4.0,7175.0
+2,40,wiki,98,False,Geographically on Long Island.,1.0,False,6.8,7174.0,7.0,7181.0
+2,40,wiki,100,False,No answer available.,2.0,True,6.0,9154.0,14.0,9168.0
+2,40,news,11,False,Afghanistan,1.0,False,1.6,24453.0,4.0,24457.0
+2,40,wiki,99,False,No information provided.,2.0,True,11.7,9813.0,41.0,9854.0
+2,40,news,12,False,Palestinian militants,2.0,True,7.2,26191.0,16.0,26207.0
+2,40,news,14,True,Three Chinese nationals.,1.0,False,3.9,24458.0,5.0,24463.0
+2,40,wiki,95,True,New York City FC,2.0,True,19.7,14476.0,260.0,14736.0
+2,40,news,17,True,Demand full democracy be restored in Pakistan.,1.0,False,2.4,24459.0,9.0,24468.0
+2,40,news,13,False,Thursday.,2.0,True,17.5,31646.0,1176.0,32822.0
+2,40,news,16,False,"Chavez, Uribe, Musharraf, Bush, Krongard.",2.0,True,17.8,31642.0,1190.0,32832.0
+2,40,news,18,False,Yes.,2.0,True,22.0,31441.0,330.0,31771.0
+2,40,news,15,False,No source stated that.,2.0,True,33.0,25429.0,12.0,25441.0
+2,40,news,19,True,Julio Cruz.,2.0,True,23.0,25438.0,11.0,25449.0
+2,40,news,20,False,Cristiano Ronaldo,2.0,True,23.9,31652.0,1178.0,32830.0
+2,40,news,23,False,New Jersey.,2.0,True,11.0,25434.0,10.0,25444.0
+2,40,news,24,False,Misdemeanor.,1.0,False,2.0,24459.0,6.0,24465.0
+2,40,news,21,False,"Cape Town, South Africa.",1.0,False,19.4,24457.0,8.0,24465.0
+2,40,news,27,True,Venezuelan President Hugo Chavez,1.0,False,5.2,24460.0,8.0,24468.0
+2,40,news,25,False,Finch fighting case.,2.0,True,6.8,25560.0,15.0,25575.0
+2,40,news,26,False,Withdrew support.,1.0,False,7.1,24458.0,6.0,24464.0
+2,40,news,22,False,No information is provided about a yacht.,2.0,True,19.7,25194.0,15.0,25209.0
+2,40,news,30,False,Azerbaijan.,2.0,True,5.4,30978.0,530.0,31508.0
+2,40,news,28,False,Not mentioned.,2.0,True,7.2,25568.0,10.0,25578.0
+2,40,news,29,False,Surrey,1.0,False,8.5,24456.0,4.0,24460.0
+2,40,news,33,False,Heidi Tagliavini,1.0,False,1.7,24457.0,7.0,24464.0
+2,40,news,31,True,New Delhi.,2.0,True,10.3,31666.0,1177.0,32843.0
+2,40,news,35,False,No information.,2.0,True,10.1,25146.0,10.0,25156.0
+2,40,news,32,False,No information available.,2.0,True,18.8,25184.0,11.0,25195.0
+2,40,news,36,False,Rugby broadcaster.,2.0,True,15.8,31543.0,1170.0,32713.0
+2,40,news,34,False,No one.,2.0,True,26.0,25306.0,10.0,25316.0
+2,40,news,40,False,Withdraw cash.,2.0,True,7.1,30897.0,133.0,31030.0
+2,40,news,41,False,Ethiopian troops,1.0,False,1.3,24461.0,5.0,24466.0
+2,40,news,42,False,Guam,1.0,False,9.6,24457.0,3.0,24460.0
+2,40,news,38,False,No one was killed.,2.0,True,28.6,26646.0,21.0,26667.0
+2,40,news,43,True,Genocide,1.0,False,1.6,24460.0,3.0,24463.0
+2,40,news,44,False,Veterans' care programs.,1.0,False,2.1,24458.0,7.0,24465.0
+2,40,news,39,False,Dida,2.0,True,32.8,25320.0,9.0,25329.0
+2,40,news,45,False,Key to this dialogue is some willingness on your part to actually find common ground.,2.0,True,6.3,25499.0,23.0,25522.0
+2,40,news,37,False,Chief of the Defence Force Air Chief Marshal Angus Houston.,2.0,True,42.4,31373.0,1101.0,32474.0
+2,40,news,47,False,6,1.0,False,5.7,24455.0,2.0,24457.0
+2,40,news,49,False,Terrorists and narcotraffickers.,2.0,True,5.7,25290.0,17.0,25307.0
+2,40,news,46,False,CNN,2.0,True,13.1,25412.0,8.0,25420.0
+2,40,news,48,False,Nothing.,2.0,True,12.1,31739.0,804.0,32543.0
+2,40,news,51,False,Not mentioned.,2.0,True,9.6,25286.0,10.0,25296.0
+2,40,news,50,False,No information.,2.0,True,14.1,31662.0,1177.0,32839.0
+2,40,news,55,False,Alvaro Uribe,1.0,False,4.9,24460.0,6.0,24466.0
+2,40,news,54,False,No mention of her.,2.0,True,18.4,25525.0,12.0,25537.0
+2,40,news,56,False,No score mentioned.,2.0,True,16.7,25346.0,11.0,25357.0
+2,40,news,53,False,None mentioned.,2.0,True,30.0,31654.0,1177.0,32831.0
+2,40,news,52,False,No information available.,2.0,True,34.6,31728.0,776.0,32504.0
+2,40,news,57,False,Polyps were removed.,1.0,False,16.6,24454.0,6.0,24460.0
+2,40,news,59,False,There is no information about female-only buses in the passage.,2.0,True,10.1,27280.0,61.0,27341.0
+2,40,news,58,False,Whales.,2.0,True,12.5,25442.0,10.0,25452.0
+2,40,news,62,False,Not mentioned.,2.0,True,8.4,25467.0,10.0,25477.0
+2,40,news,63,True,226,2.0,True,7.4,25358.0,8.0,25366.0
+2,40,news,65,True,Princess Eugenie,1.0,False,0.6,24464.0,5.0,24469.0
+2,40,news,61,False,No one in the passage.,2.0,True,13.9,31660.0,1180.0,32840.0
+2,40,news,66,True,National Hurricane Center,1.0,False,4.2,24455.0,4.0,24459.0
+2,40,news,60,False,No information.,2.0,True,25.9,25961.0,13.0,25974.0
+2,40,news,67,False,Full democracy in Pakistan.,1.0,False,5.4,24454.0,6.0,24460.0
+2,40,news,69,False,Six-match European ban.,1.0,False,2.4,24456.0,6.0,24462.0
+2,40,news,70,False,No information provided.,2.0,True,5.7,27262.0,53.0,27315.0
+2,40,news,64,False,Indian citizens.,2.0,True,18.1,25314.0,10.0,25324.0
+2,40,news,68,False,Three Chinese nationals.,2.0,True,13.8,31650.0,1175.0,32825.0
+2,40,news,74,False,No one.,2.0,True,15.4,25378.0,10.0,25388.0
+2,40,news,71,False,No information is provided about a health care adviser on Obama's transition team.,2.0,True,30.0,25140.0,22.0,25162.0
+2,40,news,73,True,Liquid.,2.0,True,32.2,29050.0,21.0,29071.0
+2,40,news,77,True,The August war between Georgia and Russia.,1.0,False,0.5,24463.0,9.0,24472.0
+2,40,news,72,False,Opposition legislators.,2.0,True,35.9,25324.0,11.0,25335.0
+2,40,news,79,False,Elizabeth Taylor,1.0,False,0.7,24456.0,3.0,24459.0
+2,40,news,76,False,There is no information about Boy George in the passage.,2.0,True,12.5,25612.0,18.0,25630.0
+2,40,news,80,False,None mentioned.,2.0,True,6.7,25355.0,10.0,25365.0
+2,40,news,75,False,No information is provided about SP shareholders.,2.0,True,25.8,25445.0,15.0,25460.0
+2,40,news,78,False,Chris Lewis,1.0,False,9.5,24456.0,3.0,24459.0
+2,40,news,84,False,Nowhere mentioned.,2.0,True,4.7,25654.0,14.0,25668.0
+2,40,news,81,False,No answer found in the passage.,2.0,True,14.7,31654.0,1178.0,32832.0
+2,40,news,82,False,No answer available.,2.0,True,10.9,25541.0,11.0,25552.0
+2,40,news,87,False,Yes.,2.0,True,5.8,26162.0,15.0,26177.0
+2,40,news,86,False,Engine fell off.,2.0,True,11.1,26322.0,14.0,26336.0
+2,40,news,88,False,No information is given about Russian planes.,2.0,True,10.4,25482.0,18.0,25500.0
+2,40,news,90,False,Engulfed in flames.,1.0,False,7.7,24460.0,7.0,24467.0
+2,40,news,89,False,Write the health care plan.,2.0,True,21.8,31444.0,127.0,31571.0
+2,40,news,91,False,Battling the blaze.,2.0,True,7.6,25910.0,19.0,25929.0
+2,40,news,92,False,£125 million,1.0,False,1.3,24459.0,4.0,24463.0
+2,40,news,93,False,Scoliosis,1.0,False,8.9,24456.0,4.0,24460.0
+2,40,news,94,True,Human shields.,1.0,False,8.9,24462.0,4.0,24466.0
+2,40,news,95,False,Michael Vick.,2.0,True,2.8,30971.0,52.0,31023.0
+2,40,news,96,False,Shootings.,2.0,True,8.3,31640.0,583.0,32223.0
+2,40,news,98,False,"Cape Town, South Africa",1.0,False,0.3,24455.0,7.0,24462.0
+2,40,news,99,False,I couldn't find any information about this in the provided passage.,2.0,True,7.7,31652.0,1187.0,32839.0
+2,40,news,100,False,There is no mention of a pair getting divorced.,2.0,True,0.6,25672.0,17.0,25689.0
+2,40,news,101,False,Blood was drawn.,2.0,True,0.6,25421.0,11.0,25432.0
+2,40,news,102,False,None.,2.0,True,0.6,25126.0,9.0,25135.0
+2,40,news,103,False,No information.,2.0,True,8.7,31648.0,1174.0,32822.0
+2,40,news,104,False,The Black Hawk helicopter.,2.0,True,4.0,31642.0,585.0,32227.0
+2,40,news,105,False,"""The asphalt that should be under my feet was 8 feet in the air.""",2.0,True,0.8,27036.0,29.0,27065.0
+2,40,news,106,False,"Cape Town, South Africa.",1.0,False,0.4,24456.0,8.0,24464.0
+2,40,news,107,False,United Arab Emirates.,2.0,True,3.2,25341.0,11.0,25352.0
+2,40,news,108,False,Search warrant.,2.0,True,8.2,25546.0,13.0,25559.0
+2,40,news,109,False,38,1.0,False,6.2,24455.0,2.0,24457.0
+2,40,news,110,False,Chris Lewis,1.0,False,0.8,24464.0,3.0,24467.0
+2,40,news,111,False,None (Hamas not mentioned),2.0,True,8.9,25132.0,14.0,25146.0
+2,40,news,112,False,No answer found.,2.0,True,8.8,31652.0,1175.0,32827.0
+2,40,news,113,False,250,2.0,True,7.7,31319.0,1022.0,32341.0
+2,40,news,85,False,Roma.,2.0,True,124.6,25502.0,10.0,25512.0
+2,40,news,115,False,mud-slinging,1.0,False,0.4,24457.0,6.0,24463.0
+2,40,news,116,False,53.,2.0,True,0.6,25368.0,9.0,25377.0
+2,40,news,117,True,Garbage.,1.0,False,0.3,24460.0,4.0,24464.0
+2,40,news,114,False,Algeria,2.0,True,8.9,31646.0,1177.0,32823.0
+2,40,news,119,False,There is no information about Coca-Cola in the passage.,2.0,True,0.7,25128.0,18.0,25146.0
+2,40,news,120,False,No one.,2.0,True,1.7,25747.0,13.0,25760.0
+2,40,news,118,False,"$39,000.",2.0,True,10.8,31652.0,1146.0,32798.0
+2,40,news,122,False,No one was injured.,2.0,True,1.1,25535.0,12.0,25547.0
+2,40,news,123,False,There is no mention of Youssif or Lassie in the passage.,2.0,True,3.2,25136.0,23.0,25159.0
+2,40,news,121,False,No information is available about Boy George's age in the passage.,2.0,True,16.3,31644.0,1187.0,32831.0
+2,40,news,124,False,No information.,2.0,True,14.4,25603.0,10.0,25613.0
+2,40,news,125,True,Andrea Bocelli,1.0,False,7.1,24457.0,6.0,24463.0
+2,40,news,126,False,No information.,2.0,True,10.1,31648.0,1174.0,32822.0
+2,40,news,127,False,No one.,2.0,True,17.8,25604.0,10.0,25614.0
+2,40,news,97,False,No information.,2.0,True,134.0,25462.0,10.0,25472.0
+2,40,news,129,False,Princess Eugenie,1.0,False,8.7,24454.0,5.0,24459.0
+2,40,news,130,False,No information is provided about Pakistan.,2.0,True,2.9,25351.0,14.0,25365.0
+2,40,news,132,False,No.,2.0,True,0.8,25571.0,9.0,25580.0
+2,40,news,133,False,Asian longhorned beetles.,1.0,False,0.3,24456.0,8.0,24464.0
+2,40,news,128,False,No information.,2.0,True,25.0,31652.0,1177.0,32829.0
+2,40,news,131,False,Tony Snow's successor was not mentioned in the passage.,2.0,True,8.5,31642.0,1185.0,32827.0
+2,40,news,136,False,surveillance,2.0,True,1.6,25889.0,15.0,25904.0
+2,40,news,135,False,There is no mention of Chavez in the passage.,2.0,True,6.1,25501.0,20.0,25521.0
+2,40,news,134,False,No information.,2.0,True,10.9,31648.0,1174.0,32822.0
+2,40,news,139,False,Cape Town.,2.0,True,4.1,26253.0,14.0,26267.0
+2,40,news,138,False,A stamp.,2.0,True,11.9,25186.0,10.0,25196.0
+2,40,news,137,False,Petition.,2.0,True,16.3,31770.0,931.0,32701.0
+2,40,news,142,False,"Nowhere, they were Italian tourists.",2.0,True,15.8,25408.0,15.0,25423.0
+2,40,news,141,False,There is no mention of Burk's car.,2.0,True,17.4,31646.0,1180.0,32826.0
+2,40,news,140,False,20 Iraqi civilians.,2.0,True,33.0,31642.0,1175.0,32817.0
+2,40,news,143,False,Hong Kong street.,1.0,False,9.3,24463.0,5.0,24468.0
+2,40,news,144,True,David Cameron's,1.0,False,15.7,24455.0,4.0,24459.0
+2,40,news,147,False,Engine falling off a plane.,1.0,False,1.3,24459.0,7.0,24466.0
+2,40,news,145,False,There is no information about Kerry Thomas.,2.0,True,10.7,25410.0,15.0,25425.0
+2,40,news,146,False,There is no information about a collision between two aircraft over the Hudson River in the provided passage.,2.0,True,10.5,25724.0,29.0,25753.0
+2,40,news,149,False,"Fair play, respect.",1.0,False,1.1,24459.0,6.0,24465.0
+2,40,news,150,False,Hong Kong street,1.0,False,1.0,24455.0,4.0,24459.0
+2,40,news,152,False,None mentioned.,2.0,True,5.3,25499.0,13.0,25512.0
+2,40,news,153,False,Nothing is mentioned.,2.0,True,1.8,25347.0,11.0,25358.0
+2,40,news,148,False,Diabetes.,2.0,True,14.2,31646.0,1177.0,32823.0
+2,40,news,151,False,Not mentioned.,2.0,True,11.6,31644.0,1177.0,32821.0
+2,40,news,83,False,Air superiority fighter.,2.0,True,266.2,31650.0,1175.0,32825.0
+2,40,news,154,False,No one in the passage died of an overdose.,2.0,True,15.6,25608.0,17.0,25625.0
+2,40,news,155,False,No answer available.,2.0,True,12.2,31658.0,1178.0,32836.0
+2,40,news,156,False,The Blackwater probe.,2.0,True,19.4,31648.0,1179.0,32827.0
+2,40,news,159,True,Holding veterans care funding hostage.,1.0,False,16.0,24457.0,8.0,24465.0
+2,40,news,158,False,There is no mention of Donna Greenwell in the provided text.,2.0,True,17.2,31650.0,1187.0,32837.0
+2,40,news,160,False,Veterans' care funding.,1.0,False,17.2,24460.0,7.0,24467.0
+2,40,news,157,True,the proposed constitution.,2.0,True,33.1,26164.0,14.0,26178.0
+2,40,news,163,False,EURO,1.0,False,7.7,24455.0,3.0,24458.0
+2,40,news,161,False,No information.,2.0,True,19.6,27266.0,52.0,27318.0
+2,40,news,166,False,An engine.,1.0,False,0.4,24457.0,4.0,24461.0
+2,40,news,165,False,No information.,2.0,True,3.9,27266.0,52.0,27318.0
+2,40,news,167,True,David Beckham,1.0,False,0.7,24455.0,3.0,24458.0
+2,40,news,164,False,No information.,2.0,True,12.0,27270.0,52.0,27322.0
+2,40,news,168,False,Benfica,1.0,False,5.4,24456.0,4.0,24460.0
+2,40,news,162,False,Colon cancer.,2.0,True,25.5,31642.0,1171.0,32813.0
+2,40,news,171,False,Lack of democracy,1.0,False,1.7,24456.0,5.0,24461.0
+2,40,news,170,False,They were considering seeking the death penalty.,2.0,True,10.5,27769.0,30.0,27799.0
+2,40,news,169,False,Lost their fourth league game.,2.0,True,10.9,25472.0,13.0,25485.0
+2,40,news,173,False,"Beauty, voice, inner being",1.0,False,4.6,24454.0,7.0,24461.0
+2,40,news,174,False,Alvaro Uribe,1.0,False,2.0,24457.0,6.0,24463.0
+2,40,news,175,False,There is no mention of Winkler in the passage.,2.0,True,4.2,25614.0,19.0,25633.0
+2,40,news,178,False,No answer found.,2.0,True,14.3,31640.0,1175.0,32815.0
+2,40,news,177,True,"""Until the Day Is Done""",2.0,True,17.6,25572.0,14.0,25586.0
+2,40,news,176,False,There is no information about Mary Winkler in the passage.,2.0,True,36.6,27274.0,62.0,27336.0
+2,40,news,172,False,There is no mention of Philadelphia in the passage.,2.0,True,42.9,25124.0,17.0,25141.0
+2,40,news,179,False,There is no information about Mable Randon in the passage.,2.0,True,29.0,27272.0,62.0,27334.0
+2,40,news,181,False,There is no mention of cars being abandoned.,2.0,True,10.7,25329.0,16.0,25345.0
+2,40,news,180,False,No information is given about Mable Randon.,2.0,True,28.6,25414.0,17.0,25431.0
+2,40,news,182,False,There is no mention of a London bus bombing in the provided text.,2.0,True,11.5,27274.0,63.0,27337.0
+2,40,news,185,False,US Embassy in Baku,1.0,False,1.1,24458.0,6.0,24464.0
+2,40,news,183,False,There is no information about an extinct sea creature fossil sale.,2.0,True,1.9,25136.0,19.0,25155.0
+2,40,news,187,False,There is no information about markets in the passage.,2.0,True,6.7,26316.0,20.0,26336.0
+2,40,news,186,False,7.5 percent.,1.0,False,7.7,24459.0,6.0,24465.0
+2,40,news,190,False,Tornado,1.0,False,3.2,24456.0,3.0,24459.0
+2,40,news,184,False,1961.,2.0,True,12.2,25489.0,10.0,25499.0
+2,40,news,189,True,Yuvraj Singh.,1.0,False,4.8,24467.0,6.0,24473.0
+2,40,news,191,False,Over 190 whales died.,2.0,True,4.3,25331.0,13.0,25344.0
+2,40,news,188,False,Working together.,2.0,True,22.4,31311.0,544.0,31855.0
+2,40,news,193,False,Grandson,1.0,False,11.8,24459.0,3.0,24462.0
+2,40,news,195,False,"Bridgeport, Alabama",1.0,False,7.5,24457.0,5.0,24462.0
+2,40,news,197,False,"14,900.",2.0,True,8.9,25468.0,11.0,25479.0
+2,40,news,194,False,Nine Ethiopians.,1.0,False,25.0,24456.0,6.0,24462.0
+2,40,news,196,False,No information.,2.0,True,32.4,27268.0,52.0,27320.0
+2,40,news,198,False,None mentioned.,2.0,True,17.2,31648.0,1177.0,32825.0
+2,40,news,192,False,There is no information about Yu Sheng products in the passage.,2.0,True,46.0,31652.0,1187.0,32839.0
+2,40,news,199,False,None mentioned.,2.0,True,18.7,28919.0,79.0,28998.0
+2,40,news,200,True,Augustin Binya,1.0,False,3.3,24458.0,5.0,24463.0
+2,40,novel,00950a36_13,True,Shah Amurath,1.0,False,2.4,30309.0,6.0,30315.0
+2,40,novel,00950a36_14,False,A savage or a madman.,1.0,False,2.8,30312.0,8.0,30320.0
+2,40,novel,00950a36_15,False,There is no mention of a pirate ship or its captain being killed.,2.0,True,5.5,31178.0,21.0,31199.0
+2,40,novel,3e966645_2,False,Mr. Saul,1.0,False,4.4,30308.0,4.0,30312.0
+2,40,novel,3e966645_1,False,Oz,2.0,True,8.0,34246.0,60.0,34306.0
+2,40,novel,00950a36_12,True,Akif.,2.0,True,14.4,37668.0,1225.0,38893.0
+2,40,novel,3e966645_5,False,There is no mention of former officers dying from an illness in the provided passage.,2.0,True,5.3,37184.0,518.0,37702.0
+2,40,novel,3e966645_8,False,London,1.0,False,0.8,30312.0,2.0,30314.0
+2,40,novel,3e966645_4,False,Water.,2.0,True,10.7,37918.0,1497.0,39415.0
+2,40,novel,3e966645_7,False,There is no mention of a U.S. Consul or a ship in the passage.,2.0,True,12.5,31753.0,31.0,31784.0
+2,40,novel,3e966645_6,False,Mr. Salton,1.0,False,22.4,30308.0,5.0,30313.0
+2,40,novel,3e966645_9,True,Tahiti.,2.0,True,19.1,37914.0,1499.0,39413.0
+2,40,novel,3e966645_16,False,There is no mention of a person named Davis.,2.0,True,17.1,34240.0,68.0,34308.0
+2,40,novel,3e966645_12,False,There is no mention of a schooner's officer.,2.0,True,18.6,31332.0,18.0,31350.0
+2,40,novel,3e966645_11,False,"Nowhere, it was stopped.",2.0,True,32.5,37912.0,1502.0,39414.0
+2,40,novel,3e966645_10,False,"The yellow flag, the emblem of pestilence.",2.0,True,41.4,37845.0,1263.0,39108.0
+2,40,novel,3e966645_17,False,The South Seas.,1.0,False,8.8,30312.0,5.0,30317.0
+2,40,novel,3e966645_22,False,Melbourne.,1.0,False,1.9,30317.0,4.0,30321.0
+2,40,novel,3e966645_19,False,There is no information about this in the passage.,2.0,True,11.8,31582.0,23.0,31605.0
+2,40,novel,6a659de3_2,False,Guph,1.0,False,0.5,30314.0,4.0,30318.0
+2,40,novel,3e966645_21,False,There is no mention of the US Counsel hiring someone to take over a schooner carrying champagne.,2.0,True,8.2,37187.0,524.0,37711.0
+2,40,novel,6a659de3_4,False,Kallikrates,1.0,False,0.6,30319.0,5.0,30324.0
+2,40,novel,6a659de3_5,False,Mr. Salton,1.0,False,1.5,30314.0,5.0,30319.0
+2,40,novel,6a659de3_3,False,"The Princess, Dorothy, Glinda, the Wizard, and the evil creatures.",2.0,True,6.7,32309.0,26.0,32335.0
+2,40,novel,3e966645_20,False,The City of Papeete.,2.0,True,15.1,37861.0,1259.0,39120.0
+2,40,novel,3e966645_23,False,There is no mention of beggars or a Tahitian port in the passage.,2.0,True,13.9,37948.0,1511.0,39459.0
+2,40,novel,6a659de3_7,False,The Land of Oz.,2.0,True,15.6,37199.0,525.0,37724.0
+2,40,novel,6a659de3_6,False,There is no queen mentioned.,2.0,True,16.7,37908.0,1501.0,39409.0
+2,40,novel,6a659de3_8,False,No one is mentioned as saving Leo in the passage.,2.0,True,18.6,31176.0,18.0,31194.0
+2,40,novel,6a659de3_11,False,There is no mention of a character named Leo in the passage.,2.0,True,26.7,37912.0,1508.0,39420.0
+2,40,novel,6a659de3_14,False,Robert Herrick,1.0,False,17.3,30307.0,4.0,30311.0
+2,40,novel,9561a72a_1,False,Ozma.,2.0,True,14.8,34248.0,62.0,34310.0
+2,40,novel,6a659de3_17,False,There is no mention of Leo or a decision to have Leo die in a fire.,2.0,True,26.6,31167.0,24.0,31191.0
+2,40,novel,9561a72a_0,False,There is no information about Dorothy Gale in the passage.,2.0,True,18.9,30975.0,18.0,30993.0
+2,40,novel,9561a72a_5,False,There is no mention of Dorothy in the passage.,2.0,True,2.7,30973.0,17.0,30990.0
+2,40,novel,6a659de3_12,False,No one is mentioned by the name Vincey in the passage.,2.0,True,37.0,30983.0,20.0,31003.0
+2,40,novel,9561a72a_7,False,No specific location is mentioned.,2.0,True,1.6,32332.0,31.0,32363.0
+2,40,novel,9561a72a_11,True,King Roquat,1.0,False,0.5,30315.0,4.0,30319.0
+2,40,novel,9561a72a_9,False,"Olivia, Shah Amurath",1.0,False,5.9,30315.0,8.0,30323.0
+2,40,novel,9561a72a_3,False,The ruins.,2.0,True,9.5,37425.0,259.0,37684.0
+2,40,novel,9561a72a_12,True,Guph,1.0,False,6.7,30314.0,4.0,30318.0
+2,40,novel,bf55d1c1_2,False,Olivia,1.0,False,3.5,30310.0,3.0,30313.0
+2,40,novel,bf55d1c1_3,False,Shah Amurath,1.0,False,0.4,30317.0,6.0,30323.0
+2,40,novel,9561a72a_10,False,No information.,2.0,True,12.1,31322.0,10.0,31332.0
+2,40,novel,bf55d1c1_0,False,There is no mention of Adam in the passage.,2.0,True,18.1,37920.0,1505.0,39425.0
+2,40,novel,bf55d1c1_4,False,Not mentioned.,2.0,True,18.4,37908.0,1498.0,39406.0
+2,40,novel,bf55d1c1_5,False,Shah Amurath.,2.0,True,18.6,38032.0,1495.0,39527.0
+2,40,novel,bf55d1c1_1,False,There is no mention of Arabella in the passage.,2.0,True,34.1,31172.0,18.0,31190.0
+2,40,novel,bf55d1c1_11,False,No information is given about Adam Salton teaming up with anyone to hunt down Arabella.,2.0,True,9.1,34250.0,77.0,34327.0
+2,40,novel,bf55d1c1_10,False,There is no mention of a friend of Richard Salton that Adam worked with to stop Arabella.,2.0,True,25.2,31308.0,27.0,31335.0
+2,40,novel,ca4b98f5_0,False,SHADOWS IN THE MOONLIGHT.,1.0,False,0.6,30309.0,10.0,30319.0
+2,40,novel,ca4b98f5_1,False,Captain Clavering,1.0,False,0.8,30316.0,5.0,30321.0
+2,40,novel,ca4b98f5_2,False,Saul's,1.0,False,1.6,30316.0,4.0,30320.0
+2,40,novel,bf55d1c1_6,False,A mouse.,2.0,True,36.2,37920.0,1498.0,39418.0
+2,40,novel,bf55d1c1_9,False,No specific date mentioned.,2.0,True,29.5,37912.0,1500.0,39412.0
+2,40,novel,bf55d1c1_12,False,India,1.0,False,11.1,30314.0,2.0,30316.0
+2,40,novel,ca4b98f5_3,False,Clavering Park,1.0,False,1.3,30315.0,5.0,30320.0
+2,40,novel,ca4b98f5_4,False,There is no mention of Florence Burton in the passage.,2.0,True,6.5,31775.0,30.0,31805.0
+2,40,novel,ca4b98f5_11,False,King Roquat,1.0,False,1.4,30316.0,4.0,30320.0
+2,40,novel,ca4b98f5_12,False,Lady Clavering,1.0,False,0.5,30309.0,5.0,30314.0
+2,40,novel,ca4b98f5_10,False,This passage does not mention a character named Harry or his fiancée.,2.0,True,10.9,37916.0,1510.0,39426.0
+2,40,novel,ca4b98f5_6,False,No one named Harry is mentioned in the passage.,2.0,True,12.1,37930.0,1496.0,39426.0
+2,40,novel,ca4b98f5_13,False,Julia Brabazon,1.0,False,4.3,30311.0,6.0,30317.0
+2,40,novel,ca4b98f5_14,False,Law,1.0,False,1.2,30315.0,2.0,30317.0
+2,40,novel,ca4b98f5_17,False,Julia Brabazon,1.0,False,0.9,30310.0,6.0,30316.0
+2,40,novel,ca4b98f5_8,False,"No one, the passage does not mention Harry.",2.0,True,23.2,37924.0,1505.0,39429.0
+2,40,novel,ca4b98f5_18,False,Julia Brabazon.,2.0,True,16.8,37222.0,211.0,37433.0
+2,40,caselaw,21,False,5,2.0,True,8.2,26427.0,20.0,26447.0
+2,40,novel,ca4b98f5_16,False,Lady Clavering,1.0,False,27.8,30311.0,5.0,30316.0
+2,40,caselaw,27,True,2,1.0,False,1.2,24393.0,2.0,24395.0
+2,40,caselaw,29,False,4,1.0,False,8.1,24465.0,2.0,24467.0
+2,40,caselaw,25,False,5,2.0,True,24.8,26395.0,20.0,26415.0
+2,40,caselaw,31,True,5,2.0,True,8.2,26517.0,20.0,26537.0
+2,40,caselaw,35,False,3,1.0,False,1.7,24476.0,2.0,24478.0
+2,40,caselaw,23,True,3,1.0,False,29.1,24480.0,2.0,24482.0
+2,40,novel,ca4b98f5_15,False,There is no mention of a character named Harry or his second fiancee in the provided passage.,2.0,True,48.0,37920.0,1514.0,39434.0
+2,40,caselaw,41,False,3,1.0,False,0.8,24381.0,2.0,24383.0
+2,40,caselaw,33,False,2,1.0,False,4.5,24410.0,2.0,24412.0
+2,40,caselaw,43,False,3,1.0,False,4.8,24432.0,2.0,24434.0
+2,40,caselaw,37,True,5,2.0,True,6.8,25694.0,8.0,25702.0
+2,40,caselaw,39,False,5,2.0,True,8.0,26431.0,17.0,26448.0
+2,40,caselaw,45,False,2,2.0,True,7.1,26513.0,14.0,26527.0
+2,40,caselaw,47,False,5,2.0,True,6.8,26014.0,14.0,26028.0
+2,40,caselaw,49,False,3,1.0,False,6.4,24404.0,2.0,24406.0
+2,40,caselaw,55,True,2,1.0,False,1.1,24470.0,2.0,24472.0
+2,40,caselaw,57,False,4,1.0,False,3.5,24451.0,2.0,24453.0
+2,40,caselaw,59,False,4,1.0,False,10.8,24482.0,2.0,24484.0
+2,40,caselaw,51,True,5,1.0,False,22.7,24400.0,2.0,24402.0
+2,40,caselaw,53,False,5,2.0,True,23.2,26473.0,20.0,26493.0
+2,40,caselaw,65,True,5,2.0,True,9.8,26240.0,17.0,26257.0
+2,40,caselaw,69,False,3,2.0,True,9.0,33129.0,1017.0,34146.0
+2,40,caselaw,67,False,3,2.0,True,26.5,26453.0,17.0,26470.0
+2,40,caselaw,63,False,5,2.0,True,35.1,25887.0,8.0,25895.0
+2,40,caselaw,71,False,5,2.0,True,10.4,26244.0,17.0,26261.0
+2,40,caselaw,75,True,2,1.0,False,0.7,24380.0,3.0,24383.0
+2,40,caselaw,77,False,3,1.0,False,0.8,24397.0,2.0,24399.0
+2,40,caselaw,81,False,3,1.0,False,1.1,24442.0,2.0,24444.0
+2,40,caselaw,79,False,5,2.0,True,5.6,26567.0,20.0,26587.0
+2,40,caselaw,73,False,3,2.0,True,8.1,25962.0,14.0,25976.0
+2,40,caselaw,61,False,1,2.0,True,51.5,26122.0,17.0,26139.0
+2,40,caselaw,89,False,5,2.0,True,3.9,26170.0,17.0,26187.0
+2,40,caselaw,85,False,5,1.0,False,7.9,24396.0,2.0,24398.0
+2,40,caselaw,91,False,5,2.0,True,2.0,26218.0,17.0,26235.0
+2,40,caselaw,93,False,5,1.0,False,2.6,24446.0,2.0,24448.0
+2,40,caselaw,95,False,5,1.0,False,9.9,24401.0,2.0,24403.0
+2,40,caselaw,97,False,4,1.0,False,8.2,24392.0,2.0,24394.0
+2,40,caselaw,83,False,5,2.0,True,28.9,26112.0,17.0,26129.0
+2,40,caselaw,99,False,5,1.0,False,8.4,24430.0,2.0,24432.0
+2,40,caselaw,101,False,5,2.0,True,15.9,26152.0,17.0,26169.0
+2,40,caselaw,105,False,4,1.0,False,8.9,24475.0,2.0,24477.0
+2,40,caselaw,87,False,5,2.0,True,43.2,33250.0,866.0,34116.0
+2,40,caselaw,111,False,5,1.0,False,8.0,24417.0,2.0,24419.0
+2,40,caselaw,109,False,3,1.0,False,17.1,24441.0,2.0,24443.0
+2,40,caselaw,103,False,5,2.0,True,28.9,25988.0,11.0,25999.0
+2,40,caselaw,107,False,3,2.0,True,19.5,26288.0,14.0,26302.0
+2,40,caselaw,117,False,3,1.0,False,0.7,24522.0,2.0,24524.0
+2,40,caselaw,119,True,3,1.0,False,0.7,24416.0,2.0,24418.0
+2,40,caselaw,123,False,1,1.0,False,0.5,24399.0,2.0,24401.0
+2,40,caselaw,113,True,1,1.0,False,4.3,24399.0,2.0,24401.0
+2,40,caselaw,121,False,5,2.0,True,5.5,26495.0,20.0,26515.0
+2,40,caselaw,125,True,5,2.0,True,7.3,26196.0,17.0,26213.0
+2,40,caselaw,127,False,5,2.0,True,10.5,26166.0,17.0,26183.0
+2,40,caselaw,131,False,5,2.0,True,4.3,26523.0,20.0,26543.0
+2,40,caselaw,135,False,3,1.0,False,0.5,24703.0,2.0,24705.0
+2,40,caselaw,137,False,4,1.0,False,3.2,24571.0,2.0,24573.0
+2,40,caselaw,129,False,5,2.0,True,18.7,26715.0,14.0,26729.0
+2,40,caselaw,141,False,2,1.0,False,7.2,24415.0,2.0,24417.0
+2,40,caselaw,133,False,2,2.0,True,19.9,26176.0,11.0,26187.0
+2,40,caselaw,139,False,5,2.0,True,24.0,26232.0,14.0,26246.0
+2,40,caselaw,147,False,3,1.0,False,0.7,24500.0,2.0,24502.0
+2,40,caselaw,145,False,5,1.0,False,17.3,24430.0,2.0,24432.0
+2,40,caselaw,115,True,4,2.0,True,51.6,33424.0,833.0,34257.0
+2,40,caselaw,149,True,1,1.0,False,15.8,24448.0,2.0,24450.0
+2,40,caselaw,143,True,5,1.0,False,25.7,24528.0,2.0,24530.0
+2,40,caselaw,155,False,2,1.0,False,2.8,24457.0,2.0,24459.0
+2,40,caselaw,151,True,5,2.0,True,10.6,25731.0,8.0,25739.0
+2,40,caselaw,159,False,4,1.0,False,0.5,24432.0,2.0,24434.0
+2,40,caselaw,157,False,2,1.0,False,3.3,24426.0,2.0,24428.0
+2,40,caselaw,153,False,2,1.0,False,11.3,24480.0,2.0,24482.0
+2,40,caselaw,161,False,5,1.0,False,1.8,24433.0,2.0,24435.0
+2,40,caselaw,165,False,5,1.0,False,5.2,24490.0,2.0,24492.0
+2,40,caselaw,163,False,3,2.0,True,5.9,26126.0,11.0,26137.0
+2,40,caselaw,173,False,5,2.0,True,5.8,26559.0,20.0,26579.0
+2,40,caselaw,169,True,5,2.0,True,10.9,26487.0,20.0,26507.0
+2,40,caselaw,167,False,5,2.0,True,11.9,26521.0,20.0,26541.0
+2,40,caselaw,179,False,5,1.0,False,1.1,24415.0,2.0,24417.0
+2,40,caselaw,181,False,5,2.0,True,9.7,26186.0,14.0,26200.0
+2,40,caselaw,171,False,5,2.0,True,18.7,26260.0,17.0,26277.0
+2,40,caselaw,175,False,4,1.0,False,18.8,24380.0,2.0,24382.0
+2,40,caselaw,187,False,5,1.0,False,0.9,24398.0,2.0,24400.0
+2,40,caselaw,185,False,5,1.0,False,16.6,24405.0,2.0,24407.0
+2,40,caselaw,189,False,3,2.0,True,17.8,33189.0,1016.0,34205.0
+2,40,caselaw,191,True,3,1.0,False,15.7,24450.0,2.0,24452.0
+2,40,caselaw,195,False,5,1.0,False,0.5,24407.0,2.0,24409.0
+2,40,caselaw,183,False,5,2.0,True,34.3,26583.0,20.0,26603.0
+2,40,caselaw,197,False,4,1.0,False,2.4,24430.0,2.0,24432.0
+2,40,caselaw,199,False,4,1.0,False,2.0,24564.0,2.0,24566.0
+2,40,caselaw,177,False,5,2.0,True,47.5,26431.0,20.0,26451.0
+2,40,caselaw,203,False,4,1.0,False,1.0,24390.0,2.0,24392.0
+2,40,caselaw,205,False,5,2.0,True,1.5,25739.0,8.0,25747.0
+2,40,caselaw,201,True,3,1.0,False,2.2,24434.0,2.0,24436.0
+2,40,caselaw,193,False,5,1.0,False,16.4,24493.0,2.0,24495.0
+2,40,caselaw,207,False,4,1.0,False,5.2,24396.0,2.0,24398.0
+2,40,caselaw,215,False,4,2.0,True,1.7,26114.0,11.0,26125.0
+2,40,caselaw,213,False,3,1.0,False,2.8,24439.0,2.0,24441.0
+2,40,caselaw,209,True,5,1.0,False,10.4,24405.0,2.0,24407.0
+2,40,caselaw,217,False,5,1.0,False,4.4,24403.0,2.0,24405.0
+2,40,caselaw,219,False,4,1.0,False,4.0,24397.0,2.0,24399.0
+2,40,caselaw,211,True,4,1.0,False,11.2,24504.0,2.0,24506.0
+2,40,caselaw,227,True,5,1.0,False,0.9,24477.0,2.0,24479.0
+2,40,caselaw,223,True,4,1.0,False,11.8,24457.0,2.0,24459.0
+2,40,caselaw,231,False,5,1.0,False,0.5,24539.0,2.0,24541.0
+2,40,caselaw,225,False,5,1.0,False,18.0,24468.0,2.0,24470.0
+2,40,caselaw,221,False,5,2.0,True,19.5,25893.0,8.0,25901.0
+2,40,caselaw,233,True,3,1.0,False,16.0,24364.0,2.0,24366.0
+2,40,caselaw,229,False,5,2.0,True,26.9,25906.0,14.0,25920.0
+2,40,caselaw,241,False,5,1.0,False,8.4,24434.0,2.0,24436.0
+2,40,caselaw,237,True,4,1.0,False,18.0,24444.0,2.0,24446.0
+2,40,caselaw,235,False,4,1.0,False,26.6,24445.0,2.0,24447.0
+2,40,caselaw,243,False,5,2.0,True,8.7,26042.0,14.0,26056.0
+2,40,caselaw,239,False,5,1.0,False,19.5,24418.0,2.0,24420.0
+2,40,caselaw,247,False,4,1.0,False,3.0,24448.0,2.0,24450.0
+2,40,caselaw,253,False,3,2.0,True,1.2,26377.0,20.0,26397.0
+2,40,caselaw,251,False,5,2.0,True,5.9,25636.0,11.0,25647.0
+2,40,caselaw,245,False,3,2.0,True,16.8,33268.0,437.0,33705.0
+2,40,caselaw,257,True,3,1.0,False,2.2,24409.0,2.0,24411.0
+2,40,caselaw,259,True,3,1.0,False,2.1,24454.0,2.0,24456.0
+2,40,caselaw,261,True,5,1.0,False,4.0,24555.0,2.0,24557.0
+2,40,caselaw,255,False,5,2.0,True,11.0,25778.0,8.0,25786.0
+2,40,caselaw,263,True,5,2.0,True,4.5,26447.0,17.0,26464.0
+2,40,caselaw,265,False,3,1.0,False,2.0,24421.0,2.0,24423.0
+2,40,caselaw,267,False,4,1.0,False,3.7,24511.0,2.0,24513.0
+2,40,caselaw,273,True,5,2.0,True,14.3,25810.0,8.0,25818.0
+2,40,caselaw,271,False,2,2.0,True,18.2,33292.0,860.0,34152.0
+2,40,caselaw,269,True,2,2.0,True,28.2,33164.0,843.0,34007.0
+2,40,caselaw,277,False,5,2.0,True,17.0,26200.0,17.0,26217.0
+2,40,caselaw,249,False,3,2.0,True,51.7,33205.0,872.0,34077.0
+2,40,caselaw,281,False,4,1.0,False,7.6,24459.0,2.0,24461.0
+2,40,caselaw,275,False,4,1.0,False,27.5,24397.0,2.0,24399.0
+2,40,caselaw,285,False,5,2.0,True,2.7,26224.0,17.0,26241.0
+2,40,caselaw,283,False,3,1.0,False,10.4,24466.0,2.0,24468.0
+2,40,caselaw,287,True,5,2.0,True,3.4,26525.0,20.0,26545.0
+2,40,caselaw,279,False,5,2.0,True,24.6,26336.0,17.0,26353.0
+2,40,caselaw,291,False,5,2.0,True,7.7,25663.0,8.0,25671.0
+2,40,caselaw,289,False,5,2.0,True,12.3,26669.0,20.0,26689.0
+2,40,caselaw,297,False,5,2.0,True,4.3,26282.0,17.0,26299.0
+2,40,caselaw,295,False,5,2.0,True,6.9,25719.0,8.0,25727.0
+2,40,caselaw,299,False,5,1.0,False,1.2,24488.0,2.0,24490.0
+2,40,caselaw,303,False,5,1.0,False,1.3,24436.0,2.0,24438.0
+2,40,caselaw,305,True,4,2.0,True,11.5,33292.0,848.0,34140.0
+2,40,caselaw,301,False,2,2.0,True,18.5,26100.0,14.0,26114.0
+2,40,caselaw,311,False,4,1.0,False,1.4,24389.0,2.0,24391.0
+2,40,caselaw,293,False,3,2.0,True,39.2,33220.0,866.0,34086.0
+2,40,caselaw,307,False,3,1.0,False,27.1,24461.0,2.0,24463.0
+2,40,caselaw,313,False,5,1.0,False,17.2,24422.0,2.0,24424.0
+2,40,caselaw,317,False,5,2.0,True,15.7,26423.0,20.0,26443.0
+2,40,caselaw,309,True,5,2.0,True,32.6,26250.0,17.0,26267.0
+2,40,caselaw,323,True,5,1.0,False,2.4,24479.0,2.0,24481.0
+2,40,caselaw,321,False,5,1.0,False,3.2,24466.0,2.0,24468.0
+2,40,caselaw,315,True,5,2.0,True,19.4,26483.0,20.0,26503.0
+2,40,caselaw,329,False,5,1.0,False,1.2,24507.0,2.0,24509.0
+2,40,caselaw,327,False,5,2.0,True,1.7,25768.0,8.0,25776.0
+2,40,caselaw,319,True,5,2.0,True,16.4,25819.0,8.0,25827.0
+2,40,caselaw,325,True,5,1.0,False,6.6,24446.0,2.0,24448.0
+2,40,caselaw,331,False,2,1.0,False,5.3,24435.0,2.0,24437.0
+2,40,caselaw,333,False,5,2.0,True,10.2,26386.0,17.0,26403.0
+2,40,caselaw,337,False,5,1.0,False,6.1,24441.0,2.0,24443.0
+2,40,caselaw,339,True,5,2.0,True,6.4,26282.0,17.0,26299.0
+2,40,caselaw,341,False,4,2.0,True,11.9,26451.0,14.0,26465.0
+2,40,caselaw,335,True,4,2.0,True,26.1,33194.0,875.0,34069.0
+2,40,caselaw,347,False,5,2.0,True,8.3,26108.0,14.0,26122.0
+2,40,caselaw,343,False,5,2.0,True,28.7,26158.0,11.0,26169.0
+2,40,caselaw,345,False,2,2.0,True,36.4,26459.0,20.0,26479.0
+2,40,caselaw,351,False,3,2.0,True,24.7,26465.0,20.0,26485.0
+2,40,caselaw,349,False,5,1.0,False,25.5,24425.0,2.0,24427.0
+2,40,caselaw,357,True,5,2.0,True,2.8,26086.0,11.0,26097.0
+2,40,caselaw,361,False,4,1.0,False,0.6,24452.0,2.0,24454.0
+2,40,caselaw,355,False,4,2.0,True,11.1,25996.0,14.0,26010.0
+2,40,caselaw,353,False,5,2.0,True,20.6,26370.0,14.0,26384.0
+2,40,caselaw,359,False,3,2.0,True,8.4,26353.0,20.0,26373.0
+2,40,caselaw,367,False,3,1.0,False,5.0,24401.0,2.0,24403.0
+2,40,caselaw,371,True,3,1.0,False,1.9,24455.0,2.0,24457.0
+2,40,caselaw,363,False,5,2.0,True,11.7,26080.0,14.0,26094.0
+2,40,caselaw,369,False,4,2.0,True,6.6,26116.0,14.0,26130.0
+2,40,caselaw,365,True,5,2.0,True,12.5,26449.0,14.0,26463.0
+2,40,caselaw,375,True,5,2.0,True,4.4,25746.0,8.0,25754.0
+2,40,caselaw,377,False,5,2.0,True,11.4,26497.0,20.0,26517.0
+2,40,caselaw,379,True,4,1.0,False,11.5,24589.0,2.0,24591.0
+2,40,caselaw,383,False,5,1.0,False,7.1,24379.0,2.0,24381.0
+2,40,caselaw,381,False,5,2.0,True,24.3,25851.0,8.0,25859.0
+2,40,caselaw,387,False,5,2.0,True,18.4,26188.0,14.0,26202.0
+2,40,caselaw,373,False,3,2.0,True,48.6,33141.0,1014.0,34155.0
+2,40,caselaw,385,False,5,2.0,True,32.7,26142.0,17.0,26159.0
+2,40,caselaw,391,False,5,2.0,True,10.7,26222.0,11.0,26233.0
+2,40,caselaw,393,False,3,1.0,False,3.6,24425.0,2.0,24427.0
+2,40,caselaw,395,False,4,1.0,False,4.0,24404.0,2.0,24406.0
+2,40,caselaw,399,False,5,1.0,False,0.7,24414.0,2.0,24416.0
+2,40,caselaw,389,False,4,2.0,True,22.0,33297.0,305.0,33602.0
+2,40,caselaw,397,False,2,2.0,True,6.5,33223.0,992.0,34215.0

@@ -21,8 +21,18 @@ Evaluated across 4 genres — wiki, news, novel (narrativeqa), caselaw
 `closed_book`/`full_context` baselines on accuracy, token cost, API calls,
 and accuracy-per-token (an efficiency-adjusted view — see
 [ANALYSIS_REPORT.md](ANALYSIS_REPORT.md) §4.1.1 for why it needs to be read
-alongside absolute accuracy, not alone). See
-**[ANALYSIS_REPORT.md](ANALYSIS_REPORT.md)** for current results and findings.
+alongside absolute accuracy, not alone).
+
+**Current headline finding (2026-08-13)**: a plain retrieval-augmented
+baseline with no rehearsal, no compression, and no teacher model anywhere
+(`raw_retrieval_adaptive`) beats every rehearsal-based condition on every
+genre, at a fraction of the token cost. A follow-up investigation
+(9 further conditions, isolating architecture/content/selection/model size,
+plus 2025 literature on extractive vs. abstractive and query-aware vs.
+query-agnostic compression) narrows down why, and identifies one condition
+— extractive, query-aware sentence pruning over RAG's own retrieved chunks
+— with a genuine, defensible accuracy-for-tokens trade-off. See
+**[ANALYSIS_REPORT.md](ANALYSIS_REPORT.md) §4.3** for the full account.
 
 ## Paper / presentation links
 - Paper: TBD
@@ -77,7 +87,7 @@ rehearse-then-recall/
 │   ├── 06-07                       # elaborative rehearsal (B) stage 1 prep + train
 │   ├── 06b-07b                     # elaborative rehearsal (B) stage 2 (rolling-shaped) prep + train
 │   ├── 08-09                       # question generation (testing effect, C) prep + train
-│   ├── 10_pipeline_6conditions      # B alone, with/without lookup — main eval notebook
+│   ├── 10_pipeline_6conditions      # main eval notebook — grew from 6 to 10 conditions (B, lookup variants, pure RAG, gist-retrieval trilogy, extractive query-aware pruning, compression-cap sweep)
 │   └── 11_map_augmented_full_context  # full text + gist map in one call (cost-heavy, exploratory)
 │
 ├── tests/                          # unit tests for src/pipeline

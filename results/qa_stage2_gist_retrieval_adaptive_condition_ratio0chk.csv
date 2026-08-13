@@ -1,0 +1,580 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,3,gist_retrieval_adaptive,False,No information provided.,1,,0.2,174,5,179
+wiki,2,gist_retrieval_adaptive,False,Not mentioned.,1,,0.5,245,4,249
+wiki,4,gist_retrieval_adaptive,False,No information provided.,1,,0.3,192,5,197
+wiki,1,gist_retrieval_adaptive,False,No specific year mentioned.,1,,0.5,180,6,186
+wiki,5,gist_retrieval_adaptive,False,The French crown.,1,,0.3,178,5,183
+wiki,6,gist_retrieval_adaptive,False,I don't have information about Estêvão Gomes.,1,,0.5,179,14,193
+wiki,8,gist_retrieval_adaptive,False,I don't have that information.,1,,0.4,175,8,183
+wiki,9,gist_retrieval_adaptive,False,1626.,1,,0.3,177,4,181
+wiki,10,gist_retrieval_adaptive,True,Peter Stuyvesant.,1,,0.3,177,7,184
+wiki,11,gist_retrieval_adaptive,True,New Orange.,1,,0.4,179,4,183
+wiki,12,gist_retrieval_adaptive,False,No information provided.,1,,0.3,184,5,189
+wiki,7,gist_retrieval_adaptive,True,The Dutch East India Company.,1,,8.3,174,7,181
+wiki,14,gist_retrieval_adaptive,False,I don't have information about the passage regarding the Battle of Long Island.,1,,0.3,186,16,202
+wiki,13,gist_retrieval_adaptive,True,1735.,1,,0.5,183,4,187
+wiki,16,gist_retrieval_adaptive,True,Philadelphia.,1,,0.2,253,3,256
+wiki,15,gist_retrieval_adaptive,False,The Stamp Act Congress.,1,,0.5,183,6,189
+wiki,18,gist_retrieval_adaptive,False,No information provided.,1,,0.2,184,5,189
+wiki,17,gist_retrieval_adaptive,True,1827.,1,,0.2,185,4,189
+wiki,19,gist_retrieval_adaptive,False,Not specified.,1,,0.3,182,4,186
+wiki,20,gist_retrieval_adaptive,False,No specific year mentioned.,1,,0.5,250,6,256
+news,3,gist_retrieval_adaptive,False,No information provided.,1,,0.2,181,5,186
+news,2,gist_retrieval_adaptive,False,An Australian soldier.,1,,0.4,434,5,439
+news,4,gist_retrieval_adaptive,False,No information.,1,,0.2,176,4,180
+news,1,gist_retrieval_adaptive,False,"Civilians, Taliban militants.",1,,0.3,431,8,439
+news,5,gist_retrieval_adaptive,False,No information provided.,1,,0.4,176,5,181
+news,6,gist_retrieval_adaptive,False,No information.,1,,0.3,240,4,244
+news,8,gist_retrieval_adaptive,False,I don't have that information.,1,,0.3,176,8,184
+news,9,gist_retrieval_adaptive,False,No information.,1,,0.2,241,4,245
+news,7,gist_retrieval_adaptive,False,"I don't have information about the show ""Gulder Ultimate Search"".",1,,0.8,179,16,195
+news,11,gist_retrieval_adaptive,False,Southern Afghanistan.,1,,0.4,690,4,694
+news,14,gist_retrieval_adaptive,True,Three Chinese nationals.,1,,37.0,175,5,180
+news,10,gist_retrieval_adaptive,False,Saturday.,1,,38.2,300,3,303
+news,13,gist_retrieval_adaptive,False,No information.,1,,38.2,236,4,240
+news,12,gist_retrieval_adaptive,False,Taliban militants.,1,,38.1,172,6,178
+news,15,gist_retrieval_adaptive,False,"None, the passage does not mention this.",1,,5.2,184,10,194
+news,17,gist_retrieval_adaptive,False,Restore full democracy in Pakistan.,1,,5.1,250,7,257
+news,18,gist_retrieval_adaptive,False,Yes.,1,,5.3,298,3,301
+news,16,gist_retrieval_adaptive,False,"Hugo Chavez, Alvaro Uribe, Evo Morales.",1,,5.3,541,14,555
+news,19,gist_retrieval_adaptive,False,Unknown.,1,,2.2,175,3,178
+news,20,gist_retrieval_adaptive,False,No information.,1,,2.3,363,4,367
+novel,00950a36_2,gist_retrieval_adaptive,False,No city name mentioned.,1,,0.3,656,6,662
+novel,00950a36_5,gist_retrieval_adaptive,True,Olivia.,1,,0.3,212,4,216
+novel,00950a36_0,gist_retrieval_adaptive,True,Shah Amurath.,1,,2.9,722,7,729
+novel,00950a36_1,gist_retrieval_adaptive,False,There is no information about Conan in the passage summaries.,1,,3.1,365,12,377
+novel,00950a36_6,gist_retrieval_adaptive,False,I don't have enough information to answer that question.,1,,3.0,239,12,251
+novel,00950a36_7,gist_retrieval_adaptive,False,No answer available.,1,,2.5,370,5,375
+novel,00950a36_8,gist_retrieval_adaptive,False,I don't have that information.,1,,0.3,361,8,369
+novel,00950a36_9,gist_retrieval_adaptive,False,The ground.,1,,0.2,235,4,239
+novel,00950a36_10,gist_retrieval_adaptive,False,Shah Amurath,1,,0.4,679,6,685
+novel,00950a36_11,gist_retrieval_adaptive,False,There is no information about Conan being made a captain in the passage summaries.,1,,0.3,400,16,416
+novel,00950a36_12,gist_retrieval_adaptive,False,No city is mentioned.,1,,0.7,613,6,619
+novel,00950a36_14,gist_retrieval_adaptive,False,A man.,1,,0.4,428,4,432
+novel,00950a36_15,gist_retrieval_adaptive,False,No information.,1,,0.3,339,4,343
+novel,3e966645_1,gist_retrieval_adaptive,False,There is no information about a ship or a country.,1,,0.6,401,12,413
+novel,3e966645_4,gist_retrieval_adaptive,False,Nothing is mentioned.,1,,0.4,335,5,340
+novel,00950a36_13,gist_retrieval_adaptive,True,Shah Amurath,1,,8.4,501,6,507
+novel,3e966645_2,gist_retrieval_adaptive,False,There is no information about a very religious man in the passage summaries.,1,,8.3,608,15,623
+novel,3e966645_5,gist_retrieval_adaptive,False,No information provided.,1,,0.3,295,5,300
+novel,3e966645_6,gist_retrieval_adaptive,False,Sir Hugh.,1,,0.4,675,4,679
+novel,3e966645_7,gist_retrieval_adaptive,False,There is no information about the U.S. Consul or the ship.,1,,0.4,244,16,260
+caselaw,7,gist_retrieval_adaptive,False,1,1,,25.2,2638,2,2640
+caselaw,1,gist_retrieval_adaptive,True,1,1,,25.1,2700,2,2702
+caselaw,3,gist_retrieval_adaptive,True,5,1,,25.2,2624,2,2626
+caselaw,9,gist_retrieval_adaptive,True,5,1,,3.7,2679,2,2681
+caselaw,11,gist_retrieval_adaptive,True,5,1,,3.5,2670,2,2672
+caselaw,13,gist_retrieval_adaptive,False,5,1,,2.1,2705,2,2707
+caselaw,5,gist_retrieval_adaptive,False,5,1,,32.7,2788,2,2790
+caselaw,19,gist_retrieval_adaptive,False,5,1,,0.2,2675,2,2677
+caselaw,15,gist_retrieval_adaptive,False,5,1,,4.9,2611,2,2613
+caselaw,21,gist_retrieval_adaptive,True,1,1,,5.0,2638,2,2640
+caselaw,25,gist_retrieval_adaptive,False,5,1,,1.3,2622,2,2624
+caselaw,17,gist_retrieval_adaptive,False,5,1,,9.2,2726,2,2728
+caselaw,27,gist_retrieval_adaptive,False,5,1,,3.4,2656,2,2658
+caselaw,29,gist_retrieval_adaptive,True,5,1,,0.3,2728,2,2730
+caselaw,23,gist_retrieval_adaptive,False,5,1,,13.5,2743,2,2745
+caselaw,35,gist_retrieval_adaptive,False,5,1,,0.2,2739,2,2741
+caselaw,31,gist_retrieval_adaptive,False,1,1,,0.3,2683,2,2685
+caselaw,33,gist_retrieval_adaptive,False,2,1,,0.3,2673,2,2675
+caselaw,37,gist_retrieval_adaptive,True,5,1,,0.3,2637,2,2639
+caselaw,39,gist_retrieval_adaptive,False,5,1,,0.3,2640,2,2642
+wiki,24,gist_retrieval_adaptive,False,I don't have information about that event.,1,,0.4,193,10,203
+wiki,22,gist_retrieval_adaptive,False,Urban agglomeration.,1,,0.4,312,7,319
+wiki,23,gist_retrieval_adaptive,False,No information.,1,,0.3,183,4,187
+wiki,21,gist_retrieval_adaptive,False,I don't have information about the Triangle Shirtwaist Factory fire in the given passage summaries.,1,,0.5,186,20,206
+wiki,26,gist_retrieval_adaptive,False,No information.,1,,0.3,179,4,183
+wiki,27,gist_retrieval_adaptive,False,No islands are mentioned.,1,,0.4,306,6,312
+wiki,28,gist_retrieval_adaptive,False,East River.,1,,0.4,174,4,178
+wiki,25,gist_retrieval_adaptive,False,No information provided.,1,,0.4,180,5,185
+wiki,29,gist_retrieval_adaptive,False,Not specified.,1,,0.4,172,4,176
+wiki,31,gist_retrieval_adaptive,False,Over 300.,1,,0.3,182,5,187
+wiki,30,gist_retrieval_adaptive,False,I don't have information on that.,1,,0.4,187,9,196
+wiki,32,gist_retrieval_adaptive,False,I don't have the information.,1,,0.3,184,8,192
+wiki,33,gist_retrieval_adaptive,False,Boiler tanks.,1,,0.2,256,5,261
+wiki,35,gist_retrieval_adaptive,False,No information provided.,1,,0.2,183,5,188
+wiki,36,gist_retrieval_adaptive,False,No information.,1,,0.3,175,4,179
+wiki,34,gist_retrieval_adaptive,False,No information.,1,,0.2,184,4,188
+wiki,37,gist_retrieval_adaptive,True,Minneapolis.,1,,0.3,191,4,195
+wiki,38,gist_retrieval_adaptive,False,No information.,1,,0.2,180,4,184
+wiki,40,gist_retrieval_adaptive,False,No information.,1,,0.2,179,4,183
+wiki,39,gist_retrieval_adaptive,True,Grant's Tomb.,1,,0.3,182,5,187
+wiki,41,gist_retrieval_adaptive,False,No information.,1,,0.3,171,4,175
+wiki,42,gist_retrieval_adaptive,False,There is no information provided to answer this question.,1,,0.4,248,11,259
+wiki,43,gist_retrieval_adaptive,False,Asian.,1,,0.3,375,3,378
+wiki,44,gist_retrieval_adaptive,False,No information available.,1,,0.3,246,5,251
+wiki,45,gist_retrieval_adaptive,False,No information.,1,,0.2,182,4,186
+wiki,46,gist_retrieval_adaptive,False,No information.,1,,0.2,180,4,184
+wiki,47,gist_retrieval_adaptive,False,No information provided.,1,,0.2,315,5,320
+wiki,48,gist_retrieval_adaptive,True,"568,903.",1,,0.3,180,5,185
+wiki,49,gist_retrieval_adaptive,False,There is no information about the second most prominent religion in New York.,1,,0.3,180,15,195
+wiki,51,gist_retrieval_adaptive,False,No information provided.,1,,0.2,196,5,201
+wiki,50,gist_retrieval_adaptive,False,I don't have that information.,1,,53.7,185,8,193
+wiki,53,gist_retrieval_adaptive,False,No information provided.,1,,53.4,247,5,252
+wiki,52,gist_retrieval_adaptive,False,There is no information about the number of people employed in NYC's fashion industry in the passage summaries.,1,,54.0,254,21,275
+wiki,54,gist_retrieval_adaptive,False,No information.,1,,53.2,184,4,188
+wiki,55,gist_retrieval_adaptive,False,No information.,1,,0.5,181,4,185
+wiki,57,gist_retrieval_adaptive,False,No information available.,1,,0.4,250,5,255
+wiki,56,gist_retrieval_adaptive,False,Manhattan.,1,,0.5,177,4,181
+wiki,58,gist_retrieval_adaptive,False,I cannot verify the state song of New York.,1,,0.5,178,11,189
+wiki,60,gist_retrieval_adaptive,False,No information provided.,1,,0.5,193,5,198
+wiki,61,gist_retrieval_adaptive,True,"25,000.",1,,0.4,185,5,190
+wiki,59,gist_retrieval_adaptive,False,The Mall.,1,,0.4,238,4,242
+wiki,62,gist_retrieval_adaptive,True,The Wall Street Journal and The New York Times.,1,,0.5,184,11,195
+wiki,63,gist_retrieval_adaptive,False,No information.,1,,0.2,181,4,185
+wiki,64,gist_retrieval_adaptive,False,No answer available.,1,,0.8,179,5,184
+wiki,65,gist_retrieval_adaptive,False,No information.,1,,0.9,178,4,182
+wiki,66,gist_retrieval_adaptive,False,No answer available.,1,,0.9,179,5,184
+wiki,68,gist_retrieval_adaptive,False,Unknown.,1,,0.3,173,3,176
+wiki,69,gist_retrieval_adaptive,False,"Over 55,000.",1,,0.3,175,7,182
+wiki,70,gist_retrieval_adaptive,False,I don't have the information to answer this question.,1,,0.3,187,12,199
+wiki,67,gist_retrieval_adaptive,False,No information available.,1,,0.5,307,5,312
+wiki,71,gist_retrieval_adaptive,False,There is no information provided about the second largest fire department force in the world.,1,,0.4,181,17,198
+wiki,73,gist_retrieval_adaptive,False,I don't have that information.,1,,0.3,183,8,191
+wiki,72,gist_retrieval_adaptive,False,Commuter rail network.,1,,0.3,375,7,382
+wiki,74,gist_retrieval_adaptive,False,I don't have information about that.,1,,0.3,177,9,186
+wiki,76,gist_retrieval_adaptive,False,No information.,1,,0.3,182,4,186
+wiki,75,gist_retrieval_adaptive,False,Many.,1,,0.3,178,3,181
+wiki,77,gist_retrieval_adaptive,False,None.,1,,0.3,180,3,183
+wiki,80,gist_retrieval_adaptive,False,I don't have information about that.,1,,0.3,185,9,194
+wiki,78,gist_retrieval_adaptive,True,MetLife Stadium.,1,,0.5,311,5,316
+wiki,81,gist_retrieval_adaptive,False,I don't have information about that.,1,,0.4,178,9,187
+wiki,79,gist_retrieval_adaptive,False,I don't have information about the sport the New York Rangers play.,1,,38.6,242,15,257
+wiki,83,gist_retrieval_adaptive,False,No information available.,1,,38.2,186,5,191
+wiki,84,gist_retrieval_adaptive,False,No information.,1,,37.6,179,4,183
+wiki,82,gist_retrieval_adaptive,False,No information provided.,1,,38.4,178,5,183
+wiki,86,gist_retrieval_adaptive,False,No answer available.,1,,2.2,237,5,242
+wiki,85,gist_retrieval_adaptive,False,No information provided.,1,,2.5,184,5,189
+wiki,88,gist_retrieval_adaptive,False,There is no information provided about daily bicycle riders in NYC.,1,,0.3,179,13,192
+wiki,87,gist_retrieval_adaptive,False,No answer available.,1,,0.3,178,5,183
+wiki,89,gist_retrieval_adaptive,False,I don't have information on that.,1,,0.3,176,9,185
+wiki,90,gist_retrieval_adaptive,False,No information provided.,1,,0.4,179,5,184
+wiki,92,gist_retrieval_adaptive,False,Over 1 million.,1,,0.4,177,6,183
+wiki,91,gist_retrieval_adaptive,False,I don't have that information.,1,,0.5,184,8,192
+wiki,96,gist_retrieval_adaptive,False,JFK,1,,1.8,177,3,180
+wiki,95,gist_retrieval_adaptive,False,No information.,1,,2.3,178,4,182
+wiki,93,gist_retrieval_adaptive,False,No information.,1,,2.8,254,4,258
+wiki,98,gist_retrieval_adaptive,False,No information.,1,,0.2,173,4,177
+wiki,99,gist_retrieval_adaptive,False,I couldn't find any information about a case in the given passage summaries.,1,,0.3,182,16,198
+wiki,97,gist_retrieval_adaptive,False,Entertainment.,1,,8.1,234,4,238
+wiki,100,gist_retrieval_adaptive,False,I don't have the information to answer that question.,1,,8.0,178,12,190
+wiki,94,gist_retrieval_adaptive,True,Fifth Avenue.,1,,0.4,189,5,194
+news,21,gist_retrieval_adaptive,False,Guam.,1,,0.2,237,4,241
+news,23,gist_retrieval_adaptive,False,Guam.,1,,0.3,304,4,308
+news,22,gist_retrieval_adaptive,False,I don't have that information.,1,,0.4,182,8,190
+news,24,gist_retrieval_adaptive,False,I don't have information on that.,1,,0.3,181,9,190
+news,25,gist_retrieval_adaptive,False,None mentioned.,1,,0.4,183,4,187
+news,28,gist_retrieval_adaptive,False,No information.,1,,0.3,178,4,182
+news,27,gist_retrieval_adaptive,False,Hugo Chavez.,1,,0.3,233,5,238
+news,26,gist_retrieval_adaptive,False,There is no information about Uribite.,1,,0.4,352,10,362
+news,29,gist_retrieval_adaptive,False,Juventus.,1,,8.1,238,4,242
+news,30,gist_retrieval_adaptive,False,There is no information about Britain shutting its embassy.,1,,8.0,168,11,179
+news,32,gist_retrieval_adaptive,False,No information.,1,,18.2,180,4,184
+news,33,gist_retrieval_adaptive,False,No information.,1,,5.6,226,4,230
+news,34,gist_retrieval_adaptive,False,No one.,1,,5.9,229,4,233
+news,31,gist_retrieval_adaptive,False,No information provided.,1,,19.0,188,5,193
+news,37,gist_retrieval_adaptive,False,Australian and NATO officials.,1,,0.8,302,6,308
+news,38,gist_retrieval_adaptive,False,Six airmen.,1,,1.1,615,6,621
+news,36,gist_retrieval_adaptive,False,No information.,1,,1.8,371,4,375
+news,39,gist_retrieval_adaptive,False,No one mentioned.,1,,6.8,292,5,297
+news,40,gist_retrieval_adaptive,False,Withdraw cash.,1,,6.6,169,4,173
+news,41,gist_retrieval_adaptive,False,No answer available.,1,,6.9,373,5,378
+news,35,gist_retrieval_adaptive,False,I don't have information on that.,1,,12.3,186,9,195
+news,42,gist_retrieval_adaptive,False,No destination city mentioned.,1,,0.3,429,6,435
+news,43,gist_retrieval_adaptive,False,I don't have information about that.,1,,0.4,171,9,180
+news,44,gist_retrieval_adaptive,False,A new constitution.,1,,0.9,292,5,297
+news,45,gist_retrieval_adaptive,False,Nothing.,1,,0.4,230,3,233
+news,46,gist_retrieval_adaptive,False,Unknown.,1,,0.4,174,3,177
+news,48,gist_retrieval_adaptive,False,Nothing.,1,,0.4,229,3,232
+news,47,gist_retrieval_adaptive,False,No information.,1,,0.3,174,4,178
+news,49,gist_retrieval_adaptive,False,Conflict in Afghanistan.,1,,0.2,241,5,246
+news,50,gist_retrieval_adaptive,False,No information is available.,1,,0.3,247,6,253
+news,52,gist_retrieval_adaptive,False,No information.,1,,5.1,248,4,252
+news,54,gist_retrieval_adaptive,False,No such information is given.,1,,0.5,238,7,245
+news,51,gist_retrieval_adaptive,False,No information.,1,,5.7,229,4,233
+news,53,gist_retrieval_adaptive,False,There is no teacher mentioned.,1,,1.2,177,7,184
+news,55,gist_retrieval_adaptive,False,No information provided.,1,,5.4,177,5,182
+news,56,gist_retrieval_adaptive,False,1-1.,1,,5.1,366,5,371
+news,57,gist_retrieval_adaptive,False,Polyps were removed.,1,,4.6,287,6,293
+news,58,gist_retrieval_adaptive,False,Pakistan.,1,,4.6,737,3,740
+news,59,gist_retrieval_adaptive,False,I don't have that information.,1,,0.4,232,8,240
+news,60,gist_retrieval_adaptive,False,No information provided.,1,,0.3,237,5,242
+news,61,gist_retrieval_adaptive,False,No information provided.,1,,18.1,174,5,179
+news,63,gist_retrieval_adaptive,False,Not mentioned.,1,,16.5,297,4,301
+news,64,gist_retrieval_adaptive,False,No information.,1,,16.7,427,4,431
+news,62,gist_retrieval_adaptive,False,No information given.,1,,19.0,167,5,172
+news,67,gist_retrieval_adaptive,False,Full democracy in Pakistan.,1,,5.4,245,6,251
+news,68,gist_retrieval_adaptive,False,No information.,1,,5.8,239,4,243
+news,66,gist_retrieval_adaptive,False,No information provided.,1,,6.0,226,5,231
+news,70,gist_retrieval_adaptive,False,No information provided.,1,,6.6,171,5,176
+news,69,gist_retrieval_adaptive,False,None mentioned.,1,,6.9,178,4,182
+news,71,gist_retrieval_adaptive,False,I don't have the information.,1,,6.8,174,8,182
+news,65,gist_retrieval_adaptive,True,Princess Eugenie.,1,,13.5,178,6,184
+news,72,gist_retrieval_adaptive,False,Heidi Tagliavini.,1,,0.3,172,8,180
+news,73,gist_retrieval_adaptive,False,Unknown.,1,,0.4,235,3,238
+news,74,gist_retrieval_adaptive,False,There is no information about this in the passage summaries.,1,,0.5,355,12,367
+news,75,gist_retrieval_adaptive,False,I don't have that information.,1,,4.9,174,8,182
+news,78,gist_retrieval_adaptive,False,Chinese nationals.,1,,0.3,173,4,177
+news,77,gist_retrieval_adaptive,True,The August war between Georgia and Russia.,1,,0.3,177,9,186
+news,76,gist_retrieval_adaptive,False,There is no information about Boy George in the passage summaries.,1,,0.7,239,13,252
+news,79,gist_retrieval_adaptive,False,Princess Eugenie.,1,,6.0,170,6,176
+news,81,gist_retrieval_adaptive,False,No information.,1,,2.4,177,4,181
+news,82,gist_retrieval_adaptive,False,I don't have information about that.,1,,7.6,179,9,188
+news,80,gist_retrieval_adaptive,False,None mentioned.,1,,8.1,238,4,242
+news,84,gist_retrieval_adaptive,False,Nowhere mentioned.,1,,4.4,175,5,180
+news,83,gist_retrieval_adaptive,False,No information provided.,1,,4.7,293,5,298
+news,85,gist_retrieval_adaptive,False,No information provided.,1,,0.3,171,5,176
+news,87,gist_retrieval_adaptive,False,Hundreds.,1,,0.3,167,3,170
+news,86,gist_retrieval_adaptive,False,An engine fell off.,1,,0.3,491,6,497
+news,88,gist_retrieval_adaptive,False,No information provided.,1,,0.4,173,5,178
+news,89,gist_retrieval_adaptive,False,Referendum on a new constitution.,1,,0.4,170,8,178
+news,90,gist_retrieval_adaptive,False,Engulfed.,1,,0.5,241,5,246
+news,92,gist_retrieval_adaptive,False,I don't have information about Pictet assets in 2007.,1,,12.4,170,16,186
+news,91,gist_retrieval_adaptive,False,Investigating.,1,,12.6,239,5,244
+news,93,gist_retrieval_adaptive,False,No information.,1,,9.8,175,4,179
+news,94,gist_retrieval_adaptive,True,Human shields.,1,,9.2,173,4,177
+news,95,gist_retrieval_adaptive,False,No answer available.,1,,3.1,168,5,173
+news,96,gist_retrieval_adaptive,False,Accusations against Patil.,1,,3.0,421,8,429
+news,98,gist_retrieval_adaptive,False,Cape Town.,1,,0.4,236,5,241
+news,97,gist_retrieval_adaptive,False,No information.,1,,1.5,173,4,177
+news,102,gist_retrieval_adaptive,False,None.,1,,2.4,167,3,170
+news,100,gist_retrieval_adaptive,False,ex-wife,1,,7.3,175,3,178
+news,99,gist_retrieval_adaptive,False,No information.,1,,9.5,246,4,250
+news,101,gist_retrieval_adaptive,False,Counterfeit luxury handbags.,1,,10.6,422,7,429
+news,104,gist_retrieval_adaptive,False,Fear.,1,,0.2,235,3,238
+news,107,gist_retrieval_adaptive,False,No information.,1,,1.9,364,4,368
+news,103,gist_retrieval_adaptive,False,No information.,1,,3.9,171,4,175
+news,108,gist_retrieval_adaptive,False,No information provided.,1,,0.7,168,5,173
+news,105,gist_retrieval_adaptive,False,There is no information about what one evacuated resident said.,1,,4.1,233,12,245
+news,106,gist_retrieval_adaptive,False,"Cape Town, South Africa.",1,,9.9,364,8,372
+news,111,gist_retrieval_adaptive,False,None.,1,,5.3,174,3,177
+news,109,gist_retrieval_adaptive,False,38 years old.,1,,8.1,296,5,301
+news,110,gist_retrieval_adaptive,True,Eme Zuru Ayortor.,1,,11.0,178,9,187
+news,112,gist_retrieval_adaptive,False,"There is no information about someone calling a warning ""strictly precautionary"".",1,,0.3,240,16,256
+news,113,gist_retrieval_adaptive,False,None.,1,,0.3,166,3,169
+news,114,gist_retrieval_adaptive,False,China,1,,0.3,301,2,303
+news,116,gist_retrieval_adaptive,False,No information given.,1,,1.7,178,5,183
+news,118,gist_retrieval_adaptive,False,None.,1,,1.6,173,3,176
+news,117,gist_retrieval_adaptive,False,No information is given about Naples.,1,,1.8,302,8,310
+news,115,gist_retrieval_adaptive,False,Politics of divisiveness.,1,,3.4,244,6,250
+news,121,gist_retrieval_adaptive,False,No information provided.,1,,0.9,368,5,373
+news,122,gist_retrieval_adaptive,False,No mention.,1,,1.1,358,4,362
+news,123,gist_retrieval_adaptive,False,No information provided.,1,,12.4,173,5,178
+news,124,gist_retrieval_adaptive,False,No information provided.,1,,12.7,168,5,173
+news,120,gist_retrieval_adaptive,False,No information.,1,,14.5,174,4,178
+news,119,gist_retrieval_adaptive,False,No information provided.,1,,14.8,169,5,174
+news,125,gist_retrieval_adaptive,True,Andrea Bocelli's.,1,,2.5,175,8,183
+news,127,gist_retrieval_adaptive,False,Patil,1,,1.0,170,3,173
+news,126,gist_retrieval_adaptive,False,No information given.,1,,3.3,170,5,175
+news,128,gist_retrieval_adaptive,False,I don't have information about that.,1,,2.0,173,9,182
+news,130,gist_retrieval_adaptive,False,No information.,1,,3.6,175,4,179
+news,132,gist_retrieval_adaptive,False,No information.,1,,1.1,223,4,227
+news,129,gist_retrieval_adaptive,False,No information provided.,1,,3.7,165,5,170
+news,131,gist_retrieval_adaptive,False,No information provided.,1,,4.3,219,5,224
+news,136,gist_retrieval_adaptive,False,Nothing.,1,,2.2,533,3,536
+news,137,gist_retrieval_adaptive,False,There is no information about mail in the passage summaries.,1,,1.7,224,12,236
+news,133,gist_retrieval_adaptive,False,I don't have information about Hornets being inspected.,1,,8.3,170,11,181
+news,135,gist_retrieval_adaptive,False,There is no information.,1,,8.3,348,6,354
+news,138,gist_retrieval_adaptive,False,No question was asked about a note.,1,,0.3,173,9,182
+news,134,gist_retrieval_adaptive,False,No information provided.,1,,11.6,290,5,295
+news,140,gist_retrieval_adaptive,False,An Australian soldier.,1,,5.3,173,5,178
+news,141,gist_retrieval_adaptive,False,No information.,1,,5.3,231,4,235
+news,142,gist_retrieval_adaptive,False,No information.,1,,0.8,172,4,176
+news,143,gist_retrieval_adaptive,False,Hollywood.,1,,1.4,242,4,246
+news,139,gist_retrieval_adaptive,False,No information provided.,1,,11.3,237,5,242
+news,144,gist_retrieval_adaptive,False,Ivan Cameron's son.,1,,1.7,303,7,310
+news,145,gist_retrieval_adaptive,False,No information.,1,,1.7,174,4,178
+news,146,gist_retrieval_adaptive,False,There is no information about a collision over the Hudson River in the passage summaries.,1,,0.7,234,17,251
+news,147,gist_retrieval_adaptive,False,Battle.,1,,0.7,172,3,175
+news,148,gist_retrieval_adaptive,False,Scoliosis,1,,0.5,174,4,178
+news,149,gist_retrieval_adaptive,False,No information provided.,1,,1.4,238,5,243
+news,152,gist_retrieval_adaptive,False,No information.,1,,1.5,494,4,498
+news,150,gist_retrieval_adaptive,False,No information provided about floats.,1,,14.7,166,7,173
+news,151,gist_retrieval_adaptive,False,Unknown.,1,,14.9,230,3,233
+news,154,gist_retrieval_adaptive,False,No information provided.,1,,12.6,168,5,173
+news,153,gist_retrieval_adaptive,False,Nothing is mentioned.,1,,13.4,229,5,234
+news,156,gist_retrieval_adaptive,False,A referendum on a new constitution.,1,,1.3,554,8,562
+news,157,gist_retrieval_adaptive,False,Referendum.,1,,1.6,173,4,177
+news,155,gist_retrieval_adaptive,False,There is not enough information to answer the question.,1,,2.0,184,11,195
+news,158,gist_retrieval_adaptive,False,No mention of Donna Greenwell.,1,,2.0,243,8,251
+news,160,gist_retrieval_adaptive,False,Veterans care funding.,1,,3.8,235,6,241
+news,159,gist_retrieval_adaptive,True,Holding veterans care funding hostage.,1,,3.9,171,8,179
+news,161,gist_retrieval_adaptive,False,No information provided.,1,,3.8,169,5,174
+news,162,gist_retrieval_adaptive,False,Polyps.,1,,6.4,221,4,225
+news,165,gist_retrieval_adaptive,False,No information.,1,,3.6,235,4,239
+news,164,gist_retrieval_adaptive,False,I don't have information about The Manzanis.,1,,4.8,176,12,188
+news,168,gist_retrieval_adaptive,True,Atletico Madrid.,1,,1.6,175,6,181
+news,163,gist_retrieval_adaptive,False,I don't have information about that.,1,,8.7,174,9,183
+news,169,gist_retrieval_adaptive,False,No information.,1,,0.7,175,4,179
+news,166,gist_retrieval_adaptive,False,No answer available.,1,,6.0,485,5,490
+news,167,gist_retrieval_adaptive,True,David Beckham.,1,,9.9,165,4,169
+news,171,gist_retrieval_adaptive,False,Lack of democracy.,1,,5.1,244,6,250
+news,172,gist_retrieval_adaptive,False,No mention.,1,,9.9,170,4,174
+news,170,gist_retrieval_adaptive,False,Nothing.,1,,11.1,173,3,176
+news,173,gist_retrieval_adaptive,False,big-screen legend,1,,0.8,562,4,566
+news,174,gist_retrieval_adaptive,False,Alvaro Uribe,1,,0.8,370,6,376
+news,176,gist_retrieval_adaptive,False,There is no information about Mary Winkler in the passage summaries.,1,,2.2,308,15,323
+news,178,gist_retrieval_adaptive,False,No one mentioned.,1,,1.8,175,5,180
+news,177,gist_retrieval_adaptive,False,Yes.,1,,1.5,292,3,295
+news,175,gist_retrieval_adaptive,False,No information available.,1,,2.6,175,5,180
+news,179,gist_retrieval_adaptive,False,No information provided.,1,,0.3,177,5,182
+news,180,gist_retrieval_adaptive,False,There is no information about Mable Randon in the passage summaries.,1,,0.3,176,15,191
+news,183,gist_retrieval_adaptive,False,No information provided.,1,,11.6,173,5,178
+news,181,gist_retrieval_adaptive,False,There is no mention of cars being abandoned.,1,,13.3,169,10,179
+news,184,gist_retrieval_adaptive,False,No information provided.,1,,12.2,238,5,243
+news,182,gist_retrieval_adaptive,False,There is no information about a London bus bombing in the passage summaries.,1,,13.5,241,15,256
+news,187,gist_retrieval_adaptive,False,Normal.,1,,1.5,168,3,171
+news,188,gist_retrieval_adaptive,False,Nothing.,1,,1.9,232,3,235
+news,185,gist_retrieval_adaptive,False,The U.S. Embassy.,1,,2.2,169,7,176
+news,186,gist_retrieval_adaptive,False,7.5 percent.,1,,2.2,243,6,249
+news,191,gist_retrieval_adaptive,False,Engine fell off.,1,,2.4,242,5,247
+news,192,gist_retrieval_adaptive,False,No information.,1,,2.5,176,4,180
+news,190,gist_retrieval_adaptive,False,Financial,1,,2.6,170,2,172
+news,189,gist_retrieval_adaptive,True,Yuvraj Singh.,1,,5.7,183,6,189
+news,194,gist_retrieval_adaptive,False,Birds.,1,,3.7,241,4,245
+news,196,gist_retrieval_adaptive,False,No.,1,,1.8,174,3,177
+news,193,gist_retrieval_adaptive,False,Grandson.,1,,6.7,171,4,175
+news,199,gist_retrieval_adaptive,False,No answer available.,1,,0.8,168,5,173
+news,197,gist_retrieval_adaptive,False,No information provided.,1,,3.8,174,5,179
+news,195,gist_retrieval_adaptive,False,"Bridgeport, Alabama.",1,,9.0,238,6,244
+news,198,gist_retrieval_adaptive,False,Radical Islamic terror plot.,1,,9.3,226,7,233
+news,200,gist_retrieval_adaptive,True,Augustin Binya.,1,,5.6,233,6,239
+novel,3e966645_11,gist_retrieval_adaptive,False,No information provided.,1,,0.4,352,5,357
+novel,3e966645_9,gist_retrieval_adaptive,False,There is no information about Papeete in the passage summaries.,1,,0.6,342,14,356
+novel,3e966645_8,gist_retrieval_adaptive,False,No information is given about the 3 beggers or a port they operate in.,1,,0.8,388,18,406
+novel,3e966645_10,gist_retrieval_adaptive,False,No information provided.,1,,0.8,294,5,299
+novel,3e966645_19,gist_retrieval_adaptive,False,No information.,1,,0.7,414,4,418
+novel,3e966645_12,gist_retrieval_adaptive,False,I can't answer that.,1,,1.5,394,7,401
+novel,3e966645_17,gist_retrieval_adaptive,False,No information is given about three men planning to sail a ship.,1,,1.2,273,14,287
+novel,3e966645_16,gist_retrieval_adaptive,False,I don't have that information.,1,,1.5,174,8,182
+novel,3e966645_20,gist_retrieval_adaptive,False,I don't have information about that.,1,,4.4,185,9,194
+novel,3e966645_21,gist_retrieval_adaptive,False,There is no information about the US Counsel hiring someone to take over a schooner.,1,,4.6,473,18,491
+novel,3e966645_22,gist_retrieval_adaptive,False,I don't have that information.,1,,17.7,182,8,190
+novel,6a659de3_2,gist_retrieval_adaptive,False,Shah Amurath.,1,,12.0,299,7,306
+novel,6a659de3_3,gist_retrieval_adaptive,False,None mentioned.,1,,11.9,170,4,174
+novel,3e966645_23,gist_retrieval_adaptive,False,There is no information about this in the passage summaries.,1,,17.6,306,12,318
+novel,6a659de3_6,gist_retrieval_adaptive,False,There is no mention of a queen in the passage summaries.,1,,4.0,363,13,376
+novel,6a659de3_5,gist_retrieval_adaptive,False,There is no information about Vincey or Leo in the passage summaries.,1,,4.4,363,15,378
+novel,6a659de3_7,gist_retrieval_adaptive,False,No information provided about a box.,1,,0.3,477,8,485
+novel,6a659de3_4,gist_retrieval_adaptive,False,There is no information about Ayesha in the given passage summaries.,1,,4.9,246,15,261
+novel,6a659de3_11,gist_retrieval_adaptive,False,No information.,1,,2.4,416,4,420
+novel,6a659de3_8,gist_retrieval_adaptive,False,No information.,1,,6.8,537,4,541
+novel,6a659de3_14,gist_retrieval_adaptive,False,There is no mention of a young professor.,1,,2.1,362,10,372
+novel,6a659de3_12,gist_retrieval_adaptive,False,There is no information about Vincey in the passage summaries.,1,,5.2,421,13,434
+novel,6a659de3_17,gist_retrieval_adaptive,False,There is no information about Leo or a decision to have him die in the fire.,1,,4.4,422,18,440
+novel,9561a72a_3,gist_retrieval_adaptive,False,No information available.,1,,1.6,645,5,650
+novel,9561a72a_1,gist_retrieval_adaptive,False,There is no information about Dorothy making an arrangement in the given passage summaries.,1,,7.2,720,16,736
+novel,9561a72a_5,gist_retrieval_adaptive,False,No information provided.,1,,3.6,738,5,743
+novel,9561a72a_7,gist_retrieval_adaptive,False,No information provided.,1,,2.8,487,5,492
+novel,9561a72a_0,gist_retrieval_adaptive,False,No information provided.,1,,8.9,488,5,493
+novel,9561a72a_9,gist_retrieval_adaptive,False,There is no mention of Dorothy in the given passage summaries.,1,,0.7,359,13,372
+novel,9561a72a_10,gist_retrieval_adaptive,False,No information.,1,,0.8,419,4,423
+novel,9561a72a_12,gist_retrieval_adaptive,True,Guph.,1,,5.7,675,5,680
+novel,bf55d1c1_1,gist_retrieval_adaptive,False,Shah Amurath.,1,,0.4,171,7,178
+novel,9561a72a_11,gist_retrieval_adaptive,False,There is no information about a magic belt or a plot from the Nome Kingdom.,1,,6.1,551,17,568
+novel,bf55d1c1_0,gist_retrieval_adaptive,False,There is no mention of Adam or him purchasing anything to kill snakes.,1,,0.4,364,15,379
+novel,bf55d1c1_5,gist_retrieval_adaptive,False,Shah Amurath.,1,,0.3,493,7,500
+novel,bf55d1c1_2,gist_retrieval_adaptive,False,Olivia.,1,,0.3,237,4,241
+novel,bf55d1c1_9,gist_retrieval_adaptive,False,No information.,1,,0.5,292,4,296
+novel,bf55d1c1_6,gist_retrieval_adaptive,False,I don't have information about Arabella's house.,1,,0.8,422,12,434
+novel,bf55d1c1_11,gist_retrieval_adaptive,False,No information.,1,,3.2,237,4,241
+novel,bf55d1c1_4,gist_retrieval_adaptive,False,No information provided.,1,,3.2,368,5,373
+novel,ca4b98f5_0,gist_retrieval_adaptive,False,SHADOWS IN THE MOONLIGHT.,1,,11.4,348,10,358
+novel,bf55d1c1_12,gist_retrieval_adaptive,False,I don't have that information.,1,,11.7,179,8,187
+novel,bf55d1c1_3,gist_retrieval_adaptive,False,No one is mentioned in the passage summaries.,1,,16.2,571,10,581
+novel,bf55d1c1_10,gist_retrieval_adaptive,False,There is no information about a friend of Richard Salton in the given passage summaries.,1,,16.3,250,18,268
+novel,ca4b98f5_1,gist_retrieval_adaptive,False,No information provided.,1,,1.8,181,5,186
+novel,ca4b98f5_4,gist_retrieval_adaptive,False,No information.,1,,1.7,173,4,177
+novel,ca4b98f5_2,gist_retrieval_adaptive,False,No information provided.,1,,2.3,370,5,375
+novel,ca4b98f5_3,gist_retrieval_adaptive,False,No information.,1,,2.1,178,4,182
+novel,ca4b98f5_8,gist_retrieval_adaptive,False,No one is mentioned in the passages.,1,,5.0,585,9,594
+novel,ca4b98f5_10,gist_retrieval_adaptive,False,Sir Hugh.,1,,4.8,236,4,240
+novel,ca4b98f5_6,gist_retrieval_adaptive,False,No information provided about Harry or his choices.,1,,5.0,297,10,307
+novel,ca4b98f5_13,gist_retrieval_adaptive,False,Julia Brabazon.,1,,1.8,359,7,366
+novel,ca4b98f5_11,gist_retrieval_adaptive,False,No one.,1,,9.3,1037,4,1041
+novel,ca4b98f5_14,gist_retrieval_adaptive,False,No information.,1,,4.0,481,4,485
+novel,ca4b98f5_12,gist_retrieval_adaptive,False,Lady Clavering.,1,,6.6,174,6,180
+novel,ca4b98f5_15,gist_retrieval_adaptive,False,No information provided.,1,,0.3,175,5,180
+novel,ca4b98f5_17,gist_retrieval_adaptive,False,No answer available.,1,,0.2,298,5,303
+novel,ca4b98f5_16,gist_retrieval_adaptive,False,No one is mentioned in the passages.,1,,0.3,464,9,473
+novel,ca4b98f5_18,gist_retrieval_adaptive,False,No one is mentioned as Harry reaffirming his love to.,1,,3.3,485,14,499
+caselaw,41,gist_retrieval_adaptive,True,1,1,,0.2,2644,2,2646
+caselaw,45,gist_retrieval_adaptive,False,1,1,,1.3,2681,2,2683
+caselaw,43,gist_retrieval_adaptive,False,5,1,,1.5,2695,2,2697
+caselaw,47,gist_retrieval_adaptive,False,5,1,,1.5,2672,2,2674
+caselaw,51,gist_retrieval_adaptive,True,5,1,,5.4,2663,2,2665
+caselaw,55,gist_retrieval_adaptive,False,5,1,,5.6,2733,2,2735
+caselaw,53,gist_retrieval_adaptive,False,5,1,,6.8,2661,2,2663
+caselaw,57,gist_retrieval_adaptive,False,4,1,,0.2,2714,2,2716
+caselaw,49,gist_retrieval_adaptive,True,5,1,,8.2,2667,2,2669
+caselaw,59,gist_retrieval_adaptive,False,1,1,,4.3,2745,2,2747
+caselaw,65,gist_retrieval_adaptive,True,5,1,,1.5,2685,2,2687
+caselaw,69,gist_retrieval_adaptive,False,5,1,,7.6,2625,2,2627
+caselaw,67,gist_retrieval_adaptive,False,1,1,,7.9,2651,2,2653
+caselaw,73,gist_retrieval_adaptive,False,5,1,,1.7,2646,2,2648
+caselaw,71,gist_retrieval_adaptive,False,1,1,,2.5,2687,2,2689
+caselaw,75,gist_retrieval_adaptive,False,5,1,,0.4,2643,2,2645
+caselaw,63,gist_retrieval_adaptive,False,1,1,,23.9,2713,2,2715
+caselaw,77,gist_retrieval_adaptive,False,1,1,,0.4,2660,2,2662
+caselaw,81,gist_retrieval_adaptive,False,5,1,,5.7,2705,2,2707
+caselaw,83,gist_retrieval_adaptive,False,5,1,,12.9,2621,2,2623
+caselaw,79,gist_retrieval_adaptive,False,5,1,,13.8,2708,2,2710
+caselaw,85,gist_retrieval_adaptive,False,1,1,,0.3,2659,2,2661
+caselaw,89,gist_retrieval_adaptive,False,5,1,,0.2,2650,2,2652
+caselaw,87,gist_retrieval_adaptive,False,5,1,,0.4,2672,2,2674
+caselaw,93,gist_retrieval_adaptive,False,5,1,,0.9,2709,2,2711
+caselaw,95,gist_retrieval_adaptive,False,5,1,,0.5,2664,2,2666
+caselaw,99,gist_retrieval_adaptive,False,4,1,,0.4,2693,2,2695
+caselaw,97,gist_retrieval_adaptive,False,5,1,,0.6,2655,2,2657
+caselaw,91,gist_retrieval_adaptive,False,5,1,,8.2,2674,2,2676
+caselaw,101,gist_retrieval_adaptive,False,5,1,,0.3,2641,2,2643
+caselaw,105,gist_retrieval_adaptive,False,4,1,,0.5,2738,2,2740
+caselaw,103,gist_retrieval_adaptive,False,5,1,,0.5,2665,2,2667
+caselaw,107,gist_retrieval_adaptive,True,5,1,,0.2,2650,2,2652
+caselaw,109,gist_retrieval_adaptive,True,5,1,,0.3,2704,2,2706
+caselaw,111,gist_retrieval_adaptive,False,5,1,,1.9,2680,2,2682
+caselaw,113,gist_retrieval_adaptive,False,5,1,,2.0,2662,2,2664
+caselaw,115,gist_retrieval_adaptive,False,5,1,,2.3,2756,2,2758
+caselaw,117,gist_retrieval_adaptive,False,2,1,,0.3,2785,2,2787
+caselaw,119,gist_retrieval_adaptive,False,5,1,,4.2,2679,2,2681
+caselaw,121,gist_retrieval_adaptive,False,1,1,,3.7,2672,2,2674
+caselaw,127,gist_retrieval_adaptive,False,1,1,,9.8,2648,2,2650
+caselaw,123,gist_retrieval_adaptive,False,1,1,,10.3,2662,2,2664
+caselaw,125,gist_retrieval_adaptive,False,1,1,,10.8,2663,2,2665
+caselaw,129,gist_retrieval_adaptive,False,5,1,,0.3,2782,2,2784
+caselaw,135,gist_retrieval_adaptive,False,5,1,,3.1,2966,2,2968
+caselaw,131,gist_retrieval_adaptive,False,5,1,,4.5,2686,2,2688
+caselaw,133,gist_retrieval_adaptive,False,2,1,,5.1,2653,2,2655
+caselaw,137,gist_retrieval_adaptive,True,5,1,,0.3,2834,2,2836
+caselaw,139,gist_retrieval_adaptive,False,1,1,,6.4,2681,2,2683
+caselaw,143,gist_retrieval_adaptive,True,5,1,,5.9,2791,2,2793
+caselaw,145,gist_retrieval_adaptive,False,5,1,,0.2,2693,2,2695
+caselaw,141,gist_retrieval_adaptive,True,5,1,,11.0,2678,2,2680
+caselaw,147,gist_retrieval_adaptive,False,5,1,,12.0,2763,2,2765
+caselaw,149,gist_retrieval_adaptive,True,1,1,,7.6,2711,2,2713
+caselaw,151,gist_retrieval_adaptive,True,5,1,,0.4,2665,2,2667
+caselaw,157,gist_retrieval_adaptive,False,5,1,,3.3,2689,2,2691
+caselaw,155,gist_retrieval_adaptive,False,5,1,,4.8,2720,2,2722
+caselaw,159,gist_retrieval_adaptive,True,5,1,,1.2,2695,2,2697
+caselaw,153,gist_retrieval_adaptive,False,2,1,,6.3,2743,2,2745
+caselaw,161,gist_retrieval_adaptive,False,5,1,,1.5,2696,2,2698
+caselaw,163,gist_retrieval_adaptive,False,5,1,,0.6,2628,2,2630
+caselaw,165,gist_retrieval_adaptive,False,5,1,,0.6,2753,2,2755
+caselaw,169,gist_retrieval_adaptive,False,1,1,,1.7,2668,2,2670
+caselaw,167,gist_retrieval_adaptive,False,1,1,,1.9,2685,2,2687
+caselaw,175,gist_retrieval_adaptive,False,5,1,,0.5,2643,2,2645
+caselaw,173,gist_retrieval_adaptive,False,5,1,,0.3,2704,2,2706
+caselaw,171,gist_retrieval_adaptive,False,1,1,,8.1,2695,2,2697
+caselaw,177,gist_retrieval_adaptive,False,5,1,,0.2,2640,2,2642
+caselaw,179,gist_retrieval_adaptive,False,5,1,,0.4,2678,2,2680
+caselaw,181,gist_retrieval_adaptive,False,5,1,,0.3,2658,2,2660
+caselaw,183,gist_retrieval_adaptive,False,5,1,,2.7,2716,2,2718
+caselaw,187,gist_retrieval_adaptive,False,5,1,,2.7,2661,2,2663
+caselaw,185,gist_retrieval_adaptive,False,5,1,,2.8,2668,2,2670
+caselaw,189,gist_retrieval_adaptive,True,5,1,,1.5,2655,2,2657
+caselaw,191,gist_retrieval_adaptive,True,3,1,,4.9,2713,2,2715
+caselaw,195,gist_retrieval_adaptive,False,5,1,,3.3,2670,2,2672
+caselaw,61,gist_retrieval_adaptive,False,1,1,,143.9,2626,2,2628
+caselaw,197,gist_retrieval_adaptive,False,4,1,,2.3,2693,2,2695
+caselaw,201,gist_retrieval_adaptive,False,5,1,,2.2,2697,2,2699
+caselaw,193,gist_retrieval_adaptive,False,4,1,,15.9,2756,2,2758
+caselaw,199,gist_retrieval_adaptive,False,4,1,,6.0,2827,2,2829
+caselaw,203,gist_retrieval_adaptive,False,4,1,,3.4,2653,2,2655
+caselaw,207,gist_retrieval_adaptive,True,5,1,,6.4,2659,2,2661
+caselaw,205,gist_retrieval_adaptive,False,5,1,,10.8,2669,2,2671
+caselaw,213,gist_retrieval_adaptive,False,3,1,,0.5,2702,2,2704
+caselaw,211,gist_retrieval_adaptive,False,5,1,,11.6,2767,2,2769
+caselaw,215,gist_retrieval_adaptive,False,1,1,,5.5,2722,2,2724
+caselaw,209,gist_retrieval_adaptive,True,5,1,,14.1,2668,2,2670
+caselaw,217,gist_retrieval_adaptive,False,1,1,,3.0,2666,2,2668
+caselaw,219,gist_retrieval_adaptive,False,1,1,,0.8,2660,2,2662
+caselaw,221,gist_retrieval_adaptive,False,5,1,,0.3,2700,2,2702
+caselaw,223,gist_retrieval_adaptive,False,1,1,,0.3,2720,2,2722
+caselaw,225,gist_retrieval_adaptive,False,5,1,,3.7,2731,2,2733
+caselaw,227,gist_retrieval_adaptive,True,5,1,,0.2,2740,2,2742
+caselaw,229,gist_retrieval_adaptive,False,5,1,,0.3,2618,2,2620
+caselaw,231,gist_retrieval_adaptive,False,5,1,,4.2,2802,2,2804
+caselaw,233,gist_retrieval_adaptive,False,1,1,,1.1,2627,2,2629
+caselaw,241,gist_retrieval_adaptive,False,5,1,,3.4,2697,2,2699
+caselaw,235,gist_retrieval_adaptive,False,1,1,,5.6,2708,2,2710
+caselaw,239,gist_retrieval_adaptive,False,1,1,,3.9,2681,2,2683
+caselaw,245,gist_retrieval_adaptive,True,1,1,,2.0,2684,2,2686
+caselaw,237,gist_retrieval_adaptive,True,4,1,,8.8,2707,2,2709
+caselaw,243,gist_retrieval_adaptive,False,5,1,,2.8,2686,2,2688
+caselaw,247,gist_retrieval_adaptive,False,4,1,,4.6,2711,2,2713
+caselaw,249,gist_retrieval_adaptive,False,1,1,,0.4,2661,2,2663
+caselaw,251,gist_retrieval_adaptive,False,5,1,,0.5,2608,2,2610
+caselaw,253,gist_retrieval_adaptive,False,1,1,,0.5,2613,2,2615
+caselaw,255,gist_retrieval_adaptive,False,5,1,,0.6,2679,2,2681
+caselaw,263,gist_retrieval_adaptive,False,1,1,,0.4,2648,2,2650
+caselaw,257,gist_retrieval_adaptive,False,5,1,,2.5,2672,2,2674
+caselaw,265,gist_retrieval_adaptive,False,5,1,,1.2,2684,2,2686
+caselaw,267,gist_retrieval_adaptive,False,4,1,,4.7,2774,2,2776
+caselaw,259,gist_retrieval_adaptive,False,5,1,,15.7,2717,2,2719
+caselaw,261,gist_retrieval_adaptive,True,5,1,,16.0,2818,2,2820
+caselaw,271,gist_retrieval_adaptive,False,5,1,,7.4,2700,2,2702
+caselaw,269,gist_retrieval_adaptive,False,5,1,,2.5,2626,2,2628
+caselaw,277,gist_retrieval_adaptive,False,1,1,,2.7,2665,2,2667
+caselaw,275,gist_retrieval_adaptive,True,5,1,,3.8,2660,2,2662
+caselaw,273,gist_retrieval_adaptive,True,5,1,,4.5,2679,2,2681
+caselaw,281,gist_retrieval_adaptive,False,1,1,,0.2,2722,2,2724
+caselaw,279,gist_retrieval_adaptive,False,1,1,,0.4,2733,2,2735
+caselaw,285,gist_retrieval_adaptive,False,1,1,,0.7,2677,2,2679
+caselaw,283,gist_retrieval_adaptive,False,3,1,,4.4,2729,2,2731
+caselaw,293,gist_retrieval_adaptive,False,1,1,,0.6,2686,2,2688
+caselaw,291,gist_retrieval_adaptive,False,5,1,,3.3,2631,2,2633
+caselaw,297,gist_retrieval_adaptive,False,5,1,,3.7,2706,2,2708
+caselaw,295,gist_retrieval_adaptive,False,1,1,,9.3,2662,2,2664
+caselaw,299,gist_retrieval_adaptive,False,5,1,,3.6,2751,2,2753
+caselaw,289,gist_retrieval_adaptive,False,5,1,,13.7,2759,2,2761
+caselaw,301,gist_retrieval_adaptive,True,1,1,,0.4,2715,2,2717
+caselaw,305,gist_retrieval_adaptive,False,5,1,,0.3,2688,2,2690
+caselaw,303,gist_retrieval_adaptive,False,5,1,,0.4,2699,2,2701
+caselaw,287,gist_retrieval_adaptive,True,5,1,,17.9,2687,2,2689
+caselaw,307,gist_retrieval_adaptive,False,5,1,,1.1,2724,2,2726
+caselaw,309,gist_retrieval_adaptive,True,5,1,,2.2,2690,2,2692
+caselaw,313,gist_retrieval_adaptive,False,5,1,,2.4,2685,2,2687
+caselaw,311,gist_retrieval_adaptive,False,1,1,,2.4,2652,2,2654
+caselaw,317,gist_retrieval_adaptive,False,5,1,,0.4,2636,2,2638
+caselaw,315,gist_retrieval_adaptive,False,1,1,,4.1,2666,2,2668
+caselaw,321,gist_retrieval_adaptive,False,5,1,,4.3,2729,2,2731
+caselaw,325,gist_retrieval_adaptive,True,5,1,,3.3,2709,2,2711
+caselaw,327,gist_retrieval_adaptive,False,5,1,,7.0,2629,2,2631
+caselaw,319,gist_retrieval_adaptive,True,5,1,,19.4,2709,2,2711
+caselaw,323,gist_retrieval_adaptive,True,5,1,,19.1,2742,2,2744
+caselaw,329,gist_retrieval_adaptive,False,5,1,,6.3,2770,2,2772
+caselaw,331,gist_retrieval_adaptive,False,1,1,,9.6,2698,2,2700
+caselaw,337,gist_retrieval_adaptive,False,5,1,,1.8,2704,2,2706
+caselaw,339,gist_retrieval_adaptive,True,5,1,,1.7,2706,2,2708
+caselaw,333,gist_retrieval_adaptive,False,5,1,,7.9,2758,2,2760
+caselaw,343,gist_retrieval_adaptive,False,1,1,,1.3,2644,2,2646
+caselaw,335,gist_retrieval_adaptive,False,5,1,,10.4,2641,2,2643
+caselaw,347,gist_retrieval_adaptive,False,1,1,,4.8,2619,2,2621
+caselaw,349,gist_retrieval_adaptive,False,5,1,,4.0,2688,2,2690
+caselaw,345,gist_retrieval_adaptive,False,4,1,,6.2,2654,2,2656
+caselaw,341,gist_retrieval_adaptive,False,1,1,,9.6,2650,2,2652
+caselaw,357,gist_retrieval_adaptive,True,5,1,,0.4,2708,2,2710
+caselaw,355,gist_retrieval_adaptive,True,1,1,,0.4,2663,2,2665
+caselaw,353,gist_retrieval_adaptive,False,1,1,,4.9,2750,2,2752
+caselaw,351,gist_retrieval_adaptive,False,5,1,,5.2,2657,2,2659
+caselaw,359,gist_retrieval_adaptive,False,3,1,,0.2,2601,2,2603
+caselaw,365,gist_retrieval_adaptive,True,5,1,,0.8,2649,2,2651
+caselaw,363,gist_retrieval_adaptive,False,5,1,,1.1,2605,2,2607
+caselaw,361,gist_retrieval_adaptive,False,4,1,,2.9,2715,2,2717
+caselaw,367,gist_retrieval_adaptive,True,5,1,,3.7,2664,2,2666
+caselaw,373,gist_retrieval_adaptive,False,5,1,,5.5,2631,2,2633
+caselaw,369,gist_retrieval_adaptive,False,5,1,,5.9,2623,2,2625
+caselaw,375,gist_retrieval_adaptive,True,5,1,,1.5,2644,2,2646
+caselaw,377,gist_retrieval_adaptive,True,1,1,,2.2,2673,2,2675
+caselaw,371,gist_retrieval_adaptive,False,5,1,,12.3,2718,2,2720
+caselaw,381,gist_retrieval_adaptive,False,5,1,,9.8,2699,2,2701
+caselaw,385,gist_retrieval_adaptive,False,1,1,,5.3,2636,2,2638
+caselaw,379,gist_retrieval_adaptive,False,5,1,,14.9,2852,2,2854
+caselaw,383,gist_retrieval_adaptive,False,5,1,,12.5,2642,2,2644
+caselaw,391,gist_retrieval_adaptive,False,1,1,,1.4,2676,2,2678
+caselaw,393,gist_retrieval_adaptive,False,4,1,,0.7,2688,2,2690
+caselaw,395,gist_retrieval_adaptive,False,4,1,,4.8,2667,2,2669
+caselaw,389,gist_retrieval_adaptive,False,4,1,,7.7,2630,2,2632
+caselaw,387,gist_retrieval_adaptive,False,5,1,,14.2,2659,2,2661
+caselaw,397,gist_retrieval_adaptive,False,5,1,,5.9,2662,2,2664
+caselaw,399,gist_retrieval_adaptive,False,5,1,,3.2,2677,2,2679

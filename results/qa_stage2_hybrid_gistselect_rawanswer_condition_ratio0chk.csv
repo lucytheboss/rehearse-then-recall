@@ -1,0 +1,580 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,3,hybrid_gistselect_rawanswer,True,1624,1,,0.5,5835,3,5838
+wiki,2,hybrid_gistselect_rawanswer,True,"8,491,079.",1,,0.3,4869,7,4876
+wiki,1,hybrid_gistselect_rawanswer,True,1898,1,,0.4,7610,3,7613
+wiki,4,hybrid_gistselect_rawanswer,False,Wisconsinan glaciation.,1,,0.5,7415,7,7422
+wiki,5,hybrid_gistselect_rawanswer,True,France.,1,,0.5,1150,3,1153
+wiki,8,hybrid_gistselect_rawanswer,True,Jan Rodrigues.,1,,0.4,1147,5,1152
+wiki,6,hybrid_gistselect_rawanswer,True,Portuguese,1,,0.7,1151,4,1155
+wiki,7,hybrid_gistselect_rawanswer,True,The Dutch East India Company.,1,,0.3,1146,7,1153
+wiki,11,hybrid_gistselect_rawanswer,True,New Orange,1,,0.3,2540,3,2543
+wiki,10,hybrid_gistselect_rawanswer,True,Peter Stuyvesant,1,,0.5,2538,6,2544
+wiki,9,hybrid_gistselect_rawanswer,True,1625,1,,0.2,2538,3,2541
+wiki,13,hybrid_gistselect_rawanswer,True,1735,1,,0.3,1503,3,1506
+wiki,14,hybrid_gistselect_rawanswer,False,I don't have that information.,1,,0.3,1734,8,1742
+wiki,12,hybrid_gistselect_rawanswer,False,There is no information about England gaining New York in exchange for an Indonesian island.,1,,0.4,3223,17,3240
+wiki,15,hybrid_gistselect_rawanswer,False,The Great Irish Famine.,1,,0.3,994,7,1001
+wiki,18,hybrid_gistselect_rawanswer,True,1825,1,,0.3,3863,3,3866
+wiki,16,hybrid_gistselect_rawanswer,True,Philadelphia.,1,,0.5,7064,3,7067
+wiki,19,hybrid_gistselect_rawanswer,True,25%,1,,0.2,1001,3,1004
+wiki,17,hybrid_gistselect_rawanswer,False,No information provided.,1,,0.2,1733,5,1738
+wiki,20,hybrid_gistselect_rawanswer,True,1898,1,,0.3,7291,3,7294
+wiki,21,hybrid_gistselect_rawanswer,False,No information is given about the Triangle Shirtwaist Factory fire.,1,,0.3,1918,14,1932
+wiki,23,hybrid_gistselect_rawanswer,True,Abstract expressionism.,1,,0.3,4871,5,4876
+wiki,22,hybrid_gistselect_rawanswer,True,Megacity.,1,,0.3,4871,4,4875
+wiki,25,hybrid_gistselect_rawanswer,False,There is no mention of a plane crash in the provided passage.,1,,0.3,1944,14,1958
+wiki,24,hybrid_gistselect_rawanswer,False,There is no information about an aircraft crashing into the World Trade Center in the provided passage.,1,,0.4,1766,19,1785
+wiki,26,hybrid_gistselect_rawanswer,True,Donald Trump.,1,,0.5,7672,4,7676
+wiki,27,hybrid_gistselect_rawanswer,True,"Long Island, Manhattan, and Staten Island.",1,,0.3,7308,10,7318
+wiki,30,hybrid_gistselect_rawanswer,False,1652,1,,0.2,2548,3,2551
+wiki,29,hybrid_gistselect_rawanswer,True,164.1,1,,0.3,5364,4,5368
+wiki,28,hybrid_gistselect_rawanswer,True,The Harlem River.,1,,0.3,1594,5,1599
+wiki,32,hybrid_gistselect_rawanswer,False,"No answer, as the passage does not mention the Chrysler Building or any animal decorating it.",1,,51.9,1668,19,1687
+wiki,33,hybrid_gistselect_rawanswer,False,Setbacks.,1,,51.8,1513,4,1517
+wiki,34,hybrid_gistselect_rawanswer,False,No information.,1,,52.0,329,4,333
+wiki,31,hybrid_gistselect_rawanswer,False,Over 300.,1,,52.4,2387,5,2392
+wiki,35,hybrid_gistselect_rawanswer,False,No information provided.,1,,0.9,2448,5,2453
+wiki,36,hybrid_gistselect_rawanswer,True,49.9 inches.,1,,0.6,7271,6,7277
+wiki,38,hybrid_gistselect_rawanswer,False,"26,000",1,,0.8,1855,4,1859
+wiki,37,hybrid_gistselect_rawanswer,True,Minneapolis.,1,,0.6,1866,4,1870
+wiki,41,hybrid_gistselect_rawanswer,False,No information.,1,,0.3,875,4,879
+wiki,40,hybrid_gistselect_rawanswer,True,"1,093",1,,0.4,4950,4,4954
+wiki,42,hybrid_gistselect_rawanswer,True,40%,1,,1.2,5541,3,5544
+wiki,39,hybrid_gistselect_rawanswer,True,Grant's Tomb,1,,1.6,1670,4,1674
+wiki,44,hybrid_gistselect_rawanswer,True,12 million,1,,0.6,6786,3,6789
+wiki,43,hybrid_gistselect_rawanswer,False,Bangladeshi.,1,,1.0,5289,6,5295
+wiki,45,hybrid_gistselect_rawanswer,True,"over 74,000",1,,0.4,5293,6,5299
+wiki,46,hybrid_gistselect_rawanswer,True,"65,000.",1,,1.5,3035,5,3040
+wiki,47,hybrid_gistselect_rawanswer,False,Jamaica,1,,0.9,4870,4,4874
+wiki,49,hybrid_gistselect_rawanswer,True,Judaism.,1,,2.1,7151,5,7156
+wiki,50,hybrid_gistselect_rawanswer,False,Not mentioned.,1,,0.4,729,4,733
+wiki,52,hybrid_gistselect_rawanswer,False,There is no information about NYC's fashion industry.,1,,0.8,297,11,308
+wiki,51,hybrid_gistselect_rawanswer,True,"$15,887/m²",1,,1.9,837,7,844
+wiki,48,hybrid_gistselect_rawanswer,True,"568,903.",1,,4.7,1732,5,1737
+wiki,53,hybrid_gistselect_rawanswer,False,None mentioned.,1,,1.3,4866,4,4870
+wiki,55,hybrid_gistselect_rawanswer,False,No information.,1,,0.5,543,4,547
+wiki,54,hybrid_gistselect_rawanswer,True,Approximately $40 billion.,1,,1.5,1651,7,1658
+wiki,56,hybrid_gistselect_rawanswer,True,Roosevelt Island.,1,,0.4,537,6,543
+wiki,60,hybrid_gistselect_rawanswer,True,Anbang Insurance Group.,1,,0.4,834,6,840
+wiki,59,hybrid_gistselect_rawanswer,True,Summerstage.,1,,1.7,1668,4,1672
+wiki,58,hybrid_gistselect_rawanswer,False,I ❤ NY,1,,3.4,4949,4,4953
+wiki,57,hybrid_gistselect_rawanswer,False,56 million.,1,,4.2,6424,4,6428
+wiki,63,hybrid_gistselect_rawanswer,False,No information provided.,1,,43.0,1857,5,1862
+wiki,62,hybrid_gistselect_rawanswer,True,The Wall Street Journal and The New York Times.,1,,45.0,298,11,309
+wiki,64,hybrid_gistselect_rawanswer,False,No answer available.,1,,43.5,532,5,537
+wiki,61,hybrid_gistselect_rawanswer,True,"25,000.",1,,45.4,299,5,304
+wiki,65,hybrid_gistselect_rawanswer,False,No information.,1,,0.3,1119,4,1123
+wiki,69,hybrid_gistselect_rawanswer,False,"25,000.",1,,0.3,480,5,485
+wiki,68,hybrid_gistselect_rawanswer,True,"Ramanathan Raju, MD.",1,,0.3,460,9,469
+wiki,66,hybrid_gistselect_rawanswer,False,No information.,1,,0.7,6550,4,6554
+wiki,70,hybrid_gistselect_rawanswer,False,I don't have that information.,1,,0.3,295,8,303
+wiki,71,hybrid_gistselect_rawanswer,False,FDNY,1,,0.2,879,3,882
+wiki,72,hybrid_gistselect_rawanswer,False,New York City Subway.,1,,0.4,5283,6,5289
+wiki,67,hybrid_gistselect_rawanswer,False,"225,000 admissions, 1 million emergency room visits, 5 million clinic visits.",1,,2.0,463,19,482
+wiki,73,hybrid_gistselect_rawanswer,True,11 Metrotech Center.,1,,0.4,1306,7,1313
+wiki,74,hybrid_gistselect_rawanswer,False,There is no mention of abstract expressionism in the passage.,1,,0.3,395,13,408
+wiki,76,hybrid_gistselect_rawanswer,True,11.57 million.,1,,0.5,2860,6,2866
+wiki,77,hybrid_gistselect_rawanswer,False,No information is provided about the world's most expensive stadiums.,1,,0.4,833,13,846
+wiki,78,hybrid_gistselect_rawanswer,True,MetLife Stadium,1,,0.5,7129,4,7133
+wiki,75,hybrid_gistselect_rawanswer,False,No information.,1,,1.0,301,4,305
+wiki,80,hybrid_gistselect_rawanswer,False,NCAA Men's Final Four,1,,0.6,7589,7,7596
+wiki,81,hybrid_gistselect_rawanswer,False,US Open.,1,,1.3,3410,4,3414
+wiki,79,hybrid_gistselect_rawanswer,True,Hockey.,1,,1.8,6988,4,6992
+wiki,83,hybrid_gistselect_rawanswer,False,No information available.,1,,1.5,538,5,543
+wiki,82,hybrid_gistselect_rawanswer,False,None mentioned.,1,,2.2,530,4,534
+wiki,84,hybrid_gistselect_rawanswer,False,No information.,1,,0.2,314,4,318
+wiki,86,hybrid_gistselect_rawanswer,False,Brooklyn Bridge.,1,,1.2,5249,5,5254
+wiki,85,hybrid_gistselect_rawanswer,False,Not specified.,1,,1.8,2097,4,2101
+wiki,87,hybrid_gistselect_rawanswer,False,No information.,1,,1.7,317,4,321
+wiki,88,hybrid_gistselect_rawanswer,False,No information.,1,,1.3,529,4,533
+wiki,89,hybrid_gistselect_rawanswer,True,Catskill Mountains.,1,,0.9,1596,6,1602
+wiki,90,hybrid_gistselect_rawanswer,False,There is no information about the number of councilors.,1,,1.0,734,12,746
+wiki,91,hybrid_gistselect_rawanswer,True,67%,1,,46.5,1970,3,1973
+wiki,94,hybrid_gistselect_rawanswer,True,Fifth Avenue.,1,,44.9,1668,5,1673
+wiki,92,hybrid_gistselect_rawanswer,True,"225,000.",1,,46.6,464,5,469
+wiki,93,hybrid_gistselect_rawanswer,False,No information.,1,,46.6,6777,4,6781
+wiki,95,hybrid_gistselect_rawanswer,True,New York City FC.,1,,0.8,7401,6,7407
+wiki,96,hybrid_gistselect_rawanswer,False,No mention.,1,,0.8,312,4,316
+wiki,98,hybrid_gistselect_rawanswer,False,Geographically,1,,0.7,537,3,540
+wiki,100,hybrid_gistselect_rawanswer,False,Eastern District of New York.,1,,0.4,878,7,885
+wiki,99,hybrid_gistselect_rawanswer,False,No information.,1,,0.8,6259,4,6263
+wiki,97,hybrid_gistselect_rawanswer,False,Theater.,1,,5.7,2219,4,2223
+news,3,hybrid_gistselect_rawanswer,False,No one.,1,,0.5,1488,4,1492
+news,4,hybrid_gistselect_rawanswer,False,Yes.,1,,0.5,1483,3,1486
+news,2,hybrid_gistselect_rawanswer,False,Italian soldiers.,1,,0.7,6539,4,6543
+news,1,hybrid_gistselect_rawanswer,False,"Civilians, children, and other passengers.",1,,0.7,3730,11,3741
+news,5,hybrid_gistselect_rawanswer,False,AC Milan,1,,0.6,433,3,436
+news,6,hybrid_gistselect_rawanswer,False,Top scorer.,1,,0.6,750,4,754
+news,7,hybrid_gistselect_rawanswer,False,I don't have that information.,1,,0.6,661,8,669
+news,8,hybrid_gistselect_rawanswer,False,No information is given about Heineken sponsoring a program.,1,,0.5,954,13,967
+news,12,hybrid_gistselect_rawanswer,False,Palestinian militants.,1,,0.5,2588,5,2593
+news,9,hybrid_gistselect_rawanswer,False,No information provided.,1,,1.0,2586,5,2591
+news,11,hybrid_gistselect_rawanswer,False,Afghanistan.,1,,0.6,6816,5,6821
+news,10,hybrid_gistselect_rawanswer,True,June 2002.,1,,0.4,2302,6,2308
+news,14,hybrid_gistselect_rawanswer,True,Three Chinese nationals.,1,,0.6,6126,5,6131
+news,15,hybrid_gistselect_rawanswer,True,Assistant Attorney General Alice Fisher.,1,,0.6,6135,7,6142
+news,13,hybrid_gistselect_rawanswer,False,2004.,1,,0.6,6422,4,6426
+news,16,hybrid_gistselect_rawanswer,False,Inter Milan,1,,0.4,2123,3,2126
+news,17,hybrid_gistselect_rawanswer,False,Demand democracy in Pakistan.,1,,1.3,4910,6,4916
+news,18,hybrid_gistselect_rawanswer,False,Yes.,1,,0.9,1487,3,1490
+news,20,hybrid_gistselect_rawanswer,False,None mentioned.,1,,0.7,549,4,553
+news,19,hybrid_gistselect_rawanswer,True,Julio Cruz.,1,,1.7,2128,5,2133
+news,21,hybrid_gistselect_rawanswer,False,No copter mentioned.,1,,39.4,2935,6,2941
+news,22,hybrid_gistselect_rawanswer,False,No information provided.,1,,39.1,757,5,762
+news,24,hybrid_gistselect_rawanswer,False,No information.,1,,39.5,7031,4,7035
+news,23,hybrid_gistselect_rawanswer,False,No boat mentioned.,1,,40.0,495,5,500
+news,25,hybrid_gistselect_rawanswer,True,Jena 6,1,,0.4,6632,5,6637
+news,27,hybrid_gistselect_rawanswer,False,Hugo Chavez.,1,,0.9,5536,5,5541
+news,28,hybrid_gistselect_rawanswer,False,No.,1,,0.5,438,3,441
+news,26,hybrid_gistselect_rawanswer,False,There is no mention of Uribite in the passage.,1,,2.1,6997,13,7010
+news,31,hybrid_gistselect_rawanswer,True,New Delhi.,1,,1.3,4917,4,4921
+news,29,hybrid_gistselect_rawanswer,False,AC Milan.,1,,2.6,660,4,664
+news,32,hybrid_gistselect_rawanswer,True,"100,000",1,,5.9,5139,4,5143
+news,33,hybrid_gistselect_rawanswer,False,Federal drug investigators.,1,,4.5,6607,5,6612
+news,34,hybrid_gistselect_rawanswer,False,No one.,1,,4.8,6754,4,6758
+news,30,hybrid_gistselect_rawanswer,True,Baku.,1,,8.3,7029,4,7033
+news,36,hybrid_gistselect_rawanswer,False,Rugby broadcaster.,1,,0.5,6923,6,6929
+news,37,hybrid_gistselect_rawanswer,False,Chief of the Defence Force Air Chief Marshal Angus Houston.,1,,0.3,6813,12,6825
+news,35,hybrid_gistselect_rawanswer,False,No information is available about Ray Gravell.,1,,0.9,3462,11,3473
+news,38,hybrid_gistselect_rawanswer,False,Six Italian soldiers.,1,,0.8,7034,5,7039
+news,41,hybrid_gistselect_rawanswer,False,Pakistani police officers.,1,,1.1,717,7,724
+news,42,hybrid_gistselect_rawanswer,False,Johannesburg.,1,,1.1,2935,6,2941
+news,39,hybrid_gistselect_rawanswer,False,Dida,1,,2.7,545,3,548
+news,43,hybrid_gistselect_rawanswer,False,There is no mention of the House resolution or the killing of Armenians in the provided passage.,1,,1.8,1208,20,1228
+news,44,hybrid_gistselect_rawanswer,False,Referendum on a new constitution.,1,,1.6,4767,8,4775
+news,40,hybrid_gistselect_rawanswer,False,Withdraw cash.,1,,4.2,3574,4,3578
+news,45,hybrid_gistselect_rawanswer,False,We will have to determine where everybody is.,1,,0.9,7279,10,7289
+news,47,hybrid_gistselect_rawanswer,False,3 years.,1,,1.3,6123,4,6127
+news,48,hybrid_gistselect_rawanswer,False,Nothing.,1,,0.9,6826,3,6829
+news,49,hybrid_gistselect_rawanswer,False,Iraq.,1,,0.3,3730,3,3733
+news,50,hybrid_gistselect_rawanswer,False,No information.,1,,0.3,2870,4,2874
+news,46,hybrid_gistselect_rawanswer,False,H2O Guard.,1,,2.4,497,6,503
+news,54,hybrid_gistselect_rawanswer,False,Fighting.,1,,39.6,713,4,717
+news,52,hybrid_gistselect_rawanswer,False,No information.,1,,40.4,2207,4,2211
+news,53,hybrid_gistselect_rawanswer,True,Debra Lafave.,1,,39.9,6198,6,6204
+news,51,hybrid_gistselect_rawanswer,False,Anthony Peters.,1,,40.6,5406,4,5410
+news,56,hybrid_gistselect_rawanswer,False,1-1.,1,,0.8,2765,5,2770
+news,58,hybrid_gistselect_rawanswer,False,The jawans.,1,,1.2,6277,5,6282
+news,57,hybrid_gistselect_rawanswer,False,Colonoscopy.,1,,1.4,2297,5,2302
+news,55,hybrid_gistselect_rawanswer,False,No information.,1,,1.9,845,4,849
+news,59,hybrid_gistselect_rawanswer,False,There is no information about female-only buses in the passage.,1,,1.9,3543,13,3556
+news,61,hybrid_gistselect_rawanswer,False,No one mentioned.,1,,1.3,5024,5,5029
+news,64,hybrid_gistselect_rawanswer,False,Members of parliament.,1,,4.2,1111,5,1116
+news,63,hybrid_gistselect_rawanswer,True,226,1,,4.3,903,2,905
+news,62,hybrid_gistselect_rawanswer,False,Not found.,1,,6.9,6540,4,6544
+news,60,hybrid_gistselect_rawanswer,False,No information provided.,1,,7.3,2162,5,2167
+news,65,hybrid_gistselect_rawanswer,True,Princess Eugenie.,1,,1.3,849,6,855
+news,67,hybrid_gistselect_rawanswer,False,Early release of Nalini Sriharan.,1,,1.6,4905,11,4916
+news,66,hybrid_gistselect_rawanswer,True,National Hurricane Center.,1,,1.4,7459,5,7464
+news,68,hybrid_gistselect_rawanswer,True,Michael Vick,1,,1.6,6126,3,6129
+news,72,hybrid_gistselect_rawanswer,False,Heidi Tagliavini.,1,,0.6,1765,8,1773
+news,70,hybrid_gistselect_rawanswer,False,No answer available in the text.,1,,0.9,6592,8,6600
+news,71,hybrid_gistselect_rawanswer,False,No answer available.,1,,2.0,2861,5,2866
+news,73,hybrid_gistselect_rawanswer,True,Liquid.,1,,0.8,2708,3,2711
+news,69,hybrid_gistselect_rawanswer,False,Bail until sentencing.,1,,3.3,2597,6,2603
+news,75,hybrid_gistselect_rawanswer,False,No information provided.,1,,0.4,437,5,442
+news,74,hybrid_gistselect_rawanswer,False,Youssif's father.,1,,2.1,2936,7,2943
+news,77,hybrid_gistselect_rawanswer,True,The August war between Georgia and Russia.,1,,0.3,1770,9,1779
+news,78,hybrid_gistselect_rawanswer,False,Eme Zuru Ayortor.,1,,0.9,657,9,666
+news,76,hybrid_gistselect_rawanswer,True,Falsely imprisoning a male escort.,1,,1.8,5208,10,5218
+news,80,hybrid_gistselect_rawanswer,False,None mentioned.,1,,0.3,1971,4,1975
+news,79,hybrid_gistselect_rawanswer,True,Chip Auman's.,1,,0.9,841,6,847
+news,81,hybrid_gistselect_rawanswer,False,Boy George,1,,40.1,6877,3,6880
+news,82,hybrid_gistselect_rawanswer,False,F-15s.,1,,38.7,7185,6,7191
+news,83,hybrid_gistselect_rawanswer,False,There is no mention of the F-15.,1,,39.8,967,11,978
+news,84,hybrid_gistselect_rawanswer,False,AIG's office.,1,,39.0,3580,6,3586
+news,85,hybrid_gistselect_rawanswer,False,No information is given about Francesco Totti.,1,,0.9,433,10,443
+news,88,hybrid_gistselect_rawanswer,True,February.,1,,0.9,7099,3,7102
+news,87,hybrid_gistselect_rawanswer,False,No.,1,,1.1,493,3,496
+news,86,hybrid_gistselect_rawanswer,False,Engine fell off.,1,,1.4,4305,5,4310
+news,91,hybrid_gistselect_rawanswer,True,Battling hot spots.,1,,1.1,2203,7,2210
+news,89,hybrid_gistselect_rawanswer,False,No specific plan mentioned.,1,,2.2,7026,6,7032
+news,90,hybrid_gistselect_rawanswer,True,Hellish inferno.,1,,6.8,2205,6,2211
+news,94,hybrid_gistselect_rawanswer,False,No information is provided.,1,,4.3,501,6,507
+news,93,hybrid_gistselect_rawanswer,False,A wheelchair.,1,,4.6,2426,4,2430
+news,92,hybrid_gistselect_rawanswer,False,£125 million.,1,,6.8,435,5,440
+news,96,hybrid_gistselect_rawanswer,False,Catastrophic engine failure.,1,,0.9,4479,8,4487
+news,98,hybrid_gistselect_rawanswer,False,Cape Town to Johannesburg.,1,,0.9,2933,7,2940
+news,97,hybrid_gistselect_rawanswer,False,No information is given about Anbar.,1,,1.1,1101,9,1110
+news,95,hybrid_gistselect_rawanswer,False,None mentioned.,1,,1.1,2161,4,2165
+news,99,hybrid_gistselect_rawanswer,False,No information.,1,,1.1,435,4,439
+news,102,hybrid_gistselect_rawanswer,False,26.,1,,1.1,5107,3,5110
+news,103,hybrid_gistselect_rawanswer,False,No information.,1,,0.4,7029,4,7033
+news,104,hybrid_gistselect_rawanswer,False,The ground.,1,,1.2,4225,4,4229
+news,100,hybrid_gistselect_rawanswer,True,July.,1,,3.4,4904,3,4907
+news,101,hybrid_gistselect_rawanswer,False,4.7 pounds of cocaine.,1,,3.8,1948,8,1956
+news,105,hybrid_gistselect_rawanswer,False,The asphalt that should be under my feet was 8 feet in the air.,1,,0.6,6845,17,6862
+news,107,hybrid_gistselect_rawanswer,False,Johannesburg.,1,,0.2,2934,6,2940
+news,106,hybrid_gistselect_rawanswer,False,North Sumatra.,1,,0.8,6871,5,6876
+news,108,hybrid_gistselect_rawanswer,False,Inflatable floats.,1,,0.3,1488,6,1494
+news,110,hybrid_gistselect_rawanswer,True,Eme Zuru Ayortor.,1,,0.4,4905,9,4914
+news,111,hybrid_gistselect_rawanswer,False,"Over 1,300 Palestinians.",1,,0.6,496,8,504
+news,112,hybrid_gistselect_rawanswer,False,Kris Charles,1,,39.9,2302,4,2306
+news,113,hybrid_gistselect_rawanswer,False,40,1,,39.7,6510,2,6512
+news,114,hybrid_gistselect_rawanswer,False,No information about Bout is given in the passage.,1,,39.6,4161,11,4172
+news,109,hybrid_gistselect_rawanswer,False,38 years.,1,,41.6,1402,4,1406
+news,116,hybrid_gistselect_rawanswer,False,53,1,,0.6,1768,2,1770
+news,117,hybrid_gistselect_rawanswer,False,Rotten trash.,1,,1.0,7098,5,7103
+news,115,hybrid_gistselect_rawanswer,False,Mishaps.,1,,1.8,1113,5,1118
+news,118,hybrid_gistselect_rawanswer,False,€1.8 billion,1,,2.2,3578,6,3584
+news,119,hybrid_gistselect_rawanswer,False,No information provided.,1,,1.3,964,5,969
+news,121,hybrid_gistselect_rawanswer,False,46,1,,1.2,2161,2,2163
+news,120,hybrid_gistselect_rawanswer,True,George H.W. Bush and Barbara Bush.,1,,6.1,3402,10,3412
+news,123,hybrid_gistselect_rawanswer,False,There is no information about Youssif meeting Lassie in the passage.,1,,4.2,549,17,566
+news,124,hybrid_gistselect_rawanswer,False,Ivan's birth.,1,,5.2,1330,6,1336
+news,122,hybrid_gistselect_rawanswer,False,No survivors.,1,,5.2,3574,4,3578
+news,126,hybrid_gistselect_rawanswer,False,No information.,1,,1.6,3377,4,3381
+news,125,hybrid_gistselect_rawanswer,True,Andrea Bocelli.,1,,2.4,2427,7,2434
+news,127,hybrid_gistselect_rawanswer,True,Moninder Singh Pandher.,1,,1.0,1108,7,1115
+news,128,hybrid_gistselect_rawanswer,False,No information provided.,1,,1.9,2711,5,2716
+news,129,hybrid_gistselect_rawanswer,False,Princess Eugenie,1,,1.1,839,5,844
+news,130,hybrid_gistselect_rawanswer,False,No information.,1,,0.6,4907,4,4911
+news,132,hybrid_gistselect_rawanswer,False,Yes.,1,,1.1,2301,3,2304
+news,133,hybrid_gistselect_rawanswer,True,Stress cracks.,1,,1.2,2028,5,2033
+news,134,hybrid_gistselect_rawanswer,False,No information.,1,,1.5,6815,4,6819
+news,131,hybrid_gistselect_rawanswer,False,No answer available.,1,,3.6,1480,5,1485
+news,135,hybrid_gistselect_rawanswer,False,No information provided about Chavez.,1,,0.6,1481,7,1488
+news,136,hybrid_gistselect_rawanswer,False,Colonoscopy,1,,0.8,3668,4,3672
+news,137,hybrid_gistselect_rawanswer,False,White powder.,1,,0.7,7027,4,7031
+news,139,hybrid_gistselect_rawanswer,False,Mississippi.,1,,0.4,7026,4,7030
+news,140,hybrid_gistselect_rawanswer,False,No one.,1,,0.9,1401,4,1405
+news,138,hybrid_gistselect_rawanswer,False,Handbags.,1,,1.5,6127,4,6131
+news,142,hybrid_gistselect_rawanswer,False,"Madrid, Spain.",1,,39.7,6123,6,6129
+news,144,hybrid_gistselect_rawanswer,False,Ivan Cameron.,1,,39.3,1328,5,1333
+news,141,hybrid_gistselect_rawanswer,False,Not specified.,1,,40.8,7028,4,7032
+news,143,hybrid_gistselect_rawanswer,False,The Venetian Casino Resort.,1,,40.0,6131,8,6139
+news,146,hybrid_gistselect_rawanswer,False,Helicopter and PA-32.,1,,0.5,4309,8,4317
+news,148,hybrid_gistselect_rawanswer,True,Heart disease.,1,,0.3,2426,4,2430
+news,147,hybrid_gistselect_rawanswer,False,Bombing.,1,,0.5,6842,4,6846
+news,145,hybrid_gistselect_rawanswer,False,Knowingly transferring the HIV virus.,1,,1.9,2162,8,2170
+news,149,hybrid_gistselect_rawanswer,False,Nothing.,1,,0.7,663,3,666
+news,152,hybrid_gistselect_rawanswer,False,US Airways.,1,,0.8,2936,4,2940
+news,151,hybrid_gistselect_rawanswer,False,Condoleezza Rice,1,,6.1,7027,6,7033
+news,154,hybrid_gistselect_rawanswer,False,No information provided.,1,,3.8,3924,5,3929
+news,153,hybrid_gistselect_rawanswer,False,Nothing is mentioned.,1,,3.8,1421,5,1426
+news,150,hybrid_gistselect_rawanswer,False,No information.,1,,6.4,6123,4,6127
+news,155,hybrid_gistselect_rawanswer,False,J.K. Rowling,1,,0.9,2432,5,2437
+news,156,hybrid_gistselect_rawanswer,False,Afghanistan.,1,,1.0,3135,5,3140
+news,157,hybrid_gistselect_rawanswer,False,indigenous majority.,1,,1.2,1483,5,1488
+news,158,hybrid_gistselect_rawanswer,False,No mention of Donna Greenwell.,1,,1.3,955,8,963
+news,161,hybrid_gistselect_rawanswer,False,Not mentioned.,1,,1.1,7093,4,7097
+news,159,hybrid_gistselect_rawanswer,True,Holding veterans care funding hostage.,1,,2.4,1205,8,1213
+news,160,hybrid_gistselect_rawanswer,True,Spending.,1,,2.5,1208,4,1212
+news,163,hybrid_gistselect_rawanswer,False,Gianluigi Buffon.,1,,0.5,2124,8,2132
+news,162,hybrid_gistselect_rawanswer,False,Whales and dolphins stranding together.,1,,3.3,1401,9,1410
+news,165,hybrid_gistselect_rawanswer,False,No information.,1,,0.9,3840,4,3844
+news,166,hybrid_gistselect_rawanswer,False,Video.,1,,0.5,4228,3,4231
+news,168,hybrid_gistselect_rawanswer,False,Sevilla.,1,,0.7,1187,4,1191
+news,164,hybrid_gistselect_rawanswer,False,No information.,1,,1.2,955,4,959
+news,169,hybrid_gistselect_rawanswer,False,No mention.,1,,0.6,546,4,550
+news,167,hybrid_gistselect_rawanswer,True,David Beckham.,1,,1.8,338,4,342
+news,170,hybrid_gistselect_rawanswer,False,No information.,1,,0.6,7028,4,7032
+news,171,hybrid_gistselect_rawanswer,False,Imposing a state of emergency.,1,,39.2,4907,8,4915
+news,173,hybrid_gistselect_rawanswer,True,Her role as Julia Sugarbaker.,1,,39.3,6894,9,6903
+news,174,hybrid_gistselect_rawanswer,False,Hamid Karzai.,1,,38.7,1483,7,1490
+news,172,hybrid_gistselect_rawanswer,False,There is no mention of Philadelphia in the passage.,1,,39.9,493,11,504
+news,176,hybrid_gistselect_rawanswer,False,15 months.,1,,0.4,2712,4,2716
+news,175,hybrid_gistselect_rawanswer,False,No information.,1,,1.2,2142,4,2146
+news,177,hybrid_gistselect_rawanswer,False,"""Bad Day""",1,,1.0,959,5,964
+news,178,hybrid_gistselect_rawanswer,False,No one mentioned.,1,,0.8,4158,5,4163
+news,179,hybrid_gistselect_rawanswer,False,Freedom Power.,1,,1.8,1207,4,1211
+news,182,hybrid_gistselect_rawanswer,False,Not specified.,1,,1.4,7201,4,7205
+news,180,hybrid_gistselect_rawanswer,False,Critical care program.,1,,7.1,1206,5,1211
+news,184,hybrid_gistselect_rawanswer,False,1961,1,,4.2,495,3,498
+news,181,hybrid_gistselect_rawanswer,False,No mention.,1,,6.4,3319,4,3323
+news,183,hybrid_gistselect_rawanswer,False,No information is provided about an extinct sea creature fossil sale.,1,,5.1,1493,13,1506
+news,186,hybrid_gistselect_rawanswer,False,7.5 percent.,1,,1.2,343,6,349
+news,185,hybrid_gistselect_rawanswer,False,The Statue of Liberty's crown.,1,,1.5,7030,8,7038
+news,187,hybrid_gistselect_rawanswer,False,Reeling.,1,,1.6,3574,4,3578
+news,188,hybrid_gistselect_rawanswer,False,"Concerned local citizens, U.S. and Iraqi forces, and local Sunni ""awakening councils"".",1,,1.8,3733,21,3754
+news,190,hybrid_gistselect_rawanswer,False,Bad weather.,1,,1.1,4612,4,4616
+news,191,hybrid_gistselect_rawanswer,False,No damage.,1,,1.1,495,4,499
+news,192,hybrid_gistselect_rawanswer,True,One of Sin Hwa Dee's factories.,1,,2.6,6728,10,6738
+news,189,hybrid_gistselect_rawanswer,True,Yuvraj Singh.,1,,3.8,761,6,767
+news,194,hybrid_gistselect_rawanswer,False,Private Luke Worsley.,1,,1.1,6798,7,6805
+news,195,hybrid_gistselect_rawanswer,False,"Bridgeport, Alabama.",1,,0.5,497,6,503
+news,193,hybrid_gistselect_rawanswer,True,24 years.,1,,2.4,399,4,403
+news,197,hybrid_gistselect_rawanswer,False,None.,1,,0.6,396,3,399
+news,198,hybrid_gistselect_rawanswer,False,White powder,1,,0.6,7029,3,7032
+news,196,hybrid_gistselect_rawanswer,False,No.,1,,1.5,3135,3,3138
+news,199,hybrid_gistselect_rawanswer,False,A biographical comedy-drama film.,1,,0.9,1555,9,1564
+news,200,hybrid_gistselect_rawanswer,True,Augustin Binya.,1,,1.5,548,6,554
+novel,00950a36_1,hybrid_gistselect_rawanswer,False,No one in the passage.,1,,37.7,4299,7,4306
+novel,00950a36_5,hybrid_gistselect_rawanswer,True,Conan and Olivia.,1,,38.5,5852,6,5858
+novel,00950a36_2,hybrid_gistselect_rawanswer,False,Papeete.,1,,38.5,5855,5,5860
+novel,00950a36_0,hybrid_gistselect_rawanswer,True,Shah Amurath.,1,,38.8,7748,7,7755
+novel,00950a36_6,hybrid_gistselect_rawanswer,False,"There is no information about someone being made ""Queen of the Blue Sea"".",1,,0.4,1057,16,1073
+novel,00950a36_7,hybrid_gistselect_rawanswer,True,Conan.,1,,0.6,7749,4,7753
+novel,00950a36_8,hybrid_gistselect_rawanswer,False,No information provided.,1,,0.8,1054,5,1059
+novel,00950a36_9,hybrid_gistselect_rawanswer,True,Akif.,1,,0.7,7740,4,7744
+novel,00950a36_11,hybrid_gistselect_rawanswer,False,There is no information about Conan being made a captain.,1,,1.0,1053,12,1065
+novel,00950a36_12,hybrid_gistselect_rawanswer,False,Papeete.,1,,1.1,5850,5,5855
+novel,00950a36_10,hybrid_gistselect_rawanswer,True,Conan.,1,,7.2,7743,4,7747
+novel,00950a36_13,hybrid_gistselect_rawanswer,False,Hyrkanians.,1,,6.9,7741,6,7747
+novel,00950a36_14,hybrid_gistselect_rawanswer,False,A rock.,1,,5.1,7744,4,7748
+novel,00950a36_15,hybrid_gistselect_rawanswer,False,No information is given about a pirate ship or its captain being killed.,1,,5.0,1056,15,1071
+novel,3e966645_2,hybrid_gistselect_rawanswer,False,Mr. Saul.,1,,0.8,1092,5,1097
+novel,3e966645_4,hybrid_gistselect_rawanswer,False,Water.,1,,1.0,7820,3,7823
+novel,3e966645_5,hybrid_gistselect_rawanswer,False,There is no information about the former officers dying from an illness.,1,,0.9,1056,14,1070
+novel,3e966645_1,hybrid_gistselect_rawanswer,False,The steppes.,1,,1.0,7745,6,7751
+novel,3e966645_8,hybrid_gistselect_rawanswer,False,Freshwater Gate.,1,,0.9,1058,5,1063
+novel,3e966645_7,hybrid_gistselect_rawanswer,False,There is no mention of the U.S. Consul or the ship in the provided passage.,1,,1.3,7825,20,7845
+novel,3e966645_6,hybrid_gistselect_rawanswer,False,Pythias.,1,,2.7,1054,5,1059
+novel,3e966645_11,hybrid_gistselect_rawanswer,False,No information provided.,1,,0.8,2035,5,2040
+novel,3e966645_10,hybrid_gistselect_rawanswer,False,There is no information about a schooner in the passage.,1,,1.1,1059,13,1072
+novel,3e966645_12,hybrid_gistselect_rawanswer,False,No information.,1,,0.9,1058,4,1062
+novel,3e966645_9,hybrid_gistselect_rawanswer,False,I don't have the information to answer your question.,1,,4.6,539,12,551
+novel,3e966645_17,hybrid_gistselect_rawanswer,False,Off Heligoland.,1,,1.2,2039,6,2045
+novel,3e966645_16,hybrid_gistselect_rawanswer,False,Nothing.,1,,1.6,7742,3,7745
+novel,3e966645_19,hybrid_gistselect_rawanswer,False,There is no information about beggars in Papeete.,1,,1.3,1073,13,1086
+novel,3e966645_21,hybrid_gistselect_rawanswer,False,No information is given about the US Counsel or the schooner.,1,,0.5,1068,14,1082
+novel,3e966645_20,hybrid_gistselect_rawanswer,False,There is no information about a schooner in the passage.,1,,1.6,1067,13,1080
+novel,6a659de3_3,hybrid_gistselect_rawanswer,False,None.,1,,38.0,3908,3,3911
+novel,3e966645_22,hybrid_gistselect_rawanswer,False,No information is provided about Davis and others planning to take a ship to a different location.,1,,40.4,1063,19,1082
+novel,6a659de3_2,hybrid_gistselect_rawanswer,False,Professor H. M. Wogglebug.,1,,39.8,3916,10,3926
+novel,3e966645_23,hybrid_gistselect_rawanswer,False,There is no mention of beggars or a Tahitian port in the provided text.,1,,40.8,7184,18,7202
+novel,6a659de3_4,hybrid_gistselect_rawanswer,False,Olivia.,1,,1.0,7751,4,7755
+novel,6a659de3_5,hybrid_gistselect_rawanswer,False,There is no mention of Vincey or Leo in the provided text.,1,,0.7,6455,15,6470
+novel,6a659de3_6,hybrid_gistselect_rawanswer,False,Ozma.,1,,0.6,7691,5,7696
+novel,6a659de3_7,hybrid_gistselect_rawanswer,False,The Emerald City.,1,,0.8,5855,5,5860
+novel,6a659de3_8,hybrid_gistselect_rawanswer,False,Adam.,1,,1.8,7068,3,7071
+novel,6a659de3_12,hybrid_gistselect_rawanswer,False,No one.,1,,0.5,6455,4,6459
+novel,6a659de3_11,hybrid_gistselect_rawanswer,False,There is no mention of a character named Leo in the provided passage.,1,,6.6,7740,15,7755
+novel,6a659de3_14,hybrid_gistselect_rawanswer,False,Harry Clavering.,1,,6.2,6968,6,6974
+novel,9561a72a_0,hybrid_gistselect_rawanswer,False,There is no information about Dorothy Gale in the provided passage.,1,,4.7,6451,13,6464
+novel,6a659de3_17,hybrid_gistselect_rawanswer,False,No one in the provided passage.,1,,4.9,7098,8,7106
+novel,9561a72a_1,hybrid_gistselect_rawanswer,True,Princess Ozma.,1,,0.6,3916,6,3922
+novel,9561a72a_3,hybrid_gistselect_rawanswer,False,Off Heligoland.,1,,0.5,1057,6,1063
+novel,9561a72a_5,hybrid_gistselect_rawanswer,False,"Her sister, Hermione, and her brother-in-law, Sir Hugh Clavering.",1,,0.6,6450,18,6468
+novel,9561a72a_7,hybrid_gistselect_rawanswer,False,Not specified.,1,,0.4,3910,4,3914
+novel,9561a72a_11,hybrid_gistselect_rawanswer,False,Guph,1,,1.0,3917,4,3921
+novel,9561a72a_10,hybrid_gistselect_rawanswer,False,I cannot answer that question as it is not present in the provided text.,1,,1.3,3047,16,3063
+novel,9561a72a_9,hybrid_gistselect_rawanswer,False,Uncle Henry and Aunt Em.,1,,2.4,7450,8,7458
+novel,9561a72a_12,hybrid_gistselect_rawanswer,True,Guph.,1,,2.7,3916,5,3921
+novel,bf55d1c1_0,hybrid_gistselect_rawanswer,False,There is no mention of Adam or him purchasing anything to kill snakes.,1,,1.4,7744,15,7759
+novel,bf55d1c1_2,hybrid_gistselect_rawanswer,False,Olivia.,1,,0.8,7742,4,7746
+novel,bf55d1c1_1,hybrid_gistselect_rawanswer,False,No one.,1,,2.3,6448,4,6452
+novel,bf55d1c1_4,hybrid_gistselect_rawanswer,False,No information.,1,,0.5,3908,4,3912
+novel,bf55d1c1_3,hybrid_gistselect_rawanswer,False,"There is no mention of Adam, Richard, and Nathaniel in the passage.",1,,1.2,7749,17,7766
+novel,bf55d1c1_5,hybrid_gistselect_rawanswer,False,"The Nome King's General, Guph.",1,,0.4,3911,11,3922
+novel,bf55d1c1_10,hybrid_gistselect_rawanswer,True,Sir Nathaniel de Salis.,1,,0.5,5116,8,5124
+novel,bf55d1c1_6,hybrid_gistselect_rawanswer,False,A mole.,1,,1.0,5854,4,5858
+novel,bf55d1c1_9,hybrid_gistselect_rawanswer,False,No specific time period mentioned.,1,,40.1,1054,7,1061
+novel,bf55d1c1_12,hybrid_gistselect_rawanswer,True,Australia.,1,,38.5,5112,3,5115
+novel,bf55d1c1_11,hybrid_gistselect_rawanswer,False,No answer available in the given passage.,1,,39.4,7700,9,7709
+novel,ca4b98f5_0,hybrid_gistselect_rawanswer,False,SHADOWS IN THE MOONLIGHT,1,,39.2,4161,9,4170
+novel,ca4b98f5_1,hybrid_gistselect_rawanswer,True,Harry Clavering.,1,,0.5,5052,6,5058
+novel,ca4b98f5_4,hybrid_gistselect_rawanswer,False,No one is mentioned.,1,,0.7,6449,6,6455
+novel,ca4b98f5_3,hybrid_gistselect_rawanswer,False,Clavering.,1,,0.7,6456,5,6461
+novel,ca4b98f5_2,hybrid_gistselect_rawanswer,False,None mentioned.,1,,2.9,7090,4,7094
+novel,ca4b98f5_6,hybrid_gistselect_rawanswer,False,Julia Brabazon.,1,,0.8,3361,7,3368
+novel,ca4b98f5_8,hybrid_gistselect_rawanswer,False,No one.,1,,1.0,3358,4,3362
+novel,ca4b98f5_11,hybrid_gistselect_rawanswer,False,Sir Hugh.,1,,3.9,3360,4,3364
+novel,ca4b98f5_12,hybrid_gistselect_rawanswer,False,Mr. Burton.,1,,4.0,6968,5,6973
+novel,ca4b98f5_10,hybrid_gistselect_rawanswer,True,Lord Ongar.,1,,5.7,3354,6,3360
+novel,ca4b98f5_13,hybrid_gistselect_rawanswer,False,Harry Clavering.,1,,4.6,6452,6,6458
+novel,ca4b98f5_15,hybrid_gistselect_rawanswer,False,None.,1,,0.9,3356,3,3359
+novel,ca4b98f5_16,hybrid_gistselect_rawanswer,False,His father.,1,,1.1,3355,4,3359
+novel,ca4b98f5_14,hybrid_gistselect_rawanswer,False,Merchant.,1,,1.4,7089,3,7092
+novel,ca4b98f5_17,hybrid_gistselect_rawanswer,True,Harry Clavering.,1,,1.6,6451,6,6457
+novel,ca4b98f5_18,hybrid_gistselect_rawanswer,False,Julia.,1,,1.8,6452,4,6456
+caselaw,7,hybrid_gistselect_rawanswer,False,5,1,,0.4,8798,2,8800
+caselaw,1,hybrid_gistselect_rawanswer,False,2,1,,0.5,8860,2,8862
+caselaw,3,hybrid_gistselect_rawanswer,True,5,1,,0.5,8784,2,8786
+caselaw,5,hybrid_gistselect_rawanswer,False,5,1,,0.5,8948,2,8950
+caselaw,9,hybrid_gistselect_rawanswer,True,5,1,,0.6,8839,2,8841
+caselaw,13,hybrid_gistselect_rawanswer,False,5,1,,0.4,8865,2,8867
+caselaw,15,hybrid_gistselect_rawanswer,True,1,1,,0.3,8771,2,8773
+caselaw,11,hybrid_gistselect_rawanswer,False,3,1,,0.4,8830,2,8832
+caselaw,17,hybrid_gistselect_rawanswer,False,4,1,,1.1,8886,2,8888
+caselaw,21,hybrid_gistselect_rawanswer,False,2,1,,0.4,8798,2,8800
+caselaw,23,hybrid_gistselect_rawanswer,False,2,1,,0.6,8903,2,8905
+caselaw,19,hybrid_gistselect_rawanswer,False,4,1,,39.5,8835,2,8837
+caselaw,25,hybrid_gistselect_rawanswer,False,3,1,,39.3,8782,2,8784
+caselaw,29,hybrid_gistselect_rawanswer,False,4,1,,38.2,8888,2,8890
+caselaw,27,hybrid_gistselect_rawanswer,True,2,1,,38.2,8816,2,8818
+caselaw,31,hybrid_gistselect_rawanswer,True,5,1,,1.1,8843,2,8845
+caselaw,33,hybrid_gistselect_rawanswer,False,4,1,,0.6,8833,2,8835
+caselaw,37,hybrid_gistselect_rawanswer,False,2,1,,0.8,8797,2,8799
+caselaw,35,hybrid_gistselect_rawanswer,True,2,1,,1.1,8899,2,8901
+caselaw,41,hybrid_gistselect_rawanswer,False,3,1,,0.7,8804,2,8806
+caselaw,45,hybrid_gistselect_rawanswer,False,2,1,,1.3,8841,2,8843
+caselaw,39,hybrid_gistselect_rawanswer,False,2,1,,6.8,8800,2,8802
+caselaw,43,hybrid_gistselect_rawanswer,False,5,1,,6.3,8855,2,8857
+caselaw,47,hybrid_gistselect_rawanswer,False,5,1,,4.2,8832,2,8834
+caselaw,49,hybrid_gistselect_rawanswer,True,5,1,,3.9,8827,2,8829
+caselaw,53,hybrid_gistselect_rawanswer,False,2,1,,0.6,8821,2,8823
+caselaw,57,hybrid_gistselect_rawanswer,False,4,1,,0.9,8874,2,8876
+caselaw,55,hybrid_gistselect_rawanswer,True,2,1,,1.0,8893,2,8895
+caselaw,51,hybrid_gistselect_rawanswer,True,5,1,,1.3,8823,2,8825
+caselaw,61,hybrid_gistselect_rawanswer,False,3,1,,1.3,8786,3,8789
+caselaw,67,hybrid_gistselect_rawanswer,True,5,1,,0.7,8811,2,8813
+caselaw,63,hybrid_gistselect_rawanswer,True,2,1,,3.8,8873,2,8875
+caselaw,59,hybrid_gistselect_rawanswer,False,4,1,,3.5,8905,2,8907
+caselaw,65,hybrid_gistselect_rawanswer,True,5,1,,3.5,8845,2,8847
+caselaw,69,hybrid_gistselect_rawanswer,False,3,1,,0.2,8785,2,8787
+caselaw,75,hybrid_gistselect_rawanswer,True,2,1,,0.9,8803,2,8805
+caselaw,77,hybrid_gistselect_rawanswer,False,2,1,,1.2,8820,2,8822
+caselaw,71,hybrid_gistselect_rawanswer,False,4,1,,1.7,8847,2,8849
+caselaw,73,hybrid_gistselect_rawanswer,False,3,1,,1.5,8806,2,8808
+caselaw,83,hybrid_gistselect_rawanswer,False,5,1,,0.5,8781,2,8783
+caselaw,81,hybrid_gistselect_rawanswer,False,3,1,,0.7,8865,2,8867
+caselaw,85,hybrid_gistselect_rawanswer,True,2,1,,39.4,8819,2,8821
+caselaw,87,hybrid_gistselect_rawanswer,False,3,1,,38.1,8832,2,8834
+caselaw,79,hybrid_gistselect_rawanswer,False,5,1,,40.4,8868,2,8870
+caselaw,89,hybrid_gistselect_rawanswer,True,4,1,,38.3,8810,2,8812
+caselaw,91,hybrid_gistselect_rawanswer,True,2,1,,0.5,8834,2,8836
+caselaw,93,hybrid_gistselect_rawanswer,False,5,1,,0.6,8869,2,8871
+caselaw,97,hybrid_gistselect_rawanswer,False,5,1,,0.8,8815,2,8817
+caselaw,95,hybrid_gistselect_rawanswer,False,4,1,,1.0,8824,2,8826
+caselaw,105,hybrid_gistselect_rawanswer,True,2,1,,1.2,8898,2,8900
+caselaw,101,hybrid_gistselect_rawanswer,False,3,1,,1.3,8801,2,8803
+caselaw,103,hybrid_gistselect_rawanswer,False,4,1,,6.2,8825,2,8827
+caselaw,109,hybrid_gistselect_rawanswer,False,3,1,,4.0,8864,2,8866
+caselaw,107,hybrid_gistselect_rawanswer,False,2,1,,4.0,8810,2,8812
+caselaw,99,hybrid_gistselect_rawanswer,False,4,1,,7.2,8853,2,8855
+caselaw,115,hybrid_gistselect_rawanswer,False,5,1,,1.2,8916,2,8918
+caselaw,111,hybrid_gistselect_rawanswer,False,3,1,,1.7,8840,2,8842
+caselaw,113,hybrid_gistselect_rawanswer,False,5,1,,1.8,8822,2,8824
+caselaw,117,hybrid_gistselect_rawanswer,False,4,1,,1.8,8945,2,8947
+caselaw,121,hybrid_gistselect_rawanswer,True,2,1,,1.2,8832,2,8834
+caselaw,123,hybrid_gistselect_rawanswer,True,5,1,,2.4,8822,2,8824
+caselaw,119,hybrid_gistselect_rawanswer,True,3,1,,3.9,8839,2,8841
+caselaw,127,hybrid_gistselect_rawanswer,False,2,1,,0.9,8808,2,8810
+caselaw,125,hybrid_gistselect_rawanswer,False,2,1,,3.5,8823,2,8825
+caselaw,133,hybrid_gistselect_rawanswer,False,4,1,,0.3,8813,2,8815
+caselaw,129,hybrid_gistselect_rawanswer,True,2,1,,0.8,8942,2,8944
+caselaw,131,hybrid_gistselect_rawanswer,False,2,1,,1.1,8846,2,8848
+caselaw,135,hybrid_gistselect_rawanswer,False,3,1,,1.3,9126,2,9128
+caselaw,137,hybrid_gistselect_rawanswer,False,4,1,,0.4,8994,2,8996
+caselaw,141,hybrid_gistselect_rawanswer,False,2,1,,0.7,8838,2,8840
+caselaw,139,hybrid_gistselect_rawanswer,False,4,1,,0.8,8841,2,8843
+caselaw,147,hybrid_gistselect_rawanswer,False,1,1,,38.3,8923,2,8925
+caselaw,149,hybrid_gistselect_rawanswer,False,5,1,,39.0,8871,2,8873
+caselaw,145,hybrid_gistselect_rawanswer,False,5,1,,39.5,8853,2,8855
+caselaw,143,hybrid_gistselect_rawanswer,True,5,1,,40.1,8951,2,8953
+caselaw,157,hybrid_gistselect_rawanswer,False,2,1,,1.2,8849,2,8851
+caselaw,155,hybrid_gistselect_rawanswer,False,2,1,,2.3,8880,2,8882
+caselaw,151,hybrid_gistselect_rawanswer,True,5,1,,2.6,8825,2,8827
+caselaw,153,hybrid_gistselect_rawanswer,False,2,1,,2.4,8903,2,8905
+caselaw,161,hybrid_gistselect_rawanswer,False,5,1,,0.9,8856,2,8858
+caselaw,159,hybrid_gistselect_rawanswer,True,5,1,,1.2,8855,2,8857
+caselaw,165,hybrid_gistselect_rawanswer,False,5,1,,6.1,8913,2,8915
+caselaw,167,hybrid_gistselect_rawanswer,False,2,1,,4.7,8845,2,8847
+caselaw,169,hybrid_gistselect_rawanswer,False,1,1,,5.6,8828,2,8830
+caselaw,163,hybrid_gistselect_rawanswer,True,4,1,,6.9,8788,2,8790
+caselaw,173,hybrid_gistselect_rawanswer,False,2,1,,0.7,8864,2,8866
+caselaw,175,hybrid_gistselect_rawanswer,True,2,1,,0.5,8803,2,8805
+caselaw,171,hybrid_gistselect_rawanswer,True,4,1,,3.4,8855,2,8857
+caselaw,181,hybrid_gistselect_rawanswer,False,3,1,,1.2,8818,2,8820
+caselaw,177,hybrid_gistselect_rawanswer,False,2,1,,3.2,8800,2,8802
+caselaw,183,hybrid_gistselect_rawanswer,True,2,1,,1.5,8876,2,8878
+caselaw,179,hybrid_gistselect_rawanswer,False,5,1,,3.4,8838,2,8840
+caselaw,185,hybrid_gistselect_rawanswer,True,2,1,,1.9,8828,2,8830
+caselaw,187,hybrid_gistselect_rawanswer,False,3,1,,1.6,8821,2,8823
+caselaw,193,hybrid_gistselect_rawanswer,False,5,1,,0.8,8916,2,8918
+caselaw,195,hybrid_gistselect_rawanswer,False,5,1,,1.2,8830,2,8832
+caselaw,189,hybrid_gistselect_rawanswer,False,3,1,,1.6,8815,2,8817
+caselaw,191,hybrid_gistselect_rawanswer,True,3,1,,1.8,8873,2,8875
+caselaw,197,hybrid_gistselect_rawanswer,False,5,1,,1.5,8853,2,8855
+caselaw,199,hybrid_gistselect_rawanswer,False,4,1,,0.3,8987,2,8989
+caselaw,201,hybrid_gistselect_rawanswer,True,3,1,,1.6,8857,2,8859
+caselaw,205,hybrid_gistselect_rawanswer,False,1,1,,38.9,8829,2,8831
+caselaw,209,hybrid_gistselect_rawanswer,True,5,1,,37.3,8828,2,8830
+caselaw,207,hybrid_gistselect_rawanswer,True,5,1,,39.0,8819,2,8821
+caselaw,203,hybrid_gistselect_rawanswer,False,4,1,,39.8,8813,2,8815
+caselaw,215,hybrid_gistselect_rawanswer,True,3,1,,0.8,8882,2,8884
+caselaw,217,hybrid_gistselect_rawanswer,False,4,1,,1.0,8826,2,8828
+caselaw,213,hybrid_gistselect_rawanswer,False,3,1,,1.2,8862,2,8864
+caselaw,211,hybrid_gistselect_rawanswer,True,4,1,,1.7,8927,2,8929
+caselaw,221,hybrid_gistselect_rawanswer,False,2,1,,1.1,8860,2,8862
+caselaw,225,hybrid_gistselect_rawanswer,False,5,1,,0.5,8891,2,8893
+caselaw,223,hybrid_gistselect_rawanswer,True,4,1,,6.6,8880,2,8882
+caselaw,227,hybrid_gistselect_rawanswer,False,4,1,,5.0,8900,2,8902
+caselaw,219,hybrid_gistselect_rawanswer,False,4,1,,6.8,8820,2,8822
+caselaw,229,hybrid_gistselect_rawanswer,False,1,1,,4.3,8778,2,8780
+caselaw,233,hybrid_gistselect_rawanswer,True,3,1,,1.6,8787,2,8789
+caselaw,237,hybrid_gistselect_rawanswer,True,4,1,,1.1,8867,2,8869
+caselaw,235,hybrid_gistselect_rawanswer,False,2,1,,1.6,8868,2,8870
+caselaw,231,hybrid_gistselect_rawanswer,True,2,1,,1.8,8962,2,8964
+caselaw,245,hybrid_gistselect_rawanswer,False,3,1,,1.2,8844,2,8846
+caselaw,243,hybrid_gistselect_rawanswer,False,5,1,,2.7,8846,2,8848
+caselaw,239,hybrid_gistselect_rawanswer,False,5,1,,4.0,8841,2,8843
+caselaw,247,hybrid_gistselect_rawanswer,False,4,1,,0.9,8871,2,8873
+caselaw,241,hybrid_gistselect_rawanswer,False,5,1,,3.4,8857,2,8859
+caselaw,249,hybrid_gistselect_rawanswer,False,2,1,,0.8,8821,2,8823
+caselaw,255,hybrid_gistselect_rawanswer,True,2,1,,1.0,8839,2,8841
+caselaw,251,hybrid_gistselect_rawanswer,False,2,1,,1.3,8768,2,8770
+caselaw,253,hybrid_gistselect_rawanswer,False,3,1,,1.4,8773,2,8775
+caselaw,257,hybrid_gistselect_rawanswer,True,3,1,,0.9,8832,2,8834
+caselaw,259,hybrid_gistselect_rawanswer,True,3,1,,1.0,8877,2,8879
+caselaw,261,hybrid_gistselect_rawanswer,False,2,1,,9.3,8978,2,8980
+caselaw,269,hybrid_gistselect_rawanswer,False,5,1,,29.2,8786,2,8788
+caselaw,263,hybrid_gistselect_rawanswer,False,4,1,,40.0,8808,2,8810
+caselaw,267,hybrid_gistselect_rawanswer,False,4,1,,39.5,8934,2,8936
+caselaw,265,hybrid_gistselect_rawanswer,False,3,1,,40.1,8844,2,8846
+caselaw,277,hybrid_gistselect_rawanswer,False,3,1,,0.6,8825,2,8827
+caselaw,271,hybrid_gistselect_rawanswer,False,2,1,,1.7,8860,2,8862
+caselaw,273,hybrid_gistselect_rawanswer,False,2,1,,1.3,8839,2,8841
+caselaw,275,hybrid_gistselect_rawanswer,False,4,1,,1.8,8820,2,8822
+caselaw,279,hybrid_gistselect_rawanswer,True,4,1,,1.1,8893,2,8895
+caselaw,283,hybrid_gistselect_rawanswer,True,5,1,,0.6,8889,2,8891
+caselaw,287,hybrid_gistselect_rawanswer,True,5,1,,5.1,8847,2,8849
+caselaw,281,hybrid_gistselect_rawanswer,False,4,1,,5.8,8882,2,8884
+caselaw,289,hybrid_gistselect_rawanswer,True,4,1,,4.6,8919,2,8921
+caselaw,285,hybrid_gistselect_rawanswer,False,5,1,,5.8,8837,2,8839
+caselaw,295,hybrid_gistselect_rawanswer,False,2,1,,1.4,8822,2,8824
+caselaw,297,hybrid_gistselect_rawanswer,False,2,1,,1.0,8866,2,8868
+caselaw,293,hybrid_gistselect_rawanswer,False,3,1,,1.6,8846,2,8848
+caselaw,299,hybrid_gistselect_rawanswer,True,4,1,,0.3,8911,2,8913
+caselaw,303,hybrid_gistselect_rawanswer,False,5,1,,0.4,8859,2,8861
+caselaw,305,hybrid_gistselect_rawanswer,True,4,1,,2.2,8848,2,8850
+caselaw,307,hybrid_gistselect_rawanswer,True,2,1,,0.9,8884,2,8886
+caselaw,301,hybrid_gistselect_rawanswer,False,2,1,,3.3,8875,2,8877
+caselaw,309,hybrid_gistselect_rawanswer,False,1,1,,0.4,8850,2,8852
+caselaw,311,hybrid_gistselect_rawanswer,True,2,1,,0.6,8812,2,8814
+caselaw,313,hybrid_gistselect_rawanswer,False,5,1,,1.5,8845,2,8847
+caselaw,315,hybrid_gistselect_rawanswer,False,4,1,,1.3,8826,2,8828
+caselaw,317,hybrid_gistselect_rawanswer,False,5,1,,0.5,8796,2,8798
+caselaw,319,hybrid_gistselect_rawanswer,False,3,1,,0.3,8869,2,8871
+caselaw,321,hybrid_gistselect_rawanswer,False,5,1,,0.3,8889,2,8891
+caselaw,325,hybrid_gistselect_rawanswer,True,5,1,,1.2,8869,2,8871
+caselaw,291,hybrid_gistselect_rawanswer,False,2,1,,36.8,8791,2,8793
+caselaw,329,hybrid_gistselect_rawanswer,False,5,1,,37.2,8930,2,8932
+caselaw,323,hybrid_gistselect_rawanswer,True,5,1,,39.5,8902,2,8904
+caselaw,327,hybrid_gistselect_rawanswer,False,2,1,,39.0,8789,3,8792
+caselaw,335,hybrid_gistselect_rawanswer,True,4,1,,0.8,8801,2,8803
+caselaw,331,hybrid_gistselect_rawanswer,False,2,1,,2.0,8858,2,8860
+caselaw,337,hybrid_gistselect_rawanswer,False,5,1,,0.9,8864,2,8866
+caselaw,333,hybrid_gistselect_rawanswer,False,5,1,,3.0,8918,2,8920
+caselaw,339,hybrid_gistselect_rawanswer,False,4,1,,1.3,8866,2,8868
+caselaw,341,hybrid_gistselect_rawanswer,True,2,1,,1.3,8810,2,8812
+caselaw,347,hybrid_gistselect_rawanswer,True,2,1,,5.0,8779,2,8781
+caselaw,345,hybrid_gistselect_rawanswer,False,2,1,,6.3,8814,2,8816
+caselaw,349,hybrid_gistselect_rawanswer,False,5,1,,5.4,8848,2,8850
+caselaw,353,hybrid_gistselect_rawanswer,False,3,1,,0.5,8910,2,8912
+caselaw,355,hybrid_gistselect_rawanswer,False,2,1,,0.3,8823,2,8825
+caselaw,357,hybrid_gistselect_rawanswer,False,3,1,,0.3,8868,2,8870
+caselaw,351,hybrid_gistselect_rawanswer,False,3,1,,3.2,8817,2,8819
+caselaw,359,hybrid_gistselect_rawanswer,False,1,1,,1.3,8761,2,8763
+caselaw,363,hybrid_gistselect_rawanswer,False,5,1,,1.5,8765,2,8767
+caselaw,365,hybrid_gistselect_rawanswer,False,1,1,,1.5,8809,2,8811
+caselaw,361,hybrid_gistselect_rawanswer,False,4,1,,3.7,8875,2,8877
+caselaw,367,hybrid_gistselect_rawanswer,False,3,1,,1.1,8824,2,8826
+caselaw,343,hybrid_gistselect_rawanswer,True,4,1,,16.2,8804,2,8806
+caselaw,373,hybrid_gistselect_rawanswer,False,3,1,,0.2,8791,2,8793
+caselaw,371,hybrid_gistselect_rawanswer,False,4,1,,2.1,8878,2,8880
+caselaw,377,hybrid_gistselect_rawanswer,False,4,1,,0.3,8833,2,8835
+caselaw,375,hybrid_gistselect_rawanswer,True,5,1,,0.6,8804,2,8806
+caselaw,379,hybrid_gistselect_rawanswer,True,4,1,,0.8,9012,2,9014
+caselaw,383,hybrid_gistselect_rawanswer,False,5,1,,0.4,8802,2,8804
+caselaw,369,hybrid_gistselect_rawanswer,False,4,1,,8.4,8783,2,8785
+caselaw,381,hybrid_gistselect_rawanswer,False,5,1,,38.4,8859,2,8861
+caselaw,389,hybrid_gistselect_rawanswer,False,4,1,,32.6,8790,2,8792
+caselaw,387,hybrid_gistselect_rawanswer,False,5,1,,38.0,8819,2,8821
+caselaw,385,hybrid_gistselect_rawanswer,False,5,1,,38.0,8796,2,8798
+caselaw,391,hybrid_gistselect_rawanswer,False,5,1,,1.7,8836,2,8838
+caselaw,393,hybrid_gistselect_rawanswer,False,3,1,,1.3,8848,2,8850
+caselaw,397,hybrid_gistselect_rawanswer,True,3,1,,1.3,8822,2,8824
+caselaw,395,hybrid_gistselect_rawanswer,False,2,1,,1.4,8827,2,8829
+caselaw,399,hybrid_gistselect_rawanswer,False,5,1,,1.3,8837,2,8839

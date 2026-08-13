@@ -1,6 +1,6 @@
 # Rehearse, Then Recall — Progress Report
 
-_Last updated: 2026-08-11_
+_Last updated: 2026-08-13 (pure RAG confirmed at full scale and beats rehearsal on every genre — §4.3 rewritten; gist-retrieval investigation trilogy, teacher-gist ceiling test, literature grounding, extractive query-aware pruning, length-stress test)_
 
 ## 1. What this project is testing
 
@@ -90,20 +90,31 @@ question, not yet tested.
 | **full_context** | **0.810** | **0.395** | **0.494** | **0.360** | 19,566 / 65,035 / 81,139 / 87,423 |
 | chunked_sequential (raw, 4-chunk budget) | 0.190 | 0.010 | 0.063 | 0.225 | — |
 | chunked_sequential_rehearsal (B alone, 4-chunk budget) | 0.230 | 0.010 | 0.051 | 0.185 | — |
-| full_context_rehearsal_lookup (gist map + 1-chunk lookup, cap 20) | 0.370 | 0.105 | 0.203 | 0.250 | 7,940 / 26,627 / — / 25,652 |
-| **full_context_rehearsal_lookup_retrieval** (+ embedding-similarity targeting) | **0.620** | **0.220** | **0.291** | **0.245** | ~50-70% fewer tokens than full_context in every genre |
+| full_context_rehearsal_lookup (gist map + 1-chunk lookup, cap 20) | 0.400 | 0.080 | 0.063 | 0.250 | 8,812 / 25,771 / 31,914 / 25,887 |
+| full_context_rehearsal_lookup_retrieval (+ embedding-similarity targeting) | 0.660 | 0.255 | 0.215 | 0.250 | 9,877 / 26,745 / 32,227 / 26,978 |
+| **full_context_rehearsal_lookup_adaptive** (Adaptive-k, no per-genre tuning) | **0.760** | **0.255** | 0.177 | **0.300** | 9,738 / 26,962 / 33,252 / 30,625 |
 
-**Reading this table**: `chunked_sequential_rehearsal` tests B in a regime
-where it structurally can't win (same 4-raw-chunk budget as the
-uncompressed baseline — compression has nothing to gain there). The real
-test starts at `full_context_rehearsal_lookup`: show every chunk's gist at
-once, let the model ask for raw text on 1+ specific chunks. Adding
-embedding-similarity retrieval as a second targeting signal
-(`+retrieval`) is a clear, validated win over plain lookup in every genre
-except caselaw — but no condition here beats `full_context` at full scale.
-Pooled across all 579 questions: full_context 0.515, lookup 0.232,
-lookup+retrieval 0.344. Token savings (50-70%) are real and robust
-regardless of the accuracy gap.
+**Reading this table (updated 2026-08-12 with adaptive-k now confirmed at
+full scale — previously pilot-only)**: `chunked_sequential_rehearsal` tests
+B in a regime where it structurally can't win (same 4-raw-chunk budget as
+the uncompressed baseline). The real test starts at
+`full_context_rehearsal_lookup`: show every chunk's gist at once, let the
+model ask for raw text on 1+ specific chunks. **Adaptive-k is now the best
+of the three gist-based conditions overall** (pooled: full_context 0.515,
+lookup 0.192, lookup+retrieval 0.318, lookup+adaptive 0.347) and gets
+closest to `full_context` on wiki (0.760 vs 0.810, a 0.05 gap) and caselaw
+(0.300 vs 0.360) — but **novel is the one genre where retrieval still beats
+adaptive** (0.215 vs 0.177), so "adaptive-k wins" is not uniform across
+genres. No condition here beats `full_context` outright at full scale.
+Token savings are real and large regardless: adaptive-k runs at 50-65%
+fewer tokens than `full_context` in every genre (e.g. wiki 9,738 vs 19,566).
+
+*(Note: the lookup/retrieval pooled numbers above differ slightly from an
+earlier reading of this table — 0.232/0.344 vs the current 0.192/0.318 —
+after a full re-run on 2026-08-12. Same checkpoint, same code; the gap is
+consistent with this project's own documented `full_context`
+non-reproducibility at temperature=0 (~3.5% row flips on rerun, §2 of `02`).
+The numbers above are from the complete, most recent n=579 run.)*
 
 ![Figure 2 — Token cost by genre x condition, full scale](docs/report_assets/fig2_tokens_full_scale.png)
 
@@ -111,12 +122,12 @@ regardless of the accuracy gap.
 
 ![Figure 5 — Accuracy per token, full scale](docs/report_assets/fig5_accuracy_per_token.png)
 
-| genre | full_context | chunked_seq | chunked_seq+rehearsal | lookup | lookup+retrieval |
-|---|---|---|---|---|---|
-| wiki | 0.414 | 0.426 | **1.317** | 0.425 | 0.636 |
-| news | 0.061 | 0.033 | 0.054 | 0.040 | **0.082** |
-| novel | 0.061 | 0.247 | **0.286** | 0.065 | 0.093 |
-| caselaw | 0.041 | 0.600 | **0.775** | 0.098 | 0.093 |
+| genre | full_context | chunked_seq | chunked_seq+rehearsal | lookup | lookup+retrieval | lookup+adaptive |
+|---|---|---|---|---|---|---|
+| wiki | 0.414 | 0.426 | **1.317** | 0.454 | 0.668 | 0.781 |
+| news | 0.061 | 0.033 | 0.054 | 0.031 | 0.095 | **0.095** |
+| novel | 0.061 | 0.247 | **0.286** | 0.020 | 0.067 | 0.053 |
+| caselaw | 0.041 | 0.600 | **0.775** | 0.097 | 0.093 | 0.098 |
 
 _(accuracy per 10,000 tokens; `closed_book` excluded — near-zero tokens makes its ratio a meaningless outlier)_
 
@@ -128,17 +139,28 @@ from the question alone. A condition that answers badly using very few
 tokens still scores well on this metric, because the denominator collapses
 faster than the numerator does. Use this figure to compare *among
 conditions that already clear a usable accuracy bar* (e.g. `lookup+retrieval`
-beats `full_context` on this metric in news, novel, and caselaw while also
-being reasonably accurate in absolute terms) — not as a standalone ranking.
+and `lookup+adaptive` both beat `full_context` on this metric in news,
+novel, and caselaw while also being reasonably accurate in absolute
+terms) — not as a standalone ranking.
 
 ### 4.2 Pilot-scale, provisional (n = 20/genre — **not yet confirmed at full scale**)
 
 ![Figure 3 — Per-genre cap and Adaptive-k vs. full-scale baselines](docs/report_assets/fig3_pilot_comparison.png)
 
+Adaptive-k is now confirmed at full scale (§4.1: caselaw 0.300) — kept here
+only for the direct pilot-scale comparison against the per-genre cap, which
+is still pilot-only:
+
 | condition | wiki | news | novel | caselaw |
 |---|---|---|---|---|
 | full_context_rehearsal_lookup_retrieval_pergenre (cap 5 for caselaw, 20 elsewhere) | 0.750 | 0.300 | 0.450 | **0.450** |
-| full_context_rehearsal_lookup_adaptive (Adaptive-k, no per-genre tuning) | 0.750 | 0.300 | 0.450 | 0.300 |
+| full_context_rehearsal_lookup_adaptive (pilot, n=20) | 0.750 | 0.300 | 0.450 | 0.300 |
+| full_context_rehearsal_lookup_adaptive (**full scale, n=200, §4.1**) | 0.760 | 0.255 | 0.177 | 0.300 |
+
+The full-scale adaptive-k number landed close to its own pilot on caselaw
+(0.300 both) but drifted on news (0.300→0.255) and novel (0.450→0.177) —
+another reminder that pilot numbers move at scale, in either direction, not
+just downward.
 
 `full_context_with_map` (`11`, full raw text + gist map, single call) —
 pilot deltas over `full_context`, pre-shortening-fix, **abandoned, not
@@ -176,6 +198,203 @@ it's *which* chunks, something a relative-score-margin rule over the same
 similarity ranking can't fix by moving its one threshold. Concluding this
 line of tuning here; see §7.
 
+### 4.3 Pure RAG vs. rehearsal — full investigation (confirmed at full scale, n=579)
+
+Every condition in §4.1 compresses first (B's stage-2 rehearsal), whether
+or not it also retrieves — nothing in §4.1-4.2 isolates whether the
+*rehearsal* step itself is contributing, versus the retrieval half doing
+all the work. This section reports a same-day investigation (2026-08-13)
+that started as that one missing control and expanded into eight further
+conditions once the control's result turned out to be decisive.
+
+#### 4.3.1 `raw_retrieval_adaptive` — the missing control, confirmed
+
+**No rehearsal checkpoint, no teacher, no compression anywhere** — embed
+the question, select chunks with the identical Adaptive-k mechanism
+`full_context_rehearsal_lookup_adaptive` uses (same threshold, same
+embeddings), answer from their **raw** text in one call. The §4.2-era pilot
+(n=15/genre) showed this leading on 3 of 4 genres; per this report's own
+standing caution about pilot-vs-full-scale reversals (§4.2), that result
+was held pending confirmation. It is now confirmed at full scale:
+
+| condition | wiki | news | novel | caselaw | overall | avg tokens |
+|---|---|---|---|---|---|---|
+| `raw_retrieval_adaptive` (RAG) | **0.850** | **0.420** | **0.316** | **0.300** | **0.439** | 3,588 |
+| `full_context_rehearsal_lookup_adaptive` (§4.1's best gist-based condition) | 0.760 | 0.255 | 0.177 | 0.275 | 0.339 | 25,551 |
+
+RAG wins every genre on accuracy and uses 7x fewer tokens. (Caselaw here is
+post-`<HOLDING>`-fix, §5 — both rows in this table are on the corrected
+corpus.)
+
+#### 4.3.2 Isolating architecture from content
+
+`full_context_rehearsal_lookup_adaptive` always shows the *full document's*
+gist map on its first call, whether or not lookup ever triggers — a
+structural cost/architecture confound independent of whether rehearsed
+*content* helps. `gist_retrieval_adaptive` (`10` §13d) holds RAG's
+single-call architecture and chunk selection fixed and swaps only the
+content shown (gist instead of raw text):
+
+| condition | wiki | news | novel | caselaw | overall | avg tokens |
+|---|---|---|---|---|---|---|
+| `gist_retrieval_adaptive` | 0.130 | 0.055 | 0.051 | 0.210 | 0.121 | 1,105 |
+
+Loses to RAG **and** to `full_context_rehearsal_lookup_adaptive` on every
+genre. The gist-based lookup condition's partial competitiveness in §4.1
+comes from its raw-text lookup escape hatch, not from the gist content
+itself — gist content shows no advantage under any architecture tested so
+far.
+
+A follow-up, `gist_retrieval_gistembed` (`10` §13e), reselects using
+*gist*-embedding similarity instead of raw-text embedding similarity (same
+content) to rule out a selection-mismatch confound: overall accuracy is
+essentially unchanged (0.121 → 0.119), confirming the loss is about gist
+content quality, not which chunks get selected.
+
+A second follow-up, `hybrid_gistselect_rawanswer` (`10` §13f) — select via
+gist embeddings, answer from raw text — tests whether gist embeddings are a
+*better* retriever even though gist *content* isn't a better answer
+source:
+
+| condition | wiki | news | novel | caselaw | overall | avg tokens |
+|---|---|---|---|---|---|---|
+| `hybrid_gistselect_rawanswer` | 0.480 | 0.175 | 0.152 | 0.295 | 0.266 | 5,364 |
+
+Loses to RAG on **both** accuracy and tokens — gist embeddings are a worse
+retriever than raw-text embeddings, not a better one.
+
+#### 4.3.3 Teacher-gist ceiling test — is this a model-size problem?
+
+To test whether t5-small's compressor quality (not compression as such) is
+the bottleneck, `meta/llama-3.1-70b-instruct` was run through the identical
+thread-retrieve-replace mechanism (`curate_document_threaded`) that built
+every gist above, on a 30-chunks-per-genre prefix pilot:
+
+| genre | raw→gist word ratio | failed positions |
+|---|---|---|
+| wiki | 4,137 → 7,959 (**192%**) | 5/30 |
+| novel | 4,123 → 6,096 (**148%**) | 0/30 |
+| news | 3,829 → 2,597 (68%) | 0/30 |
+| caselaw | 4,172 → 2,871 (69%) | 0/30 |
+
+Wiki and novel *expanded* rather than compressed. A manual check of one
+wiki chunk (source: glacial geology — "ice sheet", "bedrock", "Long
+Island") found the teacher's "gist" for it was an unrelated passage about
+New York City's economy — the retrieved "related" thread (matched on the
+shared entity "New York") appears to have dominated the output rather than
+being revised with the new chunk's content, per the retrieve-and-replace
+mechanism's own instructions to the model. A 70B model shows the same
+category of failure (no compression, off-topic content) under this
+architecture that t5-small does — evidence the bottleneck may be the
+retrieve-replace mechanism itself, not compressor model size. Not yet run
+at full scale (real API cost; ~1,395 chunks, ~2.9h at the configured rate
+limit).
+
+#### 4.3.4 Why: literature grounding (2026-08-13)
+
+- **RAPTOR** (Sarthi et al., ICLR 2024) — a hierarchical tree of
+  progressively more abstract summaries, with retrieval choosing which
+  *level* fits a given query; +20pp on QuALITY. Every gist condition tested
+  here forces one uniform compression level regardless of question.
+- **EXIT** (Kim et al., ACL 2025 Findings, arXiv:2412.12559) — extractive
+  compression (selecting existing sentences) beats abstractive
+  summarization for RAG (EM 41.4 vs. 36.9), matching §4.3.3's directly
+  observed failure mode (exact terms dropped, content rewritten).
+- **LongLLMLingua / SmartChunk-style compression** — query-*aware*
+  compression (done after the question is known) beats query-agnostic
+  compression. B's design is query-agnostic by construction (the rehearsal
+  step never sees the eventual question) — unfavorable on this axis too.
+
+Both axes point the same direction: gist_retrieval's loss is not "lossy
+compression can't work here," but that this project's specific compression
+choice (abstractive, query-agnostic) sits on the disadvantaged side of two
+axes the 2025 literature has already characterized.
+
+#### 4.3.5 A condition built on that literature: extractive, query-aware pruning
+
+`extractive_query_aware_adaptive` (`10` §13g) holds RAG's chunk selection
+fixed, then — *after* the question is known — scores individual sentences
+within the selected chunks against the question and keeps only the
+highest-scoring ones, verbatim (no rewriting):
+
+| condition | wiki | news | novel | caselaw | overall | avg tokens | avg latency |
+|---|---|---|---|---|---|---|---|
+| RAG (`raw_retrieval_adaptive`) | 0.850 | 0.420 | 0.316 | 0.300 | 0.439 | 3,588 | 4.75s |
+| `extractive_query_aware_adaptive` | 0.780 | 0.370 | **0.114** | 0.255 | 0.366 | **680** | **3.17s** |
+
+This is the first condition in this investigation with a genuine,
+defensible trade-off rather than a strict loss: **5.3x fewer tokens, ~34%
+lower latency, for a 7.3pp accuracy cost** — within 5-7pp of RAG on 3 of 4
+genres. Accuracy-per-10k-tokens: 5.38 vs. RAG's 1.22 (4.4x). The exception
+is novel, which drops sharply (-20.2pp) — plausibly because narrative
+continuity depends on surrounding sentences that isolated extractive
+pruning discards. Not yet investigated: a sentence-window variant (±1
+sentence around each selected one) that might recover novel's loss without
+giving up the token/latency advantage.
+
+#### 4.3.6 Length-stress test — does document length change the calculus?
+
+Motivated by 2026-era context-window reality: advertised windows are large
+(Claude/GPT 1M tokens, Gemini 2-10M), but usable reliability is not —
+NVIDIA's RULER puts effective capacity at 50-65% of advertised, and Adobe's
+NoLiMa (2025) found most models score below half their short-context
+accuracy past **32K tokens**. `full_context_rehearsal_lookup_adaptive`'s
+own token usage (26K-33K/question in 3 of 4 genres, §4.1) already sits at
+that threshold — raising the question of whether a longer-document regime
+would favor compression (bounded size) over RAG (unbounded selection size)
+by construction.
+
+Tested with `01_length_stress_prep.ipynb`'s per-document truncation ladder
+(1,000-10,000 words, pilot range of a 50,000-word ladder) via a standalone
+script (`length_stress_rag_vs_gist.py`): at every tested length, RAG's
+*selected* (retrieved) token budget stays small and grows slowly (338 →
+826 tokens, 1K→10K words) because Adaptive-k selects a roughly constant
+number of relevant chunks regardless of total document length. Gist size,
+by contrast, scales with the *whole document* (every chunk gets gisted,
+selectively or not) and grows far faster — already exceeding RAG's budget
+at the shortest tested rung, even at the tightest compression setting
+(`max_new_tokens=64`: 704 tokens at 1,000 words vs. RAG's 338; the gap
+widens with length). Loosening the compression cap (128/256 tokens) makes
+this worse, not better. **The length-stress hypothesis does not hold in the
+tested range — if anything it reverses**: RAG's relevance-gated retrieval
+scales sub-linearly with corpus size; query-agnostic whole-document
+compression scales linearly with it. A separate finding from the same
+script: RAG's own recall (whether Adaptive-k selects the chunk actually
+containing the evidence) degrades sharply with length (0.6 at 1K words →
+0.1 at 10K) — a real problem, but one for RAG's own tuning, not evidence
+that compression fixes it (accuracy at length was not measured for either
+approach — only token/size proxies).
+
+#### 4.3.7 Open, in progress: does less-aggressive compression recover accuracy?
+
+`gist_retrieval_adaptive_mnt128` (`10` §13h) tests a narrower question than
+§4.3.6: at nb10's actual eval scale (not the length-stress ladder's single
+long documents), does regenerating the gist with `max_new_tokens=128`
+instead of 64 (the student's inference cap vs. the 512 its teacher targets
+were built with — a real train/inference mismatch, not evidence 64 is
+optimal) recover some of §4.3.2's accuracy loss without costing much more
+than its 1,105 avg tokens? **Pilot in progress at time of writing — no
+result yet.**
+
+#### Summary
+
+| condition | overall accuracy | avg tokens | vs. RAG |
+|---|---|---|---|
+| `raw_retrieval_adaptive` (RAG) | 0.439 | 3,588 | — |
+| `full_context_rehearsal_lookup_adaptive` (best §4.1 gist condition) | 0.339 | 25,551 | loses accuracy, 7x the tokens |
+| `gist_retrieval_adaptive` | 0.121 | 1,105 | loses badly on every genre |
+| `gist_retrieval_gistembed` | 0.119 | ~1,100 | confirms selection wasn't the issue |
+| `hybrid_gistselect_rawanswer` | 0.266 | 5,364 | loses accuracy *and* tokens |
+| `extractive_query_aware_adaptive` | 0.366 | **680** | close accuracy (3/4 genres), 5.3x fewer tokens |
+| `gist_retrieval_adaptive_mnt128` | *pending* | *pending* | *pending* |
+
+**Current honest read**: no condition built on compressed (gisted) content
+beats RAG on accuracy, at any tested compression aggressiveness, model
+size, or selection mechanism. The one condition with a genuine,
+defensible advantage keeps RAG's raw-text answer source and prunes it
+*extractively* and *query-aware*, not by compressing it in advance — this
+narrows what "rehearsal" can honestly claim credit for in this project.
+
 ## 5. Methodology notes worth keeping
 
 - **A real bug was found and fixed in the lookup mechanism.** The
@@ -201,38 +420,128 @@ line of tuning here; see §7.
   (full raw text + a gist map, every call), which conflicts with this
   project's efficiency framing. Not deleted — kept as a documented
   alternative for a cost-insensitive setting.
-- **Known open caveat**: the CaseHOLD *eval* corpus still contains the
-  literal `<HOLDING>` placeholder token (stripped from the *train* corpora
-  in `06b` only — fixing the eval side was explicitly deferred). All
-  caselaw numbers above are read from text with that artifact present.
+- **Fixed (2026-08-12): the CaseHOLD *eval* corpus's `<HOLDING>` artifact.**
+  Previously only the *train* corpora were stripped (`06b`); the eval
+  corpus was flagged but left unfixed. Verified the exact removal pattern
+  (`r" ?\(<HOLDING>\)"`) against 20 train corpora before/after backups
+  (17/20 exact match; the other 3 differ only at a document-separator
+  edge case that doesn't occur in the eval file), applied it to
+  `caselaw_eval_corpus.txt` (395 occurrences removed, 4,733 chars), and
+  recomputed every question's `evidence_char_pos`/`evidence_word_pos` in
+  `caselaw_eval_questions.csv` by tracking exactly how much text was
+  removed before each position — not re-deriving it from excerpt
+  boundaries. All 200 questions validated to land exactly at a document
+  separator post-strip; a spot-check of 4 questions across the corpus
+  confirmed identical surrounding text at the shifted position. Old
+  positions kept as `evidence_char_pos_old`/`evidence_word_pos_old` for
+  audit. **Caselaw was re-evaluated on all three lookup conditions
+  post-fix — accuracy barely moved anywhere**
+  (`lookup` 0.250→0.255, `+retrieval` 0.250→0.235,
+  `+adaptive` 0.300→0.275, all within noise) **— the `<HOLDING>` artifact
+  does not explain caselaw's "more retrieved context hurts" anomaly
+  (§4.2).** All three re-evaluations are complete as of 2026-08-13; §4.1's
+  and §4.3's tables use the corrected corpus throughout.
 
-## 6. What's not built yet
+## 6. Scope: B + C only (A dropped, 2026-08-12)
 
 Per the experimental design doc's full grid (strategy {A maintenance, B
 elaborative, A->B} x testing-effect {no-C, +C} x lookup {no, yes}, 2
-baselines + 12 intervention cells x 4 genres): only **B alone**, with and
-without lookup variants, has been tested. A (maintenance), A->B, and C
-(testing-effect/QG) are unbuilt. The lookup mechanism itself is written to
-be strategy-agnostic (`_lookup_window_indices` / the adaptive selection
-don't assume B specifically), so extending to A/A->B should mean feeding a
-different chunk representation in, not rebuilding the mechanism.
+baselines + 12 intervention cells x 4 genres): only **B**, with and without
+lookup variants, has been fully tested (§4). **A (maintenance rehearsal)
+and A→B are explicitly out of scope as of 2026-08-12** — a deliberate
+decision, not a not-yet-built gap; `04`/`05` (A's prep/train notebooks)
+will not be run. The lookup mechanism itself is written strategy-agnostic
+(`_lookup_window_indices` / the adaptive selection don't assume B
+specifically), so this was a scope choice, not a technical blocker.
 
-## 7. Status: experimentation concluded (2026-08-11)
+**C (testing effect) — implemented and piloted at n=25, reverses the n=1 signal.**
+The original design trained a standalone QG model (`08`/`09`, SQuAD
+reverse-QA) to generate self-test questions. As actually implemented
+(`06c_testing_effect_stage2_prep.ipynb`, `src/pipeline/teacher.py`'s
+`curate_document_threaded_with_testing`), C instead reuses the real
+evidence-linked questions `06b`'s curation already has (`answers_by_chunk`)
+as the in-loop test material, folded directly into stage-2 curation as a
+probe → corrective-retry → verbatim-fallback loop — grounded in Roediger &
+Karpicke (2006) and Karpicke & Roediger (2008)'s testing-effect literature,
+not a synthesized-question approach. `08`/`09` are effectively superseded
+by this approach.
 
-Closed out rather than pursued further, given the deadline — recorded here
-so the paper's scope is a documented decision, not a silent stop:
+A single-document pilot (news, 12 chunks) initially looked strong: drop
+went from +0.040 (plain) to -0.005 (with testing). **That reversed at
+n=25 (7 news, 6 caselaw, 6 narrativeqa, 6 wiki), same documents both ways:**
 
-- **Adaptive-k vs. per-genre cap on caselaw**: tuning `ADAPTIVE_RELATIVE_THRESHOLD`
-  (§4.2) did not close the gap — read as a targeting-quality limitation,
-  not a chunk-count one. Reporting both numbers honestly (adaptive-k
-  generalizes, per-genre cap doesn't but scores higher on this one genre)
-  rather than picking a winner.
-- **Bigger compressor (flan-t5-base)**: tried as a second lever on the
-  stage-2 collapse problem (§3) — raised absolute retention but not
-  downstream QA accuracy in a pilot (§3's checkpoint table). Kept as a
-  reported negative result, not pursued to full scale.
-- **Not pursued, out of scope for the writeup**: full-scale confirmation of
-  the pilot-only rows in §4.2, the `<HOLDING>` eval-corpus artifact, A
-  (maintenance)/A→B/C (testing-effect) per §6's grid, and using
-  teacher-generated gists in place of the stage-2 checkpoint's. Each is a
-  legitimate follow-up, none is a blocker for writing up what's here.
+| | early | late | drop |
+|---|---|---|---|
+| plain curation (`06b`) | 0.387 | 0.458 | **-0.071** (no collapse) |
+| **testing-effect curation** | **0.863** | 0.676 | **+0.186** (collapse) |
+
+The mechanism clearly *does* something — of 142 tested chunks, only 21.1%
+passed their probe on the first try; 64.8% passed after a corrective retry
+(133 retry calls spent), 14.1% exhausted retries and fell back to verbatim.
+That effort buys much higher **absolute** retention early (0.863 vs 0.387)
+but a **steeper decline** with age than plain curation shows — the opposite
+of the intended effect on the metric this project actually cares about.
+Read together, this looks like the corrective-retry loop optimizing each
+gist for *passing its own probe right now* at some cost to how well that
+gist survives being read again several revisions later — a plausible
+cognitive-science parallel is cramming: strong immediate recall, weaker
+durability. This project has one prior confirmed case of a pilot number
+reversing at scale (§4.2's wiki `lookup+retrieval`, n=20→n=100); this is a
+second, at 12 chunks→25 documents. **Treat the n=25 numbers as the current
+best estimate, not final** — not yet run at `06b`'s full 336-document
+scale.
+
+## 7. Status (updated 2026-08-13)
+
+- **Headline: pure RAG (no rehearsal, no teacher, no compression) beats
+  every rehearsal-family condition on every genre**, confirmed at full
+  scale (n=579) — 0.439 overall accuracy vs. 0.339 for the best gist-based
+  condition, at 7x fewer tokens. See §4.3.1.
+- **The loss is content, not architecture, not selection, and probably not
+  model size** — isolated across four further full-scale conditions
+  (§4.3.2-3): swapping only the content shown (gist vs. raw) at RAG's own
+  single-call architecture loses on every genre; reselecting via gist
+  embeddings instead of raw-text embeddings changes almost nothing;
+  answering from raw text after selecting via gist embeddings loses on
+  both accuracy and tokens; a 70B teacher run through the same
+  thread-retrieve-replace mechanism shows the same category of failure
+  (no compression, off-topic content) as the trained t5-small.
+- **2025 literature (RAPTOR, EXIT, LongLLMLingua) explains why** (§4.3.4):
+  this project's B is abstractive and query-agnostic by design — both
+  properties the literature already documents as disadvantaged relative to
+  extractive, query-aware alternatives for this kind of task.
+- **One condition shows a genuine, defensible advantage**:
+  `extractive_query_aware_adaptive` (§4.3.5) — RAG's own chunk selection,
+  pruned to query-relevant sentences *after* the question is known, kept
+  verbatim. 5.3x fewer tokens and lower latency than RAG for a 7.3pp
+  accuracy cost, competitive within 5-7pp on 3 of 4 genres; novel is a
+  clear remaining weak point.
+- **Length-stress test rules out the context-window-relief hypothesis in
+  the tested range** (§4.3.6) — gist size scales with whole-document
+  length; RAG's retrieved-token budget scales with relevant content only,
+  which stays roughly flat regardless of corpus size. The hypothesized
+  advantage for compression at longer documents did not appear at
+  1,000-10,000 words; if anything it reverses.
+- **Open**: `gist_retrieval_adaptive_mnt128` (§4.3.7, in progress) — does
+  relaxing the student's inference-time compression cap (64→128 tokens)
+  recover any of the accuracy lost in §4.3.2, at nb10's actual eval scale
+  (distinct from the length-stress question, which this cap change does
+  *not* help — §4.3.6). Pilot running at time of writing.
+- **Adaptive-k vs. per-genre cap on caselaw** (§4.2): tuning
+  `ADAPTIVE_RELATIVE_THRESHOLD` did not close the gap — a targeting-quality
+  limitation, not a chunk-count one.
+- **Bigger compressor (flan-t5-base)**: raised absolute retention but not
+  downstream QA accuracy in a pilot (§3). Reported negative result, not
+  pursued further.
+- **C (testing effect)**: implemented, piloted at n=25 across all 4
+  genres (§6) — trades higher early retention for steeper age-related
+  decline versus plain curation. Real finding, not yet run at full scale;
+  deprioritized behind §4.3's investigation.
+- **`<HOLDING>` eval-corpus artifact — fixed and fully checked (§5)**: all
+  three lookup conditions re-evaluated post-fix, accuracy moved <0.03
+  everywhere — the artifact does not explain caselaw's "more context
+  hurts" pattern.
+- **Not yet run to full scale**: the teacher-gist ceiling test (§4.3.3,
+  real API cost, ~2.9h estimated) and testing-effect's full 336-document
+  curation (§6) — both legitimate follow-ups, deprioritized behind the
+  RAG-vs-rehearsal investigation above.

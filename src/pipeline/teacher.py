@@ -24,7 +24,12 @@ import requests
 import yaml
 from dotenv import find_dotenv, load_dotenv
 
-from src.pipeline.curation import build_teacher_messages, build_teacher_messages_threaded
+from src.pipeline.curation import (
+    answer_supported,
+    build_teacher_messages,
+    build_teacher_messages_threaded,
+    build_teacher_messages_threaded_corrective,
+)
 from src.pipeline.embeddings import embed_texts, embed_with_retry
 from src.pipeline.thread_memory import ThreadMemory
 
@@ -372,6 +377,203 @@ def curate_document_threaded(
             result.write_back_actions.append(written["action"])
 
         result.memory_states.append(" ".join(slot.text for slot in memory.slots))
+
+        if on_chunk_done is not None:
+            on_chunk_done(position, len(chunk_texts))
+
+    return result
+
+
+# --------------------------------------------------------------------------
+# Testing effect (C) — retrieval practice folded into curation itself, not
+# just measured after the fact.
+# --------------------------------------------------------------------------
+#
+# `curate_document_threaded` above already gets probed post-hoc (06b §5, via
+# `retention_probes`) to see whether its output holds up — but that check
+# only ever *reports* collapse, it never acts on it. The function below is
+# what `ProbeResult`'s own docstring in curation.py already called "the
+# curation loop's §2-3 step" and this project's earlier design notes named
+# "self-generated probes, a corrective retry, and selective augmentation
+# against a verbatim fallback" (06's Summary) — specified before, not
+# implemented until now.
+#
+# Psychology: Roediger & Karpicke (2006), "Test-Enhanced Learning: Taking
+# Memory Tests Improves Long-Term Retention" (Psychological Science) — the
+# testing effect is tied to the act of *retrieval*, not to who authored the
+# question, so this reuses the project's own evidence-linked questions
+# (already built for 06b's post-hoc check, `answers_by_chunk`) as the in-loop
+# test material rather than synthesizing new ones with the QG model (`09`).
+# Karpicke & Roediger (2008), "The Critical Importance of Retrieval for
+# Learning" (Science), is the companion finding this leans on for the
+# corrective-retry design specifically: *repeated* successful retrieval, not
+# repeated exposure, is what predicts retention — so a probe that already
+# passes is left alone (no retry spent re-testing something already fine),
+# and a probe that fails gets another retrieval *attempt* (the corrective
+# regeneration), not just another shortening pass.
+#
+# ML framing: mechanically this is a generate -> verify -> corrective-
+# regenerate loop over natural-language feedback, the same shape as
+# Self-Refine (Madaan et al., 2023, arXiv:2303.17651) and Reflexion (Shinn et
+# al., 2023, arXiv:2303.11366). The "feedback" here is narrow by design —
+# which answer span(s) are no longer recoverable, not a free-form critique —
+# because the failure mode being corrected (a fact silently dropped during
+# shortening) is narrow too.
+@dataclass
+class TestingCurationResult(ThreadedCurationResult):
+    """Extends `ThreadedCurationResult` with the in-loop self-test outcome
+    per position.
+
+    `probe_passed[i]` — `None` if chunk i had no evidence-linked questions to
+    test (most chunks); `True`/`False` otherwise, read *after* whatever
+    retries happened (so `False` means retries were exhausted, not that the
+    first attempt failed).
+    `retry_counts[i]` — how many corrective regenerations position i needed
+    (0 if it passed first try or had nothing to test).
+    `fell_back_to_verbatim[i]` — `True` if retries were exhausted and the raw
+    chunk text was written back instead of any teacher-generated gist.
+    """
+
+    probe_passed: list[bool | None] = field(default_factory=list)
+    retry_counts: list[int] = field(default_factory=list)
+    fell_back_to_verbatim: list[bool] = field(default_factory=list)
+
+
+def curate_document_threaded_with_testing(
+    chunk_texts: list[str],
+    answers_by_chunk: dict[int, list[str]],
+    embed_cfg: dict,
+    config: dict,
+    embed_fn=embed_texts,
+    chat_fn=chat_completion,
+    top_k: int = 3,
+    tau_read: float = 0.35,
+    tau_write: float | None = None,
+    memory_capacity: int | None = None,
+    on_overflow: str = "grow",
+    max_retries: int = 2,
+    probe_f1_threshold: float = 0.6,
+    on_chunk_done=None,
+    rate_limiter=None,
+) -> TestingCurationResult:
+    """`curate_document_threaded`, with a self-test after every write-back.
+
+    Same retrieve/generate/write-back loop, same cost per chunk with no
+    linked questions (one query embedding, one teacher call, one store
+    embedding — nothing extra when there is nothing to test, which is most
+    chunks: `answers_by_chunk` only has entries for chunks whose evidence
+    backs a real question, same sparsity `retention_probes` already works
+    with). When a chunk *does* have linked answers, after write-back this
+    checks whether the memory state as it now stands still supports each one
+    (`answer_supported`, the identical check `retention_probes` uses
+    post-hoc) — up to `max_retries` corrective regenerations
+    (`build_teacher_messages_threaded_corrective`), each one told exactly
+    which answer span(s) are missing, not a generic "try again". Exhausting
+    retries falls back to the raw chunk text for that slot — a fact that
+    cannot be preserved in shortened form is better kept whole than lost.
+
+    The corrective retry directly mutates the slot `write_back` already
+    wrote to (via the `"slot"` index its return dict carries), rather than
+    calling `write_back` again with the same `best` — a second `write_back`
+    call would be safe on the "revise" branch (same slot again) but would
+    silently open a *second* new slot on the "insert" branch, leaving the
+    failed first attempt behind as an orphaned duplicate.
+
+    Cost, when a chunk has linked answers: +1 corrective teacher call per
+    retry actually needed (0 to `max_retries`), no extra embedding calls —
+    the corrective regeneration overwrites the same slot's embedding, which
+    still needs computing once per accepted gist, exactly as before.
+    """
+    memory = ThreadMemory(capacity=memory_capacity, on_overflow=on_overflow)
+    write_threshold = tau_read if tau_write is None else tau_write
+
+    def _embed_slot(text: str) -> list[float] | None:
+        embedded = embed_with_retry([text], "passage", embed_cfg, embed_fn, rate_limiter=rate_limiter)
+        return None if embedded is None else embedded[0]
+
+    def _memory_state() -> str:
+        return " ".join(slot.text for slot in memory.slots)
+
+    result = TestingCurationResult()
+
+    for position, chunk_text in enumerate(chunk_texts):
+        query_embedding = embed_with_retry([chunk_text], "query", embed_cfg, embed_fn, rate_limiter=rate_limiter)
+        if query_embedding is None:
+            result.retrieval_failed_positions.append(position)
+            hits, best = [], None
+        else:
+            hits, best = memory.retrieve(
+                query_embedding[0], position, top_k=top_k, tau=tau_read, fallback_top1=True,
+            )
+
+        context_texts = [hit.text for hit in hits]
+        messages = build_teacher_messages_threaded(context_texts, chunk_text)
+        completion = complete_with_retry(messages, config, chat_fn, rate_limiter=rate_limiter)
+
+        if completion is None:
+            result.failed_positions.append(position)
+            gist = chunk_text
+        else:
+            gist = completion.strip() or chunk_text
+
+        result.context_texts.append(context_texts)
+
+        fresh_embedding = _embed_slot(gist)
+        if fresh_embedding is None:
+            result.store_failed_positions.append(position)
+            result.write_back_actions.append("insert")  # never actually entered memory
+            written_slot = None
+        else:
+            written = memory.write_back(
+                gist, fresh_embedding, position, position,
+                best=best, tau=write_threshold, embed_slot_fn=_embed_slot,
+            )
+            result.write_back_actions.append(written["action"])
+            written_slot = written["slot"]
+
+        # -- self-test: does the memory, as it now actually stands, still
+        # support every answer whose evidence is in this chunk? --
+        answers = answers_by_chunk.get(position, [])
+        probe_passed: bool | None = None
+        retries = 0
+        fell_back = False
+
+        if answers and written_slot is not None and completion is not None:
+            failed = [a for a in answers if not answer_supported(a, _memory_state(), probe_f1_threshold)]
+            while failed and retries < max_retries:
+                corrective_messages = build_teacher_messages_threaded_corrective(
+                    context_texts, chunk_text, gist, failed,
+                )
+                corrective_completion = complete_with_retry(
+                    corrective_messages, config, chat_fn, rate_limiter=rate_limiter,
+                )
+                retries += 1
+                if corrective_completion is None:
+                    break
+                gist = corrective_completion.strip() or gist
+                corrective_embedding = _embed_slot(gist)
+                if corrective_embedding is None:
+                    break
+                slot = memory.slots[written_slot]
+                slot.text, slot.embedding = gist, corrective_embedding
+                failed = [a for a in answers if not answer_supported(a, _memory_state(), probe_f1_threshold)]
+
+            if failed:
+                fell_back = True
+                memory.slots[written_slot].text = chunk_text
+                gist = chunk_text
+                # Embedding left as the last attempt's — the *text* is what
+                # downstream reads (`memory_states`), and re-embedding a
+                # slot that is about to be superseded by the next retrieval
+                # round anyway is a cost this project already treats as
+                # avoidable (see `rehearsal.py`'s analogous fallback path).
+            probe_passed = not failed
+
+        result.gists.append(gist)
+        result.memory_states.append(_memory_state())
+        result.probe_passed.append(probe_passed)
+        result.retry_counts.append(retries)
+        result.fell_back_to_verbatim.append(fell_back)
 
         if on_chunk_done is not None:
             on_chunk_done(position, len(chunk_texts))

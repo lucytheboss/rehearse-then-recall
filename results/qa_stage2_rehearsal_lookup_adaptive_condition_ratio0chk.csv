@@ -1,161 +1,580 @@
 genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
-wiki,3,full_context_rehearsal_lookup_adaptive,True,1624.,2,True,1.0,7960,10,7970
-wiki,2,full_context_rehearsal_lookup_adaptive,True,"8,491,079.",2,True,1.0,8463,13,8476
-wiki,1,full_context_rehearsal_lookup_adaptive,True,1898.,2,True,1.1,8177,10,8187
-wiki,4,full_context_rehearsal_lookup_adaptive,False,Wisconsinan glaciation.,2,True,1.2,7870,13,7883
-wiki,5,full_context_rehearsal_lookup_adaptive,True,France,1,False,0.5,7175,2,7177
-wiki,8,full_context_rehearsal_lookup_adaptive,False,Hans,1,False,0.6,7172,3,7175
-wiki,6,full_context_rehearsal_lookup_adaptive,True,Portuguese,2,True,1.3,7844,10,7854
-wiki,7,full_context_rehearsal_lookup_adaptive,True,The Dutch East India Company.,2,True,1.1,7834,13,7847
-wiki,9,full_context_rehearsal_lookup_adaptive,True,1625,2,True,1.1,8102,9,8111
-wiki,10,full_context_rehearsal_lookup_adaptive,True,Peter Stuyvesant.,2,True,1.3,8068,13,8081
-wiki,11,full_context_rehearsal_lookup_adaptive,True,New Orange,2,True,0.9,8072,9,8081
-wiki,12,full_context_rehearsal_lookup_adaptive,True,The Second Anglo-Dutch War.,2,True,1.2,8082,14,8096
-wiki,13,full_context_rehearsal_lookup_adaptive,True,1735,2,True,0.9,8413,12,8425
-wiki,14,full_context_rehearsal_lookup_adaptive,True,August 1776.,2,True,0.7,7918,12,7930
-wiki,15,full_context_rehearsal_lookup_adaptive,True,The Great Fire of New York.,2,True,1.3,8413,17,8430
-wiki,17,full_context_rehearsal_lookup_adaptive,True,1827,2,True,53.6,7956,9,7965
-wiki,16,full_context_rehearsal_lookup_adaptive,True,Philadelphia.,2,True,54.5,8048,9,8057
-wiki,19,full_context_rehearsal_lookup_adaptive,True,25%,2,True,54.6,8382,12,8394
-wiki,18,full_context_rehearsal_lookup_adaptive,True,1825,2,True,55.4,8121,9,8130
-wiki,20,full_context_rehearsal_lookup_adaptive,True,1898.,2,True,2.3,8543,13,8556
-news,1,full_context_rehearsal_lookup_adaptive,False,"Civilians, Taliban militants",1,False,1.3,24456,7,24463
-news,2,full_context_rehearsal_lookup_adaptive,False,An Australian soldier.,1,False,1.3,24455,5,24460
-news,4,full_context_rehearsal_lookup_adaptive,False,Yes.,1,False,1.7,24457,3,24460
-news,6,full_context_rehearsal_lookup_adaptive,False,73rd,1,False,1.4,24455,3,24458
-news,3,full_context_rehearsal_lookup_adaptive,False,Michio Kanda.,2,True,1.9,25242,12,25254
-news,7,full_context_rehearsal_lookup_adaptive,False,Heineken.,2,True,1.3,25154,11,25165
-news,5,full_context_rehearsal_lookup_adaptive,False,AC Milan.,2,True,1.8,25348,10,25358
-news,10,full_context_rehearsal_lookup_adaptive,False,Saturday,1,False,0.6,24459,2,24461
-news,11,full_context_rehearsal_lookup_adaptive,False,Southern Afghanistan,1,False,1.4,24453,3,24456
-news,8,full_context_rehearsal_lookup_adaptive,True,Gulder Ultimate Search.,2,True,2.0,25419,13,25432
-news,9,full_context_rehearsal_lookup_adaptive,False,Routine colonoscopy.,2,True,1.7,25452,12,25464
-news,15,full_context_rehearsal_lookup_adaptive,True,Assistant Attorney General Alice Fisher.,2,True,1.4,25716,16,25732
-news,13,full_context_rehearsal_lookup_adaptive,False,Thursday.,2,True,51.0,31646,1176,32822
-news,12,full_context_rehearsal_lookup_adaptive,False,An al Qaeda-affiliated group.,2,True,52.5,31143,161,31304
-news,14,full_context_rehearsal_lookup_adaptive,False,"Chong Lam, Joyce Chan, and Eric Yuen.",2,True,50.6,31349,241,31590
-news,16,full_context_rehearsal_lookup_adaptive,False,"Kaka, Uribe, Chavez, Gravell, Applegarth, Gates, Pelosi, Hoyer.",2,True,49.0,31581,570,32151
-news,17,full_context_rehearsal_lookup_adaptive,False,Restore democracy in Pakistan.,1,False,1.3,24459,6,24465
-news,19,full_context_rehearsal_lookup_adaptive,False,Mauro Camoranesi,1,False,1.5,24459,7,24466
-news,18,full_context_rehearsal_lookup_adaptive,False,Yes.,1,False,1.7,24453,3,24456
-news,20,full_context_rehearsal_lookup_adaptive,False,Julio Cruz.,2,True,43.1,31652,1175,32827
-novel,00950a36_0,full_context_rehearsal_lookup_adaptive,True,Shah Amurath,1,False,1.7,30316,6,30322
-novel,00950a36_5,full_context_rehearsal_lookup_adaptive,False,She.,2,True,2.0,31323,9,31332
-novel,00950a36_1,full_context_rehearsal_lookup_adaptive,True,Olivia.,2,True,2.0,31732,10,31742
-novel,00950a36_7,full_context_rehearsal_lookup_adaptive,False,Robert Herrick,1,False,0.6,30317,4,30321
-novel,00950a36_6,full_context_rehearsal_lookup_adaptive,False,No one.,2,True,2.2,31333,10,31343
-novel,00950a36_8,full_context_rehearsal_lookup_adaptive,True,Olivia.,2,True,1.0,31721,10,31731
-novel,00950a36_9,full_context_rehearsal_lookup_adaptive,False,The ruins.,1,False,1.6,30308,4,30312
-novel,00950a36_10,full_context_rehearsal_lookup_adaptive,False,Shah Amurath,1,False,0.4,30311,6,30317
-novel,00950a36_13,full_context_rehearsal_lookup_adaptive,True,Shah Amurath,1,False,0.5,30309,6,30315
-novel,00950a36_14,full_context_rehearsal_lookup_adaptive,False,A girdled loincloth-wearing man.,1,False,0.8,30312,12,30324
-novel,00950a36_11,full_context_rehearsal_lookup_adaptive,False,No one.,2,True,1.0,31962,10,31972
-novel,00950a36_15,full_context_rehearsal_lookup_adaptive,True,Conan.,2,True,2.2,33299,37,33336
-novel,3e966645_1,full_context_rehearsal_lookup_adaptive,False,Sydney.,2,True,7.3,33418,37,33455
-novel,3e966645_2,full_context_rehearsal_lookup_adaptive,False,Mr. Saul,1,False,5.3,30308,4,30312
-novel,3e966645_4,full_context_rehearsal_lookup_adaptive,False,Coffee.,2,True,1.0,32194,15,32209
-novel,3e966645_5,full_context_rehearsal_lookup_adaptive,False,No information.,2,True,1.4,32535,25,32560
-novel,3e966645_6,full_context_rehearsal_lookup_adaptive,False,Mr. Salton,1,False,0.8,30308,5,30313
-novel,00950a36_2,full_context_rehearsal_lookup_adaptive,True,Akif.,2,True,58.8,37741,1231,38972
-novel,3e966645_7,full_context_rehearsal_lookup_adaptive,False,Captain Tom.,2,True,41.8,37906,1228,39134
-novel,00950a36_12,full_context_rehearsal_lookup_adaptive,True,Akif.,2,True,54.5,37900,1231,39131
-caselaw,3,full_context_rehearsal_lookup_adaptive,True,5,1,False,1.0,24653,2,24655
-caselaw,5,full_context_rehearsal_lookup_adaptive,False,2,1,False,1.5,24817,2,24819
-caselaw,9,full_context_rehearsal_lookup_adaptive,True,5,1,False,2.0,24708,2,24710
-caselaw,1,full_context_rehearsal_lookup_adaptive,True,1,2,True,2.5,34465,20,34485
-caselaw,13,full_context_rehearsal_lookup_adaptive,False,5,1,False,0.9,24734,2,24736
-caselaw,17,full_context_rehearsal_lookup_adaptive,False,4,1,False,0.7,24755,2,24757
-caselaw,7,full_context_rehearsal_lookup_adaptive,False,5,2,True,4.3,34341,20,34361
-caselaw,11,full_context_rehearsal_lookup_adaptive,False,3,2,True,3.2,34405,20,34425
-caselaw,15,full_context_rehearsal_lookup_adaptive,True,1,2,True,2.9,34287,20,34307
-caselaw,21,full_context_rehearsal_lookup_adaptive,False,5,2,True,2.0,34341,20,34361
-caselaw,19,full_context_rehearsal_lookup_adaptive,False,4,2,True,1.9,34415,20,34435
-caselaw,23,full_context_rehearsal_lookup_adaptive,False,2,2,True,3.1,34572,17,34589
-caselaw,29,full_context_rehearsal_lookup_adaptive,False,4,1,False,7.3,24757,2,24759
-caselaw,27,full_context_rehearsal_lookup_adaptive,True,2,1,False,7.5,24685,2,24687
-caselaw,25,full_context_rehearsal_lookup_adaptive,False,3,2,True,8.2,34309,20,34329
-caselaw,33,full_context_rehearsal_lookup_adaptive,False,2,1,False,1.8,24702,2,24704
-caselaw,31,full_context_rehearsal_lookup_adaptive,True,5,2,True,49.2,34431,14,34445
-caselaw,39,full_context_rehearsal_lookup_adaptive,False,2,2,True,42.7,34345,17,34362
-caselaw,35,full_context_rehearsal_lookup_adaptive,True,2,2,True,44.2,33896,872,34768
-caselaw,37,full_context_rehearsal_lookup_adaptive,False,2,2,True,46.5,34339,20,34359
-wiki,21,full_context_rehearsal_lookup_adaptive,True,146 garment workers.,2,True,11.5,8104,11,8115
-wiki,22,full_context_rehearsal_lookup_adaptive,True,Megacity,1,False,13.2,7180,3,7183
-wiki,23,full_context_rehearsal_lookup_adaptive,True,Abstract expressionism.,2,True,14.7,8096,11,8107
-wiki,24,full_context_rehearsal_lookup_adaptive,True,American Airlines Flight 11.,2,True,16.6,14376,313,14689
-wiki,26,full_context_rehearsal_lookup_adaptive,True,Donald Trump.,2,True,4.8,7855,10,7865
-wiki,27,full_context_rehearsal_lookup_adaptive,True,"Long Island, Manhattan, and Staten Island.",2,True,2.1,8272,16,8288
-wiki,25,full_context_rehearsal_lookup_adaptive,True,American Airlines Flight 11 and United Airlines Flight 175.,2,True,4.8,8402,22,8424
-wiki,28,full_context_rehearsal_lookup_adaptive,True,The Harlem River.,2,True,2.5,14948,194,15142
-wiki,31,full_context_rehearsal_lookup_adaptive,True,550,2,True,1.6,9075,17,9092
-wiki,29,full_context_rehearsal_lookup_adaptive,True,164.1,2,True,3.5,15051,226,15277
-wiki,30,full_context_rehearsal_lookup_adaptive,True,1656,2,True,3.6,8469,12,8481
-wiki,33,full_context_rehearsal_lookup_adaptive,False,Water towers,1,False,2.0,7184,3,7187
-wiki,34,full_context_rehearsal_lookup_adaptive,True,Humid continental,1,False,2.3,7181,4,7185
-wiki,32,full_context_rehearsal_lookup_adaptive,True,Eagles.,2,True,4.1,14346,329,14675
-wiki,36,full_context_rehearsal_lookup_adaptive,True,49.9 inches.,2,True,35.2,7825,12,7837
-wiki,35,full_context_rehearsal_lookup_adaptive,True,"July 9, 1936.",2,True,46.5,7825,15,7840
-wiki,38,full_context_rehearsal_lookup_adaptive,False,"26,000",2,True,45.7,7732,10,7742
-wiki,37,full_context_rehearsal_lookup_adaptive,True,Minneapolis.,2,True,47.0,15102,220,15322
-wiki,40,full_context_rehearsal_lookup_adaptive,True,"1,093",2,True,8.0,14344,328,14672
-wiki,39,full_context_rehearsal_lookup_adaptive,True,Grant's Tomb.,2,True,103.4,14350,329,14679
-news,24,full_context_rehearsal_lookup_adaptive,False,No information.,1,False,2.4,24459,4,24463
-news,23,full_context_rehearsal_lookup_adaptive,False,Guam,1,False,3.8,24455,3,24458
-news,21,full_context_rehearsal_lookup_adaptive,False,"Cape Town, South Africa.",1,False,4.7,24457,8,24465
-news,27,full_context_rehearsal_lookup_adaptive,False,Colombian President Evo Morales,1,False,1.9,24460,7,24467
-news,28,full_context_rehearsal_lookup_adaptive,False,£125 million,1,False,2.4,24462,4,24466
-news,25,full_context_rehearsal_lookup_adaptive,True,Jena 6 case.,2,True,5.9,31334,220,31554
-news,26,full_context_rehearsal_lookup_adaptive,False,Withdrew support,1,False,5.9,24458,5,24463
-news,22,full_context_rehearsal_lookup_adaptive,True,l'Hydroptere.,2,True,8.9,25292,14,25306
-news,30,full_context_rehearsal_lookup_adaptive,False,Azerbaijan,1,False,2.1,24457,4,24461
-news,29,full_context_rehearsal_lookup_adaptive,False,Surrey,1,False,2.1,24456,4,24460
-news,33,full_context_rehearsal_lookup_adaptive,False,Heidi Tagliavini,1,False,3.6,24457,7,24464
-news,32,full_context_rehearsal_lookup_adaptive,True,"100,000",2,True,5.8,25112,10,25122
-news,31,full_context_rehearsal_lookup_adaptive,True,New Delhi.,2,True,6.7,25391,10,25401
-news,34,full_context_rehearsal_lookup_adaptive,True,A U.S. government official.,2,True,6.0,25343,14,25357
-news,35,full_context_rehearsal_lookup_adaptive,True,56.,2,True,4.8,25416,12,25428
-news,36,full_context_rehearsal_lookup_adaptive,False,Rugby broadcaster.,2,True,4.3,31473,99,31572
-news,38,full_context_rehearsal_lookup_adaptive,False,Six airmen,1,False,3.9,24456,5,24461
-news,39,full_context_rehearsal_lookup_adaptive,False,Augustin Binya,1,False,2.9,24455,5,24460
-news,37,full_context_rehearsal_lookup_adaptive,False,Chief of the Defence Force Air Chief Marshal Angus Houston.,2,True,14.3,31640,1182,32822
-news,40,full_context_rehearsal_lookup_adaptive,False,Withdraw cash.,2,True,10.1,30954,706,31660
-novel,3e966645_9,full_context_rehearsal_lookup_adaptive,False,French Polynesia,1,False,27.5,30309,5,30314
-novel,3e966645_8,full_context_rehearsal_lookup_adaptive,False,London,1,False,30.0,30312,2,30314
-novel,3e966645_12,full_context_rehearsal_lookup_adaptive,True,smallpox.,2,True,5.6,32544,26,32570
-novel,3e966645_16,full_context_rehearsal_lookup_adaptive,True,California champagne.,2,True,4.0,31083,10,31093
-novel,3e966645_17,full_context_rehearsal_lookup_adaptive,False,The South Seas.,1,False,5.4,30312,5,30317
-novel,3e966645_10,full_context_rehearsal_lookup_adaptive,False,No mention.,2,True,40.2,37922,1501,39423
-novel,3e966645_11,full_context_rehearsal_lookup_adaptive,False,"Nowhere, it was being pursued.",2,True,43.0,37912,1503,39415
-novel,3e966645_22,full_context_rehearsal_lookup_adaptive,False,Melbourne.,1,False,1.1,30317,4,30321
-novel,3e966645_21,full_context_rehearsal_lookup_adaptive,False,Brown.,2,True,3.5,32086,9,32095
-novel,3e966645_19,full_context_rehearsal_lookup_adaptive,False,The American who called himself Brown.,2,True,11.0,32229,20,32249
-novel,6a659de3_2,full_context_rehearsal_lookup_adaptive,False,Evil powers,1,False,2.9,30314,4,30318
-novel,6a659de3_3,full_context_rehearsal_lookup_adaptive,False,Guph,1,False,1.2,30306,4,30310
-novel,6a659de3_4,full_context_rehearsal_lookup_adaptive,False,Kallikrates,1,False,1.8,30319,5,30324
-novel,6a659de3_5,full_context_rehearsal_lookup_adaptive,False,Mr. Salton,1,False,2.4,30314,5,30319
-novel,6a659de3_6,full_context_rehearsal_lookup_adaptive,False,A white woman of peculiar loveliness.,2,True,4.1,31822,16,31838
-novel,3e966645_20,full_context_rehearsal_lookup_adaptive,False,I don't have that information.,2,True,17.5,37938,1502,39440
-novel,6a659de3_7,full_context_rehearsal_lookup_adaptive,False,Ancient Egypt.,2,True,7.1,35032,62,35094
-novel,3e966645_23,full_context_rehearsal_lookup_adaptive,False,"There is no mention of 3 beggars operating out of the Tahitian port of Papeete, or a failed English businessman.",2,True,14.9,37948,1523,39471
-novel,6a659de3_8,full_context_rehearsal_lookup_adaptive,False,Holly.,2,True,30.3,36882,523,37405
-novel,6a659de3_11,full_context_rehearsal_lookup_adaptive,False,There is no mention of a character named Leo in the provided passage.,2,True,29.7,37912,1509,39421
-caselaw,45,full_context_rehearsal_lookup_adaptive,False,2,2,True,4.0,34427,20,34447
-caselaw,41,full_context_rehearsal_lookup_adaptive,False,3,2,True,5.8,34353,20,34373
-caselaw,47,full_context_rehearsal_lookup_adaptive,False,5,2,True,5.8,34409,20,34429
-caselaw,53,full_context_rehearsal_lookup_adaptive,True,3,1,False,1.4,24690,2,24692
-caselaw,51,full_context_rehearsal_lookup_adaptive,True,5,1,False,5.2,24692,2,24694
-caselaw,55,full_context_rehearsal_lookup_adaptive,False,1,1,False,4.7,24762,2,24764
-caselaw,57,full_context_rehearsal_lookup_adaptive,False,4,1,False,1.1,24743,2,24745
-caselaw,43,full_context_rehearsal_lookup_adaptive,False,5,2,True,12.6,34455,20,34475
-caselaw,59,full_context_rehearsal_lookup_adaptive,False,4,1,False,2.9,24774,2,24776
-caselaw,49,full_context_rehearsal_lookup_adaptive,True,5,1,False,11.4,24696,2,24698
-caselaw,67,full_context_rehearsal_lookup_adaptive,False,3,1,False,1.4,24680,2,24682
-caselaw,65,full_context_rehearsal_lookup_adaptive,True,5,2,True,2.9,34435,20,34455
-caselaw,61,full_context_rehearsal_lookup_adaptive,False,1,2,True,7.4,34338,17,34355
-caselaw,69,full_context_rehearsal_lookup_adaptive,False,3,1,False,4.8,24654,2,24656
-caselaw,63,full_context_rehearsal_lookup_adaptive,False,4,2,True,11.7,34491,20,34511
-caselaw,71,full_context_rehearsal_lookup_adaptive,False,1,1,False,6.9,24716,2,24718
-caselaw,77,full_context_rehearsal_lookup_adaptive,False,3,1,False,2.0,24689,2,24691
-caselaw,73,full_context_rehearsal_lookup_adaptive,False,3,2,True,10.4,34357,20,34377
-caselaw,75,full_context_rehearsal_lookup_adaptive,True,2,2,True,35.0,34360,12,34372
-caselaw,79,full_context_rehearsal_lookup_adaptive,False,5,2,True,33.8,33765,890,34655
+wiki,3,full_context_rehearsal_lookup_adaptive,True,1624.,2.0,True,1.0,7960.0,10.0,7970.0
+wiki,2,full_context_rehearsal_lookup_adaptive,True,"8,491,079.",2.0,True,1.0,8463.0,13.0,8476.0
+wiki,1,full_context_rehearsal_lookup_adaptive,True,1898.,2.0,True,1.1,8177.0,10.0,8187.0
+wiki,4,full_context_rehearsal_lookup_adaptive,False,Wisconsinan glaciation.,2.0,True,1.2,7870.0,13.0,7883.0
+wiki,5,full_context_rehearsal_lookup_adaptive,True,France,1.0,False,0.5,7175.0,2.0,7177.0
+wiki,8,full_context_rehearsal_lookup_adaptive,False,Hans,1.0,False,0.6,7172.0,3.0,7175.0
+wiki,6,full_context_rehearsal_lookup_adaptive,True,Portuguese,2.0,True,1.3,7844.0,10.0,7854.0
+wiki,7,full_context_rehearsal_lookup_adaptive,True,The Dutch East India Company.,2.0,True,1.1,7834.0,13.0,7847.0
+wiki,9,full_context_rehearsal_lookup_adaptive,True,1625,2.0,True,1.1,8102.0,9.0,8111.0
+wiki,10,full_context_rehearsal_lookup_adaptive,True,Peter Stuyvesant.,2.0,True,1.3,8068.0,13.0,8081.0
+wiki,11,full_context_rehearsal_lookup_adaptive,True,New Orange,2.0,True,0.9,8072.0,9.0,8081.0
+wiki,12,full_context_rehearsal_lookup_adaptive,True,The Second Anglo-Dutch War.,2.0,True,1.2,8082.0,14.0,8096.0
+wiki,13,full_context_rehearsal_lookup_adaptive,True,1735,2.0,True,0.9,8413.0,12.0,8425.0
+wiki,14,full_context_rehearsal_lookup_adaptive,True,August 1776.,2.0,True,0.7,7918.0,12.0,7930.0
+wiki,15,full_context_rehearsal_lookup_adaptive,True,The Great Fire of New York.,2.0,True,1.3,8413.0,17.0,8430.0
+wiki,17,full_context_rehearsal_lookup_adaptive,True,1827,2.0,True,53.6,7956.0,9.0,7965.0
+wiki,16,full_context_rehearsal_lookup_adaptive,True,Philadelphia.,2.0,True,54.5,8048.0,9.0,8057.0
+wiki,19,full_context_rehearsal_lookup_adaptive,True,25%,2.0,True,54.6,8382.0,12.0,8394.0
+wiki,18,full_context_rehearsal_lookup_adaptive,True,1825,2.0,True,55.4,8121.0,9.0,8130.0
+wiki,20,full_context_rehearsal_lookup_adaptive,True,1898.,2.0,True,2.3,8543.0,13.0,8556.0
+news,1,full_context_rehearsal_lookup_adaptive,False,"Civilians, Taliban militants",1.0,False,1.3,24456.0,7.0,24463.0
+news,2,full_context_rehearsal_lookup_adaptive,False,An Australian soldier.,1.0,False,1.3,24455.0,5.0,24460.0
+news,4,full_context_rehearsal_lookup_adaptive,False,Yes.,1.0,False,1.7,24457.0,3.0,24460.0
+news,6,full_context_rehearsal_lookup_adaptive,False,73rd,1.0,False,1.4,24455.0,3.0,24458.0
+news,3,full_context_rehearsal_lookup_adaptive,False,Michio Kanda.,2.0,True,1.9,25242.0,12.0,25254.0
+news,7,full_context_rehearsal_lookup_adaptive,False,Heineken.,2.0,True,1.3,25154.0,11.0,25165.0
+news,5,full_context_rehearsal_lookup_adaptive,False,AC Milan.,2.0,True,1.8,25348.0,10.0,25358.0
+news,10,full_context_rehearsal_lookup_adaptive,False,Saturday,1.0,False,0.6,24459.0,2.0,24461.0
+news,11,full_context_rehearsal_lookup_adaptive,False,Southern Afghanistan,1.0,False,1.4,24453.0,3.0,24456.0
+news,8,full_context_rehearsal_lookup_adaptive,True,Gulder Ultimate Search.,2.0,True,2.0,25419.0,13.0,25432.0
+news,9,full_context_rehearsal_lookup_adaptive,False,Routine colonoscopy.,2.0,True,1.7,25452.0,12.0,25464.0
+news,15,full_context_rehearsal_lookup_adaptive,True,Assistant Attorney General Alice Fisher.,2.0,True,1.4,25716.0,16.0,25732.0
+news,13,full_context_rehearsal_lookup_adaptive,False,Thursday.,2.0,True,51.0,31646.0,1176.0,32822.0
+news,12,full_context_rehearsal_lookup_adaptive,False,An al Qaeda-affiliated group.,2.0,True,52.5,31143.0,161.0,31304.0
+news,14,full_context_rehearsal_lookup_adaptive,False,"Chong Lam, Joyce Chan, and Eric Yuen.",2.0,True,50.6,31349.0,241.0,31590.0
+news,16,full_context_rehearsal_lookup_adaptive,False,"Kaka, Uribe, Chavez, Gravell, Applegarth, Gates, Pelosi, Hoyer.",2.0,True,49.0,31581.0,570.0,32151.0
+news,17,full_context_rehearsal_lookup_adaptive,False,Restore democracy in Pakistan.,1.0,False,1.3,24459.0,6.0,24465.0
+news,19,full_context_rehearsal_lookup_adaptive,False,Mauro Camoranesi,1.0,False,1.5,24459.0,7.0,24466.0
+news,18,full_context_rehearsal_lookup_adaptive,False,Yes.,1.0,False,1.7,24453.0,3.0,24456.0
+news,20,full_context_rehearsal_lookup_adaptive,False,Julio Cruz.,2.0,True,43.1,31652.0,1175.0,32827.0
+novel,00950a36_0,full_context_rehearsal_lookup_adaptive,True,Shah Amurath,1.0,False,1.7,30316.0,6.0,30322.0
+novel,00950a36_5,full_context_rehearsal_lookup_adaptive,False,She.,2.0,True,2.0,31323.0,9.0,31332.0
+novel,00950a36_1,full_context_rehearsal_lookup_adaptive,True,Olivia.,2.0,True,2.0,31732.0,10.0,31742.0
+novel,00950a36_7,full_context_rehearsal_lookup_adaptive,False,Robert Herrick,1.0,False,0.6,30317.0,4.0,30321.0
+novel,00950a36_6,full_context_rehearsal_lookup_adaptive,False,No one.,2.0,True,2.2,31333.0,10.0,31343.0
+novel,00950a36_8,full_context_rehearsal_lookup_adaptive,True,Olivia.,2.0,True,1.0,31721.0,10.0,31731.0
+novel,00950a36_9,full_context_rehearsal_lookup_adaptive,False,The ruins.,1.0,False,1.6,30308.0,4.0,30312.0
+novel,00950a36_10,full_context_rehearsal_lookup_adaptive,False,Shah Amurath,1.0,False,0.4,30311.0,6.0,30317.0
+novel,00950a36_13,full_context_rehearsal_lookup_adaptive,True,Shah Amurath,1.0,False,0.5,30309.0,6.0,30315.0
+novel,00950a36_14,full_context_rehearsal_lookup_adaptive,False,A girdled loincloth-wearing man.,1.0,False,0.8,30312.0,12.0,30324.0
+novel,00950a36_11,full_context_rehearsal_lookup_adaptive,False,No one.,2.0,True,1.0,31962.0,10.0,31972.0
+novel,00950a36_15,full_context_rehearsal_lookup_adaptive,True,Conan.,2.0,True,2.2,33299.0,37.0,33336.0
+novel,3e966645_1,full_context_rehearsal_lookup_adaptive,False,Sydney.,2.0,True,7.3,33418.0,37.0,33455.0
+novel,3e966645_2,full_context_rehearsal_lookup_adaptive,False,Mr. Saul,1.0,False,5.3,30308.0,4.0,30312.0
+novel,3e966645_4,full_context_rehearsal_lookup_adaptive,False,Coffee.,2.0,True,1.0,32194.0,15.0,32209.0
+novel,3e966645_5,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,1.4,32535.0,25.0,32560.0
+novel,3e966645_6,full_context_rehearsal_lookup_adaptive,False,Mr. Salton,1.0,False,0.8,30308.0,5.0,30313.0
+novel,00950a36_2,full_context_rehearsal_lookup_adaptive,True,Akif.,2.0,True,58.8,37741.0,1231.0,38972.0
+novel,3e966645_7,full_context_rehearsal_lookup_adaptive,False,Captain Tom.,2.0,True,41.8,37906.0,1228.0,39134.0
+novel,00950a36_12,full_context_rehearsal_lookup_adaptive,True,Akif.,2.0,True,54.5,37900.0,1231.0,39131.0
+wiki,21,full_context_rehearsal_lookup_adaptive,True,146 garment workers.,2.0,True,11.5,8104.0,11.0,8115.0
+wiki,22,full_context_rehearsal_lookup_adaptive,True,Megacity,1.0,False,13.2,7180.0,3.0,7183.0
+wiki,23,full_context_rehearsal_lookup_adaptive,True,Abstract expressionism.,2.0,True,14.7,8096.0,11.0,8107.0
+wiki,24,full_context_rehearsal_lookup_adaptive,True,American Airlines Flight 11.,2.0,True,16.6,14376.0,313.0,14689.0
+wiki,26,full_context_rehearsal_lookup_adaptive,True,Donald Trump.,2.0,True,4.8,7855.0,10.0,7865.0
+wiki,27,full_context_rehearsal_lookup_adaptive,True,"Long Island, Manhattan, and Staten Island.",2.0,True,2.1,8272.0,16.0,8288.0
+wiki,25,full_context_rehearsal_lookup_adaptive,True,American Airlines Flight 11 and United Airlines Flight 175.,2.0,True,4.8,8402.0,22.0,8424.0
+wiki,28,full_context_rehearsal_lookup_adaptive,True,The Harlem River.,2.0,True,2.5,14948.0,194.0,15142.0
+wiki,31,full_context_rehearsal_lookup_adaptive,True,550,2.0,True,1.6,9075.0,17.0,9092.0
+wiki,29,full_context_rehearsal_lookup_adaptive,True,164.1,2.0,True,3.5,15051.0,226.0,15277.0
+wiki,30,full_context_rehearsal_lookup_adaptive,True,1656,2.0,True,3.6,8469.0,12.0,8481.0
+wiki,33,full_context_rehearsal_lookup_adaptive,False,Water towers,1.0,False,2.0,7184.0,3.0,7187.0
+wiki,34,full_context_rehearsal_lookup_adaptive,True,Humid continental,1.0,False,2.3,7181.0,4.0,7185.0
+wiki,32,full_context_rehearsal_lookup_adaptive,True,Eagles.,2.0,True,4.1,14346.0,329.0,14675.0
+wiki,36,full_context_rehearsal_lookup_adaptive,True,49.9 inches.,2.0,True,35.2,7825.0,12.0,7837.0
+wiki,35,full_context_rehearsal_lookup_adaptive,True,"July 9, 1936.",2.0,True,46.5,7825.0,15.0,7840.0
+wiki,38,full_context_rehearsal_lookup_adaptive,False,"26,000",2.0,True,45.7,7732.0,10.0,7742.0
+wiki,37,full_context_rehearsal_lookup_adaptive,True,Minneapolis.,2.0,True,47.0,15102.0,220.0,15322.0
+wiki,40,full_context_rehearsal_lookup_adaptive,True,"1,093",2.0,True,8.0,14344.0,328.0,14672.0
+wiki,39,full_context_rehearsal_lookup_adaptive,True,Grant's Tomb.,2.0,True,103.4,14350.0,329.0,14679.0
+news,24,full_context_rehearsal_lookup_adaptive,False,No information.,1.0,False,2.4,24459.0,4.0,24463.0
+news,23,full_context_rehearsal_lookup_adaptive,False,Guam,1.0,False,3.8,24455.0,3.0,24458.0
+news,21,full_context_rehearsal_lookup_adaptive,False,"Cape Town, South Africa.",1.0,False,4.7,24457.0,8.0,24465.0
+news,27,full_context_rehearsal_lookup_adaptive,False,Colombian President Evo Morales,1.0,False,1.9,24460.0,7.0,24467.0
+news,28,full_context_rehearsal_lookup_adaptive,False,£125 million,1.0,False,2.4,24462.0,4.0,24466.0
+news,25,full_context_rehearsal_lookup_adaptive,True,Jena 6 case.,2.0,True,5.9,31334.0,220.0,31554.0
+news,26,full_context_rehearsal_lookup_adaptive,False,Withdrew support,1.0,False,5.9,24458.0,5.0,24463.0
+news,22,full_context_rehearsal_lookup_adaptive,True,l'Hydroptere.,2.0,True,8.9,25292.0,14.0,25306.0
+news,30,full_context_rehearsal_lookup_adaptive,False,Azerbaijan,1.0,False,2.1,24457.0,4.0,24461.0
+news,29,full_context_rehearsal_lookup_adaptive,False,Surrey,1.0,False,2.1,24456.0,4.0,24460.0
+news,33,full_context_rehearsal_lookup_adaptive,False,Heidi Tagliavini,1.0,False,3.6,24457.0,7.0,24464.0
+news,32,full_context_rehearsal_lookup_adaptive,True,"100,000",2.0,True,5.8,25112.0,10.0,25122.0
+news,31,full_context_rehearsal_lookup_adaptive,True,New Delhi.,2.0,True,6.7,25391.0,10.0,25401.0
+news,34,full_context_rehearsal_lookup_adaptive,True,A U.S. government official.,2.0,True,6.0,25343.0,14.0,25357.0
+news,35,full_context_rehearsal_lookup_adaptive,True,56.,2.0,True,4.8,25416.0,12.0,25428.0
+news,36,full_context_rehearsal_lookup_adaptive,False,Rugby broadcaster.,2.0,True,4.3,31473.0,99.0,31572.0
+news,38,full_context_rehearsal_lookup_adaptive,False,Six airmen,1.0,False,3.9,24456.0,5.0,24461.0
+news,39,full_context_rehearsal_lookup_adaptive,False,Augustin Binya,1.0,False,2.9,24455.0,5.0,24460.0
+news,37,full_context_rehearsal_lookup_adaptive,False,Chief of the Defence Force Air Chief Marshal Angus Houston.,2.0,True,14.3,31640.0,1182.0,32822.0
+news,40,full_context_rehearsal_lookup_adaptive,False,Withdraw cash.,2.0,True,10.1,30954.0,706.0,31660.0
+novel,3e966645_9,full_context_rehearsal_lookup_adaptive,False,French Polynesia,1.0,False,27.5,30309.0,5.0,30314.0
+novel,3e966645_8,full_context_rehearsal_lookup_adaptive,False,London,1.0,False,30.0,30312.0,2.0,30314.0
+novel,3e966645_12,full_context_rehearsal_lookup_adaptive,True,smallpox.,2.0,True,5.6,32544.0,26.0,32570.0
+novel,3e966645_16,full_context_rehearsal_lookup_adaptive,True,California champagne.,2.0,True,4.0,31083.0,10.0,31093.0
+novel,3e966645_17,full_context_rehearsal_lookup_adaptive,False,The South Seas.,1.0,False,5.4,30312.0,5.0,30317.0
+novel,3e966645_10,full_context_rehearsal_lookup_adaptive,False,No mention.,2.0,True,40.2,37922.0,1501.0,39423.0
+novel,3e966645_11,full_context_rehearsal_lookup_adaptive,False,"Nowhere, it was being pursued.",2.0,True,43.0,37912.0,1503.0,39415.0
+novel,3e966645_22,full_context_rehearsal_lookup_adaptive,False,Melbourne.,1.0,False,1.1,30317.0,4.0,30321.0
+novel,3e966645_21,full_context_rehearsal_lookup_adaptive,False,Brown.,2.0,True,3.5,32086.0,9.0,32095.0
+novel,3e966645_19,full_context_rehearsal_lookup_adaptive,False,The American who called himself Brown.,2.0,True,11.0,32229.0,20.0,32249.0
+novel,6a659de3_2,full_context_rehearsal_lookup_adaptive,False,Evil powers,1.0,False,2.9,30314.0,4.0,30318.0
+novel,6a659de3_3,full_context_rehearsal_lookup_adaptive,False,Guph,1.0,False,1.2,30306.0,4.0,30310.0
+novel,6a659de3_4,full_context_rehearsal_lookup_adaptive,False,Kallikrates,1.0,False,1.8,30319.0,5.0,30324.0
+novel,6a659de3_5,full_context_rehearsal_lookup_adaptive,False,Mr. Salton,1.0,False,2.4,30314.0,5.0,30319.0
+novel,6a659de3_6,full_context_rehearsal_lookup_adaptive,False,A white woman of peculiar loveliness.,2.0,True,4.1,31822.0,16.0,31838.0
+novel,3e966645_20,full_context_rehearsal_lookup_adaptive,False,I don't have that information.,2.0,True,17.5,37938.0,1502.0,39440.0
+novel,6a659de3_7,full_context_rehearsal_lookup_adaptive,False,Ancient Egypt.,2.0,True,7.1,35032.0,62.0,35094.0
+novel,3e966645_23,full_context_rehearsal_lookup_adaptive,False,"There is no mention of 3 beggars operating out of the Tahitian port of Papeete, or a failed English businessman.",2.0,True,14.9,37948.0,1523.0,39471.0
+novel,6a659de3_8,full_context_rehearsal_lookup_adaptive,False,Holly.,2.0,True,30.3,36882.0,523.0,37405.0
+novel,6a659de3_11,full_context_rehearsal_lookup_adaptive,False,There is no mention of a character named Leo in the provided passage.,2.0,True,29.7,37912.0,1509.0,39421.0
+wiki,44,full_context_rehearsal_lookup_adaptive,True,12 million.,2.0,True,30.0,14632.0,94.0,14726.0
+wiki,43,full_context_rehearsal_lookup_adaptive,False,Bangladeshi.,2.0,True,34.6,8713.0,15.0,8728.0
+wiki,45,full_context_rehearsal_lookup_adaptive,True,"74,000.",2.0,True,4.7,8063.0,11.0,8074.0
+wiki,41,full_context_rehearsal_lookup_adaptive,True,1179th Transportation Brigade.,2.0,True,35.5,14806.0,238.0,15044.0
+wiki,42,full_context_rehearsal_lookup_adaptive,True,40%,2.0,True,42.8,14820.0,147.0,14967.0
+wiki,47,full_context_rehearsal_lookup_adaptive,False,Jamaica,2.0,True,9.0,10118.0,40.0,10158.0
+wiki,46,full_context_rehearsal_lookup_adaptive,True,"65,000.",2.0,True,52.8,7764.0,11.0,7775.0
+wiki,48,full_context_rehearsal_lookup_adaptive,True,"568,903",1.0,False,52.0,7175.0,4.0,7179.0
+wiki,49,full_context_rehearsal_lookup_adaptive,True,Judaism.,2.0,True,51.5,7960.0,11.0,7971.0
+wiki,51,full_context_rehearsal_lookup_adaptive,True,"$15,887/m²",2.0,True,8.8,7955.0,13.0,7968.0
+wiki,50,full_context_rehearsal_lookup_adaptive,False,No data.,2.0,True,55.5,14356.0,310.0,14666.0
+wiki,54,full_context_rehearsal_lookup_adaptive,True,$40 billion,2.0,True,4.1,8683.0,13.0,8696.0
+wiki,52,full_context_rehearsal_lookup_adaptive,True,"180,000.",2.0,True,17.9,8415.0,11.0,8426.0
+wiki,57,full_context_rehearsal_lookup_adaptive,True,56.4 million.,2.0,True,39.9,8588.0,15.0,8603.0
+wiki,55,full_context_rehearsal_lookup_adaptive,True,500 million square feet.,2.0,True,47.4,8112.0,12.0,8124.0
+wiki,56,full_context_rehearsal_lookup_adaptive,True,Roosevelt Island.,2.0,True,46.7,8261.0,15.0,8276.0
+wiki,58,full_context_rehearsal_lookup_adaptive,True,"""I Love New York""",2.0,True,4.9,14342.0,330.0,14672.0
+wiki,60,full_context_rehearsal_lookup_adaptive,True,Anbang Insurance Group.,2.0,True,3.8,8213.0,12.0,8225.0
+wiki,62,full_context_rehearsal_lookup_adaptive,True,The Wall Street Journal and The New York Times.,1.0,False,0.5,7174.0,11.0,7185.0
+wiki,59,full_context_rehearsal_lookup_adaptive,True,SummerStage.,2.0,True,10.2,8334.0,10.0,8344.0
+wiki,63,full_context_rehearsal_lookup_adaptive,True,Manhattan Neighborhood Network.,2.0,True,8.4,8131.0,12.0,8143.0
+wiki,53,full_context_rehearsal_lookup_adaptive,False,Bagels,2.0,True,71.8,14346.0,327.0,14673.0
+wiki,64,full_context_rehearsal_lookup_adaptive,True,WNYC.,2.0,True,9.5,14683.0,251.0,14934.0
+wiki,61,full_context_rehearsal_lookup_adaptive,True,"25,000.",2.0,True,53.7,7831.0,11.0,7842.0
+wiki,65,full_context_rehearsal_lookup_adaptive,True,Nine.,2.0,True,45.4,7949.0,9.0,7958.0
+wiki,68,full_context_rehearsal_lookup_adaptive,True,"Ramanathan Raju, MD.",2.0,True,4.9,7904.0,15.0,7919.0
+wiki,69,full_context_rehearsal_lookup_adaptive,True,"Over 35,000.",2.0,True,5.9,8036.0,13.0,8049.0
+wiki,67,full_context_rehearsal_lookup_adaptive,True,1.4 million.,2.0,True,45.2,8162.0,12.0,8174.0
+wiki,66,full_context_rehearsal_lookup_adaptive,False,No answer found in the passage.,2.0,True,48.7,14498.0,290.0,14788.0
+wiki,72,full_context_rehearsal_lookup_adaptive,False,New York City Subway.,2.0,True,4.7,8789.0,18.0,8807.0
+wiki,71,full_context_rehearsal_lookup_adaptive,False,Tokyo Fire Department.,2.0,True,6.2,8163.0,12.0,8175.0
+wiki,73,full_context_rehearsal_lookup_adaptive,False,No information provided.,2.0,True,10.1,14356.0,329.0,14685.0
+wiki,75,full_context_rehearsal_lookup_adaptive,True,"Over 2,000.",2.0,True,43.2,8008.0,13.0,8021.0
+wiki,74,full_context_rehearsal_lookup_adaptive,True,The New York School.,2.0,True,45.8,8049.0,12.0,8061.0
+wiki,78,full_context_rehearsal_lookup_adaptive,True,MetLife Stadium,2.0,True,3.5,8470.0,10.0,8480.0
+wiki,76,full_context_rehearsal_lookup_adaptive,True,11.57 million.,2.0,True,46.3,8007.0,12.0,8019.0
+wiki,70,full_context_rehearsal_lookup_adaptive,True,95.9%,2.0,True,67.0,8183.0,11.0,8194.0
+wiki,77,full_context_rehearsal_lookup_adaptive,False,"MetLife Stadium, Yankee Stadium, Madison Square Garden, Citi Field.",2.0,True,13.5,15122.0,175.0,15297.0
+wiki,79,full_context_rehearsal_lookup_adaptive,True,Hockey.,2.0,True,6.7,14496.0,286.0,14782.0
+wiki,83,full_context_rehearsal_lookup_adaptive,True,54.6%,2.0,True,44.6,8067.0,11.0,8078.0
+wiki,81,full_context_rehearsal_lookup_adaptive,False,US Open.,2.0,True,47.5,14350.0,328.0,14678.0
+wiki,82,full_context_rehearsal_lookup_adaptive,False,New York City Subway.,2.0,True,47.7,8258.0,15.0,8273.0
+wiki,84,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,4.5,14348.0,310.0,14658.0
+wiki,87,full_context_rehearsal_lookup_adaptive,True,The Lincoln Tunnel.,2.0,True,3.9,8124.0,11.0,8135.0
+wiki,86,full_context_rehearsal_lookup_adaptive,False,Brooklyn Bridge.,2.0,True,10.2,9950.0,41.0,9991.0
+wiki,89,full_context_rehearsal_lookup_adaptive,True,Catskill Mountains,2.0,True,2.4,8048.0,11.0,8059.0
+wiki,80,full_context_rehearsal_lookup_adaptive,False,There is no mention of a collegiate basketball championship in the provided text.,2.0,True,69.0,14510.0,297.0,14807.0
+wiki,91,full_context_rehearsal_lookup_adaptive,True,67%,2.0,True,42.0,15080.0,111.0,15191.0
+wiki,90,full_context_rehearsal_lookup_adaptive,True,51 council members.,2.0,True,43.5,8013.0,11.0,8024.0
+wiki,85,full_context_rehearsal_lookup_adaptive,True,109 million.,2.0,True,59.6,8633.0,16.0,8649.0
+wiki,94,full_context_rehearsal_lookup_adaptive,True,Fifth Avenue,1.0,False,3.5,7175.0,4.0,7179.0
+wiki,92,full_context_rehearsal_lookup_adaptive,True,"225,000.",2.0,True,9.1,8164.0,11.0,8175.0
+wiki,88,full_context_rehearsal_lookup_adaptive,False,No data.,2.0,True,59.8,14344.0,325.0,14669.0
+wiki,97,full_context_rehearsal_lookup_adaptive,False,Theater.,1.0,False,3.3,7171.0,4.0,7175.0
+wiki,93,full_context_rehearsal_lookup_adaptive,False,National Library of Australia.,2.0,True,13.8,8203.0,12.0,8215.0
+wiki,98,full_context_rehearsal_lookup_adaptive,False,Geographically on Long Island.,1.0,False,2.2,7174.0,7.0,7181.0
+wiki,95,full_context_rehearsal_lookup_adaptive,True,New York City FC,2.0,True,11.3,14701.0,248.0,14949.0
+wiki,96,full_context_rehearsal_lookup_adaptive,False,JFK,2.0,True,13.2,7901.0,9.0,7910.0
+wiki,99,full_context_rehearsal_lookup_adaptive,True,Massachusetts v. Environmental Protection Agency.,2.0,True,44.8,9767.0,45.0,9812.0
+wiki,100,full_context_rehearsal_lookup_adaptive,False,Eastern District of New York.,2.0,True,49.8,8540.0,16.0,8556.0
+news,42,full_context_rehearsal_lookup_adaptive,False,Guam,1.0,False,2.5,24457.0,3.0,24460.0
+news,41,full_context_rehearsal_lookup_adaptive,False,The passengers.,1.0,False,5.5,24461.0,4.0,24465.0
+news,44,full_context_rehearsal_lookup_adaptive,False,Veterans' care programs.,1.0,False,9.7,24458.0,7.0,24465.0
+news,45,full_context_rehearsal_lookup_adaptive,False,We will have to determine where everybody is.,2.0,True,7.4,25874.0,22.0,25896.0
+news,47,full_context_rehearsal_lookup_adaptive,False,Six,1.0,False,2.6,24455.0,2.0,24457.0
+news,46,full_context_rehearsal_lookup_adaptive,True,Tech International.,2.0,True,48.8,25342.0,10.0,25352.0
+news,43,full_context_rehearsal_lookup_adaptive,True,Genocide.,2.0,True,54.3,31654.0,1177.0,32831.0
+news,49,full_context_rehearsal_lookup_adaptive,False,To fight the Taliban.,2.0,True,42.6,25448.0,12.0,25460.0
+news,48,full_context_rehearsal_lookup_adaptive,False,Children as young as 15 are becoming involved in terrorist-related activity.,2.0,True,49.8,25237.0,21.0,25258.0
+news,52,full_context_rehearsal_lookup_adaptive,False,18,2.0,True,11.1,31568.0,800.0,32368.0
+news,51,full_context_rehearsal_lookup_adaptive,False,Rowles.,2.0,True,12.0,27302.0,52.0,27354.0
+news,55,full_context_rehearsal_lookup_adaptive,False,Alvaro Uribe,1.0,False,4.9,24460.0,6.0,24466.0
+news,54,full_context_rehearsal_lookup_adaptive,True,Contact with anyone under 18.,2.0,True,4.9,25425.0,14.0,25439.0
+news,50,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,22.1,31662.0,1177.0,32839.0
+news,57,full_context_rehearsal_lookup_adaptive,False,Polyps removed.,1.0,False,41.1,24454.0,5.0,24459.0
+news,53,full_context_rehearsal_lookup_adaptive,False,None mentioned.,2.0,True,56.0,31654.0,1177.0,32831.0
+news,56,full_context_rehearsal_lookup_adaptive,False,1-1.,2.0,True,45.5,25944.0,11.0,25955.0
+news,58,full_context_rehearsal_lookup_adaptive,False,Mable Randon.,2.0,True,42.2,26991.0,12.0,27003.0
+news,60,full_context_rehearsal_lookup_adaptive,False,1999.,2.0,True,8.7,25282.0,10.0,25292.0
+news,63,full_context_rehearsal_lookup_adaptive,False,34,1.0,False,2.6,24457.0,2.0,24459.0
+news,62,full_context_rehearsal_lookup_adaptive,False,Iwo Jima.,2.0,True,52.1,25251.0,12.0,25263.0
+news,59,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,58.8,31660.0,1174.0,32834.0
+news,66,full_context_rehearsal_lookup_adaptive,True,National Hurricane Center,1.0,False,2.5,24455.0,4.0,24459.0
+news,67,full_context_rehearsal_lookup_adaptive,False,Full democracy be restored in Pakistan.,1.0,False,1.2,24454.0,8.0,24462.0
+news,61,full_context_rehearsal_lookup_adaptive,True,Sgt. Michael Strank.,2.0,True,59.2,25236.0,14.0,25250.0
+news,65,full_context_rehearsal_lookup_adaptive,True,Princess Eugenie,1.0,False,7.3,24464.0,5.0,24469.0
+news,64,full_context_rehearsal_lookup_adaptive,False,3 million voters.,2.0,True,51.2,26143.0,11.0,26154.0
+news,71,full_context_rehearsal_lookup_adaptive,False,Tom Daschle.,2.0,True,5.9,25139.0,12.0,25151.0
+news,70,full_context_rehearsal_lookup_adaptive,True,A Virginia grand jury.,2.0,True,7.9,25343.0,12.0,25355.0
+news,68,full_context_rehearsal_lookup_adaptive,False,Three Chinese nationals.,2.0,True,14.4,31650.0,1172.0,32822.0
+news,73,full_context_rehearsal_lookup_adaptive,True,Liquid.,2.0,True,42.6,28075.0,30.0,28105.0
+news,72,full_context_rehearsal_lookup_adaptive,True,Linda Daschle.,2.0,True,44.4,31724.0,997.0,32721.0
+news,76,full_context_rehearsal_lookup_adaptive,True,Falsely imprisoning a male escort.,2.0,True,1.3,25502.0,16.0,25518.0
+news,69,full_context_rehearsal_lookup_adaptive,False,"Substance abuse therapy, mental health counseling, electronic monitoring, and curfew.",2.0,True,58.8,31023.0,488.0,31511.0
+news,77,full_context_rehearsal_lookup_adaptive,True,The August war between Georgia and Russia,1.0,False,3.7,24463.0,8.0,24471.0
+news,79,full_context_rehearsal_lookup_adaptive,True,Chip Auman's.,2.0,True,3.0,25227.0,12.0,25239.0
+news,78,full_context_rehearsal_lookup_adaptive,True,A 23-year-old man.,2.0,True,8.1,25247.0,14.0,25261.0
+news,80,full_context_rehearsal_lookup_adaptive,True,University of South Carolina.,2.0,True,9.7,25451.0,12.0,25463.0
+news,74,full_context_rehearsal_lookup_adaptive,False,A suspect.,2.0,True,100.4,31650.0,1177.0,32827.0
+news,82,full_context_rehearsal_lookup_adaptive,False,B-52H Stratofortress,1.0,False,39.6,24460.0,9.0,24469.0
+news,84,full_context_rehearsal_lookup_adaptive,False,Northern Rock branch in southeast,1.0,False,0.8,24461.0,6.0,24467.0
+news,75,full_context_rehearsal_lookup_adaptive,False,Half a Merck share and $10.50.,2.0,True,61.4,25142.0,18.0,25160.0
+news,81,full_context_rehearsal_lookup_adaptive,True,Tripp Wylie.,2.0,True,50.9,25304.0,12.0,25316.0
+news,85,full_context_rehearsal_lookup_adaptive,False,Roma.,2.0,True,5.9,25319.0,10.0,25329.0
+news,83,full_context_rehearsal_lookup_adaptive,False,Air superiority fighter.,2.0,True,12.3,31650.0,1178.0,32828.0
+news,88,full_context_rehearsal_lookup_adaptive,True,February.,2.0,True,5.6,25238.0,9.0,25247.0
+news,87,full_context_rehearsal_lookup_adaptive,False,Yes.,2.0,True,10.0,25467.0,12.0,25479.0
+news,91,full_context_rehearsal_lookup_adaptive,True,Battling hot spots.,2.0,True,3.9,25947.0,19.0,25966.0
+news,90,full_context_rehearsal_lookup_adaptive,False,Engulfed,1.0,False,45.9,24460.0,4.0,24464.0
+news,89,full_context_rehearsal_lookup_adaptive,False,No plan mentioned.,2.0,True,46.4,31642.0,1160.0,32802.0
+news,86,full_context_rehearsal_lookup_adaptive,False,Crashed.,2.0,True,56.8,26739.0,13.0,26752.0
+news,94,full_context_rehearsal_lookup_adaptive,True,Human shields.,1.0,False,1.8,24462.0,4.0,24466.0
+news,92,full_context_rehearsal_lookup_adaptive,False,$390 billion.,2.0,True,43.9,25327.0,11.0,25338.0
+news,93,full_context_rehearsal_lookup_adaptive,False,scoliosis,1.0,False,7.3,24456.0,4.0,24460.0
+news,98,full_context_rehearsal_lookup_adaptive,False,"Cape Town, South Africa.",1.0,False,0.9,24455.0,8.0,24463.0
+news,95,full_context_rehearsal_lookup_adaptive,False,Michael Vick,2.0,True,8.5,31519.0,456.0,31975.0
+news,96,full_context_rehearsal_lookup_adaptive,False,Shootings.,2.0,True,8.9,31640.0,583.0,32223.0
+news,100,full_context_rehearsal_lookup_adaptive,True,July.,2.0,True,5.9,25321.0,9.0,25330.0
+news,102,full_context_rehearsal_lookup_adaptive,False,40.,2.0,True,43.6,31642.0,1173.0,32815.0
+news,99,full_context_rehearsal_lookup_adaptive,False,"Jamie Lynn Spears' sister, Britney Spears' sister, and others have custody of Britney Spears' children.",2.0,True,52.2,31652.0,1197.0,32849.0
+news,101,full_context_rehearsal_lookup_adaptive,False,"A rifle, grenades, and a pistol.",2.0,True,49.1,25779.0,16.0,25795.0
+news,104,full_context_rehearsal_lookup_adaptive,False,The ground.,2.0,True,5.6,25261.0,10.0,25271.0
+news,106,full_context_rehearsal_lookup_adaptive,False,"Cape Town, South Africa",1.0,False,1.3,24456.0,7.0,24463.0
+news,105,full_context_rehearsal_lookup_adaptive,False,"The earth ""groaned"" in a ""slow avalanche"".",2.0,True,7.8,25576.0,19.0,25595.0
+news,107,full_context_rehearsal_lookup_adaptive,False,"Cape Town, South Africa.",1.0,False,2.3,24456.0,8.0,24464.0
+news,109,full_context_rehearsal_lookup_adaptive,False,38,1.0,False,1.7,24455.0,2.0,24457.0
+news,110,full_context_rehearsal_lookup_adaptive,False,Chris Lewis,1.0,False,2.4,24464.0,3.0,24467.0
+news,108,full_context_rehearsal_lookup_adaptive,False,Cells from mice.,2.0,True,6.1,25253.0,11.0,25264.0
+news,103,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,17.4,31648.0,1159.0,32807.0
+news,111,full_context_rehearsal_lookup_adaptive,False,"1,313",2.0,True,7.2,25022.0,10.0,25032.0
+news,112,full_context_rehearsal_lookup_adaptive,False,No answer found.,2.0,True,43.2,31652.0,1175.0,32827.0
+news,115,full_context_rehearsal_lookup_adaptive,False,politics of divisiveness,1.0,False,2.7,24457.0,6.0,24463.0
+news,113,full_context_rehearsal_lookup_adaptive,True,434 people.,2.0,True,45.4,26435.0,18.0,26453.0
+news,117,full_context_rehearsal_lookup_adaptive,True,Garbage,1.0,False,0.9,24460.0,3.0,24463.0
+news,116,full_context_rehearsal_lookup_adaptive,True,72,2.0,True,3.5,25212.0,8.0,25220.0
+news,118,full_context_rehearsal_lookup_adaptive,False,€1.8 billion.,2.0,True,2.0,25323.0,13.0,25336.0
+news,119,full_context_rehearsal_lookup_adaptive,True,"Atlanta, Georgia.",2.0,True,3.3,25068.0,11.0,25079.0
+news,114,full_context_rehearsal_lookup_adaptive,False,Algeria,2.0,True,47.9,31646.0,1177.0,32823.0
+news,120,full_context_rehearsal_lookup_adaptive,True,George H.W. Bush and Barbara Bush.,2.0,True,3.7,25696.0,22.0,25718.0
+news,121,full_context_rehearsal_lookup_adaptive,False,46,2.0,True,6.3,25620.0,8.0,25628.0
+news,123,full_context_rehearsal_lookup_adaptive,False,There is no mention of Youssif or Lassie in the provided text.,2.0,True,46.2,31652.0,1191.0,32843.0
+news,125,full_context_rehearsal_lookup_adaptive,True,Andrea Bocelli,1.0,False,2.7,24457.0,6.0,24463.0
+news,97,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,179.1,31654.0,1177.0,32831.0
+news,124,full_context_rehearsal_lookup_adaptive,False,Meeting his doctor.,2.0,True,51.7,25381.0,11.0,25392.0
+news,122,full_context_rehearsal_lookup_adaptive,False,Forty people were hurt.,2.0,True,60.3,25895.0,13.0,25908.0
+news,129,full_context_rehearsal_lookup_adaptive,False,Princess Eugenie,1.0,False,2.4,24454.0,5.0,24459.0
+news,126,full_context_rehearsal_lookup_adaptive,False,Kashmir.,2.0,True,56.8,31648.0,1175.0,32823.0
+news,131,full_context_rehearsal_lookup_adaptive,False,Dana Perino.,2.0,True,3.0,27475.0,54.0,27529.0
+news,130,full_context_rehearsal_lookup_adaptive,False,2 million.,2.0,True,49.3,25286.0,10.0,25296.0
+news,127,full_context_rehearsal_lookup_adaptive,True,Moninder Singh Pandher,2.0,True,63.2,25303.0,12.0,25315.0
+news,133,full_context_rehearsal_lookup_adaptive,True,Stress cracks.,2.0,True,5.0,25362.0,11.0,25373.0
+news,132,full_context_rehearsal_lookup_adaptive,False,Yes.,2.0,True,7.3,25552.0,9.0,25561.0
+news,136,full_context_rehearsal_lookup_adaptive,True,nuclear partnership,2.0,True,1.6,26365.0,16.0,26381.0
+news,128,full_context_rehearsal_lookup_adaptive,False,Tuesday.,2.0,True,65.1,25018.0,9.0,25027.0
+news,137,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,47.3,31447.0,1015.0,32462.0
+news,138,full_context_rehearsal_lookup_adaptive,True,A loaf of bread.,2.0,True,49.6,25098.0,12.0,25110.0
+news,135,full_context_rehearsal_lookup_adaptive,False,Increasing taxes on luxury items.,2.0,True,55.9,25914.0,16.0,25930.0
+news,134,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,61.0,31648.0,1174.0,32822.0
+news,139,full_context_rehearsal_lookup_adaptive,False,"Batna, east of Algiers.",2.0,True,12.2,25711.0,18.0,25729.0
+news,143,full_context_rehearsal_lookup_adaptive,False,Hong Kong street.,1.0,False,0.8,24463.0,5.0,24468.0
+news,142,full_context_rehearsal_lookup_adaptive,False,"Madrid, Spain.",2.0,True,6.4,25368.0,12.0,25380.0
+news,144,full_context_rehearsal_lookup_adaptive,True,David Cameron's,1.0,False,3.1,24455.0,4.0,24459.0
+news,145,full_context_rehearsal_lookup_adaptive,True,Seven counts of knowingly transferring the HIV virus.,2.0,True,42.9,25297.0,19.0,25316.0
+news,147,full_context_rehearsal_lookup_adaptive,False,Engine failure.,1.0,False,4.2,24459.0,4.0,24463.0
+news,146,full_context_rehearsal_lookup_adaptive,False,A helicopter and a PA-32.,2.0,True,45.9,25582.0,15.0,25597.0
+news,141,full_context_rehearsal_lookup_adaptive,False,There is no mention of Burk's car.,2.0,True,58.5,31646.0,1180.0,32826.0
+news,149,full_context_rehearsal_lookup_adaptive,False,"Fair play, respect.",1.0,False,2.5,24459.0,6.0,24465.0
+news,150,full_context_rehearsal_lookup_adaptive,False,Hong Kong street.,1.0,False,1.8,24455.0,5.0,24460.0
+news,140,full_context_rehearsal_lookup_adaptive,False,20 Iraqi civilians.,2.0,True,65.3,31624.0,1160.0,32784.0
+news,152,full_context_rehearsal_lookup_adaptive,False,Air Serv International.,2.0,True,5.9,26206.0,11.0,26217.0
+news,153,full_context_rehearsal_lookup_adaptive,False,Affected the Arctic climate.,2.0,True,45.2,25577.0,12.0,25589.0
+news,148,full_context_rehearsal_lookup_adaptive,False,Diabetes.,2.0,True,54.1,31646.0,1177.0,32823.0
+news,151,full_context_rehearsal_lookup_adaptive,False,Not mentioned.,2.0,True,57.9,31644.0,1177.0,32821.0
+news,154,full_context_rehearsal_lookup_adaptive,True,Heath Ledger.,2.0,True,51.5,25381.0,11.0,25392.0
+news,157,full_context_rehearsal_lookup_adaptive,False,indigenous majority.,2.0,True,3.9,25590.0,14.0,25604.0
+news,159,full_context_rehearsal_lookup_adaptive,True,Holding veterans care funding hostage.,1.0,False,1.3,24457.0,8.0,24465.0
+news,160,full_context_rehearsal_lookup_adaptive,False,Veterans' care funding.,1.0,False,1.5,24460.0,7.0,24467.0
+news,158,full_context_rehearsal_lookup_adaptive,True,"Two children for $2,000.",2.0,True,6.6,25326.0,15.0,25341.0
+news,162,full_context_rehearsal_lookup_adaptive,False,Bird fighting.,1.0,False,3.0,24454.0,4.0,24458.0
+news,163,full_context_rehearsal_lookup_adaptive,False,EU,1.0,False,2.1,24455.0,2.0,24457.0
+news,156,full_context_rehearsal_lookup_adaptive,False,Colonoscopy.,2.0,True,20.0,31648.0,1178.0,32826.0
+news,161,full_context_rehearsal_lookup_adaptive,False,Not mentioned.,2.0,True,44.2,31646.0,1177.0,32823.0
+news,155,full_context_rehearsal_lookup_adaptive,False,No novel mentioned.,2.0,True,60.3,31658.0,1178.0,32836.0
+news,167,full_context_rehearsal_lookup_adaptive,True,David Beckham,1.0,False,1.6,24455.0,3.0,24458.0
+news,166,full_context_rehearsal_lookup_adaptive,False,A lifeguard spotted him.,1.0,False,2.1,24457.0,7.0,24464.0
+news,164,full_context_rehearsal_lookup_adaptive,True,ABC,2.0,True,44.7,27182.0,50.0,27232.0
+news,169,full_context_rehearsal_lookup_adaptive,False,Lost.,2.0,True,5.7,25271.0,9.0,25280.0
+news,171,full_context_rehearsal_lookup_adaptive,False,Lack of democracy.,1.0,False,0.9,24456.0,6.0,24462.0
+news,168,full_context_rehearsal_lookup_adaptive,False,Sevilla.,2.0,True,6.9,25328.0,10.0,25338.0
+news,173,full_context_rehearsal_lookup_adaptive,False,Big-screen legend,1.0,False,4.0,24454.0,4.0,24458.0
+news,170,full_context_rehearsal_lookup_adaptive,False,Four kilograms of cocaine.,2.0,True,6.8,25190.0,12.0,25202.0
+news,174,full_context_rehearsal_lookup_adaptive,False,Alvaro Uribe,1.0,False,1.2,24457.0,6.0,24463.0
+news,172,full_context_rehearsal_lookup_adaptive,True,Pennsylvania.,2.0,True,6.8,25000.0,10.0,25010.0
+news,175,full_context_rehearsal_lookup_adaptive,False,Voluntary manslaughter.,2.0,True,4.4,25245.0,11.0,25256.0
+news,165,full_context_rehearsal_lookup_adaptive,False,Not mentioned.,2.0,True,96.4,31646.0,1177.0,32823.0
+news,177,full_context_rehearsal_lookup_adaptive,True,"""Until the Day Is Done""",2.0,True,41.3,25331.0,14.0,25345.0
+news,176,full_context_rehearsal_lookup_adaptive,False,15 months ago.,2.0,True,44.1,27555.0,53.0,27608.0
+news,178,full_context_rehearsal_lookup_adaptive,False,Hugo Chavez,2.0,True,41.9,31640.0,1171.0,32811.0
+news,182,full_context_rehearsal_lookup_adaptive,False,David Copeland.,2.0,True,6.3,25597.0,11.0,25608.0
+news,179,full_context_rehearsal_lookup_adaptive,False,CenterPoint Energy.,2.0,True,9.6,27332.0,53.0,27385.0
+news,183,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,48.9,31652.0,1177.0,32829.0
+news,185,full_context_rehearsal_lookup_adaptive,False,US Embassy in Baku,1.0,False,0.6,24458.0,6.0,24464.0
+news,180,full_context_rehearsal_lookup_adaptive,False,There is no information about Mable Randon in the passage.,2.0,True,59.7,31650.0,1178.0,32828.0
+news,181,full_context_rehearsal_lookup_adaptive,False,Tarin Kowt.,2.0,True,60.9,31644.0,586.0,32230.0
+news,186,full_context_rehearsal_lookup_adaptive,False,7.5 percent.,1.0,False,4.1,24459.0,6.0,24465.0
+news,189,full_context_rehearsal_lookup_adaptive,True,Yuvraj Singh,1.0,False,5.6,24467.0,5.0,24472.0
+news,188,full_context_rehearsal_lookup_adaptive,False,Working together.,2.0,True,8.7,31227.0,238.0,31465.0
+news,184,full_context_rehearsal_lookup_adaptive,True,Saddam Hussein era.,2.0,True,60.9,25356.0,13.0,25369.0
+news,191,full_context_rehearsal_lookup_adaptive,False,None appeared worrisome.,1.0,False,3.3,24456.0,7.0,24463.0
+news,193,full_context_rehearsal_lookup_adaptive,False,Grandson,1.0,False,0.7,24459.0,3.0,24462.0
+news,187,full_context_rehearsal_lookup_adaptive,True,gangbusters,2.0,True,18.5,25149.0,9.0,25158.0
+news,192,full_context_rehearsal_lookup_adaptive,False,There is no information about Yu Sheng products in the passage.,2.0,True,45.1,31652.0,602.0,32254.0
+news,195,full_context_rehearsal_lookup_adaptive,False,"Bridgeport, Alabama.",1.0,False,47.0,24457.0,6.0,24463.0
+news,194,full_context_rehearsal_lookup_adaptive,False,Two women and a child.,2.0,True,47.5,31187.0,265.0,31452.0
+news,197,full_context_rehearsal_lookup_adaptive,True,"9,500.",2.0,True,1.4,25073.0,11.0,25084.0
+news,190,full_context_rehearsal_lookup_adaptive,False,None mentioned.,2.0,True,58.5,31646.0,583.0,32229.0
+news,199,full_context_rehearsal_lookup_adaptive,False,A world-famous comedian's brush with a terminal illness.,2.0,True,6.2,24985.0,19.0,25004.0
+news,200,full_context_rehearsal_lookup_adaptive,True,Augustin Binya,1.0,False,11.1,24458.0,5.0,24463.0
+news,196,full_context_rehearsal_lookup_adaptive,False,No.,2.0,True,56.5,31648.0,1173.0,32821.0
+news,198,full_context_rehearsal_lookup_adaptive,False,None mentioned.,2.0,True,48.7,31648.0,1171.0,32819.0
+novel,6a659de3_14,full_context_rehearsal_lookup_adaptive,False,Robert Herrick,1.0,False,2.9,30307.0,4.0,30311.0
+novel,6a659de3_17,full_context_rehearsal_lookup_adaptive,False,No one.,2.0,True,11.6,31687.0,10.0,31697.0
+novel,9561a72a_0,full_context_rehearsal_lookup_adaptive,True,Aunt Em and Uncle Henry.,2.0,True,15.3,31928.0,14.0,31942.0
+novel,9561a72a_3,full_context_rehearsal_lookup_adaptive,False,The ruins.,1.0,False,47.7,30311.0,4.0,30315.0
+novel,9561a72a_1,full_context_rehearsal_lookup_adaptive,False,Ozma.,2.0,True,61.7,32695.0,11.0,32706.0
+novel,9561a72a_7,full_context_rehearsal_lookup_adaptive,False,Under the mountains of the Land of Ev.,2.0,True,17.5,35121.0,67.0,35188.0
+novel,9561a72a_5,full_context_rehearsal_lookup_adaptive,False,There is no mention of Dorothy in the passage.,2.0,True,61.5,37914.0,1508.0,39422.0
+novel,9561a72a_9,full_context_rehearsal_lookup_adaptive,False,Uncle Henry and Aunt Em.,2.0,True,50.0,31742.0,17.0,31759.0
+novel,9561a72a_11,full_context_rehearsal_lookup_adaptive,True,King Roquat,1.0,False,39.7,30315.0,4.0,30319.0
+novel,6a659de3_12,full_context_rehearsal_lookup_adaptive,False,There is no mention of a person named Vincey in the passage.,2.0,True,119.0,37929.0,1503.0,39432.0
+novel,9561a72a_12,full_context_rehearsal_lookup_adaptive,True,Guph,1.0,False,2.9,30314.0,4.0,30318.0
+novel,bf55d1c1_1,full_context_rehearsal_lookup_adaptive,False,Not mentioned.,2.0,True,4.4,32854.0,40.0,32894.0
+novel,9561a72a_10,full_context_rehearsal_lookup_adaptive,True,The Magic Belt.,2.0,True,47.1,32175.0,11.0,32186.0
+novel,bf55d1c1_2,full_context_rehearsal_lookup_adaptive,False,Olivia,1.0,False,7.4,30310.0,3.0,30313.0
+novel,bf55d1c1_3,full_context_rehearsal_lookup_adaptive,False,Edgar Caswall.,2.0,True,58.0,32332.0,18.0,32350.0
+novel,bf55d1c1_5,full_context_rehearsal_lookup_adaptive,False,The Nome King.,2.0,True,54.6,32520.0,17.0,32537.0
+novel,bf55d1c1_0,full_context_rehearsal_lookup_adaptive,False,There is no mention of Adam in the passage.,2.0,True,65.0,37920.0,1505.0,39425.0
+novel,bf55d1c1_4,full_context_rehearsal_lookup_adaptive,False,No information.,2.0,True,58.5,37908.0,1498.0,39406.0
+novel,bf55d1c1_9,full_context_rehearsal_lookup_adaptive,False,Ancient times.,2.0,True,53.2,37912.0,1499.0,39411.0
+novel,bf55d1c1_10,full_context_rehearsal_lookup_adaptive,False,Mr. Caswall.,2.0,True,53.0,31708.0,18.0,31726.0
+novel,ca4b98f5_0,full_context_rehearsal_lookup_adaptive,False,SHADOWS IN THE MOONLIGHT,1.0,False,1.0,30309.0,9.0,30318.0
+novel,bf55d1c1_11,full_context_rehearsal_lookup_adaptive,False,Edgar Caswall.,2.0,True,55.1,32952.0,42.0,32994.0
+novel,bf55d1c1_6,full_context_rehearsal_lookup_adaptive,False,A mouse.,2.0,True,59.2,37920.0,1498.0,39418.0
+novel,ca4b98f5_1,full_context_rehearsal_lookup_adaptive,False,Captain Clavering,1.0,False,4.8,30316.0,5.0,30321.0
+novel,bf55d1c1_12,full_context_rehearsal_lookup_adaptive,False,India,1.0,False,7.6,30314.0,2.0,30316.0
+novel,ca4b98f5_2,full_context_rehearsal_lookup_adaptive,False,Law,1.0,False,7.1,30316.0,2.0,30318.0
+novel,ca4b98f5_3,full_context_rehearsal_lookup_adaptive,False,Clavering Park,1.0,False,5.4,30315.0,5.0,30320.0
+novel,ca4b98f5_8,full_context_rehearsal_lookup_adaptive,False,His sisters.,2.0,True,6.3,32503.0,10.0,32513.0
+novel,ca4b98f5_6,full_context_rehearsal_lookup_adaptive,False,No one named Harry is mentioned in the passage.,2.0,True,49.4,37930.0,1505.0,39435.0
+novel,ca4b98f5_11,full_context_rehearsal_lookup_adaptive,True,Lady Clavering.,2.0,True,40.6,36823.0,63.0,36886.0
+novel,ca4b98f5_13,full_context_rehearsal_lookup_adaptive,False,Julia Brabazon,1.0,False,2.0,30311.0,6.0,30317.0
+novel,ca4b98f5_12,full_context_rehearsal_lookup_adaptive,False,Lady Clavering,1.0,False,3.6,30309.0,5.0,30314.0
+novel,ca4b98f5_4,full_context_rehearsal_lookup_adaptive,False,Men connected with her father's profession.,2.0,True,61.2,31033.0,15.0,31048.0
+novel,ca4b98f5_16,full_context_rehearsal_lookup_adaptive,False,Lady Clavering,1.0,False,1.2,30311.0,5.0,30316.0
+novel,ca4b98f5_17,full_context_rehearsal_lookup_adaptive,False,Julia Brabazon,1.0,False,0.5,30310.0,6.0,30316.0
+novel,ca4b98f5_14,full_context_rehearsal_lookup_adaptive,False,Law,1.0,False,13.9,30315.0,2.0,30317.0
+novel,ca4b98f5_10,full_context_rehearsal_lookup_adaptive,False,I couldn't find any information about a character named Harry or his fiancée in the provided passage.,2.0,True,64.4,37916.0,1516.0,39432.0
+novel,ca4b98f5_18,full_context_rehearsal_lookup_adaptive,False,Julia Brabazon.,2.0,True,49.9,37210.0,211.0,37421.0
+novel,ca4b98f5_15,full_context_rehearsal_lookup_adaptive,False,There is no mention of a character named Harry or his second fiancee in the provided passage.,2.0,True,53.7,37920.0,1514.0,39434.0
+caselaw,1,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.3,24437.0,2.0,24439.0
+caselaw,3,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,0.3,24361.0,2.0,24363.0
+caselaw,5,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,1.8,24525.0,2.0,24527.0
+caselaw,7,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,4.4,33423.0,20.0,33443.0
+caselaw,9,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,6.1,24416.0,2.0,24418.0
+caselaw,13,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,5.5,24442.0,2.0,24444.0
+caselaw,11,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,8.6,33487.0,20.0,33507.0
+caselaw,15,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,10.8,33369.0,20.0,33389.0
+caselaw,23,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,0.7,24480.0,2.0,24482.0
+caselaw,17,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,19.0,24463.0,2.0,24465.0
+caselaw,27,full_context_rehearsal_lookup_adaptive,True,2,1.0,False,8.5,24393.0,2.0,24395.0
+caselaw,19,full_context_rehearsal_lookup_adaptive,True,3,2.0,True,24.4,33497.0,20.0,33517.0
+caselaw,25,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,24.9,24359.0,2.0,24361.0
+caselaw,33,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,7.5,24410.0,2.0,24412.0
+caselaw,31,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,11.3,33830.0,8.0,33838.0
+caselaw,21,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,38.2,33423.0,20.0,33443.0
+caselaw,35,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,3.2,24476.0,2.0,24478.0
+caselaw,41,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,0.6,24381.0,2.0,24383.0
+caselaw,43,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,0.5,24432.0,2.0,24434.0
+caselaw,29,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,20.5,33603.0,20.0,33623.0
+caselaw,37,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,8.8,33141.0,842.0,33983.0
+caselaw,47,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,7.0,33176.0,872.0,34048.0
+caselaw,49,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,0.8,24404.0,2.0,24406.0
+caselaw,39,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,8.7,33427.0,17.0,33444.0
+caselaw,45,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,6.7,33767.0,14.0,33781.0
+caselaw,51,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,0.3,24400.0,2.0,24402.0
+caselaw,59,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.4,24482.0,2.0,24484.0
+caselaw,55,full_context_rehearsal_lookup_adaptive,True,2,1.0,False,10.3,24470.0,2.0,24472.0
+caselaw,61,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,9.0,33619.0,14.0,33633.0
+caselaw,57,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,17.3,24451.0,2.0,24453.0
+caselaw,53,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,14.1,33689.0,14.0,33703.0
+caselaw,65,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,12.1,33679.0,17.0,33696.0
+caselaw,63,full_context_rehearsal_lookup_adaptive,True,2,2.0,True,29.5,33735.0,17.0,33752.0
+caselaw,67,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,26.8,33449.0,17.0,33466.0
+caselaw,73,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,1.2,33439.0,20.0,33459.0
+caselaw,71,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,17.3,33206.0,881.0,34087.0
+caselaw,69,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,28.3,33152.0,1016.0,34168.0
+caselaw,77,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,0.3,24397.0,2.0,24399.0
+caselaw,75,full_context_rehearsal_lookup_adaptive,True,2,1.0,False,0.3,24380.0,2.0,24382.0
+caselaw,85,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,2.1,24396.0,2.0,24398.0
+caselaw,81,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,2.8,24442.0,2.0,24444.0
+caselaw,87,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,6.3,24409.0,2.0,24411.0
+caselaw,79,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,6.9,33283.0,890.0,34173.0
+caselaw,93,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.3,24446.0,2.0,24448.0
+caselaw,95,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.3,24401.0,2.0,24403.0
+caselaw,83,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,10.2,33551.0,17.0,33568.0
+caselaw,97,full_context_rehearsal_lookup_adaptive,False,1,2.0,True,9.0,33619.0,11.0,33630.0
+caselaw,99,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,8.3,24430.0,2.0,24432.0
+caselaw,91,full_context_rehearsal_lookup_adaptive,True,2,2.0,True,16.1,33495.0,20.0,33515.0
+caselaw,105,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,1.5,24475.0,2.0,24477.0
+caselaw,89,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,31.4,33609.0,17.0,33626.0
+caselaw,103,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,20.0,33639.0,17.0,33656.0
+caselaw,101,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,32.2,33591.0,17.0,33608.0
+caselaw,107,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,19.5,33447.0,20.0,33467.0
+caselaw,111,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,8.5,24417.0,2.0,24419.0
+caselaw,113,full_context_rehearsal_lookup_adaptive,True,1,1.0,False,6.8,24399.0,2.0,24401.0
+caselaw,117,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,6.0,24522.0,2.0,24524.0
+caselaw,119,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,0.3,24416.0,2.0,24418.0
+caselaw,109,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,23.7,24441.0,2.0,24443.0
+caselaw,121,full_context_rehearsal_lookup_adaptive,True,2,2.0,True,1.6,33653.0,17.0,33670.0
+caselaw,123,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,7.3,33471.0,20.0,33491.0
+caselaw,125,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,8.1,33635.0,17.0,33652.0
+caselaw,115,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,14.1,33821.0,17.0,33838.0
+caselaw,127,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,6.4,33605.0,17.0,33622.0
+caselaw,135,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,0.3,24703.0,2.0,24705.0
+caselaw,137,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,3.8,24571.0,2.0,24573.0
+caselaw,131,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,5.5,33519.0,20.0,33539.0
+caselaw,141,full_context_rehearsal_lookup_adaptive,False,2,1.0,False,6.3,24415.0,2.0,24417.0
+caselaw,129,full_context_rehearsal_lookup_adaptive,True,2,2.0,True,12.2,33711.0,14.0,33725.0
+caselaw,145,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.5,24430.0,2.0,24432.0
+caselaw,143,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,9.8,24528.0,2.0,24530.0
+caselaw,147,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,8.9,24500.0,2.0,24502.0
+caselaw,133,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,37.7,33711.0,11.0,33722.0
+caselaw,151,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,14.8,33162.0,881.0,34043.0
+caselaw,149,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,17.6,24448.0,2.0,24450.0
+caselaw,139,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,35.9,33671.0,14.0,33685.0
+caselaw,155,full_context_rehearsal_lookup_adaptive,False,2,1.0,False,6.3,24457.0,2.0,24459.0
+caselaw,153,full_context_rehearsal_lookup_adaptive,False,2,1.0,False,7.1,24480.0,2.0,24482.0
+caselaw,161,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.4,24433.0,2.0,24435.0
+caselaw,159,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,0.7,24432.0,2.0,24434.0
+caselaw,165,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,2.7,24490.0,2.0,24492.0
+caselaw,167,full_context_rehearsal_lookup_adaptive,True,3,2.0,True,4.7,33517.0,20.0,33537.0
+caselaw,157,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,8.9,33525.0,20.0,33545.0
+caselaw,163,full_context_rehearsal_lookup_adaptive,True,4,2.0,True,4.0,33565.0,11.0,33576.0
+caselaw,175,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,0.7,24380.0,2.0,24382.0
+caselaw,173,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,3.4,33717.0,17.0,33734.0
+caselaw,179,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,3.8,24415.0,2.0,24417.0
+caselaw,171,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,8.2,33699.0,17.0,33716.0
+caselaw,177,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,13.8,33589.0,17.0,33606.0
+caselaw,185,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.8,24405.0,2.0,24407.0
+caselaw,187,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,8.9,24398.0,2.0,24400.0
+caselaw,181,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,12.4,33625.0,14.0,33639.0
+caselaw,169,full_context_rehearsal_lookup_adaptive,False,1,2.0,True,38.2,33483.0,20.0,33503.0
+caselaw,193,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,7.5,24493.0,2.0,24495.0
+caselaw,195,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.5,24407.0,2.0,24409.0
+caselaw,197,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,0.8,24430.0,2.0,24432.0
+caselaw,183,full_context_rehearsal_lookup_adaptive,True,2,2.0,True,38.5,33579.0,20.0,33599.0
+caselaw,199,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,5.7,24564.0,2.0,24566.0
+caselaw,191,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,23.0,24450.0,2.0,24452.0
+caselaw,201,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,0.5,24434.0,2.0,24436.0
+caselaw,203,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,0.5,24390.0,2.0,24392.0
+caselaw,207,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,2.0,24396.0,2.0,24398.0
+caselaw,209,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,2.6,24405.0,2.0,24407.0
+caselaw,211,full_context_rehearsal_lookup_adaptive,True,4,1.0,False,6.3,24504.0,2.0,24506.0
+caselaw,213,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,6.0,24439.0,2.0,24441.0
+caselaw,189,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,30.0,33212.0,362.0,33574.0
+caselaw,205,full_context_rehearsal_lookup_adaptive,False,1,2.0,True,4.7,33485.0,20.0,33505.0
+caselaw,219,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,0.4,24397.0,2.0,24399.0
+caselaw,223,full_context_rehearsal_lookup_adaptive,True,4,1.0,False,6.1,24457.0,2.0,24459.0
+caselaw,217,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,7.0,24403.0,2.0,24405.0
+caselaw,221,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,8.6,33547.0,20.0,33567.0
+caselaw,227,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,10.7,24477.0,2.0,24479.0
+caselaw,225,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,7.3,33867.0,8.0,33875.0
+caselaw,231,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,9.9,24539.0,2.0,24541.0
+caselaw,215,full_context_rehearsal_lookup_adaptive,True,3,2.0,True,26.1,33811.0,11.0,33822.0
+caselaw,237,full_context_rehearsal_lookup_adaptive,True,4,1.0,False,8.1,24444.0,2.0,24446.0
+caselaw,229,full_context_rehearsal_lookup_adaptive,True,4,2.0,True,21.9,33545.0,17.0,33562.0
+caselaw,241,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,7.3,24434.0,2.0,24436.0
+caselaw,233,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,25.6,24364.0,2.0,24366.0
+caselaw,235,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,17.5,24445.0,2.0,24447.0
+caselaw,247,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,5.6,24448.0,2.0,24450.0
+caselaw,239,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,14.6,24418.0,2.0,24420.0
+caselaw,249,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,0.5,24398.0,3.0,24401.0
+caselaw,253,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,0.4,24350.0,2.0,24352.0
+caselaw,245,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,7.2,33764.0,8.0,33772.0
+caselaw,257,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,4.6,24409.0,2.0,24411.0
+caselaw,255,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,7.0,33667.0,14.0,33681.0
+caselaw,243,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,13.2,33519.0,20.0,33539.0
+caselaw,251,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,6.4,33616.0,8.0,33624.0
+caselaw,259,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,0.9,24454.0,2.0,24456.0
+caselaw,267,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,0.8,24511.0,2.0,24513.0
+caselaw,261,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,6.9,24555.0,2.0,24557.0
+caselaw,263,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,6.2,33605.0,14.0,33619.0
+caselaw,265,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,17.3,24421.0,2.0,24423.0
+caselaw,273,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,5.0,33477.0,128.0,33605.0
+caselaw,275,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,9.9,24397.0,2.0,24399.0
+caselaw,277,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,11.9,33639.0,17.0,33656.0
+caselaw,271,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,35.4,33547.0,20.0,33567.0
+caselaw,279,full_context_rehearsal_lookup_adaptive,True,4,2.0,True,12.3,33775.0,17.0,33792.0
+caselaw,283,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,1.0,24466.0,2.0,24468.0
+caselaw,269,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,48.8,33119.0,890.0,34009.0
+caselaw,289,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.3,24496.0,2.0,24498.0
+caselaw,281,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,15.1,33591.0,17.0,33608.0
+caselaw,285,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,8.1,33663.0,17.0,33680.0
+caselaw,287,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,13.9,33521.0,20.0,33541.0
+caselaw,293,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,2.9,33827.0,8.0,33835.0
+caselaw,291,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,6.1,33094.0,827.0,33921.0
+caselaw,299,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.3,24488.0,2.0,24490.0
+caselaw,301,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,0.5,24452.0,2.0,24454.0
+caselaw,303,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,6.3,24436.0,2.0,24438.0
+caselaw,297,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,7.3,33721.0,17.0,33738.0
+caselaw,305,full_context_rehearsal_lookup_adaptive,True,4,2.0,True,14.0,33223.0,224.0,33447.0
+caselaw,311,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,0.8,24389.0,2.0,24391.0
+caselaw,313,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.5,24422.0,2.0,24424.0
+caselaw,295,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,29.4,33673.0,8.0,33681.0
+caselaw,309,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,16.3,33689.0,17.0,33706.0
+caselaw,307,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,29.5,24461.0,2.0,24463.0
+caselaw,317,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,16.4,33419.0,20.0,33439.0
+caselaw,323,full_context_rehearsal_lookup_adaptive,True,5,1.0,False,0.6,24479.0,2.0,24481.0
+caselaw,321,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,14.3,24466.0,2.0,24468.0
+caselaw,315,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,26.5,33479.0,20.0,33499.0
+caselaw,327,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.5,24366.0,2.0,24368.0
+caselaw,329,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.6,24507.0,2.0,24509.0
+caselaw,331,full_context_rehearsal_lookup_adaptive,False,2,1.0,False,0.9,24435.0,2.0,24437.0
+caselaw,325,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,8.8,33835.0,8.0,33843.0
+caselaw,319,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,26.6,33565.0,20.0,33585.0
+caselaw,337,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,0.5,24441.0,2.0,24443.0
+caselaw,333,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,4.2,33825.0,17.0,33842.0
+caselaw,335,full_context_rehearsal_lookup_adaptive,True,4,2.0,True,10.8,33429.0,14.0,33443.0
+caselaw,341,full_context_rehearsal_lookup_adaptive,True,2,2.0,True,5.2,33667.0,14.0,33681.0
+caselaw,343,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,10.3,33597.0,11.0,33608.0
+caselaw,339,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,16.6,33721.0,14.0,33735.0
+caselaw,347,full_context_rehearsal_lookup_adaptive,True,2,2.0,True,5.0,33643.0,11.0,33654.0
+caselaw,349,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,24.7,24425.0,2.0,24427.0
+caselaw,353,full_context_rehearsal_lookup_adaptive,True,4,2.0,True,16.7,33809.0,14.0,33823.0
+caselaw,357,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,7.3,24445.0,2.0,24447.0
+caselaw,351,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,24.8,33461.0,20.0,33481.0
+caselaw,361,full_context_rehearsal_lookup_adaptive,False,4,1.0,False,1.0,24452.0,2.0,24454.0
+caselaw,345,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,39.1,33455.0,20.0,33475.0
+caselaw,355,full_context_rehearsal_lookup_adaptive,True,1,2.0,True,15.0,33473.0,20.0,33493.0
+caselaw,365,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,0.7,33445.0,14.0,33459.0
+caselaw,359,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,7.4,33349.0,20.0,33369.0
+caselaw,363,full_context_rehearsal_lookup_adaptive,False,1,2.0,True,6.9,33519.0,14.0,33533.0
+caselaw,371,full_context_rehearsal_lookup_adaptive,True,3,1.0,False,5.9,24455.0,2.0,24457.0
+caselaw,367,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,6.3,24401.0,2.0,24403.0
+caselaw,369,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,6.4,33555.0,14.0,33569.0
+caselaw,379,full_context_rehearsal_lookup_adaptive,True,4,1.0,False,3.5,24589.0,2.0,24591.0
+caselaw,375,full_context_rehearsal_lookup_adaptive,True,5,2.0,True,2.9,33696.0,11.0,33707.0
+caselaw,381,full_context_rehearsal_lookup_adaptive,True,4,2.0,True,8.0,33862.0,8.0,33870.0
+caselaw,373,full_context_rehearsal_lookup_adaptive,False,3,2.0,True,22.1,33164.0,1013.0,34177.0
+caselaw,377,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,12.5,33493.0,20.0,33513.0
+caselaw,383,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,14.4,33680.0,8.0,33688.0
+caselaw,385,full_context_rehearsal_lookup_adaptive,True,4,2.0,True,21.8,33581.0,14.0,33595.0
+caselaw,389,full_context_rehearsal_lookup_adaptive,False,4,2.0,True,24.3,33404.0,305.0,33709.0
+caselaw,393,full_context_rehearsal_lookup_adaptive,False,3,1.0,False,6.5,24425.0,2.0,24427.0
+caselaw,391,full_context_rehearsal_lookup_adaptive,False,1,2.0,True,22.9,33661.0,11.0,33672.0
+caselaw,387,full_context_rehearsal_lookup_adaptive,False,5,2.0,True,29.6,33465.0,20.0,33485.0
+caselaw,397,full_context_rehearsal_lookup_adaptive,False,2,1.0,False,0.6,24399.0,2.0,24401.0
+caselaw,399,full_context_rehearsal_lookup_adaptive,False,5,1.0,False,3.0,24414.0,2.0,24416.0
+caselaw,395,full_context_rehearsal_lookup_adaptive,False,2,2.0,True,5.9,33643.0,17.0,33660.0

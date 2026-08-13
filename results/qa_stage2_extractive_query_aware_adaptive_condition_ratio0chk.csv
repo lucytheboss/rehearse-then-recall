@@ -1,0 +1,580 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,4,extractive_query_aware_adaptive,False,Wisconsinan glaciation.,1,,0.2,165,7,172
+wiki,3,extractive_query_aware_adaptive,True,1624,1,,0.3,149,3,152
+wiki,1,extractive_query_aware_adaptive,True,1898.,1,,0.2,151,4,155
+wiki,2,extractive_query_aware_adaptive,True,"8,491,079",1,,0.2,225,6,231
+wiki,7,extractive_query_aware_adaptive,True,The Dutch East India Company.,1,,0.3,170,7,177
+wiki,6,extractive_query_aware_adaptive,True,Portuguese,1,,0.2,235,4,239
+wiki,5,extractive_query_aware_adaptive,False,The French crown.,1,,0.2,167,5,172
+wiki,8,extractive_query_aware_adaptive,True,Jan Rodrigues.,1,,0.2,149,5,154
+wiki,10,extractive_query_aware_adaptive,True,Peter Stuyvesant.,1,,0.3,152,7,159
+wiki,9,extractive_query_aware_adaptive,True,1625,1,,0.2,149,3,152
+wiki,11,extractive_query_aware_adaptive,True,New Orange,1,,0.2,166,3,169
+wiki,12,extractive_query_aware_adaptive,True,The Second Anglo-Dutch War.,1,,0.2,161,8,169
+wiki,13,extractive_query_aware_adaptive,True,1735,1,,0.2,144,3,147
+wiki,14,extractive_query_aware_adaptive,True,August 1776.,1,,0.2,153,6,159
+wiki,15,extractive_query_aware_adaptive,True,The Great Fire of New York.,1,,0.2,163,8,171
+wiki,16,extractive_query_aware_adaptive,True,Philadelphia.,1,,0.2,143,3,146
+wiki,20,extractive_query_aware_adaptive,True,1898,1,,0.2,213,3,216
+wiki,19,extractive_query_aware_adaptive,True,25%,1,,0.2,184,3,187
+wiki,18,extractive_query_aware_adaptive,True,1825,1,,0.2,157,3,160
+wiki,17,extractive_query_aware_adaptive,False,1799,1,,0.2,160,3,163
+wiki,21,extractive_query_aware_adaptive,True,146 garment workers.,1,,0.2,172,5,177
+wiki,23,extractive_query_aware_adaptive,True,Abstract expressionism.,1,,0.3,171,5,176
+wiki,24,extractive_query_aware_adaptive,True,American Airlines Flight 11.,1,,0.2,243,7,250
+wiki,22,extractive_query_aware_adaptive,True,Megacity.,1,,0.2,151,4,155
+wiki,25,extractive_query_aware_adaptive,True,American Airlines Flight 11 and United Airlines Flight 175.,1,,0.3,230,13,243
+wiki,26,extractive_query_aware_adaptive,True,Donald Trump.,1,,0.3,161,4,165
+wiki,28,extractive_query_aware_adaptive,True,The Harlem River.,1,,0.3,166,5,171
+wiki,27,extractive_query_aware_adaptive,True,"Long Island, Manhattan, and Staten Island.",1,,0.2,143,10,153
+wiki,30,extractive_query_aware_adaptive,True,1656,1,,0.2,204,3,207
+wiki,32,extractive_query_aware_adaptive,True,Eagles.,1,,0.2,161,5,166
+wiki,31,extractive_query_aware_adaptive,True,550,1,,33.4,186,2,188
+wiki,34,extractive_query_aware_adaptive,True,Humid continental.,1,,30.4,157,5,162
+wiki,33,extractive_query_aware_adaptive,False,Fire hydrants.,1,,30.2,168,5,173
+wiki,37,extractive_query_aware_adaptive,True,Minneapolis.,1,,1.2,178,4,182
+wiki,35,extractive_query_aware_adaptive,False,No information provided.,1,,1.6,169,5,174
+wiki,36,extractive_query_aware_adaptive,True,49.9 inches.,1,,1.9,147,6,153
+wiki,38,extractive_query_aware_adaptive,False,"26,000 acres.",1,,0.3,188,6,194
+wiki,29,extractive_query_aware_adaptive,True,164.1,1,,38.1,147,4,151
+wiki,40,extractive_query_aware_adaptive,True,"1,093 ha.",1,,2.3,143,6,149
+wiki,39,extractive_query_aware_adaptive,True,Grant's Tomb,1,,2.7,173,4,177
+wiki,41,extractive_query_aware_adaptive,False,New York City Recruiting Battalion.,1,,2.2,149,8,157
+wiki,42,extractive_query_aware_adaptive,False,Similar percentage.,1,,2.0,156,4,160
+wiki,43,extractive_query_aware_adaptive,True,Asians.,1,,0.2,323,4,327
+wiki,45,extractive_query_aware_adaptive,True,"74,000.",1,,0.2,199,5,204
+wiki,46,extractive_query_aware_adaptive,True,"65,000",1,,0.2,146,4,150
+wiki,44,extractive_query_aware_adaptive,True,12 million.,1,,2.1,166,4,170
+wiki,48,extractive_query_aware_adaptive,True,"568,903",1,,2.6,159,4,163
+wiki,49,extractive_query_aware_adaptive,True,Judaism,1,,2.7,228,4,232
+wiki,47,extractive_query_aware_adaptive,True,The Dominican Republic.,1,,3.0,196,5,201
+wiki,50,extractive_query_aware_adaptive,True,"$2,749.",1,,0.4,164,6,170
+wiki,51,extractive_query_aware_adaptive,True,"$15,887/m²",1,,3.6,201,7,208
+wiki,53,extractive_query_aware_adaptive,True,Chocolate,1,,3.6,144,2,146
+wiki,54,extractive_query_aware_adaptive,True,Approximately $40 billion.,1,,3.4,171,7,178
+wiki,55,extractive_query_aware_adaptive,True,Over 500 million square feet.,1,,0.2,194,8,202
+wiki,56,extractive_query_aware_adaptive,True,Roosevelt Island.,1,,0.4,179,6,185
+wiki,57,extractive_query_aware_adaptive,True,56.4 million.,1,,0.4,230,6,236
+wiki,58,extractive_query_aware_adaptive,False,The song.,1,,0.2,128,4,132
+wiki,59,extractive_query_aware_adaptive,True,Summerstage.,1,,0.2,301,4,305
+wiki,60,extractive_query_aware_adaptive,True,Anbang Insurance Group.,1,,4.2,167,6,173
+wiki,62,extractive_query_aware_adaptive,True,The Wall Street Journal and The New York Times.,1,,3.5,156,11,167
+wiki,64,extractive_query_aware_adaptive,True,WNYC,1,,31.4,150,4,154
+wiki,63,extractive_query_aware_adaptive,True,Manhattan Neighborhood Network.,1,,31.8,146,6,152
+wiki,52,extractive_query_aware_adaptive,True,"180,000",1,,23.6,138,4,142
+wiki,61,extractive_query_aware_adaptive,True,"25,000.",1,,39.8,149,5,154
+wiki,65,extractive_query_aware_adaptive,True,Nine.,1,,1.4,140,3,143
+wiki,67,extractive_query_aware_adaptive,True,1.4 million.,1,,0.9,197,6,203
+wiki,66,extractive_query_aware_adaptive,True,The New York Public Library.,1,,2.0,150,7,157
+wiki,68,extractive_query_aware_adaptive,True,"Ramanathan Raju, MD.",1,,1.1,144,9,153
+wiki,69,extractive_query_aware_adaptive,True,"Over 35,000.",1,,2.7,152,7,159
+wiki,70,extractive_query_aware_adaptive,True,95.9%,1,,3.1,196,5,201
+wiki,71,extractive_query_aware_adaptive,False,Tokyo Fire Department.,1,,2.8,150,6,156
+wiki,72,extractive_query_aware_adaptive,False,Subway system.,1,,1.8,248,5,253
+wiki,74,extractive_query_aware_adaptive,True,The New York School.,1,,0.2,177,6,183
+wiki,73,extractive_query_aware_adaptive,True,11 Metrotech Center.,1,,0.2,152,7,159
+wiki,76,extractive_query_aware_adaptive,False,No information.,1,,0.3,179,4,183
+wiki,77,extractive_query_aware_adaptive,False,"MetLife Stadium, Yankee Stadium, Madison Square Garden, Citi Field.",1,,1.4,161,16,177
+wiki,78,extractive_query_aware_adaptive,False,No stadium in NYC.,1,,1.9,177,6,183
+wiki,79,extractive_query_aware_adaptive,True,Hockey.,1,,2.0,136,4,140
+wiki,80,extractive_query_aware_adaptive,True,National Invitation Tournament,1,,0.2,153,4,157
+wiki,82,extractive_query_aware_adaptive,False,New York City Subway.,1,,0.3,153,6,159
+wiki,81,extractive_query_aware_adaptive,False,United States Open.,1,,3.0,159,5,164
+wiki,84,extractive_query_aware_adaptive,True,"7,000",1,,1.5,176,4,180
+wiki,83,extractive_query_aware_adaptive,True,54.6%,1,,2.9,147,5,152
+wiki,85,extractive_query_aware_adaptive,True,109 million,1,,0.3,180,3,183
+wiki,87,extractive_query_aware_adaptive,True,The Lincoln Tunnel.,1,,0.3,159,5,164
+wiki,86,extractive_query_aware_adaptive,False,Brooklyn Bridge.,1,,0.3,276,5,281
+wiki,88,extractive_query_aware_adaptive,True,"Over 200,000.",1,,0.2,159,7,166
+wiki,89,extractive_query_aware_adaptive,True,Catskill Mountains,1,,0.6,138,5,143
+wiki,90,extractive_query_aware_adaptive,True,51 council members.,1,,4.3,143,5,148
+wiki,92,extractive_query_aware_adaptive,True,"225,000.",1,,2.8,148,5,153
+wiki,93,extractive_query_aware_adaptive,False,National Library of Australia.,1,,30.7,169,6,175
+wiki,94,extractive_query_aware_adaptive,True,Fifth Avenue.,1,,31.0,159,5,164
+wiki,91,extractive_query_aware_adaptive,True,67% of registered voters.,1,,37.3,143,7,150
+wiki,75,extractive_query_aware_adaptive,True,"Over 2,000.",1,,32.2,147,7,154
+wiki,97,extractive_query_aware_adaptive,False,Theater.,1,,1.5,161,4,165
+wiki,95,extractive_query_aware_adaptive,True,New York City FC.,1,,2.2,147,6,153
+wiki,96,extractive_query_aware_adaptive,False,JFK,1,,1.5,169,3,172
+wiki,98,extractive_query_aware_adaptive,True,The west end.,1,,0.7,192,5,197
+wiki,99,extractive_query_aware_adaptive,False,Massachusetts v. EPA,1,,1.6,152,6,158
+wiki,100,extractive_query_aware_adaptive,False,Eastern District of New York.,1,,3.4,211,7,218
+news,3,extractive_query_aware_adaptive,False,Michio Kanda.,1,,0.4,178,6,184
+news,4,extractive_query_aware_adaptive,False,Yes.,1,,1.8,179,3,182
+news,1,extractive_query_aware_adaptive,False,Four people.,1,,1.6,143,4,147
+news,5,extractive_query_aware_adaptive,False,AC Milan.,1,,0.3,189,4,193
+news,6,extractive_query_aware_adaptive,True,Third.,1,,0.3,138,3,141
+news,7,extractive_query_aware_adaptive,True,Heineken's local unit.,1,,0.3,210,8,218
+news,8,extractive_query_aware_adaptive,False,Television survival show.,1,,0.9,159,6,165
+news,9,extractive_query_aware_adaptive,False,Routine colonoscopy.,1,,0.3,181,6,187
+news,10,extractive_query_aware_adaptive,True,June 2002.,1,,0.7,141,6,147
+news,12,extractive_query_aware_adaptive,False,No one.,1,,0.3,124,4,128
+news,11,extractive_query_aware_adaptive,False,Swat Valley.,1,,0.7,156,5,161
+news,14,extractive_query_aware_adaptive,False,Chinese citizens.,1,,0.2,134,4,138
+news,13,extractive_query_aware_adaptive,False,"July 7, 2005.",1,,0.9,242,9,251
+news,15,extractive_query_aware_adaptive,True,Assistant Attorney General Alice Fisher.,1,,1.2,198,7,205
+news,16,extractive_query_aware_adaptive,False,Chinese citizens.,1,,0.2,130,4,134
+news,17,extractive_query_aware_adaptive,False,Restore full democracy in Pakistan.,1,,1.2,220,7,227
+news,19,extractive_query_aware_adaptive,False,Cesar,1,,0.3,157,3,160
+news,20,extractive_query_aware_adaptive,False,Walter Samuel.,1,,0.8,155,5,160
+news,21,extractive_query_aware_adaptive,True,Aviano Air Base.,1,,1.3,174,6,180
+news,18,extractive_query_aware_adaptive,False,Yes.,1,,3.3,219,3,222
+news,23,extractive_query_aware_adaptive,False,No information.,1,,30.9,148,4,152
+news,2,extractive_query_aware_adaptive,False,Civilians.,1,,27.0,189,5,194
+news,22,extractive_query_aware_adaptive,True,L'Hydroptere,1,,35.1,179,7,186
+news,24,extractive_query_aware_adaptive,True,Second degree aggravated battery.,1,,34.5,200,6,206
+news,26,extractive_query_aware_adaptive,False,No information.,1,,0.2,265,4,269
+news,25,extractive_query_aware_adaptive,True,Jena 6,1,,0.4,209,5,214
+news,27,extractive_query_aware_adaptive,True,Venezuelan president.,1,,0.4,152,7,159
+news,28,extractive_query_aware_adaptive,False,Yes.,1,,0.2,174,3,177
+news,29,extractive_query_aware_adaptive,False,AC Milan,1,,1.1,181,3,184
+news,31,extractive_query_aware_adaptive,False,The city is not specified.,1,,1.9,154,7,161
+news,30,extractive_query_aware_adaptive,True,Baku.,1,,5.6,146,4,150
+news,33,extractive_query_aware_adaptive,True,Federal prosecutors.,1,,2.0,144,4,148
+news,34,extractive_query_aware_adaptive,False,U.S. government sources.,1,,2.2,147,7,154
+news,32,extractive_query_aware_adaptive,True,"100,000.",1,,5.4,146,5,151
+news,35,extractive_query_aware_adaptive,True,56 years.,1,,0.2,161,4,165
+news,37,extractive_query_aware_adaptive,False,The Mexican attorney general's office.,1,,0.5,221,8,229
+news,36,extractive_query_aware_adaptive,False,Administrative work.,1,,0.2,147,5,152
+news,38,extractive_query_aware_adaptive,False,Nine people.,1,,0.3,263,4,267
+news,39,extractive_query_aware_adaptive,False,Dida.,1,,0.3,267,4,271
+news,40,extractive_query_aware_adaptive,False,Lined up to empty accounts.,1,,0.7,160,8,168
+news,41,extractive_query_aware_adaptive,True,Search and rescue crews.,1,,0.2,227,6,233
+news,42,extractive_query_aware_adaptive,False,Goma.,1,,0.3,508,4,512
+news,43,extractive_query_aware_adaptive,True,genocide,1,,0.3,200,3,203
+news,44,extractive_query_aware_adaptive,False,Turkey's treatment of Armenians.,1,,0.5,254,8,262
+news,45,extractive_query_aware_adaptive,False,The vote might be put off.,1,,0.3,133,8,141
+news,47,extractive_query_aware_adaptive,False,4 and 5.,1,,0.3,133,6,139
+news,46,extractive_query_aware_adaptive,True,Tech International,1,,1.0,148,3,151
+news,48,extractive_query_aware_adaptive,False,"2,000 people pose a threat.",1,,0.6,255,9,264
+news,49,extractive_query_aware_adaptive,False,To fight the Taliban.,1,,0.5,206,6,212
+news,51,extractive_query_aware_adaptive,False,Rowles.,1,,0.2,246,4,250
+news,50,extractive_query_aware_adaptive,False,"Huntington's, mental illness, physical disabilities, learning disabilities.",1,,25.8,254,15,269
+news,53,extractive_query_aware_adaptive,True,Debra Lafave,1,,26.0,160,5,165
+news,52,extractive_query_aware_adaptive,False,18,1,,26.1,250,2,252
+news,54,extractive_query_aware_adaptive,True,Contact with anyone under 18.,1,,23.8,234,8,242
+news,57,extractive_query_aware_adaptive,False,He reclaimed presidential power.,1,,0.8,151,6,157
+news,55,extractive_query_aware_adaptive,False,Anyone under 18.,1,,1.2,133,6,139
+news,56,extractive_query_aware_adaptive,False,1-1.,1,,1.0,407,5,412
+news,59,extractive_query_aware_adaptive,False,more pleasant,1,,0.4,195,3,198
+news,61,extractive_query_aware_adaptive,False,Strank,1,,0.3,227,3,230
+news,60,extractive_query_aware_adaptive,False,May 2004,1,,0.4,186,5,191
+news,58,extractive_query_aware_adaptive,False,The Bolivian people.,1,,2.2,234,7,241
+news,65,extractive_query_aware_adaptive,True,Princess Eugenie,1,,0.2,158,5,163
+news,64,extractive_query_aware_adaptive,False,Members of parliament.,1,,0.3,219,5,224
+news,62,extractive_query_aware_adaptive,False,The island.,1,,0.7,151,4,155
+news,63,extractive_query_aware_adaptive,False,16 off 11 deliveries.,1,,0.7,187,7,194
+news,66,extractive_query_aware_adaptive,True,National Hurricane Center,1,,0.2,151,4,155
+news,69,extractive_query_aware_adaptive,False,Electronic monitoring.,1,,0.3,157,4,161
+news,67,extractive_query_aware_adaptive,False,Resignation.,1,,0.3,301,5,306
+news,68,extractive_query_aware_adaptive,False,Vick and co-defendants.,1,,0.2,165,8,173
+news,70,extractive_query_aware_adaptive,True,A Virginia grand jury.,1,,0.4,182,6,188
+news,72,extractive_query_aware_adaptive,False,Investigator.,1,,0.3,201,4,205
+news,71,extractive_query_aware_adaptive,False,Daschle.,1,,0.2,154,5,159
+news,73,extractive_query_aware_adaptive,True,Liquid form.,1,,0.2,132,4,136
+news,74,extractive_query_aware_adaptive,False,Patrick Wise Jr.,1,,0.2,372,5,377
+news,75,extractive_query_aware_adaptive,False,Half a Merck share and $10.50.,1,,0.3,161,12,173
+news,76,extractive_query_aware_adaptive,True,Falsely imprisoning a male escort.,1,,0.2,165,10,175
+news,77,extractive_query_aware_adaptive,True,The August war between Georgia and Russia.,1,,0.2,156,9,165
+news,78,extractive_query_aware_adaptive,True,A 23-year-old man.,1,,0.2,154,8,162
+news,79,extractive_query_aware_adaptive,True,Chip Auman's.,1,,0.3,144,6,150
+news,81,extractive_query_aware_adaptive,True,Tripp Wylie.,1,,0.2,187,6,193
+news,80,extractive_query_aware_adaptive,True,University of South Carolina,1,,24.1,151,5,156
+news,83,extractive_query_aware_adaptive,False,Air-to-ground and air-to-air missions.,1,,23.1,242,10,252
+news,82,extractive_query_aware_adaptive,False,F-15s.,1,,25.5,159,6,165
+news,84,extractive_query_aware_adaptive,False,AIA office.,1,,25.4,269,5,274
+news,85,extractive_query_aware_adaptive,False,Roma.,1,,1.1,149,4,153
+news,87,extractive_query_aware_adaptive,False,Yes.,1,,1.1,130,3,133
+news,88,extractive_query_aware_adaptive,True,February.,1,,2.6,143,3,146
+news,86,extractive_query_aware_adaptive,False,Crashed.,1,,4.0,281,4,285
+news,89,extractive_query_aware_adaptive,False,New constitution.,1,,0.7,175,4,179
+news,91,extractive_query_aware_adaptive,True,Battling hot spots.,1,,0.3,142,7,149
+news,90,extractive_query_aware_adaptive,False,Campfire.,1,,2.1,236,4,240
+news,92,extractive_query_aware_adaptive,False,CHF 430 billion.,1,,2.2,204,7,211
+news,93,extractive_query_aware_adaptive,True,Wire.,1,,0.2,163,3,166
+news,95,extractive_query_aware_adaptive,True,Tomas Medina Caracas,1,,0.3,204,6,210
+news,94,extractive_query_aware_adaptive,True,Human shields.,1,,0.3,148,4,152
+news,96,extractive_query_aware_adaptive,False,Comments about QuikSCAT.,1,,0.2,171,8,179
+news,100,extractive_query_aware_adaptive,True,July,1,,0.3,131,2,133
+news,99,extractive_query_aware_adaptive,True,Kevin Federline.,1,,0.3,203,5,208
+news,98,extractive_query_aware_adaptive,False,Orlando to Philadelphia.,1,,0.2,168,6,174
+news,102,extractive_query_aware_adaptive,False,Twenty-six.,1,,0.2,132,4,136
+news,103,extractive_query_aware_adaptive,True,Schools and government offices.,1,,0.2,169,7,176
+news,101,extractive_query_aware_adaptive,False,Plane.,1,,0.3,157,3,160
+news,104,extractive_query_aware_adaptive,False,The hillside.,1,,0.3,159,5,164
+news,106,extractive_query_aware_adaptive,False,"Democratic Republic of Congo, Indonesia, and Venezuela.",1,,0.2,279,11,290
+news,105,extractive_query_aware_adaptive,True,The street was sinking before our eyes.,1,,3.4,201,9,210
+news,97,extractive_query_aware_adaptive,True,Two or three.,1,,0.2,172,5,177
+news,108,extractive_query_aware_adaptive,False,Cells from mice.,1,,0.3,177,5,182
+news,109,extractive_query_aware_adaptive,False,38 years old.,1,,0.2,216,5,221
+news,107,extractive_query_aware_adaptive,False,Kutacane district.,1,,0.4,281,7,288
+news,111,extractive_query_aware_adaptive,False,"1,300 Palestinians.",1,,13.2,196,6,202
+news,110,extractive_query_aware_adaptive,False,A Nigerian politician.,1,,13.7,156,5,161
+news,112,extractive_query_aware_adaptive,False,No one mentioned.,1,,13.4,143,5,148
+news,113,extractive_query_aware_adaptive,True,434 people.,1,,16.1,167,4,171
+news,116,extractive_query_aware_adaptive,True,72 years old.,1,,0.3,232,5,237
+news,114,extractive_query_aware_adaptive,False,Russia.,1,,0.3,524,3,527
+news,115,extractive_query_aware_adaptive,True,scandal and mud-slinging.,1,,0.6,217,9,226
+news,117,extractive_query_aware_adaptive,False,"3,700 tons of waste.",1,,2.9,271,8,279
+news,118,extractive_query_aware_adaptive,False,None.,1,,1.6,153,3,156
+news,121,extractive_query_aware_adaptive,True,48,1,,0.7,205,2,207
+news,119,extractive_query_aware_adaptive,True,"Atlanta, Georgia.",1,,2.5,138,5,143
+news,120,extractive_query_aware_adaptive,True,George H.W. Bush and Barbara.,1,,4.7,180,9,189
+news,123,extractive_query_aware_adaptive,True,Universal Studios,1,,2.4,194,3,197
+news,122,extractive_query_aware_adaptive,False,Alcohol and drugs were not suspected.,1,,2.3,210,9,219
+news,124,extractive_query_aware_adaptive,False,His graduation.,1,,2.6,136,4,140
+news,125,extractive_query_aware_adaptive,True,Andrea Bocelli's.,1,,0.2,177,8,185
+news,126,extractive_query_aware_adaptive,True,Mexico City.,1,,2.2,149,4,153
+news,127,extractive_query_aware_adaptive,True,Moninder Singh Pandher,1,,2.6,178,6,184
+news,129,extractive_query_aware_adaptive,False,The four suspects.,1,,3.4,127,5,132
+news,130,extractive_query_aware_adaptive,False,2 million.,1,,2.1,141,4,145
+news,132,extractive_query_aware_adaptive,False,Yes.,1,,1.8,185,3,188
+news,128,extractive_query_aware_adaptive,False,Tuesday.,1,,8.5,153,3,156
+news,133,extractive_query_aware_adaptive,True,Stress cracks.,1,,1.1,168,5,173
+news,135,extractive_query_aware_adaptive,False,Increase taxes on luxury items.,1,,0.7,205,7,212
+news,134,extractive_query_aware_adaptive,True,10 percent.,1,,1.1,136,4,140
+news,131,extractive_query_aware_adaptive,False,Dana Perino.,1,,10.7,180,6,186
+news,137,extractive_query_aware_adaptive,False,Letters with white powder.,1,,0.2,210,6,216
+news,138,extractive_query_aware_adaptive,True,A loaf of bread.,1,,0.2,151,6,157
+news,136,extractive_query_aware_adaptive,True,nuclear partnership,1,,0.5,280,4,284
+news,139,extractive_query_aware_adaptive,False,Batna.,1,,0.5,165,4,169
+news,142,extractive_query_aware_adaptive,False,"Madrid, Spain.",1,,12.0,154,6,160
+news,141,extractive_query_aware_adaptive,False,A campus parking lot.,1,,11.7,152,6,158
+news,143,extractive_query_aware_adaptive,True,Canadian buses.,1,,12.2,144,4,148
+news,140,extractive_query_aware_adaptive,False,Taylor Bradford.,1,,15.4,198,4,202
+news,144,extractive_query_aware_adaptive,False,Ivan Cameron,1,,3.1,167,4,171
+news,146,extractive_query_aware_adaptive,False,Helicopter and PA-32.,1,,2.8,222,8,230
+news,145,extractive_query_aware_adaptive,False,HIV transmission and statutory rape.,1,,3.5,181,8,189
+news,147,extractive_query_aware_adaptive,False,Bloody uprising.,1,,0.2,151,5,156
+news,150,extractive_query_aware_adaptive,False,Nationwide retailers.,1,,2.4,163,5,168
+news,149,extractive_query_aware_adaptive,True,"Honesty, solidarity, and fraternity.",1,,3.1,222,10,232
+news,148,extractive_query_aware_adaptive,True,Heart disease.,1,,3.8,147,4,151
+news,151,extractive_query_aware_adaptive,True,Hillary Clinton.,1,,0.3,178,4,182
+news,154,extractive_query_aware_adaptive,False,Ledger,1,,1.1,149,3,152
+news,153,extractive_query_aware_adaptive,False,Affected pastures.,1,,2.9,150,5,155
+news,152,extractive_query_aware_adaptive,False,US Airways.,1,,2.6,363,4,367
+news,155,extractive_query_aware_adaptive,True,Allison Pearson.,1,,4.9,150,5,155
+news,159,extractive_query_aware_adaptive,True,Holding veterans care funding hostage.,1,,2.4,166,8,174
+news,157,extractive_query_aware_adaptive,True,The proposed constitution.,1,,2.6,151,5,156
+news,158,extractive_query_aware_adaptive,False,To buy the bird.,1,,2.6,134,6,140
+news,156,extractive_query_aware_adaptive,False,Planes and the hinge.,1,,7.5,224,7,231
+news,161,extractive_query_aware_adaptive,False,Peaceful purposes.,1,,3.9,212,5,217
+news,162,extractive_query_aware_adaptive,False,Women linked to al Qaeda releasing messages.,1,,3.4,165,9,174
+news,165,extractive_query_aware_adaptive,False,Acting and standup performances.,1,,3.0,151,8,159
+news,163,extractive_query_aware_adaptive,False,NATO-led ISAF.,1,,4.1,132,7,139
+news,160,extractive_query_aware_adaptive,True,Spending.,1,,8.8,171,4,175
+news,167,extractive_query_aware_adaptive,True,David Beckham.,1,,0.9,144,4,148
+news,166,extractive_query_aware_adaptive,False,A struggle to shoot.,1,,2.0,289,6,295
+news,168,extractive_query_aware_adaptive,False,Sevilla.,1,,3.3,189,4,193
+news,169,extractive_query_aware_adaptive,False,Loss,1,,0.9,157,2,159
+news,164,extractive_query_aware_adaptive,True,ABC,1,,8.7,162,2,164
+news,172,extractive_query_aware_adaptive,True,Pennsylvania.,1,,16.1,169,4,173
+news,171,extractive_query_aware_adaptive,False,Allowing security situation to deteriorate.,1,,16.2,146,9,155
+news,170,extractive_query_aware_adaptive,False,The charges.,1,,16.6,131,4,135
+news,174,extractive_query_aware_adaptive,False,Hamid Karzai.,1,,0.5,158,7,165
+news,177,extractive_query_aware_adaptive,True,"""Until the Day Is Done""",1,,1.1,158,8,166
+news,175,extractive_query_aware_adaptive,False,Voluntary manslaughter.,1,,4.0,197,5,202
+news,176,extractive_query_aware_adaptive,False,15 months ago.,1,,6.2,230,5,235
+news,179,extractive_query_aware_adaptive,False,Her electricity provider.,1,,3.7,197,5,202
+news,178,extractive_query_aware_adaptive,True,Prime Minister Sheikh Hasina.,1,,4.5,136,7,143
+news,180,extractive_query_aware_adaptive,False,Help paying for electricity.,1,,2.0,146,6,152
+news,181,extractive_query_aware_adaptive,False,Near the first car.,1,,1.9,160,6,166
+news,182,extractive_query_aware_adaptive,False,Suicide bombers.,1,,2.7,213,5,218
+news,184,extractive_query_aware_adaptive,True,Saddam Hussein era.,1,,2.6,195,7,202
+news,183,extractive_query_aware_adaptive,True,"Close to $50,000.",1,,7.6,247,8,255
+news,185,extractive_query_aware_adaptive,False,The crown.,1,,2.9,141,4,145
+news,187,extractive_query_aware_adaptive,True,gangbusters,1,,3.1,174,3,177
+news,186,extractive_query_aware_adaptive,False,7.5 percent.,1,,4.8,137,6,143
+news,173,extractive_query_aware_adaptive,False,Nothing is mentioned.,1,,43.2,124,5,129
+news,188,extractive_query_aware_adaptive,False,Concerned citizens and Mehdi Army cease-fire.,1,,5.2,204,11,215
+news,189,extractive_query_aware_adaptive,True,Yuvraj Singh.,1,,4.0,206,6,212
+news,190,extractive_query_aware_adaptive,False,Typhoon,1,,3.5,155,3,158
+news,191,extractive_query_aware_adaptive,False,Cyclone damage.,1,,2.0,169,6,175
+news,192,extractive_query_aware_adaptive,True,One of Sin Hwa Dee's factories.,1,,5.6,151,10,161
+news,195,extractive_query_aware_adaptive,False,"Stevenson and New Hope, Alabama.",1,,3.4,151,10,161
+news,193,extractive_query_aware_adaptive,True,24 years.,1,,4.1,146,4,150
+news,197,extractive_query_aware_adaptive,False,"14,900.",1,,0.5,203,5,208
+news,196,extractive_query_aware_adaptive,False,No information.,1,,2.4,142,4,146
+news,198,extractive_query_aware_adaptive,True,Racially motivated.,1,,2.7,168,6,174
+news,194,extractive_query_aware_adaptive,True,Braulio Arellano Dominguez,1,,8.8,265,10,275
+news,199,extractive_query_aware_adaptive,False,A world-famous comedian's story.,1,,0.8,143,9,152
+news,200,extractive_query_aware_adaptive,True,Augustin Binya.,1,,16.5,152,6,158
+novel,00950a36_5,extractive_query_aware_adaptive,False,A wretched fugitive.,1,,0.7,175,7,182
+novel,00950a36_1,extractive_query_aware_adaptive,False,Conan.,1,,0.4,210,4,214
+novel,00950a36_0,extractive_query_aware_adaptive,True,Shah Amurath,1,,0.3,209,6,215
+novel,00950a36_2,extractive_query_aware_adaptive,False,No city mentioned.,1,,1.2,295,5,300
+novel,00950a36_6,extractive_query_aware_adaptive,False,"There is no information about someone being made ""Queen of the Blue Sea"" in the passage.",1,,0.7,154,20,174
+novel,00950a36_7,extractive_query_aware_adaptive,False,Dimitri.,1,,0.3,160,5,165
+novel,00950a36_9,extractive_query_aware_adaptive,False,Among the rocks.,1,,1.9,159,5,164
+novel,00950a36_10,extractive_query_aware_adaptive,False,He,1,,3.2,232,2,234
+novel,00950a36_12,extractive_query_aware_adaptive,False,No city mentioned.,1,,1.1,293,5,298
+novel,00950a36_11,extractive_query_aware_adaptive,False,One of us.,1,,3.5,181,5,186
+novel,00950a36_8,extractive_query_aware_adaptive,False,No one.,1,,8.5,240,4,244
+novel,00950a36_13,extractive_query_aware_adaptive,False,Conan.,1,,3.1,232,4,236
+novel,00950a36_14,extractive_query_aware_adaptive,True,Boulders.,1,,4.9,211,5,216
+novel,3e966645_1,extractive_query_aware_adaptive,False,A Christian port.,1,,3.6,287,5,292
+novel,00950a36_15,extractive_query_aware_adaptive,True,Conan.,1,,7.3,179,4,183
+novel,3e966645_5,extractive_query_aware_adaptive,False,Disease.,1,,5.2,336,4,340
+novel,3e966645_4,extractive_query_aware_adaptive,False,Molasses.,1,,5.1,174,5,179
+novel,3e966645_6,extractive_query_aware_adaptive,False,Shah Amurath.,1,,1.6,165,7,172
+novel,3e966645_9,extractive_query_aware_adaptive,False,Peru,1,,3.5,263,3,266
+novel,3e966645_8,extractive_query_aware_adaptive,False,No answer available.,1,,2.7,269,5,274
+novel,3e966645_2,extractive_query_aware_adaptive,False,The old man.,1,,11.6,205,5,210
+novel,3e966645_12,extractive_query_aware_adaptive,False,No information.,1,,2.0,175,4,179
+novel,3e966645_10,extractive_query_aware_adaptive,False,pestilence,1,,3.6,185,4,189
+novel,3e966645_7,extractive_query_aware_adaptive,False,M'Neil.,1,,9.8,171,5,176
+novel,3e966645_11,extractive_query_aware_adaptive,False,The mines.,1,,6.8,223,4,227
+novel,3e966645_17,extractive_query_aware_adaptive,False,The beach.,1,,2.5,136,4,140
+novel,3e966645_19,extractive_query_aware_adaptive,False,None.,1,,2.2,314,3,317
+novel,3e966645_20,extractive_query_aware_adaptive,True,California champagne.,1,,0.8,156,4,160
+novel,3e966645_16,extractive_query_aware_adaptive,False,There is no information about what the ship is carrying.,1,,4.4,128,12,140
+novel,3e966645_22,extractive_query_aware_adaptive,False,Papeete,1,,15.8,224,4,228
+novel,6a659de3_2,extractive_query_aware_adaptive,False,Nomes,1,,18.3,137,3,140
+novel,3e966645_23,extractive_query_aware_adaptive,False,None mentioned.,1,,18.6,205,4,209
+novel,6a659de3_3,extractive_query_aware_adaptive,False,"The Princess, Dorothy, and Glinda.",1,,1.9,173,10,183
+novel,3e966645_21,extractive_query_aware_adaptive,False,No information provided.,1,,20.1,157,5,162
+novel,6a659de3_4,extractive_query_aware_adaptive,False,Himself.,1,,1.1,224,5,229
+novel,6a659de3_5,extractive_query_aware_adaptive,False,You.,1,,0.3,178,3,181
+novel,6a659de3_8,extractive_query_aware_adaptive,False,The narrator.,1,,1.0,182,4,186
+novel,6a659de3_6,extractive_query_aware_adaptive,False,A white woman.,1,,4.9,181,5,186
+novel,6a659de3_7,extractive_query_aware_adaptive,False,You will learn.,1,,5.2,188,5,193
+novel,6a659de3_12,extractive_query_aware_adaptive,False,The narrator.,1,,2.3,264,4,268
+novel,6a659de3_14,extractive_query_aware_adaptive,False,No information provided.,1,,1.5,186,5,191
+novel,6a659de3_11,extractive_query_aware_adaptive,False,The narrator.,1,,9.0,228,4,232
+novel,9561a72a_1,extractive_query_aware_adaptive,False,Ozma.,1,,2.8,335,5,340
+novel,6a659de3_17,extractive_query_aware_adaptive,False,No one.,1,,5.2,230,4,234
+novel,9561a72a_0,extractive_query_aware_adaptive,True,Aunt Em and Uncle Henry.,1,,6.0,221,8,229
+novel,9561a72a_3,extractive_query_aware_adaptive,False,Lesser Hill.,1,,6.2,204,5,209
+novel,9561a72a_5,extractive_query_aware_adaptive,True,Aunt Em and Uncle Henry.,1,,1.3,277,8,285
+novel,9561a72a_9,extractive_query_aware_adaptive,False,Uncle Henry and Dorothy's dead mother.,1,,1.6,353,10,363
+novel,9561a72a_7,extractive_query_aware_adaptive,False,Under the mountains of the Land of Ev.,1,,6.2,161,10,171
+novel,9561a72a_11,extractive_query_aware_adaptive,False,The Nome King.,1,,0.9,287,5,292
+novel,9561a72a_10,extractive_query_aware_adaptive,True,The Magic Belt.,1,,1.5,195,5,200
+novel,9561a72a_12,extractive_query_aware_adaptive,False,An old Nome.,1,,5.0,228,5,233
+novel,bf55d1c1_1,extractive_query_aware_adaptive,False,There is no mention of murder in the passage.,1,,0.3,165,11,176
+novel,bf55d1c1_2,extractive_query_aware_adaptive,True,Adam,1,,0.2,214,2,216
+novel,bf55d1c1_0,extractive_query_aware_adaptive,False,There is no mention of Adam purchasing anything.,1,,1.8,167,10,177
+novel,bf55d1c1_5,extractive_query_aware_adaptive,False,None mentioned.,1,,0.8,180,4,184
+novel,bf55d1c1_3,extractive_query_aware_adaptive,False,No one is mentioned.,1,,3.3,148,6,154
+novel,bf55d1c1_4,extractive_query_aware_adaptive,False,Not specified.,1,,3.3,245,4,249
+novel,bf55d1c1_6,extractive_query_aware_adaptive,False,None.,1,,0.2,191,3,194
+novel,bf55d1c1_9,extractive_query_aware_adaptive,False,Twenty years ago.,1,,12.7,201,5,206
+novel,bf55d1c1_10,extractive_query_aware_adaptive,False,Davenport,1,,12.7,180,3,183
+novel,bf55d1c1_12,extractive_query_aware_adaptive,False,No information given.,1,,14.1,148,5,153
+novel,bf55d1c1_11,extractive_query_aware_adaptive,False,There is no mention of Adam teaming up with anyone to hunt down Arabella.,1,,14.7,146,18,164
+novel,ca4b98f5_0,extractive_query_aware_adaptive,False,The Wizard of Oz.,1,,0.3,159,6,165
+novel,ca4b98f5_1,extractive_query_aware_adaptive,False,No information given.,1,,0.4,221,5,226
+novel,ca4b98f5_3,extractive_query_aware_adaptive,False,Clavering Park.,1,,0.6,194,6,200
+novel,ca4b98f5_2,extractive_query_aware_adaptive,True,Messrs. Beilby and Burton.,1,,1.8,164,10,174
+novel,ca4b98f5_4,extractive_query_aware_adaptive,False,No one is mentioned.,1,,1.6,179,6,185
+novel,ca4b98f5_6,extractive_query_aware_adaptive,False,I don't have that information.,1,,1.4,139,8,147
+novel,ca4b98f5_8,extractive_query_aware_adaptive,False,No one.,1,,0.8,143,4,147
+novel,ca4b98f5_10,extractive_query_aware_adaptive,False,This information is not provided.,1,,5.3,195,7,202
+novel,ca4b98f5_12,extractive_query_aware_adaptive,False,Her father.,1,,0.2,180,4,184
+novel,ca4b98f5_11,extractive_query_aware_adaptive,False,Lord Ongar.,1,,0.5,540,6,546
+novel,ca4b98f5_13,extractive_query_aware_adaptive,False,Julia Brabazon,1,,1.0,238,6,244
+novel,ca4b98f5_14,extractive_query_aware_adaptive,False,Lawyer.,1,,2.6,255,4,259
+novel,ca4b98f5_17,extractive_query_aware_adaptive,False,The speaker.,1,,3.7,209,4,213
+novel,ca4b98f5_15,extractive_query_aware_adaptive,False,Fanny,1,,6.4,138,3,141
+novel,ca4b98f5_18,extractive_query_aware_adaptive,False,No one.,1,,1.9,189,4,193
+novel,ca4b98f5_16,extractive_query_aware_adaptive,False,She,1,,9.5,140,2,142
+caselaw,1,extractive_query_aware_adaptive,False,4,1,,0.4,1615,2,1617
+caselaw,5,extractive_query_aware_adaptive,False,2,1,,0.4,1703,2,1705
+caselaw,3,extractive_query_aware_adaptive,True,5,1,,0.3,1539,3,1542
+caselaw,7,extractive_query_aware_adaptive,False,4,1,,0.3,1553,2,1555
+caselaw,9,extractive_query_aware_adaptive,True,5,1,,0.3,1594,2,1596
+caselaw,13,extractive_query_aware_adaptive,False,5,1,,0.4,1620,2,1622
+caselaw,17,extractive_query_aware_adaptive,False,4,1,,0.2,1641,2,1643
+caselaw,15,extractive_query_aware_adaptive,True,1,1,,0.4,1526,2,1528
+caselaw,19,extractive_query_aware_adaptive,False,5,1,,0.3,1590,2,1592
+caselaw,11,extractive_query_aware_adaptive,False,1,1,,0.2,1585,2,1587
+caselaw,21,extractive_query_aware_adaptive,False,2,1,,0.4,1553,2,1555
+caselaw,25,extractive_query_aware_adaptive,False,5,1,,0.3,1537,3,1540
+caselaw,27,extractive_query_aware_adaptive,True,2,1,,0.3,1571,2,1573
+caselaw,23,extractive_query_aware_adaptive,False,2,1,,0.5,1658,2,1660
+caselaw,31,extractive_query_aware_adaptive,True,5,1,,0.4,1598,2,1600
+caselaw,33,extractive_query_aware_adaptive,False,2,1,,0.3,1588,2,1590
+caselaw,29,extractive_query_aware_adaptive,False,4,1,,0.3,1643,2,1645
+caselaw,35,extractive_query_aware_adaptive,False,1,1,,0.4,1654,2,1656
+caselaw,37,extractive_query_aware_adaptive,False,2,1,,0.4,1552,3,1555
+caselaw,43,extractive_query_aware_adaptive,False,5,1,,0.9,1610,2,1612
+caselaw,45,extractive_query_aware_adaptive,False,2,1,,0.5,1596,3,1599
+caselaw,41,extractive_query_aware_adaptive,False,5,1,,1.4,1559,2,1561
+caselaw,39,extractive_query_aware_adaptive,False,1,1,,2.8,1555,2,1557
+caselaw,47,extractive_query_aware_adaptive,False,5,1,,0.6,1587,2,1589
+caselaw,53,extractive_query_aware_adaptive,False,5,1,,0.2,1576,2,1578
+caselaw,49,extractive_query_aware_adaptive,False,3,1,,0.3,1582,3,1585
+caselaw,51,extractive_query_aware_adaptive,True,5,1,,0.2,1578,3,1581
+caselaw,55,extractive_query_aware_adaptive,True,2,1,,0.3,1648,2,1650
+caselaw,59,extractive_query_aware_adaptive,False,4,1,,0.4,1660,2,1662
+caselaw,57,extractive_query_aware_adaptive,False,4,1,,0.4,1629,2,1631
+caselaw,63,extractive_query_aware_adaptive,False,5,1,,0.4,1628,2,1630
+caselaw,61,extractive_query_aware_adaptive,False,3,1,,0.3,1541,3,1544
+caselaw,65,extractive_query_aware_adaptive,True,5,1,,0.5,1600,2,1602
+caselaw,69,extractive_query_aware_adaptive,False,3,1,,0.3,1540,3,1543
+caselaw,73,extractive_query_aware_adaptive,True,2,1,,0.4,1561,2,1563
+caselaw,71,extractive_query_aware_adaptive,False,1,1,,0.3,1602,2,1604
+caselaw,67,extractive_query_aware_adaptive,False,1,1,,0.2,1566,2,1568
+caselaw,75,extractive_query_aware_adaptive,False,5,1,,0.3,1558,2,1560
+caselaw,77,extractive_query_aware_adaptive,False,1,1,,0.3,1575,2,1577
+caselaw,81,extractive_query_aware_adaptive,False,5,1,,0.3,1620,2,1622
+caselaw,83,extractive_query_aware_adaptive,False,5,1,,0.4,1536,3,1539
+caselaw,79,extractive_query_aware_adaptive,False,5,1,,0.4,1623,2,1625
+caselaw,87,extractive_query_aware_adaptive,False,5,1,,0.3,1587,2,1589
+caselaw,89,extractive_query_aware_adaptive,False,5,1,,0.2,1565,2,1567
+caselaw,85,extractive_query_aware_adaptive,True,2,1,,0.3,1574,2,1576
+caselaw,91,extractive_query_aware_adaptive,False,1,1,,0.3,1589,2,1591
+caselaw,93,extractive_query_aware_adaptive,False,5,1,,0.2,1624,2,1626
+caselaw,95,extractive_query_aware_adaptive,False,5,1,,0.4,1579,3,1582
+caselaw,99,extractive_query_aware_adaptive,False,4,1,,0.3,1608,2,1610
+caselaw,101,extractive_query_aware_adaptive,False,5,1,,0.2,1556,2,1558
+caselaw,97,extractive_query_aware_adaptive,False,1,1,,0.2,1570,2,1572
+caselaw,103,extractive_query_aware_adaptive,False,5,1,,0.2,1580,2,1582
+caselaw,109,extractive_query_aware_adaptive,False,3,1,,0.3,1619,2,1621
+caselaw,105,extractive_query_aware_adaptive,False,4,1,,0.7,1653,2,1655
+caselaw,107,extractive_query_aware_adaptive,True,5,1,,0.5,1565,2,1567
+caselaw,111,extractive_query_aware_adaptive,False,5,1,,2.4,1595,2,1597
+caselaw,113,extractive_query_aware_adaptive,False,2,1,,0.5,1577,2,1579
+caselaw,119,extractive_query_aware_adaptive,True,3,1,,0.4,1594,2,1596
+caselaw,115,extractive_query_aware_adaptive,False,5,1,,1.9,1671,2,1673
+caselaw,121,extractive_query_aware_adaptive,False,1,1,,0.4,1587,2,1589
+caselaw,117,extractive_query_aware_adaptive,False,2,1,,0.3,1700,2,1702
+caselaw,123,extractive_query_aware_adaptive,False,1,1,,0.3,1577,2,1579
+caselaw,125,extractive_query_aware_adaptive,False,1,1,,1.2,1578,2,1580
+caselaw,131,extractive_query_aware_adaptive,False,2,1,,0.4,1601,3,1604
+caselaw,129,extractive_query_aware_adaptive,True,2,1,,0.4,1697,2,1699
+caselaw,127,extractive_query_aware_adaptive,False,1,1,,0.4,1563,2,1565
+caselaw,133,extractive_query_aware_adaptive,False,4,1,,0.2,1568,3,1571
+caselaw,137,extractive_query_aware_adaptive,False,4,1,,0.3,1749,2,1751
+caselaw,139,extractive_query_aware_adaptive,False,5,1,,0.3,1596,2,1598
+caselaw,135,extractive_query_aware_adaptive,False,5,1,,0.3,1881,2,1883
+caselaw,143,extractive_query_aware_adaptive,True,5,1,,0.3,1706,2,1708
+caselaw,141,extractive_query_aware_adaptive,False,2,1,,0.4,1593,3,1596
+caselaw,145,extractive_query_aware_adaptive,False,5,1,,0.4,1608,2,1610
+caselaw,147,extractive_query_aware_adaptive,False,1,1,,0.6,1678,2,1680
+caselaw,149,extractive_query_aware_adaptive,False,5,1,,0.4,1626,2,1628
+caselaw,151,extractive_query_aware_adaptive,True,5,1,,0.2,1580,2,1582
+caselaw,153,extractive_query_aware_adaptive,False,2,1,,0.3,1658,2,1660
+caselaw,157,extractive_query_aware_adaptive,False,5,1,,0.2,1604,2,1606
+caselaw,161,extractive_query_aware_adaptive,False,5,1,,0.3,1611,2,1613
+caselaw,159,extractive_query_aware_adaptive,True,5,1,,0.3,1610,2,1612
+caselaw,155,extractive_query_aware_adaptive,False,5,1,,0.3,1635,2,1637
+caselaw,163,extractive_query_aware_adaptive,True,4,1,,0.3,1543,3,1546
+caselaw,165,extractive_query_aware_adaptive,False,5,1,,0.3,1668,2,1670
+caselaw,167,extractive_query_aware_adaptive,False,1,1,,0.3,1600,2,1602
+caselaw,169,extractive_query_aware_adaptive,True,5,1,,0.3,1583,2,1585
+caselaw,171,extractive_query_aware_adaptive,False,1,1,,0.2,1610,2,1612
+caselaw,175,extractive_query_aware_adaptive,True,2,1,,0.3,1558,2,1560
+caselaw,177,extractive_query_aware_adaptive,False,5,1,,0.2,1555,2,1557
+caselaw,179,extractive_query_aware_adaptive,False,5,1,,0.3,1593,2,1595
+caselaw,181,extractive_query_aware_adaptive,True,1,1,,0.2,1573,2,1575
+caselaw,185,extractive_query_aware_adaptive,False,1,1,,0.3,1583,2,1585
+caselaw,183,extractive_query_aware_adaptive,False,5,1,,0.4,1631,2,1633
+caselaw,187,extractive_query_aware_adaptive,False,3,1,,0.3,1576,2,1578
+caselaw,189,extractive_query_aware_adaptive,True,5,1,,1.9,1570,2,1572
+caselaw,193,extractive_query_aware_adaptive,False,5,1,,0.7,1671,2,1673
+caselaw,191,extractive_query_aware_adaptive,True,3,1,,1.8,1628,2,1630
+caselaw,173,extractive_query_aware_adaptive,False,1,1,,30.1,1619,2,1621
+caselaw,197,extractive_query_aware_adaptive,False,5,1,,0.5,1608,2,1610
+caselaw,195,extractive_query_aware_adaptive,False,5,1,,0.5,1585,2,1587
+caselaw,201,extractive_query_aware_adaptive,False,5,1,,0.2,1612,2,1614
+caselaw,199,extractive_query_aware_adaptive,False,4,1,,0.4,1742,2,1744
+caselaw,205,extractive_query_aware_adaptive,False,1,1,,0.3,1584,2,1586
+caselaw,207,extractive_query_aware_adaptive,False,4,1,,0.3,1574,2,1576
+caselaw,203,extractive_query_aware_adaptive,False,4,1,,0.2,1568,2,1570
+caselaw,209,extractive_query_aware_adaptive,True,5,1,,0.2,1583,2,1585
+caselaw,213,extractive_query_aware_adaptive,False,3,1,,0.3,1617,2,1619
+caselaw,217,extractive_query_aware_adaptive,True,3,1,,0.3,1581,2,1583
+caselaw,215,extractive_query_aware_adaptive,False,1,1,,0.5,1637,2,1639
+caselaw,211,extractive_query_aware_adaptive,False,5,1,,0.4,1682,2,1684
+caselaw,219,extractive_query_aware_adaptive,False,4,1,,0.3,1575,2,1577
+caselaw,221,extractive_query_aware_adaptive,False,5,1,,0.3,1615,2,1617
+caselaw,225,extractive_query_aware_adaptive,False,2,1,,0.5,1646,3,1649
+caselaw,223,extractive_query_aware_adaptive,True,4,1,,0.3,1635,2,1637
+caselaw,227,extractive_query_aware_adaptive,False,4,1,,0.4,1655,2,1657
+caselaw,229,extractive_query_aware_adaptive,False,1,1,,0.4,1533,2,1535
+caselaw,231,extractive_query_aware_adaptive,True,2,1,,0.3,1717,2,1719
+caselaw,233,extractive_query_aware_adaptive,True,3,1,,0.6,1542,3,1545
+caselaw,235,extractive_query_aware_adaptive,True,5,1,,0.2,1623,2,1625
+caselaw,243,extractive_query_aware_adaptive,False,5,1,,0.3,1601,2,1603
+caselaw,237,extractive_query_aware_adaptive,True,4,1,,0.2,1622,2,1624
+caselaw,241,extractive_query_aware_adaptive,False,5,1,,0.2,1612,2,1614
+caselaw,245,extractive_query_aware_adaptive,False,3,1,,0.3,1599,2,1601
+caselaw,247,extractive_query_aware_adaptive,False,4,1,,0.3,1626,2,1628
+caselaw,239,extractive_query_aware_adaptive,False,5,1,,9.2,1596,2,1598
+caselaw,249,extractive_query_aware_adaptive,False,3,1,,0.4,1576,2,1578
+caselaw,251,extractive_query_aware_adaptive,False,5,1,,0.2,1523,2,1525
+caselaw,257,extractive_query_aware_adaptive,True,3,1,,0.4,1587,2,1589
+caselaw,255,extractive_query_aware_adaptive,False,1,1,,0.8,1594,2,1596
+caselaw,253,extractive_query_aware_adaptive,False,3,1,,0.3,1528,3,1531
+caselaw,259,extractive_query_aware_adaptive,False,5,1,,0.2,1632,2,1634
+caselaw,261,extractive_query_aware_adaptive,True,5,1,,0.4,1733,2,1735
+caselaw,265,extractive_query_aware_adaptive,True,2,1,,0.5,1599,2,1601
+caselaw,267,extractive_query_aware_adaptive,False,4,1,,0.3,1689,2,1691
+caselaw,263,extractive_query_aware_adaptive,True,5,1,,0.2,1563,2,1565
+caselaw,269,extractive_query_aware_adaptive,False,5,1,,0.4,1541,2,1543
+caselaw,271,extractive_query_aware_adaptive,False,2,1,,0.4,1615,2,1617
+caselaw,273,extractive_query_aware_adaptive,True,5,1,,0.2,1594,2,1596
+caselaw,277,extractive_query_aware_adaptive,False,5,1,,0.3,1580,3,1583
+caselaw,275,extractive_query_aware_adaptive,False,4,1,,0.2,1575,2,1577
+caselaw,281,extractive_query_aware_adaptive,True,3,1,,0.4,1637,2,1639
+caselaw,283,extractive_query_aware_adaptive,True,5,1,,0.3,1644,2,1646
+caselaw,279,extractive_query_aware_adaptive,False,1,1,,0.4,1648,2,1650
+caselaw,285,extractive_query_aware_adaptive,False,1,1,,0.2,1592,2,1594
+caselaw,289,extractive_query_aware_adaptive,False,5,1,,0.3,1674,2,1676
+caselaw,293,extractive_query_aware_adaptive,True,5,1,,0.3,1601,2,1603
+caselaw,295,extractive_query_aware_adaptive,False,5,1,,0.2,1577,2,1579
+caselaw,297,extractive_query_aware_adaptive,False,2,1,,0.3,1621,2,1623
+caselaw,299,extractive_query_aware_adaptive,True,4,1,,0.3,1666,2,1668
+caselaw,287,extractive_query_aware_adaptive,True,5,1,,13.8,1602,2,1604
+caselaw,303,extractive_query_aware_adaptive,False,5,1,,0.4,1614,2,1616
+caselaw,301,extractive_query_aware_adaptive,False,5,1,,0.3,1630,2,1632
+caselaw,291,extractive_query_aware_adaptive,False,5,1,,13.9,1546,2,1548
+caselaw,305,extractive_query_aware_adaptive,True,4,1,,0.3,1603,2,1605
+caselaw,309,extractive_query_aware_adaptive,False,1,1,,1.0,1605,2,1607
+caselaw,311,extractive_query_aware_adaptive,False,1,1,,0.9,1567,2,1569
+caselaw,307,extractive_query_aware_adaptive,False,4,1,,1.5,1639,2,1641
+caselaw,313,extractive_query_aware_adaptive,False,5,1,,2.4,1600,2,1602
+caselaw,315,extractive_query_aware_adaptive,False,1,1,,1.6,1581,2,1583
+caselaw,319,extractive_query_aware_adaptive,True,5,1,,1.0,1624,2,1626
+caselaw,317,extractive_query_aware_adaptive,False,5,1,,1.3,1551,2,1553
+caselaw,321,extractive_query_aware_adaptive,False,5,1,,0.2,1644,2,1646
+caselaw,323,extractive_query_aware_adaptive,True,5,1,,0.3,1657,2,1659
+caselaw,327,extractive_query_aware_adaptive,False,5,1,,0.3,1544,2,1546
+caselaw,329,extractive_query_aware_adaptive,False,5,1,,0.3,1685,2,1687
+caselaw,325,extractive_query_aware_adaptive,False,3,1,,0.2,1624,2,1626
+caselaw,331,extractive_query_aware_adaptive,False,3,1,,0.6,1613,3,1616
+caselaw,335,extractive_query_aware_adaptive,True,4,1,,0.4,1556,2,1558
+caselaw,339,extractive_query_aware_adaptive,True,5,1,,0.4,1621,2,1623
+caselaw,333,extractive_query_aware_adaptive,False,4,1,,0.2,1673,2,1675
+caselaw,337,extractive_query_aware_adaptive,False,5,1,,0.3,1619,2,1621
+caselaw,341,extractive_query_aware_adaptive,True,2,1,,0.2,1565,2,1567
+caselaw,345,extractive_query_aware_adaptive,False,2,1,,0.2,1569,2,1571
+caselaw,343,extractive_query_aware_adaptive,False,1,1,,0.2,1559,2,1561
+caselaw,347,extractive_query_aware_adaptive,True,2,1,,0.4,1534,3,1537
+caselaw,349,extractive_query_aware_adaptive,False,5,1,,0.3,1603,2,1605
+caselaw,351,extractive_query_aware_adaptive,False,5,1,,0.2,1572,2,1574
+caselaw,353,extractive_query_aware_adaptive,False,5,1,,0.4,1665,2,1667
+caselaw,357,extractive_query_aware_adaptive,False,3,1,,0.3,1623,2,1625
+caselaw,355,extractive_query_aware_adaptive,True,1,1,,0.3,1578,2,1580
+caselaw,359,extractive_query_aware_adaptive,True,4,1,,0.3,1516,2,1518
+caselaw,361,extractive_query_aware_adaptive,False,4,1,,0.4,1630,2,1632
+caselaw,365,extractive_query_aware_adaptive,True,5,1,,0.3,1564,2,1566
+caselaw,363,extractive_query_aware_adaptive,False,5,1,,0.3,1520,3,1523
+caselaw,367,extractive_query_aware_adaptive,False,1,1,,0.4,1579,2,1581
+caselaw,371,extractive_query_aware_adaptive,False,2,1,,0.5,1633,2,1635
+caselaw,373,extractive_query_aware_adaptive,False,3,1,,0.4,1546,2,1548
+caselaw,369,extractive_query_aware_adaptive,False,5,1,,0.3,1538,2,1540
+caselaw,375,extractive_query_aware_adaptive,False,3,1,,0.7,1559,2,1561
+caselaw,379,extractive_query_aware_adaptive,True,4,1,,0.5,1767,2,1769
+caselaw,381,extractive_query_aware_adaptive,False,1,1,,0.6,1614,2,1616
+caselaw,377,extractive_query_aware_adaptive,False,4,1,,0.3,1588,2,1590
+caselaw,383,extractive_query_aware_adaptive,False,5,1,,0.3,1557,3,1560
+caselaw,385,extractive_query_aware_adaptive,False,1,1,,1.5,1551,2,1553
+caselaw,387,extractive_query_aware_adaptive,False,5,1,,0.3,1574,2,1576
+caselaw,389,extractive_query_aware_adaptive,False,4,1,,0.7,1545,2,1547
+caselaw,391,extractive_query_aware_adaptive,False,5,1,,0.3,1591,2,1593
+caselaw,393,extractive_query_aware_adaptive,False,4,1,,0.2,1603,2,1605
+caselaw,397,extractive_query_aware_adaptive,False,5,1,,0.4,1577,2,1579
+caselaw,399,extractive_query_aware_adaptive,False,5,1,,0.3,1592,2,1594
+caselaw,395,extractive_query_aware_adaptive,True,1,1,,0.2,1582,2,1584
