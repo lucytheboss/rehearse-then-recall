@@ -21,6 +21,7 @@ from src.pipeline.extractive import (
     score_sentences,
     seam_report,
     select_sentences,
+    select_sentences_windowed,
 )
 
 BOS, PAD, EOS = 0, 1, 2
@@ -305,6 +306,47 @@ def test_select_sentences_fills_leftover_budget_with_minus_inf_sentences():
 
 def test_select_sentences_handles_empty_input():
     assert select_sentences([], [], ratio=0.5) == []
+
+
+# --- select_sentences_windowed -------------------------------------------------
+
+
+def test_select_sentences_windowed_with_window_zero_matches_select_sentences():
+    sentences = ["first", "second", "third", "fourth"]
+    scores = [0.1, 0.9, 0.2, 0.8]
+    assert select_sentences_windowed(sentences, scores, ratio=0.5, window=0) == select_sentences(
+        sentences, scores, ratio=0.5
+    )
+
+
+def test_select_sentences_windowed_pulls_in_one_neighbor_each_side():
+    sentences = ["a", "b", "c", "d", "e"]
+    scores = [0.1, 0.1, 0.9, 0.1, 0.1]  # only "c" (index 2) is top-scored
+    # ceil(0.2 * 5) = 1 -> budget is just "c", window=1 pads to b, c, d
+    assert select_sentences_windowed(sentences, scores, ratio=0.2, window=1) == ["b", "c", "d"]
+
+
+def test_select_sentences_windowed_clamps_at_document_edges():
+    sentences = ["a", "b", "c"]
+    scores = [0.9, 0.1, 0.1]  # ceil(0.1 * 3) = 1 -> only "a" (index 0) is top-scored
+    # window=1 would reach index -1; must clamp to the start of the document instead
+    assert select_sentences_windowed(sentences, scores, ratio=0.1, window=1) == ["a", "b"]
+
+
+def test_select_sentences_windowed_deduplicates_overlapping_neighborhoods():
+    sentences = ["a", "b", "c", "d", "e"]
+    scores = [0.9, 0.1, 0.1, 0.1, 0.9]  # "a" and "e" both top-scored, ratio picks both
+    # window=1 around each: {0,1} and {3,4} -- no overlap, but must not duplicate "e"
+    assert select_sentences_windowed(sentences, scores, ratio=0.4, window=1) == [
+        "a",
+        "b",
+        "d",
+        "e",
+    ]
+
+
+def test_select_sentences_windowed_handles_empty_input():
+    assert select_sentences_windowed([], [], ratio=0.5, window=1) == []
 
 
 # --- seam_report --------------------------------------------------------------

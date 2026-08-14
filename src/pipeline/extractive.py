@@ -202,3 +202,30 @@ def select_sentences(sentences: list[str], scores: list[float], ratio: float) ->
     budget = max(1, math.ceil(ratio * len(sentences)))
     ranked = sorted(range(len(sentences)), key=lambda i: scores[i], reverse=True)[:budget]
     return [sentences[i] for i in sorted(ranked)]
+
+
+def select_sentences_windowed(
+    sentences: list[str], scores: list[float], ratio: float, window: int = 0
+) -> list[str]:
+    """Like `select_sentences`, but pads each top-scored sentence with up to
+    `window` neighbors on each side, to test whether the seam `select_sentences`
+    cuts at (see module docstring) is itself what costs narrative-continuity
+    genres accuracy, rather than the sentence *choice*.
+
+    `window=0` is byte-identical to `select_sentences` — this is an additive
+    diagnostic, not a replacement. Neighbors are not separately budgeted: they
+    ride along with whichever top sentence pulled them in, so the *effective*
+    compression ratio grows with `window` and with how tightly top-scored
+    sentences cluster (heavy overlap between neighborhoods costs little extra;
+    scattered top sentences cost close to `2 * window` extra sentences each).
+    """
+    if not sentences:
+        return []
+    if window <= 0:
+        return select_sentences(sentences, scores, ratio)
+    budget = max(1, math.ceil(ratio * len(sentences)))
+    ranked = sorted(range(len(sentences)), key=lambda i: scores[i], reverse=True)[:budget]
+    expanded: set[int] = set()
+    for i in ranked:
+        expanded.update(range(max(0, i - window), min(len(sentences), i + window + 1)))
+    return [sentences[i] for i in sorted(expanded)]

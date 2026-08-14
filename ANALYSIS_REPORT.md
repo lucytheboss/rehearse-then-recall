@@ -1,6 +1,6 @@
 # Rehearse, Then Recall — Progress Report
 
-_Last updated: 2026-08-14 (structural_map_extractive confirmed at full scale, underperformed; maintenance rehearsal (A) revived and tested in 4 variants — dynamic-ratio variant nearly matches RAG accuracy at ~half the tokens and beats RAG on wiki, the strongest compression-family result in the project; 2 new figures)_
+_Last updated: 2026-08-15 (paper framing decided — §8: B (verbatim survives, rewritten collapses) + C (Transfer-Appropriate Compression) layered, implemented in both short-paper drafts with a restructured intro/RQ2a-RQ2b split/Table 8/conclusion; literature citations spot-checked (EXIT, LongLLMLingua, RAPTOR, C-DIC confirmed accurate). 2026-08-14 findings: seam padding closes maintenance_extractive_dynamic's novel gap to RAG completely, confirmed at full scale n=79 — now matches or beats RAG on 2 of 4 genres; no-merge thread clustering confirmed at full scale — recovers B/gist from collapse (0.121→0.264) but hurts already-good A content (0.428→0.390); soft/attention-weighted extensions of thread selection tried and confirmed not competitive with RAG's efficiency frontier; structural_map_extractive confirmed at full scale, underperformed)_
 
 ## 1. What this project is testing
 
@@ -443,7 +443,7 @@ reproduce more of the wrong (collapsed) thing.
 
 #### 4.3.8 `structural_map_extractive` — confirmed at full scale, underperformed
 
-§4.3.10's cognitive-localization hypothesis (split the one overloaded
+§4.3.14's cognitive-localization hypothesis (split the one overloaded
 mechanism into three specialized pieces — structural map / executive chunk
 selection / extractive detail) was piloted, built, and run to full scale
 (`10` §13i, n=579). It underperformed expectations: **0.142 overall**,
@@ -496,7 +496,7 @@ real accuracy cost (0.299), driven mostly by a collapse on novel (0.101
 vs. 0.241 for base A) — two lossy selection stages compounded rather than
 complementing each other.
 
-Read against §4.3.10's cognitive-psychology framing, this is a genuine
+Read against §4.3.14's cognitive-psychology framing, this is a genuine
 tension worth naming rather than smoothing over: levels-of-processing
 theory (Craik & Lockhart, 1972) predicts *elaborative* processing should
 beat *maintenance* processing for humans, because deeper semantic encoding
@@ -509,7 +509,196 @@ guarantee the same strategy stays best; which strategy wins can depend on
 where the failure mode lives in the *implementation*, not just which
 strategy is "deeper" in the cognitive-psychology sense.
 
-#### 4.3.10 A cognitive-psychology reading of the whole condition set
+#### 4.3.11 Seam padding closes novel's remaining gap — confirmed at full scale
+
+§4.3.9 left one open question: `maintenance_extractive_dynamic` closed most
+of RAG's advantage but still trailed it on novel (0.278 vs. 0.316, a 0.038
+gap), hypothesized as the "seam" cost documented in `extractive.py`'s
+`seam_report` — joining non-adjacent selected sentences drops the local
+continuity between them, plausibly hurting a narrative-continuity genre more
+than others. Tested by padding every selected sentence with its immediate
+neighbor on each side (`window=1`, `select_sentences_windowed` in
+`extractive.py`, `10` §13n) — run on the **full novel corpus (n=79)**, not a
+pilot subset (the window=0 baseline for the same 79 questions was already on
+disk from §13m's full-scale run, so only the window=1 arm needed a fresh
+QA pass).
+
+| variant | novel accuracy | avg tokens |
+|---|---|---|
+| `maintenance_extractive_dynamic`, window=0 (§13m) | 0.278 (22/79) | 538 |
+| `maintenance_extractive_dynamic`, window=1 (§13n) | **0.316 (25/79)** | 858 |
+| `raw_retrieval_adaptive` (RAG, reference) | 0.316 (25/79) | 977 |
+
+Padding **exactly closes the gap to RAG** — same accuracy, same underlying
+count (25/79), at 858 avg tokens vs. RAG's 977 (12% fewer). Question-level
+detail: 6 questions flipped correct, 3 flipped incorrect (net +3), consistent
+with a real but partial fix rather than a uniform improvement — some
+individual answers still depend on content the ±1 window doesn't reach. With
+this result, `maintenance_extractive_dynamic` now matches or exceeds RAG on
+**two** of four genres (wiki: 0.880 vs. 0.850; novel: 0.316 vs. 0.316) while
+remaining close on the other two (news, caselaw) — confirming the seam
+hypothesis was the right diagnosis for most, though not all, of novel's
+remaining gap.
+
+#### 4.3.12 No-merge thread clustering — confirmed at full scale: fixes B, doesn't help A
+
+A second 2026-08-14 idea, from reviewing `ThreadMemory`'s mechanics directly:
+the "revise" branch that collapses (§4.3.3) replaces a thread's text with a
+model's regeneration of "retrieved thread + current chunk" — but the
+*clustering decision* behind it (C-DIC Eq. 4-5, which thread a chunk belongs
+to) is pure cosine similarity and calls no model at all. It is not what
+collapses. This motivated keeping the decision and discarding the
+regeneration: `thread_grouping.cluster_into_threads` (new) groups chunks by
+embedding similarity into threads, but a thread's content is just its
+members' independently-produced texts concatenated — never merged or
+rewritten. Two content sources feed this same clustering function:
+
+- **`gist_threaded_nomerge`** — B's compressor run per chunk via
+  `rehearse_elaborative_independent` (new) with *no* retrieved context at
+  all, i.e. `format_elaborative_input(chunk, [])` — structurally cannot
+  collapse, since there is nothing to collapse toward. Deliberately reuses
+  the stage-2 checkpoint (not stage-1/one-shot): this is exactly the
+  "no-context fallback" path §4.3.3's 20-chunk anti-collapse pilot already
+  validated empirically (0 collapse, every chunk accurate), not a new,
+  unvalidated one.
+- **`maintenance_threaded_nomerge`** — A's already-computed dynamic-ratio
+  extraction (§4.3.9), clustered the same way. Free to build: the content
+  already existed; this only adds grouping plus a thread-level QA runner
+  (Adaptive-k over each thread's anchor embedding, same mechanism every
+  other condition already uses at chunk granularity).
+
+Piloted across all 4 genres at n=15/genre (`10` §13o), then run to full
+scale (n=579) once the pilot signal looked strong enough to justify it —
+deliberately not novel-only, since this targets the general collapse
+mechanism rather than novel's seam issue specifically:
+
+| condition | wiki | news | novel | caselaw | overall | avg tokens |
+|---|---|---|---|---|---|---|
+| `gist_threaded_nomerge` (full scale) | 0.330 | 0.220 | 0.228 | 0.290 | **0.264** | 886 |
+| `maintenance_threaded_nomerge` (full scale) | 0.650 | 0.410 | 0.241 | 0.300 | **0.390** | 1,519 |
+| *(reference)* `gist_retrieval_adaptive` (full scale, collapsed) | 0.130 | 0.055 | 0.051 | 0.210 | 0.121 | 1,105 |
+| *(reference)* `maintenance_extractive_dynamic` (full scale, §4.3.9/11) | 0.880 | 0.415 | 0.316 | 0.275 | 0.428 | 1,862 |
+| *(reference)* `raw_retrieval_adaptive` (RAG, full scale) | 0.850 | 0.420 | 0.316 | 0.300 | 0.439 | 3,588 |
+
+The pilot (n=15/genre: 0.317 / 0.467) overstated both conditions — consistent
+with this project's repeated pattern of optimistic pilot signals (wiki
+`lookup+retrieval` n=20→n=100, §4.2; the testing-effect n=1→n=25 reversal,
+§6) — but the two conditions' full-scale results diverge in an informative
+way rather than both simply regressing toward the mean:
+
+**`gist_threaded_nomerge` is a confirmed, genuine win.** Every one of the 4
+genres improved over `gist_retrieval_adaptive`'s collapsed baseline (wiki
++0.20, news +0.165, novel +0.177, caselaw +0.08), overall 0.264 vs. 0.121 —
+roughly 2.2x, at 886 vs. 1,105 tokens (20% fewer). The core hypothesis
+survives full-scale testing: the destructive merge step, not gisting itself,
+was what caused §4.3.3's collapse. This is not competitive with RAG (0.439)
+or `maintenance_extractive_dynamic` (0.428), but it is the first condition
+in this project to meaningfully recover *generative* (rewritten) content
+from collapse rather than side-stepping generation entirely.
+
+**`maintenance_threaded_nomerge` is a genuine negative result.** It
+underperforms the simpler `maintenance_extractive_dynamic` it clusters
+(0.390 vs. 0.428) despite starting from the exact same per-chunk content.
+Per genre: wiki drops sharply (0.880 → 0.650, −0.23), novel drops slightly
+(0.278 → 0.241, −0.038), news is flat (−0.005), caselaw improves marginally
+(+0.025). The wiki drop is the most informative data point — wiki's
+dynamic-ratio variant already approaches R≈1 (documents shorter than the
+32K-token target, so almost nothing gets cut, §4.3.9), meaning
+Adaptive-k-over-chunks was already close to showing everything relevant.
+Grouping into threads and then selecting *threads* instead adds a coarser,
+lossier selection step on top of an already-near-optimal one — for A
+specifically, thread-level grouping has nothing to fix and only a selection
+step to lose accuracy through. The asymmetry between the two conditions is
+itself the finding: no-merge thread clustering helps content that was
+otherwise unusable (B) and hurts content that otherwise wasn't (A) — grouping
+is a fix for collapse, not a general-purpose improvement.
+
+#### 4.3.13 Extending attention past scoring — soft selection, confirmed not to beat RAG's frontier
+
+§4.3.12's thread-level Adaptive-k is, mechanically, a *hard* cutoff on top of a
+cosine-similarity score — the same QK-dot-product scoring step attention
+uses, without the softmax-weighted combination step that follows it in a
+real attention layer. A 2026-08-14 discussion asked whether carrying that
+idea further — soft, weighted selection instead of a hard yes/no — would
+recover more of the gap to RAG. Two designs were tried, both scoped to
+`gist_threaded_nomerge`'s threads only (§4.3.12 found grouping itself hurts
+A, so a smarter selection rule on top of a hurtful grouping wasn't expected
+to help there):
+
+**Design 1 — softmax-weighted word budget** (`attention_weighted_budget`):
+every thread gets a temperature-scaled softmax weight over its similarity to
+the query, and a total word budget is allocated across threads proportional
+to that weight; each included thread's text is truncated to its share.
+
+- First attempt used an absolute weight floor (`min_weight=0.02`) to zero out
+  irrelevant threads. Bug: with N threads, a roughly uniform softmax gives
+  each ~1/N weight — past N≈50 that already undercuts a fixed 0.02 floor, so
+  *every* thread got zeroed and the prompt shipped with an effectively empty
+  passage. Confirmed directly: prompt tokens for news/novel/caselaw (all
+  hundreds of source chunks, correspondingly many threads) collapsed to
+  ~110-260 (matching `closed_book`'s token count), and 37-63% of answers were
+  literally "no passage provided." Fixed by making the floor relative to the
+  top thread's weight instead of absolute (`min_weight_ratio`), which can
+  never zero out every thread regardless of N.
+- With that fixed, the *budget size* itself was still wrong: it reused
+  `maintenance_extractive_dynamic`'s K=32,000-token target, which sizes a
+  one-time whole-document compression pass, not a per-question context
+  budget — a different layer. Result: 15,210 avg tokens/question (17.9x
+  `gist_threaded_nomerge`'s 852, 5.8x RAG's 2,642 on the same paired
+  subset), for accuracy still below RAG (0.417 vs. 0.517). Recalibrating to
+  K=2,500 (RAG's own scale) fixed the token blowup but then **accuracy fell
+  below the hard-cutoff baseline it was supposed to improve on** (0.25 vs.
+  0.317) — truncating each included thread's content to fit its proportional
+  slice cost more than the smoother selection boundary gained, most visibly
+  on news and novel.
+
+**Design 2 — nucleus (top-p) selection** (`nucleus_thread_selection`):
+same softmax weighting, but instead of allocating a word budget per thread,
+threads are ranked by weight and included **in full** (never truncated)
+until cumulative weight crosses `top_p` — directly targeting Design 1's
+diagnosed failure mode (truncation of the most-relevant thread).
+
+| variant | overall accuracy | avg tokens | vs. hard cutoff (same 60-q subset) |
+|---|---|---|---|
+| `gist_threaded_nomerge` (hard cutoff, Adaptive-k) | 0.317 | 852 | — |
+| weighted budget, K=32,000 (bug) | 0.417 | 15,210 | +0.10 acc, 17.9x tokens |
+| weighted budget, K=2,500 | 0.25 | 2,834 | −0.07 acc, 3.3x tokens |
+| nucleus, top_p=0.8 | 0.467 | 16,578 | +0.15 acc, 19.5x tokens |
+| nucleus, top_p=0.3 | 0.367 | 6,415 | +0.05 acc, 7.5x tokens |
+| *(reference)* `raw_retrieval_adaptive` (RAG) | 0.517 | 2,642 | +0.20 acc, 3.1x tokens |
+
+*(All rows above are the same paired 60-question pilot subset — n=15/genre
+— for a controlled comparison; not yet run to full scale.)*
+
+Nucleus selection did remove Design 1's truncation problem and genuinely
+improved accuracy over the hard cutoff at every `top_p` tested — the
+mechanism itself is sound. But the improvement is driven almost entirely by
+sharply higher inclusion counts (news/novel/caselaw have hundreds of source
+chunks and correspondingly many threads with a *flat* similarity
+distribution, so reaching even 30% cumulative softmax weight requires
+including a large fraction of all threads), which drives tokens up faster
+than accuracy: lowering `top_p` from 0.8 to 0.3 cut tokens by more than half
+(16,578 → 6,415) but also gave back two-thirds of the accuracy gain (0.467 →
+0.367). **At every point tested along this curve, RAG's own point (0.517
+accuracy, 2,642 tokens) sits strictly above and to the left of it** — no
+tested configuration of either soft-selection design reaches RAG's
+accuracy-per-token frontier, let alone beats it.
+
+**Honest read**: the attention-scoring analogy was directionally right (the
+same QK-similarity score does drive every selection mechanism in this
+project) but extending it into *soft, weighted* selection did not pay off
+here, specifically because independently-generated gist threads produce a
+similarity distribution too flat over too many candidates for a softmax-based
+rule to stay both selective and cheap. Hard cutoffs (Adaptive-k's
+biggest-gap heuristic) sidestep this because they key off the *shape* of the
+sorted score curve rather than an absolute or cumulative threshold, and that
+turns out to matter more than the smoothness of the selection boundary
+itself. `gist_threaded_nomerge` (§4.3.12) remains the confirmed, full-scale
+result from this whole thread-clustering line of investigation; neither
+soft-selection variant is recommended for a full-scale run given this
+pilot-scale pattern.
+
+#### 4.3.14 A cognitive-psychology reading of the whole condition set
 
 §4.3.3's diagnosis — one mechanism (`ThreadMemory`'s retrieve-and-replace)
 was asked to do three functionally distinct jobs (track structure,
@@ -564,7 +753,9 @@ is now mechanistically understood rather than merely observed.
 | `maintenance_extractive_adaptive` (fixed R=0.3) | maintenance rehearsal | 0.325 | 1,567 | loses accuracy, but 2.3x fewer tokens |
 | `maintenance_extractive_r50` (fixed R=0.5) | maintenance rehearsal | 0.368 | 2,011 | closer, still 1.8x fewer tokens |
 | `maintenance_extractive_combined` (A + query-aware re-selection) | maintenance rehearsal, re-pruned | 0.299 | 467 | negative result — two lossy stages compound |
-| `maintenance_extractive_dynamic` (dependent-ratio, 32K target) | maintenance rehearsal | **0.428** | **1,862** | **0.011 below RAG, ~half the tokens; beats RAG on wiki (0.880 vs 0.850)** |
+| `maintenance_extractive_dynamic` (dependent-ratio, 32K target) | maintenance rehearsal | **0.428** | **1,862** | **0.011 below RAG overall, ~half the tokens; beats RAG on wiki (0.880 vs 0.850), ties RAG on novel with §4.3.11's seam padding (0.316 vs 0.316)** |
+| `gist_threaded_nomerge` (no-merge thread clustering) | reconstructive recall, thread-grouped | 0.264 | 886 | confirmed 2.2x `gist_retrieval_adaptive`'s collapsed baseline on every genre — merge, not gisting, was the failure |
+| `maintenance_threaded_nomerge` (no-merge thread clustering) | maintenance rehearsal, thread-grouped | 0.390 | 1,519 | negative result — underperforms `maintenance_extractive_dynamic` it clusters (0.428), esp. wiki (−0.23) |
 
 ![Figure 9 — Maintenance-rehearsal (A) variants vs. RAG and extractive query-aware](docs/report_assets/fig9_maintenance_variants_accuracy.png)
 
@@ -582,23 +773,34 @@ family to that same frontier: `maintenance_extractive_dynamic` sits closer
 to RAG than any other tested alternative, at roughly half the token cost.
 
 **Current honest read**: no condition built on *generative* (rewritten,
-gisted) content beats RAG on accuracy, at any tested compression
-aggressiveness, model size, or selection mechanism — §4.3.3 explains why
-with a specific, identified mechanism (thread-memory collapse) rather than
-a general "compression is hard" appeal. Two conditions now have a genuine,
-defensible advantage, and both are extractive: `extractive_query_aware_adaptive`
-(RAG's own chunk selection, pruned query-aware, kept verbatim — a
-cost/latency argument, 5.3x fewer tokens for a 7.3pp accuracy cost) and
-`maintenance_extractive_dynamic` (verbatim sentence selection at a
-document-length-dependent ratio, no query awareness at all — the closest
-any tested condition comes to RAG's accuracy, 0.011 apart, at ~half the
-tokens, and the only condition to beat RAG outright on any genre). Read
-together, the two extractive alternatives bracket RAG from below in
-accuracy while asking for a fraction of its tokens; the through-line across
-this entire investigation is that **verbatim content survives, rewritten
-content collapses** — `structural_map_extractive` (§4.3.8), the one
-attempt to add generative reasoning (topic labels) back into an otherwise
-extractive pipeline, underperformed both, consistent with that reading.
+gisted) content **at full scale** beats RAG on accuracy, at any tested
+compression aggressiveness, model size, or selection mechanism — §4.3.3
+explains why with a specific, identified mechanism (thread-memory collapse)
+rather than a general "compression is hard" appeal. Two conditions now have
+a genuine, defensible advantage, and both are extractive:
+`extractive_query_aware_adaptive` (RAG's own chunk selection, pruned
+query-aware, kept verbatim — a cost/latency argument, 5.3x fewer tokens for
+a 7.3pp accuracy cost) and `maintenance_extractive_dynamic` (verbatim
+sentence selection at a document-length-dependent ratio, no query awareness
+at all — the closest any tested condition comes to RAG's accuracy, 0.011
+apart overall, at ~half the tokens, and now the only condition to match or
+beat RAG outright on more than one genre — wiki and, with §4.3.11's seam
+padding, novel too). Read together, the two extractive alternatives bracket
+RAG from below in accuracy while asking for a fraction of its tokens; the
+through-line across this entire investigation is that **verbatim content
+survives, rewritten content collapses** — `structural_map_extractive`
+(§4.3.8), the one attempt to add generative reasoning (topic labels) back
+into an otherwise extractive pipeline, underperformed both, consistent with
+that reading. §4.3.12 pushes on this same line from the *generative* side,
+now confirmed at full scale: collapse is specifically caused by the
+destructive merge step rather than generation itself, so removing only the
+merge (not the generation) recovers gisted content — `gist_threaded_nomerge`
+scores 0.264 vs. `gist_retrieval_adaptive`'s 0.121, improving on every genre
+— without becoming an exception to "no generative condition beats RAG" (RAG
+is still 0.439). §4.3.12 also found the same mechanism actively hurts
+already-good extractive content (`maintenance_threaded_nomerge` underperforms
+`maintenance_extractive_dynamic`, 0.390 vs. 0.428) — thread clustering is a
+fix for collapse specifically, not a general-purpose accuracy improvement.
 
 ## 5. Methodology notes worth keeping
 
@@ -708,10 +910,13 @@ scale.
   at full scale (n=579) — 0.439 overall accuracy vs. 0.339 for the best
   gist-based condition, at 7x fewer tokens. See §4.3.1. **But an extractive
   (verbatim, no-rewriting) form of rehearsal comes within 0.011 of matching
-  it, at ~half the tokens, and beats it outright on wiki** —
-  `maintenance_extractive_dynamic`, §4.3.9. The headline is no longer
-  "compression loses to retrieval" in the abstract; it's "*rewritten*
-  content collapses, *verbatim* content doesn't" (§4.3.9-10).
+  it overall, at ~half the tokens, and now matches or beats it outright on
+  2 of 4 genres** — `maintenance_extractive_dynamic`, §4.3.9 (beats RAG on
+  wiki, 0.880 vs. 0.850) + §4.3.11 (ties RAG exactly on novel once seam
+  padding is added, 0.316 vs. 0.316, confirmed at full scale n=79). The
+  headline is no longer "compression loses to retrieval" in the abstract;
+  it's "*rewritten* content collapses, *verbatim* content doesn't"
+  (§4.3.9, §4.3.14).
 - **The loss is content, not architecture, not selection, and confirmed not
   model size — root cause identified: thread-memory collapse** (§4.3.2-3):
   swapping only the content shown (gist vs. raw) at RAG's own single-call
@@ -806,7 +1011,177 @@ scale.
   other. This is this project's second RQ1-supporting finding, alongside
   §4.3.5's extractive_query_aware_adaptive — and the through-line across
   both is the same: verbatim content survives, rewritten content collapses.
+- **Seam padding closes novel's remaining gap to RAG — confirmed at full
+  scale** (§4.3.11): padding every selected sentence with ±1 neighbor
+  (`window=1`) took `maintenance_extractive_dynamic`'s novel accuracy from
+  0.278 to 0.316, exactly matching RAG's novel accuracy (25/79 both), at
+  858 avg tokens vs. RAG's 977. Run on the full 79-question novel corpus,
+  not a pilot. `maintenance_extractive_dynamic` now matches or beats RAG on
+  2 of 4 genres (wiki, novel).
+- **No-merge thread clustering — confirmed at full scale, asymmetric result**
+  (§4.3.12): keeps `ThreadMemory`'s clustering *decision* (pure cosine
+  similarity, not itself the collapse source) while discarding the
+  destructive merge step that causes collapse. Two conditions —
+  `gist_threaded_nomerge` (B gisted per-chunk with no retrieved context, so
+  it cannot collapse, then clustered) and `maintenance_threaded_nomerge` (A's
+  existing dynamic-ratio content, clustered the same way) — piloted at
+  n=15/genre, then run to full scale (n=579). Pilot numbers (0.317 / 0.467)
+  both overstated the effect, as this project's pilots often do, but the two
+  conditions diverged rather than both simply regressing: `gist_threaded_nomerge`
+  confirmed at 0.264 — every genre improved over `gist_retrieval_adaptive`'s
+  collapsed baseline (0.121), a genuine, if partial, recovery from collapse.
+  `maintenance_threaded_nomerge` confirmed at 0.390 — *worse* than the
+  `maintenance_extractive_dynamic` content it clusters (0.428), driven mainly
+  by a sharp wiki drop (0.880 → 0.650) where the ungrouped version was
+  already near-optimal (R≈1). Reading: thread clustering fixes collapsed
+  content and actively hurts content that wasn't broken to begin with — a
+  fix for collapse specifically, not a general-purpose accuracy lever.
+- **Soft (attention-style) selection tried on top of `gist_threaded_nomerge`
+  — confirmed not competitive with RAG, not pursued further** (§4.3.13):
+  replacing the thread-level hard cutoff with a softmax-weighted budget or
+  nucleus (top-p) selection improved accuracy over the hard cutoff in every
+  configuration tested, but always at a token cost RAG itself doesn't need
+  to pay — at every point tested (weighted budget K=2,500: 0.25/2,834 tok;
+  nucleus top_p=0.3: 0.367/6,415 tok; top_p=0.8: 0.467/16,578 tok), RAG's own
+  point (0.517/2,642 tok) sits strictly above and to the left. Two real bugs
+  were found and fixed along the way (an absolute weight floor that zeroed
+  every thread once thread count passed ~50; a budget target sized for
+  whole-document compression reused where a per-question budget was needed)
+  — worth recording since both are easy mistakes to repeat, not just this
+  project's. `gist_threaded_nomerge`'s hard cutoff remains the best
+  confirmed result on this branch.
 - **Not yet run to full scale**: the teacher-gist ceiling test with a
   *working* (non-collapsing) curation mechanism (real API cost, ~2.9h+
   estimated, more with retry overhead), and testing-effect's full
-  336-document curation (§6) — both legitimate follow-ups.
+  336-document curation (§6) — both legitimate follow-ups. The two
+  soft-selection variants above were deliberately *not* promoted to full
+  scale given the pilot-scale pattern (§4.3.13).
+
+## 8. Framing candidates for the writeup
+
+**Decided (2026-08-15): B + C combined**, layered rather than either alone —
+B (verbatim survives, rewritten collapses) as the precondition layer, C
+(Transfer-Appropriate Compression) as the layer explaining which
+verbatim-preserving strategy wins where. Reasoning: B alone explains
+*whether* a strategy works but reads as a systems/mechanism paper with the
+cognitive-psychology framing reduced to vocabulary; C alone is the
+strongest theoretical hook (a real, citable theoretical dispute — Craik &
+Lockhart 1972 vs. Morris, Bransford & Franks 1977 — resolved by data, not
+just cited) but on its own leaves the collapse-mechanism work (the
+project's most concrete, hard-won result) without a home. Layering both
+keeps the mechanism work as necessary groundwork and lets the
+genre-dependent TAP story carry the theoretical payload, which the
+portfolio goal (a cognitive-psychology + AI lab audience) weighted heavily.
+§4.3.13's soft-selection result stayed in as a deliberate contrast at the
+end of the TAP discussion — it shows that *matching* selection to structure
+matters, but the smoothness of the selection boundary on its own does not.
+
+**Title decided**: "Fit Over Depth: Transfer-Appropriate Compression for
+Long-Context LLM QA" (retires the earlier "Rehearse, Then Recall" — that
+title centers elaborative rehearsal, the specific strategy RQ2a rejects, so
+keeping it would point the title at the paper's negative result rather than
+its positive one). "Fit Over Depth" was chosen over "Deeper Isn't Better"
+deliberately: the paper's actual claim is that there is no universal
+depth/surface ranking at all (TAP), not that shallow beats deep — a
+directional title would misstate the conclusion.
+
+This is implemented in **`11_숏페이퍼 초안.md`/`11_숏페이퍼 초안 English.md`**
+(Obsidian): a new opening paragraph reframes the introduction around
+inconsistent results in prior work (C-DIC/ReadAgent/RAPTOR positive within
+their own designs vs. EXIT/LongLLMLingua showing other configurations of
+the same strategy family losing to plain retrieval), RQ2 splits into RQ2a
+("does it work" — decided by rewriting vs. preservation) and RQ2b ("which is
+better" — decided by TAP), §2.4.4 gained a genre × strategy table (Table 8)
+and the Morris/Bransford/Franks resolution, and the conclusion closes the
+loop back to the introduction's literature-inconsistency framing. See
+**`14_프레이밍 재구성 — 붕괴(1층)+전이적합압축(2층).md`** (Obsidian) for the full
+design blueprint this was built from, including exactly which existing
+result maps to which layer.
+
+The candidates below are kept as the record of that decision, not
+superseded — B and D remain accurate readings of the same data if the
+audience or venue changes. The project's central claim was reframed several
+times as evidence accumulated (query-agnostic gisting → RQ1/RQ2 → the
+asymmetric thread-clustering + soft-selection results → RQ2a/RQ2b), and it
+grew big enough that different subsets of findings would have supported
+genuinely different papers, not just different titles for the same one.
+Each candidate below names what it would put at the center, what it would
+foreground from §4, and what it would need to cut or demote to a footnote
+to stay inside a 3-6p short paper.
+
+**A. RQ1/RQ2 (current draft's framing).** Two nested questions: does
+applying a human memory strategy help (RQ1), does the specific strategy
+first hypothesized — elaborative rehearsal's gist — help (RQ2). RQ2
+rejected, RQ1 supported by two alternate strategies (testing effect,
+maintenance rehearsal). *Foregrounds*: §4.3.5, §4.3.9, §4.3.11. *Cuts*:
+§4.3.12's asymmetric result and §4.3.13's soft-selection tangent don't map
+cleanly onto either RQ and would stay as brief forward-looking notes.
+*Effort*: lowest — abstract/intro/conclusion already written this way.
+*Risk*: RQ1's support is now three unrelated strategies (testing effect,
+maintenance, no-merge gist) succeeding for three different reasons — reads
+increasingly like "something worked" rather than one sharp claim.
+
+**B. Verbatim survives, rewritten collapses.** One mechanistic claim,
+argued from every angle in §4: any mechanism that *regenerates* content —
+elaborative rehearsal's rolling merge, thread-memory's revise branch —
+collapses regardless of model scale (§4.3.3); any mechanism that keeps
+content verbatim or generates it context-free — extraction (§4.3.5, §4.3.9),
+no-merge clustering (§4.3.12), context-free gisting (§4.3.12) — doesn't,
+independent of *how* it selects that content. §4.3.13's soft-selection
+result even strengthens this reading: it kept the no-regeneration property
+and never collapsed, it just wasn't efficient — a different, non-fatal kind
+of failure. *Foregrounds*: §4.3.3 (the mechanism), §4.3.9/11/12 (four
+independent confirmations from different angles). *Cuts*: little — this is
+the framing most of §4 already supports without forcing. *Effort*: medium —
+needs the intro/abstract rewritten around the mechanism rather than the two
+RQs, but no new experiments. *Risk*: reads more like a systems/mechanism
+paper than a cognitive-psychology one; the human-memory-strategy framing
+becomes motivation/vocabulary rather than the paper's own claim.
+
+**C. Transfer-Appropriate Compression.** No single strategy is universally
+best; which one wins depends on whether its selection granularity and
+criterion match the document's structure and the task's retrieval demands —
+Transfer-Appropriate Processing (Morris, Bransford & Franks 1977) rather
+than Craik & Lockhart's (1972) uniform depth-of-processing hierarchy, which
+§4.3.9's own tension (maintenance beats elaborative here, opposite the
+human-cognition prediction) already gestures at. Short docs favor near-zero
+compression (wiki, §4.3.9); long narrative docs favor coarse whole-chunk
+retrieval over fine-grained extraction unless local continuity is restored
+(novel, §4.3.5 vs. §4.3.11); selection *criterion* (query-similarity vs.
+importance) matters as much as *granularity*. *Foregrounds*: the per-genre
+breakdown across §4.3.5/9/11, read together rather than condition-by-
+condition. *Cuts*: §4.3.13's soft-selection result isn't genre-specific and
+would need to be a secondary note, not central evidence. *Effort*:
+medium-high — needs a genre-comparison table/figure as the paper's central
+evidence, not yet built as such (draft only sketched this in chat, not
+written into the paper). *Risk*: the theoretical hook is strong but
+underspecified without dedicated experiments designed to isolate criterion
+from granularity rather than reading it post hoc off condition ablations
+built for other purposes.
+
+**D. Diagnosis-first / methods framing: finding and fixing thread-memory
+collapse.** Centers the diagnostic *process* rather than any single winning
+strategy: noticing an implausible result, isolating architecture from
+content from model scale via controlled ablation (§4.3.2-3, already
+visualized as the diagnosis funnel, Fig. 3), identifying one exact
+mechanism, then testing that diagnosis from three independent angles
+(extraction, context-free generation, no-merge clustering) that all point
+the same way. §4.3.13's bug-hunting inside the soft-selection experiment
+(an absolute weight floor silently failing at scale, a budget target reused
+across a semantic-layer mismatch) is genuinely on-theme here rather than a
+tangent. *Foregrounds*: §4.3.2-3 as the paper's centerpiece, §4.3.9/11/12/13
+as confirmatory follow-through. *Cuts*: needs less genre-by-genre nuance
+than C, less "which strategy is cognitively X" framing than A/B. *Effort*:
+medium — the diagnostic content already exists in full (§2.4.3 of the
+current draft covers most of it) but isn't currently the paper's spine.
+*Risk*: strongest for a systems/ML audience, weaker pitch for a venue that
+wants the cognitive-psychology angle to be load-bearing rather than
+motivating color.
+
+**Not a standalone candidate, but worth keeping regardless of which is
+chosen**: §4.3.13's specific negative result (hard cutoffs beat every
+softmax-weighted selection rule tried, because independently-generated
+content produces similarity scores too flat over too many candidates for a
+cumulative or proportional threshold to stay both selective and cheap) is a
+clean, self-contained finding on its own and fits as a subsection under B or
+D without much adaptation.

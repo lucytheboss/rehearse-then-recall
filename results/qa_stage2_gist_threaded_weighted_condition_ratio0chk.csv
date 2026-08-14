@@ -1,0 +1,61 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,4,gist_threaded_weighted,False,Wisconsinan glaciation.,1,,0.5,2505,7,2512
+wiki,3,gist_threaded_weighted,False,1609,1,,0.5,2537,3,2540
+wiki,2,gist_threaded_weighted,False,Not specified,1,,0.6,2589,3,2592
+wiki,1,gist_threaded_weighted,True,1898,1,,0.7,2524,3,2527
+wiki,5,gist_threaded_weighted,True,France,1,,0.5,2536,2,2538
+wiki,7,gist_threaded_weighted,True,The Dutch East India Company.,1,,0.5,2549,7,2556
+wiki,6,gist_threaded_weighted,True,Portuguese,1,,0.9,2543,4,2547
+wiki,8,gist_threaded_weighted,False,Juan Rodriguez was not mentioned in the passage.,1,,0.9,2553,10,2563
+wiki,9,gist_threaded_weighted,False,No information.,1,,0.4,2493,4,2497
+wiki,10,gist_threaded_weighted,True,Peter Stuyvesant,1,,0.5,2526,6,2532
+wiki,11,gist_threaded_weighted,False,New Amsterdam,1,,0.4,2554,3,2557
+wiki,12,gist_threaded_weighted,False,There is no information about England gaining New York in exchange for an Indonesian island.,1,,0.6,2526,17,2543
+wiki,13,gist_threaded_weighted,True,1735,1,,0.5,2539,3,2542
+wiki,15,gist_threaded_weighted,False,Draft Riots.,1,,0.5,2509,5,2514
+wiki,14,gist_threaded_weighted,True,August 1776.,1,,0.5,2515,6,2521
+news,2,gist_threaded_weighted,False,"One Australian soldier, three civilians and Taliban militants.",1,,0.4,3114,11,3125
+news,4,gist_threaded_weighted,False,Yes.,1,,0.4,3131,3,3134
+news,3,gist_threaded_weighted,False,Hirosuke Takezawa,1,,0.5,3145,7,3152
+news,1,gist_threaded_weighted,False,"One Australian soldier, three civilians.",1,,0.5,3131,8,3139
+news,6,gist_threaded_weighted,False,Not mentioned.,1,,0.5,3147,4,3151
+news,5,gist_threaded_weighted,False,AC Milan.,1,,0.5,3153,4,3157
+news,8,gist_threaded_weighted,False,I cannot verify what program Heineken sponsors.,1,,0.4,3139,11,3150
+news,7,gist_threaded_weighted,False,A Dutch brewer.,1,,0.4,3138,6,3144
+news,9,gist_threaded_weighted,False,Anesthesia.,1,,0.6,3149,4,3153
+news,10,gist_threaded_weighted,False,Routine.,1,,0.6,3144,3,3147
+news,12,gist_threaded_weighted,False,No one.,1,,0.4,3130,4,3134
+news,11,gist_threaded_weighted,False,New York,1,,0.6,3127,3,3130
+news,14,gist_threaded_weighted,True,Three Chinese nationals.,1,,0.6,3137,5,3142
+news,13,gist_threaded_weighted,False,April 1992,1,,0.5,3138,5,3143
+news,15,gist_threaded_weighted,False,No source stated that.,1,,0.4,3155,6,3161
+novel,00950a36_5,gist_threaded_weighted,False,Shah Amurath,1,,48.2,2650,6,2656
+novel,00950a36_1,gist_threaded_weighted,False,Sergius.,1,,48.2,2664,5,2669
+novel,00950a36_0,gist_threaded_weighted,True,Shah Amurath,1,,48.3,2644,6,2650
+novel,00950a36_2,gist_threaded_weighted,False,No city name mentioned.,1,,48.6,2650,6,2656
+novel,00950a36_6,gist_threaded_weighted,False,"There is no information about someone being made ""Queen of the Blue Sea"".",1,,0.9,2645,16,2661
+novel,00950a36_7,gist_threaded_weighted,False,Sergius.,1,,0.8,2659,5,2664
+novel,00950a36_8,gist_threaded_weighted,False,Sergius.,1,,0.7,2653,5,2658
+novel,00950a36_9,gist_threaded_weighted,False,A stone platform.,1,,0.7,2638,5,2643
+novel,00950a36_11,gist_threaded_weighted,False,No one in the passage.,1,,0.5,2650,7,2657
+novel,00950a36_13,gist_threaded_weighted,True,Shah Amurath.,1,,0.7,2656,7,2663
+novel,00950a36_12,gist_threaded_weighted,False,Papeete,1,,1.1,2656,4,2660
+novel,00950a36_10,gist_threaded_weighted,False,The Cimmerian.,1,,1.8,2655,6,2661
+novel,00950a36_14,gist_threaded_weighted,False,A stone.,1,,0.6,2649,4,2653
+novel,3e966645_1,gist_threaded_weighted,False,Papeete,1,,0.5,2650,4,2654
+novel,00950a36_15,gist_threaded_weighted,False,Sergius.,1,,0.4,2657,5,2662
+caselaw,1,gist_threaded_weighted,False,5,1,,0.5,3012,2,3014
+caselaw,7,gist_threaded_weighted,False,4,1,,0.8,2950,2,2952
+caselaw,3,gist_threaded_weighted,True,5,1,,0.9,2936,2,2938
+caselaw,5,gist_threaded_weighted,False,5,1,,1.0,3100,2,3102
+caselaw,11,gist_threaded_weighted,True,5,1,,0.3,2982,2,2984
+caselaw,9,gist_threaded_weighted,True,5,1,,0.4,2991,2,2993
+caselaw,13,gist_threaded_weighted,False,5,1,,0.4,3017,2,3019
+caselaw,15,gist_threaded_weighted,False,5,1,,0.4,2923,2,2925
+caselaw,19,gist_threaded_weighted,False,5,1,,0.4,2987,2,2989
+caselaw,17,gist_threaded_weighted,False,4,1,,0.4,3038,2,3040
+caselaw,21,gist_threaded_weighted,True,1,1,,0.3,2950,2,2952
+caselaw,23,gist_threaded_weighted,False,2,1,,0.6,3055,2,3057
+caselaw,25,gist_threaded_weighted,False,3,1,,0.8,2934,2,2936
+caselaw,27,gist_threaded_weighted,True,2,1,,0.8,2968,2,2970
+caselaw,29,gist_threaded_weighted,False,4,1,,0.5,3040,2,3042

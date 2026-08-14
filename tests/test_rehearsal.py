@@ -11,12 +11,14 @@ from transformers import BatchEncoding
 
 from src.pipeline.embeddings import EmbeddingAPIError, load_config
 from src.pipeline.rehearsal import (
+    CONTEXT_FIELD,
     PASSAGE_FIELD,
     RetrievalRecord,
     _snap_to_verbatim,
     format_elaborative_input,
     novel_ngram_ratio,
     rehearse_elaborative,
+    rehearse_elaborative_independent,
     rehearse_maintenance,
     rehearse_maintenance_extractive,
     retrieval_span_report,
@@ -657,3 +659,79 @@ def test_rehearse_elaborative_leaves_context_texts_empty_by_default(config):
         embed_cfg=config, embed_fn=_topic_embed_fn, max_input_length=10_000,
     )
     assert all(r.retrieved_context_texts == [] for r in records)
+
+
+# --- rehearse_elaborative_independent -----------------------------------------
+# B's generator run per-chunk with no retrieved thread at all — see its
+# docstring and 2026-08-14's thread_grouping.py for why.
+
+
+def test_rehearse_elaborative_independent_never_includes_context_field(sample_chunk):
+    result = rehearse_elaborative_independent(
+        [sample_chunk], model=_EchoModel(), tokenizer=_EchoTokenizer()
+    )
+    assert result[0].text == format_elaborative_input(sample_chunk.text, [])
+    assert CONTEXT_FIELD not in result[0].text
+    assert result[0].text.startswith(PASSAGE_FIELD)
+
+
+def test_rehearse_elaborative_independent_is_query_agnostic():
+    params = set(inspect.signature(rehearse_elaborative_independent).parameters)
+    forbidden = {p for p in params if "question" in p.lower() or "query" in p.lower()}
+    assert not forbidden, f"query-agnostic violation — found forbidden parameter(s): {forbidden}"
+
+
+def test_rehearse_elaborative_independent_preserves_position_metadata(sample_chunk):
+    result = rehearse_elaborative_independent(
+        [sample_chunk], model=_EchoModel(), tokenizer=_EchoTokenizer()
+    )
+    assert result[0].index == sample_chunk.index
+    assert result[0].paragraph_indices == sample_chunk.paragraph_indices
+    assert result[0].char_start == sample_chunk.char_start
+    assert result[0].char_end == sample_chunk.char_end
+    assert result[0].original_text == sample_chunk.text
+
+
+def test_rehearse_elaborative_independent_ignores_other_chunks_entirely():
+    """The whole point: a chunk's gist must not depend on what precedes it —
+    unlike rehearse_elaborative, whose whole mechanism is conditioning on
+    retrieved prior material."""
+    shared = Chunk(text="shared chunk content", index=1)
+    doc_a = [Chunk(text="doc A's first chunk", index=0), shared]
+    doc_b = [Chunk(text="a totally different opening", index=0), shared]
+
+    result_a = rehearse_elaborative_independent(doc_a, model=_EchoModel(), tokenizer=_EchoTokenizer())
+    result_b = rehearse_elaborative_independent(doc_b, model=_EchoModel(), tokenizer=_EchoTokenizer())
+
+    assert result_a[1].text == result_b[1].text
+
+
+class _AlwaysEmptyTokenizer:
+    def __call__(self, text, return_tensors="pt", truncation=True, max_length=None):
+        return BatchEncoding(
+            {"input_ids": torch.tensor([[0]]), "attention_mask": torch.tensor([[1]])}
+        )
+
+    def decode(self, ids, skip_special_tokens=True):
+        return ""
+
+
+class _AlwaysEmptyModel:
+    def __init__(self):
+        self._param = torch.nn.Parameter(torch.zeros(1))
+
+    def eval(self):
+        return self
+
+    def parameters(self):
+        yield self._param
+
+    def generate(self, input_ids, attention_mask=None, max_new_tokens=None):
+        return input_ids
+
+
+def test_rehearse_elaborative_independent_falls_back_to_source_on_empty_generation(sample_chunk):
+    result = rehearse_elaborative_independent(
+        [sample_chunk], model=_AlwaysEmptyModel(), tokenizer=_AlwaysEmptyTokenizer()
+    )
+    assert result[0].text == sample_chunk.text

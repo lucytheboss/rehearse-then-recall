@@ -1,0 +1,61 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,4,gist_threaded_nucleus,False,Wisconsinan glaciation.,1,,0.4,1974,7,1981
+wiki,3,gist_threaded_nucleus,True,1624,1,,0.4,2417,3,2420
+wiki,1,gist_threaded_nucleus,True,1898,1,,0.5,2028,3,2031
+wiki,2,gist_threaded_nucleus,True,"8,491,079.",1,,0.7,2551,7,2558
+wiki,6,gist_threaded_nucleus,True,Portuguese,1,,0.3,1377,4,1381
+wiki,5,gist_threaded_nucleus,True,France.,1,,0.3,1620,3,1623
+wiki,8,gist_threaded_nucleus,True,Jan Rodrigues.,1,,0.5,1717,5,1722
+wiki,7,gist_threaded_nucleus,True,The Dutch East India Company.,1,,0.7,1907,7,1914
+wiki,9,gist_threaded_nucleus,False,No information.,1,,0.4,1677,4,1681
+wiki,11,gist_threaded_nucleus,False,New Amsterdam.,1,,0.3,2427,4,2431
+wiki,10,gist_threaded_nucleus,True,Peter Stuyvesant.,1,,0.5,1480,7,1487
+wiki,12,gist_threaded_nucleus,False,There is no information about this event in the passage.,1,,0.5,2295,12,2307
+wiki,15,gist_threaded_nucleus,True,The Great Fire of New York.,1,,0.3,1072,8,1080
+wiki,13,gist_threaded_nucleus,True,1735,1,,0.4,1737,3,1740
+wiki,14,gist_threaded_nucleus,False,No information provided.,1,,0.5,946,5,951
+news,4,gist_threaded_nucleus,False,Yes.,1,,0.5,6961,3,6964
+news,1,gist_threaded_nucleus,False,Multiple people.,1,,0.4,6223,4,6227
+news,2,gist_threaded_nucleus,False,Six Italian soldiers.,1,,0.9,6438,5,6443
+news,3,gist_threaded_nucleus,False,Michio Kanda,1,,0.9,6228,5,6233
+news,6,gist_threaded_nucleus,True,Third,1,,0.3,5926,2,5928
+news,7,gist_threaded_nucleus,False,Heineken,1,,0.6,6633,4,6637
+news,5,gist_threaded_nucleus,False,AC Milan.,1,,0.6,5835,4,5839
+news,8,gist_threaded_nucleus,False,The Ultimate Search,1,,0.8,5635,4,5639
+news,9,gist_threaded_nucleus,False,Colonoscopy.,1,,0.5,7319,5,7324
+news,10,gist_threaded_nucleus,False,Before becoming president.,1,,0.6,5658,5,5663
+news,11,gist_threaded_nucleus,False,Southern Afghanistan.,1,,0.4,6396,4,6400
+news,12,gist_threaded_nucleus,False,Al Qaeda-affiliated group.,1,,0.9,7300,7,7307
+news,13,gist_threaded_nucleus,False,July 2005.,1,,0.6,6134,6,6140
+news,14,gist_threaded_nucleus,False,Chinese nationals.,1,,0.7,6349,4,6353
+news,15,gist_threaded_nucleus,False,No source stated that.,1,,39.8,6126,6,6132
+novel,00950a36_5,gist_threaded_nucleus,False,Conan.,1,,10.6,8846,4,8850
+novel,00950a36_2,gist_threaded_nucleus,True,Akif,1,,10.6,11126,3,11129
+novel,00950a36_1,gist_threaded_nucleus,True,Olivia.,1,,11.1,9038,4,9042
+novel,00950a36_0,gist_threaded_nucleus,True,Shah Amurath,1,,10.7,9301,6,9307
+novel,00950a36_6,gist_threaded_nucleus,False,Dorothy.,1,,0.8,7962,5,7967
+novel,00950a36_8,gist_threaded_nucleus,True,Olivia.,1,,0.8,12933,4,12937
+novel,00950a36_9,gist_threaded_nucleus,False,A ruined prison.,1,,0.8,9524,5,9529
+novel,00950a36_7,gist_threaded_nucleus,False,Sergius of Khrosha.,1,,1.1,11038,9,11047
+novel,00950a36_10,gist_threaded_nucleus,True,Conan.,1,,0.8,8054,4,8058
+novel,00950a36_11,gist_threaded_nucleus,False,No one.,1,,1.0,9557,4,9561
+novel,00950a36_12,gist_threaded_nucleus,True,Akif.,1,,1.4,10064,4,10068
+novel,00950a36_13,gist_threaded_nucleus,True,Shah Amurath.,1,,1.4,8543,7,8550
+novel,00950a36_14,gist_threaded_nucleus,False,A stone.,1,,0.7,8104,4,8108
+novel,3e966645_1,gist_threaded_nucleus,False,Sydney.,1,,0.8,6738,4,6742
+novel,00950a36_15,gist_threaded_nucleus,False,Sergius.,1,,0.8,8336,5,8341
+caselaw,5,gist_threaded_nucleus,False,2,1,,0.7,8313,3,8316
+caselaw,3,gist_threaded_nucleus,True,5,1,,0.6,8149,2,8151
+caselaw,1,gist_threaded_nucleus,False,2,1,,0.7,8225,2,8227
+caselaw,7,gist_threaded_nucleus,False,5,1,,0.8,8163,2,8165
+caselaw,11,gist_threaded_nucleus,True,5,1,,0.8,8195,2,8197
+caselaw,9,gist_threaded_nucleus,True,5,1,,0.9,8204,2,8206
+caselaw,13,gist_threaded_nucleus,False,5,1,,0.6,8230,2,8232
+caselaw,15,gist_threaded_nucleus,False,5,1,,0.6,8136,2,8138
+caselaw,23,gist_threaded_nucleus,False,2,1,,0.4,8268,2,8270
+caselaw,17,gist_threaded_nucleus,False,4,1,,0.9,8251,2,8253
+caselaw,21,gist_threaded_nucleus,False,2,1,,0.9,8163,2,8165
+caselaw,19,gist_threaded_nucleus,False,5,1,,0.9,8200,2,8202
+caselaw,27,gist_threaded_nucleus,True,2,1,,0.7,8181,2,8183
+caselaw,25,gist_threaded_nucleus,False,2,1,,1.3,8147,2,8149
+caselaw,29,gist_threaded_nucleus,False,2,1,,35.0,8253,2,8255

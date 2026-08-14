@@ -38,7 +38,7 @@ import math
 import torch
 
 from src.pipeline.embeddings import cosine_similarity, embed_texts, embed_with_retry
-from src.pipeline.extractive import score_sentences, select_sentences
+from src.pipeline.extractive import score_sentences, select_sentences_windowed
 from src.pipeline.gisting import split_into_sentences
 from src.pipeline.thread_memory import MemorySlot, ThreadMemory
 from src.pipeline.types import Chunk
@@ -145,6 +145,7 @@ def rehearse_maintenance_extractive(
     target_context_tokens: int | None = None,
     compression_ratio: float | None = None,
     score_fn=score_sentences,
+    window: int = 0,
 ) -> list[Chunk]:
     """Maintenance rehearsal (A), extractive path — **the canonical one**.
 
@@ -173,6 +174,12 @@ def rehearse_maintenance_extractive(
       - `target_context_tokens` set  -> R = K/|D| via `dependent_ratio`
       - `compression_ratio` set      -> that fixed R
       - neither                      -> R = 1.0, i.e. keep every sentence
+
+    `window` (default 0, i.e. no change from the original behavior) pads each
+    selected sentence with up to that many neighbors on each side, per chunk
+    -- see `extractive.select_sentences_windowed`. Diagnostic for whether
+    narrative-continuity genres lose accuracy to the seam itself rather than
+    to which sentences get chosen.
 
     Preserves index/paragraph_indices/char_start/char_end; only `text` is
     replaced, with `original_text` holding the source. Takes no
@@ -207,7 +214,7 @@ def rehearse_maintenance_extractive(
             continue
 
         scores = score_fn(sentences, model, tokenizer)
-        kept = select_sentences(sentences, scores, ratio)
+        kept = select_sentences_windowed(sentences, scores, ratio, window=window)
         result.append(replace(chunk, text=" ".join(kept), original_text=chunk.text))
 
     return result
@@ -743,6 +750,66 @@ def rehearse_elaborative(
             record.memory_state = " ".join(slot.text for slot in memory.slots)
 
     return result, records
+
+
+def rehearse_elaborative_independent(
+    chunks: list[Chunk],
+    model,
+    tokenizer,
+    max_input_length: int = 512,
+    max_new_tokens: int = 64,
+) -> list[Chunk]:
+    """B's compressor, run exactly like A: independently per chunk, no thread.
+
+    Identical to one step of `rehearse_elaborative`'s generation call, except
+    `context_texts` is always `[]` — `format_elaborative_input(chunk.text, [])`
+    for every chunk, never conditioned on any retrieved thread or prior
+    material. §4.3.3 traced B's collapse to the *conditioning*: given a
+    retrieved thread, the model reproduces it near-verbatim and ignores the
+    current chunk. Feed no context and there is nothing to collapse toward —
+    structurally the same reason A (`rehearse_maintenance_extractive`) can't
+    collapse, applied to B's generator instead of A's selector.
+
+    Deliberately reuses the **stage-2** checkpoint, not stage-1/one-shot. This
+    is the exact "no-context fallback" path
+    `curate_document_threaded_anticollapse` already validated empirically
+    (ANALYSIS_REPORT.md §4.3.3's 20-chunk pilot: 0 collapse, every chunk
+    accurate) — same checkpoint, same prompt template, a path already shown to
+    work, not a new one. Stage-1 was trained on plain `document -> summary`
+    pairs without `format_elaborative_input`'s field markup at all, so feeding
+    it that template would be an untested prompt mismatch on top of an
+    already-established fallback that does not need it.
+
+    Output is meant to be grouped afterward by `thread_grouping.
+    cluster_into_threads` — that recovers cross-chunk structure by clustering
+    these independent gists, without ever asking a model to merge them.
+
+    No embedding calls, no `ThreadMemory` — clustering happens separately, on
+    whichever chunk embeddings the caller already has (e.g.
+    `chunk_embeddings_by_genre`), not on anything generated here.
+    """
+    model.eval()
+    device = next(model.parameters()).device
+
+    result: list[Chunk] = []
+    for chunk in chunks:
+        model_input = format_elaborative_input(chunk.text, [])
+        inputs = tokenizer(
+            model_input,
+            return_tensors="pt",
+            truncation=True,
+            max_length=max_input_length,
+        ).to(device)
+
+        with torch.no_grad():
+            output_ids = model.generate(**inputs, max_new_tokens=max_new_tokens)
+        gisted = tokenizer.decode(output_ids[0], skip_special_tokens=True).strip()
+        if not gisted:
+            gisted = chunk.text
+
+        result.append(replace(chunk, text=gisted, original_text=chunk.text))
+
+    return result
 
 
 def retrieval_span_report(records: list[RetrievalRecord]) -> dict:
