@@ -1,0 +1,584 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+wiki,4,structural_map_extractive,False,No information provided.,2,True,0.6,1525,11,1536
+wiki,5,structural_map_extractive,False,I don't have the information to answer your question.,2,True,7.3,1503,18,1521
+wiki,2,structural_map_extractive,False,I don't have that information.,2,True,17.5,1483,14,1497
+wiki,3,structural_map_extractive,False,No information provided.,2,True,19.5,1469,11,1480
+wiki,1,structural_map_extractive,False,There is no information about the year the five boroughs were combined into one city in the passage.,2,True,24.1,1546,27,1573
+wiki,7,structural_map_extractive,False,I don't have that information.,2,True,8.7,1466,14,1480
+wiki,8,structural_map_extractive,False,I don't have that information.,2,True,13.3,1472,14,1486
+wiki,9,structural_map_extractive,False,I don't have that information.,2,True,10.0,1472,14,1486
+wiki,6,structural_map_extractive,True,Portuguese.,2,True,25.2,1485,11,1496
+wiki,10,structural_map_extractive,False,I don't have that information.,2,True,11.4,1499,14,1513
+wiki,13,structural_map_extractive,False,I don't have information about that.,2,True,7.3,1507,15,1522
+wiki,14,structural_map_extractive,False,I don't have information about the question you asked.,2,True,7.8,1501,18,1519
+wiki,15,structural_map_extractive,False,I don't have the information to answer that question.,2,True,4.6,1499,18,1517
+wiki,12,structural_map_extractive,False,There is no information about this in the passage.,2,True,17.2,1563,16,1579
+wiki,11,structural_map_extractive,False,No information is provided about Colve.,2,True,23.9,1511,15,1526
+wiki,17,structural_map_extractive,False,No information provided.,2,True,5.6,1476,11,1487
+wiki,16,structural_map_extractive,False,I don't have that information.,2,True,12.9,1517,14,1531
+wiki,18,structural_map_extractive,False,I don't have information about the Erie Canal in the passage.,2,True,12.6,1509,19,1528
+wiki,19,structural_map_extractive,False,No information provided.,2,True,20.2,1531,11,1542
+wiki,21,structural_map_extractive,False,I don't have that information.,2,True,14.8,1481,14,1495
+wiki,24,structural_map_extractive,False,I don't have information about that event in the passage provided.,2,True,4.0,1539,19,1558
+wiki,22,structural_map_extractive,True,Megacity,2,True,20.0,1528,9,1537
+wiki,20,structural_map_extractive,False,No information provided.,2,True,35.5,1530,11,1541
+wiki,25,structural_map_extractive,False,I don't have information about a plane crashing into the World Trade Center in the passage provided.,2,True,10.2,1545,25,1570
+wiki,23,structural_map_extractive,True,Abstract expressionism.,2,True,20.0,1542,11,1553
+wiki,28,structural_map_extractive,False,No answer can be given as the information is not present in the passage.,2,True,3.9,1504,22,1526
+wiki,26,structural_map_extractive,False,No information provided.,2,True,15.9,1547,11,1558
+wiki,30,structural_map_extractive,False,I don't have information about that.,2,True,6.1,1527,15,1542
+wiki,27,structural_map_extractive,False,"Manhattan, Staten, Long",2,True,16.2,1513,13,1526
+wiki,29,structural_map_extractive,False,No information.,2,True,11.2,1515,10,1525
+wiki,31,structural_map_extractive,False,I don't have that information.,2,True,10.3,1491,14,1505
+wiki,33,structural_map_extractive,False,Water towers.,2,True,9.8,1497,10,1507
+wiki,36,structural_map_extractive,True,49.9 inches.,2,True,9.0,1464,12,1476
+wiki,34,structural_map_extractive,True,humid continental,2,True,21.8,1479,10,1489
+wiki,32,structural_map_extractive,False,I don't have information about that.,2,True,26.5,1510,15,1525
+wiki,38,structural_map_extractive,False,"26,000 acres.",2,True,6.6,1504,12,1516
+wiki,37,structural_map_extractive,True,Minneapolis.,2,True,12.8,1505,10,1515
+wiki,39,structural_map_extractive,False,I don't have that information.,2,True,15.0,1482,14,1496
+wiki,41,structural_map_extractive,False,I don't have information about that.,2,True,6.3,1475,15,1490
+wiki,42,structural_map_extractive,False,No information provided.,2,True,5.0,1497,11,1508
+wiki,40,structural_map_extractive,True,"1,093 ha.",2,True,15.7,1458,12,1470
+wiki,35,structural_map_extractive,False,I don't have that information.,2,True,47.2,1499,14,1513
+wiki,44,structural_map_extractive,False,I can't answer that question. The passage does not mention Ellis Island.,2,True,7.5,1489,22,1511
+wiki,45,structural_map_extractive,False,No information.,2,True,8.4,1496,10,1506
+wiki,46,structural_map_extractive,False,No information.,2,True,7.4,1457,10,1467
+wiki,43,structural_map_extractive,False,Central Asian.,2,True,19.3,1488,10,1498
+wiki,47,structural_map_extractive,False,Dominican,2,True,11.7,1566,9,1575
+wiki,49,structural_map_extractive,False,There is no information about the most prominent religion in the passage.,2,True,9.6,1518,20,1538
+wiki,48,structural_map_extractive,False,No information is provided.,2,True,22.4,1481,12,1493
+wiki,50,structural_map_extractive,False,I don't have that information.,2,True,19.3,1538,14,1552
+wiki,51,structural_map_extractive,False,I don't have that information.,2,True,18.1,1497,14,1511
+wiki,54,structural_map_extractive,False,No information provided.,2,True,5.1,1474,11,1485
+wiki,53,structural_map_extractive,False,No information.,2,True,15.2,1468,10,1478
+wiki,55,structural_map_extractive,False,No information provided.,2,True,10.3,1483,11,1494
+wiki,52,structural_map_extractive,True,"180,000.",2,True,30.1,1452,11,1463
+wiki,56,structural_map_extractive,False,I don't have information about Cornell Tech's location.,2,True,19.1,1503,18,1521
+wiki,58,structural_map_extractive,False,I'm unable to answer that question based on the provided passage.,2,True,8.5,1542,20,1562
+wiki,57,structural_map_extractive,False,No information is provided.,2,True,13.0,1587,12,1599
+wiki,59,structural_map_extractive,False,I don't have that information.,2,True,13.8,1491,14,1505
+wiki,61,structural_map_extractive,False,No information.,2,True,7.0,1454,10,1464
+wiki,62,structural_map_extractive,False,No information.,2,True,6.5,1454,10,1464
+wiki,63,structural_map_extractive,True,Manhattan Neighborhood Network.,2,True,7.4,1466,12,1478
+wiki,60,structural_map_extractive,False,I don't have information about that.,2,True,17.8,1489,15,1504
+wiki,65,structural_map_extractive,True,Nine.,2,True,19.3,1454,9,1463
+wiki,66,structural_map_extractive,True,The New York Public Library.,2,True,15.8,1465,13,1478
+wiki,64,structural_map_extractive,False,There is no information about that in the passage.,2,True,27.2,1505,17,1522
+wiki,68,structural_map_extractive,False,No information provided.,2,True,8.5,1475,11,1486
+wiki,69,structural_map_extractive,False,No information is given.,2,True,7.4,1465,12,1477
+wiki,67,structural_map_extractive,False,No information is available about HHC patients.,2,True,27.8,1556,16,1572
+wiki,73,structural_map_extractive,True,11 Metrotech Center.,2,True,4.6,1473,13,1486
+wiki,72,structural_map_extractive,False,No information is given about a transportation system.,2,True,12.7,1558,16,1574
+wiki,71,structural_map_extractive,False,New York City Fire Department.,2,True,15.2,1488,13,1501
+wiki,70,structural_map_extractive,False,I don't have the information to answer the question.,2,True,22.6,1532,18,1550
+wiki,76,structural_map_extractive,False,No information.,2,True,5.4,1501,10,1511
+wiki,74,structural_map_extractive,True,The New York School.,2,True,11.2,1492,12,1504
+wiki,75,structural_map_extractive,False,Many.,2,True,8.4,1486,9,1495
+wiki,78,structural_map_extractive,False,No stadium in NYC.,2,True,9.9,1498,12,1510
+wiki,77,structural_map_extractive,False,None.,2,True,22.5,1538,18,1556
+wiki,80,structural_map_extractive,True,National Invitation Tournament,2,True,19.3,1474,10,1484
+wiki,79,structural_map_extractive,True,Hockey.,2,True,22.0,1450,10,1460
+wiki,81,structural_map_extractive,False,I don't have the information to answer this question.,2,True,17.0,1526,18,1544
+wiki,83,structural_map_extractive,False,No information provided.,2,True,11.3,1493,11,1504
+wiki,82,structural_map_extractive,False,No information provided.,2,True,13.6,1455,11,1466
+wiki,84,structural_map_extractive,False,I don't have that information.,2,True,14.6,1483,14,1497
+wiki,85,structural_map_extractive,False,No information is provided.,2,True,12.3,1488,12,1500
+wiki,88,structural_map_extractive,False,There is no information.,2,True,7.8,1516,12,1528
+wiki,87,structural_map_extractive,False,There is no information about a tunnel in the passage.,2,True,12.7,1529,18,1547
+wiki,86,structural_map_extractive,False,I don't have that information.,2,True,15.2,1523,14,1537
+wiki,92,structural_map_extractive,False,No information is provided.,2,True,4.1,1530,12,1542
+wiki,91,structural_map_extractive,False,I don't have that information.,2,True,8.4,1477,14,1491
+wiki,90,structural_map_extractive,True,51 council members.,2,True,11.2,1458,11,1469
+wiki,93,structural_map_extractive,False,New York Public Library.,2,True,10.2,1493,12,1505
+wiki,89,structural_map_extractive,False,There is no information about the source of New York's drinking water in the passage.,2,True,32.5,1477,24,1501
+wiki,95,structural_map_extractive,False,No answer available.,2,True,21.1,1475,11,1486
+wiki,96,structural_map_extractive,False,I don't have information about that.,2,True,14.8,1465,15,1480
+wiki,94,structural_map_extractive,False,I don't have that information.,2,True,27.1,1476,14,1490
+wiki,98,structural_map_extractive,True,The west end.,2,True,5.5,1507,11,1518
+wiki,99,structural_map_extractive,False,I don't have the information to answer your question.,2,True,8.0,1492,18,1510
+wiki,97,structural_map_extractive,False,Entertainment.,2,True,17.1,1473,10,1483
+wiki,100,structural_map_extractive,True,"I don't have that information. 
+
+However, I can answer the question that was asked: 
+
+The Eastern District of New York.",2,True,9.9,1483,34,1517
+news,2,structural_map_extractive,False,No one mentioned.,2,True,4.7,5080,11,5091
+news,3,structural_map_extractive,False,No information.,2,True,9.5,5106,10,5116
+news,5,structural_map_extractive,False,No information.,2,True,6.0,5131,10,5141
+news,4,structural_map_extractive,False,No.,2,True,14.3,5117,9,5126
+news,1,structural_map_extractive,False,"Ethiopian troops, insurgents, civilians, children.",2,True,6.3,5220,505,5725
+news,6,structural_map_extractive,False,Sixth,2,True,6.1,5163,9,5172
+news,8,structural_map_extractive,False,I don't have that information.,2,True,8.0,5132,14,5146
+news,10,structural_map_extractive,False,Saturday.,2,True,17.7,5098,9,5107
+news,7,structural_map_extractive,False,I don't have that information.,2,True,24.9,5111,14,5125
+news,11,structural_map_extractive,False,Uruzgan province.,2,True,15.4,5083,11,5094
+news,9,structural_map_extractive,False,There is no mention of the President's powers being transferred.,2,True,28.2,5248,19,5267
+news,13,structural_map_extractive,False,"July 7, 2005.",2,True,9.5,5152,21,5173
+news,14,structural_map_extractive,False,No information is given.,2,True,10.1,5080,13,5093
+news,12,structural_map_extractive,False,Sadler,2,True,21.7,5088,10,5098
+news,15,structural_map_extractive,False,No source is mentioned.,2,True,13.1,5097,12,5109
+news,17,structural_map_extractive,False,No information.,2,True,10.6,5087,10,5097
+news,16,structural_map_extractive,False,"Iran, Russia, Kazakhstan, Turkmenistan, and Azerbaijan.",2,True,11.7,5099,121,5220
+news,19,structural_map_extractive,False,No information is given about Inter.,2,True,5.4,5182,14,5196
+news,22,structural_map_extractive,False,I don't have that information.,2,True,5.0,5083,13,5096
+news,21,structural_map_extractive,False,There is no information about a copter.,2,True,7.1,5200,16,5216
+news,23,structural_map_extractive,False,Islamabad.,2,True,2.4,5076,10,5086
+news,24,structural_map_extractive,False,No information.,2,True,7.6,5091,10,5101
+news,20,structural_map_extractive,False,No information provided.,2,True,15.6,5107,11,5118
+news,25,structural_map_extractive,False,Tarin Kowt incident.,2,True,15.4,5099,16,5115
+news,27,structural_map_extractive,False,There is no information about this in the passage.,2,True,4.5,5152,17,5169
+news,18,structural_map_extractive,False,Yes.,2,True,8.3,5138,656,5794
+news,26,structural_map_extractive,False,No information.,2,True,21.6,5111,10,5121
+news,28,structural_map_extractive,False,No information.,2,True,11.2,5082,10,5092
+news,30,structural_map_extractive,False,No information provided.,2,True,9.0,5105,11,5116
+news,29,structural_map_extractive,False,Barcelona,2,True,17.0,5124,9,5133
+news,33,structural_map_extractive,False,he,2,True,3.3,5080,8,5088
+news,31,structural_map_extractive,False,No information provided.,2,True,14.0,5091,11,5102
+news,34,structural_map_extractive,False,There is no mention of this in the passage.,2,True,8.4,5108,17,5125
+news,35,structural_map_extractive,False,No information.,2,True,9.9,5112,10,5122
+news,37,structural_map_extractive,False,The Israeli military.,2,True,3.2,5104,12,5116
+news,32,structural_map_extractive,False,No information provided.,2,True,20.3,5119,11,5130
+news,36,structural_map_extractive,False,No information.,2,True,10.9,5136,11,5147
+news,40,structural_map_extractive,False,Lined up to empty accounts.,2,True,17.1,5102,14,5116
+news,39,structural_map_extractive,False,Dida,2,True,20.9,5161,9,5170
+news,42,structural_map_extractive,False,Unknown.,2,True,4.5,5091,9,5100
+news,38,structural_map_extractive,False,Airmen.,2,True,29.2,5089,11,5100
+news,43,structural_map_extractive,False,Nonbinding resolution.,2,True,8.3,5106,11,5117
+news,41,structural_map_extractive,True,Search and rescue crews.,2,True,29.7,5134,12,5146
+news,45,structural_map_extractive,False,There is no Majority Leader mentioned.,2,True,10.8,5085,14,5099
+news,44,structural_map_extractive,False,Foreign policy.,2,True,15.7,5076,10,5086
+news,46,structural_map_extractive,True,Tech International,2,True,14.7,5092,9,5101
+news,49,structural_map_extractive,False,Support personnel.,2,True,5.1,5109,10,5119
+news,47,structural_map_extractive,False,No information.,2,True,13.8,5116,10,5126
+news,50,structural_map_extractive,False,Huntington's.,2,True,5.7,5172,12,5184
+news,52,structural_map_extractive,False,At least 30.,2,True,4.9,5133,12,5145
+news,48,structural_map_extractive,False,Nothing.,2,True,15.8,5064,9,5073
+news,54,structural_map_extractive,False,Using narcotic drugs or other controlled substances.,2,True,2.0,5104,16,5120
+news,53,structural_map_extractive,True,Debra Lafave.,2,True,8.2,5107,12,5119
+news,51,structural_map_extractive,False,No shooter mentioned.,2,True,30.3,5074,11,5085
+news,57,structural_map_extractive,False,No mention of Bush.,2,True,15.1,5171,12,5183
+news,55,structural_map_extractive,False,Dealers in narcotics.,2,True,26.2,5109,12,5121
+news,56,structural_map_extractive,False,1-0,2,True,26.1,5130,10,5140
+news,58,structural_map_extractive,False,No information.,2,True,8.6,5075,11,5086
+news,59,structural_map_extractive,False,More comfortable.,2,True,11.9,5129,10,5139
+news,60,structural_map_extractive,False,May 2004,2,True,12.5,5129,11,5140
+news,62,structural_map_extractive,False,No information provided.,2,True,10.4,5079,11,5090
+news,63,structural_map_extractive,False,No information.,2,True,7.8,5182,10,5192
+news,64,structural_map_extractive,False,No information.,2,True,10.2,5072,10,5082
+news,65,structural_map_extractive,True,Princess Eugenie,2,True,8.1,5126,11,5137
+news,66,structural_map_extractive,False,It is not mentioned.,2,True,7.6,5101,10,5111
+news,68,structural_map_extractive,False,No one mentioned.,2,True,3.5,5082,11,5093
+news,69,structural_map_extractive,False,Guilty verdict.,2,True,6.0,5091,11,5102
+news,67,structural_map_extractive,False,Protest of authorities' handling of cases.,2,True,20.8,5118,20,5138
+news,70,structural_map_extractive,False,No information.,2,True,14.6,5176,10,5186
+news,61,structural_map_extractive,False,There is no information about Iwo Jima in the passage.,2,True,48.4,5120,20,5140
+news,71,structural_map_extractive,False,I don't have the information.,2,True,18.9,5095,14,5109
+news,72,structural_map_extractive,False,No one is mentioned.,2,True,10.0,5122,12,5134
+news,73,structural_map_extractive,False,No information given.,2,True,13.7,5086,11,5097
+news,74,structural_map_extractive,False,Rowles and Wise Jr.,2,True,12.5,5142,13,5155
+news,76,structural_map_extractive,False,I don't have that information.,2,True,10.6,5074,12,5086
+news,75,structural_map_extractive,False,$1.52 per share.,2,True,14.6,5103,14,5117
+news,77,structural_map_extractive,True,The August war between Georgia and Russia.,2,True,9.0,5106,15,5121
+news,79,structural_map_extractive,False,No information.,2,True,7.6,5083,10,5093
+news,80,structural_map_extractive,False,I don't have that information.,2,True,9.3,5124,14,5138
+news,81,structural_map_extractive,False,No information.,2,True,9.4,5110,10,5120
+news,82,structural_map_extractive,False,No information.,2,True,7.0,5103,10,5113
+news,84,structural_map_extractive,False,AIA office.,2,True,6.2,5217,11,5228
+news,78,structural_map_extractive,True,A 23-year-old man.,2,True,39.5,5097,14,5111
+news,85,structural_map_extractive,False,No information is given about Francesco Totti in the passage.,2,True,16.1,5127,19,5146
+news,83,structural_map_extractive,False,There is no information about the F-15 in the passage.,2,True,24.1,5107,19,5126
+news,88,structural_map_extractive,False,No information provided.,2,True,7.6,5186,11,5197
+news,89,structural_map_extractive,False,Volunteer water runs.,2,True,6.9,5116,12,5128
+news,86,structural_map_extractive,False,No information.,2,True,24.7,5101,10,5111
+news,92,structural_map_extractive,False,No information provided.,2,True,4.9,5101,11,5112
+news,91,structural_map_extractive,False,Still fighting the fire.,2,True,9.0,5073,12,5085
+news,87,structural_map_extractive,False,Yes.,2,True,22.9,5080,30,5110
+news,93,structural_map_extractive,False,There is no information about a body being bound.,2,True,6.5,5089,17,5106
+news,94,structural_map_extractive,False,No information is given about an Israeli intelligence officer's statement.,2,True,7.8,5110,19,5129
+news,90,structural_map_extractive,False,Arson fires.,2,True,15.9,5236,371,5607
+news,95,structural_map_extractive,False,No information is given about a drug ring.,2,True,10.2,5084,16,5100
+news,99,structural_map_extractive,False,I don't have that information.,2,True,1.8,5080,13,5093
+news,97,structural_map_extractive,False,No information.,2,True,11.9,5190,10,5200
+news,98,structural_map_extractive,False,Incirlik Air Base.,2,True,10.0,5077,13,5090
+news,96,structural_map_extractive,False,Suicide attack.,2,True,15.5,5145,573,5718
+news,102,structural_map_extractive,False,None.,2,True,13.4,5075,9,5084
+news,101,structural_map_extractive,False,McCain sign,2,True,17.9,5106,10,5116
+news,100,structural_map_extractive,True,July,2,True,28.1,5071,9,5080
+news,105,structural_map_extractive,False,Nothing.,2,True,9.0,5118,9,5127
+news,106,structural_map_extractive,False,No location given.,2,True,5.6,5115,11,5126
+news,108,structural_map_extractive,False,Small arms fire.,2,True,4.2,5099,11,5110
+news,107,structural_map_extractive,False,Goma.,2,True,7.6,5090,10,5100
+news,104,structural_map_extractive,False,The hillside.,2,True,11.8,5100,552,5652
+news,109,structural_map_extractive,False,No information provided.,2,True,8.4,5058,11,5069
+news,110,structural_map_extractive,False,I don't have that information.,2,True,10.6,5090,14,5104
+news,111,structural_map_extractive,False,No information.,2,True,6.8,5088,10,5098
+news,103,structural_map_extractive,False,Homes.,2,True,14.8,5117,10,5127
+news,113,structural_map_extractive,False,Not specified.,2,True,6.5,5105,13,5118
+news,112,structural_map_extractive,False,There is no information about this in the passage.,2,True,12.1,5109,17,5126
+news,114,structural_map_extractive,False,I don't have that information.,2,True,18.2,5074,14,5088
+news,116,structural_map_extractive,False,No information given.,2,True,17.0,5088,11,5099
+news,117,structural_map_extractive,False,Trash.,2,True,18.9,5142,9,5151
+news,118,structural_map_extractive,False,No information is given.,2,True,13.3,5145,12,5157
+news,115,structural_map_extractive,False,Rumors of an attempt on Putin's life.,2,True,31.8,5096,18,5114
+news,121,structural_map_extractive,False,Unknown.,2,True,3.1,5073,9,5082
+news,119,structural_map_extractive,True,"Atlanta, Georgia.",2,True,13.3,5080,11,5091
+news,120,structural_map_extractive,False,No one is mentioned.,2,True,12.5,5121,12,5133
+news,125,structural_map_extractive,False,No information is given about Elizabeth Taylor attending a concert.,2,True,4.7,5096,18,5114
+news,122,structural_map_extractive,False,Nothing.,2,True,14.3,5105,9,5114
+news,124,structural_map_extractive,False,The day.,2,True,15.3,5074,10,5084
+news,123,structural_map_extractive,False,No information.,2,True,17.9,5095,10,5105
+news,127,structural_map_extractive,False,No one mentioned.,2,True,5.1,5069,12,5081
+news,126,structural_map_extractive,False,No information provided.,2,True,9.3,5088,11,5099
+news,128,structural_map_extractive,False,July.,2,True,19.6,5089,9,5098
+news,131,structural_map_extractive,False,No information.,2,True,18.0,5071,10,5081
+news,129,structural_map_extractive,False,No one mentioned.,2,True,23.7,5065,8,5073
+news,132,structural_map_extractive,False,Yes.,2,True,8.9,5130,9,5139
+news,130,structural_map_extractive,False,None.,2,True,30.8,5131,9,5140
+news,134,structural_map_extractive,False,No information provided.,2,True,8.4,5085,11,5096
+news,133,structural_map_extractive,False,There is no information about Hornets in the passage.,2,True,13.2,5088,17,5105
+news,135,structural_map_extractive,False,Increase taxes on luxury items.,2,True,6.2,5123,13,5136
+news,139,structural_map_extractive,False,New York.,2,True,3.7,5122,10,5132
+news,136,structural_map_extractive,False,No information provided.,2,True,16.6,5088,11,5099
+news,138,structural_map_extractive,False,I don't have that information.,2,True,11.7,5116,14,5130
+news,140,structural_map_extractive,False,Ray,2,True,7.3,5087,8,5095
+news,141,structural_map_extractive,False,No information.,2,True,6.8,5079,10,5089
+news,142,structural_map_extractive,False,"Nowhere, only three men were arrested.",2,True,10.0,5121,16,5137
+news,143,structural_map_extractive,False,I don't have that information.,2,True,19.0,5099,12,5111
+news,137,structural_map_extractive,False,White powder.,2,True,40.2,5124,10,5134
+news,144,structural_map_extractive,False,Taylor Bradford's,2,True,17.6,5104,16,5120
+news,145,structural_map_extractive,False,I don't have that information.,2,True,5.0,5128,15,5143
+news,147,structural_map_extractive,False,Cracks in a wing assembly.,2,True,5.2,5109,14,5123
+news,146,structural_map_extractive,False,Piper PA-32 and helicopter.,2,True,14.7,5101,15,5116
+news,149,structural_map_extractive,True,"Honesty, solidarity, and fraternity.",2,True,9.5,5141,16,5157
+news,148,structural_map_extractive,False,I don't have that information.,2,True,15.3,5101,14,5115
+news,152,structural_map_extractive,False,Air Serv International.,2,True,7.5,5169,11,5180
+news,150,structural_map_extractive,False,There is no mention of floats being sold.,2,True,17.9,5134,14,5148
+news,151,structural_map_extractive,True,Hillary Clinton.,2,True,12.8,5120,10,5130
+news,156,structural_map_extractive,False,Steve Jobs biography.,2,True,4.3,5092,11,5103
+news,153,structural_map_extractive,False,Destroyed homes and crops.,2,True,13.3,5087,24,5111
+news,155,structural_map_extractive,False,No information provided.,2,True,9.7,5089,11,5100
+news,154,structural_map_extractive,False,No information.,2,True,10.9,5120,8,5128
+news,157,structural_map_extractive,False,Reduced opposition presence.,2,True,9.5,5137,12,5149
+news,159,structural_map_extractive,False,I don't have the information.,2,True,9.4,5105,16,5121
+news,158,structural_map_extractive,False,No answer available.,2,True,22.4,5069,11,5080
+news,161,structural_map_extractive,False,Not specified.,2,True,14.3,5118,10,5128
+news,163,structural_map_extractive,False,I don't have that information.,2,True,6.9,5070,14,5084
+news,164,structural_map_extractive,False,I don't have that information.,2,True,8.2,5098,14,5112
+news,160,structural_map_extractive,False,Turkey's treatment of Armenians.,2,True,35.5,5099,14,5113
+news,165,structural_map_extractive,False,No information provided.,2,True,8.1,5076,11,5087
+news,167,structural_map_extractive,False,There is no information about the richest player in the passage.,2,True,5.3,5124,19,5143
+news,166,structural_map_extractive,False,No information is given about a bystander capturing something.,2,True,8.8,5109,18,5127
+news,168,structural_map_extractive,False,Dida,2,True,7.8,5163,9,5172
+news,170,structural_map_extractive,False,Simpson's robbery.,2,True,7.2,5116,13,5129
+news,171,structural_map_extractive,False,Mosque attack,2,True,2.4,5115,10,5125
+news,169,structural_map_extractive,False,None mentioned.,2,True,9.1,5104,10,5114
+news,174,structural_map_extractive,False,Linda Daschle,2,True,2.2,5133,12,5145
+news,173,structural_map_extractive,False,Unknown,2,True,8.6,5067,8,5075
+news,175,structural_map_extractive,False,Voluntary manslaughter.,2,True,13.7,5141,11,5152
+news,172,structural_map_extractive,False,I don't have the information.,2,True,25.1,5127,14,5141
+news,176,structural_map_extractive,False,No information is given about Mary Winkler seeing her children.,2,True,17.9,5147,20,5167
+news,162,structural_map_extractive,False,Incidents.,2,True,21.7,5089,538,5627
+news,178,structural_map_extractive,False,No one.,2,True,4.9,5085,11,5096
+news,177,structural_map_extractive,True,"""Until the Day Is Done""",2,True,13.5,5127,14,5141
+news,180,structural_map_extractive,False,I don't have that information.,2,True,8.4,5108,14,5122
+news,182,structural_map_extractive,False,There is no mention of a bombing.,2,True,8.6,5166,15,5181
+news,183,structural_map_extractive,False,I don't have that information.,2,True,7.0,5075,14,5089
+news,179,structural_map_extractive,False,No information is given about Mable Randon or a cutoff notice.,2,True,20.3,5110,21,5131
+news,181,structural_map_extractive,False,"Nowhere, there is no mention of cars.",2,True,23.7,5156,17,5173
+news,186,structural_map_extractive,False,I don't have that information.,2,True,7.9,5077,14,5091
+news,185,structural_map_extractive,False,No information is provided about this topic.,2,True,8.0,5101,16,5117
+news,184,structural_map_extractive,False,1981.,2,True,11.5,5093,10,5103
+news,187,structural_map_extractive,True,gangbusters,2,True,8.9,5116,9,5125
+news,189,structural_map_extractive,False,No information given.,2,True,17.9,5131,11,5142
+news,191,structural_map_extractive,False,The U.S. Embassy was closed.,2,True,11.1,5199,17,5216
+news,192,structural_map_extractive,False,I don't have the information.,2,True,6.6,5077,14,5091
+news,190,structural_map_extractive,False,None mentioned.,2,True,27.7,5103,7,5110
+news,188,structural_map_extractive,False,Medical check.,2,True,29.2,5105,17,5122
+news,193,structural_map_extractive,False,New president.,2,True,11.0,5184,10,5194
+news,194,structural_map_extractive,False,No information provided.,2,True,9.3,5074,12,5086
+news,196,structural_map_extractive,False,No information.,2,True,10.6,5086,10,5096
+news,198,structural_map_extractive,False,I don't have that information.,2,True,7.8,5075,14,5089
+news,197,structural_map_extractive,False,No job cuts mentioned.,2,True,10.1,5101,12,5113
+news,199,structural_map_extractive,False,Dr. Strangelove.,2,True,7.4,5067,13,5080
+news,200,structural_map_extractive,False,No one.,2,True,5.1,5104,13,5117
+news,195,structural_map_extractive,False,"Stevenson and New Hope, Alabama.",2,True,9.9,5095,1090,6185
+novel,00950a36_1,structural_map_extractive,False,No information is given.,2,True,1.1,6265,9,6274
+novel,00950a36_5,structural_map_extractive,False,She.,2,True,0.9,6301,9,6310
+novel,00950a36_2,structural_map_extractive,False,No city name mentioned.,2,True,1.0,6266,12,6278
+novel,00950a36_0,structural_map_extractive,False,No information is given.,2,True,1.1,6273,10,6283
+novel,00950a36_6,structural_map_extractive,False,I don't have that information.,2,True,1.1,6262,14,6276
+novel,00950a36_7,structural_map_extractive,False,Sergius.,2,True,1.1,6273,11,6284
+novel,00950a36_8,structural_map_extractive,False,She.,2,True,1.1,6238,9,6247
+novel,00950a36_9,structural_map_extractive,False,No location is mentioned.,2,True,1.1,6257,10,6267
+novel,00950a36_10,structural_map_extractive,False,No name mentioned.,2,True,1.0,6251,11,6262
+novel,00950a36_12,structural_map_extractive,False,No city is mentioned.,2,True,1.2,6251,12,6263
+novel,00950a36_11,structural_map_extractive,False,No information.,2,True,1.3,6253,10,6263
+novel,00950a36_15,structural_map_extractive,False,The pursuer.,2,True,1.3,6235,11,6246
+novel,00950a36_14,structural_map_extractive,False,Statues.,2,True,4.2,6341,10,6351
+novel,00950a36_13,structural_map_extractive,False,Unknown.,2,True,31.9,6304,66,6370
+novel,3e966645_1,structural_map_extractive,False,A Christian port.,2,True,7.2,6542,206,6748
+novel,3e966645_2,structural_map_extractive,False,There is no information about a very religious man in the passage.,2,True,41.8,6234,20,6254
+novel,3e966645_4,structural_map_extractive,False,I can't answer that as it's not in the passage.,2,True,44.9,6263,21,6284
+novel,3e966645_5,structural_map_extractive,False,There is no information about former officers or their illness in the passage.,2,True,1.6,6253,21,6274
+novel,3e966645_6,structural_map_extractive,False,There is no information about a man trying to drown himself in the passage.,2,True,3.8,6279,22,6301
+novel,3e966645_7,structural_map_extractive,False,I don't have that information.,2,True,2.8,6259,14,6273
+novel,3e966645_8,structural_map_extractive,False,No information is given about the port.,2,True,0.9,6247,15,6262
+novel,3e966645_9,structural_map_extractive,False,No answer available.,2,True,1.1,6255,11,6266
+novel,3e966645_10,structural_map_extractive,False,There is no mention of a schooner in the passage.,2,True,1.2,6344,19,6363
+novel,3e966645_11,structural_map_extractive,False,There is no information about the schooner's destination.,2,True,1.1,6264,18,6282
+novel,3e966645_16,structural_map_extractive,False,I don't have that information.,2,True,1.5,6261,13,6274
+novel,3e966645_12,structural_map_extractive,False,I don't have that information.,2,True,1.3,6237,14,6251
+novel,3e966645_21,structural_map_extractive,False,There is no information about the US Counsel hiring someone to take over the schooner.,2,True,2.6,6296,24,6320
+novel,3e966645_19,structural_map_extractive,False,There is no information about beggars in the passage.,2,True,5.9,6302,18,6320
+novel,3e966645_17,structural_map_extractive,False,No information is given.,2,True,49.0,6280,22,6302
+novel,3e966645_22,structural_map_extractive,False,Melbourne.,2,True,42.3,6275,8,6283
+novel,3e966645_20,structural_map_extractive,False,I have no information about a schooner going off course from San Francisco to Sydney.,2,True,48.4,6290,24,6314
+novel,6a659de3_2,structural_map_extractive,False,No one.,2,True,1.7,6269,8,6277
+novel,3e966645_23,structural_map_extractive,False,There is no information about 3 beggars operating out of the Tahitian port of Papeete.,2,True,45.1,6300,28,6328
+novel,6a659de3_4,structural_map_extractive,False,No one is mentioned in the passage.,2,True,3.4,6278,15,6293
+novel,6a659de3_5,structural_map_extractive,False,There is no mention of Vincey putting someone in charge of raising Leo.,2,True,0.9,6277,22,6299
+novel,6a659de3_6,structural_map_extractive,False,There is no mention of a queen.,2,True,1.1,6307,15,6322
+novel,6a659de3_8,structural_map_extractive,False,No information is given.,2,True,0.9,6259,9,6268
+novel,6a659de3_7,structural_map_extractive,False,No information is given about where the box takes them.,2,True,1.3,6287,18,6305
+novel,6a659de3_11,structural_map_extractive,False,No information provided.,2,True,1.0,6257,17,6274
+novel,6a659de3_12,structural_map_extractive,False,Quatermain.,2,True,0.9,6276,11,6287
+novel,6a659de3_14,structural_map_extractive,False,No information.,2,True,1.2,6241,10,6251
+novel,6a659de3_17,structural_map_extractive,False,There is no information about Leo dying in the fire in the given passage.,2,True,1.1,6261,20,6281
+novel,9561a72a_0,structural_map_extractive,False,I don't have that information.,2,True,4.3,6261,13,6274
+novel,9561a72a_3,structural_map_extractive,False,The Whimsies.,2,True,44.9,6250,12,6262
+novel,9561a72a_1,structural_map_extractive,False,The Wicked Witch of the West.,2,True,44.5,6253,15,6268
+novel,9561a72a_5,structural_map_extractive,True,Aunt Em and Uncle Henry.,2,True,43.9,6250,14,6264
+novel,9561a72a_9,structural_map_extractive,False,Greg and Mary.,2,True,1.1,6271,13,6284
+novel,9561a72a_7,structural_map_extractive,False,No information.,2,True,0.9,6249,10,6259
+novel,9561a72a_10,structural_map_extractive,False,Magic Carpet,2,True,3.9,6250,9,6259
+novel,9561a72a_11,structural_map_extractive,False,The Nome King.,2,True,1.1,6476,35,6511
+novel,9561a72a_12,structural_map_extractive,False,No information provided.,2,True,1.7,6250,11,6261
+novel,bf55d1c1_0,structural_map_extractive,False,I cannot answer that question as it does not appear in the provided passage.,2,True,1.6,6265,20,6285
+novel,bf55d1c1_1,structural_map_extractive,False,No answer available.,2,True,0.9,6249,11,6260
+novel,bf55d1c1_2,structural_map_extractive,False,No one.,2,True,0.8,6261,9,6270
+novel,bf55d1c1_4,structural_map_extractive,False,There is no information about Adam marrying in the given passage.,2,True,1.0,6244,19,6263
+novel,bf55d1c1_5,structural_map_extractive,False,None mentioned.,2,True,1.0,6290,10,6300
+novel,bf55d1c1_6,structural_map_extractive,False,I couldn't find any information about a hole at Arabella's house.,2,True,1.3,6265,20,6285
+novel,bf55d1c1_10,structural_map_extractive,False,I don't have that information.,2,True,1.4,6277,10,6287
+novel,bf55d1c1_3,structural_map_extractive,False,No one.,2,True,2.2,6342,226,6568
+novel,bf55d1c1_11,structural_map_extractive,False,No one mentioned.,2,True,37.4,6271,10,6281
+novel,bf55d1c1_12,structural_map_extractive,False,No information given.,2,True,1.0,6269,9,6278
+novel,ca4b98f5_0,structural_map_extractive,False,No title provided.,2,True,1.0,6370,11,6381
+novel,ca4b98f5_1,structural_map_extractive,False,No information provided.,2,True,1.6,6251,11,6262
+novel,ca4b98f5_2,structural_map_extractive,False,No information is given about Harry or his father.,2,True,1.4,6273,17,6290
+novel,bf55d1c1_9,structural_map_extractive,False,About a year before the tale begins.,2,True,2.3,6683,210,6893
+novel,ca4b98f5_3,structural_map_extractive,False,There is no information about his widow returning to a place after Lord Ongar dies.,2,True,1.5,6246,25,6271
+novel,ca4b98f5_4,structural_map_extractive,False,I don't have that information.,2,True,1.5,6239,14,6253
+novel,ca4b98f5_6,structural_map_extractive,False,No one.,2,True,1.7,6336,10,6346
+novel,ca4b98f5_8,structural_map_extractive,False,There is no mention of Harry or Florence in the passage.,2,True,1.0,6249,19,6268
+novel,ca4b98f5_10,structural_map_extractive,False,I don't have that information.,2,True,1.5,6293,14,6307
+novel,ca4b98f5_11,structural_map_extractive,False,There is no mention of Harry or the scenario in the passage.,2,True,0.9,6305,20,6325
+novel,ca4b98f5_12,structural_map_extractive,False,Her father.,2,True,1.6,6290,10,6300
+novel,ca4b98f5_14,structural_map_extractive,False,No information is given about Harry or his father in the passage.,2,True,3.1,6278,20,6298
+novel,ca4b98f5_13,structural_map_extractive,False,The narrator.,2,True,40.5,6287,10,6297
+novel,ca4b98f5_15,structural_map_extractive,False,I don't have that information.,2,True,43.6,6265,14,6279
+novel,ca4b98f5_16,structural_map_extractive,False,Julia Brabazon,2,True,39.3,6350,12,6362
+novel,ca4b98f5_17,structural_map_extractive,False,The speaker.,2,True,4.1,6266,10,6276
+novel,ca4b98f5_18,structural_map_extractive,False,"No one, it's a letter of apology.",2,True,1.2,6243,17,6260
+novel,6a659de3_3,structural_map_extractive,True,Ayesha.,2,True,213.5,56449,3383,59832
+caselaw,7,structural_map_extractive,False,5,2,True,1.0,5538,8,5546
+caselaw,3,structural_map_extractive,True,5,2,True,1.1,5443,9,5452
+caselaw,1,structural_map_extractive,False,5,2,True,0.9,5598,4,5602
+caselaw,5,structural_map_extractive,False,2,2,True,0.9,5774,4,5778
+caselaw,11,structural_map_extractive,False,4,2,True,0.9,5660,8,5668
+caselaw,9,structural_map_extractive,True,5,2,True,1.3,5556,4,5560
+caselaw,13,structural_map_extractive,False,5,2,True,0.9,5605,8,5613
+caselaw,15,structural_map_extractive,False,4,2,True,1.0,5484,9,5493
+caselaw,17,structural_map_extractive,False,4,2,True,1.2,5714,8,5722
+caselaw,21,structural_map_extractive,False,2,2,True,0.9,5471,9,5480
+caselaw,19,structural_map_extractive,True,3,2,True,1.1,5545,9,5554
+caselaw,25,structural_map_extractive,False,5,2,True,0.8,5564,8,5572
+caselaw,23,structural_map_extractive,False,2,2,True,2.3,5656,8,5664
+caselaw,33,structural_map_extractive,True,5,2,True,46.5,5608,8,5616
+caselaw,27,structural_map_extractive,True,2,2,True,49.4,5482,8,5490
+caselaw,29,structural_map_extractive,True,5,2,True,48.7,5718,8,5726
+caselaw,31,structural_map_extractive,False,2,2,True,47.7,5561,9,5570
+caselaw,35,structural_map_extractive,True,2,2,True,3.2,5676,4,5680
+caselaw,37,structural_map_extractive,False,2,2,True,3.6,5472,5,5477
+caselaw,39,structural_map_extractive,False,2,2,True,3.2,5450,8,5458
+caselaw,41,structural_map_extractive,False,3,2,True,3.6,5608,9,5617
+caselaw,43,structural_map_extractive,False,5,2,True,0.8,5585,9,5594
+caselaw,45,structural_map_extractive,False,2,2,True,0.5,5532,8,5540
+caselaw,47,structural_map_extractive,False,5,2,True,0.8,5664,8,5672
+caselaw,49,structural_map_extractive,False,4,2,True,0.8,5529,8,5537
+caselaw,51,structural_map_extractive,True,5,2,True,0.8,5524,4,5528
+caselaw,53,structural_map_extractive,False,5,2,True,1.7,5642,8,5650
+caselaw,57,structural_map_extractive,False,4,2,True,1.6,5695,8,5703
+caselaw,55,structural_map_extractive,True,2,2,True,38.0,5664,4,5668
+caselaw,59,structural_map_extractive,False,4,2,True,46.1,5752,8,5760
+caselaw,61,structural_map_extractive,False,4,2,True,44.7,5572,9,5581
+caselaw,63,structural_map_extractive,False,4,2,True,48.6,5688,8,5696
+caselaw,65,structural_map_extractive,True,5,2,True,11.8,5637,9,5646
+caselaw,69,structural_map_extractive,False,3,2,True,3.7,5570,9,5579
+caselaw,67,structural_map_extractive,False,2,2,True,4.4,5622,8,5630
+caselaw,73,structural_map_extractive,True,2,2,True,2.6,5490,5,5495
+caselaw,75,structural_map_extractive,True,2,2,True,0.9,5456,8,5464
+caselaw,77,structural_map_extractive,False,4,2,True,0.9,5640,8,5648
+caselaw,71,structural_map_extractive,False,5,2,True,5.0,5636,8,5644
+caselaw,81,structural_map_extractive,False,5,2,True,0.7,5730,8,5738
+caselaw,83,structural_map_extractive,False,5,2,True,0.5,5509,9,5518
+caselaw,79,structural_map_extractive,True,3,2,True,2.0,5611,9,5620
+caselaw,85,structural_map_extractive,True,2,2,True,0.7,5488,8,5496
+caselaw,91,structural_map_extractive,False,4,2,True,35.4,5668,8,5676
+caselaw,89,structural_map_extractive,False,3,2,True,45.8,5495,8,5503
+caselaw,87,structural_map_extractive,False,3,2,True,46.3,5539,9,5548
+caselaw,93,structural_map_extractive,False,5,2,True,46.0,5616,4,5620
+caselaw,95,structural_map_extractive,False,4,2,True,12.6,5526,5,5531
+caselaw,97,structural_map_extractive,False,5,2,True,3.4,5480,8,5488
+caselaw,99,structural_map_extractive,False,2,2,True,5.3,5584,4,5588
+caselaw,101,structural_map_extractive,False,4,2,True,2.8,5480,4,5484
+caselaw,103,structural_map_extractive,False,5,2,True,3.2,5592,9,5601
+caselaw,105,structural_map_extractive,True,2,2,True,3.1,5674,5,5679
+caselaw,107,structural_map_extractive,False,3,2,True,3.5,5498,5,5503
+caselaw,111,structural_map_extractive,False,2,2,True,0.7,5558,4,5562
+caselaw,113,structural_map_extractive,False,2,2,True,1.0,5494,9,5503
+caselaw,109,structural_map_extractive,False,3,2,True,3.6,5728,8,5736
+caselaw,115,structural_map_extractive,False,2,2,True,0.8,5710,4,5714
+caselaw,121,structural_map_extractive,False,4,2,True,44.3,5542,4,5546
+caselaw,119,structural_map_extractive,False,4,2,True,44.2,5678,8,5686
+caselaw,117,structural_map_extractive,False,4,2,True,44.5,5768,4,5772
+caselaw,123,structural_map_extractive,False,1,2,True,41.5,5522,4,5526
+caselaw,125,structural_map_extractive,False,2,2,True,4.0,5496,8,5504
+caselaw,131,structural_map_extractive,False,2,2,True,3.5,5542,8,5550
+caselaw,129,structural_map_extractive,True,2,2,True,3.6,5759,8,5767
+caselaw,127,structural_map_extractive,False,5,2,True,6.7,5558,8,5566
+caselaw,133,structural_map_extractive,False,4,2,True,2.6,5504,5,5509
+caselaw,135,structural_map_extractive,False,3,2,True,1.6,6130,4,6134
+caselaw,137,structural_map_extractive,False,4,2,True,3.8,5866,4,5870
+caselaw,139,structural_map_extractive,False,5,2,True,3.1,5682,8,5690
+caselaw,141,structural_map_extractive,False,2,2,True,1.2,5526,8,5534
+caselaw,143,structural_map_extractive,True,5,2,True,1.4,5780,4,5784
+caselaw,145,structural_map_extractive,False,5,2,True,1.2,5581,8,5589
+caselaw,153,structural_map_extractive,False,2,2,True,37.5,5684,5,5689
+caselaw,147,structural_map_extractive,False,4,2,True,43.0,5724,4,5728
+caselaw,149,structural_map_extractive,False,5,2,True,43.7,5620,4,5624
+caselaw,151,structural_map_extractive,True,5,2,True,40.6,5500,8,5508
+caselaw,157,structural_map_extractive,False,2,2,True,3.4,5548,8,5556
+caselaw,161,structural_map_extractive,False,5,2,True,3.0,5587,9,5596
+caselaw,159,structural_map_extractive,False,4,2,True,4.3,5588,4,5592
+caselaw,155,structural_map_extractive,False,2,2,True,5.9,5610,8,5618
+caselaw,163,structural_map_extractive,False,3,2,True,1.2,5454,5,5459
+caselaw,167,structural_map_extractive,True,3,2,True,1.3,5690,8,5698
+caselaw,171,structural_map_extractive,True,4,2,True,1.4,5710,8,5718
+caselaw,165,structural_map_extractive,False,5,2,True,1.4,5704,5,5709
+caselaw,169,structural_map_extractive,True,5,2,True,1.3,5598,8,5606
+caselaw,177,structural_map_extractive,False,5,2,True,1.1,5478,4,5482
+caselaw,175,structural_map_extractive,False,5,2,True,0.8,5548,8,5556
+caselaw,179,structural_map_extractive,False,5,2,True,20.8,5551,9,5560
+caselaw,173,structural_map_extractive,True,4,2,True,29.5,5728,8,5736
+caselaw,181,structural_map_extractive,False,4,2,True,29.9,5636,8,5644
+caselaw,185,structural_map_extractive,True,2,2,True,10.3,5506,8,5514
+caselaw,183,structural_map_extractive,False,5,2,True,32.5,5630,5,5635
+caselaw,189,structural_map_extractive,False,4,2,True,2.7,5630,8,5638
+caselaw,187,structural_map_extractive,False,3,2,True,3.4,5520,5,5525
+caselaw,193,structural_map_extractive,False,5,2,True,3.3,5774,8,5782
+caselaw,191,structural_map_extractive,False,5,2,True,3.9,5746,8,5754
+caselaw,195,structural_map_extractive,False,5,2,True,14.0,5538,4,5542
+caselaw,201,structural_map_extractive,False,5,2,True,10.2,5714,8,5722
+caselaw,197,structural_map_extractive,False,3,2,True,14.6,5706,8,5714
+caselaw,199,structural_map_extractive,False,2,2,True,10.0,5852,4,5856
+caselaw,203,structural_map_extractive,False,4,2,True,1.6,5568,8,5576
+caselaw,205,structural_map_extractive,False,1,2,True,0.8,5533,8,5541
+caselaw,211,structural_map_extractive,True,4,2,True,28.0,5732,4,5736
+caselaw,213,structural_map_extractive,False,3,2,True,27.3,5724,8,5732
+caselaw,207,structural_map_extractive,False,4,2,True,32.0,5513,8,5521
+caselaw,209,structural_map_extractive,False,1,2,True,31.9,5531,8,5539
+caselaw,221,structural_map_extractive,False,5,2,True,2.9,5662,8,5670
+caselaw,219,structural_map_extractive,False,4,2,True,5.6,5518,5,5523
+caselaw,215,structural_map_extractive,True,3,2,True,3.3,5642,5,5647
+caselaw,217,structural_map_extractive,False,5,2,True,6.9,5527,8,5535
+caselaw,223,structural_map_extractive,False,2,2,True,10.6,5638,4,5642
+caselaw,227,structural_map_extractive,True,5,2,True,11.0,5678,4,5682
+caselaw,225,structural_map_extractive,False,5,2,True,14.9,5657,8,5665
+caselaw,229,structural_map_extractive,False,2,2,True,15.0,5431,8,5439
+caselaw,233,structural_map_extractive,False,5,2,True,5.2,5574,8,5582
+caselaw,235,structural_map_extractive,True,5,2,True,1.4,5678,9,5687
+caselaw,231,structural_map_extractive,True,2,2,True,5.6,5802,4,5806
+caselaw,237,structural_map_extractive,True,4,2,True,1.7,5612,4,5616
+caselaw,245,structural_map_extractive,False,3,2,True,27.5,5688,8,5696
+caselaw,239,structural_map_extractive,False,5,2,True,27.8,5560,5,5565
+caselaw,243,structural_map_extractive,False,5,2,True,30.2,5692,8,5700
+caselaw,247,structural_map_extractive,False,4,2,True,2.7,5684,8,5692
+caselaw,241,structural_map_extractive,False,5,2,True,36.4,5589,9,5598
+caselaw,249,structural_map_extractive,True,4,2,True,6.5,5642,8,5650
+caselaw,253,structural_map_extractive,False,5,2,True,6.3,5546,9,5555
+caselaw,251,structural_map_extractive,False,2,2,True,7.9,5386,8,5394
+caselaw,255,structural_map_extractive,True,2,2,True,12.6,5528,8,5536
+caselaw,259,structural_map_extractive,True,3,2,True,11.2,5632,4,5636
+caselaw,257,structural_map_extractive,True,3,2,True,16.7,5514,8,5522
+caselaw,263,structural_map_extractive,True,5,2,True,5.0,5558,8,5566
+caselaw,265,structural_map_extractive,False,3,2,True,1.9,5566,5,5571
+caselaw,261,structural_map_extractive,False,2,2,True,16.3,5831,8,5839
+caselaw,271,structural_map_extractive,False,2,2,True,29.3,5570,8,5578
+caselaw,267,structural_map_extractive,False,4,2,True,32.1,5746,4,5750
+caselaw,269,structural_map_extractive,True,2,2,True,30.0,5422,9,5431
+caselaw,273,structural_map_extractive,False,3,2,True,29.9,5528,8,5536
+caselaw,275,structural_map_extractive,True,5,2,True,2.9,5582,8,5590
+caselaw,281,structural_map_extractive,True,3,2,True,4.5,5642,5,5647
+caselaw,277,structural_map_extractive,False,3,2,True,7.0,5650,8,5658
+caselaw,283,structural_map_extractive,True,5,2,True,5.2,5653,8,5661
+caselaw,287,structural_map_extractive,True,5,2,True,1.6,5694,8,5702
+caselaw,279,structural_map_extractive,False,5,2,True,23.1,5728,8,5736
+caselaw,285,structural_map_extractive,False,5,2,True,15.4,5549,9,5558
+caselaw,291,structural_map_extractive,False,5,2,True,11.7,5524,8,5532
+caselaw,293,structural_map_extractive,True,5,2,True,1.6,5567,9,5576
+caselaw,295,structural_map_extractive,False,2,2,True,1.0,5494,8,5502
+caselaw,289,structural_map_extractive,True,4,2,True,15.5,5716,4,5720
+caselaw,297,structural_map_extractive,False,5,2,True,2.2,5674,8,5682
+caselaw,303,structural_map_extractive,False,5,2,True,28.9,5596,4,5600
+caselaw,299,structural_map_extractive,True,4,2,True,29.0,5700,4,5704
+caselaw,301,structural_map_extractive,False,2,2,True,31.3,5750,8,5758
+caselaw,305,structural_map_extractive,False,5,2,True,35.1,5638,9,5647
+caselaw,307,structural_map_extractive,False,3,2,True,6.5,5710,9,5719
+caselaw,309,structural_map_extractive,False,1,2,True,5.8,5575,8,5583
+caselaw,311,structural_map_extractive,False,4,2,True,4.5,5566,8,5574
+caselaw,313,structural_map_extractive,False,5,2,True,3.1,5565,9,5574
+caselaw,317,structural_map_extractive,False,5,2,True,15.7,5470,4,5474
+caselaw,321,structural_map_extractive,False,5,2,True,11.2,5653,8,5661
+caselaw,315,structural_map_extractive,True,5,2,True,15.7,5594,9,5603
+caselaw,319,structural_map_extractive,False,4,2,True,16.6,5738,8,5746
+caselaw,329,structural_map_extractive,False,5,2,True,1.9,5738,4,5742
+caselaw,325,structural_map_extractive,False,3,2,True,2.3,5616,4,5620
+caselaw,323,structural_map_extractive,True,5,2,True,23.1,5679,8,5687
+caselaw,327,structural_map_extractive,False,5,2,True,32.5,5456,4,5460
+caselaw,331,structural_map_extractive,False,3,2,True,29.1,5594,5,5599
+caselaw,335,structural_map_extractive,False,5,2,True,10.4,5544,8,5552
+caselaw,333,structural_map_extractive,False,4,2,True,34.9,5778,8,5786
+caselaw,339,structural_map_extractive,True,5,2,True,6.1,5674,8,5682
+caselaw,341,structural_map_extractive,True,2,2,True,4.6,5498,4,5502
+caselaw,337,structural_map_extractive,False,5,2,True,9.2,5606,5,5611
+caselaw,345,structural_map_extractive,False,4,2,True,2.6,5628,8,5636
+caselaw,343,structural_map_extractive,False,5,2,True,16.3,5550,8,5558
+caselaw,351,structural_map_extractive,False,2,2,True,11.7,5484,8,5492
+caselaw,347,structural_map_extractive,True,2,2,True,15.6,5408,8,5416
+caselaw,349,structural_map_extractive,False,5,2,True,14.3,5574,5,5579
+caselaw,355,structural_map_extractive,False,4,2,True,1.4,5593,8,5601
+caselaw,353,structural_map_extractive,True,4,2,True,2.8,5820,8,5828
+caselaw,359,structural_map_extractive,False,2,2,True,31.4,5522,8,5530
+caselaw,357,structural_map_extractive,False,3,2,True,32.4,5614,4,5618
+caselaw,361,structural_map_extractive,False,4,2,True,28.4,5628,4,5632
+caselaw,363,structural_map_extractive,False,5,2,True,27.6,5472,9,5481
+caselaw,367,structural_map_extractive,False,4,2,True,5.5,5648,8,5656
+caselaw,371,structural_map_extractive,False,2,2,True,5.9,5698,9,5707
+caselaw,373,structural_map_extractive,False,3,2,True,1.1,5460,5,5465
+caselaw,375,structural_map_extractive,True,5,2,True,2.2,5608,8,5616
+caselaw,369,structural_map_extractive,False,4,2,True,2.9,5444,4,5448
+caselaw,365,structural_map_extractive,True,5,2,True,23.7,5618,8,5626
+caselaw,377,structural_map_extractive,False,5,2,True,13.3,5544,4,5548
+caselaw,381,structural_map_extractive,False,3,2,True,10.4,5568,8,5576
+caselaw,379,structural_map_extractive,False,5,2,True,11.6,5902,4,5906
+caselaw,383,structural_map_extractive,False,1,2,True,1.5,5479,8,5487
+caselaw,387,structural_map_extractive,False,5,2,True,1.8,5513,9,5522
+caselaw,385,structural_map_extractive,False,5,2,True,21.8,5534,9,5543
+caselaw,389,structural_map_extractive,False,4,2,True,31.4,5458,4,5462
+caselaw,391,structural_map_extractive,False,5,2,True,28.2,5619,8,5627
+caselaw,395,structural_map_extractive,False,2,2,True,12.7,5504,9,5513
+caselaw,393,structural_map_extractive,False,3,2,True,32.5,5574,5,5579
+caselaw,397,structural_map_extractive,False,2,2,True,5.5,5519,9,5528
+caselaw,399,structural_map_extractive,False,5,2,True,6.1,5552,4,5556

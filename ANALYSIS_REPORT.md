@@ -1,6 +1,6 @@
 # Rehearse, Then Recall — Progress Report
 
-_Last updated: 2026-08-13 (root cause found: thread-memory collapse explains the rehearsal-vs-RAG gap, confirmed independent of model scale via a controlled minimal test; mnt128 compression-cap relaxation confirmed not to help; anti-collapse corrective-retry mechanism partially works, validation in progress)_
+_Last updated: 2026-08-14 (structural_map_extractive confirmed at full scale, underperformed; maintenance rehearsal (A) revived and tested in 4 variants — dynamic-ratio variant nearly matches RAG accuracy at ~half the tokens and beats RAG on wiki, the strongest compression-family result in the project; 2 new figures)_
 
 ## 1. What this project is testing
 
@@ -441,27 +441,164 @@ content — it's that the collapse mechanism produces the *wrong* content
 regardless of how much room it's given, so a bigger budget only lets it
 reproduce more of the wrong (collapsed) thing.
 
+#### 4.3.8 `structural_map_extractive` — confirmed at full scale, underperformed
+
+§4.3.10's cognitive-localization hypothesis (split the one overloaded
+mechanism into three specialized pieces — structural map / executive chunk
+selection / extractive detail) was piloted, built, and run to full scale
+(`10` §13i, n=579). It underperformed expectations: **0.142 overall**,
+4,929 avg tokens, 12.91s latency — worse than `extractive_query_aware_adaptive`
+(0.366) on both accuracy and tokens, and not competitive with RAG. The
+per-chunk topic-label map (query-agnostic by construction, so it cannot
+collapse the way §4.3.3's gists do) does not appear to give the LLM enough
+signal to select the right chunks — the executive-selection step reasoning
+over labels loses more than the collapse-avoidance gains back. Recorded as
+a negative result: splitting the mechanism into specialized pieces did not,
+on its own, recover accuracy — see §4.3.9 for the piece that did.
+
+#### 4.3.9 Maintenance rehearsal (A) revived — the strongest compression-family result yet
+
+§4.3.2's isolation left one cell of the extractive/abstractive ×
+query-aware/agnostic design unfilled: extractive **and** query-agnostic.
+Maintenance rehearsal (A) — dropped from scope on 2026-08-12 (§6) — fills
+exactly that cell: a RoBERTa `SentenceScorer` selects the top sentences
+per chunk verbatim, with no rewriting and no cross-chunk conditioning. Because
+nothing is regenerated, §4.3.3's collapse mechanism cannot occur
+structurally. The already-trained checkpoint (`experiments/rehearsal_maintenance_roberta/`)
+was combined with RAG's own Adaptive-k chunk selection and re-evaluated at
+full scale (n=579) in four variants (`10` §13j-m):
+
+| variant | wiki | news | novel | caselaw | overall | avg tokens |
+|---|---|---|---|---|---|---|
+| `maintenance_extractive_adaptive` (fixed R=0.3) | 0.440 | 0.360 | 0.241 | 0.265 | 0.325 | 1,567 |
+| `maintenance_extractive_r50` (fixed R=0.5) | 0.520 | 0.410 | 0.278 | 0.285 | 0.368 | 2,011 |
+| `maintenance_extractive_combined` (A's pool + §4.3.5's query-aware re-selection) | 0.510 | 0.335 | 0.101 | 0.235 | 0.299 | 467 |
+| `maintenance_extractive_dynamic` (dependent-ratio, 32K-token target) | **0.880** | 0.415 | 0.278 | 0.275 | **0.428** | 1,862 |
+| `raw_retrieval_adaptive` (RAG, reference) | 0.850 | 0.420 | 0.316 | 0.300 | 0.439 | 3,588 |
+
+Raising the fixed ratio alone helps (0.325→0.368) — consistent with `05`'s
+own recall@k measurement that R=0.3 loses 43% of evidence sentences while
+R=0.5 loses only 26%. This is the *opposite* direction from gist under a
+relaxed budget (§4.3.7's mnt128, which got worse with more room) — since A's
+content is verbatim, more budget means strictly more real information, not
+more room to reproduce collapsed content.
+
+The dynamic-ratio variant (`dependent_ratio()`, Sie et al. NLLP 2024 §3.2 —
+compression ratio set per document from `target_context_tokens=32,000`,
+matching the NoLiMa reliability threshold cited in §4.3.4) is the standout:
+**0.428 overall vs. RAG's 0.439 — a 0.011 gap — at roughly half RAG's
+tokens (1,862 vs. 3,588), and it beats RAG outright on wiki (0.880 vs.
+0.850)**, the only condition in the entire investigation to exceed RAG's
+absolute accuracy on any genre. The combined variant (A prefilter +
+extractive_query_aware_adaptive's query-aware re-selection within it) is a
+clear negative result by contrast: cutting tokens further (467) came at a
+real accuracy cost (0.299), driven mostly by a collapse on novel (0.101
+vs. 0.241 for base A) — two lossy selection stages compounded rather than
+complementing each other.
+
+Read against §4.3.10's cognitive-psychology framing, this is a genuine
+tension worth naming rather than smoothing over: levels-of-processing
+theory (Craik & Lockhart, 1972) predicts *elaborative* processing should
+beat *maintenance* processing for humans, because deeper semantic encoding
+produces better long-term retention than surface repetition. This project's
+result inverts that — because the "deeper" processing (elaborative
+rehearsal's rewriting) is exactly where thread-memory collapse lives
+(§4.3.3), the surface-level strategy (maintenance's verbatim selection)
+wins instead. Porting a human memory strategy to an LLM pipeline does not
+guarantee the same strategy stays best; which strategy wins can depend on
+where the failure mode lives in the *implementation*, not just which
+strategy is "deeper" in the cognitive-psychology sense.
+
+#### 4.3.10 A cognitive-psychology reading of the whole condition set
+
+§4.3.3's diagnosis — one mechanism (`ThreadMemory`'s retrieve-and-replace)
+was asked to do three functionally distinct jobs (track structure,
+integrate new information, preserve verbatim detail) and collapsed under
+the load — has a direct parallel in how human memory is organized: these
+are not one system either. Hippocampal indexing/structural mapping,
+prefrontal executive control over *when* to retrieve, and sensory/verbatim
+detail are functionally separate, coordinating systems (a parallel
+HippoRAG, Jimenez Gutierrez et al. 2024, arXiv:2405.14831, draws explicitly
+for RAG). Reading each condition through this lens, rather than only as an
+ablation, clarifies what each one is actually testing:
+
+| condition | cognitive-psychology reading | why |
+|---|---|---|
+| `closed_book` | semantic memory alone | answers from parametric knowledge, no new encoding at all |
+| `full_context` | working memory, unbounded | not a real human strategy — an oracle upper bound on what *would* be possible without capacity limits |
+| `chunked_sequential` | primacy-limited working memory, no strategy | sees only the first few raw chunks, no compression or integration |
+| `full_context_rehearsal_lookup[_retrieval/_adaptive]` | elaborative rehearsal, hippocampal-integration pathway | the pathway §4.3.3 found collapses — "revise a related thread with new information" is precisely the hippocampal binding operation that failed |
+| `raw_retrieval_adaptive` (RAG) | cue-dependent recognition | matches a cue directly against the environment (the raw document) every time; builds no internal representation at all |
+| `gist_retrieval_adaptive` / `_gistembed` / `_mnt128` | reconstructive recall | Bartlett's (1932) sense specifically — recall as an active reconstruction from a schema, prone to drift and distortion, not a verbatim trace; the collapse is that distortion made visible |
+| `hybrid_gistselect_rawanswer` | schema-cued, veridical retrieval | uses a reconstructed schema only to decide *where* to look, then retrieves the original verbatim |
+| `extractive_query_aware_adaptive` | retrieval practice (testing effect) | active retrieval at the moment of need, from the original material, per Roediger & Karpicke (2006) — this project's RQ1 answer |
+| `structural_map_extractive` (§4.3.8) | specialized systems, not one mechanism | structural map (hippocampal indexing, built with no cross-chunk conditioning so it cannot collapse) + executive chunk selection (prefrontal) + extractive detail (sensory/verbatim) as three separate, coordinating pieces instead of one mechanism carrying all three — did not, on its own, recover accuracy (§4.3.8) |
+| `maintenance_extractive_*` family (§4.3.9) | maintenance rehearsal | Craik & Lockhart's (1972) "shallow"/surface pole of levels-of-processing — verbatim sentence selection, no semantic reconstruction, no cross-chunk integration; the dynamic-ratio variant is this project's second RQ1 answer, and the strongest compression-family result overall |
+
+This reading also sharpens what this project's headline result actually
+says: it is not "compression loses to retrieval" in the abstract — it is
+that *reconstructive* recall (gist) loses to both *recognition*-based
+search (RAG) and *retrieval-practice*-style active recall (extractive
+query-aware), across every genre tested, and the reconstructive pathway's
+specific failure mode (collapse toward whatever was retrieved as context)
+is now mechanistically understood rather than merely observed.
+
 #### Summary
 
-| condition | overall accuracy | avg tokens | vs. RAG |
-|---|---|---|---|
-| `raw_retrieval_adaptive` (RAG) | 0.439 | 3,588 | — |
-| `full_context_rehearsal_lookup_adaptive` (best §4.1 gist condition) | 0.339 | 25,551 | loses accuracy, 7x the tokens |
-| `gist_retrieval_adaptive` | 0.121 | 1,105 | loses badly on every genre |
-| `gist_retrieval_gistembed` | 0.119 | ~1,100 | confirms selection wasn't the issue |
-| `hybrid_gistselect_rawanswer` | 0.266 | 5,364 | loses accuracy *and* tokens |
-| `extractive_query_aware_adaptive` | 0.366 | **680** | close accuracy (3/4 genres), 5.3x fewer tokens |
-| `gist_retrieval_adaptive_mnt128` | 0.112 (pilot) | 1,539 (pilot) | worse on both axes |
+![Figure 6 — Accuracy by genre × condition, all tested conditions](docs/report_assets/fig6_accuracy_all_conditions.png)
 
-**Current honest read**: no condition built on compressed (gisted) content
-beats RAG on accuracy, at any tested compression aggressiveness, model
-size, or selection mechanism — and §4.3.3 now explains why with a
-specific, identified mechanism (thread-memory collapse) rather than a
-general "compression is hard" appeal. The one condition with a genuine,
-defensible advantage keeps RAG's raw-text answer source and prunes it
-*extractively* and *query-aware*, not by compressing it in advance — this
-narrows what "rehearsal" can honestly claim credit for in this project to
-a cost/latency argument, not an accuracy one.
+![Figure 7 — Token cost by condition (log scale, mean over 4 genres)](docs/report_assets/fig7_tokens_all_conditions.png)
+
+![Figure 8 — Efficiency frontier: accuracy vs. token cost](docs/report_assets/fig8_efficiency_frontier.png)
+
+| condition | cognitive reading | overall accuracy | avg tokens | vs. RAG |
+|---|---|---|---|---|
+| `raw_retrieval_adaptive` (RAG) | recognition retrieval | 0.439 | 3,588 | — |
+| `full_context_rehearsal_lookup_adaptive` (best §4.1 gist condition) | elaborative rehearsal | 0.339 | 25,551 | loses accuracy, 7x the tokens |
+| `gist_retrieval_adaptive` | reconstructive recall | 0.121 | 1,105 | loses badly on every genre |
+| `gist_retrieval_gistembed` | reconstructive recall (gist-cued) | 0.119 | ~1,100 | confirms selection wasn't the issue |
+| `hybrid_gistselect_rawanswer` | schema-cued, veridical retrieval | 0.266 | 5,364 | loses accuracy *and* tokens |
+| `gist_retrieval_adaptive_mnt128` | reconstructive recall, looser budget | 0.112 (pilot) | 1,539 (pilot) | worse on both axes |
+| `extractive_query_aware_adaptive` | retrieval practice / testing effect | 0.366 | **680** | close accuracy (3/4 genres), 5.3x fewer tokens |
+| `structural_map_extractive` | specialized systems | 0.142 | 4,929 | underperformed — worse than extractive on both axes |
+| `maintenance_extractive_adaptive` (fixed R=0.3) | maintenance rehearsal | 0.325 | 1,567 | loses accuracy, but 2.3x fewer tokens |
+| `maintenance_extractive_r50` (fixed R=0.5) | maintenance rehearsal | 0.368 | 2,011 | closer, still 1.8x fewer tokens |
+| `maintenance_extractive_combined` (A + query-aware re-selection) | maintenance rehearsal, re-pruned | 0.299 | 467 | negative result — two lossy stages compound |
+| `maintenance_extractive_dynamic` (dependent-ratio, 32K target) | maintenance rehearsal | **0.428** | **1,862** | **0.011 below RAG, ~half the tokens; beats RAG on wiki (0.880 vs 0.850)** |
+
+![Figure 9 — Maintenance-rehearsal (A) variants vs. RAG and extractive query-aware](docs/report_assets/fig9_maintenance_variants_accuracy.png)
+
+![Figure 10 — Efficiency frontier including maintenance (A) variants](docs/report_assets/fig10_efficiency_frontier_with_maintenance.png)
+
+Figure 8 makes the shape of the pre-maintenance result legible in one view: RAG and
+extractive query-aware sit on the accuracy-cost frontier (extractive
+dominating on cost for a modest accuracy concession); every
+*reconstructive-recall* condition — regardless of which model built the
+gist, which embeddings selected the chunk, or how loosely it was
+compressed — sits strictly below and to the right of that frontier,
+worse on accuracy despite in some cases (`hybrid_gistselect_rawanswer`)
+costing *more* tokens than RAG itself. Figure 10 adds the maintenance
+family to that same frontier: `maintenance_extractive_dynamic` sits closer
+to RAG than any other tested alternative, at roughly half the token cost.
+
+**Current honest read**: no condition built on *generative* (rewritten,
+gisted) content beats RAG on accuracy, at any tested compression
+aggressiveness, model size, or selection mechanism — §4.3.3 explains why
+with a specific, identified mechanism (thread-memory collapse) rather than
+a general "compression is hard" appeal. Two conditions now have a genuine,
+defensible advantage, and both are extractive: `extractive_query_aware_adaptive`
+(RAG's own chunk selection, pruned query-aware, kept verbatim — a
+cost/latency argument, 5.3x fewer tokens for a 7.3pp accuracy cost) and
+`maintenance_extractive_dynamic` (verbatim sentence selection at a
+document-length-dependent ratio, no query awareness at all — the closest
+any tested condition comes to RAG's accuracy, 0.011 apart, at ~half the
+tokens, and the only condition to beat RAG outright on any genre). Read
+together, the two extractive alternatives bracket RAG from below in
+accuracy while asking for a fraction of its tokens; the through-line across
+this entire investigation is that **verbatim content survives, rewritten
+content collapses** — `structural_map_extractive` (§4.3.8), the one
+attempt to add generative reasoning (topic labels) back into an otherwise
+extractive pipeline, underperformed both, consistent with that reading.
 
 ## 5. Methodology notes worth keeping
 
@@ -510,17 +647,22 @@ a cost/latency argument, not an accuracy one.
   (§4.2).** All three re-evaluations are complete as of 2026-08-13; §4.1's
   and §4.3's tables use the corrected corpus throughout.
 
-## 6. Scope: B + C only (A dropped, 2026-08-12)
+## 6. Scope: B fully tested, A revived 2026-08-14, A→B and full C out of scope
 
 Per the experimental design doc's full grid (strategy {A maintenance, B
 elaborative, A->B} x testing-effect {no-C, +C} x lookup {no, yes}, 2
-baselines + 12 intervention cells x 4 genres): only **B**, with and without
+baselines + 12 intervention cells x 4 genres): **B**, with and without
 lookup variants, has been fully tested (§4). **A (maintenance rehearsal)
-and A→B are explicitly out of scope as of 2026-08-12** — a deliberate
-decision, not a not-yet-built gap; `04`/`05` (A's prep/train notebooks)
-will not be run. The lookup mechanism itself is written strategy-agnostic
+was dropped as of 2026-08-12, then explicitly revived on 2026-08-14** once
+§4.3.2's extractive/query-agnostic diagnosis identified it as the one cell
+of that 2x2 the project hadn't tested — see §4.3.9 for the full result
+(its dynamic-ratio variant is this project's second RQ1-supporting
+finding, and the strongest compression-family result overall). The A→B
+sequential combination and C's full 336-document scale-up remain out of
+scope. The lookup mechanism itself is written strategy-agnostic
 (`_lookup_window_indices` / the adaptive selection don't assume B
-specifically), so this was a scope choice, not a technical blocker.
+specifically), so combining A with lookup/Adaptive-k required no new
+mechanism — only reusing the already-trained checkpoint from `04`/`05`.
 
 **C (testing effect) — implemented and piloted at n=25, reverses the n=1 signal.**
 The original design trained a standalone QG model (`08`/`09`, SQuAD
@@ -559,12 +701,17 @@ second, at 12 chunks→25 documents. **Treat the n=25 numbers as the current
 best estimate, not final** — not yet run at `06b`'s full 336-document
 scale.
 
-## 7. Status (updated 2026-08-13)
+## 7. Status (updated 2026-08-14)
 
 - **Headline: pure RAG (no rehearsal, no teacher, no compression) beats
-  every rehearsal-family condition on every genre**, confirmed at full
-  scale (n=579) — 0.439 overall accuracy vs. 0.339 for the best gist-based
-  condition, at 7x fewer tokens. See §4.3.1.
+  every *generative* rehearsal-family condition on every genre**, confirmed
+  at full scale (n=579) — 0.439 overall accuracy vs. 0.339 for the best
+  gist-based condition, at 7x fewer tokens. See §4.3.1. **But an extractive
+  (verbatim, no-rewriting) form of rehearsal comes within 0.011 of matching
+  it, at ~half the tokens, and beats it outright on wiki** —
+  `maintenance_extractive_dynamic`, §4.3.9. The headline is no longer
+  "compression loses to retrieval" in the abstract; it's "*rewritten*
+  content collapses, *verbatim* content doesn't" (§4.3.9-10).
 - **The loss is content, not architecture, not selection, and confirmed not
   model size — root cause identified: thread-memory collapse** (§4.3.2-3):
   swapping only the content shown (gist vs. raw) at RAG's own single-call
@@ -626,8 +773,40 @@ scale.
   three lookup conditions re-evaluated post-fix, accuracy moved <0.03
   everywhere — the artifact does not explain caselaw's "more context
   hurts" pattern.
-- **Not yet run to full scale**: the anti-collapse mechanism's full-corpus
-  validation (§4.3.3, pending the 20-chunk check above), the teacher-gist
-  ceiling test with a *working* (non-collapsing) curation mechanism (real
-  API cost, ~2.9h+ estimated, more with retry overhead), and testing-effect's
-  full 336-document curation (§6) — all legitimate follow-ups.
+- **20-chunk anti-collapse check: correctness fixed, integration not**
+  (§4.3.3) — with corrective retries skipped (0/15 succeeded across two
+  trials) and going straight to the no-context fallback on detected
+  collapse, all 20 chunks' gists came back accurate and topically distinct
+  (0 collapse in the final output). But 15/19 context-bearing chunks only
+  got there via the fallback — i.e., by giving up on integration and
+  regenerating independently. The mechanism now reliably produces *correct*
+  gists; it does not yet reliably produce *elaborative* ones. Whether that
+  distinction matters for downstream QA accuracy is untested — would need a
+  real QA run on gists built this way, not yet done (real API cost, and at
+  ~2h/20 chunks under today's endpoint conditions, a full corpus run is a
+  multi-hour commitment).
+- **`structural_map_extractive` confirmed at full scale — underperformed**
+  (§4.3.8): splitting the job §4.3.3 found one mechanism collapsing under
+  into three specialized pieces (structural map / executive chunk
+  selection / extractive detail) scored 0.142 overall at 4,929 avg
+  tokens — worse than `extractive_query_aware_adaptive` on both axes.
+  Negative result: cognitive-localization motivation alone did not recover
+  accuracy; see the next bullet for the piece that did.
+- **Maintenance rehearsal (A) revived and confirmed at full scale — the
+  strongest compression-family result in the project** (§4.3.9): dropped
+  from scope 2026-08-12, revived once §4.3.2's diagnosis flagged it as the
+  untested extractive+query-agnostic cell. Best variant
+  (`maintenance_extractive_dynamic`, document-length-dependent compression
+  ratio) scores 0.428 overall vs. RAG's 0.439 — a 0.011 gap — at roughly
+  half RAG's tokens (1,862 vs 3,588), and beats RAG outright on wiki (0.880
+  vs 0.850), the only condition in the project to do so on any genre. A
+  combined variant (A + query-aware re-selection) is a clear negative
+  result by contrast (0.299, driven by a novel-genre collapse to 0.101) —
+  two lossy selection stages compounded rather than complementing each
+  other. This is this project's second RQ1-supporting finding, alongside
+  §4.3.5's extractive_query_aware_adaptive — and the through-line across
+  both is the same: verbatim content survives, rewritten content collapses.
+- **Not yet run to full scale**: the teacher-gist ceiling test with a
+  *working* (non-collapsing) curation mechanism (real API cost, ~2.9h+
+  estimated, more with retry overhead), and testing-effect's full
+  336-document curation (§6) — both legitimate follow-ups.
