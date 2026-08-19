@@ -59,3 +59,63 @@ caselaw,23,gist_threaded_weighted,False,2,1,,0.6,3055,2,3057
 caselaw,25,gist_threaded_weighted,False,3,1,,0.8,2934,2,2936
 caselaw,27,gist_threaded_weighted,True,2,1,,0.8,2968,2,2970
 caselaw,29,gist_threaded_weighted,False,4,1,,0.5,3040,2,3042
+wiki,16,gist_threaded_weighted,True,Philadelphia.,1,,0.3,2550,3,2553
+wiki,17,gist_threaded_weighted,False,1799,1,,0.8,2551,3,2554
+wiki,19,gist_threaded_weighted,False,No information.,1,,0.8,2572,4,2576
+wiki,18,gist_threaded_weighted,True,1825,1,,1.4,2536,3,2539
+wiki,20,gist_threaded_weighted,False,No specific year mentioned.,1,,0.3,2526,6,2532
+wiki,22,gist_threaded_weighted,True,Megacity.,1,,0.9,2552,4,2556
+wiki,21,gist_threaded_weighted,False,There is no mention of the Triangle Shirtwaist Factory fire in the passage.,1,,0.7,2572,17,2589
+wiki,23,gist_threaded_weighted,True,Abstract expressionism.,1,,0.3,2557,5,2562
+wiki,24,gist_threaded_weighted,True,American Airlines Flight 11.,1,,0.8,2528,7,2535
+wiki,26,gist_threaded_weighted,False,No answer available.,1,,0.3,2544,5,2549
+wiki,28,gist_threaded_weighted,False,Hudson River,1,,0.3,2516,4,2520
+wiki,25,gist_threaded_weighted,True,American Airlines Flight 11.,1,,0.6,2539,7,2546
+wiki,27,gist_threaded_weighted,False,No answer available.,1,,0.3,2503,5,2508
+wiki,30,gist_threaded_weighted,True,1656,1,,0.3,2536,3,2539
+wiki,29,gist_threaded_weighted,False,"26,000 acres",1,,0.4,2522,5,2527
+news,18,gist_threaded_weighted,False,Yes.,1,,0.3,3133,3,3136
+news,19,gist_threaded_weighted,True,Julio Cruz.,1,,0.3,3145,5,3150
+news,17,gist_threaded_weighted,False,"Up to 1,000 human rights campaigners demonstrated in front of No. 10 Downing Street.",1,,0.3,3129,21,3150
+news,16,gist_threaded_weighted,False,"Kim Jong Il, Hugo Chavez, Barack Obama, Prachanda, Viktor Bout, Pratibha Patil, Robert Gates, Adam Sandler, Seth Rogen, Pope Benedict XVI, Robert Hawk, Graham, Heath Ledger, Kirstie Alley, Bear Grylls, Roman Abramovich, Tom Barrett, Dixie Carter, Katy Perry, Kim Jong Il.",1,,0.7,3138,75,3213
+news,20,gist_threaded_weighted,False,No information.,1,,0.5,3141,4,3145
+news,21,gist_threaded_weighted,False,No information provided.,1,,0.5,3130,5,3135
+news,23,gist_threaded_weighted,False,No location mentioned.,1,,0.9,3137,5,3142
+news,22,gist_threaded_weighted,True,l'Hydroptere,1,,1.3,3149,7,3156
+news,24,gist_threaded_weighted,True,Second degree aggravated battery.,1,,1.0,3128,6,3134
+news,27,gist_threaded_weighted,True,Venezuelan President Hugo Chavez.,1,,0.4,3152,9,3161
+news,25,gist_threaded_weighted,False,Dixie Carter.,1,,0.5,3147,6,3153
+news,28,gist_threaded_weighted,False,"$50,800.",1,,0.5,3152,6,3158
+news,26,gist_threaded_weighted,False,No information.,1,,1.4,3135,4,3139
+news,30,gist_threaded_weighted,False,Azerbaijan.,1,,0.3,3140,5,3145
+news,29,gist_threaded_weighted,False,AC Milan.,1,,0.3,3136,4,3140
+novel,3e966645_2,gist_threaded_weighted,False,A rebellious clergyman.,1,,41.9,2649,7,2656
+novel,3e966645_5,gist_threaded_weighted,False,Consumption.,1,,42.1,2649,4,2653
+novel,3e966645_4,gist_threaded_weighted,False,Cough mixture.,1,,42.2,2652,5,2657
+novel,3e966645_6,gist_threaded_weighted,False,Sergius.,1,,42.2,2639,5,2644
+novel,3e966645_7,gist_threaded_weighted,False,The American consul.,1,,0.8,2655,5,2660
+novel,3e966645_10,gist_threaded_weighted,False,No information.,1,,0.8,2648,4,2652
+novel,3e966645_8,gist_threaded_weighted,True,Papeete.,1,,1.1,2653,5,2658
+novel,3e966645_9,gist_threaded_weighted,True,Tahiti.,1,,1.1,2638,5,2643
+novel,3e966645_11,gist_threaded_weighted,False,No information provided.,1,,0.4,2646,5,2651
+novel,3e966645_17,gist_threaded_weighted,False,The Pacific.,1,,0.5,2643,4,2647
+novel,3e966645_16,gist_threaded_weighted,False,Double-eagles.,1,,0.4,2652,6,2658
+novel,3e966645_12,gist_threaded_weighted,False,Disease.,1,,0.8,2644,4,2648
+novel,3e966645_19,gist_threaded_weighted,False,Herrick.,1,,0.6,2680,4,2684
+novel,3e966645_20,gist_threaded_weighted,False,No information.,1,,0.4,2664,4,2668
+novel,3e966645_21,gist_threaded_weighted,False,Herrick.,1,,0.3,2670,4,2674
+caselaw,35,gist_threaded_weighted,True,2,1,,0.3,3051,2,3053
+caselaw,33,gist_threaded_weighted,False,2,1,,0.2,2985,2,2987
+caselaw,31,gist_threaded_weighted,True,5,1,,0.5,2995,3,2998
+caselaw,37,gist_threaded_weighted,False,2,1,,0.3,2949,3,2952
+caselaw,39,gist_threaded_weighted,False,5,1,,0.3,2952,2,2954
+caselaw,41,gist_threaded_weighted,False,3,1,,0.2,2956,2,2958
+caselaw,43,gist_threaded_weighted,False,5,1,,0.3,3007,2,3009
+caselaw,45,gist_threaded_weighted,False,2,1,,0.4,2993,3,2996
+caselaw,49,gist_threaded_weighted,False,3,1,,0.3,2979,2,2981
+caselaw,47,gist_threaded_weighted,False,5,1,,4.8,2984,2,2986
+caselaw,53,gist_threaded_weighted,False,5,1,,3.8,2973,2,2975
+caselaw,55,gist_threaded_weighted,True,2,1,,3.7,3045,3,3048
+caselaw,51,gist_threaded_weighted,True,5,1,,4.7,2975,2,2977
+caselaw,59,gist_threaded_weighted,False,4,1,,4.5,3057,2,3059
+caselaw,57,gist_threaded_weighted,False,4,1,,4.6,3026,2,3028

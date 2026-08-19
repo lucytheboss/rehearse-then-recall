@@ -1,0 +1,6 @@
+genre,question_id,condition,correct,prediction,api_calls,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+novel,00950a36_5,extractive_hybrid_union_novel_pilot,False,A wretched fugitive.,1,0.7,178,7,185
+novel,00950a36_1,extractive_hybrid_union_novel_pilot,False,No one.,1,0.4,336,4,340
+novel,00950a36_2,extractive_hybrid_union_novel_pilot,False,None mentioned.,1,0.2,534,4,538
+novel,00950a36_6,extractive_hybrid_union_novel_pilot,False,"There is no mention of ""Queen of the Blue Sea"".",1,0.3,251,13,264
+novel,00950a36_0,extractive_hybrid_union_novel_pilot,True,Shah Amurath.,1,0.6,333,7,340

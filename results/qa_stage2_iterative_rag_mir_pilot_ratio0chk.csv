@@ -1,0 +1,11 @@
+genre,question_id,condition,correct,prediction,api_calls,rounds_used,escalated,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+novel,00950a36_2,iterative_rag_mir_pilot,False,Vilayet,1,0,False,0.7,1821,4,1825
+novel,00950a36_0,iterative_rag_mir_pilot,True,Shah Amurath.,1,0,False,2.0,1993,7,2000
+novel,00950a36_5,iterative_rag_mir_pilot,False,She.,1,0,False,0.7,555,3,558
+novel,00950a36_1,iterative_rag_mir_pilot,True,Olivia.,1,0,False,1.0,962,4,966
+caselaw,3,iterative_rag_mir_pilot,True,5,1,0,False,1.4,9371,2,9373
+caselaw,1,iterative_rag_mir_pilot,False,5,1,0,False,2.7,9447,2,9449
+novel,00950a36_6,iterative_rag_mir_pilot,False,No one.,1,0,False,3.5,564,4,568
+caselaw,5,iterative_rag_mir_pilot,False,2,1,0,False,2.9,9535,2,9537
+caselaw,7,iterative_rag_mir_pilot,False,5,1,0,False,0.5,9385,2,9387
+caselaw,9,iterative_rag_mir_pilot,True,5,1,0,False,0.4,9426,2,9428

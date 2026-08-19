@@ -1,0 +1,6 @@
+genre,question_id,condition,correct,prediction,api_calls,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+novel,00950a36_2,extractive_hybrid_criterion_novel_pilot,False,None mentioned.,1,33.9,205,4,209
+novel,00950a36_0,extractive_hybrid_criterion_novel_pilot,False,No name mentioned.,1,34.4,208,5,213
+novel,00950a36_1,extractive_hybrid_criterion_novel_pilot,False,No one.,1,35.5,256,4,260
+novel,00950a36_5,extractive_hybrid_criterion_novel_pilot,False,A wretched fugitive.,1,37.1,178,7,185
+novel,00950a36_6,extractive_hybrid_criterion_novel_pilot,False,"No one is mentioned in the passage as being made ""Queen of the Blue Sea"".",1,0.3,176,18,194

@@ -1,0 +1,80 @@
+genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+novel,00950a36_5,extractive_query_aware_adaptive_novel_w1_pilot,False,A wretched fugitive.,1,,0.3,178,7,185
+novel,00950a36_1,extractive_query_aware_adaptive_novel_w1_pilot,False,The pirates.,1,,0.2,300,4,304
+novel,00950a36_0,extractive_query_aware_adaptive_novel_w1_pilot,True,Shah Amurath.,1,,0.2,314,7,321
+novel,00950a36_2,extractive_query_aware_adaptive_novel_w1_pilot,False,None mentioned.,1,,0.2,515,4,519
+novel,00950a36_6,extractive_query_aware_adaptive_novel_w1_pilot,False,The narrator.,1,,0.2,176,4,180
+novel,00950a36_9,extractive_query_aware_adaptive_novel_w1_pilot,False,Among the rocks.,1,,0.3,224,5,229
+novel,00950a36_8,extractive_query_aware_adaptive_novel_w1_pilot,False,Not mentioned.,1,,0.3,337,4,341
+novel,00950a36_10,extractive_query_aware_adaptive_novel_w1_pilot,True,Conan.,1,,0.2,368,4,372
+novel,00950a36_7,extractive_query_aware_adaptive_novel_w1_pilot,False,Kasim.,1,,0.4,226,5,231
+novel,00950a36_11,extractive_query_aware_adaptive_novel_w1_pilot,False,Slaying Sergius.,1,,0.3,296,7,303
+novel,00950a36_14,extractive_query_aware_adaptive_novel_w1_pilot,False,A stone.,1,,0.3,378,4,382
+novel,00950a36_12,extractive_query_aware_adaptive_novel_w1_pilot,False,None mentioned.,1,,0.3,497,4,501
+novel,00950a36_13,extractive_query_aware_adaptive_novel_w1_pilot,True,Shah Amurath's savage/madman.,1,,0.5,411,12,423
+novel,00950a36_15,extractive_query_aware_adaptive_novel_w1_pilot,True,Conan.,1,,0.3,280,4,284
+novel,3e966645_1,extractive_query_aware_adaptive_novel_w1_pilot,False,Paumotus,1,,0.2,359,5,364
+novel,3e966645_2,extractive_query_aware_adaptive_novel_w1_pilot,False,Mr. Clavering.,1,,0.4,320,7,327
+novel,3e966645_5,extractive_query_aware_adaptive_novel_w1_pilot,False,Consumption.,1,,0.2,449,4,453
+novel,3e966645_4,extractive_query_aware_adaptive_novel_w1_pilot,False,Coffee.,1,,0.2,248,3,251
+novel,3e966645_7,extractive_query_aware_adaptive_novel_w1_pilot,False,Brown.,1,,0.2,275,3,278
+novel,3e966645_8,extractive_query_aware_adaptive_novel_w1_pilot,False,Government pier.,1,,0.5,326,4,330
+novel,3e966645_10,extractive_query_aware_adaptive_novel_w1_pilot,False,pestilence,1,,0.2,338,4,342
+novel,3e966645_6,extractive_query_aware_adaptive_novel_w1_pilot,False,Shah Amurath,1,,0.2,250,6,256
+novel,3e966645_9,extractive_query_aware_adaptive_novel_w1_pilot,True,Tahiti (implied to be part of French Polynesia),1,,0.3,378,16,394
+novel,3e966645_11,extractive_query_aware_adaptive_novel_w1_pilot,False,Peru.,1,,0.2,406,4,410
+novel,3e966645_16,extractive_query_aware_adaptive_novel_w1_pilot,True,California champagne.,1,,0.3,155,4,159
+novel,3e966645_12,extractive_query_aware_adaptive_novel_w1_pilot,False,There is no mention of officers being killed.,1,,0.2,191,10,201
+novel,3e966645_17,extractive_query_aware_adaptive_novel_w1_pilot,False,No information given.,1,,0.3,176,5,181
+novel,3e966645_19,extractive_query_aware_adaptive_novel_w1_pilot,False,The Yankee skipper.,1,,0.2,399,6,405
+novel,3e966645_20,extractive_query_aware_adaptive_novel_w1_pilot,True,California champagne.,1,,0.2,196,4,200
+novel,3e966645_21,extractive_query_aware_adaptive_novel_w1_pilot,False,No one is mentioned.,1,,0.2,197,6,203
+novel,3e966645_22,extractive_query_aware_adaptive_novel_w1_pilot,False,Papeete.,1,,0.2,248,5,253
+novel,3e966645_23,extractive_query_aware_adaptive_novel_w1_pilot,False,No information.,1,,0.2,258,4,262
+novel,6a659de3_2,extractive_query_aware_adaptive_novel_w1_pilot,False,Nomes.,1,,0.3,189,4,193
+novel,6a659de3_4,extractive_query_aware_adaptive_novel_w1_pilot,False,Kallikrates.,1,,0.2,280,6,286
+novel,6a659de3_3,extractive_query_aware_adaptive_novel_w1_pilot,False,"The Princess, Glinda, and the Wizard.",1,,0.3,225,11,236
+novel,6a659de3_5,extractive_query_aware_adaptive_novel_w1_pilot,False,The narrator.,1,,47.3,297,4,301
+novel,6a659de3_7,extractive_query_aware_adaptive_novel_w1_pilot,False,Athens.,1,,46.3,225,4,229
+novel,6a659de3_8,extractive_query_aware_adaptive_novel_w1_pilot,False,The narrator.,1,,47.2,245,4,249
+novel,6a659de3_6,extractive_query_aware_adaptive_novel_w1_pilot,False,A white woman of peculiar loveliness.,1,,47.7,218,10,228
+novel,6a659de3_11,extractive_query_aware_adaptive_novel_w1_pilot,False,The narrator.,1,,0.2,375,4,379
+novel,6a659de3_12,extractive_query_aware_adaptive_novel_w1_pilot,False,The narrator.,1,,0.3,442,4,446
+novel,6a659de3_17,extractive_query_aware_adaptive_novel_w1_pilot,False,No one.,1,,0.2,319,4,323
+novel,6a659de3_14,extractive_query_aware_adaptive_novel_w1_pilot,False,Mr. Clavering.,1,,0.2,254,7,261
+novel,9561a72a_0,extractive_query_aware_adaptive_novel_w1_pilot,True,Aunt Em and Uncle Henry.,1,,0.3,331,8,339
+novel,9561a72a_1,extractive_query_aware_adaptive_novel_w1_pilot,False,Ozma.,1,,0.3,520,5,525
+novel,9561a72a_3,extractive_query_aware_adaptive_novel_w1_pilot,False,Lesser Hill.,1,,0.2,292,5,297
+novel,9561a72a_7,extractive_query_aware_adaptive_novel_w1_pilot,False,Under the mountains of the Land of Ev.,1,,0.2,186,10,196
+novel,9561a72a_5,extractive_query_aware_adaptive_novel_w1_pilot,True,Aunt Em and Uncle Henry.,1,,0.2,418,8,426
+novel,9561a72a_9,extractive_query_aware_adaptive_novel_w1_pilot,True,Aunt Em and Uncle Henry.,1,,0.5,511,8,519
+novel,9561a72a_10,extractive_query_aware_adaptive_novel_w1_pilot,True,The Magic Belt.,1,,0.2,279,5,284
+novel,9561a72a_11,extractive_query_aware_adaptive_novel_w1_pilot,True,Roquat the Red.,1,,0.4,381,6,387
+novel,9561a72a_12,extractive_query_aware_adaptive_novel_w1_pilot,False,Kaliko.,1,,0.3,320,4,324
+novel,bf55d1c1_0,extractive_query_aware_adaptive_novel_w1_pilot,False,No purchase is mentioned.,1,,0.2,222,6,228
+novel,bf55d1c1_1,extractive_query_aware_adaptive_novel_w1_pilot,False,No information.,1,,0.2,237,4,241
+novel,bf55d1c1_2,extractive_query_aware_adaptive_novel_w1_pilot,True,Adam.,1,,0.2,273,3,276
+novel,bf55d1c1_3,extractive_query_aware_adaptive_novel_w1_pilot,False,No information is given about Richard and Nathaniel.,1,,0.2,198,11,209
+novel,bf55d1c1_4,extractive_query_aware_adaptive_novel_w1_pilot,False,Not specified.,1,,0.3,383,4,387
+novel,bf55d1c1_5,extractive_query_aware_adaptive_novel_w1_pilot,False,Charon.,1,,0.4,261,4,265
+novel,bf55d1c1_9,extractive_query_aware_adaptive_novel_w1_pilot,False,"May 1, 18--",1,,0.2,268,8,276
+novel,bf55d1c1_6,extractive_query_aware_adaptive_novel_w1_pilot,False,None.,1,,0.2,283,3,286
+novel,bf55d1c1_10,extractive_query_aware_adaptive_novel_w1_pilot,False,No one mentioned.,1,,0.3,238,5,243
+novel,bf55d1c1_11,extractive_query_aware_adaptive_novel_w1_pilot,False,No one.,1,,0.2,196,4,200
+novel,ca4b98f5_1,extractive_query_aware_adaptive_novel_w1_pilot,False,Not mentioned.,1,,0.2,260,4,264
+novel,bf55d1c1_12,extractive_query_aware_adaptive_novel_w1_pilot,False,There is no information about Adam Salton's original location.,1,,0.3,198,13,211
+novel,ca4b98f5_0,extractive_query_aware_adaptive_novel_w1_pilot,False,The Nome King Became Angry.,1,,0.3,159,7,166
+novel,ca4b98f5_4,extractive_query_aware_adaptive_novel_w1_pilot,True,Harry Clavering,1,,44.8,226,5,231
+novel,ca4b98f5_3,extractive_query_aware_adaptive_novel_w1_pilot,False,The great house.,1,,45.1,238,5,243
+novel,ca4b98f5_2,extractive_query_aware_adaptive_novel_w1_pilot,True,Messrs. Beilby and Burton.,1,,44.7,179,10,189
+novel,ca4b98f5_6,extractive_query_aware_adaptive_novel_w1_pilot,False,I couldn't find that information.,1,,44.7,139,8,147
+novel,ca4b98f5_10,extractive_query_aware_adaptive_novel_w1_pilot,False,There is no information about Harry's fiancée in the passage.,1,,0.4,270,15,285
+novel,ca4b98f5_12,extractive_query_aware_adaptive_novel_w1_pilot,False,Mr. Burton,1,,0.2,227,4,231
+novel,ca4b98f5_8,extractive_query_aware_adaptive_novel_w1_pilot,False,No one.,1,,0.3,151,4,155
+novel,ca4b98f5_11,extractive_query_aware_adaptive_novel_w1_pilot,False,Lord Ongar.,1,,0.3,811,6,817
+novel,ca4b98f5_15,extractive_query_aware_adaptive_novel_w1_pilot,False,Fanny,1,,0.2,179,3,182
+novel,ca4b98f5_13,extractive_query_aware_adaptive_novel_w1_pilot,False,Lady Clavering.,1,,0.5,413,6,419
+novel,ca4b98f5_14,extractive_query_aware_adaptive_novel_w1_pilot,True,The church.,1,,0.6,324,4,328
+novel,ca4b98f5_16,extractive_query_aware_adaptive_novel_w1_pilot,False,She.,1,,0.8,148,3,151
+novel,ca4b98f5_18,extractive_query_aware_adaptive_novel_w1_pilot,False,No one.,1,,1.0,277,4,281
+novel,ca4b98f5_17,extractive_query_aware_adaptive_novel_w1_pilot,False,The speaker.,1,,0.3,276,4,280

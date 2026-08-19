@@ -1,0 +1,11 @@
+genre,question_id,condition,correct,prediction,api_calls,rounds_used,escalated,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
+novel,00950a36_5,iterative_rag_mir_v2_pilot,False,She.,2,0,False,0.5,1013,9,1022
+novel,00950a36_2,iterative_rag_mir_v2_pilot,False,Vilayet,2,0,False,0.8,3545,10,3555
+novel,00950a36_0,iterative_rag_mir_v2_pilot,True,Shah Amurath.,2,0,False,0.8,3892,13,3905
+novel,00950a36_6,iterative_rag_mir_v2_pilot,False,"There is no mention of ""Queen of the Blue Sea"".",2,0,False,0.7,1042,46,1088
+novel,00950a36_1,iterative_rag_mir_v2_pilot,True,Olivia.,4,1,True,1.9,6397,46,6443
+caselaw,3,iterative_rag_mir_v2_pilot,True,5,5,2,True,56.2,69361,67,69428
+caselaw,5,iterative_rag_mir_v2_pilot,False,5,5,2,True,57.4,73172,62,73234
+caselaw,1,iterative_rag_mir_v2_pilot,False,4,5,2,True,59.2,70060,73,70133
+caselaw,7,iterative_rag_mir_v2_pilot,False,5,5,2,True,58.0,52649,68,52717
+caselaw,9,iterative_rag_mir_v2_pilot,True,5,5,2,True,5.4,58051,77,58128

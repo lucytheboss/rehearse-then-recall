@@ -59,3 +59,87 @@ caselaw,19,gist_threaded_nucleus,False,5,1,,0.9,8200,2,8202
 caselaw,27,gist_threaded_nucleus,True,2,1,,0.7,8181,2,8183
 caselaw,25,gist_threaded_nucleus,False,2,1,,1.3,8147,2,8149
 caselaw,29,gist_threaded_nucleus,False,2,1,,35.0,8253,2,8255
+wiki,19,gist_threaded_nucleus,False,No information.,1,,42.1,1918,4,1922
+wiki,17,gist_threaded_nucleus,False,1799,1,,42.2,1925,3,1928
+wiki,18,gist_threaded_nucleus,True,1825,1,,42.5,1800,3,1803
+wiki,16,gist_threaded_nucleus,True,Philadelphia.,1,,42.5,3019,3,3022
+wiki,23,gist_threaded_nucleus,True,Abstract expressionism.,1,,0.5,2588,5,2593
+wiki,22,gist_threaded_nucleus,False,Metropolitan area.,1,,0.8,2549,5,2554
+wiki,20,gist_threaded_nucleus,True,1898.,1,,1.3,2566,4,2570
+wiki,21,gist_threaded_nucleus,False,No information is provided about the Triangle Shirtwaist Factory fire.,1,,1.3,1660,14,1674
+wiki,24,gist_threaded_nucleus,True,American Airlines Flight 11.,1,,0.3,1778,7,1785
+wiki,25,gist_threaded_nucleus,True,American Airlines Flight 11.,1,,0.6,1753,7,1760
+wiki,27,gist_threaded_nucleus,False,"Manhattan, Staten, and Long.",1,,0.4,2408,9,2417
+wiki,26,gist_threaded_nucleus,True,Donald Trump.,1,,0.7,2498,4,2502
+wiki,28,gist_threaded_nucleus,False,East River.,1,,0.8,1795,4,1799
+wiki,29,gist_threaded_nucleus,False,Approximately 22%,1,,0.5,2008,6,2014
+wiki,30,gist_threaded_nucleus,True,1656,1,,0.2,1503,3,1506
+news,17,gist_threaded_nucleus,False,Restore democracy in Pakistan.,1,,0.4,6386,6,6392
+news,19,gist_threaded_nucleus,True,Julio Cruz.,1,,0.5,6816,5,6821
+news,18,gist_threaded_nucleus,False,Yes.,1,,0.4,6568,3,6571
+news,16,gist_threaded_nucleus,False,"Various leaders mentioned:
+
+1. Bouteflika
+2. Uribe
+3. Chavez
+4. Rehman
+5. Prachanda
+6. Daschle
+7. Pelosi
+8. Brown
+9. Evans
+10. Patil
+11. Singh
+12. Cameron
+13. Putin
+14. Mottaki
+15. Al-Rabeeah
+16. Al-Shalan
+17. Abramovich
+18. Beckham
+19. Capello
+20. Kim Jong Il
+21. Kim Jong Nam
+22. Kim Jong Un
+23. Jang Song Thaek",1,,0.9,6653,127,6780
+news,20,gist_threaded_nucleus,False,Mauro Camoranesi,1,,0.7,6616,7,6623
+news,21,gist_threaded_nucleus,False,"Cape Town, South Africa.",1,,0.8,6386,8,6394
+news,22,gist_threaded_nucleus,True,l'Hydroptere,1,,0.7,5509,7,5516
+news,23,gist_threaded_nucleus,True,France.,1,,0.7,5781,3,5784
+news,24,gist_threaded_nucleus,True,Second degree aggravated battery.,1,,0.5,6664,6,6670
+news,25,gist_threaded_nucleus,True,Jena 6.,1,,3.8,5536,6,5542
+news,26,gist_threaded_nucleus,False,Withdrew support.,1,,2.7,7430,6,7436
+news,28,gist_threaded_nucleus,False,7.8 million euros.,1,,2.8,7088,7,7095
+news,27,gist_threaded_nucleus,False,No answer found in the passage.,1,,3.5,6217,8,6225
+news,29,gist_threaded_nucleus,False,AC Milan,1,,4.6,6416,3,6419
+news,30,gist_threaded_nucleus,False,"The Hague, Netherlands.",1,,4.6,6230,6,6236
+novel,3e966645_6,gist_threaded_nucleus,False,Shah Amurath.,1,,42.7,7082,7,7089
+novel,3e966645_5,gist_threaded_nucleus,True,Smallpox.,1,,42.6,5782,5,5787
+novel,3e966645_4,gist_threaded_nucleus,True,Champagne.,1,,42.8,5496,5,5501
+novel,3e966645_2,gist_threaded_nucleus,False,Mr. Saul.,1,,43.1,7456,5,7461
+novel,3e966645_7,gist_threaded_nucleus,False,Capirati.,1,,1.1,10771,5,10776
+novel,3e966645_9,gist_threaded_nucleus,True,Tahiti.,1,,1.0,4949,5,4954
+novel,3e966645_10,gist_threaded_nucleus,True,Champagne.,1,,1.0,5902,5,5907
+novel,3e966645_8,gist_threaded_nucleus,True,Papeete.,1,,1.2,8982,5,8987
+novel,3e966645_11,gist_threaded_nucleus,True,Sydney.,1,,1.0,6964,4,6968
+novel,3e966645_16,gist_threaded_nucleus,True,Champagne.,1,,2.5,7506,5,7511
+novel,3e966645_17,gist_threaded_nucleus,False,Sydney.,1,,2.9,8812,4,8816
+novel,3e966645_12,gist_threaded_nucleus,True,Smallpox.,1,,3.1,6469,5,6474
+novel,3e966645_20,gist_threaded_nucleus,True,California champagne.,1,,0.8,5660,4,5664
+novel,3e966645_21,gist_threaded_nucleus,False,Herrick.,1,,0.9,10479,4,10483
+novel,3e966645_19,gist_threaded_nucleus,False,Robert Herrick.,1,,1.1,6130,5,6135
+caselaw,33,gist_threaded_nucleus,False,2,1,,0.8,8198,2,8200
+caselaw,31,gist_threaded_nucleus,False,2,1,,0.8,8208,2,8210
+caselaw,37,gist_threaded_nucleus,False,2,1,,0.8,8162,3,8165
+caselaw,35,gist_threaded_nucleus,True,2,1,,0.8,8264,2,8266
+caselaw,39,gist_threaded_nucleus,False,2,1,,1.3,8165,2,8167
+caselaw,41,gist_threaded_nucleus,False,3,1,,1.3,8169,2,8171
+caselaw,43,gist_threaded_nucleus,False,5,1,,1.3,8220,2,8222
+caselaw,45,gist_threaded_nucleus,False,2,1,,1.5,8206,2,8208
+caselaw,51,gist_threaded_nucleus,True,5,1,,0.8,8188,2,8190
+caselaw,47,gist_threaded_nucleus,True,3,1,,1.1,8197,2,8199
+caselaw,53,gist_threaded_nucleus,False,2,1,,1.0,8186,2,8188
+caselaw,49,gist_threaded_nucleus,True,5,1,,1.3,8192,2,8194
+caselaw,55,gist_threaded_nucleus,True,2,1,,0.8,8258,3,8261
+caselaw,59,gist_threaded_nucleus,False,5,1,,1.3,8270,2,8272
+caselaw,57,gist_threaded_nucleus,False,4,1,,1.3,8239,2,8241
