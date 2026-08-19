@@ -1,7 +1,10 @@
 # Fit Over Depth: Transfer-Appropriate Compression for Long-Context LLM QA
-### (Analysis Report — repo: `rehearse-then-recall`)
+### (Analysis Report — repo: `fit-over-depth`, formerly `rehearse-then-recall`)
 
-_Last updated: 2026-08-17. Structured around a two-layer framing — Layer 1
+_Last updated: 2026-08-19 — short paper, presentation deck, and speaker
+script all finalized (4 figures, 5 tables); repo renamed
+`rehearse-then-recall` → `fit-over-depth` to match. Structured around a
+two-layer framing — Layer 1
 (§6): why rewriting-based rehearsal collapses regardless of model scale;
 Layer 2 (§7): why, among strategies that don't rewrite, the winner depends
 on fit (Transfer-Appropriate Processing) rather than depth. §7.6 proposes
@@ -825,6 +828,14 @@ at `06b`'s full 336-document scale — treat n=25 as the current best
 estimate, not final. Deprioritized behind the Layer 1/2 investigation.
 
 ## 12. Paper status
+
+**Status (2026-08-19): final.** Short paper (KR/EN), presentation deck
+(`Fit_Over_Depth_v2.pptx`, 29 slides), and speaker script are all locked —
+submitted to CUAI 9th Summer Conference. Final paper structure: 4 figures,
+5 tables, §-references rewritten to match the official template's actual
+sections ("본론 N" / "서론" / "결론" rather than the draft's old 6-chapter
+numbering). Repo renamed `rehearse-then-recall` → `fit-over-depth` to match
+the final title.
 
 **Title**: *"Fit Over Depth: Transfer-Appropriate Compression for
 Long-Context LLM QA"* — retires "Rehearse, Then Recall" (centers the

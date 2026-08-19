@@ -1,580 +1,582 @@
 genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
-wiki,4,maintenance_threaded_nomerge,False,Wisconsinan glaciation.,1,,52.1,289,7,296
-wiki,2,maintenance_threaded_nomerge,True,"8,491,079",1,,52.5,4212,6,4218
-wiki,3,maintenance_threaded_nomerge,False,No specific date is mentioned.,1,,52.7,1805,7,1812
+wiki,4,maintenance_threaded_nomerge,False,Wisconsinan glaciation.,1,,0.2,289,7,296
+wiki,1,maintenance_threaded_nomerge,True,1898,1,,0.3,1955,3,1958
+wiki,3,maintenance_threaded_nomerge,False,1785,1,,0.3,1805,3,1808
+wiki,2,maintenance_threaded_nomerge,True,"8,491,079",1,,0.5,4212,6,4218
+wiki,6,maintenance_threaded_nomerge,True,Portuguese,1,,0.5,981,4,985
 wiki,5,maintenance_threaded_nomerge,True,France.,1,,0.3,980,3,983
-wiki,6,maintenance_threaded_nomerge,True,Portuguese,1,,0.4,981,4,985
-wiki,7,maintenance_threaded_nomerge,True,The Dutch East India Company.,1,,0.3,976,7,983
-wiki,8,maintenance_threaded_nomerge,True,Jan Rodrigues.,1,,0.3,977,5,982
-wiki,9,maintenance_threaded_nomerge,True,1625,1,,0.3,1131,3,1134
-wiki,11,maintenance_threaded_nomerge,True,New Orange,1,,0.2,1445,3,1448
-wiki,10,maintenance_threaded_nomerge,True,Peter Stuyvesant.,1,,0.3,1443,7,1450
-wiki,13,maintenance_threaded_nomerge,True,1735,1,,0.2,578,3,581
-wiki,12,maintenance_threaded_nomerge,False,There is no information about England gaining New York in exchange for an Indonesian island.,1,,0.3,1815,17,1832
-wiki,14,maintenance_threaded_nomerge,True,August 1776.,1,,0.2,581,6,587
-wiki,1,maintenance_threaded_nomerge,True,1898,1,,56.0,1955,3,1958
-wiki,15,maintenance_threaded_nomerge,True,The Great Fire of New York.,1,,0.4,889,8,897
-news,4,maintenance_threaded_nomerge,False,Yes.,1,,0.2,283,3,286
-news,3,maintenance_threaded_nomerge,False,Michio Kanda.,1,,0.2,288,6,294
-news,2,maintenance_threaded_nomerge,False,"Australian soldier, civilians, and Taliban militants.",1,,0.2,1226,10,1236
-news,5,maintenance_threaded_nomerge,False,AC Milan.,1,,0.2,291,4,295
-news,6,maintenance_threaded_nomerge,True,Third.,1,,0.2,289,3,292
-news,7,maintenance_threaded_nomerge,True,Heineken's local unit.,1,,0.3,284,8,292
-news,8,maintenance_threaded_nomerge,True,Gulder Ultimate Search.,1,,0.2,281,7,288
-news,9,maintenance_threaded_nomerge,False,Routine colonoscopy.,1,,0.3,915,6,921
-news,10,maintenance_threaded_nomerge,True,June 2002.,1,,0.3,908,6,914
-news,1,maintenance_threaded_nomerge,False,"Civilians, 2 women and a child, 4 Australian troops, 2 U.S. service members, 43 civilians in Pakistan, 14 people in Algeria, 2 bus riders, 1 pickup driver, 40 people in Arkansas, 26 people in Phoenix, 10 critically injured in Louisiana, 15 people in Louisiana minivan, 700 people in London.",1,,2.9,1594,80,1674
-news,12,maintenance_threaded_nomerge,False,No one.,1,,0.2,467,4,471
-news,11,maintenance_threaded_nomerge,False,Afghanistan.,1,,0.2,2179,5,2184
-news,13,maintenance_threaded_nomerge,False,"July 7, 2005.",1,,0.5,262,9,271
-news,14,maintenance_threaded_nomerge,True,Three Chinese nationals.,1,,0.3,374,5,379
-news,15,maintenance_threaded_nomerge,True,Assistant Attorney General Alice Fisher.,1,,51.3,383,7,390
-novel,00950a36_5,maintenance_threaded_nomerge,False,Conan.,1,,0.4,2275,4,2279
-novel,00950a36_1,maintenance_threaded_nomerge,True,Olivia.,1,,0.3,533,4,537
-novel,00950a36_0,maintenance_threaded_nomerge,False,_his_,1,,0.4,1706,4,1710
-novel,00950a36_2,maintenance_threaded_nomerge,True,Akif,1,,0.4,2153,3,2156
-novel,00950a36_7,maintenance_threaded_nomerge,False,Harry Clavering.,1,,0.3,1707,6,1713
-novel,00950a36_6,maintenance_threaded_nomerge,False,"There is no information about someone being made ""Queen of the Blue Sea"".",1,,0.3,564,16,580
-novel,00950a36_8,maintenance_threaded_nomerge,True,Olivia.,1,,0.2,529,4,533
-novel,00950a36_9,maintenance_threaded_nomerge,True,Akif.,1,,0.2,1698,4,1702
-novel,00950a36_11,maintenance_threaded_nomerge,False,No one.,1,,0.2,877,4,881
-novel,00950a36_10,maintenance_threaded_nomerge,True,Conan.,1,,0.2,2571,4,2575
-novel,00950a36_13,maintenance_threaded_nomerge,False,Akif.,1,,0.3,1699,4,1703
-novel,00950a36_12,maintenance_threaded_nomerge,True,Akif.,1,,0.5,2949,4,2953
-novel,00950a36_14,maintenance_threaded_nomerge,False,A rock.,1,,0.4,916,4,920
-novel,00950a36_15,maintenance_threaded_nomerge,False,Sergius.,1,,0.5,880,5,885
-novel,3e966645_1,maintenance_threaded_nomerge,False,Sydney.,1,,0.4,1392,4,1396
-caselaw,7,maintenance_threaded_nomerge,False,5,1,,0.2,2235,2,2237
-caselaw,3,maintenance_threaded_nomerge,True,5,1,,0.3,2221,2,2223
-caselaw,5,maintenance_threaded_nomerge,False,2,1,,0.2,2385,2,2387
-caselaw,1,maintenance_threaded_nomerge,False,5,1,,0.3,2297,2,2299
-caselaw,9,maintenance_threaded_nomerge,True,5,1,,0.7,2276,2,2278
-caselaw,11,maintenance_threaded_nomerge,True,5,1,,0.3,2267,2,2269
-caselaw,13,maintenance_threaded_nomerge,False,5,1,,0.3,2302,2,2304
-caselaw,17,maintenance_threaded_nomerge,False,4,1,,0.5,2323,2,2325
-caselaw,21,maintenance_threaded_nomerge,False,5,1,,0.2,2235,2,2237
-caselaw,15,maintenance_threaded_nomerge,False,5,1,,1.2,2208,2,2210
-caselaw,19,maintenance_threaded_nomerge,False,5,1,,1.4,2272,2,2274
-caselaw,27,maintenance_threaded_nomerge,True,2,1,,0.2,2253,2,2255
-caselaw,25,maintenance_threaded_nomerge,False,5,1,,0.5,2219,2,2221
-caselaw,23,maintenance_threaded_nomerge,False,2,1,,1.3,2340,2,2342
-caselaw,29,maintenance_threaded_nomerge,False,4,1,,51.7,2325,2,2327
-wiki,19,maintenance_threaded_nomerge,True,25%,1,,0.2,1469,3,1472
+wiki,7,maintenance_threaded_nomerge,True,The Dutch East India Company.,1,,0.4,976,7,983
+wiki,8,maintenance_threaded_nomerge,True,Jan Rodrigues.,1,,0.5,977,5,982
+wiki,9,maintenance_threaded_nomerge,True,1625,1,,0.2,1131,3,1134
+wiki,10,maintenance_threaded_nomerge,True,Peter Stuyvesant.,1,,0.4,1443,7,1450
+wiki,13,maintenance_threaded_nomerge,True,1735,1,,0.3,578,3,581
+wiki,11,maintenance_threaded_nomerge,True,New Orange,1,,0.4,1445,3,1448
+wiki,12,maintenance_threaded_nomerge,False,No information.,1,,0.6,1815,4,1819
 wiki,16,maintenance_threaded_nomerge,True,Philadelphia.,1,,0.3,3019,3,3022
-wiki,17,maintenance_threaded_nomerge,True,1827,1,,0.4,4542,3,4545
-wiki,18,maintenance_threaded_nomerge,True,1825,1,,0.4,1185,3,1188
-wiki,20,maintenance_threaded_nomerge,True,1898,1,,0.8,1810,3,1813
-wiki,21,maintenance_threaded_nomerge,False,There is no information about the Triangle Shirtwaist Factory fire in the passage.,1,,0.7,419,17,436
-wiki,23,maintenance_threaded_nomerge,True,Abstract expressionism.,1,,0.5,562,5,567
-wiki,25,maintenance_threaded_nomerge,True,American Airlines Flight 11 and United Airlines Flight 175.,1,,0.7,419,13,432
-wiki,26,maintenance_threaded_nomerge,False,No information.,1,,0.7,2155,4,2159
-wiki,22,maintenance_threaded_nomerge,True,Megacity.,1,,2.0,2448,4,2452
-wiki,24,maintenance_threaded_nomerge,True,American Airlines Flight 11.,1,,2.4,432,7,439
-wiki,29,maintenance_threaded_nomerge,True,164.1,1,,0.4,1753,4,1757
-wiki,28,maintenance_threaded_nomerge,False,Harlem River.,1,,0.6,950,5,955
-wiki,27,maintenance_threaded_nomerge,False,"Long Island, Staten Island, and Manhattan.",1,,1.5,3122,10,3132
-wiki,30,maintenance_threaded_nomerge,True,1656,1,,0.7,1152,3,1155
-wiki,32,maintenance_threaded_nomerge,True,Eagles.,1,,0.4,314,5,319
-wiki,33,maintenance_threaded_nomerge,False,Setbacks.,1,,1.1,323,4,327
-wiki,34,maintenance_threaded_nomerge,True,humid continental climate,1,,1.2,782,5,787
-wiki,31,maintenance_threaded_nomerge,True,550,1,,2.3,1147,2,1149
-wiki,35,maintenance_threaded_nomerge,True,"July 9, 1936.",1,,1.2,2543,9,2552
-wiki,36,maintenance_threaded_nomerge,True,49.9 inches.,1,,0.7,777,6,783
-wiki,39,maintenance_threaded_nomerge,True,Grant's Tomb.,1,,48.3,482,5,487
-wiki,38,maintenance_threaded_nomerge,False,"26,000",1,,49.0,1314,4,1318
-wiki,40,maintenance_threaded_nomerge,True,"1,093",1,,48.8,1313,4,1317
-wiki,37,maintenance_threaded_nomerge,True,Minneapolis.,1,,49.7,1181,4,1185
-wiki,42,maintenance_threaded_nomerge,True,40%,1,,0.9,7215,3,7218
-wiki,41,maintenance_threaded_nomerge,True,1179th Transportation Brigade.,1,,0.8,264,7,271
-wiki,44,maintenance_threaded_nomerge,True,12 million.,1,,0.6,3716,4,3720
-wiki,43,maintenance_threaded_nomerge,False,Central Asian.,1,,0.8,1137,4,1141
-wiki,45,maintenance_threaded_nomerge,False,0.7%,1,,0.4,1446,5,1451
-wiki,47,maintenance_threaded_nomerge,False,Jamaica,1,,0.9,3469,4,3473
-wiki,46,maintenance_threaded_nomerge,True,"65,000.",1,,1.0,2999,5,3004
-wiki,49,maintenance_threaded_nomerge,True,Judaism.,1,,0.8,9514,5,9519
-wiki,48,maintenance_threaded_nomerge,True,"568,903.",1,,1.0,6904,5,6909
-wiki,50,maintenance_threaded_nomerge,True,"$2,749",1,,0.6,5322,5,5327
-wiki,51,maintenance_threaded_nomerge,True,"$15,887",1,,0.4,3209,5,3214
-wiki,52,maintenance_threaded_nomerge,False,No information.,1,,0.3,930,4,934
-wiki,53,maintenance_threaded_nomerge,False,New York-style pizza.,1,,1.0,3188,6,3194
-wiki,55,maintenance_threaded_nomerge,True,500 million square feet.,1,,1.0,1880,6,1886
-wiki,56,maintenance_threaded_nomerge,True,Roosevelt Island.,1,,1.0,554,6,560
-wiki,54,maintenance_threaded_nomerge,True,$40 billion,1,,1.5,855,4,859
-wiki,58,maintenance_threaded_nomerge,False,I ❤ NY song.,1,,0.8,553,6,559
-wiki,57,maintenance_threaded_nomerge,True,56.4 million.,1,,1.3,560,6,566
+wiki,14,maintenance_threaded_nomerge,True,August 1776.,1,,0.5,581,6,587
+wiki,17,maintenance_threaded_nomerge,True,1827,1,,0.3,4542,3,4545
+wiki,19,maintenance_threaded_nomerge,True,25%,1,,0.2,1469,3,1472
+wiki,15,maintenance_threaded_nomerge,True,The Great Fire of New York.,1,,0.3,889,8,897
+wiki,18,maintenance_threaded_nomerge,True,1825,1,,0.6,1185,3,1188
+wiki,20,maintenance_threaded_nomerge,True,1898,1,,0.3,1810,3,1813
+wiki,22,maintenance_threaded_nomerge,False,Metropolitan area.,1,,0.8,2448,5,2453
+wiki,24,maintenance_threaded_nomerge,True,American Airlines Flight 11.,1,,0.6,432,7,439
+wiki,23,maintenance_threaded_nomerge,True,Abstract expressionism.,1,,0.6,562,5,567
+wiki,25,maintenance_threaded_nomerge,True,American Airlines Flight 11.,1,,0.4,419,7,426
+wiki,27,maintenance_threaded_nomerge,False,"Long Island, Staten Island, and Manhattan.",1,,0.3,3122,10,3132
+wiki,26,maintenance_threaded_nomerge,False,No information.,1,,0.5,2155,4,2159
+wiki,21,maintenance_threaded_nomerge,False,"(I don't have information about the Triangle Shirtwaist Factory fire in the passage. However, I can tell you that the passage does not mention the Triangle Shirtwaist Factory fire at all.)
+
+If you would like to ask a different question, I can try to answer it based on the passage.",1,,2.6,419,61,480
+wiki,28,maintenance_threaded_nomerge,False,Harlem River.,1,,0.5,950,5,955
+wiki,29,maintenance_threaded_nomerge,True,164.1,1,,0.3,1753,4,1757
+wiki,32,maintenance_threaded_nomerge,True,Eagles.,1,,0.5,314,5,319
+wiki,31,maintenance_threaded_nomerge,True,550,1,,52.3,1147,2,1149
+wiki,30,maintenance_threaded_nomerge,True,1656,1,,52.3,1152,3,1155
+wiki,34,maintenance_threaded_nomerge,True,humid continental,1,,51.6,782,4,786
+wiki,33,maintenance_threaded_nomerge,False,Setbacks.,1,,52.1,323,4,327
+wiki,36,maintenance_threaded_nomerge,True,49.9 inches.,1,,0.2,777,6,783
+wiki,38,maintenance_threaded_nomerge,False,"26,000",1,,0.3,1314,4,1318
+wiki,37,maintenance_threaded_nomerge,True,Minneapolis.,1,,0.3,1181,4,1185
+wiki,35,maintenance_threaded_nomerge,True,"July 9, 1936.",1,,0.3,2543,9,2552
+wiki,41,maintenance_threaded_nomerge,True,1179th Transportation Brigade.,1,,1.0,264,7,271
+wiki,42,maintenance_threaded_nomerge,True,40%,1,,1.0,7215,3,7218
+wiki,39,maintenance_threaded_nomerge,True,Grant's Tomb.,1,,1.1,482,5,487
+wiki,44,maintenance_threaded_nomerge,True,12 million.,1,,0.4,3716,4,3720
+wiki,43,maintenance_threaded_nomerge,False,Central Asian.,1,,0.4,1137,4,1141
+wiki,45,maintenance_threaded_nomerge,False,0.5%,1,,0.8,1446,5,1451
+wiki,46,maintenance_threaded_nomerge,True,"65,000.",1,,0.3,2999,5,3004
+wiki,47,maintenance_threaded_nomerge,False,Jamaica,1,,0.7,3469,4,3473
+wiki,40,maintenance_threaded_nomerge,True,"1,093",1,,3.9,1313,4,1317
+wiki,48,maintenance_threaded_nomerge,True,"568,903.",1,,0.5,6904,5,6909
+wiki,50,maintenance_threaded_nomerge,True,"$2,749",1,,0.5,5322,5,5327
+wiki,51,maintenance_threaded_nomerge,True,"$15,887/m²",1,,0.8,3209,7,3216
+wiki,49,maintenance_threaded_nomerge,True,Judaism.,1,,1.2,9514,5,9519
+wiki,52,maintenance_threaded_nomerge,False,No information.,1,,0.6,930,4,934
+wiki,54,maintenance_threaded_nomerge,True,$40 billion,1,,0.2,855,4,859
+wiki,55,maintenance_threaded_nomerge,True,500 million square feet.,1,,0.2,1880,6,1886
+wiki,53,maintenance_threaded_nomerge,False,New York-style pizza.,1,,0.8,3188,6,3194
+wiki,56,maintenance_threaded_nomerge,True,Roosevelt Island.,1,,0.5,554,6,560
+wiki,58,maintenance_threaded_nomerge,False,I ❤ NY,1,,0.3,553,4,557
+wiki,57,maintenance_threaded_nomerge,True,56.4 million.,1,,0.3,560,6,566
 wiki,60,maintenance_threaded_nomerge,True,Anbang Insurance Group.,1,,0.5,1001,6,1007
-wiki,61,maintenance_threaded_nomerge,True,"25,000.",1,,0.7,492,5,497
-wiki,62,maintenance_threaded_nomerge,True,The Wall Street Journal and The New York Times.,1,,1.0,491,11,502
-wiki,59,maintenance_threaded_nomerge,False,No information is provided about Central Park performances.,1,,3.0,2650,10,2660
-wiki,63,maintenance_threaded_nomerge,False,No information provided.,1,,1.4,1324,5,1329
-wiki,65,maintenance_threaded_nomerge,False,None.,1,,0.7,2796,3,2799
-wiki,66,maintenance_threaded_nomerge,False,No information provided.,1,,0.3,454,5,459
-wiki,67,maintenance_threaded_nomerge,False,No information is provided.,1,,48.7,454,6,460
-wiki,68,maintenance_threaded_nomerge,True,"Ramanathan Raju, MD.",1,,48.9,451,9,460
-wiki,64,maintenance_threaded_nomerge,False,There is no information about a public radio station.,1,,50.9,457,11,468
-wiki,69,maintenance_threaded_nomerge,True,"Over 35,000.",1,,48.7,453,7,460
-wiki,70,maintenance_threaded_nomerge,False,No information.,1,,0.6,1424,4,1428
-wiki,71,maintenance_threaded_nomerge,False,Tokyo Fire Department.,1,,0.4,456,6,462
-wiki,72,maintenance_threaded_nomerge,False,New York City Subway,1,,0.9,3986,5,3991
-wiki,73,maintenance_threaded_nomerge,True,11 Metrotech Center.,1,,0.9,1300,7,1307
-wiki,75,maintenance_threaded_nomerge,False,Hundreds.,1,,0.6,627,3,630
-wiki,76,maintenance_threaded_nomerge,True,11.57 million.,1,,0.5,426,6,432
-wiki,74,maintenance_threaded_nomerge,True,The New York School.,1,,1.4,556,6,562
-wiki,77,maintenance_threaded_nomerge,True,"MetLife Stadium, the new Yankee Stadium, Madison Square Garden, and Citi Field.",1,,1.2,3085,19,3104
-wiki,78,maintenance_threaded_nomerge,False,No information provided.,1,,0.3,276,5,281
-wiki,79,maintenance_threaded_nomerge,True,Hockey.,1,,0.3,1189,4,1193
-wiki,80,maintenance_threaded_nomerge,False,There is no answer to this question as it was not mentioned in the passage.,1,,0.6,356,17,373
-wiki,81,maintenance_threaded_nomerge,True,United States Open Tennis Championships.,1,,0.3,353,7,360
-wiki,82,maintenance_threaded_nomerge,False,New York City Subway.,1,,1.2,2238,6,2244
-wiki,84,maintenance_threaded_nomerge,True,"7,000.",1,,1.0,979,5,984
-wiki,85,maintenance_threaded_nomerge,True,109 million.,1,,0.7,984,4,988
-wiki,86,maintenance_threaded_nomerge,False,Brooklyn Bridge,1,,1.0,4208,4,4212
-wiki,87,maintenance_threaded_nomerge,True,The Lincoln Tunnel.,1,,1.2,2495,5,2500
-wiki,88,maintenance_threaded_nomerge,True,"over 200,000",1,,1.2,1169,6,1175
-wiki,89,maintenance_threaded_nomerge,True,Catskill Mountains.,1,,0.5,1112,6,1118
-wiki,90,maintenance_threaded_nomerge,True,51,1,,0.4,730,2,732
-wiki,91,maintenance_threaded_nomerge,True,67%,1,,1.0,735,3,738
-wiki,92,maintenance_threaded_nomerge,False,No information is available.,1,,1.0,455,6,461
-wiki,83,maintenance_threaded_nomerge,True,54.6%,1,,5.7,801,5,806
-wiki,93,maintenance_threaded_nomerge,False,National Library of Australia.,1,,1.2,4876,6,4882
-wiki,94,maintenance_threaded_nomerge,True,Fifth Avenue.,1,,0.5,320,5,325
-wiki,95,maintenance_threaded_nomerge,True,New York City FC.,1,,49.2,271,6,277
-wiki,97,maintenance_threaded_nomerge,False,Entertainment.,1,,48.5,416,4,420
-wiki,98,maintenance_threaded_nomerge,False,Western portion.,1,,48.9,1448,4,1452
-wiki,96,maintenance_threaded_nomerge,True,JFK International Airport.,1,,49.2,977,6,983
-wiki,99,maintenance_threaded_nomerge,False,There is no information about this in the passage.,1,,0.9,318,11,329
-wiki,100,maintenance_threaded_nomerge,False,Eastern District of New York.,1,,1.0,3195,7,3202
-news,19,maintenance_threaded_nomerge,True,Julio Cruz.,1,,0.2,471,5,476
-news,18,maintenance_threaded_nomerge,False,Yes.,1,,0.2,960,3,963
-news,16,maintenance_threaded_nomerge,False,"Prachanda, Kim Jong Il, Kim Jong Nam.",1,,0.3,1406,13,1419
-news,17,maintenance_threaded_nomerge,False,Demand democracy restoration in Pakistan.,1,,0.7,303,7,310
-news,20,maintenance_threaded_nomerge,False,None mentioned.,1,,0.5,471,4,475
-news,22,maintenance_threaded_nomerge,True,l'Hydroptere,1,,0.3,347,7,354
-news,21,maintenance_threaded_nomerge,True,Aviano Air Base.,1,,0.3,240,6,246
-news,23,maintenance_threaded_nomerge,True,France.,1,,0.7,589,3,592
-news,24,maintenance_threaded_nomerge,True,Second degree aggravated battery.,1,,0.7,318,6,324
-news,25,maintenance_threaded_nomerge,True,Jena 6 case,1,,0.7,320,6,326
-news,26,maintenance_threaded_nomerge,False,No mention.,1,,1.5,638,4,642
-news,28,maintenance_threaded_nomerge,False,Yes.,1,,0.6,385,3,388
-news,29,maintenance_threaded_nomerge,True,Fluminense.,1,,0.8,379,5,384
-news,31,maintenance_threaded_nomerge,True,New Delhi.,1,,0.4,335,4,339
-news,27,maintenance_threaded_nomerge,False,President Uribe.,1,,2.6,729,5,734
-news,30,maintenance_threaded_nomerge,True,Baku.,1,,1.3,637,4,641
-news,35,maintenance_threaded_nomerge,True,56,1,,0.2,364,2,366
-news,32,maintenance_threaded_nomerge,True,"100,000",1,,2.0,327,4,331
-news,34,maintenance_threaded_nomerge,True,A U.S. government official.,1,,0.8,330,8,338
-news,33,maintenance_threaded_nomerge,True,Federal prosecutors.,1,,2.0,327,4,331
-news,37,maintenance_threaded_nomerge,False,Chief of the Defence Force Air Chief Marshal Angus Houston.,1,,1.2,2414,12,2426
-news,39,maintenance_threaded_nomerge,False,Dida.,1,,0.5,648,4,652
-news,36,maintenance_threaded_nomerge,False,"President of Llanelli RFC and the Llanelli Scarlets, actor, and rugby broadcaster.",1,,2.1,1008,21,1029
-news,38,maintenance_threaded_nomerge,False,49 people.,1,,1.2,2022,4,2026
-news,40,maintenance_threaded_nomerge,False,Lined up to empty their accounts.,1,,49.1,403,9,412
-news,42,maintenance_threaded_nomerge,False,Goma,1,,48.9,1222,3,1225
-news,41,maintenance_threaded_nomerge,True,Search and rescue crews.,1,,49.1,1044,6,1050
-news,43,maintenance_threaded_nomerge,True,genocide,1,,48.6,454,3,457
-news,45,maintenance_threaded_nomerge,False,The vote might be put off.,1,,0.3,228,8,236
-news,44,maintenance_threaded_nomerge,False,Turkey's treatment of Armenians in World War I.,1,,0.6,569,12,581
-news,47,maintenance_threaded_nomerge,False,"1, 6, 8.",1,,1.0,1455,9,1464
-news,46,maintenance_threaded_nomerge,True,Tech International.,1,,1.7,400,4,404
-news,48,maintenance_threaded_nomerge,False,"There is no mention of ""ml5"" in the passage.",1,,1.2,674,14,688
-news,50,maintenance_threaded_nomerge,False,"Huntington's, mentally ill, physical or learning disabilities.",1,,0.5,287,14,301
-news,49,maintenance_threaded_nomerge,False,Fighting extremism.,1,,1.4,732,5,737
-news,52,maintenance_threaded_nomerge,False,18.,1,,0.2,279,3,282
-news,51,maintenance_threaded_nomerge,True,Kenneth Rowles.,1,,0.3,550,6,556
-news,54,maintenance_threaded_nomerge,True,Contact with anyone under 18.,1,,0.5,412,8,420
-news,53,maintenance_threaded_nomerge,True,Debra Lafave.,1,,0.4,415,6,421
-news,55,maintenance_threaded_nomerge,False,Anyone under 18.,1,,0.7,415,6,421
-news,57,maintenance_threaded_nomerge,False,No mention.,1,,0.8,708,4,712
-news,59,maintenance_threaded_nomerge,False,More pleasant.,1,,0.8,332,4,336
-news,58,maintenance_threaded_nomerge,False,Mable Randon.,1,,1.1,1928,6,1934
-news,56,maintenance_threaded_nomerge,False,3-0.,1,,2.6,747,5,752
-news,60,maintenance_threaded_nomerge,False,December 2004,1,,0.9,360,5,365
-news,61,maintenance_threaded_nomerge,False,Michael Strank.,1,,0.5,336,5,341
-news,62,maintenance_threaded_nomerge,False,Iwo Jima,1,,1.2,329,5,334
-news,63,maintenance_threaded_nomerge,True,226,1,,0.8,939,2,941
-news,65,maintenance_threaded_nomerge,True,Princess Eugenie,1,,0.8,268,5,273
-news,66,maintenance_threaded_nomerge,True,National Hurricane Center,1,,1.2,439,4,443
-news,64,maintenance_threaded_nomerge,False,The national parliament and state politicians.,1,,2.1,821,8,829
-news,67,maintenance_threaded_nomerge,False,Bill Proenza's ouster.,1,,1.6,627,8,635
-news,68,maintenance_threaded_nomerge,False,David Tuason,1,,1.3,291,4,295
-news,69,maintenance_threaded_nomerge,False,"Substance abuse therapy, mental health counseling, and curfew.",1,,0.3,660,14,674
-news,70,maintenance_threaded_nomerge,False,No one. He pleaded guilty.,1,,49.0,466,8,474
-news,71,maintenance_threaded_nomerge,False,Tom Daschle.,1,,48.6,383,6,389
-news,73,maintenance_threaded_nomerge,True,Liquid.,1,,48.4,635,3,638
-news,72,maintenance_threaded_nomerge,False,Heidi Tagliavini.,1,,49.1,219,8,227
-news,74,maintenance_threaded_nomerge,False,Kyree Flowers.,1,,0.5,554,5,559
-news,77,maintenance_threaded_nomerge,True,The August war between Georgia and Russia.,1,,0.3,224,9,233
-news,75,maintenance_threaded_nomerge,False,Half a Merck share and $10.50 in cash.,1,,1.2,343,14,357
-news,79,maintenance_threaded_nomerge,True,Chip Auman's.,1,,0.3,586,6,592
-news,76,maintenance_threaded_nomerge,True,Falsely imprisoning a male escort.,1,,1.8,557,10,567
-news,80,maintenance_threaded_nomerge,True,University of South Carolina.,1,,0.2,859,6,865
-news,78,maintenance_threaded_nomerge,True,A 23-year-old man.,1,,1.5,736,8,744
-news,81,maintenance_threaded_nomerge,False,No answer found.,1,,0.5,1072,5,1077
-news,82,maintenance_threaded_nomerge,False,F-15s.,1,,0.4,616,6,622
-news,84,maintenance_threaded_nomerge,False,No information.,1,,0.5,226,4,230
-news,83,maintenance_threaded_nomerge,False,Air-to-ground and air-to-air missions.,1,,1.0,614,10,624
-news,85,maintenance_threaded_nomerge,False,Roma.,1,,0.6,287,4,291
-news,87,maintenance_threaded_nomerge,False,Yes.,1,,0.6,1027,3,1030
-news,88,maintenance_threaded_nomerge,True,February.,1,,0.7,291,3,294
-news,86,maintenance_threaded_nomerge,False,It crashed.,1,,1.7,1505,4,1509
-news,90,maintenance_threaded_nomerge,True,Hellish inferno.,1,,0.5,1383,6,1389
-news,92,maintenance_threaded_nomerge,False,No information.,1,,0.4,329,4,333
-news,91,maintenance_threaded_nomerge,False,Putting out the fire.,1,,0.7,432,6,438
-news,93,maintenance_threaded_nomerge,True,Wire.,1,,0.5,442,3,445
-news,95,maintenance_threaded_nomerge,False,No one mentioned.,1,,0.2,611,5,616
-news,89,maintenance_threaded_nomerge,False,New constitution.,1,,3.2,258,4,262
-news,94,maintenance_threaded_nomerge,True,Human shields.,1,,1.3,468,4,472
-news,97,maintenance_threaded_nomerge,False,No information is given about Anbar.,1,,1.2,562,9,571
-news,98,maintenance_threaded_nomerge,False,Cape Town to Johannesburg.,1,,1.2,1184,7,1191
-news,99,maintenance_threaded_nomerge,True,Kevin Federline.,1,,0.7,368,5,373
-news,96,maintenance_threaded_nomerge,False,Comments about QuikSCAT.,1,,2.5,962,8,970
-news,101,maintenance_threaded_nomerge,False,"A rifle, grenade, pistol, and ammunition.",1,,48.4,550,11,561
-news,103,maintenance_threaded_nomerge,True,Schools and government offices.,1,,48.5,354,7,361
-news,100,maintenance_threaded_nomerge,True,July.,1,,49.6,689,3,692
-news,102,maintenance_threaded_nomerge,False,"60 wounded, 14 killed.",1,,48.7,923,8,931
-news,104,maintenance_threaded_nomerge,False,The earth.,1,,0.5,297,4,301
-news,106,maintenance_threaded_nomerge,False,Democratic Republic of Congo.,1,,0.8,1221,6,1227
-news,105,maintenance_threaded_nomerge,False,She was walking her son to preschool.,1,,1.6,454,9,463
-news,109,maintenance_threaded_nomerge,False,38 years.,1,,0.8,686,4,690
-news,108,maintenance_threaded_nomerge,False,Cells from frozen mice.,1,,1.4,418,6,424
-news,107,maintenance_threaded_nomerge,False,Kutacane district in Aceh province.,1,,2.0,1142,11,1153
-news,110,maintenance_threaded_nomerge,True,Eme Zuru Ayortor.,1,,0.6,483,9,492
-news,111,maintenance_threaded_nomerge,False,"1,300",1,,0.4,614,4,618
-news,112,maintenance_threaded_nomerge,False,No one.,1,,0.3,216,4,220
-news,114,maintenance_threaded_nomerge,True,Thailand,1,,0.2,536,3,539
-news,113,maintenance_threaded_nomerge,True,434 people.,1,,0.3,316,4,320
-news,115,maintenance_threaded_nomerge,True,scandal,1,,0.2,600,3,603
-news,117,maintenance_threaded_nomerge,False,"3,700 tons of waste.",1,,0.6,529,8,537
-news,116,maintenance_threaded_nomerge,True,72.,1,,1.0,599,3,602
-news,118,maintenance_threaded_nomerge,False,$85 billion.,1,,0.7,904,5,909
-news,121,maintenance_threaded_nomerge,True,48,1,,0.3,556,2,558
-news,119,maintenance_threaded_nomerge,True,"Atlanta, Georgia.",1,,2.0,278,5,283
-news,122,maintenance_threaded_nomerge,False,Forty people were hurt.,1,,0.5,794,7,801
-news,124,maintenance_threaded_nomerge,False,Youssif's visit to Universal Studios.,1,,0.3,532,10,542
-news,123,maintenance_threaded_nomerge,True,Universal Studios.,1,,1.2,495,4,499
-news,125,maintenance_threaded_nomerge,True,Andrea Bocelli's.,1,,0.8,232,8,240
-news,120,maintenance_threaded_nomerge,False,The former first couple.,1,,2.7,187,6,193
-news,128,maintenance_threaded_nomerge,True,Sunday.,1,,0.4,266,3,269
-news,126,maintenance_threaded_nomerge,True,Mexico City.,1,,1.5,300,4,304
-news,127,maintenance_threaded_nomerge,False,Pandher,1,,1.3,285,4,289
-news,129,maintenance_threaded_nomerge,False,The four suspects.,1,,0.7,240,5,245
-news,131,maintenance_threaded_nomerge,False,Scott McClellan,1,,48.5,370,6,376
-news,133,maintenance_threaded_nomerge,False,Cracks in wing assembly.,1,,48.3,612,7,619
-news,130,maintenance_threaded_nomerge,False,None.,1,,49.5,738,3,741
-news,132,maintenance_threaded_nomerge,False,No.,1,,48.9,374,3,377
-news,134,maintenance_threaded_nomerge,True,10 percent.,1,,0.4,549,4,553
-news,135,maintenance_threaded_nomerge,False,Not mentioned.,1,,0.5,873,4,877
-news,136,maintenance_threaded_nomerge,False,Nothing.,1,,1.1,1051,3,1054
-news,137,maintenance_threaded_nomerge,False,E-mails and mailed letters.,1,,1.4,331,7,338
-news,138,maintenance_threaded_nomerge,True,A loaf of bread.,1,,1.1,313,6,319
-news,139,maintenance_threaded_nomerge,False,Batna.,1,,1.0,315,4,319
-news,140,maintenance_threaded_nomerge,False,Robert Dziekanski.,1,,0.5,842,8,850
-news,141,maintenance_threaded_nomerge,False,No information.,1,,0.4,193,4,197
-news,143,maintenance_threaded_nomerge,True,The buses in Britain.,1,,0.7,421,6,427
-news,142,maintenance_threaded_nomerge,False,Spain.,1,,1.2,573,3,576
-news,144,maintenance_threaded_nomerge,False,Ivan Cameron's father.,1,,0.6,350,7,357
-news,145,maintenance_threaded_nomerge,True,Seven counts of knowingly transferring the HIV virus.,1,,0.5,303,10,313
-news,146,maintenance_threaded_nomerge,True,Helicopter and small plane.,1,,1.0,316,7,323
-news,147,maintenance_threaded_nomerge,False,Bloody uprising.,1,,0.6,860,5,865
-news,149,maintenance_threaded_nomerge,True,"Honesty, solidarity, and fraternity.",1,,0.5,349,10,359
-news,148,maintenance_threaded_nomerge,True,Heart disease.,1,,1.5,358,4,362
-news,152,maintenance_threaded_nomerge,False,Air Serv International.,1,,0.6,1454,5,1459
-news,150,maintenance_threaded_nomerge,False,Nationwide retailers.,1,,1.3,206,5,211
-news,153,maintenance_threaded_nomerge,False,Raised concerns.,1,,0.5,368,4,372
-news,151,maintenance_threaded_nomerge,True,Hillary Clinton.,1,,1.7,285,4,289
-news,154,maintenance_threaded_nomerge,True,Heath Ledger,1,,0.9,269,4,273
-news,155,maintenance_threaded_nomerge,True,Allison Pearson.,1,,1.2,223,5,228
-news,158,maintenance_threaded_nomerge,False,There is no mention of Donna Greenwell.,1,,1.0,291,10,301
-news,157,maintenance_threaded_nomerge,True,The proposed constitution.,1,,1.3,261,5,266
-news,156,maintenance_threaded_nomerge,False,The facts of the conflict.,1,,2.1,592,7,599
-news,159,maintenance_threaded_nomerge,True,Holding veterans care funding hostage.,1,,0.5,407,8,415
-news,162,maintenance_threaded_nomerge,False,Whale strandings.,1,,48.3,467,6,473
-news,161,maintenance_threaded_nomerge,False,Peaceful purposes.,1,,49.0,519,5,524
-news,163,maintenance_threaded_nomerge,True,NATO-led International Security Assistance Force.,1,,48.5,381,9,390
-news,160,maintenance_threaded_nomerge,True,spending.,1,,49.6,410,4,414
-news,166,maintenance_threaded_nomerge,False,Video.,1,,0.6,1254,3,1257
-news,167,maintenance_threaded_nomerge,True,David Beckham.,1,,0.6,328,4,332
-news,164,maintenance_threaded_nomerge,True,ABC,1,,1.5,181,2,183
-news,165,maintenance_threaded_nomerge,False,Acting and standup performances.,1,,2.2,291,8,299
-news,168,maintenance_threaded_nomerge,False,Sevilla,1,,1.0,391,3,394
-news,169,maintenance_threaded_nomerge,False,No mention.,1,,0.8,649,4,653
-news,170,maintenance_threaded_nomerge,True,No blacks were on the jury.,1,,0.8,876,8,884
-news,172,maintenance_threaded_nomerge,False,Not mentioned.,1,,0.7,296,4,300
-news,171,maintenance_threaded_nomerge,False,Imposing a state of emergency.,1,,1.0,300,8,308
-news,174,maintenance_threaded_nomerge,False,Pratibha Patil,1,,0.5,1053,7,1060
-news,173,maintenance_threaded_nomerge,True,her role as Julia Sugarbaker.,1,,0.7,1150,9,1159
-news,175,maintenance_threaded_nomerge,False,Voluntary manslaughter.,1,,0.5,627,5,632
-news,177,maintenance_threaded_nomerge,True,"""Until the Day Is Done""",1,,0.5,462,8,470
-news,179,maintenance_threaded_nomerge,False,CenterPoint.,1,,0.4,421,4,425
-news,176,maintenance_threaded_nomerge,False,15 months.,1,,1.1,630,4,634
-news,178,maintenance_threaded_nomerge,False,Bharathi,1,,1.5,249,4,253
-news,180,maintenance_threaded_nomerge,False,Critical care program.,1,,0.9,420,5,425
-news,181,maintenance_threaded_nomerge,False,Haymarket.,1,,0.5,289,4,293
-news,182,maintenance_threaded_nomerge,False,No information.,1,,0.9,497,4,501
-news,183,maintenance_threaded_nomerge,True,"Close to $50,000.",1,,1.0,353,8,361
-news,184,maintenance_threaded_nomerge,True,Saddam Hussein era.,1,,0.7,328,7,335
-news,185,maintenance_threaded_nomerge,True,The crown of the Statue of Liberty.,1,,1.6,319,9,328
-news,186,maintenance_threaded_nomerge,False,7.5 percent.,1,,1.4,381,6,387
-news,188,maintenance_threaded_nomerge,False,"Concerned citizens, troops, and local leaders.",1,,0.6,521,11,532
-news,187,maintenance_threaded_nomerge,True,Gangbusters.,1,,1.3,517,5,522
-news,189,maintenance_threaded_nomerge,True,Yuvraj Singh.,1,,0.7,1313,6,1319
-news,190,maintenance_threaded_nomerge,False,Typhoon.,1,,49.2,353,4,357
-news,192,maintenance_threaded_nomerge,True,One of Sin Hwa Dee's factories.,1,,48.6,377,10,387
-news,191,maintenance_threaded_nomerge,False,"Homes damaged, one destroyed.",1,,48.9,435,8,443
-news,193,maintenance_threaded_nomerge,True,24 years.,1,,48.6,269,4,273
-news,196,maintenance_threaded_nomerge,False,No mention.,1,,0.7,632,4,636
-news,194,maintenance_threaded_nomerge,False,Jawans.,1,,0.7,1577,5,1582
-news,195,maintenance_threaded_nomerge,False,"Bridgeport, Alabama.",1,,1.7,576,6,582
-news,197,maintenance_threaded_nomerge,True,"9,500.",1,,1.8,326,5,331
-news,198,maintenance_threaded_nomerge,True,Racially motivated threats.,1,,0.7,290,7,297
-news,199,maintenance_threaded_nomerge,True,Funny People,1,,0.8,346,3,349
-news,200,maintenance_threaded_nomerge,True,Augustin Binya.,1,,0.7,651,6,657
-novel,3e966645_2,maintenance_threaded_nomerge,False,Mr. Clavering.,1,,0.2,1791,7,1798
-novel,3e966645_5,maintenance_threaded_nomerge,False,Influenza.,1,,0.2,1307,6,1313
-novel,3e966645_6,maintenance_threaded_nomerge,False,The dog.,1,,0.2,1333,4,1337
-novel,3e966645_4,maintenance_threaded_nomerge,False,Coffee.,1,,0.2,1390,3,1393
-novel,3e966645_7,maintenance_threaded_nomerge,False,Brown.,1,,0.4,1111,3,1114
-novel,3e966645_10,maintenance_threaded_nomerge,False,pestilence,1,,0.6,1043,4,1047
-novel,3e966645_8,maintenance_threaded_nomerge,True,Papeete.,1,,1.1,1042,5,1047
-novel,3e966645_9,maintenance_threaded_nomerge,False,French Polynesia.,1,,0.9,1039,6,1045
-novel,3e966645_11,maintenance_threaded_nomerge,True,Sydney.,1,,1.6,1387,4,1391
-novel,3e966645_16,maintenance_threaded_nomerge,False,Smuggled goods.,1,,0.5,445,6,451
-novel,3e966645_12,maintenance_threaded_nomerge,True,Smallpox.,1,,1.2,1391,5,1396
-novel,3e966645_17,maintenance_threaded_nomerge,False,Sydney.,1,,1.1,1391,4,1395
-novel,3e966645_19,maintenance_threaded_nomerge,False,The clerk.,1,,0.8,1057,4,1061
-novel,3e966645_20,maintenance_threaded_nomerge,True,California champagne.,1,,0.5,1804,4,1808
-novel,3e966645_21,maintenance_threaded_nomerge,False,Brown.,1,,1.2,5975,3,5978
-novel,6a659de3_2,maintenance_threaded_nomerge,False,Mr. Holly.,1,,0.8,4484,5,4489
-novel,3e966645_23,maintenance_threaded_nomerge,False,None.,1,,1.3,1056,3,1059
-novel,3e966645_22,maintenance_threaded_nomerge,False,There is no mention of this in the passage.,1,,1.8,452,11,463
-novel,6a659de3_3,maintenance_threaded_nomerge,False,"Ozma, the Wizard, and the Blackbird.",1,,0.3,2991,13,3004
-novel,6a659de3_5,maintenance_threaded_nomerge,False,No one is mentioned.,1,,48.7,171,6,177
-novel,6a659de3_6,maintenance_threaded_nomerge,False,Ozma.,1,,48.6,5415,5,5420
-novel,6a659de3_7,maintenance_threaded_nomerge,False,Castra Regis.,1,,48.8,3249,6,3255
-novel,6a659de3_4,maintenance_threaded_nomerge,False,Mr. Holly.,1,,48.9,351,5,356
-novel,6a659de3_8,maintenance_threaded_nomerge,False,No one.,1,,0.6,577,4,581
-novel,6a659de3_11,maintenance_threaded_nomerge,False,Greek.,1,,0.5,576,3,579
-novel,6a659de3_14,maintenance_threaded_nomerge,True,Ludwig Horace Holly.,1,,1.0,1749,8,1757
-novel,6a659de3_12,maintenance_threaded_nomerge,False,The narrator.,1,,1.5,428,4,432
-novel,9561a72a_0,maintenance_threaded_nomerge,False,Uncle Henry and Aunt Em.,1,,0.7,4448,8,4456
-novel,6a659de3_17,maintenance_threaded_nomerge,False,No one.,1,,1.1,524,4,528
-novel,9561a72a_1,maintenance_threaded_nomerge,False,Ozma.,1,,0.7,7090,5,7095
-novel,9561a72a_5,maintenance_threaded_nomerge,False,Uncle Henry and Aunt Em.,1,,1.0,860,8,868
-novel,9561a72a_3,maintenance_threaded_nomerge,False,Clavering Park.,1,,1.4,1490,6,1496
-novel,9561a72a_7,maintenance_threaded_nomerge,True,Underground.,1,,0.8,1202,4,1206
-novel,9561a72a_9,maintenance_threaded_nomerge,False,Uncle Henry and Aunt Em.,1,,0.7,3628,8,3636
-novel,9561a72a_10,maintenance_threaded_nomerge,True,The Magic Belt.,1,,0.2,2878,5,2883
-novel,9561a72a_11,maintenance_threaded_nomerge,False,General Guph.,1,,0.9,3971,6,3977
-novel,9561a72a_12,maintenance_threaded_nomerge,True,General Guph.,1,,0.4,1208,6,1214
-novel,bf55d1c1_0,maintenance_threaded_nomerge,False,No information.,1,,0.6,641,4,645
-novel,bf55d1c1_4,maintenance_threaded_nomerge,False,Lady Arabella.,1,,0.5,1563,5,1568
-novel,bf55d1c1_2,maintenance_threaded_nomerge,True,Adam.,1,,0.9,229,3,232
-novel,bf55d1c1_1,maintenance_threaded_nomerge,False,"No one, the passage does not mention murder.",1,,1.3,2012,11,2023
-novel,bf55d1c1_5,maintenance_threaded_nomerge,False,Roquat the Red.,1,,0.6,8310,6,8316
-novel,bf55d1c1_6,maintenance_threaded_nomerge,False,Snakes.,1,,0.9,641,4,645
-novel,bf55d1c1_9,maintenance_threaded_nomerge,False,The end of August.,1,,0.7,1487,6,1493
-novel,bf55d1c1_3,maintenance_threaded_nomerge,False,Mr. Caswall.,1,,3.2,646,6,652
-novel,bf55d1c1_11,maintenance_threaded_nomerge,False,Michael Watford.,1,,0.9,644,5,649
-novel,bf55d1c1_10,maintenance_threaded_nomerge,False,There is no mention of Adam working with Sir Nathaniel to stop Arabella.,1,,1.5,1049,17,1066
-novel,ca4b98f5_0,maintenance_threaded_nomerge,False,None given.,1,,0.5,1685,4,1689
-novel,bf55d1c1_12,maintenance_threaded_nomerge,False,Sydney.,1,,1.4,1045,4,1049
-novel,ca4b98f5_1,maintenance_threaded_nomerge,True,Harry Clavering.,1,,48.9,2251,6,2257
-novel,ca4b98f5_3,maintenance_threaded_nomerge,False,Clavering Park.,1,,48.5,2037,6,2043
-novel,ca4b98f5_2,maintenance_threaded_nomerge,True,Beilby and Burton.,1,,49.0,1399,7,1406
-novel,ca4b98f5_4,maintenance_threaded_nomerge,True,Harry Clavering.,1,,49.0,1614,6,1620
-novel,ca4b98f5_6,maintenance_threaded_nomerge,False,Florence.,1,,0.5,1496,4,1500
-novel,ca4b98f5_11,maintenance_threaded_nomerge,False,Lord Ongar.,1,,0.2,1495,6,1501
-novel,ca4b98f5_10,maintenance_threaded_nomerge,True,Lord Ongar.,1,,1.2,2538,6,2544
-novel,ca4b98f5_13,maintenance_threaded_nomerge,False,Harry Clavering.,1,,0.8,1890,6,1896
-novel,ca4b98f5_8,maintenance_threaded_nomerge,False,Lady Ongar.,1,,2.0,1493,6,1499
-novel,ca4b98f5_12,maintenance_threaded_nomerge,False,Lady Ongar.,1,,1.1,1488,6,1494
-novel,ca4b98f5_14,maintenance_threaded_nomerge,False,Clergymen.,1,,0.6,682,7,689
-novel,ca4b98f5_17,maintenance_threaded_nomerge,False,Julia Brabazon.,1,,0.8,3534,7,3541
-novel,ca4b98f5_15,maintenance_threaded_nomerge,False,Julia Brabazon,1,,1.3,1554,6,1560
-novel,ca4b98f5_16,maintenance_threaded_nomerge,False,Lady Ongar.,1,,1.4,1490,6,1496
-novel,ca4b98f5_18,maintenance_threaded_nomerge,False,Julia Brabazon.,1,,0.8,3715,7,3722
-caselaw,31,maintenance_threaded_nomerge,True,5,1,,0.2,2280,2,2282
-caselaw,37,maintenance_threaded_nomerge,True,5,1,,0.4,2234,2,2236
-caselaw,33,maintenance_threaded_nomerge,False,2,1,,0.4,2270,2,2272
-caselaw,35,maintenance_threaded_nomerge,True,2,1,,0.4,2336,2,2338
-caselaw,39,maintenance_threaded_nomerge,False,2,1,,0.9,2237,2,2239
-caselaw,43,maintenance_threaded_nomerge,False,5,1,,0.8,2292,2,2294
-caselaw,41,maintenance_threaded_nomerge,False,3,1,,1.0,2241,2,2243
-caselaw,45,maintenance_threaded_nomerge,False,2,1,,1.7,2278,2,2280
-caselaw,47,maintenance_threaded_nomerge,False,5,1,,1.3,2269,2,2271
-caselaw,49,maintenance_threaded_nomerge,False,2,1,,0.9,2264,2,2266
-caselaw,53,maintenance_threaded_nomerge,True,3,1,,1.1,2258,2,2260
-caselaw,51,maintenance_threaded_nomerge,True,5,1,,1.7,2260,2,2262
-caselaw,57,maintenance_threaded_nomerge,False,4,1,,1.0,2311,2,2313
-caselaw,55,maintenance_threaded_nomerge,True,2,1,,1.6,2330,2,2332
-caselaw,59,maintenance_threaded_nomerge,False,4,1,,0.5,2342,2,2344
-caselaw,63,maintenance_threaded_nomerge,False,5,1,,48.7,2310,2,2312
-caselaw,65,maintenance_threaded_nomerge,True,5,1,,48.6,2282,2,2284
-caselaw,61,maintenance_threaded_nomerge,False,3,1,,49.4,2223,2,2225
-caselaw,67,maintenance_threaded_nomerge,True,5,1,,48.9,2248,2,2250
-caselaw,73,maintenance_threaded_nomerge,True,2,1,,0.2,2243,2,2245
-caselaw,71,maintenance_threaded_nomerge,False,2,1,,0.5,2284,2,2286
-caselaw,69,maintenance_threaded_nomerge,False,2,1,,1.7,2222,2,2224
-caselaw,79,maintenance_threaded_nomerge,False,2,1,,0.5,2305,2,2307
-caselaw,77,maintenance_threaded_nomerge,False,2,1,,0.9,2257,2,2259
-caselaw,75,maintenance_threaded_nomerge,True,2,1,,2.3,2240,2,2242
-caselaw,81,maintenance_threaded_nomerge,False,3,1,,0.3,2302,2,2304
-caselaw,83,maintenance_threaded_nomerge,False,5,1,,1.0,2218,2,2220
-caselaw,87,maintenance_threaded_nomerge,False,5,1,,0.4,2269,2,2271
-caselaw,89,maintenance_threaded_nomerge,False,5,1,,0.2,2247,2,2249
-caselaw,85,maintenance_threaded_nomerge,True,2,1,,1.1,2256,2,2258
-caselaw,91,maintenance_threaded_nomerge,False,5,1,,0.6,2271,2,2273
-caselaw,95,maintenance_threaded_nomerge,False,4,1,,0.5,2261,2,2263
-caselaw,93,maintenance_threaded_nomerge,False,5,1,,0.5,2306,2,2308
-caselaw,97,maintenance_threaded_nomerge,False,4,1,,0.3,2252,2,2254
-caselaw,103,maintenance_threaded_nomerge,False,5,1,,0.5,2262,2,2264
-caselaw,101,maintenance_threaded_nomerge,False,3,1,,1.1,2238,2,2240
-caselaw,99,maintenance_threaded_nomerge,False,4,1,,1.7,2290,2,2292
-caselaw,105,maintenance_threaded_nomerge,False,4,1,,1.4,2335,2,2337
-caselaw,111,maintenance_threaded_nomerge,False,5,1,,0.5,2277,2,2279
-caselaw,107,maintenance_threaded_nomerge,False,4,1,,1.2,2247,2,2249
-caselaw,115,maintenance_threaded_nomerge,False,5,1,,0.6,2353,2,2355
-caselaw,117,maintenance_threaded_nomerge,False,2,1,,0.9,2382,2,2384
-caselaw,113,maintenance_threaded_nomerge,False,2,1,,1.9,2259,2,2261
-caselaw,109,maintenance_threaded_nomerge,False,3,1,,2.4,2301,2,2303
-caselaw,119,maintenance_threaded_nomerge,True,3,1,,0.8,2276,2,2278
-caselaw,123,maintenance_threaded_nomerge,True,5,1,,48.9,2259,2,2261
-caselaw,121,maintenance_threaded_nomerge,False,5,1,,49.3,2269,2,2271
-caselaw,125,maintenance_threaded_nomerge,True,5,1,,48.4,2260,2,2262
-caselaw,127,maintenance_threaded_nomerge,False,5,1,,48.9,2245,2,2247
-caselaw,133,maintenance_threaded_nomerge,False,2,1,,0.3,2250,2,2252
-caselaw,129,maintenance_threaded_nomerge,True,2,1,,0.8,2379,2,2381
-caselaw,131,maintenance_threaded_nomerge,False,2,1,,1.3,2283,2,2285
-caselaw,137,maintenance_threaded_nomerge,False,4,1,,0.9,2431,2,2433
-caselaw,135,maintenance_threaded_nomerge,False,4,1,,1.7,2563,2,2565
-caselaw,139,maintenance_threaded_nomerge,False,5,1,,0.7,2278,2,2280
-caselaw,141,maintenance_threaded_nomerge,False,2,1,,0.6,2275,2,2277
-caselaw,147,maintenance_threaded_nomerge,True,2,1,,0.5,2360,2,2362
-caselaw,149,maintenance_threaded_nomerge,False,5,1,,0.7,2308,2,2310
-caselaw,143,maintenance_threaded_nomerge,False,3,1,,1.3,2388,2,2390
-caselaw,145,maintenance_threaded_nomerge,False,5,1,,1.1,2290,2,2292
-caselaw,153,maintenance_threaded_nomerge,False,2,1,,0.4,2340,2,2342
-caselaw,157,maintenance_threaded_nomerge,False,2,1,,0.5,2286,2,2288
-caselaw,151,maintenance_threaded_nomerge,True,5,1,,1.4,2262,2,2264
-caselaw,155,maintenance_threaded_nomerge,False,2,1,,0.7,2317,2,2319
-caselaw,161,maintenance_threaded_nomerge,False,5,1,,0.6,2293,2,2295
-caselaw,159,maintenance_threaded_nomerge,True,5,1,,1.4,2292,2,2294
-caselaw,163,maintenance_threaded_nomerge,True,4,1,,0.7,2225,2,2227
-caselaw,165,maintenance_threaded_nomerge,False,2,1,,1.1,2350,2,2352
-caselaw,167,maintenance_threaded_nomerge,True,3,1,,1.0,2282,2,2284
-caselaw,171,maintenance_threaded_nomerge,False,2,1,,0.6,2292,2,2294
-caselaw,169,maintenance_threaded_nomerge,False,1,1,,1.7,2265,2,2267
-caselaw,175,maintenance_threaded_nomerge,False,4,1,,1.2,2240,2,2242
-caselaw,179,maintenance_threaded_nomerge,False,5,1,,0.4,2275,2,2277
-caselaw,173,maintenance_threaded_nomerge,False,5,1,,1.7,2301,2,2303
-caselaw,177,maintenance_threaded_nomerge,False,5,1,,1.5,2237,2,2239
-caselaw,185,maintenance_threaded_nomerge,False,5,1,,48.3,2265,2,2267
-caselaw,187,maintenance_threaded_nomerge,False,3,1,,48.3,2258,2,2260
-caselaw,181,maintenance_threaded_nomerge,False,3,1,,49.3,2255,2,2257
-caselaw,183,maintenance_threaded_nomerge,True,2,1,,48.8,2313,2,2315
-caselaw,191,maintenance_threaded_nomerge,True,3,1,,0.4,2310,2,2312
-caselaw,189,maintenance_threaded_nomerge,True,5,1,,0.8,2252,2,2254
-caselaw,193,maintenance_threaded_nomerge,False,5,1,,1.1,2353,2,2355
-caselaw,195,maintenance_threaded_nomerge,False,5,1,,1.6,2267,2,2269
-caselaw,197,maintenance_threaded_nomerge,False,5,1,,0.9,2290,2,2292
-caselaw,199,maintenance_threaded_nomerge,False,2,1,,0.5,2424,2,2426
-caselaw,201,maintenance_threaded_nomerge,True,3,1,,0.6,2294,3,2297
-caselaw,205,maintenance_threaded_nomerge,True,2,1,,1.0,2266,2,2268
-caselaw,209,maintenance_threaded_nomerge,False,4,1,,0.4,2265,2,2267
-caselaw,207,maintenance_threaded_nomerge,True,5,1,,0.9,2256,2,2258
-caselaw,203,maintenance_threaded_nomerge,False,4,1,,1.3,2250,2,2252
-caselaw,213,maintenance_threaded_nomerge,False,3,1,,0.3,2299,2,2301
-caselaw,211,maintenance_threaded_nomerge,True,4,1,,1.0,2364,2,2366
-caselaw,215,maintenance_threaded_nomerge,False,5,1,,0.6,2319,2,2321
-caselaw,217,maintenance_threaded_nomerge,False,5,1,,0.4,2263,2,2265
-caselaw,219,maintenance_threaded_nomerge,True,3,1,,1.2,2257,2,2259
-caselaw,225,maintenance_threaded_nomerge,False,5,1,,0.6,2328,2,2330
-caselaw,221,maintenance_threaded_nomerge,False,4,1,,1.3,2297,2,2299
-caselaw,223,maintenance_threaded_nomerge,True,4,1,,1.6,2317,2,2319
-caselaw,229,maintenance_threaded_nomerge,False,5,1,,0.6,2215,2,2217
-caselaw,231,maintenance_threaded_nomerge,True,2,1,,0.8,2399,2,2401
-caselaw,227,maintenance_threaded_nomerge,False,4,1,,2.0,2337,2,2339
-caselaw,235,maintenance_threaded_nomerge,True,5,1,,1.0,2305,2,2307
-caselaw,239,maintenance_threaded_nomerge,False,5,1,,0.9,2278,2,2280
-caselaw,237,maintenance_threaded_nomerge,True,4,1,,1.3,2304,2,2306
-caselaw,233,maintenance_threaded_nomerge,True,3,1,,2.8,2224,2,2226
-caselaw,243,maintenance_threaded_nomerge,False,5,1,,47.4,2283,2,2285
-caselaw,241,maintenance_threaded_nomerge,False,5,1,,48.2,2294,2,2296
-caselaw,245,maintenance_threaded_nomerge,False,3,1,,47.7,2281,2,2283
-caselaw,247,maintenance_threaded_nomerge,False,4,1,,48.3,2308,2,2310
-caselaw,249,maintenance_threaded_nomerge,False,3,1,,0.6,2258,2,2260
-caselaw,253,maintenance_threaded_nomerge,False,3,1,,0.4,2210,2,2212
-caselaw,255,maintenance_threaded_nomerge,False,5,1,,1.1,2276,2,2278
-caselaw,251,maintenance_threaded_nomerge,False,5,1,,1.8,2205,2,2207
-caselaw,257,maintenance_threaded_nomerge,True,3,1,,0.8,2269,2,2271
-caselaw,259,maintenance_threaded_nomerge,True,3,1,,0.9,2314,2,2316
-caselaw,261,maintenance_threaded_nomerge,True,5,1,,0.6,2415,2,2417
-caselaw,265,maintenance_threaded_nomerge,False,3,1,,2.8,2281,2,2283
-caselaw,267,maintenance_threaded_nomerge,False,4,1,,2.1,2371,2,2373
-caselaw,263,maintenance_threaded_nomerge,True,5,1,,3.0,2245,2,2247
-caselaw,269,maintenance_threaded_nomerge,False,5,1,,1.2,2223,2,2225
-caselaw,273,maintenance_threaded_nomerge,False,3,1,,1.0,2276,2,2278
-caselaw,277,maintenance_threaded_nomerge,False,5,1,,1.0,2262,2,2264
-caselaw,271,maintenance_threaded_nomerge,False,2,1,,1.0,2297,2,2299
-caselaw,275,maintenance_threaded_nomerge,False,4,1,,1.0,2257,2,2259
-caselaw,281,maintenance_threaded_nomerge,False,4,1,,0.3,2319,2,2321
-caselaw,283,maintenance_threaded_nomerge,True,5,1,,0.2,2326,2,2328
-caselaw,279,maintenance_threaded_nomerge,True,4,1,,0.3,2330,2,2332
-caselaw,285,maintenance_threaded_nomerge,False,5,1,,0.5,2274,2,2276
-caselaw,291,maintenance_threaded_nomerge,False,5,1,,0.2,2228,2,2230
-caselaw,287,maintenance_threaded_nomerge,True,5,1,,0.2,2284,2,2286
-caselaw,289,maintenance_threaded_nomerge,True,4,1,,0.2,2356,2,2358
-caselaw,293,maintenance_threaded_nomerge,True,5,1,,0.3,2283,2,2285
-caselaw,295,maintenance_threaded_nomerge,False,2,1,,0.3,2259,2,2261
-caselaw,299,maintenance_threaded_nomerge,True,4,1,,0.2,2348,2,2350
-caselaw,297,maintenance_threaded_nomerge,False,2,1,,0.3,2303,2,2305
-caselaw,301,maintenance_threaded_nomerge,False,2,1,,47.8,2312,2,2314
-caselaw,307,maintenance_threaded_nomerge,True,2,1,,47.2,2321,2,2323
-caselaw,305,maintenance_threaded_nomerge,False,5,1,,47.4,2285,2,2287
-caselaw,303,maintenance_threaded_nomerge,False,5,1,,48.0,2296,2,2298
-caselaw,309,maintenance_threaded_nomerge,False,2,1,,0.6,2287,2,2289
-caselaw,313,maintenance_threaded_nomerge,False,5,1,,0.5,2282,2,2284
-caselaw,315,maintenance_threaded_nomerge,True,5,1,,1.1,2263,2,2265
-caselaw,311,maintenance_threaded_nomerge,False,4,1,,1.6,2249,2,2251
-caselaw,317,maintenance_threaded_nomerge,True,3,1,,0.8,2233,2,2235
-caselaw,321,maintenance_threaded_nomerge,False,5,1,,0.4,2326,2,2328
-caselaw,319,maintenance_threaded_nomerge,True,5,1,,1.1,2306,2,2308
-caselaw,327,maintenance_threaded_nomerge,False,2,1,,0.7,2226,2,2228
-caselaw,329,maintenance_threaded_nomerge,False,5,1,,0.6,2367,2,2369
-caselaw,325,maintenance_threaded_nomerge,True,5,1,,1.1,2306,2,2308
-caselaw,323,maintenance_threaded_nomerge,True,5,1,,2.5,2339,2,2341
-caselaw,335,maintenance_threaded_nomerge,True,4,1,,3.0,2238,2,2240
-caselaw,337,maintenance_threaded_nomerge,False,5,1,,1.8,2301,2,2303
-caselaw,331,maintenance_threaded_nomerge,False,3,1,,3.4,2295,2,2297
-caselaw,333,maintenance_threaded_nomerge,False,5,1,,2.7,2355,2,2357
-caselaw,343,maintenance_threaded_nomerge,True,4,1,,1.0,2241,2,2243
-caselaw,339,maintenance_threaded_nomerge,True,5,1,,1.2,2303,2,2305
-caselaw,345,maintenance_threaded_nomerge,False,2,1,,1.4,2251,2,2253
-caselaw,341,maintenance_threaded_nomerge,False,5,1,,1.3,2247,2,2249
-caselaw,347,maintenance_threaded_nomerge,True,2,1,,0.2,2216,2,2218
-caselaw,349,maintenance_threaded_nomerge,False,5,1,,0.3,2285,2,2287
-caselaw,353,maintenance_threaded_nomerge,False,5,1,,0.5,2347,2,2349
-caselaw,357,maintenance_threaded_nomerge,True,5,1,,0.3,2305,2,2307
-caselaw,351,maintenance_threaded_nomerge,False,5,1,,1.2,2254,2,2256
-caselaw,355,maintenance_threaded_nomerge,False,4,1,,0.8,2260,2,2262
-caselaw,361,maintenance_threaded_nomerge,False,4,1,,0.3,2312,2,2314
-caselaw,365,maintenance_threaded_nomerge,True,5,1,,46.7,2246,2,2248
-caselaw,363,maintenance_threaded_nomerge,False,5,1,,46.7,2202,2,2204
-caselaw,359,maintenance_threaded_nomerge,False,5,1,,47.7,2198,2,2200
-caselaw,367,maintenance_threaded_nomerge,False,3,1,,46.5,2261,2,2263
-caselaw,369,maintenance_threaded_nomerge,False,5,1,,0.6,2220,2,2222
-caselaw,375,maintenance_threaded_nomerge,True,5,1,,0.4,2241,2,2243
-caselaw,373,maintenance_threaded_nomerge,False,3,1,,1.1,2228,2,2230
-caselaw,371,maintenance_threaded_nomerge,False,4,1,,1.7,2315,2,2317
-caselaw,379,maintenance_threaded_nomerge,False,5,1,,0.5,2449,2,2451
-caselaw,381,maintenance_threaded_nomerge,False,5,1,,0.5,2296,2,2298
-caselaw,377,maintenance_threaded_nomerge,False,5,1,,1.4,2270,2,2272
-caselaw,389,maintenance_threaded_nomerge,False,4,1,,0.4,2227,2,2229
-caselaw,383,maintenance_threaded_nomerge,False,5,1,,1.5,2239,2,2241
-caselaw,387,maintenance_threaded_nomerge,False,5,1,,0.9,2256,2,2258
-caselaw,385,maintenance_threaded_nomerge,False,5,1,,1.9,2233,2,2235
-caselaw,393,maintenance_threaded_nomerge,False,3,1,,3.0,2285,2,2287
-caselaw,395,maintenance_threaded_nomerge,False,5,1,,2.8,2264,2,2266
-caselaw,391,maintenance_threaded_nomerge,False,5,1,,3.4,2273,2,2275
-caselaw,397,maintenance_threaded_nomerge,False,5,1,,1.8,2259,3,2262
-caselaw,399,maintenance_threaded_nomerge,False,5,1,,1.1,2274,2,2276
+wiki,61,maintenance_threaded_nomerge,True,"25,000.",1,,50.7,492,5,497
+wiki,63,maintenance_threaded_nomerge,False,No information provided.,1,,49.9,1324,5,1329
+wiki,62,maintenance_threaded_nomerge,True,The Wall Street Journal and The New York Times.,1,,50.5,491,11,502
+wiki,59,maintenance_threaded_nomerge,False,No answer available.,1,,50.8,2650,5,2655
+wiki,65,maintenance_threaded_nomerge,False,None mentioned.,1,,1.0,2796,4,2800
+wiki,66,maintenance_threaded_nomerge,False,No information provided.,1,,0.9,454,5,459
+wiki,64,maintenance_threaded_nomerge,False,There is no information about a public radio station.,1,,1.1,457,11,468
+wiki,67,maintenance_threaded_nomerge,False,No information available.,1,,0.7,454,5,459
+wiki,69,maintenance_threaded_nomerge,True,"Over 35,000.",1,,0.5,453,7,460
+wiki,68,maintenance_threaded_nomerge,True,"Ramanathan Raju, MD.",1,,0.3,451,9,460
+wiki,71,maintenance_threaded_nomerge,False,Tokyo Fire Department.,1,,0.2,456,6,462
+wiki,70,maintenance_threaded_nomerge,False,Not provided.,1,,0.3,1424,4,1428
+wiki,75,maintenance_threaded_nomerge,False,Hundreds.,1,,0.7,627,3,630
+wiki,72,maintenance_threaded_nomerge,False,New York City Subway.,1,,1.7,3986,6,3992
+wiki,73,maintenance_threaded_nomerge,True,11 Metrotech Center.,1,,1.4,1300,7,1307
+wiki,76,maintenance_threaded_nomerge,True,11.57 million.,1,,0.9,426,6,432
+wiki,74,maintenance_threaded_nomerge,True,The New York School.,1,,2.7,556,6,562
+wiki,77,maintenance_threaded_nomerge,True,"MetLife Stadium, the new Yankee Stadium, Madison Square Garden, and Citi Field.",1,,0.6,3085,19,3104
+wiki,78,maintenance_threaded_nomerge,False,No information.,1,,0.5,276,4,280
+wiki,79,maintenance_threaded_nomerge,True,Hockey.,1,,0.4,1189,4,1193
+wiki,81,maintenance_threaded_nomerge,True,United States Open Tennis Championships.,1,,0.4,353,7,360
+wiki,82,maintenance_threaded_nomerge,False,New York City Subway.,1,,0.4,2238,6,2244
+wiki,80,maintenance_threaded_nomerge,False,There is no answer as the passage does not mention a collegiate basketball championship.,1,,0.7,356,16,372
+wiki,84,maintenance_threaded_nomerge,True,"7,000",1,,0.5,979,4,983
+wiki,85,maintenance_threaded_nomerge,True,109 million.,1,,0.5,984,4,988
+wiki,86,maintenance_threaded_nomerge,False,Brooklyn Bridge,1,,0.5,4208,4,4212
+wiki,83,maintenance_threaded_nomerge,True,54.6%,1,,1.4,801,5,806
+wiki,87,maintenance_threaded_nomerge,True,The Lincoln Tunnel.,1,,0.4,2495,5,2500
+wiki,89,maintenance_threaded_nomerge,True,Catskill Mountains.,1,,0.3,1112,6,1118
+wiki,88,maintenance_threaded_nomerge,True,"over 200,000",1,,0.6,1169,6,1175
+wiki,90,maintenance_threaded_nomerge,True,51,1,,50.5,730,2,732
+wiki,93,maintenance_threaded_nomerge,False,National Library of Australia.,1,,49.8,4876,6,4882
+wiki,92,maintenance_threaded_nomerge,False,No information available.,1,,50.6,455,5,460
+wiki,91,maintenance_threaded_nomerge,True,67%,1,,50.9,735,3,738
+wiki,94,maintenance_threaded_nomerge,True,Fifth Avenue.,1,,0.6,320,5,325
+wiki,95,maintenance_threaded_nomerge,True,New York City FC.,1,,0.6,271,6,277
+wiki,97,maintenance_threaded_nomerge,False,Entertainment.,1,,0.5,416,4,420
+wiki,96,maintenance_threaded_nomerge,True,JFK International Airport.,1,,0.5,977,6,983
+wiki,98,maintenance_threaded_nomerge,False,Western portion.,1,,0.3,1448,4,1452
+wiki,99,maintenance_threaded_nomerge,False,There is no information about this in the passage.,1,,0.4,318,11,329
+wiki,100,maintenance_threaded_nomerge,False,Eastern District of New York.,1,,0.4,3195,7,3202
+news,2,maintenance_threaded_nomerge,False,"Australian soldier, civilians, and Taliban militants.",1,,0.6,1300,10,1310
+news,3,maintenance_threaded_nomerge,False,Michio Kanda.,1,,0.2,288,6,294
+news,4,maintenance_threaded_nomerge,False,Yes.,1,,0.7,283,3,286
+news,5,maintenance_threaded_nomerge,False,AC Milan.,1,,0.5,302,4,306
+news,1,maintenance_threaded_nomerge,False,"Four Australian troops, 43 civilians, 60 others wounded, 26 people hospitalized, 2 bus riders, 1 pickup driver, 2 cars overturned, 10 critically injured, 15 people in the minivan, 1,800 wounded.",1,,0.7,1776,53,1829
+news,6,maintenance_threaded_nomerge,True,Third.,1,,0.2,300,3,303
+news,8,maintenance_threaded_nomerge,True,Gulder Ultimate Search.,1,,0.3,310,7,317
+news,7,maintenance_threaded_nomerge,True,Heineken's local unit.,1,,0.6,313,8,321
+news,10,maintenance_threaded_nomerge,True,June 2002.,1,,0.3,938,6,944
+news,9,maintenance_threaded_nomerge,False,Routine colonoscopy.,1,,0.7,945,6,951
+news,11,maintenance_threaded_nomerge,False,Southern Afghanistan.,1,,0.3,2282,4,2286
+news,12,maintenance_threaded_nomerge,False,an al Qaeda-affiliated group.,1,,0.5,516,8,524
+news,13,maintenance_threaded_nomerge,False,"July 7, 2005.",1,,0.7,283,9,292
+news,14,maintenance_threaded_nomerge,True,Three Chinese nationals.,1,,0.3,401,5,406
+news,15,maintenance_threaded_nomerge,True,Assistant Attorney General Alice Fisher.,1,,0.3,410,7,417
+news,17,maintenance_threaded_nomerge,False,Demand democracy restoration in Pakistan.,1,,0.4,309,7,316
+news,16,maintenance_threaded_nomerge,False,"Kim Jong Il, Kim Jong Nam, Kim Jong Un, Prachanda.",1,,0.4,1461,17,1478
+news,19,maintenance_threaded_nomerge,True,Julio Cruz.,1,,0.2,475,5,480
+news,18,maintenance_threaded_nomerge,False,Yes.,1,,0.5,978,3,981
+news,23,maintenance_threaded_nomerge,True,France.,1,,49.8,560,3,563
+news,21,maintenance_threaded_nomerge,False,Unknown.,1,,50.4,222,3,225
+news,20,maintenance_threaded_nomerge,False,None.,1,,50.5,475,3,478
+news,22,maintenance_threaded_nomerge,True,L'Hydroptere,1,,50.4,339,7,346
+news,24,maintenance_threaded_nomerge,True,Second degree aggravated battery.,1,,0.5,379,6,385
+news,25,maintenance_threaded_nomerge,True,The Jena 6 case.,1,,0.4,381,8,389
+news,27,maintenance_threaded_nomerge,False,Hugo Chavez.,1,,0.2,716,5,721
+news,26,maintenance_threaded_nomerge,False,No mention.,1,,0.6,605,4,609
+news,29,maintenance_threaded_nomerge,False,Corinthians,1,,0.4,361,4,365
+news,28,maintenance_threaded_nomerge,False,Yes.,1,,0.8,367,3,370
+news,30,maintenance_threaded_nomerge,True,Baku.,1,,1.9,604,4,608
+news,31,maintenance_threaded_nomerge,True,New Delhi.,1,,2.3,281,4,285
+news,33,maintenance_threaded_nomerge,False,ATF.,1,,1.8,378,4,382
+news,32,maintenance_threaded_nomerge,True,"100,000",1,,2.3,273,4,277
+news,34,maintenance_threaded_nomerge,False,U.S. government sources.,1,,0.9,381,7,388
+news,35,maintenance_threaded_nomerge,True,56 years old.,1,,1.3,343,5,348
+news,36,maintenance_threaded_nomerge,False,None mentioned.,1,,1.0,978,4,982
+news,40,maintenance_threaded_nomerge,False,Withdrawn their money.,1,,0.6,451,6,457
+news,37,maintenance_threaded_nomerge,False,Farouki.,1,,1.0,2699,5,2704
+news,39,maintenance_threaded_nomerge,False,Dida,1,,0.5,650,3,653
+news,38,maintenance_threaded_nomerge,False,49 people.,1,,1.6,2166,4,2170
+news,41,maintenance_threaded_nomerge,True,Search and rescue crews.,1,,0.3,1080,6,1086
+news,42,maintenance_threaded_nomerge,False,Johannesburg.,1,,0.3,1292,6,1298
+news,43,maintenance_threaded_nomerge,True,genocide,1,,0.3,549,3,552
+news,45,maintenance_threaded_nomerge,False,The vote might be put off.,1,,0.3,216,8,224
+news,46,maintenance_threaded_nomerge,True,Tech International,1,,0.3,374,3,377
+news,44,maintenance_threaded_nomerge,False,Turkey's treatment of Armenians in World War I.,1,,0.4,652,12,664
+news,47,maintenance_threaded_nomerge,False,"8, 6, 1.",1,,0.3,1518,9,1527
+news,50,maintenance_threaded_nomerge,True,Huntington's diseases.,1,,0.3,301,7,308
+news,48,maintenance_threaded_nomerge,False,The actual number of people posing a threat to Britain's security could be double.,1,,0.8,696,17,713
+news,52,maintenance_threaded_nomerge,False,18,1,,48.4,257,2,259
+news,49,maintenance_threaded_nomerge,False,Fighting the Taliban.,1,,49.7,732,6,738
+news,53,maintenance_threaded_nomerge,True,Debra Lafave.,1,,48.1,472,6,478
+news,51,maintenance_threaded_nomerge,True,Kenneth Rowles.,1,,49.4,550,6,556
+news,55,maintenance_threaded_nomerge,True,Minors.,1,,0.6,472,4,476
+news,57,maintenance_threaded_nomerge,False,No information.,1,,0.7,813,4,817
+news,54,maintenance_threaded_nomerge,False,Contact with minors.,1,,0.9,469,5,474
+news,56,maintenance_threaded_nomerge,False,1-1.,1,,0.8,775,5,780
+news,59,maintenance_threaded_nomerge,False,More pleasant.,1,,0.3,345,4,349
+news,58,maintenance_threaded_nomerge,False,Mable Randon.,1,,0.6,2160,6,2166
+news,60,maintenance_threaded_nomerge,False,2004,1,,1.2,404,3,407
+news,61,maintenance_threaded_nomerge,True,Sgt. Michael Strank.,1,,1.9,317,8,325
+news,63,maintenance_threaded_nomerge,False,179 for two.,1,,1.0,890,5,895
+news,65,maintenance_threaded_nomerge,True,Princess Eugenie.,1,,0.3,315,6,321
+news,62,maintenance_threaded_nomerge,False,Iwo Jima.,1,,1.8,310,6,316
+news,64,maintenance_threaded_nomerge,False,The national parliament and state politicians.,1,,1.6,927,8,935
+news,66,maintenance_threaded_nomerge,True,National Hurricane Center,1,,1.0,511,4,515
+news,68,maintenance_threaded_nomerge,False,David Tuason,1,,1.4,274,4,278
+news,69,maintenance_threaded_nomerge,False,"Tighter restrictions, substance abuse therapy, mental health counseling, and curfew.",1,,0.9,713,17,730
+news,67,maintenance_threaded_nomerge,False,Bill Proenza's resignation.,1,,2.1,705,7,712
+news,70,maintenance_threaded_nomerge,True,A Virginia grand jury.,1,,1.2,497,6,503
+news,72,maintenance_threaded_nomerge,False,Heidi Tagliavini.,1,,0.6,214,8,222
+news,71,maintenance_threaded_nomerge,False,Tom Daschle.,1,,1.0,436,6,442
+news,73,maintenance_threaded_nomerge,False,Powdery substance.,1,,0.6,670,6,676
+news,74,maintenance_threaded_nomerge,False,Christopher Shelton Timmons.,1,,0.8,554,7,561
+news,75,maintenance_threaded_nomerge,False,Half a Merck share and $10.50.,1,,0.7,296,12,308
+news,76,maintenance_threaded_nomerge,True,Falsely imprisoning a male escort.,1,,0.3,581,10,591
+news,77,maintenance_threaded_nomerge,True,The August war between Georgia and Russia.,1,,0.3,219,9,228
+news,79,maintenance_threaded_nomerge,True,Chip Auman's.,1,,0.5,635,6,641
+news,78,maintenance_threaded_nomerge,True,A 23-year-old man.,1,,0.9,816,8,824
+news,81,maintenance_threaded_nomerge,False,No answer available.,1,,48.8,1181,5,1186
+news,83,maintenance_threaded_nomerge,False,Air-to-ground and air-to-air missions.,1,,48.2,651,10,661
+news,80,maintenance_threaded_nomerge,True,University of South Carolina.,1,,49.3,889,6,895
+news,82,maintenance_threaded_nomerge,False,All F-15s.,1,,48.3,653,7,660
+news,85,maintenance_threaded_nomerge,False,Roma.,1,,0.3,302,4,306
+news,84,maintenance_threaded_nomerge,False,No information.,1,,0.5,198,4,202
+news,86,maintenance_threaded_nomerge,False,It crashed.,1,,0.5,1547,4,1551
+news,87,maintenance_threaded_nomerge,False,Yes.,1,,0.5,1175,3,1178
+news,88,maintenance_threaded_nomerge,False,Wednesday.,1,,0.6,289,3,292
+news,89,maintenance_threaded_nomerge,False,Referendum on a new constitution.,1,,0.5,255,8,263
+news,91,maintenance_threaded_nomerge,False,There is no mention of firefighters still at the scene.,1,,1.5,475,12,487
+news,92,maintenance_threaded_nomerge,False,$390 billion.,1,,1.2,404,5,409
+news,93,maintenance_threaded_nomerge,False,None.,1,,1.4,481,3,484
+news,94,maintenance_threaded_nomerge,True,Human shields.,1,,0.7,509,4,513
+news,95,maintenance_threaded_nomerge,False,No information.,1,,0.6,663,4,667
+news,96,maintenance_threaded_nomerge,False,Comments about QuikSCAT.,1,,1.3,1064,8,1072
+news,97,maintenance_threaded_nomerge,False,No information is given about Anbar.,1,,2.0,609,9,618
+news,98,maintenance_threaded_nomerge,False,Cape Town to Johannesburg.,1,,1.5,1260,7,1267
+news,99,maintenance_threaded_nomerge,True,Kevin Federline.,1,,0.8,426,5,431
+news,90,maintenance_threaded_nomerge,True,Hellish inferno.,1,,5.7,1497,6,1503
+news,100,maintenance_threaded_nomerge,True,July.,1,,0.3,769,3,772
+news,103,maintenance_threaded_nomerge,False,Flights.,1,,0.4,410,4,414
+news,102,maintenance_threaded_nomerge,False,14.,1,,0.5,1030,3,1033
+news,101,maintenance_threaded_nomerge,False,"A rifle, a grenade, a pistol, and ammunition.",1,,0.8,577,13,590
+news,104,maintenance_threaded_nomerge,False,The earth.,1,,0.7,266,4,270
+news,106,maintenance_threaded_nomerge,False,Democratic Republic of Congo.,1,,0.5,1291,6,1297
+news,105,maintenance_threaded_nomerge,False,"It heard the earth ""groan"".",1,,1.2,494,9,503
+news,107,maintenance_threaded_nomerge,False,Kutacane district in Aceh province.,1,,0.6,1218,11,1229
+news,108,maintenance_threaded_nomerge,False,Cells from frozen mice.,1,,0.7,399,6,405
+news,109,maintenance_threaded_nomerge,False,38 years.,1,,0.5,741,4,745
+news,112,maintenance_threaded_nomerge,False,No one.,1,,48.3,182,4,186
+news,113,maintenance_threaded_nomerge,True,434 people.,1,,48.2,284,4,288
+news,110,maintenance_threaded_nomerge,True,Eme Zuru Ayortor.,1,,48.8,536,9,545
+news,111,maintenance_threaded_nomerge,False,"1,300",1,,48.6,676,4,680
+news,115,maintenance_threaded_nomerge,True,Scandal.,1,,0.5,644,4,648
+news,116,maintenance_threaded_nomerge,True,72.,1,,0.5,643,3,646
+news,114,maintenance_threaded_nomerge,False,Russia.,1,,0.9,588,3,591
+news,117,maintenance_threaded_nomerge,False,Trash.,1,,0.6,547,3,550
+news,118,maintenance_threaded_nomerge,False,£1 billion.,1,,0.5,1034,5,1039
+news,121,maintenance_threaded_nomerge,False,46 years old.,1,,0.6,580,5,585
+news,122,maintenance_threaded_nomerge,False,Alcohol and drugs were not suspected factors.,1,,1.2,901,10,911
+news,119,maintenance_threaded_nomerge,True,"Atlanta, Georgia.",1,,2.3,293,5,298
+news,123,maintenance_threaded_nomerge,True,Universal Studios.,1,,1.6,589,4,593
+news,120,maintenance_threaded_nomerge,False,The former first couple and the Bush family.,1,,2.9,187,10,197
+news,124,maintenance_threaded_nomerge,False,Meeting Youssif at Universal Studios.,1,,0.7,637,9,646
+news,125,maintenance_threaded_nomerge,True,Andrea Bocelli's.,1,,0.4,242,8,250
+news,126,maintenance_threaded_nomerge,True,Mexico City.,1,,0.6,269,4,273
+news,127,maintenance_threaded_nomerge,True,Moninder Singh Pandher,1,,1.5,259,6,265
+news,128,maintenance_threaded_nomerge,True,Sunday.,1,,1.8,309,3,312
+news,129,maintenance_threaded_nomerge,False,No one mentioned.,1,,1.8,252,5,257
+news,132,maintenance_threaded_nomerge,False,No.,1,,0.5,419,3,422
+news,131,maintenance_threaded_nomerge,False,Scott McClellan,1,,0.8,415,6,421
+news,130,maintenance_threaded_nomerge,False,2 million.,1,,2.3,778,4,782
+news,133,maintenance_threaded_nomerge,True,Stress cracks.,1,,0.7,649,5,654
+news,134,maintenance_threaded_nomerge,True,10 percent.,1,,0.5,557,4,561
+news,136,maintenance_threaded_nomerge,False,surveillance,1,,0.5,1078,3,1081
+news,135,maintenance_threaded_nomerge,False,None mentioned.,1,,0.8,857,4,861
+news,138,maintenance_threaded_nomerge,True,A loaf of bread.,1,,0.3,329,6,335
+news,137,maintenance_threaded_nomerge,False,No information.,1,,0.9,314,4,318
+news,139,maintenance_threaded_nomerge,False,"Batna, east of Algiers.",1,,0.7,352,9,361
+news,141,maintenance_threaded_nomerge,False,There is no information about Burk's car.,1,,48.7,193,10,203
+news,143,maintenance_threaded_nomerge,False,None.,1,,48.3,434,3,437
+news,140,maintenance_threaded_nomerge,False,Robert Dziekanski,1,,49.1,895,7,902
+news,142,maintenance_threaded_nomerge,False,"Madrid, Spain.",1,,48.6,635,6,641
+news,145,maintenance_threaded_nomerge,True,Seven counts of knowingly transferring the HIV virus.,1,,0.4,325,10,335
+news,147,maintenance_threaded_nomerge,False,Bloody uprising.,1,,0.8,944,5,949
+news,144,maintenance_threaded_nomerge,False,Ivan Cameron.,1,,0.9,325,5,330
+news,146,maintenance_threaded_nomerge,False,Helicopter and PA-32.,1,,1.0,285,8,293
+news,148,maintenance_threaded_nomerge,True,Heart disease.,1,,0.6,276,4,280
+news,151,maintenance_threaded_nomerge,True,Hillary Clinton.,1,,0.6,296,4,300
+news,150,maintenance_threaded_nomerge,False,No information.,1,,1.2,159,4,163
+news,152,maintenance_threaded_nomerge,False,Air Serv International.,1,,1.3,1547,5,1552
+news,149,maintenance_threaded_nomerge,True,"Honesty, solidarity, fraternity.",1,,2.3,329,9,338
+news,154,maintenance_threaded_nomerge,True,Heath Ledger,1,,1.0,251,4,255
+news,153,maintenance_threaded_nomerge,False,Raised concerns.,1,,1.8,362,4,366
+news,155,maintenance_threaded_nomerge,True,Allison Pearson.,1,,0.7,284,5,289
+news,157,maintenance_threaded_nomerge,False,indigenous majority.,1,,0.6,258,5,263
+news,159,maintenance_threaded_nomerge,True,Holding veterans care funding hostage.,1,,1.1,456,8,464
+news,160,maintenance_threaded_nomerge,True,Spending.,1,,0.7,459,4,463
+news,156,maintenance_threaded_nomerge,False,The Georgian conflict.,1,,2.6,569,5,574
+news,162,maintenance_threaded_nomerge,False,Whale strandings.,1,,0.7,459,6,465
+news,161,maintenance_threaded_nomerge,False,Peaceful purposes.,1,,1.2,527,5,532
+news,158,maintenance_threaded_nomerge,False,There is no mention of Donna Greenwell.,1,,2.7,244,10,254
+news,163,maintenance_threaded_nomerge,False,International troops.,1,,0.7,361,4,365
+news,164,maintenance_threaded_nomerge,False,No information is provided about the channel.,1,,0.4,152,9,161
+news,165,maintenance_threaded_nomerge,False,Comedy.,1,,0.4,411,4,415
+news,166,maintenance_threaded_nomerge,False,The last moments of Robert Dziekanski.,1,,0.5,1317,12,1329
+news,167,maintenance_threaded_nomerge,True,David Beckham.,1,,0.6,338,4,342
+news,168,maintenance_threaded_nomerge,False,Sevilla.,1,,0.5,415,4,419
+news,169,maintenance_threaded_nomerge,False,No mention.,1,,0.6,651,4,655
+news,171,maintenance_threaded_nomerge,False,Imposing a state of emergency.,1,,48.7,306,8,314
+news,170,maintenance_threaded_nomerge,False,Simpson had guns.,1,,48.9,878,7,885
+news,172,maintenance_threaded_nomerge,False,Not mentioned.,1,,48.4,265,4,269
+news,173,maintenance_threaded_nomerge,True,Her role as Julia Sugarbaker.,1,,48.6,1304,9,1313
+news,175,maintenance_threaded_nomerge,False,Voluntary manslaughter.,1,,0.8,633,5,638
+news,176,maintenance_threaded_nomerge,False,15 months ago.,1,,0.6,636,5,641
+news,174,maintenance_threaded_nomerge,False,No one mentioned.,1,,0.9,1165,5,1170
+news,177,maintenance_threaded_nomerge,False,"""Bad Day""",1,,0.8,501,5,506
+news,179,maintenance_threaded_nomerge,False,Freedom Power.,1,,0.2,448,4,452
+news,181,maintenance_threaded_nomerge,False,"Haymarket, central London.",1,,0.4,330,7,337
+news,178,maintenance_threaded_nomerge,False,No one.,1,,0.6,275,4,279
+news,180,maintenance_threaded_nomerge,True,CenterPoint Energy's Critical Care Program.,1,,1.5,447,9,456
+news,182,maintenance_threaded_nomerge,False,No information.,1,,1.3,549,4,553
+news,183,maintenance_threaded_nomerge,False,"$60,000",1,,1.5,342,5,347
+news,184,maintenance_threaded_nomerge,True,Saddam Hussein era,1,,1.5,317,6,323
+news,185,maintenance_threaded_nomerge,True,The crown of the Statue of Liberty.,1,,0.5,371,9,380
+news,186,maintenance_threaded_nomerge,False,7.5 percent.,1,,0.7,412,6,418
+news,190,maintenance_threaded_nomerge,False,Typhoon.,1,,1.0,409,4,413
+news,187,maintenance_threaded_nomerge,False,Normal.,1,,1.5,554,3,557
+news,188,maintenance_threaded_nomerge,False,"Concerned citizens, civic and religious leaders, and a program employing ""concerned local citizens"".",1,,2.3,558,21,579
+news,189,maintenance_threaded_nomerge,True,Yuvraj Singh.,1,,2.7,1318,6,1324
+news,191,maintenance_threaded_nomerge,False,"Homes, road, water line, windows, power.",1,,0.5,510,13,523
+news,193,maintenance_threaded_nomerge,False,53 years.,1,,0.3,305,4,309
+news,192,maintenance_threaded_nomerge,False,There is no information.,1,,0.9,380,6,386
+news,195,maintenance_threaded_nomerge,False,Alabama.,1,,0.2,577,3,580
+news,194,maintenance_threaded_nomerge,False,At least 43 civilians.,1,,0.4,1689,7,1696
+news,196,maintenance_threaded_nomerge,False,No mention.,1,,0.4,645,4,649
+news,198,maintenance_threaded_nomerge,True,Racially motivated threats.,1,,0.4,273,7,280
+news,197,maintenance_threaded_nomerge,True,"9,500.",1,,0.4,315,5,320
+news,200,maintenance_threaded_nomerge,True,Augustin Binya.,1,,0.4,653,6,659
+news,199,maintenance_threaded_nomerge,True,Funny People,1,,49.3,346,3,349
+novel,00950a36_0,maintenance_threaded_nomerge,False,Ilbars,1,,0.3,2275,3,2278
+novel,00950a36_1,maintenance_threaded_nomerge,True,Olivia.,1,,0.3,729,4,733
+novel,00950a36_2,maintenance_threaded_nomerge,True,Akif.,1,,0.3,2937,4,2941
+novel,00950a36_5,maintenance_threaded_nomerge,True,Olivia.,1,,0.4,3052,4,3056
+novel,00950a36_6,maintenance_threaded_nomerge,True,Olivia.,1,,0.3,779,4,783
+novel,00950a36_8,maintenance_threaded_nomerge,True,Olivia.,1,,0.3,725,4,729
+novel,00950a36_7,maintenance_threaded_nomerge,False,Olivia.,1,,0.4,2276,4,2280
+novel,00950a36_9,maintenance_threaded_nomerge,True,Akif.,1,,1.1,2267,4,2271
+novel,00950a36_12,maintenance_threaded_nomerge,True,Akif.,1,,0.5,4178,4,4182
+novel,00950a36_10,maintenance_threaded_nomerge,True,Conan.,1,,1.0,3601,4,3605
+novel,00950a36_11,maintenance_threaded_nomerge,False,The Brotherhood.,1,,2.0,1276,4,1280
+novel,00950a36_14,maintenance_threaded_nomerge,False,A boulder.,1,,1.0,1361,5,1366
+novel,00950a36_15,maintenance_threaded_nomerge,True,Conan.,1,,0.8,1279,4,1283
+novel,00950a36_13,maintenance_threaded_nomerge,False,Ilbars.,1,,1.7,2268,4,2272
+novel,3e966645_1,maintenance_threaded_nomerge,True,Peru.,1,,0.9,1847,4,1851
+novel,3e966645_2,maintenance_threaded_nomerge,False,Mr. Clavering.,1,,0.9,2428,7,2435
+novel,3e966645_6,maintenance_threaded_nomerge,False,Vincey.,1,,0.7,1984,5,1989
+novel,3e966645_7,maintenance_threaded_nomerge,False,Brown.,1,,0.8,1400,3,1403
+novel,3e966645_4,maintenance_threaded_nomerge,False,coffee,1,,2.2,1845,2,1847
+novel,3e966645_5,maintenance_threaded_nomerge,False,Influenza.,1,,2.7,1563,6,1569
+novel,3e966645_9,maintenance_threaded_nomerge,True,Tahiti.,1,,0.7,1291,5,1296
+novel,3e966645_8,maintenance_threaded_nomerge,True,Papeete.,1,,1.1,1294,5,1299
+novel,3e966645_10,maintenance_threaded_nomerge,False,A French man-of-war.,1,,0.6,1295,7,1302
+novel,3e966645_12,maintenance_threaded_nomerge,True,smallpox,1,,0.3,1846,4,1850
+novel,3e966645_11,maintenance_threaded_nomerge,True,Sydney.,1,,1.3,1842,4,1846
+novel,3e966645_16,maintenance_threaded_nomerge,False,A truck.,1,,0.2,482,4,486
+novel,3e966645_17,maintenance_threaded_nomerge,True,Peru and the mines.,1,,0.3,1846,7,1853
+novel,3e966645_19,maintenance_threaded_nomerge,False,Herrick,1,,0.3,1309,3,1312
+novel,3e966645_20,maintenance_threaded_nomerge,True,California champagne.,1,,0.2,2519,4,2523
+novel,3e966645_23,maintenance_threaded_nomerge,True,Herrick.,1,,47.8,1308,4,1312
+novel,3e966645_21,maintenance_threaded_nomerge,False,Brown.,1,,49.9,7340,3,7343
+novel,6a659de3_3,maintenance_threaded_nomerge,False,"Ozma, Glinda the Good, the Wizard.",1,,0.5,3802,13,3815
+novel,3e966645_22,maintenance_threaded_nomerge,False,There is no mention of a plan to take the ship to a different destination.,1,,49.7,489,17,506
+novel,6a659de3_2,maintenance_threaded_nomerge,True,Ayesha.,1,,49.4,5729,5,5734
+novel,6a659de3_5,maintenance_threaded_nomerge,False,There is no information about Vincey putting someone in charge of raising Leo.,1,,0.2,231,16,247
+novel,6a659de3_4,maintenance_threaded_nomerge,True,Leo Vincey.,1,,0.3,411,5,416
+novel,6a659de3_6,maintenance_threaded_nomerge,False,Ozma.,1,,0.4,7122,5,7127
+novel,6a659de3_11,maintenance_threaded_nomerge,True,Vincey.,1,,0.2,685,5,690
+novel,6a659de3_8,maintenance_threaded_nomerge,False,No one is mentioned as saving Leo after he is injured.,1,,0.5,686,13,699
+novel,6a659de3_7,maintenance_threaded_nomerge,False,Egypt.,1,,1.3,4125,3,4128
+novel,6a659de3_12,maintenance_threaded_nomerge,False,No one is mentioned.,1,,1.4,432,6,438
+novel,9561a72a_0,maintenance_threaded_nomerge,True,Aunt Em and Uncle Henry.,1,,1.2,5593,8,5601
+novel,9561a72a_1,maintenance_threaded_nomerge,False,Ozma.,1,,0.7,9067,5,9072
+novel,6a659de3_14,maintenance_threaded_nomerge,True,Ludwig Horace Holly.,1,,1.7,1882,8,1890
+novel,6a659de3_17,maintenance_threaded_nomerge,False,No one.,1,,2.0,573,4,577
+novel,9561a72a_3,maintenance_threaded_nomerge,False,Clavering Park.,1,,0.4,1487,6,1493
+novel,9561a72a_5,maintenance_threaded_nomerge,False,Uncle Henry and Aunt Em.,1,,1.0,1050,8,1058
+novel,9561a72a_9,maintenance_threaded_nomerge,False,Uncle Henry and Aunt Em.,1,,1.1,4594,8,4602
+novel,9561a72a_10,maintenance_threaded_nomerge,True,The Magic Belt.,1,,1.2,3653,5,3658
+novel,9561a72a_7,maintenance_threaded_nomerge,True,Underground.,1,,2.3,1549,4,1553
+novel,9561a72a_12,maintenance_threaded_nomerge,True,General Guph.,1,,0.6,1555,6,1561
+novel,9561a72a_11,maintenance_threaded_nomerge,True,King Roquat the Red and General Guph.,1,,1.1,5094,12,5106
+novel,bf55d1c1_0,maintenance_threaded_nomerge,False,A stick.,1,,0.6,684,4,688
+novel,bf55d1c1_1,maintenance_threaded_nomerge,False,No one.,1,,0.6,2052,4,2056
+novel,bf55d1c1_4,maintenance_threaded_nomerge,True,Mimi Watford.,1,,0.5,1858,6,1864
+novel,bf55d1c1_2,maintenance_threaded_nomerge,True,Adam.,1,,1.3,260,3,263
+novel,bf55d1c1_5,maintenance_threaded_nomerge,False,King Roquat the Red.,1,,1.2,10600,7,10607
+novel,bf55d1c1_6,maintenance_threaded_nomerge,False,Black snakes.,1,,0.7,684,4,688
+novel,bf55d1c1_3,maintenance_threaded_nomerge,False,Edgar Caswall,1,,2.0,689,5,694
+novel,bf55d1c1_12,maintenance_threaded_nomerge,False,A distant land.,1,,47.3,1297,5,1302
+novel,bf55d1c1_11,maintenance_threaded_nomerge,False,No one.,1,,49.1,687,4,691
+novel,bf55d1c1_10,maintenance_threaded_nomerge,False,There is no mention of Arabella or Adam working with Sir Nathaniel to stop her.,1,,49.1,1301,19,1320
+novel,ca4b98f5_0,maintenance_threaded_nomerge,False,None given.,1,,0.8,2301,4,2305
+novel,bf55d1c1_9,maintenance_threaded_nomerge,False,The end of August.,1,,50.1,1484,6,1490
+novel,ca4b98f5_1,maintenance_threaded_nomerge,True,Harry Clavering.,1,,0.6,2743,6,2749
+novel,ca4b98f5_3,maintenance_threaded_nomerge,False,Clavering Park.,1,,0.2,2221,6,2227
+novel,ca4b98f5_2,maintenance_threaded_nomerge,True,Beilby and Burton.,1,,0.5,1624,7,1631
+novel,ca4b98f5_8,maintenance_threaded_nomerge,False,Lady Ongar,1,,0.4,1490,5,1495
+novel,ca4b98f5_4,maintenance_threaded_nomerge,False,Lord Ongar.,1,,0.9,1637,6,1643
+novel,ca4b98f5_10,maintenance_threaded_nomerge,True,Lord Ongar.,1,,0.3,2770,6,2776
+novel,ca4b98f5_12,maintenance_threaded_nomerge,False,Sir Hugh Clavering.,1,,1.0,1485,7,1492
+novel,ca4b98f5_13,maintenance_threaded_nomerge,False,Harry Clavering.,1,,0.7,2495,6,2501
+novel,ca4b98f5_11,maintenance_threaded_nomerge,False,Lady Ongar.,1,,1.7,1492,6,1498
+novel,ca4b98f5_6,maintenance_threaded_nomerge,True,Florence Burton.,1,,2.4,1493,5,1498
+novel,ca4b98f5_14,maintenance_threaded_nomerge,False,The clergy.,1,,0.7,816,4,820
+novel,ca4b98f5_16,maintenance_threaded_nomerge,False,Lady Ongar.,1,,0.6,1487,6,1493
+novel,ca4b98f5_17,maintenance_threaded_nomerge,True,Harry Clavering.,1,,1.6,4170,6,4176
+novel,ca4b98f5_18,maintenance_threaded_nomerge,False,Julia Brabazon.,1,,1.1,4403,7,4410
+novel,ca4b98f5_15,maintenance_threaded_nomerge,False,Julia Brabazon,1,,2.1,1568,6,1574
+caselaw,1,maintenance_threaded_nomerge,False,5,1,,0.3,3144,2,3146
+caselaw,7,maintenance_threaded_nomerge,False,5,1,,0.3,3082,2,3084
+caselaw,3,maintenance_threaded_nomerge,True,5,1,,0.3,3068,2,3070
+caselaw,5,maintenance_threaded_nomerge,False,2,1,,0.6,3232,2,3234
+caselaw,11,maintenance_threaded_nomerge,False,1,1,,0.3,3114,2,3116
+caselaw,13,maintenance_threaded_nomerge,False,5,1,,0.4,3149,2,3151
+caselaw,15,maintenance_threaded_nomerge,False,5,1,,0.6,3055,2,3057
+caselaw,9,maintenance_threaded_nomerge,True,5,1,,1.3,3123,2,3125
+caselaw,19,maintenance_threaded_nomerge,False,4,1,,0.6,3119,2,3121
+caselaw,21,maintenance_threaded_nomerge,False,5,1,,0.2,3082,2,3084
+caselaw,27,maintenance_threaded_nomerge,True,2,1,,47.6,3100,2,3102
+caselaw,25,maintenance_threaded_nomerge,False,5,1,,49.0,3066,2,3068
+caselaw,17,maintenance_threaded_nomerge,False,4,1,,50.3,3170,2,3172
+caselaw,29,maintenance_threaded_nomerge,False,4,1,,0.4,3172,2,3174
+caselaw,23,maintenance_threaded_nomerge,False,2,1,,49.9,3187,2,3189
+caselaw,31,maintenance_threaded_nomerge,True,5,1,,0.5,3127,3,3130
+caselaw,33,maintenance_threaded_nomerge,False,2,1,,0.3,3117,2,3119
+caselaw,35,maintenance_threaded_nomerge,True,2,1,,0.3,3183,2,3185
+caselaw,37,maintenance_threaded_nomerge,True,5,1,,0.7,3081,2,3083
+caselaw,41,maintenance_threaded_nomerge,False,3,1,,0.5,3088,2,3090
+caselaw,39,maintenance_threaded_nomerge,False,5,1,,0.9,3084,2,3086
+caselaw,45,maintenance_threaded_nomerge,False,2,1,,1.0,3125,2,3127
+caselaw,49,maintenance_threaded_nomerge,False,3,1,,0.7,3111,2,3113
+caselaw,43,maintenance_threaded_nomerge,False,5,1,,2.0,3139,3,3142
+caselaw,47,maintenance_threaded_nomerge,False,5,1,,1.4,3116,2,3118
+caselaw,51,maintenance_threaded_nomerge,True,5,1,,0.8,3107,2,3109
+caselaw,55,maintenance_threaded_nomerge,True,2,1,,0.4,3177,2,3179
+caselaw,53,maintenance_threaded_nomerge,False,5,1,,2.2,3105,2,3107
+caselaw,61,maintenance_threaded_nomerge,False,3,1,,0.9,3070,3,3073
+caselaw,57,maintenance_threaded_nomerge,False,4,1,,1.7,3158,2,3160
+caselaw,65,maintenance_threaded_nomerge,True,5,1,,0.8,3129,2,3131
+caselaw,67,maintenance_threaded_nomerge,False,3,1,,0.3,3095,2,3097
+caselaw,63,maintenance_threaded_nomerge,False,4,1,,1.1,3157,2,3159
+caselaw,59,maintenance_threaded_nomerge,False,4,1,,3.4,3189,2,3191
+caselaw,69,maintenance_threaded_nomerge,False,3,1,,0.5,3069,2,3071
+caselaw,73,maintenance_threaded_nomerge,True,2,1,,0.4,3090,3,3093
+caselaw,75,maintenance_threaded_nomerge,True,2,1,,1.0,3087,2,3089
+caselaw,77,maintenance_threaded_nomerge,False,2,1,,0.6,3104,2,3106
+caselaw,71,maintenance_threaded_nomerge,False,5,1,,1.7,3131,2,3133
+caselaw,79,maintenance_threaded_nomerge,False,2,1,,0.6,3152,2,3154
+caselaw,87,maintenance_threaded_nomerge,False,5,1,,47.5,3116,2,3118
+caselaw,85,maintenance_threaded_nomerge,True,2,1,,49.2,3103,2,3105
+caselaw,83,maintenance_threaded_nomerge,False,5,1,,49.4,3065,2,3067
+caselaw,89,maintenance_threaded_nomerge,False,5,1,,0.5,3094,2,3096
+caselaw,81,maintenance_threaded_nomerge,False,3,1,,49.7,3149,2,3151
+caselaw,91,maintenance_threaded_nomerge,False,5,1,,0.6,3118,2,3120
+caselaw,95,maintenance_threaded_nomerge,False,4,1,,0.3,3108,2,3110
+caselaw,93,maintenance_threaded_nomerge,False,5,1,,0.5,3153,2,3155
+caselaw,97,maintenance_threaded_nomerge,False,5,1,,0.9,3099,2,3101
+caselaw,99,maintenance_threaded_nomerge,False,4,1,,0.4,3137,2,3139
+caselaw,101,maintenance_threaded_nomerge,False,3,1,,0.5,3085,2,3087
+caselaw,107,maintenance_threaded_nomerge,False,4,1,,0.5,3094,2,3096
+caselaw,105,maintenance_threaded_nomerge,False,4,1,,1.3,3182,2,3184
+caselaw,103,maintenance_threaded_nomerge,False,5,1,,1.9,3109,2,3111
+caselaw,111,maintenance_threaded_nomerge,False,5,1,,0.9,3124,2,3126
+caselaw,109,maintenance_threaded_nomerge,False,3,1,,1.6,3148,2,3150
+caselaw,115,maintenance_threaded_nomerge,True,4,1,,0.5,3200,2,3202
+caselaw,119,maintenance_threaded_nomerge,True,3,1,,1.6,3123,2,3125
+caselaw,121,maintenance_threaded_nomerge,False,5,1,,0.9,3116,2,3118
+caselaw,117,maintenance_threaded_nomerge,False,2,1,,1.4,3229,3,3232
+caselaw,125,maintenance_threaded_nomerge,False,4,1,,0.8,3107,2,3109
+caselaw,113,maintenance_threaded_nomerge,False,2,1,,3.8,3106,3,3109
+caselaw,127,maintenance_threaded_nomerge,False,5,1,,0.3,3092,2,3094
+caselaw,123,maintenance_threaded_nomerge,True,5,1,,1.2,3106,2,3108
+caselaw,129,maintenance_threaded_nomerge,True,2,1,,0.3,3226,2,3228
+caselaw,133,maintenance_threaded_nomerge,False,4,1,,0.5,3097,2,3099
+caselaw,135,maintenance_threaded_nomerge,False,5,1,,0.7,3410,2,3412
+caselaw,131,maintenance_threaded_nomerge,False,2,1,,1.2,3130,2,3132
+caselaw,137,maintenance_threaded_nomerge,False,4,1,,0.8,3278,2,3280
+caselaw,139,maintenance_threaded_nomerge,False,5,1,,0.7,3125,2,3127
+caselaw,147,maintenance_threaded_nomerge,False,4,1,,47.5,3207,2,3209
+caselaw,141,maintenance_threaded_nomerge,False,2,1,,49.5,3122,3,3125
+caselaw,149,maintenance_threaded_nomerge,False,5,1,,0.6,3155,2,3157
+caselaw,143,maintenance_threaded_nomerge,True,5,1,,49.6,3235,2,3237
+caselaw,153,maintenance_threaded_nomerge,False,2,1,,0.2,3187,2,3189
+caselaw,157,maintenance_threaded_nomerge,False,2,1,,0.4,3133,2,3135
+caselaw,151,maintenance_threaded_nomerge,True,5,1,,1.5,3109,2,3111
+caselaw,145,maintenance_threaded_nomerge,False,5,1,,51.5,3137,2,3139
+caselaw,159,maintenance_threaded_nomerge,False,3,1,,0.3,3139,2,3141
+caselaw,155,maintenance_threaded_nomerge,False,2,1,,2.5,3164,2,3166
+caselaw,163,maintenance_threaded_nomerge,True,4,1,,0.4,3072,2,3074
+caselaw,167,maintenance_threaded_nomerge,False,5,1,,0.3,3129,2,3131
+caselaw,169,maintenance_threaded_nomerge,False,1,1,,0.3,3112,2,3114
+caselaw,165,maintenance_threaded_nomerge,False,4,1,,1.0,3197,2,3199
+caselaw,173,maintenance_threaded_nomerge,False,2,1,,0.2,3148,2,3150
+caselaw,175,maintenance_threaded_nomerge,True,2,1,,1.8,3087,2,3089
+caselaw,161,maintenance_threaded_nomerge,False,5,1,,4.2,3140,2,3142
+caselaw,171,maintenance_threaded_nomerge,False,2,1,,2.8,3139,2,3141
+caselaw,183,maintenance_threaded_nomerge,True,2,1,,0.2,3160,2,3162
+caselaw,181,maintenance_threaded_nomerge,False,3,1,,0.9,3102,2,3104
+caselaw,179,maintenance_threaded_nomerge,False,5,1,,1.4,3122,2,3124
+caselaw,177,maintenance_threaded_nomerge,False,5,1,,4.0,3084,2,3086
+caselaw,189,maintenance_threaded_nomerge,False,3,1,,0.3,3099,2,3101
+caselaw,193,maintenance_threaded_nomerge,False,5,1,,0.6,3200,2,3202
+caselaw,191,maintenance_threaded_nomerge,True,3,1,,1.5,3157,3,3160
+caselaw,185,maintenance_threaded_nomerge,True,2,1,,3.3,3112,2,3114
+caselaw,197,maintenance_threaded_nomerge,False,5,1,,0.4,3137,3,3140
+caselaw,187,maintenance_threaded_nomerge,False,3,1,,3.2,3105,2,3107
+caselaw,195,maintenance_threaded_nomerge,False,5,1,,0.9,3114,2,3116
+caselaw,199,maintenance_threaded_nomerge,False,4,1,,0.2,3271,2,3273
+caselaw,201,maintenance_threaded_nomerge,True,3,1,,45.4,3141,2,3143
+caselaw,207,maintenance_threaded_nomerge,True,5,1,,45.8,3103,2,3105
+caselaw,203,maintenance_threaded_nomerge,False,4,1,,46.3,3097,2,3099
+caselaw,205,maintenance_threaded_nomerge,True,2,1,,46.1,3113,2,3115
+caselaw,213,maintenance_threaded_nomerge,False,3,1,,0.7,3146,2,3148
+caselaw,211,maintenance_threaded_nomerge,True,4,1,,0.8,3211,2,3213
+caselaw,209,maintenance_threaded_nomerge,True,5,1,,1.9,3112,2,3114
+caselaw,215,maintenance_threaded_nomerge,True,3,1,,0.5,3166,2,3168
+caselaw,217,maintenance_threaded_nomerge,False,5,1,,0.4,3110,2,3112
+caselaw,223,maintenance_threaded_nomerge,True,4,1,,0.8,3164,2,3166
+caselaw,219,maintenance_threaded_nomerge,False,4,1,,1.7,3104,2,3106
+caselaw,225,maintenance_threaded_nomerge,False,5,1,,0.7,3175,2,3177
+caselaw,227,maintenance_threaded_nomerge,False,4,1,,0.4,3184,2,3186
+caselaw,221,maintenance_threaded_nomerge,False,4,1,,2.2,3144,2,3146
+caselaw,229,maintenance_threaded_nomerge,False,5,1,,0.6,3062,2,3064
+caselaw,233,maintenance_threaded_nomerge,True,3,1,,0.5,3071,2,3073
+caselaw,231,maintenance_threaded_nomerge,True,2,1,,0.7,3246,2,3248
+caselaw,241,maintenance_threaded_nomerge,False,5,1,,0.5,3141,2,3143
+caselaw,237,maintenance_threaded_nomerge,True,4,1,,1.4,3151,2,3153
+caselaw,239,maintenance_threaded_nomerge,False,5,1,,3.0,3125,2,3127
+caselaw,243,maintenance_threaded_nomerge,False,5,1,,1.5,3130,2,3132
+caselaw,245,maintenance_threaded_nomerge,False,3,1,,1.5,3128,2,3130
+caselaw,247,maintenance_threaded_nomerge,False,4,1,,0.6,3155,2,3157
+caselaw,249,maintenance_threaded_nomerge,False,3,1,,0.6,3105,2,3107
+caselaw,253,maintenance_threaded_nomerge,False,3,1,,0.5,3057,2,3059
+caselaw,251,maintenance_threaded_nomerge,False,5,1,,1.7,3052,2,3054
+caselaw,235,maintenance_threaded_nomerge,False,4,1,,6.6,3152,2,3154
+caselaw,259,maintenance_threaded_nomerge,True,3,1,,0.9,3161,2,3163
+caselaw,261,maintenance_threaded_nomerge,True,5,1,,0.6,3262,2,3264
+caselaw,257,maintenance_threaded_nomerge,True,3,1,,6.5,3116,2,3118
+caselaw,255,maintenance_threaded_nomerge,True,2,1,,47.6,3123,3,3126
+caselaw,267,maintenance_threaded_nomerge,False,4,1,,41.3,3218,2,3220
+caselaw,265,maintenance_threaded_nomerge,False,3,1,,46.4,3128,2,3130
+caselaw,263,maintenance_threaded_nomerge,True,5,1,,46.6,3092,2,3094
+caselaw,269,maintenance_threaded_nomerge,False,5,1,,0.8,3070,2,3072
+caselaw,271,maintenance_threaded_nomerge,False,2,1,,1.0,3144,2,3146
+caselaw,273,maintenance_threaded_nomerge,False,3,1,,0.6,3123,2,3125
+caselaw,275,maintenance_threaded_nomerge,False,4,1,,1.1,3104,3,3107
+caselaw,277,maintenance_threaded_nomerge,False,5,1,,1.2,3109,3,3112
+caselaw,281,maintenance_threaded_nomerge,False,4,1,,1.4,3166,2,3168
+caselaw,279,maintenance_threaded_nomerge,True,4,1,,1.8,3177,2,3179
+caselaw,283,maintenance_threaded_nomerge,True,5,1,,1.5,3173,2,3175
+caselaw,285,maintenance_threaded_nomerge,False,5,1,,1.1,3121,2,3123
+caselaw,287,maintenance_threaded_nomerge,True,5,1,,0.5,3131,2,3133
+caselaw,289,maintenance_threaded_nomerge,True,4,1,,0.4,3203,2,3205
+caselaw,291,maintenance_threaded_nomerge,False,5,1,,0.6,3075,2,3077
+caselaw,295,maintenance_threaded_nomerge,True,3,1,,0.5,3106,2,3108
+caselaw,293,maintenance_threaded_nomerge,False,3,1,,1.4,3130,2,3132
+caselaw,297,maintenance_threaded_nomerge,False,2,1,,1.4,3150,2,3152
+caselaw,301,maintenance_threaded_nomerge,False,2,1,,2.4,3159,3,3162
+caselaw,303,maintenance_threaded_nomerge,False,5,1,,2.1,3143,3,3146
+caselaw,305,maintenance_threaded_nomerge,False,5,1,,1.7,3132,2,3134
+caselaw,299,maintenance_threaded_nomerge,True,4,1,,3.6,3195,2,3197
+caselaw,307,maintenance_threaded_nomerge,True,2,1,,0.8,3168,2,3170
+caselaw,309,maintenance_threaded_nomerge,False,1,1,,0.8,3134,2,3136
+caselaw,311,maintenance_threaded_nomerge,False,4,1,,1.2,3096,2,3098
+caselaw,315,maintenance_threaded_nomerge,False,1,1,,0.6,3110,2,3112
+caselaw,313,maintenance_threaded_nomerge,False,5,1,,2.5,3129,2,3131
+caselaw,321,maintenance_threaded_nomerge,False,5,1,,0.9,3173,2,3175
+caselaw,319,maintenance_threaded_nomerge,True,5,1,,1.9,3153,2,3155
+caselaw,317,maintenance_threaded_nomerge,False,5,1,,47.6,3080,2,3082
+caselaw,325,maintenance_threaded_nomerge,True,5,1,,46.4,3153,2,3155
+caselaw,327,maintenance_threaded_nomerge,False,2,1,,46.3,3073,2,3075
+caselaw,323,maintenance_threaded_nomerge,True,5,1,,46.9,3186,2,3188
+caselaw,329,maintenance_threaded_nomerge,False,5,1,,1.0,3214,2,3216
+caselaw,337,maintenance_threaded_nomerge,False,5,1,,0.4,3148,2,3150
+caselaw,335,maintenance_threaded_nomerge,False,2,1,,1.1,3085,2,3087
+caselaw,339,maintenance_threaded_nomerge,False,2,1,,0.8,3150,2,3152
+caselaw,341,maintenance_threaded_nomerge,True,2,1,,0.6,3094,2,3096
+caselaw,343,maintenance_threaded_nomerge,True,4,1,,0.2,3088,2,3090
+caselaw,345,maintenance_threaded_nomerge,False,2,1,,0.4,3098,3,3101
+caselaw,347,maintenance_threaded_nomerge,True,2,1,,0.3,3063,3,3066
+caselaw,349,maintenance_threaded_nomerge,False,5,1,,0.4,3132,2,3134
+caselaw,351,maintenance_threaded_nomerge,False,3,1,,0.3,3101,2,3103
+caselaw,353,maintenance_threaded_nomerge,False,5,1,,0.3,3194,2,3196
+caselaw,355,maintenance_threaded_nomerge,False,4,1,,0.5,3107,2,3109
+caselaw,357,maintenance_threaded_nomerge,True,5,1,,0.3,3152,2,3154
+caselaw,361,maintenance_threaded_nomerge,True,5,1,,0.8,3159,2,3161
+caselaw,333,maintenance_threaded_nomerge,False,4,1,,8.2,3202,2,3204
+caselaw,331,maintenance_threaded_nomerge,False,2,1,,8.9,3142,2,3144
+caselaw,363,maintenance_threaded_nomerge,False,5,1,,0.5,3049,9,3058
+caselaw,365,maintenance_threaded_nomerge,True,5,1,,0.2,3093,2,3095
+caselaw,367,maintenance_threaded_nomerge,False,3,1,,0.4,3108,2,3110
+caselaw,369,maintenance_threaded_nomerge,False,4,1,,0.4,3067,2,3069
+caselaw,371,maintenance_threaded_nomerge,False,4,1,,0.5,3162,2,3164
+caselaw,373,maintenance_threaded_nomerge,False,3,1,,0.4,3075,2,3077
+caselaw,375,maintenance_threaded_nomerge,True,5,1,,1.5,3088,2,3090
+caselaw,379,maintenance_threaded_nomerge,True,4,1,,1.2,3296,2,3298
+caselaw,377,maintenance_threaded_nomerge,False,5,1,,1.8,3117,2,3119
+caselaw,359,maintenance_threaded_nomerge,False,3,1,,51.3,3045,2,3047
+caselaw,383,maintenance_threaded_nomerge,False,5,1,,46.0,3086,3,3089
+caselaw,381,maintenance_threaded_nomerge,False,5,1,,46.6,3143,2,3145
+caselaw,385,maintenance_threaded_nomerge,False,5,1,,46.0,3080,3,3083
+caselaw,387,maintenance_threaded_nomerge,False,5,1,,0.6,3103,2,3105
+caselaw,389,maintenance_threaded_nomerge,False,4,1,,0.6,3074,2,3076
+caselaw,395,maintenance_threaded_nomerge,False,5,1,,0.4,3111,2,3113
+caselaw,397,maintenance_threaded_nomerge,False,5,1,,0.5,3106,2,3108
+caselaw,399,maintenance_threaded_nomerge,False,5,1,,0.9,3121,2,3123
+caselaw,391,maintenance_threaded_nomerge,False,5,1,,2.9,3120,2,3122
+caselaw,393,maintenance_threaded_nomerge,False,3,1,,3.8,3132,2,3134

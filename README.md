@@ -1,6 +1,10 @@
-# rehearse-then-recall
+# Fit Over Depth
 
-**Fit Over Depth: Transfer-Appropriate Compression for Long-Context LLM QA**
+**Transfer-Appropriate Compression for Long-Context LLM QA**
+
+*(repo formerly `rehearse-then-recall` — renamed once the project's headline
+result moved from elaborative rehearsal to the extractive final model; see
+"How we got here" below)*
 
 ## TL;DR
 
@@ -72,14 +76,15 @@ diagnosis, §7 for the genre-fit story and the proposed final model, §12 for
 how this is framed for the paper.
 
 ## Paper / presentation links
-- Paper: working title *"Fit Over Depth: Transfer-Appropriate Compression
-  for Long-Context LLM QA"* — draft in progress
+- Paper: *"Fit Over Depth: Transfer-Appropriate Compression for
+  Long-Context LLM QA"* — CUAI 9th Summer Conference short paper (final)
+- Presentation: `Fit_Over_Depth_v2.pptx` (29 slides) + speaker script
 - Progress report: [ANALYSIS_REPORT.md](ANALYSIS_REPORT.md)
 
 ## Structure
 
 ```
-rehearse-then-recall/
+fit-over-depth/
 ├── README.md
 ├── ANALYSIS_REPORT.md              # full results, findings, open questions
 ├── LICENSE

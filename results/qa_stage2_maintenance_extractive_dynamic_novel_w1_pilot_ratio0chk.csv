@@ -1,80 +1,80 @@
 genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
-novel,00950a36_2,maintenance_extractive_dynamic_novel_w1_pilot,False,None mentioned.,1,,0.2,1535,4,1539
-novel,00950a36_0,maintenance_extractive_dynamic_novel_w1_pilot,True,Shah Amurath.,1,,0.2,1741,7,1748
-novel,00950a36_5,maintenance_extractive_dynamic_novel_w1_pilot,False,She.,1,,0.2,454,3,457
-novel,00950a36_1,maintenance_extractive_dynamic_novel_w1_pilot,True,Olivia.,1,,0.7,790,4,794
-novel,00950a36_8,maintenance_extractive_dynamic_novel_w1_pilot,True,Olivia.,1,,0.3,818,4,822
-novel,00950a36_7,maintenance_extractive_dynamic_novel_w1_pilot,True,Conan.,1,,0.3,722,4,726
-novel,00950a36_6,maintenance_extractive_dynamic_novel_w1_pilot,False,"There is no mention of ""Queen of the Blue Sea"".",1,,0.6,473,13,486
-novel,00950a36_9,maintenance_extractive_dynamic_novel_w1_pilot,False,His place.,1,,0.3,508,4,512
-novel,00950a36_11,maintenance_extractive_dynamic_novel_w1_pilot,False,The consul.,1,,0.3,898,4,902
-novel,00950a36_12,maintenance_extractive_dynamic_novel_w1_pilot,False,No city is mentioned.,1,,0.4,1463,6,1469
-novel,00950a36_13,maintenance_extractive_dynamic_novel_w1_pilot,True,Shah Amurath's warriors.,1,,0.3,1181,9,1190
-novel,00950a36_10,maintenance_extractive_dynamic_novel_w1_pilot,True,Conan.,1,,0.3,1692,4,1696
-novel,00950a36_14,maintenance_extractive_dynamic_novel_w1_pilot,False,A huge block of greenish stone.,1,,0.4,925,9,934
-novel,00950a36_15,maintenance_extractive_dynamic_novel_w1_pilot,False,Sergius.,1,,0.3,692,5,697
-novel,3e966645_1,maintenance_extractive_dynamic_novel_w1_pilot,False,Sydney.,1,,0.4,836,4,840
-novel,3e966645_2,maintenance_extractive_dynamic_novel_w1_pilot,False,Mr. Clavering.,1,,0.3,1452,7,1459
-novel,3e966645_4,maintenance_extractive_dynamic_novel_w1_pilot,False,Coffee.,1,,0.3,821,3,824
-novel,3e966645_5,maintenance_extractive_dynamic_novel_w1_pilot,False,None mentioned.,1,,0.3,571,4,575
-novel,3e966645_6,maintenance_extractive_dynamic_novel_w1_pilot,False,Shah Amurath.,1,,0.3,1974,7,1981
-novel,3e966645_7,maintenance_extractive_dynamic_novel_w1_pilot,False,Brown.,1,,0.3,418,3,421
-novel,3e966645_8,maintenance_extractive_dynamic_novel_w1_pilot,True,Papeete.,1,,0.3,980,5,985
-novel,3e966645_9,maintenance_extractive_dynamic_novel_w1_pilot,True,Tahiti.,1,,0.4,650,5,655
-novel,3e966645_11,maintenance_extractive_dynamic_novel_w1_pilot,False,Peru.,1,,0.3,671,4,675
-novel,3e966645_10,maintenance_extractive_dynamic_novel_w1_pilot,True,Champagne.,1,,0.3,577,5,582
-novel,3e966645_12,maintenance_extractive_dynamic_novel_w1_pilot,True,Smallpox.,1,,0.3,909,5,914
-novel,3e966645_16,maintenance_extractive_dynamic_novel_w1_pilot,True,California champagne.,1,,0.4,212,4,216
-novel,3e966645_17,maintenance_extractive_dynamic_novel_w1_pilot,False,Off the ship.,1,,0.3,573,5,578
-novel,3e966645_19,maintenance_extractive_dynamic_novel_w1_pilot,False,The American.,1,,0.4,937,4,941
-novel,3e966645_20,maintenance_extractive_dynamic_novel_w1_pilot,True,California champagne.,1,,0.3,223,4,227
-novel,3e966645_21,maintenance_extractive_dynamic_novel_w1_pilot,False,Brown.,1,,0.3,1141,3,1144
-novel,3e966645_22,maintenance_extractive_dynamic_novel_w1_pilot,False,Sydney will never see me.,1,,52.4,307,8,315
-novel,3e966645_23,maintenance_extractive_dynamic_novel_w1_pilot,False,None mentioned.,1,,52.2,545,4,549
-novel,6a659de3_2,maintenance_extractive_dynamic_novel_w1_pilot,False,A Wizard.,1,,52.0,601,4,605
-novel,6a659de3_3,maintenance_extractive_dynamic_novel_w1_pilot,False,Nomes and the Wizard.,1,,51.7,271,7,278
-novel,6a659de3_4,maintenance_extractive_dynamic_novel_w1_pilot,True,Leo Vincey.,1,,0.6,452,5,457
-novel,6a659de3_5,maintenance_extractive_dynamic_novel_w1_pilot,False,The narrator.,1,,0.6,823,4,827
-novel,6a659de3_7,maintenance_extractive_dynamic_novel_w1_pilot,False,Egypt.,1,,0.4,1076,3,1079
-novel,6a659de3_6,maintenance_extractive_dynamic_novel_w1_pilot,False,Ozma.,1,,0.6,791,5,796
-novel,6a659de3_14,maintenance_extractive_dynamic_novel_w1_pilot,False,Harry Clavering.,1,,0.2,804,6,810
-novel,6a659de3_12,maintenance_extractive_dynamic_novel_w1_pilot,False,The narrator.,1,,0.3,1007,4,1011
-novel,6a659de3_11,maintenance_extractive_dynamic_novel_w1_pilot,True,Poor Vincey.,1,,0.3,761,5,766
-novel,6a659de3_8,maintenance_extractive_dynamic_novel_w1_pilot,False,The narrator.,1,,0.4,1066,4,1070
-novel,6a659de3_17,maintenance_extractive_dynamic_novel_w1_pilot,False,No one.,1,,0.3,820,4,824
-novel,9561a72a_3,maintenance_extractive_dynamic_novel_w1_pilot,False,Cumberly Green.,1,,0.3,1760,6,1766
-novel,9561a72a_1,maintenance_extractive_dynamic_novel_w1_pilot,False,Ozma.,1,,0.2,1807,5,1812
-novel,9561a72a_0,maintenance_extractive_dynamic_novel_w1_pilot,True,Aunt Em and Uncle Henry.,1,,0.5,1129,8,1137
-novel,9561a72a_7,maintenance_extractive_dynamic_novel_w1_pilot,True,Underground.,1,,0.2,1117,4,1121
-novel,9561a72a_5,maintenance_extractive_dynamic_novel_w1_pilot,True,Aunt Em and Uncle Henry.,1,,0.7,1863,8,1871
-novel,9561a72a_9,maintenance_extractive_dynamic_novel_w1_pilot,True,Aunt Em and Uncle Henry.,1,,0.2,872,8,880
-novel,9561a72a_10,maintenance_extractive_dynamic_novel_w1_pilot,True,The Magic Belt.,1,,0.3,1177,5,1182
-novel,9561a72a_11,maintenance_extractive_dynamic_novel_w1_pilot,True,King Roquat the Red.,1,,0.4,1508,7,1515
-novel,bf55d1c1_0,maintenance_extractive_dynamic_novel_w1_pilot,True,A mongoose.,1,,0.2,685,4,689
-novel,9561a72a_12,maintenance_extractive_dynamic_novel_w1_pilot,True,General Guph.,1,,0.3,1447,6,1453
-novel,bf55d1c1_1,maintenance_extractive_dynamic_novel_w1_pilot,False,No answer can be given as the passage does not mention Arabella murdering anyone.,1,,0.3,237,17,254
-novel,bf55d1c1_2,maintenance_extractive_dynamic_novel_w1_pilot,True,Adam.,1,,0.3,331,3,334
-novel,bf55d1c1_3,maintenance_extractive_dynamic_novel_w1_pilot,False,Snakes.,1,,0.5,1013,4,1017
-novel,bf55d1c1_4,maintenance_extractive_dynamic_novel_w1_pilot,False,Lilla.,1,,0.2,601,4,605
-novel,bf55d1c1_5,maintenance_extractive_dynamic_novel_w1_pilot,False,The Nome King.,1,,0.3,1048,5,1053
-novel,bf55d1c1_9,maintenance_extractive_dynamic_novel_w1_pilot,False,"May 1, 18--",1,,0.5,504,8,512
-novel,bf55d1c1_6,maintenance_extractive_dynamic_novel_w1_pilot,False,Snakes.,1,,0.8,769,4,773
-novel,bf55d1c1_10,maintenance_extractive_dynamic_novel_w1_pilot,False,There is no information about Adam working with a friend to stop Arabella.,1,,52.7,460,16,476
-novel,bf55d1c1_11,maintenance_extractive_dynamic_novel_w1_pilot,False,Uncle.,1,,52.5,327,4,331
-novel,ca4b98f5_0,maintenance_extractive_dynamic_novel_w1_pilot,False,None given.,1,,51.7,444,4,448
-novel,bf55d1c1_12,maintenance_extractive_dynamic_novel_w1_pilot,False,Sydney.,1,,52.0,274,4,278
-novel,ca4b98f5_3,maintenance_extractive_dynamic_novel_w1_pilot,False,The great house.,1,,0.4,208,5,213
-novel,ca4b98f5_4,maintenance_extractive_dynamic_novel_w1_pilot,False,Not mentioned.,1,,0.4,313,4,317
-novel,ca4b98f5_1,maintenance_extractive_dynamic_novel_w1_pilot,True,Harry Clavering,1,,0.4,354,5,359
-novel,ca4b98f5_2,maintenance_extractive_dynamic_novel_w1_pilot,True,Messrs. Beilby and Burton.,1,,0.4,711,10,721
-novel,ca4b98f5_8,maintenance_extractive_dynamic_novel_w1_pilot,False,His sister Mary.,1,,0.2,1542,5,1547
-novel,ca4b98f5_6,maintenance_extractive_dynamic_novel_w1_pilot,False,No one.,1,,0.2,450,4,454
-novel,ca4b98f5_10,maintenance_extractive_dynamic_novel_w1_pilot,False,Not specified.,1,,0.3,458,4,462
-novel,ca4b98f5_11,maintenance_extractive_dynamic_novel_w1_pilot,False,Lord Ongar.,1,,0.3,2523,6,2529
+novel,00950a36_2,maintenance_extractive_dynamic_novel_w1_pilot,False,Vilayet,1,,0.4,1579,4,1583
+novel,00950a36_5,maintenance_extractive_dynamic_novel_w1_pilot,False,She.,1,,0.3,462,3,465
+novel,00950a36_0,maintenance_extractive_dynamic_novel_w1_pilot,True,Shah Amurath.,1,,0.3,1743,7,1750
+novel,00950a36_1,maintenance_extractive_dynamic_novel_w1_pilot,True,Olivia.,1,,0.8,767,4,771
+novel,00950a36_6,maintenance_extractive_dynamic_novel_w1_pilot,False,"There is no mention of ""Queen of the Blue Sea"".",1,,0.4,510,13,523
+novel,00950a36_7,maintenance_extractive_dynamic_novel_w1_pilot,True,Conan.,1,,0.3,839,4,843
+novel,00950a36_8,maintenance_extractive_dynamic_novel_w1_pilot,True,Olivia.,1,,0.4,770,4,774
+novel,00950a36_9,maintenance_extractive_dynamic_novel_w1_pilot,False,His.,1,,0.3,489,3,492
+novel,00950a36_10,maintenance_extractive_dynamic_novel_w1_pilot,True,Conan.,1,,0.3,1827,4,1831
+novel,00950a36_11,maintenance_extractive_dynamic_novel_w1_pilot,False,No one.,1,,0.2,980,4,984
+novel,00950a36_13,maintenance_extractive_dynamic_novel_w1_pilot,True,Shah Amurath and his warriors.,1,,0.6,1240,10,1250
+novel,00950a36_12,maintenance_extractive_dynamic_novel_w1_pilot,False,No answer available.,1,,0.6,1466,5,1471
+novel,00950a36_14,maintenance_extractive_dynamic_novel_w1_pilot,False,A huge block of greenish stone.,1,,0.3,959,9,968
+novel,00950a36_15,maintenance_extractive_dynamic_novel_w1_pilot,True,Conan.,1,,0.2,830,4,834
+novel,3e966645_1,maintenance_extractive_dynamic_novel_w1_pilot,True,Peru.,1,,0.2,997,4,1001
+novel,3e966645_2,maintenance_extractive_dynamic_novel_w1_pilot,False,Mr. Clavering.,1,,0.8,1512,7,1519
+novel,3e966645_5,maintenance_extractive_dynamic_novel_w1_pilot,False,Disease.,1,,0.2,617,4,621
+novel,3e966645_4,maintenance_extractive_dynamic_novel_w1_pilot,False,Coffee.,1,,0.4,910,3,913
+novel,3e966645_6,maintenance_extractive_dynamic_novel_w1_pilot,False,Shah Amurath.,1,,0.5,2090,7,2097
+novel,3e966645_7,maintenance_extractive_dynamic_novel_w1_pilot,False,Brown.,1,,0.3,474,3,477
+novel,3e966645_8,maintenance_extractive_dynamic_novel_w1_pilot,True,Papeete.,1,,0.4,1069,5,1074
+novel,3e966645_10,maintenance_extractive_dynamic_novel_w1_pilot,True,Champagne.,1,,0.3,614,5,619
+novel,3e966645_9,maintenance_extractive_dynamic_novel_w1_pilot,False,French Polynesia.,1,,0.4,689,6,695
+novel,3e966645_11,maintenance_extractive_dynamic_novel_w1_pilot,False,Peru.,1,,0.4,757,4,761
+novel,3e966645_12,maintenance_extractive_dynamic_novel_w1_pilot,True,Smallpox.,1,,0.4,997,5,1002
+novel,3e966645_17,maintenance_extractive_dynamic_novel_w1_pilot,False,The town.,1,,0.3,611,4,615
+novel,3e966645_16,maintenance_extractive_dynamic_novel_w1_pilot,True,California champagne.,1,,0.5,261,4,265
+novel,3e966645_20,maintenance_extractive_dynamic_novel_w1_pilot,True,California champagne.,1,,0.4,272,4,276
+novel,3e966645_19,maintenance_extractive_dynamic_novel_w1_pilot,False,Robert Herrick.,1,,0.3,991,5,996
+novel,3e966645_21,maintenance_extractive_dynamic_novel_w1_pilot,False,Brown.,1,,0.3,1136,3,1139
+novel,6a659de3_3,maintenance_extractive_dynamic_novel_w1_pilot,False,"The Princess, Dorothy, Glinda, and the Wizard.",1,,51.9,317,13,330
+novel,3e966645_23,maintenance_extractive_dynamic_novel_w1_pilot,False,None.,1,,52.4,584,3,587
+novel,6a659de3_2,maintenance_extractive_dynamic_novel_w1_pilot,False,Glinda the Good.,1,,51.7,647,6,653
+novel,3e966645_22,maintenance_extractive_dynamic_novel_w1_pilot,False,Papeete.,1,,53.1,292,5,297
+novel,6a659de3_4,maintenance_extractive_dynamic_novel_w1_pilot,True,Leo Vincey.,1,,0.3,451,5,456
+novel,6a659de3_5,maintenance_extractive_dynamic_novel_w1_pilot,False,The narrator.,1,,0.3,859,4,863
+novel,6a659de3_6,maintenance_extractive_dynamic_novel_w1_pilot,False,A white woman of peculiar loveliness.,1,,0.3,953,10,963
+novel,6a659de3_7,maintenance_extractive_dynamic_novel_w1_pilot,False,Egypt.,1,,0.3,1106,3,1109
+novel,6a659de3_8,maintenance_extractive_dynamic_novel_w1_pilot,False,The narrator.,1,,0.3,1089,4,1093
+novel,6a659de3_11,maintenance_extractive_dynamic_novel_w1_pilot,False,The narrator.,1,,0.4,758,4,762
+novel,6a659de3_12,maintenance_extractive_dynamic_novel_w1_pilot,False,The narrator.,1,,0.3,1006,4,1010
+novel,6a659de3_14,maintenance_extractive_dynamic_novel_w1_pilot,False,Harry Clavering.,1,,0.7,794,6,800
+novel,6a659de3_17,maintenance_extractive_dynamic_novel_w1_pilot,False,No one.,1,,0.3,839,4,843
+novel,9561a72a_0,maintenance_extractive_dynamic_novel_w1_pilot,True,Aunt Em and Uncle Henry.,1,,0.3,1108,8,1116
+novel,9561a72a_1,maintenance_extractive_dynamic_novel_w1_pilot,False,Ozma.,1,,0.3,1867,5,1872
+novel,9561a72a_3,maintenance_extractive_dynamic_novel_w1_pilot,False,Cumberly Green.,1,,0.2,1967,6,1973
+novel,9561a72a_5,maintenance_extractive_dynamic_novel_w1_pilot,True,Aunt Em and Uncle Henry.,1,,0.3,1841,8,1849
+novel,9561a72a_7,maintenance_extractive_dynamic_novel_w1_pilot,True,Underground.,1,,0.5,1147,4,1151
+novel,9561a72a_9,maintenance_extractive_dynamic_novel_w1_pilot,False,Uncle Henry and Aunt Em.,1,,0.4,952,8,960
+novel,9561a72a_10,maintenance_extractive_dynamic_novel_w1_pilot,True,The Magic Belt.,1,,0.5,1190,5,1195
+novel,9561a72a_11,maintenance_extractive_dynamic_novel_w1_pilot,True,King Roquat the Red.,1,,0.4,1589,7,1596
+novel,9561a72a_12,maintenance_extractive_dynamic_novel_w1_pilot,True,General Guph.,1,,0.4,1518,6,1524
+novel,bf55d1c1_0,maintenance_extractive_dynamic_novel_w1_pilot,True,A mongoose.,1,,0.3,814,4,818
+novel,bf55d1c1_1,maintenance_extractive_dynamic_novel_w1_pilot,False,No information is given about Arabella murdering anyone.,1,,0.3,237,11,248
+novel,bf55d1c1_2,maintenance_extractive_dynamic_novel_w1_pilot,True,Adam.,1,,0.2,396,3,399
+novel,bf55d1c1_3,maintenance_extractive_dynamic_novel_w1_pilot,False,Snakes.,1,,0.3,1174,4,1178
+novel,bf55d1c1_4,maintenance_extractive_dynamic_novel_w1_pilot,False,Not mentioned.,1,,0.4,623,4,627
+novel,bf55d1c1_6,maintenance_extractive_dynamic_novel_w1_pilot,False,Black snakes.,1,,0.3,852,4,856
+novel,bf55d1c1_5,maintenance_extractive_dynamic_novel_w1_pilot,False,The Nome King.,1,,0.4,1110,5,1115
+novel,bf55d1c1_9,maintenance_extractive_dynamic_novel_w1_pilot,False,Twenty years ago.,1,,0.3,515,5,520
+novel,bf55d1c1_12,maintenance_extractive_dynamic_novel_w1_pilot,False,Sydney.,1,,51.8,274,4,278
+novel,ca4b98f5_0,maintenance_extractive_dynamic_novel_w1_pilot,False,None given.,1,,51.9,444,4,448
+novel,bf55d1c1_11,maintenance_extractive_dynamic_novel_w1_pilot,False,Uncle.,1,,52.6,310,4,314
+novel,bf55d1c1_10,maintenance_extractive_dynamic_novel_w1_pilot,False,Mr. Caswall.,1,,53.1,505,6,511
+novel,ca4b98f5_1,maintenance_extractive_dynamic_novel_w1_pilot,False,Not specified.,1,,0.6,333,4,337
+novel,ca4b98f5_2,maintenance_extractive_dynamic_novel_w1_pilot,True,Messrs. Beilby and Burton.,1,,0.4,762,10,772
+novel,ca4b98f5_3,maintenance_extractive_dynamic_novel_w1_pilot,False,The great house.,1,,0.4,238,5,243
+novel,ca4b98f5_4,maintenance_extractive_dynamic_novel_w1_pilot,False,Not mentioned.,1,,0.3,313,4,317
+novel,ca4b98f5_6,maintenance_extractive_dynamic_novel_w1_pilot,False,No one.,1,,0.3,441,4,445
+novel,ca4b98f5_10,maintenance_extractive_dynamic_novel_w1_pilot,False,The fox.,1,,0.4,448,4,452
 novel,ca4b98f5_12,maintenance_extractive_dynamic_novel_w1_pilot,False,Mr. Burton,1,,0.3,314,4,318
-novel,ca4b98f5_13,maintenance_extractive_dynamic_novel_w1_pilot,False,L. Horace Holly.,1,,0.3,902,7,909
-novel,ca4b98f5_14,maintenance_extractive_dynamic_novel_w1_pilot,False,A clergyman.,1,,0.5,911,5,916
-novel,ca4b98f5_15,maintenance_extractive_dynamic_novel_w1_pilot,False,Fanny,1,,0.2,273,3,276
-novel,ca4b98f5_16,maintenance_extractive_dynamic_novel_w1_pilot,False,Mary.,1,,0.2,1162,3,1165
-novel,ca4b98f5_18,maintenance_extractive_dynamic_novel_w1_pilot,False,No one.,1,,0.2,1089,4,1093
-novel,ca4b98f5_17,maintenance_extractive_dynamic_novel_w1_pilot,False,Miss Brabazon.,1,,0.3,590,6,596
+novel,ca4b98f5_8,maintenance_extractive_dynamic_novel_w1_pilot,False,His sisters.,1,,0.3,1654,4,1658
+novel,ca4b98f5_11,maintenance_extractive_dynamic_novel_w1_pilot,False,Lord Ongar.,1,,0.6,2776,6,2782
+novel,ca4b98f5_13,maintenance_extractive_dynamic_novel_w1_pilot,False,L. Horace Holly.,1,,0.3,843,7,850
+novel,ca4b98f5_15,maintenance_extractive_dynamic_novel_w1_pilot,False,Fanny,1,,0.2,272,3,275
+novel,ca4b98f5_16,maintenance_extractive_dynamic_novel_w1_pilot,False,His sisters.,1,,0.2,1234,4,1238
+novel,ca4b98f5_17,maintenance_extractive_dynamic_novel_w1_pilot,False,Julia.,1,,0.3,657,4,661
+novel,ca4b98f5_14,maintenance_extractive_dynamic_novel_w1_pilot,False,Clergyman.,1,,0.5,991,6,997
+novel,ca4b98f5_18,maintenance_extractive_dynamic_novel_w1_pilot,False,Julia Brabazon.,1,,0.4,1098,7,1105

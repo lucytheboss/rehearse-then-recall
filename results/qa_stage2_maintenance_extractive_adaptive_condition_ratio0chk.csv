@@ -1,583 +1,580 @@
 genre,question_id,condition,correct,prediction,api_calls,lookup_used,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens
-wiki,4,maintenance_extractive_adaptive,False,Wisconsinan glaciation.,1,,0.5,242,7,249
-wiki,3,maintenance_extractive_adaptive,True,1624.,1,,0.3,168,4,172
-wiki,2,maintenance_extractive_adaptive,True,"8,491,079",1,,0.3,278,6,284
-wiki,1,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.3,192,8,200
-wiki,6,maintenance_extractive_adaptive,True,Portuguese,1,,0.2,198,4,202
-wiki,8,maintenance_extractive_adaptive,True,Jan Rodrigues.,1,,0.2,218,5,223
-wiki,5,maintenance_extractive_adaptive,False,I don't have information about that.,1,,0.2,197,9,206
-wiki,7,maintenance_extractive_adaptive,True,Dutch East India Company.,1,,0.3,202,7,209
-wiki,10,maintenance_extractive_adaptive,True,Peter Stuyvesant.,1,,0.3,232,7,239
-wiki,9,maintenance_extractive_adaptive,False,I don't have the information.,1,,0.3,220,8,228
-wiki,12,maintenance_extractive_adaptive,True,The Second Anglo-Dutch War.,1,,0.2,239,8,247
-wiki,11,maintenance_extractive_adaptive,True,New Orange,1,,0.4,234,3,237
-wiki,15,maintenance_extractive_adaptive,False,No information.,1,,0.3,163,4,167
-wiki,14,maintenance_extractive_adaptive,True,August 1776.,1,,0.3,220,6,226
-wiki,13,maintenance_extractive_adaptive,False,I don't have information about John Peter Zenger's trial in the passage.,1,,0.4,217,17,234
-wiki,16,maintenance_extractive_adaptive,True,Philadelphia.,1,,0.4,225,3,228
-wiki,17,maintenance_extractive_adaptive,False,No specific year mentioned.,1,,0.3,172,6,178
-wiki,19,maintenance_extractive_adaptive,False,No information.,1,,0.3,162,4,166
-wiki,18,maintenance_extractive_adaptive,False,No information is available about the Erie Canal in the passage.,1,,0.4,213,13,226
-wiki,20,maintenance_extractive_adaptive,True,1898,1,,0.3,260,3,263
-wiki,21,maintenance_extractive_adaptive,False,There is no information about the Triangle Shirtwaist Factory fire in the passage.,1,,0.3,204,17,221
-wiki,22,maintenance_extractive_adaptive,True,Megacity.,1,,0.3,343,4,347
-wiki,23,maintenance_extractive_adaptive,True,Abstract expressionism.,1,,0.4,203,5,208
-wiki,24,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.3,167,8,175
+wiki,3,maintenance_extractive_adaptive,True,1624.,1,,0.3,191,4,195
+wiki,1,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.3,236,8,244
+wiki,2,maintenance_extractive_adaptive,True,"8,491,079.",1,,0.3,376,7,383
+wiki,4,maintenance_extractive_adaptive,False,Wisconsinan glaciation.,1,,0.3,242,7,249
+wiki,5,maintenance_extractive_adaptive,False,The French crown.,1,,0.2,228,5,233
+wiki,8,maintenance_extractive_adaptive,True,Jan Rodrigues.,1,,0.2,262,5,267
+wiki,6,maintenance_extractive_adaptive,True,Portuguese,1,,0.3,229,4,233
+wiki,7,maintenance_extractive_adaptive,True,The Dutch East India Company.,1,,0.3,224,7,231
+wiki,9,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.2,264,8,272
+wiki,10,maintenance_extractive_adaptive,True,Peter Stuyvesant.,1,,0.3,236,7,243
+wiki,11,maintenance_extractive_adaptive,True,New Orange.,1,,0.3,238,4,242
+wiki,12,maintenance_extractive_adaptive,False,There is no information about this in the passage.,1,,0.4,243,11,254
+wiki,14,maintenance_extractive_adaptive,True,August 1776.,1,,0.3,207,6,213
+wiki,13,maintenance_extractive_adaptive,False,I don't have information about that.,1,,0.3,204,9,213
+wiki,16,maintenance_extractive_adaptive,False,No information is given about the second largest city in the United States in 1790.,1,,0.3,303,19,322
+wiki,15,maintenance_extractive_adaptive,False,The American Revolutionary War.,1,,0.2,218,6,224
+wiki,17,maintenance_extractive_adaptive,False,1799,1,,0.2,194,3,197
+wiki,18,maintenance_extractive_adaptive,False,No information provided.,1,,0.2,213,5,218
+wiki,19,maintenance_extractive_adaptive,False,No information.,1,,0.2,189,4,193
+wiki,20,maintenance_extractive_adaptive,False,1624,1,,0.3,279,3,282
+wiki,21,maintenance_extractive_adaptive,True,146 garment workers.,1,,0.2,200,5,205
+wiki,22,maintenance_extractive_adaptive,True,Megacity.,1,,0.2,400,4,404
+wiki,23,maintenance_extractive_adaptive,True,Abstract expressionism.,1,,0.2,226,5,231
+wiki,24,maintenance_extractive_adaptive,True,American Airlines Flight 11.,1,,0.3,243,7,250
 wiki,26,maintenance_extractive_adaptive,True,Donald Trump.,1,,0.2,204,4,208
-wiki,25,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.2,154,8,162
-wiki,27,maintenance_extractive_adaptive,False,"Manhattan, Staten, and Long.",1,,0.6,379,9,388
-wiki,28,maintenance_extractive_adaptive,False,Hudson River.,1,,0.6,158,5,163
-wiki,29,maintenance_extractive_adaptive,False,No information provided.,1,,0.3,183,5,188
-wiki,30,maintenance_extractive_adaptive,True,1656,1,,0.3,266,3,269
-wiki,33,maintenance_extractive_adaptive,False,Setbacks.,1,,51.9,334,4,338
-wiki,34,maintenance_extractive_adaptive,True,Humid continental.,1,,51.9,200,5,205
-wiki,31,maintenance_extractive_adaptive,True,550,1,,53.0,261,2,263
-wiki,32,maintenance_extractive_adaptive,False,I don't have that information.,1,,53.0,198,8,206
-wiki,36,maintenance_extractive_adaptive,False,No information.,1,,0.2,204,4,208
-wiki,35,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.2,182,8,190
-wiki,37,maintenance_extractive_adaptive,True,Minneapolis.,1,,0.2,178,4,182
-wiki,38,maintenance_extractive_adaptive,False,"26,000 acres.",1,,0.5,188,6,194
-wiki,40,maintenance_extractive_adaptive,False,I don't have the information.,1,,0.3,178,8,186
-wiki,39,maintenance_extractive_adaptive,True,Grant's Tomb,1,,0.2,203,4,207
-wiki,41,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.2,171,8,179
-wiki,43,maintenance_extractive_adaptive,False,Chinese.,1,,0.2,505,3,508
-wiki,42,maintenance_extractive_adaptive,False,No information is available.,1,,0.3,261,6,267
-wiki,44,maintenance_extractive_adaptive,True,12 million.,1,,0.2,239,4,243
-wiki,46,maintenance_extractive_adaptive,False,No information.,1,,0.2,151,4,155
-wiki,45,maintenance_extractive_adaptive,False,No information.,1,,0.3,171,4,175
-wiki,48,maintenance_extractive_adaptive,False,Unknown.,1,,0.4,197,3,200
-wiki,47,maintenance_extractive_adaptive,False,Dominican,1,,0.6,373,3,376
-wiki,49,maintenance_extractive_adaptive,True,Judaism.,1,,0.3,197,5,202
-wiki,50,maintenance_extractive_adaptive,False,No information provided.,1,,0.3,195,5,200
-wiki,52,maintenance_extractive_adaptive,False,No information.,1,,0.4,300,4,304
-wiki,53,maintenance_extractive_adaptive,True,Chocolate,1,,0.3,262,2,264
-wiki,51,maintenance_extractive_adaptive,True,"$15,887/m²",1,,0.8,223,7,230
-wiki,54,maintenance_extractive_adaptive,False,No information provided.,1,,0.4,200,5,205
-wiki,55,maintenance_extractive_adaptive,True,Over 500 million square feet.,1,,0.5,194,8,202
-wiki,57,maintenance_extractive_adaptive,True,56.4 million.,1,,0.2,296,6,302
-wiki,56,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.3,245,8,253
-wiki,58,maintenance_extractive_adaptive,True,I Love New York,1,,0.2,226,5,231
-wiki,60,maintenance_extractive_adaptive,True,Anbang Insurance Group.,1,,0.6,226,6,232
-wiki,62,maintenance_extractive_adaptive,False,"El Diario La Prensa, New York Amsterdam News.",1,,1.1,167,14,181
-wiki,61,maintenance_extractive_adaptive,False,No information.,1,,53.0,168,4,172
-wiki,64,maintenance_extractive_adaptive,True,WNYC,1,,51.7,203,4,207
-wiki,63,maintenance_extractive_adaptive,False,No information provided.,1,,51.9,205,5,210
-wiki,59,maintenance_extractive_adaptive,False,I don't have the information to answer this question.,1,,53.6,271,12,283
-wiki,65,maintenance_extractive_adaptive,False,No information.,1,,0.7,184,4,188
-wiki,68,maintenance_extractive_adaptive,False,Unknown.,1,,0.4,174,3,177
-wiki,66,maintenance_extractive_adaptive,False,No information provided.,1,,0.5,225,5,230
-wiki,67,maintenance_extractive_adaptive,True,1.4 million.,1,,0.6,353,6,359
-wiki,70,maintenance_extractive_adaptive,False,I don't have the information to answer this question.,1,,0.4,224,12,236
-wiki,69,maintenance_extractive_adaptive,True,"Over 35,000.",1,,0.6,176,7,183
-wiki,72,maintenance_extractive_adaptive,False,Subway system.,1,,0.3,405,5,410
-wiki,71,maintenance_extractive_adaptive,False,New York City Fire Department (FDNY),1,,0.5,227,10,237
-wiki,73,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.7,185,8,193
-wiki,74,maintenance_extractive_adaptive,True,The New York School.,1,,0.6,244,6,250
-wiki,75,maintenance_extractive_adaptive,True,"More than 2,000.",1,,0.5,192,8,200
-wiki,76,maintenance_extractive_adaptive,False,No information.,1,,0.4,224,4,228
-wiki,77,maintenance_extractive_adaptive,False,"MetLife Stadium, Yankee Stadium, Madison Square Garden, Citi Field.",1,,0.5,194,16,210
-wiki,78,maintenance_extractive_adaptive,True,MetLife Stadium,1,,0.6,326,4,330
-wiki,79,maintenance_extractive_adaptive,True,Hockey.,1,,0.5,254,4,258
-wiki,80,maintenance_extractive_adaptive,False,There is no information about a collegiate basketball championship in the passage.,1,,0.4,185,14,199
-wiki,81,maintenance_extractive_adaptive,False,I don't have the information.,1,,0.5,194,8,202
-wiki,83,maintenance_extractive_adaptive,False,No information provided.,1,,0.3,174,5,179
-wiki,82,maintenance_extractive_adaptive,True,New York City Subway system.,1,,0.4,213,7,220
-wiki,85,maintenance_extractive_adaptive,True,109 million.,1,,0.3,235,4,239
-wiki,84,maintenance_extractive_adaptive,True,"7,000",1,,0.5,230,4,234
-wiki,86,maintenance_extractive_adaptive,False,George Washington Bridge.,1,,0.3,317,5,322
-wiki,88,maintenance_extractive_adaptive,True,"over 200,000.",1,,0.6,188,7,195
-wiki,87,maintenance_extractive_adaptive,True,The Lincoln Tunnel.,1,,0.7,232,5,237
-wiki,89,maintenance_extractive_adaptive,True,Catskill Mountains,1,,0.3,195,5,200
-wiki,90,maintenance_extractive_adaptive,False,There is no information given about the number of councilors.,1,,1.0,200,13,213
-wiki,91,maintenance_extractive_adaptive,False,No information is available.,1,,49.9,205,6,211
-wiki,94,maintenance_extractive_adaptive,True,Fifth Avenue.,1,,48.5,169,5,174
-wiki,93,maintenance_extractive_adaptive,False,No information is given about a specific library.,1,,49.7,365,10,375
-wiki,92,maintenance_extractive_adaptive,True,"225,000.",1,,50.5,180,5,185
-wiki,95,maintenance_extractive_adaptive,True,New York City FC.,1,,0.6,178,6,184
-wiki,97,maintenance_extractive_adaptive,False,Entertainment.,1,,0.3,282,4,286
-wiki,96,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.3,163,8,171
-wiki,98,maintenance_extractive_adaptive,True,The west end.,1,,0.4,213,5,218
-wiki,99,maintenance_extractive_adaptive,False,No information provided.,1,,0.8,192,5,197
-wiki,100,maintenance_extractive_adaptive,False,No answer available.,1,,0.8,149,5,154
-news,4,maintenance_extractive_adaptive,False,Yes.,1,,0.2,198,3,201
-news,3,maintenance_extractive_adaptive,False,Michio Kanda.,1,,0.3,203,6,209
-news,2,maintenance_extractive_adaptive,False,40 people.,1,,0.4,466,4,470
-news,1,maintenance_extractive_adaptive,False,"Civilians, tourists, U.S. military personnel, bus riders, pickup driver.",1,,0.9,413,19,432
-news,5,maintenance_extractive_adaptive,False,AC Milan.,1,,0.3,194,4,198
-news,6,maintenance_extractive_adaptive,True,Third.,1,,0.3,266,3,269
-news,7,maintenance_extractive_adaptive,True,Heineken's local unit.,1,,0.3,219,8,227
-news,8,maintenance_extractive_adaptive,True,Gulder Ultimate Search.,1,,0.3,216,7,223
-news,9,maintenance_extractive_adaptive,False,Routine colonoscopy.,1,,0.3,266,6,272
-news,10,maintenance_extractive_adaptive,True,June 2002.,1,,0.5,331,6,337
-news,11,maintenance_extractive_adaptive,False,Pakistan.,1,,0.6,762,3,765
-news,12,maintenance_extractive_adaptive,False,an al Qaeda-affiliated group.,1,,0.7,153,8,161
-news,14,maintenance_extractive_adaptive,False,Three Chinese citizens.,1,,0.5,201,5,206
-news,15,maintenance_extractive_adaptive,False,No source stated that.,1,,0.3,210,6,216
-news,13,maintenance_extractive_adaptive,False,"Two different dates: 
-
-1. Madrid train bombings: Not specified
-2. London bombings: July 7, 2005",1,,1.0,219,27,246
-news,16,maintenance_extractive_adaptive,False,"Prachanda, Putin, Ahmadinejad, Ali Khamenei, Arellano Dominguez.",1,,0.4,696,23,719
-news,19,maintenance_extractive_adaptive,True,Julio Cruz,1,,0.2,178,4,182
-news,17,maintenance_extractive_adaptive,False,Demand democracy be restored in Pakistan.,1,,0.5,232,8,240
-news,18,maintenance_extractive_adaptive,False,Yes.,1,,0.3,321,3,324
-news,20,maintenance_extractive_adaptive,False,Julio Cruz,1,,1.0,409,4,413
-news,23,maintenance_extractive_adaptive,True,France.,1,,50.2,387,3,390
-news,22,maintenance_extractive_adaptive,True,l'Hydroptere,1,,50.2,214,7,221
-news,24,maintenance_extractive_adaptive,True,Second degree aggravated battery.,1,,49.6,188,6,194
-news,21,maintenance_extractive_adaptive,False,New Jersey's Teterboro Airport.,1,,50.6,259,9,268
-news,25,maintenance_extractive_adaptive,True,Jena 6 case,1,,0.4,190,6,196
-news,27,maintenance_extractive_adaptive,False,Hugo Chavez.,1,,0.5,288,5,293
-news,26,maintenance_extractive_adaptive,False,No mention.,1,,0.6,402,4,406
-news,28,maintenance_extractive_adaptive,False,Yes.,1,,0.5,224,3,227
-news,31,maintenance_extractive_adaptive,True,New Delhi.,1,,0.4,243,4,247
-news,32,maintenance_extractive_adaptive,True,"100,000",1,,0.7,235,4,239
-news,34,maintenance_extractive_adaptive,False,U.S. government sources.,1,,0.9,266,7,273
-news,29,maintenance_extractive_adaptive,False,Werder Bremen.,1,,2.6,295,6,301
-news,30,maintenance_extractive_adaptive,True,Baku.,1,,2.3,194,4,198
-news,33,maintenance_extractive_adaptive,True,Federal prosecutors.,1,,1.5,263,4,267
-news,35,maintenance_extractive_adaptive,True,56 years old.,1,,0.3,203,5,208
-news,36,maintenance_extractive_adaptive,False,Acting and broadcasting.,1,,0.3,406,6,412
-news,37,maintenance_extractive_adaptive,False,They.,1,,0.4,296,3,299
-news,38,maintenance_extractive_adaptive,False,"49 people, 9 people, 46 people, 4 people, 3 people, 2 people, 15 people.",1,,0.4,840,28,868
-news,39,maintenance_extractive_adaptive,False,Dida.,1,,0.3,400,4,404
-news,40,maintenance_extractive_adaptive,False,Lined up to empty their accounts.,1,,0.2,183,9,192
-news,42,maintenance_extractive_adaptive,False,Goma,1,,0.3,596,3,599
-news,41,maintenance_extractive_adaptive,True,Search and rescue crews.,1,,0.5,462,6,468
-news,44,maintenance_extractive_adaptive,True,The killing of Armenians by Ottoman Turks.,1,,0.6,299,10,309
-news,43,maintenance_extractive_adaptive,True,genocide,1,,0.2,191,3,194
-news,45,maintenance_extractive_adaptive,False,Nothing.,1,,0.4,253,3,256
-news,46,maintenance_extractive_adaptive,True,Tech International,1,,0.5,180,3,183
-news,47,maintenance_extractive_adaptive,False,4 and 5.,1,,0.4,193,6,199
-news,48,maintenance_extractive_adaptive,False,Children as young as 15 are becoming involved in terrorist-related activity.,1,,0.3,253,15,268
-news,50,maintenance_extractive_adaptive,False,"Huntington's disease, mental illness, physical disabilities, learning disabilities.",1,,0.7,278,16,294
-news,49,maintenance_extractive_adaptive,False,Afghanistan.,1,,1.2,229,5,234
-news,52,maintenance_extractive_adaptive,False,18.,1,,50.4,244,3,247
-news,54,maintenance_extractive_adaptive,True,Contact with anyone under 18.,1,,49.5,274,8,282
-news,51,maintenance_extractive_adaptive,False,Rowles.,1,,50.9,188,4,192
-news,53,maintenance_extractive_adaptive,True,Debra Lafave,1,,49.9,185,5,190
-news,58,maintenance_extractive_adaptive,False,Mable Randon.,1,,0.2,1040,6,1046
-news,57,maintenance_extractive_adaptive,False,Doctors removed polyps from his colon.,1,,0.5,322,9,331
-news,56,maintenance_extractive_adaptive,False,3-0.,1,,0.6,479,5,484
-news,55,maintenance_extractive_adaptive,False,Anyone under 18.,1,,1.3,185,6,191
-news,62,maintenance_extractive_adaptive,False,Iwo Jima,1,,0.4,237,5,242
-news,60,maintenance_extractive_adaptive,False,2004,1,,0.4,264,3,267
-news,61,maintenance_extractive_adaptive,False,Michael Strank.,1,,2.4,244,5,249
-news,63,maintenance_extractive_adaptive,True,226,1,,1.1,411,2,413
-news,59,maintenance_extractive_adaptive,False,more pleasant,1,,2.7,274,3,277
-news,64,maintenance_extractive_adaptive,False,National parliament and state politicians.,1,,1.2,543,7,550
-news,66,maintenance_extractive_adaptive,True,National Hurricane Center.,1,,0.5,333,5,338
-news,65,maintenance_extractive_adaptive,True,Princess Eugenie.,1,,0.6,195,6,201
-news,67,maintenance_extractive_adaptive,False,Proenza's step down.,1,,0.9,202,7,209
-news,68,maintenance_extractive_adaptive,False,Chinese defendants,1,,0.6,262,3,265
-news,70,maintenance_extractive_adaptive,False,federal prosecutors,1,,0.5,217,4,221
-news,69,maintenance_extractive_adaptive,False,Substance abuse therapy and mental health counseling.,1,,0.4,174,10,184
-news,71,maintenance_extractive_adaptive,False,Tom Daschle.,1,,0.6,218,6,224
-news,72,maintenance_extractive_adaptive,False,Heidi Tagliavini.,1,,0.6,178,8,186
-news,74,maintenance_extractive_adaptive,False,Kyree Flowers and Patrick Wise Jr.,1,,0.2,382,9,391
-news,73,maintenance_extractive_adaptive,True,Liquid.,1,,0.5,301,3,304
-news,75,maintenance_extractive_adaptive,False,Half a Merck share and $10.50 in cash.,1,,0.6,228,14,242
-news,76,maintenance_extractive_adaptive,True,Falsely imprisoning a male escort.,1,,0.4,313,10,323
-news,77,maintenance_extractive_adaptive,True,The August war between Georgia and Russia.,1,,0.6,183,9,192
-news,78,maintenance_extractive_adaptive,True,A 23-year-old man.,1,,0.2,209,8,217
-news,79,maintenance_extractive_adaptive,True,Chip Auman's,1,,0.7,186,5,191
-news,81,maintenance_extractive_adaptive,True,Tripp Wylie.,1,,0.4,208,6,214
-news,80,maintenance_extractive_adaptive,True,University of South Carolina.,1,,50.9,254,6,260
-news,84,maintenance_extractive_adaptive,False,AIA office,1,,49.6,170,4,174
-news,82,maintenance_extractive_adaptive,False,F-15s.,1,,50.2,198,6,204
-news,83,maintenance_extractive_adaptive,False,Air-to-ground and air-to-air missions.,1,,50.5,358,10,368
-news,85,maintenance_extractive_adaptive,False,Roma.,1,,0.9,151,4,155
-news,88,maintenance_extractive_adaptive,True,February.,1,,0.7,210,3,213
-news,87,maintenance_extractive_adaptive,False,Yes.,1,,0.8,144,3,147
-news,86,maintenance_extractive_adaptive,False,It crashed.,1,,1.3,658,4,662
-news,89,maintenance_extractive_adaptive,False,New constitution.,1,,1.1,175,4,179
-news,91,maintenance_extractive_adaptive,False,Investigating.,1,,0.6,243,5,248
-news,92,maintenance_extractive_adaptive,False,No information.,1,,2.1,196,4,200
-news,93,maintenance_extractive_adaptive,True,Wire.,1,,1.5,163,3,166
-news,90,maintenance_extractive_adaptive,False,Cause.,1,,2.1,241,3,244
-news,94,maintenance_extractive_adaptive,False,No quote from an Israeli intelligence officer is provided.,1,,1.3,196,11,207
-news,95,maintenance_extractive_adaptive,True,Tomas Medina Caracas.,1,,0.8,237,7,244
-news,97,maintenance_extractive_adaptive,False,No information.,1,,0.7,167,4,171
-news,96,maintenance_extractive_adaptive,False,Comment about sterilization.,1,,0.7,437,6,443
-news,98,maintenance_extractive_adaptive,False,Orlando to Philadelphia.,1,,0.3,267,6,273
-news,99,maintenance_extractive_adaptive,True,Kevin Federline.,1,,0.6,259,5,264
-news,100,maintenance_extractive_adaptive,True,July.,1,,0.4,159,3,162
-news,101,maintenance_extractive_adaptive,False,"An AK-47, a grenade, a pistol, ammunition, and loaded magazines.",1,,0.3,491,18,509
-news,102,maintenance_extractive_adaptive,False,Some.,1,,0.5,144,3,147
-news,103,maintenance_extractive_adaptive,True,Schools and government offices.,1,,0.4,180,7,187
-news,104,maintenance_extractive_adaptive,False,The ground.,1,,0.4,235,4,239
-news,105,maintenance_extractive_adaptive,False,Nothing.,1,,0.3,227,3,230
-news,106,maintenance_extractive_adaptive,False,Democratic Republic of Congo.,1,,0.4,520,6,526
-news,107,maintenance_extractive_adaptive,False,Goma.,1,,0.9,543,4,547
-news,110,maintenance_extractive_adaptive,True,Eme Zuru Ayortor.,1,,1.1,212,9,221
-news,109,maintenance_extractive_adaptive,False,38 years.,1,,1.1,377,4,381
-news,108,maintenance_extractive_adaptive,False,Cells from mice.,1,,1.5,192,5,197
-news,112,maintenance_extractive_adaptive,False,No one in the passage.,1,,48.2,255,7,262
-news,113,maintenance_extractive_adaptive,True,434 people.,1,,48.4,216,4,220
-news,111,maintenance_extractive_adaptive,False,Not specified.,1,,48.5,184,4,188
-news,114,maintenance_extractive_adaptive,False,Russia.,1,,48.7,334,3,337
+wiki,25,maintenance_extractive_adaptive,True,American Airlines Flight 11.,1,,0.3,230,7,237
+wiki,28,maintenance_extractive_adaptive,False,The East River.,1,,0.3,156,5,161
+wiki,27,maintenance_extractive_adaptive,False,"Manhattan, Staten, and Long.",1,,0.3,433,9,442
+wiki,29,maintenance_extractive_adaptive,False,No information given.,1,,0.3,183,5,188
+wiki,30,maintenance_extractive_adaptive,True,1656,1,,0.2,266,3,269
+wiki,33,maintenance_extractive_adaptive,False,Water towers.,1,,53.7,315,4,319
+wiki,32,maintenance_extractive_adaptive,False,There is no mention of an animal decorating the corners of the Chrysler Building.,1,,54.5,206,16,222
+wiki,31,maintenance_extractive_adaptive,True,550,1,,54.5,261,2,263
+wiki,34,maintenance_extractive_adaptive,False,Not specified.,1,,54.2,221,4,225
+wiki,35,maintenance_extractive_adaptive,True,"July 9, 1936.",1,,0.2,214,9,223
+wiki,36,maintenance_extractive_adaptive,False,25.8 inches.,1,,0.2,208,6,214
+wiki,37,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.3,176,8,184
+wiki,38,maintenance_extractive_adaptive,False,"26,000 acres.",1,,0.3,188,6,194
+wiki,39,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.3,197,8,205
+wiki,40,maintenance_extractive_adaptive,True,"1,093 ha.",1,,0.2,206,6,212
+wiki,42,maintenance_extractive_adaptive,False,No information is available.,1,,0.2,315,6,321
+wiki,43,maintenance_extractive_adaptive,False,Bangladeshi.,1,,0.2,501,6,507
+wiki,41,maintenance_extractive_adaptive,False,I couldn't find the information.,1,,0.4,171,8,179
+wiki,44,maintenance_extractive_adaptive,True,12 million.,1,,0.2,268,4,272
+wiki,45,maintenance_extractive_adaptive,True,"Over 74,000.",1,,0.2,232,7,239
+wiki,47,maintenance_extractive_adaptive,True,The Dominican Republic.,1,,0.2,363,5,368
+wiki,46,maintenance_extractive_adaptive,False,No information.,1,,0.3,228,4,232
+wiki,48,maintenance_extractive_adaptive,True,"568,903",1,,0.3,208,4,212
+wiki,49,maintenance_extractive_adaptive,True,Judaism.,1,,0.3,208,5,213
+wiki,51,maintenance_extractive_adaptive,True,"$15,887/m²",1,,0.3,266,7,273
+wiki,53,maintenance_extractive_adaptive,True,Chocolate,1,,0.2,360,2,362
+wiki,50,maintenance_extractive_adaptive,True,"$2,749",1,,0.2,210,5,215
+wiki,52,maintenance_extractive_adaptive,False,No information.,1,,0.2,411,4,415
+wiki,54,maintenance_extractive_adaptive,True,$40 billion,1,,0.4,171,4,175
+wiki,57,maintenance_extractive_adaptive,False,56 million.,1,,0.2,330,4,334
+wiki,56,maintenance_extractive_adaptive,True,Roosevelt Island.,1,,0.2,278,6,284
+wiki,55,maintenance_extractive_adaptive,False,No information.,1,,0.2,198,4,202
+wiki,58,maintenance_extractive_adaptive,True,I Love New York,1,,0.4,226,5,231
+wiki,61,maintenance_extractive_adaptive,True,"25,000.",1,,0.2,228,5,233
+wiki,59,maintenance_extractive_adaptive,True,Central Park SummerStage.,1,,0.7,290,6,296
+wiki,62,maintenance_extractive_adaptive,True,The Wall Street Journal and The New York Times.,1,,53.8,227,11,238
+wiki,60,maintenance_extractive_adaptive,True,Anbang Insurance Group.,1,,54.2,249,6,255
+wiki,64,maintenance_extractive_adaptive,False,No information provided.,1,,53.7,199,5,204
+wiki,63,maintenance_extractive_adaptive,True,Manhattan Neighborhood Network.,1,,53.9,201,6,207
+wiki,65,maintenance_extractive_adaptive,False,None mentioned.,1,,0.2,222,4,226
+wiki,66,maintenance_extractive_adaptive,False,No information provided.,1,,0.3,222,5,227
+wiki,67,maintenance_extractive_adaptive,True,1.4 million.,1,,0.4,377,6,383
+wiki,68,maintenance_extractive_adaptive,True,"Ramanathan Raju, MD.",1,,0.2,178,9,187
+wiki,69,maintenance_extractive_adaptive,True,"Over 35,000.",1,,0.2,180,7,187
+wiki,70,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.2,192,8,200
+wiki,72,maintenance_extractive_adaptive,False,New York Stock Exchange.,1,,0.2,532,6,538
+wiki,71,maintenance_extractive_adaptive,False,New York City Fire Department (FDNY),1,,0.4,224,10,234
+wiki,73,maintenance_extractive_adaptive,False,There is no address given for the Bureau of Fire Communications alarm office in Brooklyn.,1,,0.3,216,17,233
+wiki,74,maintenance_extractive_adaptive,True,The New York School.,1,,0.2,230,6,236
+wiki,75,maintenance_extractive_adaptive,False,Several.,1,,0.7,206,3,209
+wiki,76,maintenance_extractive_adaptive,False,No information.,1,,1.5,224,4,228
+wiki,78,maintenance_extractive_adaptive,False,"None, they play in New Jersey.",1,,0.7,365,9,374
+wiki,77,maintenance_extractive_adaptive,False,There is no information about the world's most expensive stadiums in the passage.,1,,1.6,190,16,206
+wiki,79,maintenance_extractive_adaptive,True,Hockey.,1,,0.7,270,4,274
+wiki,81,maintenance_extractive_adaptive,True,United States Open Tennis Championships.,1,,0.5,206,7,213
+wiki,80,maintenance_extractive_adaptive,True,National Invitation Tournament,1,,0.7,205,4,209
+wiki,83,maintenance_extractive_adaptive,True,54.6%,1,,0.5,184,5,189
+wiki,82,maintenance_extractive_adaptive,False,"None, it's the busiest in the Western Hemisphere.",1,,0.5,224,12,236
+wiki,84,maintenance_extractive_adaptive,False,There is no information about the Port Authority Bus Terminal in the passage.,1,,0.3,203,15,218
+wiki,85,maintenance_extractive_adaptive,True,109 million,1,,0.2,208,3,211
+wiki,86,maintenance_extractive_adaptive,False,No answer available.,1,,0.4,344,5,349
+wiki,87,maintenance_extractive_adaptive,True,The Lincoln Tunnel.,1,,0.2,219,5,224
+wiki,89,maintenance_extractive_adaptive,True,Catskill Mountains,1,,0.2,195,5,200
+wiki,88,maintenance_extractive_adaptive,False,Not specified.,1,,0.3,178,4,182
+wiki,90,maintenance_extractive_adaptive,False,No information is given.,1,,0.4,214,6,220
+wiki,92,maintenance_extractive_adaptive,True,"225,000.",1,,16.6,203,5,208
+wiki,94,maintenance_extractive_adaptive,True,Fifth Avenue.,1,,16.0,242,5,247
+wiki,93,maintenance_extractive_adaptive,False,No answer available.,1,,16.7,370,5,375
+wiki,95,maintenance_extractive_adaptive,True,New York City FC.,1,,0.3,186,6,192
+wiki,96,maintenance_extractive_adaptive,False,I don't have that information.,1,,0.3,216,8,224
+wiki,97,maintenance_extractive_adaptive,False,Theater.,1,,0.3,313,4,317
+wiki,98,maintenance_extractive_adaptive,True,The west end.,1,,0.2,223,5,228
+wiki,100,maintenance_extractive_adaptive,False,Eastern District of New York.,1,,0.4,211,7,218
+wiki,99,maintenance_extractive_adaptive,False,No information provided.,1,,0.7,213,5,218
+wiki,91,maintenance_extractive_adaptive,False,No information.,1,,20.2,219,4,223
+news,4,maintenance_extractive_adaptive,False,Yes.,1,,0.4,236,3,239
+news,3,maintenance_extractive_adaptive,False,Michio Kanda.,1,,0.3,241,6,247
+news,2,maintenance_extractive_adaptive,False,40 people.,1,,0.3,505,4,509
+news,1,maintenance_extractive_adaptive,False,"Civilians, hotel guests, bus riders, children, U.S. service members, pickup driver.",1,,0.3,421,22,443
+news,7,maintenance_extractive_adaptive,True,Heineken's local unit.,1,,0.5,232,8,240
+news,6,maintenance_extractive_adaptive,True,Third.,1,,0.3,284,3,287
+news,5,maintenance_extractive_adaptive,False,AC Milan.,1,,0.3,212,4,216
+news,8,maintenance_extractive_adaptive,True,Gulder Ultimate Search.,1,,0.4,229,7,236
+news,9,maintenance_extractive_adaptive,False,Routine colonoscopy.,1,,0.4,287,6,293
+news,10,maintenance_extractive_adaptive,False,No information.,1,,0.3,365,4,369
+news,11,maintenance_extractive_adaptive,False,Pakistan.,1,,0.3,780,3,783
+news,12,maintenance_extractive_adaptive,False,an al Qaeda-affiliated group.,1,,0.3,153,8,161
+news,13,maintenance_extractive_adaptive,False,"July 7, 2005.",1,,0.5,244,9,253
+news,14,maintenance_extractive_adaptive,True,Three Chinese nationals.,1,,0.5,225,5,230
+news,18,maintenance_extractive_adaptive,False,Yes.,1,,29.1,322,3,325
+news,16,maintenance_extractive_adaptive,False,"Prachanda, Putin, Ahmadinejad, Ali Khamenei, Braulio Arellano Dominguez.",1,,30.1,780,26,806
+news,15,maintenance_extractive_adaptive,True,Assistant Attorney General Alice Fisher.,1,,30.3,234,7,241
+news,17,maintenance_extractive_adaptive,False,Demand full democracy in Pakistan.,1,,29.6,255,7,262
+news,19,maintenance_extractive_adaptive,True,Julio Cruz,1,,0.4,192,4,196
+news,20,maintenance_extractive_adaptive,False,Julio Cruz,1,,15.5,420,4,424
+news,23,maintenance_extractive_adaptive,True,France.,1,,14.3,394,3,397
+news,22,maintenance_extractive_adaptive,True,l'Hydroptere,1,,15.8,214,7,221
+news,21,maintenance_extractive_adaptive,False,Midtown Manhattan.,1,,15.9,305,5,310
+news,25,maintenance_extractive_adaptive,False,Jena Six,1,,0.5,202,4,206
+news,26,maintenance_extractive_adaptive,False,No information.,1,,0.5,426,4,430
+news,24,maintenance_extractive_adaptive,True,Second degree aggravated battery.,1,,0.8,200,6,206
+news,27,maintenance_extractive_adaptive,False,Hugo Chavez.,1,,0.7,293,5,298
+news,28,maintenance_extractive_adaptive,False,Yes.,1,,0.6,212,3,215
+news,29,maintenance_extractive_adaptive,False,Werder Bremen.,1,,0.7,280,6,286
+news,31,maintenance_extractive_adaptive,True,New Delhi.,1,,1.2,243,4,247
+news,32,maintenance_extractive_adaptive,True,"100,000",1,,4.2,235,4,239
+news,30,maintenance_extractive_adaptive,False,"Nowhere, according to the passage.",1,,5.0,212,9,221
+news,34,maintenance_extractive_adaptive,False,U.S. government sources.,1,,2.8,298,7,305
+news,33,maintenance_extractive_adaptive,True,Federal prosecutors.,1,,4.1,295,4,299
+news,35,maintenance_extractive_adaptive,True,56 years old.,1,,0.4,226,5,231
+news,37,maintenance_extractive_adaptive,False,Mexican attorney general's office.,1,,1.7,361,8,369
+news,39,maintenance_extractive_adaptive,False,Dida.,1,,0.7,394,4,398
+news,36,maintenance_extractive_adaptive,False,White House spokesman.,1,,1.4,467,5,472
+news,38,maintenance_extractive_adaptive,False,Multiple people.,1,,2.5,980,4,984
+news,40,maintenance_extractive_adaptive,False,Withdrawn their accounts.,1,,0.8,198,6,204
+news,42,maintenance_extractive_adaptive,False,Kutacane,1,,0.3,669,5,674
+news,41,maintenance_extractive_adaptive,True,Search and rescue crews.,1,,0.3,526,6,532
+news,43,maintenance_extractive_adaptive,True,genocide,1,,0.5,200,3,203
+news,45,maintenance_extractive_adaptive,False,Nothing.,1,,0.3,253,3,256
+news,44,maintenance_extractive_adaptive,False,Turkey's treatment of Armenians.,1,,29.9,319,8,327
+news,48,maintenance_extractive_adaptive,False,Children as young as 15 are becoming involved in terrorist-related activity.,1,,29.2,253,15,268
+news,47,maintenance_extractive_adaptive,False,Two kids.,1,,29.6,174,4,178
+news,46,maintenance_extractive_adaptive,True,Tech International,1,,30.1,198,3,201
+news,51,maintenance_extractive_adaptive,False,Rowles.,1,,1.3,196,4,200
+news,53,maintenance_extractive_adaptive,True,Debra Lafave,1,,14.6,207,5,212
+news,50,maintenance_extractive_adaptive,False,Huntington's.,1,,16.4,271,6,277
+news,49,maintenance_extractive_adaptive,False,Fight the Taliban.,1,,17.7,285,5,290
+news,52,maintenance_extractive_adaptive,True,18th,1,,16.9,219,3,222
+news,55,maintenance_extractive_adaptive,False,Teenagers.,1,,0.3,207,4,211
+news,54,maintenance_extractive_adaptive,False,Hugs and other physical contact with minors.,1,,0.9,307,10,317
+news,56,maintenance_extractive_adaptive,False,1-1.,1,,0.3,496,5,501
+news,57,maintenance_extractive_adaptive,False,Doctors removed polyps.,1,,0.2,341,6,347
+news,58,maintenance_extractive_adaptive,False,Mable Randon.,1,,0.4,1076,6,1082
+news,59,maintenance_extractive_adaptive,False,More pleasant.,1,,0.4,270,4,274
+news,61,maintenance_extractive_adaptive,True,Sgt. Michael Strank.,1,,0.9,208,8,216
+news,63,maintenance_extractive_adaptive,True,226,1,,3.3,407,2,409
+news,60,maintenance_extractive_adaptive,False,May 2004.,1,,4.3,309,6,315
+news,62,maintenance_extractive_adaptive,False,Iwo Jima.,1,,3.7,201,6,207
+news,64,maintenance_extractive_adaptive,False,National parliament and state politicians.,1,,3.2,558,7,565
+news,65,maintenance_extractive_adaptive,True,Princess Eugenie.,1,,0.5,234,6,240
+news,68,maintenance_extractive_adaptive,False,Vick and three co-defendants.,1,,0.8,227,9,236
+news,66,maintenance_extractive_adaptive,True,National Hurricane Center,1,,1.0,312,4,316
+news,67,maintenance_extractive_adaptive,False,His staff to step down.,1,,1.0,270,7,277
+news,71,maintenance_extractive_adaptive,False,Tom Daschle.,1,,0.5,218,6,224
+news,69,maintenance_extractive_adaptive,False,"Substance abuse therapy, mental health counseling, and curfew.",1,,1.7,194,14,208
+news,70,maintenance_extractive_adaptive,True,A Virginia grand jury.,1,,1.0,181,6,187
+news,72,maintenance_extractive_adaptive,False,Heidi Tagliavini.,1,,1.0,173,8,181
+news,73,maintenance_extractive_adaptive,False,Powder.,1,,0.9,334,4,338
+news,74,maintenance_extractive_adaptive,False,Christopher Shelton Timmons.,1,,0.5,417,7,424
+news,77,maintenance_extractive_adaptive,True,The August war between Georgia and Russia.,1,,29.7,178,9,187
+news,76,maintenance_extractive_adaptive,True,Falsely imprisoning a male escort.,1,,30.4,313,10,323
+news,78,maintenance_extractive_adaptive,True,A 23-year-old man.,1,,29.2,205,8,213
+news,75,maintenance_extractive_adaptive,False,Half a Merck share and $10.50.,1,,30.8,211,12,223
+news,80,maintenance_extractive_adaptive,True,University of South Carolina.,1,,1.0,291,6,297
+news,83,maintenance_extractive_adaptive,False,Air-to-ground and air-to-air missions.,1,,14.5,371,10,381
+news,81,maintenance_extractive_adaptive,True,Tripp Wylie.,1,,16.8,211,6,217
+news,82,maintenance_extractive_adaptive,False,F-15s.,1,,16.9,198,6,204
+news,79,maintenance_extractive_adaptive,True,Chip Auman's.,1,,17.4,209,6,215
+news,84,maintenance_extractive_adaptive,False,AIG office.,1,,0.4,197,5,202
+news,85,maintenance_extractive_adaptive,False,Roma.,1,,0.3,187,4,191
+news,87,maintenance_extractive_adaptive,False,Yes.,1,,0.4,133,3,136
+news,88,maintenance_extractive_adaptive,False,Wednesday.,1,,0.3,221,3,224
+news,86,maintenance_extractive_adaptive,False,Crashed.,1,,1.1,726,4,730
+news,89,maintenance_extractive_adaptive,False,Sign legislation.,1,,0.3,182,4,186
+news,90,maintenance_extractive_adaptive,False,Speculative.,1,,0.7,289,4,293
+news,92,maintenance_extractive_adaptive,False,CHF 430 billion.,1,,3.7,261,7,268
+news,94,maintenance_extractive_adaptive,False,Endangering civilians.,1,,2.7,235,6,241
+news,91,maintenance_extractive_adaptive,False,Investigating.,1,,4.6,290,5,295
+news,93,maintenance_extractive_adaptive,False,Nothing.,1,,3.7,159,3,162
+news,96,maintenance_extractive_adaptive,False,Comments about QuikSCAT.,1,,0.4,443,8,451
+news,95,maintenance_extractive_adaptive,True,Tomas Medina Caracas.,1,,0.6,236,7,243
+news,97,maintenance_extractive_adaptive,False,No information.,1,,0.5,182,4,186
+news,98,maintenance_extractive_adaptive,False,Orlando to Philadelphia.,1,,0.5,280,6,286
+news,99,maintenance_extractive_adaptive,True,Kevin Federline.,1,,0.4,302,5,307
+news,100,maintenance_extractive_adaptive,True,July.,1,,0.4,155,3,158
+news,101,maintenance_extractive_adaptive,False,"An AK-47, a grenade, a pistol, ammunition, and loaded magazines.",1,,0.4,477,18,495
+news,102,maintenance_extractive_adaptive,False,Twenty-six.,1,,0.4,133,4,137
+news,103,maintenance_extractive_adaptive,False,Flights.,1,,0.7,212,4,216
+news,104,maintenance_extractive_adaptive,False,The ground.,1,,0.8,229,4,233
+news,108,maintenance_extractive_adaptive,False,Cells from mice.,1,,29.2,178,5,183
+news,105,maintenance_extractive_adaptive,False,No information is given about what one evacuated resident said.,1,,30.7,263,12,275
+news,106,maintenance_extractive_adaptive,False,Democratic Republic of Congo.,1,,30.3,575,6,581
+news,107,maintenance_extractive_adaptive,False,Kutacane district in Aceh province.,1,,29.8,574,11,585
+news,110,maintenance_extractive_adaptive,True,Eme Zuru Ayortor.,1,,0.3,240,9,249
+news,111,maintenance_extractive_adaptive,False,"1,300 Palestinians.",1,,15.9,196,6,202
+news,112,maintenance_extractive_adaptive,False,No one.,1,,15.9,274,4,278
+news,113,maintenance_extractive_adaptive,True,434 people.,1,,14.9,216,4,220
+news,109,maintenance_extractive_adaptive,False,38 years old.,1,,15.9,403,5,408
+news,117,maintenance_extractive_adaptive,False,"3,700 tons of waste.",1,,1.1,364,8,372
+news,114,maintenance_extractive_adaptive,False,Russia.,1,,0.3,346,3,349
 news,115,maintenance_extractive_adaptive,True,Scandal.,1,,0.4,340,4,344
-news,116,maintenance_extractive_adaptive,True,72 years old.,1,,0.6,232,5,237
-news,118,maintenance_extractive_adaptive,False,€1.8 billion.,1,,0.4,199,7,206
-news,117,maintenance_extractive_adaptive,False,Trash.,1,,0.4,322,3,325
-news,119,maintenance_extractive_adaptive,True,"Atlanta, Georgia.",1,,0.8,196,5,201
-news,120,maintenance_extractive_adaptive,False,George W. Bush and Barbara Bush.,1,,0.7,237,9,246
-news,123,maintenance_extractive_adaptive,False,"Nowhere, the passage does not mention Lassie.",1,,1.0,186,13,199
-news,122,maintenance_extractive_adaptive,False,They are interviewing the driver.,1,,2.3,342,7,349
-news,121,maintenance_extractive_adaptive,True,48,1,,2.0,476,2,478
-news,125,maintenance_extractive_adaptive,True,Andrea Bocelli's.,1,,0.3,207,8,215
-news,124,maintenance_extractive_adaptive,False,The happiest day of his life.,1,,2.3,182,8,190
-news,126,maintenance_extractive_adaptive,True,Mexico City.,1,,0.3,214,4,218
-news,127,maintenance_extractive_adaptive,False,No one mentioned.,1,,0.7,172,5,177
-news,128,maintenance_extractive_adaptive,False,Tuesday.,1,,0.2,164,3,167
-news,130,maintenance_extractive_adaptive,False,No information.,1,,0.2,190,4,194
-news,129,maintenance_extractive_adaptive,False,The four suspects.,1,,0.2,199,5,204
-news,131,maintenance_extractive_adaptive,False,Dana Perino.,1,,0.2,279,6,285
-news,132,maintenance_extractive_adaptive,False,Yes.,1,,0.3,283,3,286
-news,134,maintenance_extractive_adaptive,True,10 percent.,1,,0.2,389,4,393
-news,133,maintenance_extractive_adaptive,False,Cracks in a wing assembly.,1,,0.3,195,8,203
-news,135,maintenance_extractive_adaptive,False,Increase taxes on luxury items.,1,,0.5,456,7,463
-news,136,maintenance_extractive_adaptive,True,nuclear partnership,1,,0.3,640,4,644
-news,138,maintenance_extractive_adaptive,True,A loaf of bread.,1,,1.0,228,6,234
-news,137,maintenance_extractive_adaptive,False,Letters with white powder.,1,,0.8,228,6,234
-news,140,maintenance_extractive_adaptive,False,Taylor Bradford.,1,,0.4,205,4,209
-news,139,maintenance_extractive_adaptive,False,Batna.,1,,1.3,290,4,294
-news,144,maintenance_extractive_adaptive,False,Ivan Cameron.,1,,48.9,313,5,318
-news,141,maintenance_extractive_adaptive,False,A campus parking lot.,1,,49.5,293,6,299
-news,142,maintenance_extractive_adaptive,False,Spain.,1,,50.2,230,3,233
-news,143,maintenance_extractive_adaptive,True,Greyhound buses in Britain.,1,,50.0,275,7,282
-news,145,maintenance_extractive_adaptive,False,HIV transmission and statutory rape.,1,,0.4,214,8,222
-news,147,maintenance_extractive_adaptive,False,Bloody uprising.,1,,0.5,221,5,226
-news,148,maintenance_extractive_adaptive,True,Heart disease.,1,,0.3,191,4,195
-news,146,maintenance_extractive_adaptive,True,Helicopter and small plane.,1,,0.6,278,7,285
-news,149,maintenance_extractive_adaptive,True,"Honesty, solidarity, and fraternity.",1,,1.1,282,10,292
-news,150,maintenance_extractive_adaptive,False,Nationwide retailers.,1,,1.0,188,5,193
-news,152,maintenance_extractive_adaptive,False,US Airways.,1,,1.7,679,4,683
-news,151,maintenance_extractive_adaptive,True,Hillary Clinton.,1,,1.8,266,4,270
-news,153,maintenance_extractive_adaptive,False,Raised concerns.,1,,0.9,308,4,312
-news,154,maintenance_extractive_adaptive,True,Heath Ledger,1,,0.9,220,4,224
-news,156,maintenance_extractive_adaptive,False,Older F/A-18 fighter jets.,1,,0.3,503,10,513
-news,155,maintenance_extractive_adaptive,True,Allison Pearson.,1,,0.6,205,5,210
-news,157,maintenance_extractive_adaptive,True,The proposed constitution.,1,,0.6,178,5,183
-news,160,maintenance_extractive_adaptive,True,Spending.,1,,0.2,279,4,283
-news,159,maintenance_extractive_adaptive,True,Holding veterans care funding hostage.,1,,0.3,198,8,206
+news,116,maintenance_extractive_adaptive,True,72 years old.,1,,0.7,232,5,237
+news,118,maintenance_extractive_adaptive,False,€1.8 billion.,1,,0.9,211,7,218
+news,119,maintenance_extractive_adaptive,True,"Atlanta, Georgia.",1,,0.4,196,5,201
+news,120,maintenance_extractive_adaptive,True,George H.W. Bush and Barbara Bush.,1,,0.7,220,10,230
+news,121,maintenance_extractive_adaptive,False,46,1,,1.9,494,2,496
+news,123,maintenance_extractive_adaptive,True,Universal Studios,1,,0.5,252,3,255
+news,124,maintenance_extractive_adaptive,False,None mentioned.,1,,0.3,215,4,219
+news,122,maintenance_extractive_adaptive,False,It is being investigated.,1,,0.3,390,6,396
+news,125,maintenance_extractive_adaptive,True,Andrea Bocelli's.,1,,1.2,207,8,215
+news,126,maintenance_extractive_adaptive,True,Mexico City.,1,,1.2,214,4,218
+news,127,maintenance_extractive_adaptive,False,Pandher,1,,0.6,185,4,189
+news,128,maintenance_extractive_adaptive,True,Sunday.,1,,0.5,175,3,178
+news,129,maintenance_extractive_adaptive,False,No one.,1,,0.7,228,4,232
+news,131,maintenance_extractive_adaptive,False,Dana Perino.,1,,0.6,296,6,302
+news,130,maintenance_extractive_adaptive,False,2 million.,1,,0.4,216,4,220
+news,132,maintenance_extractive_adaptive,False,No.,1,,0.6,300,3,303
+news,133,maintenance_extractive_adaptive,True,Stress cracks.,1,,0.4,235,5,240
+news,134,maintenance_extractive_adaptive,True,10 percent.,1,,0.5,394,4,398
+news,135,maintenance_extractive_adaptive,False,Increasing taxes.,1,,28.5,483,4,487
+news,136,maintenance_extractive_adaptive,True,nuclear partnership,1,,29.2,690,4,694
+news,137,maintenance_extractive_adaptive,False,Letters with white powder.,1,,28.4,230,6,236
+news,138,maintenance_extractive_adaptive,True,A loaf of bread.,1,,28.5,226,6,232
+news,139,maintenance_extractive_adaptive,False,Batna.,1,,0.4,299,4,303
+news,140,maintenance_extractive_adaptive,False,Taylor Bradford.,1,,14.4,220,4,224
+news,143,maintenance_extractive_adaptive,False,None mentioned.,1,,12.5,290,4,294
+news,141,maintenance_extractive_adaptive,False,North College Street.,1,,14.4,330,5,335
+news,142,maintenance_extractive_adaptive,False,"Madrid, Spain.",1,,14.8,230,6,236
+news,145,maintenance_extractive_adaptive,True,Seven counts of knowingly transferring the HIV virus.,1,,0.3,239,10,249
+news,146,maintenance_extractive_adaptive,False,Helicopter and PA-32.,1,,0.4,290,8,298
+news,144,maintenance_extractive_adaptive,False,Ivan Cameron.,1,,0.4,350,5,355
+news,147,maintenance_extractive_adaptive,False,Bloody uprising.,1,,0.6,227,5,232
+news,149,maintenance_extractive_adaptive,True,"Honesty, solidarity, and fraternity.",1,,0.8,278,10,288
+news,150,maintenance_extractive_adaptive,False,No information.,1,,1.1,159,4,163
+news,151,maintenance_extractive_adaptive,True,Hillary Clinton.,1,,0.4,236,4,240
+news,148,maintenance_extractive_adaptive,True,Heart disease.,1,,0.6,191,4,195
+news,152,maintenance_extractive_adaptive,False,Air Serv International.,1,,0.9,747,5,752
+news,153,maintenance_extractive_adaptive,False,Affected the region.,1,,1.4,310,5,315
+news,155,maintenance_extractive_adaptive,True,Allison Pearson.,1,,0.7,224,5,229
+news,154,maintenance_extractive_adaptive,True,Heath Ledger,1,,0.5,202,4,206
+news,156,maintenance_extractive_adaptive,False,Wings.,1,,1.0,540,4,544
+news,157,maintenance_extractive_adaptive,False,indigenous majority,1,,0.7,185,4,189
+news,158,maintenance_extractive_adaptive,True,"Two children for $2,000.",1,,0.3,279,9,288
+news,159,maintenance_extractive_adaptive,True,Holding veterans care funding hostage.,1,,0.5,198,8,206
 news,161,maintenance_extractive_adaptive,False,Peaceful purposes.,1,,0.5,200,5,205
-news,163,maintenance_extractive_adaptive,False,ISAF,1,,0.2,179,3,182
-news,162,maintenance_extractive_adaptive,False,Women linked to al Qaeda releasing messages.,1,,0.3,184,9,193
-news,158,maintenance_extractive_adaptive,True,"Two children for $2,000.",1,,2.3,279,9,288
-news,164,maintenance_extractive_adaptive,True,ABC,1,,0.2,169,2,171
-news,165,maintenance_extractive_adaptive,False,Acting and standup performances.,1,,0.2,242,8,250
-news,166,maintenance_extractive_adaptive,False,A body.,1,,0.3,433,4,437
-news,167,maintenance_extractive_adaptive,True,David Beckham.,1,,0.4,214,4,218
-news,169,maintenance_extractive_adaptive,False,No mention.,1,,0.6,207,4,211
-news,168,maintenance_extractive_adaptive,False,Villarreal.,1,,0.4,207,6,213
-news,170,maintenance_extractive_adaptive,False,Nothing.,1,,0.3,152,3,155
-news,171,maintenance_extractive_adaptive,False,Lack of democracy.,1,,49.7,265,6,271
-news,174,maintenance_extractive_adaptive,False,President Hamid Karzai.,1,,49.1,423,8,431
-news,173,maintenance_extractive_adaptive,True,her role as Julia Sugarbaker.,1,,49.5,621,9,630
-news,172,maintenance_extractive_adaptive,True,Pennsylvania.,1,,49.6,169,4,173
-news,176,maintenance_extractive_adaptive,False,15 months ago.,1,,0.5,337,5,342
-news,175,maintenance_extractive_adaptive,False,Voluntary manslaughter.,1,,0.9,178,5,183
-news,178,maintenance_extractive_adaptive,True,Prime Minister Sheikh Hasina.,1,,0.7,181,7,188
-news,177,maintenance_extractive_adaptive,True,"""Until the Day Is Done""",1,,0.8,358,8,366
-news,179,maintenance_extractive_adaptive,False,Her electricity provider.,1,,0.8,234,5,239
-news,180,maintenance_extractive_adaptive,False,Help paying for electricity.,1,,0.4,233,6,239
-news,184,maintenance_extractive_adaptive,True,Saddam Hussein era.,1,,0.8,248,7,255
-news,182,maintenance_extractive_adaptive,True,Al Qaeda,1,,1.7,229,3,232
-news,183,maintenance_extractive_adaptive,False,"$50,000.",1,,1.0,232,6,238
-news,181,maintenance_extractive_adaptive,False,Central London.,1,,1.9,195,4,199
-news,185,maintenance_extractive_adaptive,True,The crown of the Statue of Liberty,1,,0.9,189,8,197
-news,186,maintenance_extractive_adaptive,False,7.5 percent.,1,,0.3,348,6,354
-news,187,maintenance_extractive_adaptive,False,Normal.,1,,0.4,133,3,136
-news,188,maintenance_extractive_adaptive,False,"Concerned citizens and local Sunni ""awakening councils"".",1,,1.2,203,12,215
-news,191,maintenance_extractive_adaptive,False,Flooding.,1,,0.2,281,4,285
-news,189,maintenance_extractive_adaptive,True,Yuvraj Singh.,1,,0.2,190,6,196
-news,190,maintenance_extractive_adaptive,False,Typhoon.,1,,0.3,234,4,238
-news,192,maintenance_extractive_adaptive,True,One of Sin Hwa Dee's factories.,1,,0.4,183,10,193
-news,193,maintenance_extractive_adaptive,True,24 years.,1,,0.2,143,4,147
-news,194,maintenance_extractive_adaptive,False,Arellano Dominguez,1,,0.3,241,6,247
-news,195,maintenance_extractive_adaptive,False,"Stevenson and New Hope, Alabama.",1,,0.4,300,10,310
-news,196,maintenance_extractive_adaptive,False,No.,1,,0.5,196,3,199
-news,197,maintenance_extractive_adaptive,False,"14,900.",1,,0.3,203,5,208
-news,199,maintenance_extractive_adaptive,False,A movie starring Sandler.,1,,0.3,200,7,207
-news,198,maintenance_extractive_adaptive,True,Racially motivated threats.,1,,0.3,236,7,243
-news,200,maintenance_extractive_adaptive,True,Augustin Binya.,1,,0.3,267,6,273
-novel,00950a36_2,maintenance_extractive_adaptive,False,No city name is mentioned.,1,,48.7,630,7,637
-novel,00950a36_5,maintenance_extractive_adaptive,False,"A lovely, idiotic runaway.",1,,48.7,296,8,304
-novel,00950a36_0,maintenance_extractive_adaptive,False,None mentioned.,1,,49.3,640,4,644
-novel,00950a36_1,maintenance_extractive_adaptive,True,Olivia.,1,,48.7,342,4,346
-novel,00950a36_8,maintenance_extractive_adaptive,True,Olivia.,1,,0.3,408,4,412
-novel,00950a36_6,maintenance_extractive_adaptive,False,There is no information about this in the passage.,1,,0.4,263,11,274
-novel,00950a36_9,maintenance_extractive_adaptive,False,The ruins.,1,,0.6,232,4,236
-novel,00950a36_7,maintenance_extractive_adaptive,True,Conan.,1,,0.7,347,4,351
-novel,00950a36_10,maintenance_extractive_adaptive,True,Conan.,1,,0.4,665,4,669
-novel,00950a36_11,maintenance_extractive_adaptive,False,No one.,1,,0.5,522,4,526
-novel,00950a36_15,maintenance_extractive_adaptive,False,Aratus,1,,0.7,356,3,359
-novel,00950a36_12,maintenance_extractive_adaptive,False,No city mentioned.,1,,1.9,559,5,564
-novel,00950a36_13,maintenance_extractive_adaptive,False,Pirates.,1,,1.8,488,4,492
-novel,00950a36_14,maintenance_extractive_adaptive,False,A stone.,1,,1.3,442,4,446
-novel,3e966645_1,maintenance_extractive_adaptive,False,Dutch (or Netherlands),1,,0.5,437,7,444
-novel,3e966645_4,maintenance_extractive_adaptive,False,Their health.,1,,0.3,399,4,403
-novel,3e966645_5,maintenance_extractive_adaptive,False,None mentioned.,1,,0.3,351,4,355
-novel,3e966645_2,maintenance_extractive_adaptive,False,Mr. Clavering.,1,,0.6,738,7,745
-novel,3e966645_6,maintenance_extractive_adaptive,False,Vincey.,1,,1.1,1010,5,1015
-novel,3e966645_9,maintenance_extractive_adaptive,True,Tahiti (implied),1,,0.4,379,8,387
-novel,3e966645_7,maintenance_extractive_adaptive,False,M'Neil.,1,,0.4,227,5,232
-novel,3e966645_8,maintenance_extractive_adaptive,True,Papeete.,1,,0.7,527,5,532
-novel,3e966645_10,maintenance_extractive_adaptive,False,"The yellow flag, the emblem of pestilence.",1,,0.5,331,12,343
-novel,3e966645_11,maintenance_extractive_adaptive,False,Through the passage.,1,,0.8,371,5,376
-novel,3e966645_12,maintenance_extractive_adaptive,True,smallpox,1,,0.3,391,4,395
-novel,3e966645_16,maintenance_extractive_adaptive,False,A ship with a hooker.,1,,0.3,158,8,166
-novel,3e966645_17,maintenance_extractive_adaptive,False,Nowhere.,1,,0.3,341,4,345
-novel,3e966645_19,maintenance_extractive_adaptive,False,Brown,1,,0.4,524,2,526
-novel,3e966645_20,maintenance_extractive_adaptive,False,The Mignonette.,1,,0.3,169,6,175
-novel,3e966645_21,maintenance_extractive_adaptive,False,Brown.,1,,0.2,589,3,592
-novel,3e966645_23,maintenance_extractive_adaptive,False,None.,1,,49.2,316,3,319
-novel,6a659de3_2,maintenance_extractive_adaptive,False,Leo.,1,,49.1,277,3,280
-novel,3e966645_22,maintenance_extractive_adaptive,False,Papeete,1,,49.9,210,4,214
-novel,6a659de3_3,maintenance_extractive_adaptive,False,The King's magic.,1,,49.4,155,6,161
-novel,6a659de3_4,maintenance_extractive_adaptive,False,Mr. Holly.,1,,0.4,235,5,240
-novel,6a659de3_5,maintenance_extractive_adaptive,False,The narrator.,1,,0.4,415,4,419
-novel,6a659de3_7,maintenance_extractive_adaptive,False,Athens.,1,,0.5,539,4,543
-novel,6a659de3_6,maintenance_extractive_adaptive,False,The Ruler of Oz.,1,,0.5,332,7,339
-novel,6a659de3_8,maintenance_extractive_adaptive,False,No one is mentioned as saving Leo after he is injured.,1,,0.6,523,13,536
-novel,6a659de3_12,maintenance_extractive_adaptive,False,The narrator.,1,,0.5,491,4,495
-novel,6a659de3_11,maintenance_extractive_adaptive,False,The narrator.,1,,1.5,417,4,421
-novel,6a659de3_17,maintenance_extractive_adaptive,False,No one.,1,,0.4,482,4,486
-novel,9561a72a_0,maintenance_extractive_adaptive,True,Aunt Em and Uncle Henry.,1,,0.6,580,8,588
-novel,6a659de3_14,maintenance_extractive_adaptive,False,Mr. Clavering.,1,,1.8,396,7,403
-novel,9561a72a_1,maintenance_extractive_adaptive,False,Ozma.,1,,0.5,873,5,878
-novel,9561a72a_3,maintenance_extractive_adaptive,False,Cumberly Green.,1,,0.9,1037,6,1043
-novel,9561a72a_7,maintenance_extractive_adaptive,True,Underground.,1,,0.7,536,4,540
-novel,9561a72a_5,maintenance_extractive_adaptive,True,Aunt Em and Uncle Henry.,1,,0.8,891,8,899
-novel,9561a72a_9,maintenance_extractive_adaptive,False,None.,1,,0.6,445,3,448
-novel,9561a72a_11,maintenance_extractive_adaptive,False,The Nome King.,1,,0.5,658,5,663
-novel,9561a72a_10,maintenance_extractive_adaptive,True,The Magic Belt.,1,,0.5,575,5,580
-novel,9561a72a_12,maintenance_extractive_adaptive,True,General Guph.,1,,0.6,662,6,668
-novel,bf55d1c1_0,maintenance_extractive_adaptive,True,A mongoose.,1,,0.7,398,4,402
-novel,bf55d1c1_1,maintenance_extractive_adaptive,False,There is no mention of murder in the passage.,1,,0.5,154,11,165
-novel,bf55d1c1_2,maintenance_extractive_adaptive,True,Adam.,1,,0.7,203,3,206
-novel,bf55d1c1_3,maintenance_extractive_adaptive,False,Mr. Caswall.,1,,0.7,569,6,575
-novel,bf55d1c1_5,maintenance_extractive_adaptive,False,The Nome King.,1,,0.4,433,5,438
-novel,bf55d1c1_4,maintenance_extractive_adaptive,False,No information.,1,,0.5,352,4,356
-novel,bf55d1c1_6,maintenance_extractive_adaptive,False,Black snakes.,1,,0.4,436,4,440
-novel,bf55d1c1_9,maintenance_extractive_adaptive,False,"May 1, 18--",1,,0.4,299,8,307
-novel,bf55d1c1_10,maintenance_extractive_adaptive,False,I don't have that information.,1,,48.2,271,8,279
-novel,bf55d1c1_11,maintenance_extractive_adaptive,False,No one.,1,,48.2,200,4,204
-novel,bf55d1c1_12,maintenance_extractive_adaptive,False,Sydney.,1,,48.1,187,4,191
-novel,ca4b98f5_0,maintenance_extractive_adaptive,False,The Nome King.,1,,47.7,262,5,267
-novel,ca4b98f5_1,maintenance_extractive_adaptive,True,Harry Clavering.,1,,0.7,184,6,190
-novel,ca4b98f5_4,maintenance_extractive_adaptive,False,No information.,1,,0.3,184,4,188
-novel,ca4b98f5_3,maintenance_extractive_adaptive,False,The park.,1,,0.3,164,4,168
-novel,ca4b98f5_2,maintenance_extractive_adaptive,True,Messrs. Beilby and Burton.,1,,1.2,437,10,447
-novel,ca4b98f5_8,maintenance_extractive_adaptive,True,His mother.,1,,1.0,718,4,722
-novel,ca4b98f5_10,maintenance_extractive_adaptive,False,No information.,1,,0.7,238,4,242
-novel,ca4b98f5_6,maintenance_extractive_adaptive,False,Julia Brabazon.,1,,2.0,274,7,281
-novel,ca4b98f5_11,maintenance_extractive_adaptive,True,Lady Clavering.,1,,2.1,1080,6,1086
-novel,ca4b98f5_13,maintenance_extractive_adaptive,False,Harry.,1,,0.7,387,3,390
-novel,ca4b98f5_12,maintenance_extractive_adaptive,False,Mrs. Burton,1,,0.7,185,4,189
-novel,ca4b98f5_14,maintenance_extractive_adaptive,False,Clergyman.,1,,0.5,541,6,547
-novel,ca4b98f5_16,maintenance_extractive_adaptive,True,His mother.,1,,0.8,588,4,592
-novel,ca4b98f5_17,maintenance_extractive_adaptive,False,Julia.,1,,0.8,255,4,259
-novel,ca4b98f5_15,maintenance_extractive_adaptive,False,There is no information about Harry's second fiancee.,1,,1.4,159,12,171
-novel,ca4b98f5_18,maintenance_extractive_adaptive,False,No one.,1,,0.9,574,4,578
-caselaw,3,maintenance_extractive_adaptive,True,5,1,,0.4,3903,2,3905
-caselaw,7,maintenance_extractive_adaptive,False,5,1,,0.3,3917,2,3919
-caselaw,1,maintenance_extractive_adaptive,False,5,1,,0.3,3979,2,3981
-caselaw,5,maintenance_extractive_adaptive,False,5,1,,0.3,4067,2,4069
-caselaw,9,maintenance_extractive_adaptive,True,5,1,,0.4,3958,2,3960
-caselaw,11,maintenance_extractive_adaptive,True,5,1,,0.3,3949,2,3951
-caselaw,13,maintenance_extractive_adaptive,False,5,1,,0.3,3984,2,3986
-caselaw,15,maintenance_extractive_adaptive,False,5,1,,0.4,3890,2,3892
-caselaw,17,maintenance_extractive_adaptive,False,4,1,,0.3,4005,2,4007
-caselaw,19,maintenance_extractive_adaptive,False,2,1,,0.4,3954,2,3956
-caselaw,21,maintenance_extractive_adaptive,False,5,1,,0.8,3917,2,3919
-caselaw,23,maintenance_extractive_adaptive,False,5,1,,48.7,4022,2,4024
-caselaw,29,maintenance_extractive_adaptive,True,5,1,,47.7,4007,2,4009
-caselaw,25,maintenance_extractive_adaptive,False,5,1,,48.5,3901,2,3903
-caselaw,27,maintenance_extractive_adaptive,True,2,1,,48.3,3935,2,3937
-caselaw,31,maintenance_extractive_adaptive,True,5,1,,0.6,3962,2,3964
-caselaw,35,maintenance_extractive_adaptive,True,2,1,,0.5,4018,2,4020
-caselaw,33,maintenance_extractive_adaptive,False,2,1,,0.9,3952,2,3954
-caselaw,37,maintenance_extractive_adaptive,True,5,1,,0.6,3916,2,3918
-caselaw,39,maintenance_extractive_adaptive,False,5,1,,1.1,3919,2,3921
-caselaw,43,maintenance_extractive_adaptive,False,5,1,,0.6,3974,2,3976
-caselaw,41,maintenance_extractive_adaptive,False,3,1,,1.7,3923,2,3925
-caselaw,45,maintenance_extractive_adaptive,False,2,1,,1.7,3960,2,3962
-caselaw,49,maintenance_extractive_adaptive,True,5,1,,0.5,3946,2,3948
-caselaw,47,maintenance_extractive_adaptive,False,5,1,,0.7,3951,2,3953
-caselaw,51,maintenance_extractive_adaptive,True,5,1,,0.9,3942,2,3944
-caselaw,55,maintenance_extractive_adaptive,True,2,1,,0.5,4012,2,4014
-caselaw,57,maintenance_extractive_adaptive,False,4,1,,0.8,3993,2,3995
-caselaw,53,maintenance_extractive_adaptive,False,5,1,,1.7,3940,2,3942
-caselaw,59,maintenance_extractive_adaptive,False,4,1,,0.9,4024,2,4026
-caselaw,65,maintenance_extractive_adaptive,True,5,1,,0.8,3964,2,3966
-caselaw,63,maintenance_extractive_adaptive,False,5,1,,1.6,3992,2,3994
-caselaw,67,maintenance_extractive_adaptive,False,3,1,,0.9,3930,2,3932
-caselaw,61,maintenance_extractive_adaptive,False,5,1,,1.8,3905,2,3907
-caselaw,69,maintenance_extractive_adaptive,True,1,1,,0.7,3904,2,3906
-caselaw,73,maintenance_extractive_adaptive,True,2,1,,0.4,3925,2,3927
-caselaw,71,maintenance_extractive_adaptive,False,5,1,,0.6,3966,2,3968
-caselaw,75,maintenance_extractive_adaptive,True,2,1,,0.6,3922,3,3925
-caselaw,77,maintenance_extractive_adaptive,False,1,1,,0.3,3939,2,3941
-caselaw,83,maintenance_extractive_adaptive,False,5,1,,0.4,3900,2,3902
-caselaw,79,maintenance_extractive_adaptive,False,2,1,,0.5,3987,2,3989
-caselaw,81,maintenance_extractive_adaptive,False,5,1,,48.2,3984,2,3986
-caselaw,85,maintenance_extractive_adaptive,False,5,1,,48.1,3938,2,3940
-caselaw,89,maintenance_extractive_adaptive,False,5,1,,47.2,3929,2,3931
-caselaw,87,maintenance_extractive_adaptive,False,5,1,,47.6,3951,2,3953
-caselaw,91,maintenance_extractive_adaptive,False,5,1,,0.7,3953,2,3955
-caselaw,97,maintenance_extractive_adaptive,False,4,1,,0.3,3934,2,3936
-caselaw,95,maintenance_extractive_adaptive,False,4,1,,0.5,3943,2,3945
-caselaw,93,maintenance_extractive_adaptive,False,5,1,,0.4,3988,2,3990
-caselaw,99,maintenance_extractive_adaptive,False,4,1,,0.7,3972,2,3974
-caselaw,101,maintenance_extractive_adaptive,False,5,1,,0.6,3920,2,3922
-caselaw,105,maintenance_extractive_adaptive,False,4,1,,1.4,4017,2,4019
-caselaw,103,maintenance_extractive_adaptive,False,5,1,,1.7,3944,2,3946
-caselaw,107,maintenance_extractive_adaptive,False,4,1,,0.9,3929,2,3931
-caselaw,109,maintenance_extractive_adaptive,False,3,1,,0.6,3983,2,3985
-caselaw,111,maintenance_extractive_adaptive,False,5,1,,0.8,3959,2,3961
-caselaw,113,maintenance_extractive_adaptive,False,5,1,,0.8,3941,2,3943
-caselaw,115,maintenance_extractive_adaptive,False,5,1,,1.0,4035,2,4037
-caselaw,117,maintenance_extractive_adaptive,False,4,1,,0.9,4064,2,4066
-caselaw,119,maintenance_extractive_adaptive,True,3,1,,0.8,3958,2,3960
-caselaw,123,maintenance_extractive_adaptive,True,5,1,,1.0,3941,2,3943
-caselaw,121,maintenance_extractive_adaptive,False,5,1,,1.9,3951,2,3953
-caselaw,127,maintenance_extractive_adaptive,False,5,1,,1.1,3927,2,3929
-caselaw,125,maintenance_extractive_adaptive,True,5,1,,1.7,3942,2,3944
-caselaw,131,maintenance_extractive_adaptive,False,2,1,,0.6,3965,2,3967
-caselaw,133,maintenance_extractive_adaptive,False,2,1,,0.5,3932,2,3934
-caselaw,135,maintenance_extractive_adaptive,False,5,1,,0.5,4245,2,4247
-caselaw,129,maintenance_extractive_adaptive,False,5,1,,1.1,4061,2,4063
-caselaw,141,maintenance_extractive_adaptive,False,2,1,,0.4,3957,2,3959
-caselaw,139,maintenance_extractive_adaptive,False,5,1,,0.5,3960,2,3962
-caselaw,143,maintenance_extractive_adaptive,False,3,1,,0.5,4070,2,4072
-caselaw,149,maintenance_extractive_adaptive,False,5,1,,46.8,3990,2,3992
-caselaw,137,maintenance_extractive_adaptive,False,4,1,,49.0,4113,2,4115
-caselaw,145,maintenance_extractive_adaptive,False,5,1,,47.8,3972,2,3974
-caselaw,147,maintenance_extractive_adaptive,False,5,1,,47.2,4042,2,4044
-caselaw,157,maintenance_extractive_adaptive,False,5,1,,2.2,3968,2,3970
-caselaw,151,maintenance_extractive_adaptive,True,5,1,,1.3,3944,2,3946
-caselaw,155,maintenance_extractive_adaptive,False,2,1,,1.8,3999,2,4001
-caselaw,153,maintenance_extractive_adaptive,False,2,1,,1.9,4022,2,4024
-caselaw,165,maintenance_extractive_adaptive,False,5,1,,1.1,4032,2,4034
-caselaw,159,maintenance_extractive_adaptive,False,4,1,,1.0,3974,2,3976
-caselaw,161,maintenance_extractive_adaptive,False,5,1,,1.0,3975,2,3977
-caselaw,163,maintenance_extractive_adaptive,False,3,1,,1.1,3907,3,3910
-caselaw,167,maintenance_extractive_adaptive,False,5,1,,0.4,3964,2,3966
-caselaw,171,maintenance_extractive_adaptive,False,3,1,,1.5,3974,2,3976
-caselaw,169,maintenance_extractive_adaptive,True,5,1,,1.6,3947,2,3949
-caselaw,173,maintenance_extractive_adaptive,False,5,1,,0.5,3983,2,3985
-caselaw,175,maintenance_extractive_adaptive,False,5,1,,0.4,3922,2,3924
-caselaw,177,maintenance_extractive_adaptive,False,4,1,,0.7,3919,2,3921
-caselaw,179,maintenance_extractive_adaptive,False,5,1,,0.6,3957,2,3959
-caselaw,181,maintenance_extractive_adaptive,False,5,1,,0.5,3937,2,3939
-caselaw,183,maintenance_extractive_adaptive,False,5,1,,0.8,3995,2,3997
-caselaw,189,maintenance_extractive_adaptive,False,3,1,,0.5,3934,2,3936
-caselaw,185,maintenance_extractive_adaptive,False,5,1,,0.5,3947,2,3949
-caselaw,187,maintenance_extractive_adaptive,False,3,1,,0.7,3940,3,3943
-caselaw,191,maintenance_extractive_adaptive,True,3,1,,0.5,3992,2,3994
-caselaw,199,maintenance_extractive_adaptive,False,4,1,,0.4,4106,2,4108
-caselaw,195,maintenance_extractive_adaptive,False,5,1,,0.5,3949,2,3951
-caselaw,193,maintenance_extractive_adaptive,False,4,1,,0.3,4035,2,4037
-caselaw,197,maintenance_extractive_adaptive,False,5,1,,0.4,3972,2,3974
-caselaw,201,maintenance_extractive_adaptive,True,3,1,,0.5,3976,2,3978
-caselaw,209,maintenance_extractive_adaptive,True,5,1,,44.6,3947,2,3949
-caselaw,205,maintenance_extractive_adaptive,False,5,1,,45.6,3948,2,3950
-caselaw,207,maintenance_extractive_adaptive,True,5,1,,45.3,3938,2,3940
-caselaw,203,maintenance_extractive_adaptive,False,4,1,,46.2,3932,2,3934
-caselaw,213,maintenance_extractive_adaptive,False,3,1,,0.4,3981,2,3983
-caselaw,215,maintenance_extractive_adaptive,False,1,1,,1.2,4001,2,4003
-caselaw,211,maintenance_extractive_adaptive,True,4,1,,1.5,4046,2,4048
-caselaw,217,maintenance_extractive_adaptive,False,5,1,,1.2,3945,2,3947
-caselaw,221,maintenance_extractive_adaptive,False,5,1,,2.1,3979,2,3981
-caselaw,223,maintenance_extractive_adaptive,True,4,1,,2.0,3999,2,4001
-caselaw,219,maintenance_extractive_adaptive,False,4,1,,3.3,3939,2,3941
-caselaw,227,maintenance_extractive_adaptive,False,4,1,,0.6,4019,2,4021
-caselaw,229,maintenance_extractive_adaptive,False,5,1,,0.7,3897,2,3899
-caselaw,231,maintenance_extractive_adaptive,False,3,1,,1.0,4081,2,4083
-caselaw,233,maintenance_extractive_adaptive,True,3,1,,0.9,3906,2,3908
-caselaw,237,maintenance_extractive_adaptive,True,4,1,,0.6,3986,2,3988
-caselaw,225,maintenance_extractive_adaptive,False,5,1,,6.0,4010,2,4012
-caselaw,239,maintenance_extractive_adaptive,False,5,1,,0.7,3960,2,3962
-caselaw,235,maintenance_extractive_adaptive,False,2,1,,1.9,3987,2,3989
-caselaw,241,maintenance_extractive_adaptive,False,5,1,,0.3,3976,2,3978
-caselaw,243,maintenance_extractive_adaptive,False,5,1,,1.4,3965,2,3967
-caselaw,249,maintenance_extractive_adaptive,False,3,1,,0.4,3940,2,3942
-caselaw,247,maintenance_extractive_adaptive,False,4,1,,0.5,3990,2,3992
-caselaw,245,maintenance_extractive_adaptive,False,3,1,,0.4,3963,2,3965
-caselaw,251,maintenance_extractive_adaptive,False,5,1,,0.4,3887,2,3889
-caselaw,255,maintenance_extractive_adaptive,True,2,1,,0.4,3958,2,3960
-caselaw,253,maintenance_extractive_adaptive,False,5,1,,0.9,3892,2,3894
-caselaw,257,maintenance_extractive_adaptive,True,3,1,,0.9,3951,2,3953
-caselaw,259,maintenance_extractive_adaptive,True,3,1,,0.4,3996,2,3998
-caselaw,265,maintenance_extractive_adaptive,False,3,1,,44.9,3963,2,3965
-caselaw,261,maintenance_extractive_adaptive,True,5,1,,45.6,4097,2,4099
-caselaw,263,maintenance_extractive_adaptive,True,5,1,,45.1,3927,2,3929
-caselaw,267,maintenance_extractive_adaptive,False,4,1,,45.2,4053,2,4055
-caselaw,273,maintenance_extractive_adaptive,True,5,1,,0.4,3958,2,3960
-caselaw,275,maintenance_extractive_adaptive,True,5,1,,0.9,3939,2,3941
-caselaw,269,maintenance_extractive_adaptive,False,5,1,,1.1,3905,2,3907
-caselaw,271,maintenance_extractive_adaptive,False,2,1,,1.1,3979,2,3981
-caselaw,281,maintenance_extractive_adaptive,True,3,1,,1.7,4001,2,4003
-caselaw,277,maintenance_extractive_adaptive,False,5,1,,2.6,3944,2,3946
-caselaw,279,maintenance_extractive_adaptive,False,1,1,,2.0,4012,2,4014
-caselaw,283,maintenance_extractive_adaptive,True,5,1,,2.3,4008,2,4010
-caselaw,287,maintenance_extractive_adaptive,True,5,1,,1.0,3966,2,3968
-caselaw,289,maintenance_extractive_adaptive,False,5,1,,1.0,4038,2,4040
-caselaw,285,maintenance_extractive_adaptive,False,5,1,,1.3,3956,2,3958
-caselaw,295,maintenance_extractive_adaptive,False,2,1,,0.4,3941,2,3943
-caselaw,299,maintenance_extractive_adaptive,False,5,1,,0.5,4030,2,4032
-caselaw,291,maintenance_extractive_adaptive,True,4,1,,14.7,3910,2,3912
-caselaw,301,maintenance_extractive_adaptive,True,1,1,,0.3,3994,2,3996
-caselaw,303,maintenance_extractive_adaptive,False,5,1,,0.5,3978,2,3980
-caselaw,305,maintenance_extractive_adaptive,False,5,1,,0.4,3967,2,3969
-caselaw,307,maintenance_extractive_adaptive,False,5,1,,0.5,4003,2,4005
-caselaw,297,maintenance_extractive_adaptive,False,5,1,,0.4,3985,2,3987
-caselaw,309,maintenance_extractive_adaptive,True,5,1,,0.7,3969,2,3971
-caselaw,311,maintenance_extractive_adaptive,False,5,1,,0.3,3931,2,3933
-caselaw,313,maintenance_extractive_adaptive,False,5,1,,0.6,3964,2,3966
-caselaw,315,maintenance_extractive_adaptive,False,4,1,,0.4,3945,2,3947
-caselaw,317,maintenance_extractive_adaptive,False,5,1,,0.3,3915,2,3917
-caselaw,319,maintenance_extractive_adaptive,False,3,1,,0.6,3988,2,3990
-caselaw,323,maintenance_extractive_adaptive,True,5,1,,0.3,4021,2,4023
-caselaw,321,maintenance_extractive_adaptive,False,5,1,,31.5,4008,2,4010
-caselaw,293,maintenance_extractive_adaptive,True,5,1,,21.9,3965,2,3967
-caselaw,325,maintenance_extractive_adaptive,True,5,1,,31.2,3988,2,3990
-caselaw,327,maintenance_extractive_adaptive,False,2,1,,31.1,3908,2,3910
-caselaw,331,maintenance_extractive_adaptive,False,3,1,,0.9,3977,3,3980
-caselaw,333,maintenance_extractive_adaptive,False,5,1,,1.3,4037,2,4039
-caselaw,329,maintenance_extractive_adaptive,False,5,1,,1.2,4049,2,4051
-caselaw,335,maintenance_extractive_adaptive,False,2,1,,0.6,3920,2,3922
-caselaw,343,maintenance_extractive_adaptive,False,5,1,,1.8,3923,2,3925
-caselaw,337,maintenance_extractive_adaptive,False,5,1,,3.3,3983,2,3985
-caselaw,339,maintenance_extractive_adaptive,True,5,1,,2.4,3985,2,3987
-caselaw,341,maintenance_extractive_adaptive,True,2,1,,2.8,3929,2,3931
-caselaw,345,maintenance_extractive_adaptive,False,2,1,,0.6,3933,2,3935
-caselaw,349,maintenance_extractive_adaptive,False,5,1,,0.9,3967,2,3969
-caselaw,351,maintenance_extractive_adaptive,False,5,1,,0.8,3936,2,3938
-caselaw,353,maintenance_extractive_adaptive,True,4,1,,0.8,4029,2,4031
-caselaw,347,maintenance_extractive_adaptive,True,2,1,,13.6,3898,2,3900
-caselaw,357,maintenance_extractive_adaptive,False,3,1,,13.4,3987,2,3989
-caselaw,361,maintenance_extractive_adaptive,False,4,1,,1.8,3994,2,3996
-caselaw,363,maintenance_extractive_adaptive,False,5,1,,0.5,3884,2,3886
-caselaw,359,maintenance_extractive_adaptive,False,3,1,,16.9,3880,2,3882
-caselaw,355,maintenance_extractive_adaptive,True,1,1,,18.5,3942,2,3944
-caselaw,365,maintenance_extractive_adaptive,True,5,1,,2.2,3928,2,3930
-caselaw,367,maintenance_extractive_adaptive,False,3,1,,0.7,3943,2,3945
-caselaw,369,maintenance_extractive_adaptive,True,1,1,,0.4,3902,2,3904
-caselaw,373,maintenance_extractive_adaptive,False,3,1,,0.3,3910,2,3912
-caselaw,375,maintenance_extractive_adaptive,False,3,1,,0.5,3923,2,3925
-caselaw,371,maintenance_extractive_adaptive,False,4,1,,0.5,3997,2,3999
-caselaw,377,maintenance_extractive_adaptive,False,5,1,,0.4,3952,2,3954
-caselaw,381,maintenance_extractive_adaptive,True,4,1,,0.5,3978,2,3980
-caselaw,387,maintenance_extractive_adaptive,False,5,1,,29.8,3938,2,3940
-caselaw,385,maintenance_extractive_adaptive,False,5,1,,30.3,3915,2,3917
-caselaw,379,maintenance_extractive_adaptive,True,4,1,,31.0,4131,2,4133
-caselaw,383,maintenance_extractive_adaptive,False,5,1,,31.6,3921,2,3923
-caselaw,391,maintenance_extractive_adaptive,False,5,1,,0.8,3955,2,3957
-caselaw,395,maintenance_extractive_adaptive,False,5,1,,0.8,3946,2,3948
-caselaw,393,maintenance_extractive_adaptive,False,4,1,,1.5,3967,2,3969
-caselaw,389,maintenance_extractive_adaptive,False,4,1,,2.2,3909,2,3911
-caselaw,397,maintenance_extractive_adaptive,False,2,1,,2.8,3941,2,3943
-caselaw,399,maintenance_extractive_adaptive,False,5,1,,2.4,3956,2,3958
+news,160,maintenance_extractive_adaptive,True,Spending.,1,,0.4,279,4,283
+news,163,maintenance_extractive_adaptive,False,International coalition.,1,,0.3,186,4,190
+news,162,maintenance_extractive_adaptive,False,Incidents.,1,,0.4,154,4,158
+news,164,maintenance_extractive_adaptive,False,I don't have information on that.,1,,0.5,132,9,141
+news,165,maintenance_extractive_adaptive,False,Comedy.,1,,23.2,317,4,321
+news,167,maintenance_extractive_adaptive,True,David Beckham.,1,,23.2,211,4,215
+news,168,maintenance_extractive_adaptive,False,Sevilla.,1,,21.8,221,4,225
+news,166,maintenance_extractive_adaptive,False,A newborn infant.,1,,23.3,387,5,392
+news,169,maintenance_extractive_adaptive,False,Lost their fourth game in a row.,1,,3.1,221,9,230
+news,172,maintenance_extractive_adaptive,True,Pennsylvania.,1,,15.8,182,4,186
+news,173,maintenance_extractive_adaptive,True,her role as Julia Sugarbaker.,1,,12.3,713,9,722
+news,170,maintenance_extractive_adaptive,False,Nothing.,1,,16.5,153,3,156
+news,171,maintenance_extractive_adaptive,False,Imposing a state of emergency.,1,,16.9,293,8,301
+news,177,maintenance_extractive_adaptive,True,"""Until the Day Is Done""",1,,3.2,376,8,384
+news,176,maintenance_extractive_adaptive,False,Last year.,1,,3.6,360,4,364
+news,174,maintenance_extractive_adaptive,False,Hamid Karzai.,1,,3.9,430,7,437
+news,175,maintenance_extractive_adaptive,False,Voluntary manslaughter.,1,,3.4,178,5,183
+news,181,maintenance_extractive_adaptive,False,Haymarket.,1,,0.7,195,4,199
+news,178,maintenance_extractive_adaptive,True,Prime Minister Sheikh Hasina.,1,,1.4,181,7,188
+news,182,maintenance_extractive_adaptive,False,David Copeland.,1,,0.5,308,5,313
+news,179,maintenance_extractive_adaptive,False,Her electricity provider.,1,,2.0,234,5,239
+news,185,maintenance_extractive_adaptive,True,The crown of the Statue of Liberty.,1,,1.7,183,9,192
+news,183,maintenance_extractive_adaptive,False,No information.,1,,3.5,230,4,234
+news,180,maintenance_extractive_adaptive,False,Help paying for electricity.,1,,5.5,233,6,239
+news,184,maintenance_extractive_adaptive,True,Saddam Hussein era.,1,,3.0,270,7,277
+news,187,maintenance_extractive_adaptive,False,Dramatically improving.,1,,1.3,160,6,166
+news,186,maintenance_extractive_adaptive,False,7.5 percent.,1,,2.2,363,6,369
+news,189,maintenance_extractive_adaptive,True,Yuvraj Singh.,1,,1.5,211,6,217
+news,188,maintenance_extractive_adaptive,False,Cease-fire and employing local citizens.,1,,3.4,254,9,263
+news,192,maintenance_extractive_adaptive,False,There is no information.,1,,1.1,193,6,199
+news,191,maintenance_extractive_adaptive,False,Rice crop and livestock loss.,1,,2.2,312,8,320
+news,193,maintenance_extractive_adaptive,False,53 years old.,1,,0.8,169,5,174
+news,190,maintenance_extractive_adaptive,False,Typhoon.,1,,2.4,234,4,238
+news,196,maintenance_extractive_adaptive,False,No.,1,,1.0,216,3,219
+news,198,maintenance_extractive_adaptive,True,Racially motivated threats.,1,,22.0,260,7,267
+news,195,maintenance_extractive_adaptive,False,"Bridgeport, Alabama.",1,,24.2,289,6,295
+news,194,maintenance_extractive_adaptive,True,Braulio Arellano Dominguez.,1,,24.8,281,11,292
+news,197,maintenance_extractive_adaptive,False,"14,900.",1,,24.4,210,5,215
+news,199,maintenance_extractive_adaptive,False,A comedy film.,1,,3.8,200,5,205
+news,200,maintenance_extractive_adaptive,True,Augustin Binya.,1,,15.9,267,6,273
+novel,00950a36_2,maintenance_extractive_adaptive,False,Vilayet,1,,0.4,849,4,853
+novel,00950a36_5,maintenance_extractive_adaptive,False,The narrator.,1,,0.4,360,4,364
+novel,00950a36_1,maintenance_extractive_adaptive,False,A woman.,1,,0.5,474,4,478
+novel,00950a36_7,maintenance_extractive_adaptive,True,Conan.,1,,1.7,515,4,519
+novel,00950a36_6,maintenance_extractive_adaptive,False,"There is no mention of someone being made ""Queen of the Blue Sea"".",1,,1.8,314,16,330
+novel,00950a36_0,maintenance_extractive_adaptive,True,Shah Amurath.,1,,3.5,978,7,985
+novel,00950a36_8,maintenance_extractive_adaptive,False,She.,1,,1.9,437,3,440
+novel,00950a36_9,maintenance_extractive_adaptive,False,The plateau.,1,,1.2,276,4,280
+novel,00950a36_12,maintenance_extractive_adaptive,False,No answer available.,1,,1.0,794,5,799
+novel,00950a36_11,maintenance_extractive_adaptive,False,No one.,1,,2.3,600,4,604
+novel,00950a36_14,maintenance_extractive_adaptive,False,A huge block of greenish stone.,1,,0.4,546,9,555
+novel,00950a36_13,maintenance_extractive_adaptive,True,Shah Amurath and the pirates.,1,,3.5,640,10,650
+novel,00950a36_10,maintenance_extractive_adaptive,True,Conan.,1,,5.9,929,4,933
+novel,3e966645_1,maintenance_extractive_adaptive,False,Australia.,1,,2.8,546,3,549
+novel,00950a36_15,maintenance_extractive_adaptive,True,Conan.,1,,3.3,533,4,537
+novel,3e966645_6,maintenance_extractive_adaptive,False,Shah Amurath.,1,,1.5,1096,7,1103
+novel,3e966645_2,maintenance_extractive_adaptive,False,Mr. Clavering.,1,,2.5,853,7,860
+novel,3e966645_5,maintenance_extractive_adaptive,False,Consumption.,1,,1.0,373,4,377
+novel,3e966645_4,maintenance_extractive_adaptive,False,Molasses.,1,,2.8,585,5,590
+novel,3e966645_10,maintenance_extractive_adaptive,False,liquor.,1,,1.0,346,4,350
+novel,3e966645_9,maintenance_extractive_adaptive,True,Tahiti.,1,,1.2,402,5,407
+novel,3e966645_7,maintenance_extractive_adaptive,False,Brown.,1,,2.1,272,3,275
+novel,3e966645_8,maintenance_extractive_adaptive,True,Papeete.,1,,2.1,630,5,635
+novel,3e966645_16,maintenance_extractive_adaptive,True,California champagne.,1,,1.4,175,4,179
+novel,3e966645_12,maintenance_extractive_adaptive,True,Smallpox.,1,,24.5,555,5,560
+novel,3e966645_19,maintenance_extractive_adaptive,False,The Yankee skipper.,1,,22.4,712,6,718
+novel,3e966645_17,maintenance_extractive_adaptive,False,Nowhere.,1,,24.5,383,4,387
+novel,3e966645_11,maintenance_extractive_adaptive,True,Sydney.,1,,25.2,403,4,407
+novel,3e966645_22,maintenance_extractive_adaptive,False,Papeete.,1,,3.5,253,5,258
+novel,3e966645_21,maintenance_extractive_adaptive,False,Brown.,1,,16.4,576,3,579
+novel,3e966645_23,maintenance_extractive_adaptive,False,None.,1,,18.1,377,3,380
+novel,6a659de3_2,maintenance_extractive_adaptive,False,Glinda the Good.,1,,13.4,422,6,428
+novel,3e966645_20,maintenance_extractive_adaptive,True,California champagne.,1,,18.4,186,4,190
+novel,6a659de3_5,maintenance_extractive_adaptive,False,The narrator.,1,,2.1,519,4,523
+novel,6a659de3_4,maintenance_extractive_adaptive,True,Leo Vincey.,1,,2.2,341,5,346
+novel,6a659de3_6,maintenance_extractive_adaptive,False,The Queen of a savage people.,1,,2.1,524,8,532
+novel,6a659de3_3,maintenance_extractive_adaptive,False,"The Princess, Glinda, and Dorothy.",1,,4.9,231,10,241
+novel,6a659de3_7,maintenance_extractive_adaptive,False,Egypt.,1,,1.2,664,3,667
+novel,6a659de3_11,maintenance_extractive_adaptive,False,The narrator.,1,,1.4,516,4,520
+novel,6a659de3_14,maintenance_extractive_adaptive,False,Vincey.,1,,0.8,418,5,423
+novel,6a659de3_12,maintenance_extractive_adaptive,False,The narrator.,1,,2.1,649,4,653
+novel,9561a72a_0,maintenance_extractive_adaptive,True,Aunt Em and Uncle Henry.,1,,2.3,649,8,657
+novel,6a659de3_8,maintenance_extractive_adaptive,False,The narrator.,1,,5.6,686,4,690
+novel,9561a72a_1,maintenance_extractive_adaptive,False,Ozma.,1,,2.7,1109,5,1114
+novel,6a659de3_17,maintenance_extractive_adaptive,False,Vincey.,1,,4.4,554,5,559
+novel,9561a72a_3,maintenance_extractive_adaptive,False,Caves of Kōr.,1,,1.6,1037,8,1045
+novel,9561a72a_5,maintenance_extractive_adaptive,True,Aunt Em and Uncle Henry.,1,,2.2,1039,8,1047
+novel,9561a72a_9,maintenance_extractive_adaptive,False,Uncle Henry and Aunt Em.,1,,2.3,562,8,570
+novel,9561a72a_7,maintenance_extractive_adaptive,False,Under the mountains of the Land of Ev.,1,,2.9,688,10,698
+novel,9561a72a_12,maintenance_extractive_adaptive,True,General Guph.,1,,0.7,947,6,953
+novel,9561a72a_11,maintenance_extractive_adaptive,True,"The Nome King, Roquat the Red.",1,,1.5,925,10,935
+novel,bf55d1c1_0,maintenance_extractive_adaptive,True,A mongoose.,1,,0.6,541,4,545
+novel,9561a72a_10,maintenance_extractive_adaptive,True,The Magic Belt.,1,,2.9,769,5,774
+novel,bf55d1c1_3,maintenance_extractive_adaptive,False,Mr. Caswall.,1,,1.4,627,6,633
+novel,bf55d1c1_4,maintenance_extractive_adaptive,False,Lady Arabella.,1,,24.0,385,5,390
+novel,bf55d1c1_2,maintenance_extractive_adaptive,True,Adam.,1,,24.5,248,3,251
+novel,bf55d1c1_5,maintenance_extractive_adaptive,False,The Nome King.,1,,22.1,696,5,701
+novel,bf55d1c1_1,maintenance_extractive_adaptive,False,There is no mention of Arabella murdering anyone in the passage.,1,,24.8,171,14,185
+novel,bf55d1c1_6,maintenance_extractive_adaptive,False,"No answer, as the passage does not mention a hole at Arabella's house.",1,,3.4,564,18,582
+novel,bf55d1c1_11,maintenance_extractive_adaptive,False,Edgar Caswall.,1,,15.5,222,6,228
+novel,bf55d1c1_10,maintenance_extractive_adaptive,False,No one is mentioned in the passage.,1,,16.9,338,9,347
+novel,bf55d1c1_12,maintenance_extractive_adaptive,False,There is no information about Adam Salton's original location.,1,,13.2,198,13,211
+novel,bf55d1c1_9,maintenance_extractive_adaptive,False,"May 1, 18--.",1,,17.0,286,9,295
+novel,ca4b98f5_3,maintenance_extractive_adaptive,False,The great house.,1,,2.3,191,5,196
+novel,ca4b98f5_1,maintenance_extractive_adaptive,False,Not specified.,1,,2.8,221,4,225
+novel,ca4b98f5_0,maintenance_extractive_adaptive,False,No title provided.,1,,3.9,300,5,305
+novel,ca4b98f5_2,maintenance_extractive_adaptive,True,Messrs. Beilby and Burton.,1,,2.9,501,10,511
+novel,ca4b98f5_6,maintenance_extractive_adaptive,False,Julia Brabazon.,1,,1.1,325,7,332
+novel,ca4b98f5_8,maintenance_extractive_adaptive,True,His mother.,1,,1.3,900,4,904
+novel,ca4b98f5_10,maintenance_extractive_adaptive,False,There is no mention of Harry's fiancée.,1,,2.3,320,12,332
+novel,ca4b98f5_4,maintenance_extractive_adaptive,False,No information.,1,,2.9,184,4,188
+novel,ca4b98f5_14,maintenance_extractive_adaptive,False,Clergyman.,1,,1.9,622,6,628
+novel,ca4b98f5_13,maintenance_extractive_adaptive,False,Lady Clavering.,1,,2.4,464,6,470
+novel,ca4b98f5_12,maintenance_extractive_adaptive,False,No one.,1,,3.7,185,4,189
+novel,ca4b98f5_11,maintenance_extractive_adaptive,False,Lady Arabella March.,1,,4.4,1565,6,1571
+novel,ca4b98f5_18,maintenance_extractive_adaptive,False,Julia Brabazon.,1,,1.0,676,7,683
+novel,ca4b98f5_15,maintenance_extractive_adaptive,False,There is no information about Harry or his fiancees in the passage.,1,,2.5,190,15,205
+novel,ca4b98f5_17,maintenance_extractive_adaptive,False,Julia.,1,,2.6,439,4,443
+novel,ca4b98f5_16,maintenance_extractive_adaptive,False,His sister.,1,,3.2,681,4,685
+caselaw,3,maintenance_extractive_adaptive,True,5,1,,0.4,5124,2,5126
+caselaw,1,maintenance_extractive_adaptive,False,5,1,,0.5,5200,2,5202
+caselaw,5,maintenance_extractive_adaptive,False,5,1,,0.6,5288,2,5290
+caselaw,7,maintenance_extractive_adaptive,False,5,1,,0.5,5138,2,5140
+caselaw,13,maintenance_extractive_adaptive,False,5,1,,0.9,5205,2,5207
+caselaw,15,maintenance_extractive_adaptive,False,5,1,,24.1,5111,2,5113
+caselaw,17,maintenance_extractive_adaptive,False,4,1,,22.1,5226,2,5228
+caselaw,9,maintenance_extractive_adaptive,True,5,1,,24.4,5179,2,5181
+caselaw,11,maintenance_extractive_adaptive,True,5,1,,24.1,5170,2,5172
+caselaw,25,maintenance_extractive_adaptive,False,3,1,,3.2,5122,2,5124
+caselaw,23,maintenance_extractive_adaptive,False,2,1,,16.8,5243,2,5245
+caselaw,21,maintenance_extractive_adaptive,False,5,1,,17.5,5138,2,5140
+caselaw,27,maintenance_extractive_adaptive,True,2,1,,13.2,5156,2,5158
+caselaw,19,maintenance_extractive_adaptive,False,2,1,,18.1,5175,2,5177
+caselaw,31,maintenance_extractive_adaptive,True,5,1,,2.7,5183,2,5185
+caselaw,29,maintenance_extractive_adaptive,False,2,1,,3.7,5228,2,5230
+caselaw,33,maintenance_extractive_adaptive,False,2,1,,2.5,5173,2,5175
+caselaw,35,maintenance_extractive_adaptive,True,2,1,,2.5,5239,2,5241
+caselaw,39,maintenance_extractive_adaptive,False,5,1,,1.3,5140,2,5142
+caselaw,41,maintenance_extractive_adaptive,False,3,1,,1.2,5144,2,5146
+caselaw,37,maintenance_extractive_adaptive,True,5,1,,3.6,5137,2,5139
+caselaw,43,maintenance_extractive_adaptive,False,5,1,,3.3,5195,2,5197
+caselaw,49,maintenance_extractive_adaptive,True,5,1,,1.0,5167,2,5169
+caselaw,47,maintenance_extractive_adaptive,False,5,1,,2.8,5172,2,5174
+caselaw,51,maintenance_extractive_adaptive,True,5,1,,1.8,5163,2,5165
+caselaw,45,maintenance_extractive_adaptive,False,2,1,,4.3,5181,3,5184
+caselaw,59,maintenance_extractive_adaptive,False,4,1,,0.7,5245,2,5247
+caselaw,57,maintenance_extractive_adaptive,False,4,1,,1.8,5214,2,5216
+caselaw,55,maintenance_extractive_adaptive,False,5,1,,2.7,5233,2,5235
+caselaw,53,maintenance_extractive_adaptive,False,5,1,,2.7,5161,2,5163
+caselaw,65,maintenance_extractive_adaptive,True,5,1,,1.5,5185,2,5187
+caselaw,63,maintenance_extractive_adaptive,False,5,1,,2.6,5213,2,5215
+caselaw,61,maintenance_extractive_adaptive,False,5,1,,3.1,5126,2,5128
+caselaw,67,maintenance_extractive_adaptive,False,3,1,,1.8,5151,2,5153
+caselaw,73,maintenance_extractive_adaptive,True,2,1,,1.6,5146,2,5148
+caselaw,77,maintenance_extractive_adaptive,False,3,1,,21.8,5160,3,5163
+caselaw,71,maintenance_extractive_adaptive,False,5,1,,24.1,5187,2,5189
+caselaw,75,maintenance_extractive_adaptive,True,2,1,,24.2,5143,3,5146
+caselaw,69,maintenance_extractive_adaptive,False,2,1,,32.9,5125,2,5127
+caselaw,83,maintenance_extractive_adaptive,False,5,1,,11.7,5121,2,5123
+caselaw,79,maintenance_extractive_adaptive,False,5,1,,16.5,5208,2,5210
+caselaw,89,maintenance_extractive_adaptive,False,5,1,,0.6,5150,2,5152
+caselaw,85,maintenance_extractive_adaptive,True,2,1,,9.8,5159,2,5161
+caselaw,81,maintenance_extractive_adaptive,False,5,1,,18.0,5205,2,5207
+caselaw,87,maintenance_extractive_adaptive,False,5,1,,8.5,5172,3,5175
+caselaw,93,maintenance_extractive_adaptive,False,5,1,,2.8,5209,2,5211
+caselaw,91,maintenance_extractive_adaptive,True,2,1,,3.1,5174,2,5176
+caselaw,95,maintenance_extractive_adaptive,False,4,1,,2.5,5164,2,5166
+caselaw,101,maintenance_extractive_adaptive,False,5,1,,1.0,5141,2,5143
+caselaw,103,maintenance_extractive_adaptive,False,5,1,,1.2,5165,2,5167
+caselaw,105,maintenance_extractive_adaptive,False,4,1,,0.4,5238,3,5241
+caselaw,107,maintenance_extractive_adaptive,False,4,1,,0.6,5150,2,5152
+caselaw,111,maintenance_extractive_adaptive,False,5,1,,2.0,5180,2,5182
+caselaw,109,maintenance_extractive_adaptive,False,3,1,,2.7,5204,3,5207
+caselaw,99,maintenance_extractive_adaptive,False,4,1,,6.6,5193,2,5195
+caselaw,113,maintenance_extractive_adaptive,False,2,1,,0.9,5162,2,5164
+caselaw,117,maintenance_extractive_adaptive,False,2,1,,1.2,5285,2,5287
+caselaw,97,maintenance_extractive_adaptive,False,5,1,,9.8,5155,2,5157
+caselaw,119,maintenance_extractive_adaptive,True,3,1,,2.1,5179,2,5181
+caselaw,121,maintenance_extractive_adaptive,False,5,1,,1.3,5172,2,5174
+caselaw,127,maintenance_extractive_adaptive,False,5,1,,0.8,5148,2,5150
+caselaw,115,maintenance_extractive_adaptive,False,5,1,,5.4,5256,2,5258
+caselaw,123,maintenance_extractive_adaptive,True,5,1,,1.8,5162,2,5164
+caselaw,125,maintenance_extractive_adaptive,False,1,1,,1.4,5163,2,5165
+caselaw,135,maintenance_extractive_adaptive,False,5,1,,1.0,5466,2,5468
+caselaw,137,maintenance_extractive_adaptive,False,4,1,,22.0,5334,2,5336
+caselaw,129,maintenance_extractive_adaptive,True,2,1,,24.6,5282,3,5285
+caselaw,133,maintenance_extractive_adaptive,False,4,1,,24.2,5153,2,5155
+caselaw,131,maintenance_extractive_adaptive,False,2,1,,24.6,5186,2,5188
+caselaw,139,maintenance_extractive_adaptive,False,5,1,,4.0,5181,2,5183
+caselaw,143,maintenance_extractive_adaptive,False,3,1,,16.5,5291,2,5293
+caselaw,141,maintenance_extractive_adaptive,False,2,1,,17.2,5178,3,5181
+caselaw,147,maintenance_extractive_adaptive,False,1,1,,13.7,5263,2,5265
+caselaw,149,maintenance_extractive_adaptive,False,2,1,,1.1,5211,3,5214
+caselaw,155,maintenance_extractive_adaptive,False,5,1,,2.4,5220,2,5222
+caselaw,145,maintenance_extractive_adaptive,False,5,1,,20.8,5193,3,5196
+caselaw,151,maintenance_extractive_adaptive,True,5,1,,3.1,5165,2,5167
+caselaw,153,maintenance_extractive_adaptive,False,2,1,,3.0,5243,2,5245
+caselaw,163,maintenance_extractive_adaptive,False,3,1,,1.1,5128,3,5131
+caselaw,159,maintenance_extractive_adaptive,False,4,1,,1.9,5195,2,5197
+caselaw,161,maintenance_extractive_adaptive,False,5,1,,2.9,5196,2,5198
+caselaw,165,maintenance_extractive_adaptive,False,2,1,,0.8,5253,2,5255
+caselaw,157,maintenance_extractive_adaptive,False,5,1,,5.4,5189,2,5191
+caselaw,169,maintenance_extractive_adaptive,True,5,1,,2.4,5168,2,5170
+caselaw,171,maintenance_extractive_adaptive,True,4,1,,3.2,5195,2,5197
+caselaw,167,maintenance_extractive_adaptive,False,2,1,,4.5,5185,2,5187
+caselaw,177,maintenance_extractive_adaptive,True,1,1,,0.9,5140,2,5142
+caselaw,175,maintenance_extractive_adaptive,True,2,1,,2.5,5143,2,5145
+caselaw,173,maintenance_extractive_adaptive,False,1,1,,3.1,5204,2,5206
+caselaw,181,maintenance_extractive_adaptive,False,3,1,,0.5,5158,3,5161
+caselaw,185,maintenance_extractive_adaptive,False,5,1,,1.8,5168,2,5170
+caselaw,179,maintenance_extractive_adaptive,False,5,1,,4.9,5178,3,5181
+caselaw,187,maintenance_extractive_adaptive,False,3,1,,1.9,5161,3,5164
+caselaw,183,maintenance_extractive_adaptive,False,5,1,,3.2,5216,2,5218
+caselaw,191,maintenance_extractive_adaptive,True,3,1,,8.6,5213,3,5216
+caselaw,197,maintenance_extractive_adaptive,False,3,1,,14.4,5193,3,5196
+caselaw,193,maintenance_extractive_adaptive,False,5,1,,24.3,5256,2,5258
+caselaw,189,maintenance_extractive_adaptive,True,5,1,,25.3,5155,2,5157
+caselaw,199,maintenance_extractive_adaptive,False,4,1,,3.3,5327,2,5329
+caselaw,205,maintenance_extractive_adaptive,False,1,1,,11.7,5169,2,5171
+caselaw,207,maintenance_extractive_adaptive,True,5,1,,0.5,5159,2,5161
+caselaw,201,maintenance_extractive_adaptive,True,3,1,,17.6,5197,3,5200
+caselaw,203,maintenance_extractive_adaptive,False,4,1,,17.6,5153,2,5155
+caselaw,195,maintenance_extractive_adaptive,False,5,1,,42.8,5170,2,5172
+caselaw,215,maintenance_extractive_adaptive,False,1,1,,2.4,5222,2,5224
+caselaw,213,maintenance_extractive_adaptive,False,3,1,,2.3,5202,2,5204
+caselaw,209,maintenance_extractive_adaptive,True,5,1,,2.7,5168,2,5170
+caselaw,211,maintenance_extractive_adaptive,True,4,1,,3.0,5267,2,5269
+caselaw,223,maintenance_extractive_adaptive,True,4,1,,1.1,5220,2,5222
+caselaw,219,maintenance_extractive_adaptive,False,4,1,,1.6,5160,2,5162
+caselaw,221,maintenance_extractive_adaptive,False,5,1,,2.8,5200,2,5202
+caselaw,225,maintenance_extractive_adaptive,False,2,1,,0.9,5231,2,5233
+caselaw,227,maintenance_extractive_adaptive,True,5,1,,2.3,5240,2,5242
+caselaw,217,maintenance_extractive_adaptive,False,5,1,,5.9,5166,2,5168
+caselaw,229,maintenance_extractive_adaptive,False,5,1,,2.8,5118,2,5120
+caselaw,231,maintenance_extractive_adaptive,True,2,1,,3.0,5302,2,5304
+caselaw,235,maintenance_extractive_adaptive,False,2,1,,1.2,5208,2,5210
+caselaw,237,maintenance_extractive_adaptive,True,4,1,,1.4,5207,2,5209
+caselaw,239,maintenance_extractive_adaptive,False,5,1,,1.7,5181,2,5183
+caselaw,241,maintenance_extractive_adaptive,False,5,1,,0.6,5197,2,5199
+caselaw,243,maintenance_extractive_adaptive,False,5,1,,2.3,5186,2,5188
+caselaw,245,maintenance_extractive_adaptive,False,3,1,,1.7,5184,2,5186
+caselaw,247,maintenance_extractive_adaptive,False,4,1,,2.1,5211,2,5213
+caselaw,233,maintenance_extractive_adaptive,True,3,1,,5.8,5127,2,5129
+caselaw,255,maintenance_extractive_adaptive,True,2,1,,0.9,5179,2,5181
+caselaw,253,maintenance_extractive_adaptive,False,3,1,,24.2,5113,3,5116
+caselaw,257,maintenance_extractive_adaptive,True,3,1,,22.3,5172,3,5175
+caselaw,249,maintenance_extractive_adaptive,False,3,1,,25.1,5161,2,5163
+caselaw,251,maintenance_extractive_adaptive,False,5,1,,24.8,5108,2,5110
+caselaw,261,maintenance_extractive_adaptive,True,5,1,,3.4,5318,2,5320
+caselaw,267,maintenance_extractive_adaptive,False,4,1,,11.9,5274,2,5276
+caselaw,263,maintenance_extractive_adaptive,True,5,1,,17.2,5148,2,5150
+caselaw,259,maintenance_extractive_adaptive,True,3,1,,17.9,5217,2,5219
+caselaw,269,maintenance_extractive_adaptive,True,2,1,,0.8,5126,2,5128
+caselaw,271,maintenance_extractive_adaptive,False,2,1,,2.5,5200,3,5203
+caselaw,275,maintenance_extractive_adaptive,False,3,1,,2.3,5160,2,5162
+caselaw,265,maintenance_extractive_adaptive,False,3,1,,20.9,5184,2,5186
+caselaw,273,maintenance_extractive_adaptive,False,3,1,,2.9,5179,2,5181
+caselaw,279,maintenance_extractive_adaptive,True,4,1,,0.7,5233,3,5236
+caselaw,277,maintenance_extractive_adaptive,False,5,1,,0.9,5165,3,5168
+caselaw,285,maintenance_extractive_adaptive,False,5,1,,0.7,5177,3,5180
+caselaw,283,maintenance_extractive_adaptive,True,5,1,,2.5,5229,2,5231
+caselaw,291,maintenance_extractive_adaptive,False,5,1,,1.4,5131,2,5133
+caselaw,281,maintenance_extractive_adaptive,False,5,1,,5.2,5222,2,5224
+caselaw,287,maintenance_extractive_adaptive,True,5,1,,4.5,5187,2,5189
+caselaw,289,maintenance_extractive_adaptive,True,4,1,,3.7,5259,2,5261
+caselaw,295,maintenance_extractive_adaptive,True,3,1,,1.2,5162,2,5164
+caselaw,297,maintenance_extractive_adaptive,False,2,1,,0.9,5206,2,5208
+caselaw,301,maintenance_extractive_adaptive,True,1,1,,0.6,5215,2,5217
+caselaw,293,maintenance_extractive_adaptive,True,5,1,,3.0,5186,2,5188
+caselaw,305,maintenance_extractive_adaptive,True,4,1,,1.8,5188,2,5190
+caselaw,299,maintenance_extractive_adaptive,True,4,1,,3.7,5251,2,5253
+caselaw,307,maintenance_extractive_adaptive,False,5,1,,2.0,5224,2,5226
+caselaw,303,maintenance_extractive_adaptive,False,5,1,,2.9,5199,3,5202
+caselaw,315,maintenance_extractive_adaptive,False,4,1,,0.9,5166,2,5168
+caselaw,313,maintenance_extractive_adaptive,False,5,1,,23.7,5185,3,5188
+caselaw,311,maintenance_extractive_adaptive,False,5,1,,24.1,5152,2,5154
+caselaw,317,maintenance_extractive_adaptive,False,5,1,,22.3,5136,2,5138
+caselaw,309,maintenance_extractive_adaptive,False,3,1,,24.6,5190,2,5192
+caselaw,321,maintenance_extractive_adaptive,False,5,1,,3.4,5229,2,5231
+caselaw,327,maintenance_extractive_adaptive,False,2,1,,12.5,5129,2,5131
+caselaw,323,maintenance_extractive_adaptive,True,5,1,,17.3,5242,3,5245
+caselaw,325,maintenance_extractive_adaptive,True,5,1,,17.7,5209,2,5211
+caselaw,319,maintenance_extractive_adaptive,False,3,1,,18.1,5209,2,5211
+caselaw,331,maintenance_extractive_adaptive,False,2,1,,2.8,5198,3,5201
+caselaw,333,maintenance_extractive_adaptive,False,4,1,,3.3,5258,2,5260
+caselaw,335,maintenance_extractive_adaptive,True,4,1,,3.0,5141,2,5143
+caselaw,329,maintenance_extractive_adaptive,False,5,1,,4.0,5270,2,5272
+caselaw,343,maintenance_extractive_adaptive,True,4,1,,0.6,5144,2,5146
+caselaw,341,maintenance_extractive_adaptive,True,2,1,,0.7,5150,2,5152
+caselaw,337,maintenance_extractive_adaptive,False,5,1,,2.4,5204,2,5206
+caselaw,345,maintenance_extractive_adaptive,False,2,1,,1.1,5154,2,5156
+caselaw,351,maintenance_extractive_adaptive,False,3,1,,1.0,5157,3,5160
+caselaw,347,maintenance_extractive_adaptive,True,2,1,,3.3,5119,2,5121
+caselaw,339,maintenance_extractive_adaptive,False,2,1,,5.6,5206,2,5208
+caselaw,349,maintenance_extractive_adaptive,False,5,1,,2.9,5188,3,5191
+caselaw,359,maintenance_extractive_adaptive,False,3,1,,0.5,5101,2,5103
+caselaw,353,maintenance_extractive_adaptive,True,4,1,,2.2,5250,2,5252
+caselaw,361,maintenance_extractive_adaptive,True,5,1,,0.5,5215,2,5217
+caselaw,355,maintenance_extractive_adaptive,True,1,1,,2.5,5163,2,5165
+caselaw,365,maintenance_extractive_adaptive,True,5,1,,1.3,5149,2,5151
+caselaw,357,maintenance_extractive_adaptive,False,3,1,,4.8,5208,3,5211
+caselaw,367,maintenance_extractive_adaptive,False,3,1,,1.8,5164,2,5166
+caselaw,363,maintenance_extractive_adaptive,False,5,1,,3.0,5105,2,5107
+caselaw,371,maintenance_extractive_adaptive,False,5,1,,1.2,5218,2,5220
+caselaw,377,maintenance_extractive_adaptive,False,5,1,,21.9,5173,2,5175
+caselaw,373,maintenance_extractive_adaptive,False,3,1,,24.2,5131,2,5133
+caselaw,369,maintenance_extractive_adaptive,False,4,1,,24.9,5123,2,5125
+caselaw,379,maintenance_extractive_adaptive,True,4,1,,3.6,5352,2,5354
+caselaw,375,maintenance_extractive_adaptive,True,5,1,,40.7,5144,2,5146
+caselaw,383,maintenance_extractive_adaptive,False,5,1,,16.3,5142,2,5144
+caselaw,385,maintenance_extractive_adaptive,False,2,1,,13.4,5136,3,5139
+caselaw,389,maintenance_extractive_adaptive,False,4,1,,1.0,5130,2,5132
+caselaw,387,maintenance_extractive_adaptive,False,5,1,,1.3,5159,2,5161
+caselaw,381,maintenance_extractive_adaptive,False,5,1,,21.0,5199,2,5201
+caselaw,395,maintenance_extractive_adaptive,False,5,1,,1.5,5167,2,5169
+caselaw,393,maintenance_extractive_adaptive,False,3,1,,1.5,5188,3,5191
+caselaw,397,maintenance_extractive_adaptive,False,5,1,,1.3,5162,2,5164
+caselaw,399,maintenance_extractive_adaptive,False,5,1,,0.6,5177,3,5180
+caselaw,391,maintenance_extractive_adaptive,False,5,1,,13.2,5176,2,5178

@@ -313,17 +313,28 @@ def rehearse_maintenance(
 # material instead of the chunk actually being rehearsed.
 PASSAGE_FIELD = "current passage:"
 CONTEXT_FIELD = "related context:"
+# Elaborative-interrogation-style relational framing (Pressley et al.): makes
+# the update relation an explicit instruction instead of hoping the model
+# infers it from two juxtaposed fields. Opt-in (`update_instruction=True`) --
+# the production stage-2 checkpoint was trained without this sentence, so
+# this is an inference-time experiment, not a validated default. Placed
+# *after* the current passage (not reordering the fields) so the truncation
+# argument above still holds: context, still last, is still what overflow
+# costs.
+UPDATE_INSTRUCTION = "Update the thread by incorporating this new information. Do not simply repeat the related context verbatim."
 
 
-def format_elaborative_input(current_text: str, context_texts: list[str]) -> str:
+def format_elaborative_input(current_text: str, context_texts: list[str], update_instruction: bool = False) -> str:
     """Assembles B's model input from the current chunk plus retrieved context.
 
     Shared by stage-2 data prep and `rehearse_elaborative` so both sides use
-    one template.
+    one template. `update_instruction=True` is additive/opt-in -- see its
+    docstring above; default False reproduces the exact existing template.
     """
     if not context_texts:
         return f"{PASSAGE_FIELD} {current_text}"
-    return f"{PASSAGE_FIELD} {current_text} {CONTEXT_FIELD} " + " ".join(context_texts)
+    instruction = f" {UPDATE_INSTRUCTION}" if update_instruction else ""
+    return f"{PASSAGE_FIELD} {current_text}{instruction} {CONTEXT_FIELD} " + " ".join(context_texts)
 
 
 @dataclass
@@ -398,6 +409,14 @@ class RetrievalRecord:
     # nothing worth retrieving rather than a broken embedding endpoint.
     pool_write_failed: bool = False
     write_back_action: str = "insert"  # "insert" (topic shift) | "revise" (on-topic)
+    # Set when `collapse_fallback=True` caught this chunk reproducing its
+    # context near-verbatim (novel_ngram_ratio against context below
+    # `collapse_novel_ratio_floor`) and regenerated it with no context instead
+    # -- the validated no-context path (ANALYSIS_REPORT.md §6.7: 100%
+    # correct/distinct in a 20-chunk manual check). A bound on damage, not a
+    # fix to the mechanism; every True here is a chunk that degraded to A-like
+    # independent processing for this position.
+    collapse_fallback_triggered: bool = False
 
 
 def retrieve_aligned_context(
@@ -556,6 +575,48 @@ def _fit_context_to_budget(
     return kept
 
 
+def _generate_contrastive(model, tokenizer, full_input_ids, full_attention_mask,
+                           context_input_ids, context_attention_mask,
+                           max_new_tokens: int, alpha: float = 1.0):
+    """Greedy decode with inverted context-aware contrastive decoding (CAD --
+    Shi, Han, Lewis, Tsvetkov, Zettlemoyer, Yih, arXiv:2305.14739 -- contrast
+    direction reversed from the original). CAD amplifies what the
+    context-conditioned pass favors, to fight hallucination against
+    parametric knowledge; here we instead *penalize* what the context-ONLY
+    pass (no current chunk at all) already favors, since those are exactly
+    the tokens that would just reproduce the retrieved thread and ignore the
+    chunk being rehearsed:
+
+        adjusted_logits = (1 + alpha) * logits_full - alpha * logits_context_only
+
+    Not KV-cached -- recomputes both full and context-only encoder-decoder
+    passes at every decode step. Simple and easy to verify correct over fast;
+    fine for t5-small at max_new_tokens in the tens.
+    """
+    device = full_input_ids.device
+    decoder_start_id = model.config.decoder_start_token_id
+    decoder_input_ids = torch.full((1, 1), decoder_start_id, dtype=torch.long, device=device)
+    eos_id = tokenizer.eos_token_id
+
+    for _ in range(max_new_tokens):
+        with torch.no_grad():
+            logits_full = model(
+                input_ids=full_input_ids, attention_mask=full_attention_mask,
+                decoder_input_ids=decoder_input_ids,
+            ).logits[:, -1, :]
+            logits_ctx = model(
+                input_ids=context_input_ids, attention_mask=context_attention_mask,
+                decoder_input_ids=decoder_input_ids,
+            ).logits[:, -1, :]
+        adjusted = (1 + alpha) * logits_full - alpha * logits_ctx
+        next_token = adjusted.argmax(dim=-1, keepdim=True)
+        decoder_input_ids = torch.cat([decoder_input_ids, next_token], dim=1)
+        if eos_id is not None and next_token.item() == eos_id:
+            break
+
+    return decoder_input_ids
+
+
 def rehearse_elaborative(
     chunks: list[Chunk],
     model,
@@ -575,6 +636,11 @@ def rehearse_elaborative(
     carry_previous: bool = False,
     record_memory_state: bool = False,
     record_context_texts: bool = False,
+    use_update_instruction: bool = False,
+    collapse_fallback: bool = False,
+    collapse_novel_ratio_floor: float = 0.2,
+    contrastive_decoding: bool = False,
+    contrastive_alpha: float = 1.0,
 ) -> tuple[list[Chunk], list[RetrievalRecord]]:
     """Rewrites each Chunk conditioned on semantically aligned prior material.
 
@@ -707,7 +773,7 @@ def rehearse_elaborative(
         context_texts = _fit_context_to_budget(chunk.text, context_texts, tokenizer, max_input_length)
         if record_context_texts:
             record.retrieved_context_texts = list(context_texts)
-        model_input = format_elaborative_input(chunk.text, context_texts)
+        model_input = format_elaborative_input(chunk.text, context_texts, update_instruction=use_update_instruction)
 
         inputs = tokenizer(
             model_input,
@@ -716,14 +782,51 @@ def rehearse_elaborative(
             max_length=max_input_length,
         ).to(device)
 
-        with torch.no_grad():
-            output_ids = model.generate(**inputs, max_new_tokens=max_new_tokens)
+        if contrastive_decoding and context_texts:
+            # Inverted CAD (Shi et al. 2023, arXiv:2305.14739, contrast
+            # direction reversed): penalize continuations the retrieved
+            # context ALONE would already predict, instead of amplifying
+            # them -- those are exactly the tokens driving the copy-collapse.
+            context_only_input = f"{CONTEXT_FIELD} " + " ".join(context_texts)
+            context_inputs = tokenizer(
+                context_only_input, return_tensors="pt", truncation=True, max_length=max_input_length,
+            ).to(device)
+            output_ids = _generate_contrastive(
+                model, tokenizer,
+                inputs["input_ids"], inputs["attention_mask"],
+                context_inputs["input_ids"], context_inputs["attention_mask"],
+                max_new_tokens=max_new_tokens, alpha=contrastive_alpha,
+            )
+        else:
+            with torch.no_grad():
+                output_ids = model.generate(**inputs, max_new_tokens=max_new_tokens)
         elaborated = tokenizer.decode(output_ids[0], skip_special_tokens=True).strip()
 
         # An empty generation would poison the memory for every later chunk, so
         # keep the source text instead of writing back nothing.
         if not elaborated:
             elaborated = chunk.text
+
+        # Collapse-gated fallback: if the output mostly just reproduces the
+        # retrieved context (low novel_ngram_ratio against it -- the opposite
+        # of what A's verbatim-selection wants, but exactly what B's collapse
+        # produces), regenerate with no context at all. That no-context path
+        # is the validated fallback (ANALYSIS_REPORT.md §6.7: 100%
+        # correct/distinct output, 2.2x the collapsed baseline's accuracy at
+        # 20% fewer tokens in gist_threaded_nomerge) -- a bound on damage, not
+        # a fix to the mechanism itself.
+        if collapse_fallback and context_texts:
+            joined_context = " ".join(context_texts)
+            if novel_ngram_ratio(elaborated, joined_context) < collapse_novel_ratio_floor:
+                record.collapse_fallback_triggered = True
+                fallback_input = format_elaborative_input(chunk.text, [], update_instruction=use_update_instruction)
+                fallback_inputs = tokenizer(
+                    fallback_input, return_tensors="pt", truncation=True, max_length=max_input_length,
+                ).to(device)
+                with torch.no_grad():
+                    fallback_ids = model.generate(**fallback_inputs, max_new_tokens=max_new_tokens)
+                fallback_text = tokenizer.decode(fallback_ids[0], skip_special_tokens=True).strip()
+                elaborated = fallback_text or chunk.text
 
         result.append(replace(chunk, text=elaborated, original_text=chunk.text))
         records.append(record)
